@@ -4,3 +4,4 @@
 Home: https://maxtcc.github.io<br>
 Tutorials: https://maxtcc.github.io/tutorials/<br>
 Upload: https://maxtcc.github.io/upload/
+Daddy World: https://maxtcc.github.io/daddy-world/
