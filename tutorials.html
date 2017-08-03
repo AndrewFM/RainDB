@@ -105,58 +105,73 @@
     <!-- Portfolio -->
     <div class="portfolio-container section-container" style="margin-left: 0px; margin-top: 2px;">
         <div class="container" ,="" style="height:inherit;">
-            <div class="row">
-                <div class="col-sm-12 portfolio section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+            <div class="col-sm-12 portfolio section-description wow fadeIn animated">
+            <table style="width:100%">
+            <tr>
+            <td width="50%" valign="top" style="padding-right:75px; text-align:justify;">
+                <div class="row">
                     <h2>Installing Mods</h2>
                     <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span>
                     </div>
-                    <p>
-                    </p>
-                    <h3>Check out these fancy tutorials by Beau and Owl!</h3>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; left: 1px; top: 0px; width: 1151px;">
-                    <p style="margin-top: -59px; margin-left: -594px; width: 1553px;">
-                    </p>
-                    <h3><b>Installing .dll Mods:</b></h3> Step 1: Locate your Managed directory.
-                    <br> Your Managed directory can be located easily from your Steam install directory. From the Steam directory, go to ‘steamapps’ -&gt; ‘common’ -&gt; ‘Rain World’ -&gt; ‘RainWorld_Data’ -&gt; ‘Managed’.
+                <div class="row">
+                    <h3><b>Installing .dll Mods:</b></h3> 
+
+                    <b>Step 1:</b> Locate your Rain World folder. This can be located easily from your Steam install directory. From the Steam directory, go to "steamapps/common/Rain World".
                     <br>
-                    <br> Step 2: Copy the file ‘Assembly-CSharp.dll’ from your Managed directory to a safe location.
-                    <br> This is your original game file that you will use to restore the game to its original state if you ever need to.
+                    <br> <b>Step 2:</b> Backup your important files. Your save files are located in the UserData folder; make a copy of them somewhere. Additionally make a backup of the dll you are about to replace. It is located in the RainWorld_Data/Managed folder.
                     <br>
-                    <br> Step 3: Replace ‘Assembly-CSharp.dll’ with your modded .dll. Be sure to rename your .dll to ‘Assembly-CSharp.dll’ so that the game will recognize it.
+                    <br> <b>Step 3:</b> Replace ‘Assembly-CSharp.dll’ with your modded .dll. Be sure to rename your .dll to ‘Assembly-CSharp.dll’ so that the game will recognize it.
                     <br>
-                    <br> That’s it, the mod is now installed!
-                    <br>
-                    <br> To uninstall the mod and revert the game to its normal state, replace the modded file with your original copy.
-                    <br>
-                    <br> Note: Using .dll mods will not modify your saves unless you load them up, so creating a new save especially for a certain mod is recommended. Mod authors cannot guarantee your save’s safety if you load up any save that was created with a different .dll mod in place or the vanilla .dll.
-                    <br>
-                    <br>
-                    <h3><b>Installing Dev Tools:</b></h3> See ‘.dll Mods’ above.
-                    <br>
+                    <br> That’s it, the mod is now installed! To uninstall the mod and revert the game to its normal state, replace the modded file(s) with their original copies.
                     <br>
                     <h3><b>Region Revamp Mods:</b></h3> These mods will usually come with the dev tools dll (necessary in order to prevent the game detecting that the world files were tampered with), a save file that has the player in the pertinent region, and the folder containing the region files.
                     <br>
-                    <br> For these, just install the .dll mod as usual, backup your save (which is located in steamapps\common\Rain World\UserData), and replace it with the new save.
-                    <br>
-                    <br> Then go to \steamapps\common\Rain World\World\Regions, backup the appropriate region folder (the one with the same name as the modded one), and replace it with the modded one.
+                    <br> For these, just install the .dll mod as usual, backup your saves, and replace it with the new save. Then go to the World\Regions folder, backup the appropriate region folder (the one with the same name as the modded one), and replace it with the modded one.
                     <p></p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 portfolio section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+                <div class="row">(<i>Thanks to Beau and Owl for these intallation tutorials!</i>)</div>
+            </td>
+            <td width="50%" valign="top" style="padding-left:75px; text-align:justify;">
+                <div class="row">
                     <h2>Creating Mods</h2>
                     <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span>
                     </div>
                     <p>
                     </p>
-                    <h3>Check out this tutorial by Omega!!</h3>
+                    <h3><b>Essential Download Links:</b></h3>
                     <p></p>
+                    <ul>
+                    <li><a href="http://www.mediafire.com/file/q56q22j3bsd215q/Assembly-CSharp.dll.SinglePlayerDevModeKarmaCheat" target="_blank">Dev Tools</a></li>
+                    <li><a href="https://drive.google.com/file/d/0B8Qkg3ETtxGZckFodVdSNW00aDA/view?usp=sharing" target="_blank">Official Level Editor (Early Access)</a></li>
+                        <ul>
+                        <li><a href="https://www.adobe.com/products/director/download-trial/try.html" target="_blank">Adobe Director 12 Trial</a></li>
+                        <li><a href="http://valentin.dasdeck.com/xtras/img_xtra/win/" target="_blank">ImgXtra</a></li>
+                        </ul>
+                    <li><a href="https://github.com/0xd4d/dnSpy/releases" target="_blank">dnSpy</a></li>
+                    </ul>
+
+                    <br>
+                    <b>Dev Tools</b> are in-game debug and editing tools that can be used to make basic modifications to the pre-existing maps. They are a good starting point for new modders.
+                    <br><br>
+                    <b>The Official Level Editor</b> is used to make new maps that can be added into the game. The editor must be run through Adobe Director 12, and the ImgXtra extension for Director must be installed
+                    in order to render the maps that you create.
+                    <br><br>
+                    <b>dnSpy</b> is an assembly decompiler tool for advanced modders with programming experience who intend to make changes to the game's code.
+                    <br>
+
+                    <h3><b>Community Support:</b></h3>
+                    <ul>
+                    <li style="margin-bottom: 20px;">The <a href="http://rain-world-modding.wikia.com/wiki/" target="_blank">Rain World Modding Wiki</a> is the central location for collecting community knowledge on modding Rain World. Look here for all kinds of useful information and tutorials.</li>
+                    <li style="margin-bottom: 20px;">Visit the <b>#modding</b> channel on the <a href="https://discord.gg/mA8kTvb" target="_blank">Rain World Discord</a> to talk with fellow modders and ask questions!</li>
+                    <li style="margin-bottom: 20px;">Here is a <a href="https://www.youtube.com/watch?v=xOjaM3wjpO0" target="_blank">tutorial video</a> by Omega of making some simple sample code edits with dnSpy.</li>
+                    </ul>
                 </div>
             </div>
-            <iframe width="1151" height="630" margin-left="-594px" src="https://www.youtube.com/embed/xOjaM3wjpO0" frameborder="0" allowfullscreen="" style="margin-left: -23px; width: 1150px;"></iframe>
+            </td>
+            </tr>
+            </table>
+        </div>
         </div>
 
     </div>
