@@ -4,6 +4,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RainDB - Home</title>
 
+    <!--JS-->
+    <script>
+        function toggleVisibility() 
+        {
+            var x = document.getElementById("1.01mods");
+            var y = document.getElementById("1.5mods");
+            if (x.style.display === "none" && y.style.display === "block") 
+            {
+                x.style.display = "block";
+                y.style.display = "none";               
+            }   
+            else if (x.style.display === "block" && y.style.display === "none") 
+            {
+                x.style.display = "none";
+                y.style.display = "block";
+            }
+        }
+    </script>
+    
     <!-- CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -29,7 +48,7 @@
 </head>
 
 <body>
-
+   
     <!-- Loader -->
     <div class="loader" style="display: none;">
         <div class="loader-img" style="display: none;"></div>
@@ -142,7 +161,7 @@
 
             <div class="row">
                 <div class="col-sm-12 portfolio section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
-                    <p>All mods are for Rain World v1.01. Want your mod to be here? Check out the Submit page!</p>
+                    <a onclick="toggleVisibility()" href="#">Toggle between v1.01 and v1.5 mods.</a>
                     <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span>
                     </div>
                 </div>
@@ -150,7 +169,8 @@
 
 
 
-            <div class="row">
+            <div id="1.01mods" style="display:block;">
+                <div class="row">
               <div class="col-sm-4 portfolio-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                     <div class="portfolio-box-image">
                         <img src="https://github.com/MaxTCC/maxtcc.github.io/blob/master/previews/moreslugcats_preview.png?raw=true" alt="" data-at2x="https://github.com/MaxTCC/maxtcc.github.io/blob/master/previews/moreslugcats_preview.png?raw=true" style="width:360px;height:250px;">
@@ -401,7 +421,7 @@
                     </div>
                     <h3><a href="https://drive.google.com/uc?export=download&id=0Bx3vgXPyiJG6WGJ0bVNzYVNRR0U" style="margin-left: 0px; margin-top: -1px;">Unofficial Level Editor</a> <a href="https://drive.google.com/uc?export=download&id=0Bx3vgXPyiJG6WGJ0bVNzYVNRR0U"><i class="fa fa-angle-right"></i></a></h3>
                     <div class="portfolio-box-date">
-                        <p style="margin-left: 0px; margin-top: -10px;">By AndrewFM & Mikronaut
+                        <p style="margin-left: 0px; margin-top: -10px;">By AndrewFM &amp; Mikronaut
                             <br>Mod Type: External Application
                             </p>
                     </div>
@@ -426,8 +446,25 @@
                     <p>Cycles are now 10% as long. Godspeed you magnificent bastard.<br>Note: only works with pre-made saves.</p>
                 </div>
             </div> 
+            </div>
+            <div id="1.5mods" style="display:none;">
+                <div class="row">
+                    <div class="col-sm-4 portfolio-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="portfolio-box-image">
+                        <img src="https://github.com/MaxTCC/maxtcc.github.io/blob/master/previews/redcycle_andrew_preview.png?raw=true" alt="" data-at2x="https://github.com/MaxTCC/maxtcc.github.io/blob/master/previews/redcycle_andrew_preview.png?raw=true" style="width:360px;height:250px;">
+                    </div>
+                    <h3><a href="https://cdn.discordapp.com/attachments/305139167300550666/385643669493121024/Assembly-CSharp.dll" style="margin-left: 0px; margin-top: -1px;">Unlimited Cycles for Hunter</a> <a href="https://cdn.discordapp.com/attachments/305139167300550666/385643669493121024/Assembly-CSharp.dll"><i class="fa fa-angle-right"></i></a></h3>
+                    <div class="portfolio-box-date">
+                        <p style="margin-left: 0px; margin-top: -10px;">By AndrewFM
+                            <br>Mod Type: Assembly Mod
+                        </p>
+                    </div>
+                    <p>Removes the cycle limit when playing as the Hunter, allowing for endless exploring without the impending doom of taking too many cycles.</p>
+                </div>
+                </div>
+            </div> 
 
-            <div class="row"><br><br><i>Last updated on 09/03/2017</i></div>         
+            <div class="row"><br><br><i>Last updated on December 10, 2017.</i></div>         
         </div>
     </div>
 
