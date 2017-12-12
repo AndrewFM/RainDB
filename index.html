@@ -193,7 +193,7 @@
                     + mods_array[i]["url"] + '"><i class="fa fa-angle-right"></i></a></h3>';
                 appendStr += '<div class="portfolio-box-date">' +
                     '<p style="margin-left: 0px; margin-top: -10px;">By ' + mods_array[i]["author"] + '<br>Mod Type: ' + mods_array[i]["type"] + '</p></div><p>' + mods_array[i]["desc"] + "</p></div>";
-                if (i % 3 == 2) {
+                if (i % 3 == 2 || i == mods_array.length-1) {
                     appendStr += "</div>";
                 }
             }
@@ -206,12 +206,12 @@
         var mods = [];
 
         mods.push({
-            "name":   "Custom Colors",
-            "author": "Beau & AndrewFM",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/19WTX_jIWQE4pjlnIfICSnntOT4IHpi-y/view",
-            "thumb":  "previews/customcolors_preview.jpg",
-            "desc":   "Allows you to customize your slugcat's color! Finally you can roam the industrial wastes as a magnificent colored creature."
+            "name":   "Co-Op Mode",
+            "author": "OriginalSINe",
+            "type":   "Feature Edit",
+            "url":    "https://drive.google.com/file/d/1np6JBgMVH4UNAyZ7p2oKfu7gVTL9Hobw/view",
+            "thumb":  "previews/coop.png",
+            "desc":   "Enables a partially functional early access version of the multiplayer co-op mode that is planned to be released in a future Rain World update."
         });
 
         mods.push({
@@ -221,6 +221,15 @@
             "url":    "https://drive.google.com/file/d/1jKwDrZ_gFREC_I64_6QYFi1CGmY4Jhnh/view",
             "thumb":  "previews/redcycle_andrew_preview.png",
             "desc":   "Removes the cycle limit when playing as the Hunter, allowing for endless exploring without the impending doom of taking too many cycles."
+        });
+
+        mods.push({
+            "name":   "Custom Colors",
+            "author": "Beau & AndrewFM",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/19WTX_jIWQE4pjlnIfICSnntOT4IHpi-y/view",
+            "thumb":  "previews/customcolors_preview.jpg",
+            "desc":   "Allows you to customize your slugcat's color! Finally you can roam the industrial wastes as a magnificent colored creature."
         });
 
         mods.push({
