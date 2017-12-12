@@ -165,17 +165,17 @@
                 </div>
             </div>
 
-            <div id="1.01mods" style="display:block;">
+            <div id="1.01mods" style="display:none;">
                 <h1 style="font-size:48px;"><b>v1.01 Mods</b></h1>
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
             </div>
 
-            <div id="1.5mods" style="display:none;">
+            <div id="1.5mods" style="display:block;">
                 <h1 style="font-size:48px;"><b>v1.5 Mods</b></h1>
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
             </div> 
 
-            <div class="row"><br><br><i>Last updated on December 10, 2017.</i></div>         
+            <div class="row"><br><br><i>Last updated on December 11, 2017.</i></div>         
         </div>
     </div>
 
@@ -206,12 +206,30 @@
         var mods = [];
 
         mods.push({
+            "name":   "Custom Colors",
+            "author": "Beau and AndrewFM",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/19WTX_jIWQE4pjlnIfICSnntOT4IHpi-y/view",
+            "thumb":  "previews/customcolors_preview.jpg",
+            "desc":   "Allows you to customize your slugcat's color! Finally you can roam the industrial wastes as a magnificent colored creature."
+        });
+
+        mods.push({
             "name":   "Unlimited Cycles for Hunter",
             "author": "AndrewFM",
             "type":   "Difficulty Tweak",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/385643669493121024/Assembly-CSharp.dll",
+            "url":    "https://drive.google.com/file/d/1jKwDrZ_gFREC_I64_6QYFi1CGmY4Jhnh/view",
             "thumb":  "previews/redcycle_andrew_preview.png",
             "desc":   "Removes the cycle limit when playing as the Hunter, allowing for endless exploring without the impending doom of taking too many cycles."
+        });
+
+        mods.push({
+            "name":   "Dev Tools",
+            "author": "AndrewFM",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1MNjArklnveXv5HWrpUr7lMMX5gvJeh_5/view",
+            "thumb":  "previews/devtools.png",
+            "desc":   "Enables the built-in dev tools to help with modding the game. Also adds a console log and exception handler to help debug your mods."
         });
 
         generateHTML("1.5mods", mods);
