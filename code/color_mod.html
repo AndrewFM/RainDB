@@ -1,0 +1,182 @@
+<pre style="font-family:Consolas;font-size:13;color:black;background:white;"><span style="color:green;">//&nbsp;In&nbsp;PlayerGraphics</span>
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;Color&nbsp;SlugcatColor(<span style="color:blue;">int</span>&nbsp;i)&nbsp;{
+		<span style="color:blue;">string</span>&nbsp;path&nbsp;=&nbsp;<span style="color:#a31515;">&quot;&quot;</span>;
+		<span style="color:blue;">string</span>[]&nbsp;fileLines;
+		<span style="color:blue;">string</span>[]&nbsp;colorParse;
+		<span style="color:blue;">switch</span>&nbsp;(i)&nbsp;{
+			<span style="color:blue;">case</span>&nbsp;0:
+				path&nbsp;=&nbsp;<span style="color:blue;">string</span>.Concat(<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">object</span>[]
+				{
+				Custom.RootFolderDirectory(),
+				<span style="color:#a31515;">&quot;survivorColors.txt&quot;</span>
+				});
+				<span style="color:blue;">if</span>&nbsp;(File.Exists(path))&nbsp;{
+					fileLines&nbsp;=&nbsp;System.IO.<span style="color:#2b91af;">File</span>.ReadAllLines(path);
+					colorParse&nbsp;=&nbsp;System.Text.RegularExpressions.<span style="color:#2b91af;">Regex</span>.Split(fileLines[0],&nbsp;<span style="color:#a31515;">&quot;,&quot;</span>);
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[0]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[1]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[2]));
+				}&nbsp;<span style="color:blue;">else</span>
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(1f,&nbsp;1f,&nbsp;1f);
+			<span style="color:blue;">case</span>&nbsp;1:
+				path&nbsp;=&nbsp;<span style="color:blue;">string</span>.Concat(<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">object</span>[]
+				{
+				Custom.RootFolderDirectory(),
+				<span style="color:#a31515;">&quot;monkColors.txt&quot;</span>
+				});
+				<span style="color:blue;">if</span>&nbsp;(File.Exists(path))&nbsp;{
+					fileLines&nbsp;=&nbsp;System.IO.<span style="color:#2b91af;">File</span>.ReadAllLines(path);
+					colorParse&nbsp;=&nbsp;System.Text.RegularExpressions.<span style="color:#2b91af;">Regex</span>.Split(fileLines[0],&nbsp;<span style="color:#a31515;">&quot;,&quot;</span>);
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[0]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[1]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[2]));
+				}&nbsp;<span style="color:blue;">else</span>
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(1f,&nbsp;1f,&nbsp;0.4509804f);
+			<span style="color:blue;">case</span>&nbsp;2:
+				path&nbsp;=&nbsp;<span style="color:blue;">string</span>.Concat(<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">object</span>[]
+				{
+				Custom.RootFolderDirectory(),
+				<span style="color:#a31515;">&quot;hunterColors.txt&quot;</span>
+				});
+				<span style="color:blue;">if</span>&nbsp;(File.Exists(path))&nbsp;{
+					fileLines&nbsp;=&nbsp;System.IO.<span style="color:#2b91af;">File</span>.ReadAllLines(path);
+					colorParse&nbsp;=&nbsp;System.Text.RegularExpressions.<span style="color:#2b91af;">Regex</span>.Split(fileLines[0],&nbsp;<span style="color:#a31515;">&quot;,&quot;</span>);
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[0]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[1]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[2]));
+				}&nbsp;<span style="color:blue;">else</span>
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(1f,&nbsp;0.4509804f,&nbsp;0.4509804f);
+			<span style="color:blue;">case</span>&nbsp;3:
+				path&nbsp;=&nbsp;<span style="color:blue;">string</span>.Concat(<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">object</span>[]
+				{
+				Custom.RootFolderDirectory(),
+				<span style="color:#a31515;">&quot;nightColors.txt&quot;</span>
+				});
+				<span style="color:blue;">if</span>&nbsp;(File.Exists(path))&nbsp;{
+					fileLines&nbsp;=&nbsp;System.IO.<span style="color:#2b91af;">File</span>.ReadAllLines(path);
+					colorParse&nbsp;=&nbsp;System.Text.RegularExpressions.<span style="color:#2b91af;">Regex</span>.Split(fileLines[0],&nbsp;<span style="color:#a31515;">&quot;,&quot;</span>);
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[0]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[1]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[2]));
+				}&nbsp;<span style="color:blue;">else</span>
+					<span style="color:blue;">return</span>&nbsp;Custom.HSL2RGB(0.63055557f,&nbsp;0.54f,&nbsp;0.2f);
+			<span style="color:blue;">default</span>:
+				<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(1f,&nbsp;1f,&nbsp;1f);
+		}
+	}
+ 
+<span style="color:green;">//&nbsp;In&nbsp;PlayerGraphics</span>
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;Color&nbsp;SlugcatColor2(<span style="color:blue;">int</span>&nbsp;i)&nbsp;{
+		<span style="color:blue;">string</span>&nbsp;path&nbsp;=&nbsp;<span style="color:#a31515;">&quot;&quot;</span>;
+		<span style="color:blue;">string</span>[]&nbsp;fileLines;
+		<span style="color:blue;">string</span>[]&nbsp;colorParse;
+		<span style="color:blue;">switch</span>&nbsp;(i)&nbsp;{
+			<span style="color:blue;">case</span>&nbsp;0:
+				path&nbsp;=&nbsp;<span style="color:blue;">string</span>.Concat(<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">object</span>[]
+				{
+				Custom.RootFolderDirectory(),
+				<span style="color:#a31515;">&quot;survivorColors.txt&quot;</span>
+				});
+				<span style="color:blue;">if</span>&nbsp;(File.Exists(path))&nbsp;{
+					fileLines&nbsp;=&nbsp;System.IO.<span style="color:#2b91af;">File</span>.ReadAllLines(path);
+					colorParse&nbsp;=&nbsp;System.Text.RegularExpressions.<span style="color:#2b91af;">Regex</span>.Split(fileLines[1],&nbsp;<span style="color:#a31515;">&quot;,&quot;</span>);
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[0]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[1]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[2]));
+				}&nbsp;<span style="color:blue;">else</span>
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0.01f,&nbsp;0f,&nbsp;0f);
+			<span style="color:blue;">case</span>&nbsp;1:
+				path&nbsp;=&nbsp;<span style="color:blue;">string</span>.Concat(<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">object</span>[]
+				{
+				Custom.RootFolderDirectory(),
+				<span style="color:#a31515;">&quot;monkColors.txt&quot;</span>
+				});
+				<span style="color:blue;">if</span>&nbsp;(File.Exists(path))&nbsp;{
+					fileLines&nbsp;=&nbsp;System.IO.<span style="color:#2b91af;">File</span>.ReadAllLines(path);
+					colorParse&nbsp;=&nbsp;System.Text.RegularExpressions.<span style="color:#2b91af;">Regex</span>.Split(fileLines[1],&nbsp;<span style="color:#a31515;">&quot;,&quot;</span>);
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[0]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[1]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[2]));
+				}&nbsp;<span style="color:blue;">else</span>
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0.01f,&nbsp;0f,&nbsp;0f);
+			<span style="color:blue;">case</span>&nbsp;2:
+				path&nbsp;=&nbsp;<span style="color:blue;">string</span>.Concat(<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">object</span>[]
+				{
+				Custom.RootFolderDirectory(),
+				<span style="color:#a31515;">&quot;hunterColors.txt&quot;</span>
+				});
+				<span style="color:blue;">if</span>&nbsp;(File.Exists(path))&nbsp;{
+					fileLines&nbsp;=&nbsp;System.IO.<span style="color:#2b91af;">File</span>.ReadAllLines(path);
+					colorParse&nbsp;=&nbsp;System.Text.RegularExpressions.<span style="color:#2b91af;">Regex</span>.Split(fileLines[1],&nbsp;<span style="color:#a31515;">&quot;,&quot;</span>);
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[0]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[1]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[2]));
+				}&nbsp;<span style="color:blue;">else</span>
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0.01f,&nbsp;0f,&nbsp;0f);
+			<span style="color:blue;">case</span>&nbsp;3:
+				path&nbsp;=&nbsp;<span style="color:blue;">string</span>.Concat(<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">object</span>[]
+				{
+				Custom.RootFolderDirectory(),
+				<span style="color:#a31515;">&quot;nightColors.txt&quot;</span>
+				});
+				<span style="color:blue;">if</span>&nbsp;(File.Exists(path))&nbsp;{
+					fileLines&nbsp;=&nbsp;System.IO.<span style="color:#2b91af;">File</span>.ReadAllLines(path);
+					colorParse&nbsp;=&nbsp;System.Text.RegularExpressions.<span style="color:#2b91af;">Regex</span>.Split(fileLines[1],&nbsp;<span style="color:#a31515;">&quot;,&quot;</span>);
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[0]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[1]),&nbsp;System.<span style="color:#2b91af;">Convert</span>.ToSingle(colorParse[2]));
+				}&nbsp;<span style="color:blue;">else</span>
+					<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(1f,&nbsp;1f,&nbsp;1f);
+			<span style="color:blue;">default</span>:
+				<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0.01f,&nbsp;0f,&nbsp;0f);
+		}
+	}
+ 
+<span style="color:green;">//&nbsp;In&nbsp;PlayerGraphics</span>
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">void</span>&nbsp;ApplyPalette(RoomCamera.SpriteLeaser&nbsp;sLeaser,&nbsp;RoomCamera&nbsp;rCam,&nbsp;RoomPalette&nbsp;palette)&nbsp;{
+		Color&nbsp;color&nbsp;=&nbsp;PlayerGraphics.SlugcatColor(<span style="color:blue;">this</span>.player.playerState.slugcatCharacter);
+		Color&nbsp;color2&nbsp;=&nbsp;PlayerGraphics.SlugcatColor2(<span style="color:blue;">this</span>.player.playerState.slugcatCharacter);
+		<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.malnourished&nbsp;&gt;&nbsp;0f)&nbsp;{
+			<span style="color:blue;">float</span>&nbsp;num&nbsp;=&nbsp;(!<span style="color:blue;">this</span>.player.Malnourished)&nbsp;?&nbsp;Mathf.Max(0f,&nbsp;<span style="color:blue;">this</span>.malnourished&nbsp;-&nbsp;0.005f)&nbsp;:&nbsp;<span style="color:blue;">this</span>.malnourished;
+			color&nbsp;=&nbsp;Color.Lerp(color,&nbsp;Color.gray,&nbsp;0.4f&nbsp;*&nbsp;num);
+			color2&nbsp;=&nbsp;Color.Lerp(color2,&nbsp;Color.Lerp(Color.white,&nbsp;palette.fogColor,&nbsp;0.5f),&nbsp;0.2f&nbsp;*&nbsp;num&nbsp;*&nbsp;num);
+		}
+		<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;sLeaser.sprites.Length;&nbsp;i++)&nbsp;{
+			sLeaser.sprites[i].color&nbsp;=&nbsp;color;
+		}
+		sLeaser.sprites[11].color&nbsp;=&nbsp;Color.Lerp(PlayerGraphics.SlugcatColor(<span style="color:blue;">this</span>.player.playerState.slugcatCharacter),&nbsp;Color.white,&nbsp;0.3f);
+		sLeaser.sprites[10].color&nbsp;=&nbsp;PlayerGraphics.SlugcatColor(<span style="color:blue;">this</span>.player.playerState.slugcatCharacter);
+		sLeaser.sprites[9].color&nbsp;=&nbsp;color2;
+	}
+ 
+<span style="color:green;">//&nbsp;In&nbsp;PlayerGraphics.Update()</span>
+	<span style="color:green;">//&nbsp;replace:</span>
+		<span style="color:blue;">this</span>.lightSource&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;LightSource(<span style="color:blue;">this</span>.player.mainBodyChunk.pos,&nbsp;<span style="color:blue;">false</span>,&nbsp;Color.Lerp(<span style="color:blue;">new</span>&nbsp;Color(1f,&nbsp;1f,&nbsp;1f),&nbsp;PlayerGraphics.SlugcatColor(<span style="color:blue;">this</span>.player.playerState.slugcatCharacter),&nbsp;0.5f),&nbsp;<span style="color:blue;">this</span>.player);
+	<span style="color:green;">//&nbsp;with:</span>
+		<span style="color:green;">/*
+		185	029F	ldarg.0
+		186	02A0	ldarg.0
+		187	02A1	ldfld	class&nbsp;Player&nbsp;PlayerGraphics::player
+		188	02A6	callvirt	instance&nbsp;class&nbsp;BodyChunk&nbsp;Creature::get_mainBodyChunk()
+		189	02AB	ldfld	valuetype&nbsp;[UnityEngine]UnityEngine.Vector2&nbsp;BodyChunk::pos
+		190	02B0	ldc.i4.0
+		191	02B1	ldc.r4	1
+		192	02B6	ldc.r4	1
+		193	02BB	ldc.r4	1
+		194	02C0	newobj	instance&nbsp;void&nbsp;[UnityEngine]UnityEngine.Color::.ctor(float32,&nbsp;float32,&nbsp;float32)
+		195	02C5	ldarg.0
+		196	02C6	ldfld	class&nbsp;Player&nbsp;PlayerGraphics::player
+		197	02CB	newobj	instance&nbsp;void&nbsp;LightSource::.ctor(valuetype&nbsp;[UnityEngine]UnityEngine.Vector2,&nbsp;bool,&nbsp;valuetype&nbsp;[UnityEngine]UnityEngine.Color,&nbsp;class&nbsp;UpdatableAndDeletable)
+		198	02D0	stfld	class&nbsp;LightSource&nbsp;PlayerGraphics::lightSource
+		*/</span>
+ 
+<span style="color:green;">//=======================================================================================================================================================================================</span>
+<span style="color:green;">//&nbsp;In&nbsp;SandboxEditor.EditCursor</span>
+	<span style="color:blue;">public</span>&nbsp;Color&nbsp;playerColor;&nbsp;<span style="color:green;">//&nbsp;new&nbsp;field</span>
+ 
+<span style="color:green;">//&nbsp;In&nbsp;SandboxEditor.EditCursor.DrawSprites():</span>
+	Color&nbsp;color&nbsp;=&nbsp;PlayerGraphics.SlugcatColor(<span style="color:blue;">this</span>.playerNumber);
+	<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.playerNumber&nbsp;==&nbsp;3)
+		color&nbsp;=&nbsp;Color.Lerp(Custom.Saturate(PlayerGraphics.SlugcatColor(<span style="color:blue;">this</span>.playerNumber),&nbsp;0.5f),&nbsp;Color.white,&nbsp;0.2f);
+ 
+<span style="color:green;">//&nbsp;In&nbsp;SandboxEditor.EditCursor,&nbsp;Constructor</span>
+	<span style="color:blue;">this</span>.playerColor&nbsp;=&nbsp;PlayerGraphics.SlugcatColor(<span style="color:blue;">this</span>.playerNumber);
+ 
+<span style="color:green;">//=======================================================================================================================================================================================</span>
+<span style="color:green;">//&nbsp;In&nbsp;OverseerGraphics</span>
+	<span style="color:blue;">public</span>&nbsp;Color&nbsp;playerColor;&nbsp;<span style="color:green;">//new&nbsp;field</span>
+ 
+<span style="color:green;">//&nbsp;in&nbsp;OverseerGraphics.MainColor:</span>
+	<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.overseer.SandboxOverseer)
+		<span style="color:blue;">return</span>&nbsp;PlayerGraphics.SlugcatColor(<span style="color:blue;">this</span>.overseer.editCursor.playerNumber);
+ 
+<span style="color:green;">//=======================================================================================================================================================================================</span>
+<span style="color:green;">//&nbsp;In&nbsp;Overseer.InitiateGraphicsModule()</span>
+	<span style="color:blue;">base</span>.graphicsModule&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;OverseerGraphics(<span style="color:blue;">this</span>);
+	<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.editCursor&nbsp;!=&nbsp;<span style="color:blue;">null</span>)
+		(<span style="color:blue;">base</span>.graphicsModule&nbsp;<span style="color:blue;">as</span>&nbsp;OverseerGraphics).playerColor&nbsp;=&nbsp;PlayerGraphics.SlugcatColor(<span style="color:blue;">this</span>.editCursor.playerNumber);
+</pre>

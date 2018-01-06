@@ -1,0 +1,28 @@
+<pre style="font-family:Consolas;font-size:13;color:black;background:white;"><span style="color:green;">//&nbsp;In&nbsp;RainWorldGame.SetupValues&nbsp;Constructor:</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">this</span>.devToolsActive&nbsp;=&nbsp;<span style="color:blue;">true</span>;
+ 
+<span style="color:green;">//&nbsp;In&nbsp;RainWorld.Start()</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:green;">//&nbsp;IL&nbsp;Edit:</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">this</span>.buildType&nbsp;=&nbsp;RainWorld.BuildType.Distribution;
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:green;">//&nbsp;change&nbsp;ldc.i4.0&nbsp;to&nbsp;ldc.i4.2</span>
+ 
+<span style="color:green;">//&nbsp;In&nbsp;RainWorld,&nbsp;add&nbsp;new&nbsp;functions:</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">void</span>&nbsp;Awake()&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">if</span>&nbsp;(File.Exists(<span style="color:#a31515;">&quot;exceptionLog.txt&quot;</span>))&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File.Delete(<span style="color:#a31515;">&quot;exceptionLog.txt&quot;</span>);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">if</span>&nbsp;(File.Exists(<span style="color:#a31515;">&quot;consoleLog.txt&quot;</span>))&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File.Delete(<span style="color:#a31515;">&quot;consoleLog.txt&quot;</span>);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Application.RegisterLogCallback(<span style="color:blue;">new</span>&nbsp;Application.LogCallback(<span style="color:blue;">this</span>.HandleLog));
+&nbsp;&nbsp;&nbsp;&nbsp;}
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">void</span>&nbsp;HandleLog(<span style="color:blue;">string</span>&nbsp;logString,&nbsp;<span style="color:blue;">string</span>&nbsp;stackTrace,&nbsp;LogType&nbsp;type)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">if</span>&nbsp;(type&nbsp;==&nbsp;LogType.Error&nbsp;||&nbsp;type&nbsp;==&nbsp;LogType.Exception)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File.AppendAllText(<span style="color:#a31515;">&quot;exceptionLog.txt&quot;</span>,&nbsp;logString&nbsp;+&nbsp;Environment.NewLine);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File.AppendAllText(<span style="color:#a31515;">&quot;exceptionLog.txt&quot;</span>,&nbsp;stackTrace&nbsp;+&nbsp;Environment.NewLine);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">return</span>;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File.AppendAllText(<span style="color:#a31515;">&quot;consoleLog.txt&quot;</span>,&nbsp;logString&nbsp;+&nbsp;Environment.NewLine);
+&nbsp;&nbsp;&nbsp;&nbsp;}
+</pre>

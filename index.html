@@ -175,7 +175,7 @@
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
             </div> 
 
-            <div class="row"><br><br><i>Last updated on December 28, 2017.</i></div>         
+            <div class="row"><br><br><i>Last updated on January 5, 2018.</i></div>         
         </div>
     </div>
 
@@ -191,8 +191,16 @@
                 appendStr += '<img src="' + mods_array[i]["thumb"] + '?raw=true" alt="" data-ax2x="' + mods_array[i]["thumb"] + '?raw=true" style="width:360px;height:250px;"></div>';
                 appendStr += '<h3><a href="' + mods_array[i]["url"] + '" style="margin-left: 0px; margin-top: -1px;">' + mods_array[i]["name"] + '</a> <a href="'
                     + mods_array[i]["url"] + '"><i class="fa fa-angle-right"></i></a></h3>';
-                appendStr += '<div class="portfolio-box-date">' +
-                    '<p style="margin-left: 0px; margin-top: -10px;">By ' + mods_array[i]["author"] + '<br>Mod Type: ' + mods_array[i]["type"] + '</p></div><p>' + mods_array[i]["desc"] + "</p></div>";
+                appendStr += '<div class="portfolio-box-date"><p style="margin-left: 0px; margin-top: -10px;">';
+                if ("code" in mods_array[i]) {
+                    appendStr += '<div style="display:inline-block">By ' + mods_array[i]["author"] + '</div>';
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><a href="' + mods_array[i]["code"] + '" target="_blank">[Code Changes]</a></div>';
+                }
+                else {
+                    appendStr += 'By ' + mods_array[i]["author"];
+                }
+                appendStr += '<br>Mod Type: ' + mods_array[i]["type"]
+                appendStr += '</p></div><p>' + mods_array[i]["desc"] + "</p></div>";
                 if (i % 3 == 2 || i == mods_array.length-1) {
                     appendStr += "</div>";
                 }
@@ -228,6 +236,7 @@
             "author": "AndrewFM",
             "type":   "Difficulty Tweak",
             "url":    "https://drive.google.com/file/d/1jKwDrZ_gFREC_I64_6QYFi1CGmY4Jhnh/view",
+            "code":   "code/red_cycles.html",
             "thumb":  "previews/redcycle_andrew_preview.png",
             "desc":   "Removes the cycle limit when playing as the Hunter, allowing for endless exploring without the impending doom of taking too many cycles."
         });
@@ -237,6 +246,7 @@
             "author": "Beau & AndrewFM",
             "type":   "Utility",
             "url":    "https://drive.google.com/file/d/19WTX_jIWQE4pjlnIfICSnntOT4IHpi-y/view",
+            "code":   "code/color_mod.html",
             "thumb":  "previews/customcolors_preview.jpg",
             "desc":   "Allows you to customize your slugcat's color! Finally you can roam the industrial wastes as a magnificent colored creature."
         });
@@ -246,6 +256,7 @@
             "author": "AndrewFM",
             "type":   "Utility",
             "url":    "https://drive.google.com/file/d/1MNjArklnveXv5HWrpUr7lMMX5gvJeh_5/view",
+            "code":   "code/dev_tools.html",
             "thumb":  "previews/devtools.png",
             "desc":   "Enables the built-in dev tools to help with modding the game. Also adds a console log and exception handler to help debug your mods."
         });
