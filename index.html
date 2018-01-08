@@ -175,7 +175,7 @@
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
             </div> 
 
-            <div class="row"><br><br><i>Last updated on January 5, 2018.</i></div>         
+            <div class="row"><br><br><i>Last updated on January 8, 2018.</i></div>         
         </div>
     </div>
 
@@ -200,7 +200,7 @@
                     appendStr += 'By ' + mods_array[i]["author"];
                 }
                 appendStr += '<br>Mod Type: ' + mods_array[i]["type"]
-                appendStr += '</p></div><p>' + mods_array[i]["desc"] + "</p></div>";
+                appendStr += '</p></div><p style="text-align:justify">' + mods_array[i]["desc"] + "</p></div>";
                 if (i % 3 == 2 || i == mods_array.length-1) {
                     appendStr += "</div>";
                 }
@@ -214,6 +214,25 @@
         var mods = [];
 
         mods.push({
+            "name":   "Side House",
+            "author": "AndrewFM",
+            "type":   "New Region",
+            "url":    "https://drive.google.com/file/d/1hArRoxL9Ox4qULMVWHNZ8WchagXk-Dwg/view",
+            "code":   "code/side_house.html",
+            "thumb":  "previews/sidehouse_preview.png",
+            "desc":   "Adds a brand new region connecting Shoreline, 5P, and Depths. An amalgamation of many of the game's unused rooms. Also includes a couple custom unlockable maps for arena mode."
+        });
+
+        mods.push({
+            "name":   "Buffed Creatures",
+            "author": "ComboPyro",
+            "type":   "Creature Edits",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/395749007584133120/Assembly-CSharp.dll",
+            "thumb":  "previews/buffed_lizards.png",
+            "desc":   "Changes the attributes of many creatures in the game, generally making them tougher and more intimidating."
+        });
+
+        mods.push({
             "name":   "Co-Op Mode",
             "author": "OriginalSINe",
             "type":   "Feature Edit",
@@ -223,13 +242,14 @@
         });
 
         mods.push({
-            "name":   "Buffed Creatures",
-            "author": "ComboPyro",
-            "type":   "Creature Edits",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/395749007584133120/Assembly-CSharp.dll",
-            "thumb":  "previews/buffed_lizards.png",
-            "desc":   "Changes the attributes and abilities of many creatures in the game, generally making them tougher and more intimidating."
-        })
+            "name":   "Custom Colors",
+            "author": "Beau & AndrewFM",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/19WTX_jIWQE4pjlnIfICSnntOT4IHpi-y/view",
+            "code":   "code/color_mod.html",
+            "thumb":  "previews/customcolors_preview.jpg",
+            "desc":   "Allows you to customize your slugcat's body and eye colors! Finally you can roam the industrial wastes as a magnificent colored creature."
+        });
 
         mods.push({
             "name":   "Unlimited Cycles for Hunter",
@@ -242,13 +262,12 @@
         });
 
         mods.push({
-            "name":   "Custom Colors",
-            "author": "Beau & AndrewFM",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/19WTX_jIWQE4pjlnIfICSnntOT4IHpi-y/view",
-            "code":   "code/color_mod.html",
-            "thumb":  "previews/customcolors_preview.jpg",
-            "desc":   "Allows you to customize your slugcat's color! Finally you can roam the industrial wastes as a magnificent colored creature."
+            "name":   "Max Rain Timer",
+            "author": "Sycamorph",
+            "type":   "Game Tweak",
+            "url":    "https://drive.google.com/file/d/1Q2xVAcfSjO4o7xARfwa0oN5J8If-0Coz/view",
+            "thumb":  "previews/literallyunplayable_preview.jpg",
+            "desc":   "Removes RNG from the Rain Timer so that all cycles are the maximum duration."
         });
 
         mods.push({
@@ -259,15 +278,6 @@
             "code":   "code/dev_tools.html",
             "thumb":  "previews/devtools.png",
             "desc":   "Enables the built-in dev tools to help with modding the game. Also adds a console log and exception handler to help debug your mods."
-        });
-
-        mods.push({
-            "name":   "Max Rain Timer",
-            "author": "Sycamorph",
-            "type":   "Game Tweak",
-            "url":    "https://drive.google.com/file/d/1Q2xVAcfSjO4o7xARfwa0oN5J8If-0Coz/view",
-            "thumb":  "previews/literallyunplayable_preview.jpg",
-            "desc":   "Removes RNG from the Rain Timer so that all cycles are the maximum duration."
         });
 
         generateHTML("1.5mods", mods);

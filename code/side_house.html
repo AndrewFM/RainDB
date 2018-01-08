@@ -1,0 +1,399 @@
+<pre style="font-family:Consolas;font-size:13;color:black;background:white;">======================
+PlacedObject
+======================
+ 
+<span style="color:green;">//&nbsp;(Add&nbsp;VultureMaskSpawn&nbsp;to&nbsp;Type&nbsp;enum)</span>
+ 
+======================
+AbstractRoom
+======================
+ 
+<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">bool</span>&nbsp;firstTimeRealizedCustom;&nbsp;<span style="color:green;">//&nbsp;new&nbsp;field</span>
+ 
+<span style="color:green;">//&nbsp;In&nbsp;Constructor:</span>
+	<span style="color:blue;">this</span>.firstTimeRealizedCustom&nbsp;=&nbsp;<span style="color:blue;">true</span>;
+ 
+=======================
+RoomPreparer
+=======================
+ 
+<span style="color:green;">//&nbsp;In&nbsp;Constructor,&nbsp;after&nbsp;the&nbsp;line&nbsp;&quot;room.LoadFromDataString(array)&quot;</span>
+	<span style="color:blue;">if</span>&nbsp;(room.game&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;room.world&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;room.abstractRoom&nbsp;!=&nbsp;<span style="color:blue;">null</span>)
+	{
+		<span style="color:blue;">if</span>&nbsp;(room.abstractRoom.firstTimeRealizedCustom)&nbsp;{
+			<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;room.roomSettings.placedObjects.Count;&nbsp;i++)&nbsp;{
+				<span style="color:blue;">if</span>&nbsp;(room.roomSettings.placedObjects[i].type&nbsp;==&nbsp;PlacedObject.Type.VultureMaskSpawn)&nbsp;{
+					<span style="color:blue;">double</span>&nbsp;kingVultChance&nbsp;=&nbsp;0.01f;
+					<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.room.game.session&nbsp;<span style="color:blue;">is</span>&nbsp;StoryGameSession&nbsp;&amp;&amp;&nbsp;(<span style="color:blue;">this</span>.room.game.session&nbsp;<span style="color:blue;">as</span>&nbsp;StoryGameSession).saveState.saveStateNumber&nbsp;==&nbsp;2)
+						kingVultChance&nbsp;=&nbsp;0.1f;
+					EntityID&nbsp;newID&nbsp;=&nbsp;room.game.GetNewID();
+					AbstractPhysicalObject&nbsp;item&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;VultureMask.AbstractVultureMask(room.world,&nbsp;<span style="color:blue;">null</span>,&nbsp;room.GetWorldCoordinate(room.roomSettings.placedObjects[i].pos),&nbsp;newID,&nbsp;newID.RandomSeed,&nbsp;UnityEngine.Random.value&nbsp;&lt;=&nbsp;kingVultChance&nbsp;?&nbsp;<span style="color:blue;">true</span>&nbsp;:&nbsp;<span style="color:blue;">false</span>);
+					room.abstractRoom.entities.Add(item);
+				}
+			}
+		}
+		room.abstractRoom.firstTimeRealizedCustom&nbsp;=&nbsp;<span style="color:blue;">false</span>;
+	}
+ 
+======================
+{Music}&nbsp;MusicPiece.SubTrack
+======================
+ 
+<span style="color:green;">//&nbsp;In&nbsp;Update()</span>
+	<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.trackName.StartsWith(<span style="color:#a31515;">&quot;TH_RW&quot;</span>))
+	{
+		<span style="color:blue;">string</span>&nbsp;rootpath&nbsp;=&nbsp;Application.dataPath;
+		<span style="color:blue;">string</span>&nbsp;filepath&nbsp;=&nbsp;rootpath.Substring(0,&nbsp;rootpath.LastIndexOf(<span style="color:#a31515;">&quot;/&quot;</span>))&nbsp;+&nbsp;<span style="color:#a31515;">&quot;/Assets/Futile/Resources/Music/Procedural/&quot;</span>&nbsp;+&nbsp;<span style="color:blue;">this</span>.trackName&nbsp;+&nbsp;<span style="color:#a31515;">&quot;.ogg&quot;</span>;
+		WWW&nbsp;www&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;WWW(<span style="color:#a31515;">&quot;file://&quot;</span>&nbsp;+&nbsp;filepath);
+		<span style="color:blue;">this</span>.source.clip&nbsp;=&nbsp;www.GetAudioClip(<span style="color:blue;">false</span>,&nbsp;<span style="color:blue;">true</span>,&nbsp;AudioType.OGGVORBIS);
+	}
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.piece.IsProcedural)
+ 
+======================
+DataPearl
+======================
+ 
+<span style="color:green;">//&nbsp;(Add&nbsp;Cust1-Cust10&nbsp;to&nbsp;DataPearlType&nbsp;enum)</span>
+ 
+<span style="color:green;">//&nbsp;In&nbsp;ApplyPalette()</span>
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust1:
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust2:
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust3:
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust4:
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust5:
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust6:
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust7:
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust8:
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust9:
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust10:	
+ 
+<span style="color:green;">//&nbsp;In&nbsp;UniquePearlMainColor()</span>
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust1:
+		<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(1f,&nbsp;1f,&nbsp;0f);
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust2:
+		<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(1f,&nbsp;0.5f,&nbsp;1f);
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust3:
+		<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0f,&nbsp;1f,&nbsp;1f);
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust4:
+		<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(1f,&nbsp;0.5f,&nbsp;0f);
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust5:
+		<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0.6f,&nbsp;0.05f,&nbsp;0.85f);
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust6:
+		<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0.65f,&nbsp;0.8f,&nbsp;0.15f);
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust7:
+		<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0.25f,&nbsp;0.55f,&nbsp;0.65f);
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust8:
+		<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0.95f,&nbsp;0.65f,&nbsp;0.05f);
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust9:
+		<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0.65f,&nbsp;0.35f,&nbsp;0.5f);
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust10:
+		<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0.35f,&nbsp;0.35f,&nbsp;0.7f);	
+ 
+======================
+Conversation
+======================
+ 
+<span style="color:green;">//&nbsp;(Add&nbsp;Moon_Pearl_Cust1&nbsp;-&nbsp;Moon_Pearl_Cust10&nbsp;to&nbsp;ID&nbsp;enum)</span>
+ 
+======================
+SLOracleBehaviorHasMark
+======================
+ 
+<span style="color:green;">//&nbsp;In&nbsp;GrabObject()</span>
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust1:
+		id&nbsp;=&nbsp;Conversation.ID.Moon_Pearl_Cust1;
+		<span style="color:blue;">break</span>;
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust2:
+		id&nbsp;=&nbsp;Conversation.ID.Moon_Pearl_Cust2;
+		<span style="color:blue;">break</span>;
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust3:
+		id&nbsp;=&nbsp;Conversation.ID.Moon_Pearl_Cust3;
+		<span style="color:blue;">break</span>;
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust4:
+		id&nbsp;=&nbsp;Conversation.ID.Moon_Pearl_Cust4;
+		<span style="color:blue;">break</span>;
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust5:
+		id&nbsp;=&nbsp;Conversation.ID.Moon_Pearl_Cust5;
+		<span style="color:blue;">break</span>;
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust6:
+		id&nbsp;=&nbsp;Conversation.ID.Moon_Pearl_Cust6;
+		<span style="color:blue;">break</span>;
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust7:
+		id&nbsp;=&nbsp;Conversation.ID.Moon_Pearl_Cust7;
+		<span style="color:blue;">break</span>;
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust8:
+		id&nbsp;=&nbsp;Conversation.ID.Moon_Pearl_Cust8;
+		<span style="color:blue;">break</span>;
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust9:
+		id&nbsp;=&nbsp;Conversation.ID.Moon_Pearl_Cust9;
+		<span style="color:blue;">break</span>;
+	<span style="color:blue;">case</span>&nbsp;DataPearl.AbstractDataPearl.DataPearlType.Cust10:
+		id&nbsp;=&nbsp;Conversation.ID.Moon_Pearl_Cust10;
+		<span style="color:blue;">break</span>;
+ 
+<span style="color:green;">//&nbsp;In&nbsp;MoonConversation.AddEvents()</span>
+	<span style="color:blue;">case</span>&nbsp;Conversation.ID.Moon_Pearl_Cust1:
+		<span style="color:blue;">this</span>.PearlIntro();
+		<span style="color:blue;">base</span>.LoadEventsFromFile(61);
+		<span style="color:blue;">return</span>;
+	<span style="color:blue;">case</span>&nbsp;Conversation.ID.Moon_Pearl_Cust2:
+		<span style="color:blue;">this</span>.PearlIntro();
+		<span style="color:blue;">base</span>.LoadEventsFromFile(62);
+		<span style="color:blue;">return</span>;
+	<span style="color:blue;">case</span>&nbsp;Conversation.ID.Moon_Pearl_Cust3:
+		<span style="color:blue;">this</span>.PearlIntro();
+		<span style="color:blue;">base</span>.LoadEventsFromFile(63);
+		<span style="color:blue;">return</span>;
+	<span style="color:blue;">case</span>&nbsp;Conversation.ID.Moon_Pearl_Cust4:
+		<span style="color:blue;">this</span>.PearlIntro();
+		<span style="color:blue;">base</span>.LoadEventsFromFile(64);
+		<span style="color:blue;">return</span>;
+	<span style="color:blue;">case</span>&nbsp;Conversation.ID.Moon_Pearl_Cust5:
+		<span style="color:blue;">this</span>.PearlIntro();
+		<span style="color:blue;">base</span>.LoadEventsFromFile(65);
+		<span style="color:blue;">return</span>;
+	<span style="color:blue;">case</span>&nbsp;Conversation.ID.Moon_Pearl_Cust6:
+		<span style="color:blue;">this</span>.PearlIntro();
+		<span style="color:blue;">base</span>.LoadEventsFromFile(66);
+		<span style="color:blue;">return</span>;
+	<span style="color:blue;">case</span>&nbsp;Conversation.ID.Moon_Pearl_Cust7:
+		<span style="color:blue;">this</span>.PearlIntro();
+		<span style="color:blue;">base</span>.LoadEventsFromFile(67);
+		<span style="color:blue;">return</span>;
+	<span style="color:blue;">case</span>&nbsp;Conversation.ID.Moon_Pearl_Cust8:
+		<span style="color:blue;">this</span>.PearlIntro();
+		<span style="color:blue;">base</span>.LoadEventsFromFile(68);
+		<span style="color:blue;">return</span>;
+	<span style="color:blue;">case</span>&nbsp;Conversation.ID.Moon_Pearl_Cust9:
+		<span style="color:blue;">this</span>.PearlIntro();
+		<span style="color:blue;">base</span>.LoadEventsFromFile(69);
+		<span style="color:blue;">return</span>;
+	<span style="color:blue;">case</span>&nbsp;Conversation.ID.Moon_Pearl_Cust10:
+		<span style="color:blue;">this</span>.PearlIntro();
+		<span style="color:blue;">base</span>.LoadEventsFromFile(70);
+		<span style="color:blue;">return</span>;
+ 
+======================
+{Menu}&nbsp;MenuScene
+======================
+ 
+<span style="color:green;">//&nbsp;(Add&nbsp;Landscape_RW&nbsp;to&nbsp;SceneID&nbsp;enum)</span>
+ 
+<span style="color:green;">//&nbsp;In&nbsp;Constructor,&nbsp;before&nbsp;the&nbsp;line&nbsp;&quot;this.BuildScene()&quot;</span>
+	<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.sceneID&nbsp;==&nbsp;MenuScene.SceneID.Landscape_RW)
+	{
+		<span style="color:blue;">this</span>.sceneFolder&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Scenes&quot;</span>&nbsp;+&nbsp;Path.DirectorySeparatorChar.ToString()&nbsp;+&nbsp;<span style="color:#a31515;">&quot;Landscape&nbsp;-&nbsp;RW&quot;</span>;
+		<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.flatMode)
+			<span style="color:blue;">this</span>.AddIllustration(<span style="color:blue;">new</span>&nbsp;MenuIllustration(<span style="color:blue;">this</span>.menu,&nbsp;<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">this</span>.sceneFolder,&nbsp;<span style="color:#a31515;">&quot;Landscape&nbsp;-&nbsp;RW&nbsp;-&nbsp;Flat&quot;</span>,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(683f,&nbsp;384f),&nbsp;<span style="color:blue;">false</span>,&nbsp;<span style="color:blue;">true</span>));
+		<span style="color:blue;">else</span>&nbsp;{
+			<span style="color:blue;">this</span>.AddIllustration(<span style="color:blue;">new</span>&nbsp;MenuDepthIllustration(<span style="color:blue;">this</span>.menu,&nbsp;<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">this</span>.sceneFolder,&nbsp;<span style="color:#a31515;">&quot;RW_Landscape&nbsp;-&nbsp;3&quot;</span>,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(85f,&nbsp;91f),&nbsp;6f,&nbsp;MenuDepthIllustration.MenuShader.Normal));
+			<span style="color:blue;">this</span>.AddIllustration(<span style="color:blue;">new</span>&nbsp;MenuDepthIllustration(<span style="color:blue;">this</span>.menu,&nbsp;<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">this</span>.sceneFolder,&nbsp;<span style="color:#a31515;">&quot;RW_Landscape&nbsp;-&nbsp;2&quot;</span>,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(143f,&nbsp;81f),&nbsp;2.5f,&nbsp;MenuDepthIllustration.MenuShader.Normal));
+			<span style="color:blue;">this</span>.AddIllustration(<span style="color:blue;">new</span>&nbsp;MenuDepthIllustration(<span style="color:blue;">this</span>.menu,&nbsp;<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">this</span>.sceneFolder,&nbsp;<span style="color:#a31515;">&quot;RW_Landscape&nbsp;-&nbsp;1&quot;</span>,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(96f,&nbsp;39f),&nbsp;1.25f,&nbsp;MenuDepthIllustration.MenuShader.Normal));
+		}
+		<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.menu.ID&nbsp;==&nbsp;ProcessManager.ProcessID.FastTravelScreen&nbsp;||&nbsp;<span style="color:blue;">this</span>.menu.ID&nbsp;==&nbsp;ProcessManager.ProcessID.RegionsOverviewScreen)&nbsp;{
+			<span style="color:blue;">this</span>.AddIllustration(<span style="color:blue;">new</span>&nbsp;MenuIllustration(<span style="color:blue;">this</span>.menu,&nbsp;<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">string</span>.Empty,&nbsp;<span style="color:#a31515;">&quot;Title_RW_Shadow&quot;</span>,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(0.01f,&nbsp;0.01f),&nbsp;<span style="color:blue;">true</span>,&nbsp;<span style="color:blue;">false</span>));
+			<span style="color:blue;">this</span>.AddIllustration(<span style="color:blue;">new</span>&nbsp;MenuIllustration(<span style="color:blue;">this</span>.menu,&nbsp;<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">string</span>.Empty,&nbsp;<span style="color:#a31515;">&quot;Title_RW&quot;</span>,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(0.01f,&nbsp;0.01f),&nbsp;<span style="color:blue;">true</span>,&nbsp;<span style="color:blue;">false</span>));
+			<span style="color:blue;">this</span>.flatIllustrations[<span style="color:blue;">this</span>.flatIllustrations.Count&nbsp;-&nbsp;1].sprite.shader&nbsp;=&nbsp;<span style="color:blue;">this</span>.menu.manager.rainWorld.Shaders[<span style="color:#a31515;">&quot;MenuText&quot;</span>];
+		}
+	}
+ 
+======================
+{Menu}&nbsp;FastTravelScreen
+======================
+ 
+<span style="color:green;">//&nbsp;(Add&nbsp;&quot;RW&quot;&nbsp;to&nbsp;GetRegionOrder()&nbsp;list)</span>
+ 
+<span style="color:green;">//&nbsp;In&nbsp;TitleSceneID()</span>
+	<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SU&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SU;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;HI&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_HI;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;DS&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_DS;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;CC&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_CC;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;GW&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_GW;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SH&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SH;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SL&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SL;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SI&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SI;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;LF&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_LF;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;UW&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_UW;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SS&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SS;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SB&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SB;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(regionName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;RW&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_RW;
+ 
+======================
+{Menu}&nbsp;MainMenu
+======================
+ 
+<span style="color:green;">//&nbsp;In&nbsp;BackgroundScene()</span>
+	<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SU&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SU;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;HI&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_HI;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;DS&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_DS;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;CC&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_CC;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;GW&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_GW;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SH&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SH;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SL&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SL;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SI&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SI;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;LF&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_LF;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;UW&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_UW;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SS&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SS;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SB&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_SB;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text&nbsp;==&nbsp;<span style="color:#a31515;">&quot;RW&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MenuScene.SceneID.Landscape_RW;
+ 
+======================
+{Menu}&nbsp;SlugcatSelectMenu
+======================
+ 
+<span style="color:green;">//&nbsp;In&nbsp;SlugcatPageContinue&nbsp;Constructor</span>
+	<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;CC&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Chimney&nbsp;Canopy&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;DS&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Drainage&nbsp;System&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;HI&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Industrial&nbsp;Complex&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;GW&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Garbage&nbsp;Wastes&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SI&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Sky&nbsp;Islands&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SU&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Outskirts&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SH&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Shaded&nbsp;Citadel&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SL&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Shoreline&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;LF&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Farm&nbsp;Arrays&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;UW&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;The&nbsp;Exterior&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SB&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Subterranean&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SS&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Five&nbsp;Pebbles&quot;</span>;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(text2&nbsp;==&nbsp;<span style="color:#a31515;">&quot;RW&quot;</span>)&nbsp;text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Side&nbsp;House&quot;</span>;
+ 
+======================
+WinState
+======================
+ 
+<span style="color:green;">//&nbsp;In&nbsp;CreateAndAddTracker()</span>
+	<span style="color:blue;">case</span>&nbsp;WinState.EndgameID.Traveller:
+		endgameTracker&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;WinState.BoolArrayTracker(ID,&nbsp;13);
+ 
+======================
+MultiplayerUnlocks
+======================
+ 
+<span style="color:green;">//&nbsp;(Add&nbsp;RW&nbsp;to&nbsp;LevelUnlockID&nbsp;enum)</span>
+ 
+<span style="color:green;">//&nbsp;In&nbsp;LevelLockID()</span>
+	<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SU_Lolipops&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SU_StoneHeads&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SmallRoom&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.SU;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;HI_StovePipes&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;FourFingers&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Platforms&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.HI;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;CC_Intersection&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Thrones&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.CC;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Grid&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;deathPit&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Pylons&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.GW;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;WaterWorks&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Refinery&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.SL;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Cabinets&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SH_BigRoom&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SH_Planters&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.SH;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;DS_Drainage&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;DS_Filters&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;WaterReactor&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.DS;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Antenna&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Summit&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;SI_Array&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.SI;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Accelerator&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Pipelands&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.LF;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;swingRoom2&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Joint&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.UW;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Cave&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Shortcuts&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Nest&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.SB;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Mycelium&quot;</span>&nbsp;||&nbsp;levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Tower&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.RW;
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(levelName&nbsp;==&nbsp;<span style="color:#a31515;">&quot;Hub&quot;</span>)
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.Hidden;
+	<span style="color:blue;">else</span>
+		<span style="color:blue;">return</span>&nbsp;MultiplayerUnlocks.LevelUnlockID.Default;	
+ 
+======================================================================================================================================================================================
+<span style="color:green;">//&nbsp;Miscelaneous&nbsp;utility&nbsp;stuff</span>
+ 
+======================
+PlayerProgression
+======================
+ 
+<span style="color:green;">//&nbsp;New&nbsp;Function</span>
+	<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">void</span>&nbsp;QuickTravelCheats()&nbsp;{
+		<span style="color:blue;">if</span>&nbsp;(File.Exists(Custom.RootFolderDirectory()&nbsp;+&nbsp;<span style="color:#a31515;">&quot;start_shoreline.txt&quot;</span>))&nbsp;{
+			File.Delete(Custom.RootFolderDirectory()&nbsp;+&nbsp;<span style="color:#a31515;">&quot;start_shoreline.txt&quot;</span>);
+			<span style="color:blue;">this</span>.currentSaveState.denPosition&nbsp;=&nbsp;<span style="color:#a31515;">&quot;SL_S08&quot;</span>;
+			if (<span style="color:blue;">this</span>.currentSaveState.deathPersistentSaveData.karma&nbsp;&lt;&nbsp;4)
+				<span style="color:blue;">this</span>.currentSaveState.deathPersistentSaveData.karma&nbsp;=&nbsp;4;
+		}&nbsp;<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(File.Exists(Custom.RootFolderDirectory()&nbsp;+&nbsp;<span style="color:#a31515;">&quot;start_depths.txt&quot;</span>))&nbsp;{
+			File.Delete(Custom.RootFolderDirectory()&nbsp;+&nbsp;<span style="color:#a31515;">&quot;start_depths.txt&quot;</span>);
+			<span style="color:blue;">this</span>.currentSaveState.denPosition&nbsp;=&nbsp;<span style="color:#a31515;">&quot;SB_S01&quot;</span>;
+			if (<span style="color:blue;">this</span>.currentSaveState.deathPersistentSaveData.karma&nbsp;&lt;&nbsp;4)
+				<span style="color:blue;">this</span>.currentSaveState.deathPersistentSaveData.karma&nbsp;=&nbsp;4;
+		}&nbsp;<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(File.Exists(Custom.RootFolderDirectory()&nbsp;+&nbsp;<span style="color:#a31515;">&quot;start_fivepebs.txt&quot;</span>))&nbsp;{
+			File.Delete(Custom.RootFolderDirectory()&nbsp;+&nbsp;<span style="color:#a31515;">&quot;start_fivepebs.txt&quot;</span>);
+			<span style="color:blue;">this</span>.currentSaveState.denPosition&nbsp;=&nbsp;<span style="color:#a31515;">&quot;SS_S01&quot;</span>;
+			if (<span style="color:blue;">this</span>.currentSaveState.deathPersistentSaveData.karma&nbsp;&lt;&nbsp;4)
+				<span style="color:blue;">this</span>.currentSaveState.deathPersistentSaveData.karma&nbsp;=&nbsp;4;
+		}
+	}
+ 
+<span style="color:green;">//&nbsp;In&nbsp;GetOrInitiateSaveState():</span>
+	<span style="color:green;">//&nbsp;Above&nbsp;the&nbsp;line&nbsp;&quot;if&nbsp;(saveAsDeathOrQuit)&quot;</span>
+	<span style="color:blue;">this</span>.QuickTravelCheats();
+	<span style="color:green;">//&nbsp;Below&nbsp;the&nbsp;line&nbsp;&quot;this.currentSaveState.LoadGame(array[1],&nbsp;game)&quot;</span>
+	<span style="color:blue;">this</span>.QuickTravelCheats();
+ 
+<span style="color:green;">//&nbsp;In&nbsp;GetProgLines()</span>
+	Debug.Log(<span style="color:#a31515;">&quot;Checksum&nbsp;WRONG!&quot;</span>);
+	<span style="color:blue;">this</span>.gameTinkeredWith&nbsp;=&nbsp;<span style="color:blue;">false</span>;
+ 
+======================
+RainWorld
+======================
+ 
+<span style="color:green;">//&nbsp;In&nbsp;Start()</span>
+	Debug.Log(<span style="color:#a31515;">&quot;World&nbsp;Checksum&nbsp;INCORRECT!&quot;</span>);
+	<span style="color:blue;">this</span>.progression.gameTinkeredWith&nbsp;=&nbsp;<span style="color:blue;">false</span>;
+ 
+<span style="color:green;">//&nbsp;New&nbsp;function</span>
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">void</span>&nbsp;EncryptUtility()&nbsp;{
+		<span style="color:blue;">string</span>&nbsp;encryptPath&nbsp;=&nbsp;Custom.RootFolderDirectory()&nbsp;+&nbsp;<span style="color:#a31515;">&quot;Encrypt&quot;</span>;
+		<span style="color:blue;">if</span>&nbsp;(Directory.Exists(encryptPath))&nbsp;{
+			<span style="color:blue;">foreach</span>&nbsp;(InGameTranslator.LanguageID&nbsp;language&nbsp;<span style="color:blue;">in</span>&nbsp;Enum.GetValues(<span style="color:blue;">typeof</span>(InGameTranslator.LanguageID)))&nbsp;{
+				<span style="color:blue;">string</span>&nbsp;langDir&nbsp;=&nbsp;<span style="color:#a31515;">&quot;Text_&quot;</span>&nbsp;+&nbsp;LocalizationTranslator.LangShort(language);
+				<span style="color:blue;">if</span>&nbsp;(!Directory.Exists(encryptPath&nbsp;+&nbsp;<span style="color:#a31515;">&quot;/&quot;</span>&nbsp;+&nbsp;langDir))
+					Directory.CreateDirectory(encryptPath&nbsp;+&nbsp;<span style="color:#a31515;">&quot;/&quot;</span>&nbsp;+&nbsp;langDir);
+				FileInfo[]&nbsp;files&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;DirectoryInfo(encryptPath).GetFiles();
+				<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;files.Length;&nbsp;i++)&nbsp;{
+					<span style="color:blue;">if</span>&nbsp;(files[i].Name.Substring(files[i].Name.Length&nbsp;-&nbsp;4,&nbsp;4)&nbsp;==&nbsp;<span style="color:#a31515;">&quot;.txt&quot;</span>)&nbsp;{
+						<span style="color:blue;">int</span>&nbsp;num&nbsp;=&nbsp;<span style="color:blue;">int</span>.Parse(files[i].Name.Substring(0,&nbsp;files[i].Name.Length&nbsp;-&nbsp;4));
+						<span style="color:blue;">string</span>&nbsp;text&nbsp;=&nbsp;File.ReadAllText(encryptPath&nbsp;+&nbsp;<span style="color:#a31515;">&quot;/&quot;</span>&nbsp;+&nbsp;files[i].Name,&nbsp;Encoding.Default);
+						<span style="color:blue;">if</span>&nbsp;(text[0]&nbsp;==&nbsp;<span style="color:#a31515;">&#39;0&#39;</span>)&nbsp;{
+							<span style="color:blue;">string</span>&nbsp;text2&nbsp;=&nbsp;Custom.xorEncrypt(text,&nbsp;(<span style="color:blue;">int</span>)(54&nbsp;+&nbsp;num&nbsp;+&nbsp;(<span style="color:blue;">int</span>)language&nbsp;*&nbsp;7));
+							text2&nbsp;=&nbsp;<span style="color:#a31515;">&quot;1&quot;</span>&nbsp;+&nbsp;text2.Remove(0,&nbsp;1);
+							File.WriteAllText(encryptPath&nbsp;+&nbsp;<span style="color:#a31515;">&quot;/&quot;</span>&nbsp;+&nbsp;langDir&nbsp;+&nbsp;<span style="color:#a31515;">&quot;/&quot;</span>&nbsp;+&nbsp;files[i].Name,&nbsp;text2);
+						}
+					}
+				}
+			}
+		}
+	}
+ 
+<span style="color:green;">//&nbsp;At&nbsp;end&nbsp;of&nbsp;Start()</span>
+	<span style="color:blue;">this</span>.EncryptUtility();</pre>
