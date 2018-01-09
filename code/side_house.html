@@ -172,7 +172,42 @@ SLOracleBehaviorHasMark
 		<span style="color:blue;">this</span>.PearlIntro();
 		<span style="color:blue;">base</span>.LoadEventsFromFile(70);
 		<span style="color:blue;">return</span>;
+
+======================
+TempleGuardAI
+======================
  
+<span style="color:green;">//&nbsp;In&nbsp;NewRoom()</span>
+	<span style="color:blue;">if</span>&nbsp;(room.world.name&nbsp;==&nbsp;<span style="color:#a31515;">&quot;RW&quot;</span>)&nbsp;{
+		<span style="color:blue;">int</span>&nbsp;num&nbsp;=&nbsp;-2147483640;
+		<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&lt;room.abstractRoom.nodes.Length;&nbsp;i++)
+		{
+			<span style="color:blue;">if</span>&nbsp;(room.abstractRoom.nodes[i].type&nbsp;==&nbsp;AbstractRoomNode.Type.Exit&nbsp;||&nbsp;(room.game.world.singleRoomWorld&nbsp;&amp;&amp;&nbsp;room.abstractRoom.nodes[i].type&nbsp;==&nbsp;AbstractRoomNode.Type.Den))
+			{
+				<span style="color:blue;">int</span>&nbsp;x&nbsp;=&nbsp;room.LocalCoordinateOfNode(i).x;
+				<span style="color:blue;">if</span>&nbsp;(x&nbsp;&gt;&nbsp;num)
+				{
+					num&nbsp;=&nbsp;x;
+					<span style="color:blue;">this</span>.protectExit&nbsp;=&nbsp;i;
+				}
+			}
+		}
+	}&nbsp;<span style="color:blue;">else</span>&nbsp;{
+		<span style="color:blue;">int</span>&nbsp;num&nbsp;=&nbsp;2147483647;
+		<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&lt;room.abstractRoom.nodes.Length;&nbsp;i++)
+		{
+			<span style="color:blue;">if</span>&nbsp;(room.abstractRoom.nodes[i].type&nbsp;==&nbsp;AbstractRoomNode.Type.Exit&nbsp;||&nbsp;(room.game.world.singleRoomWorld&nbsp;&amp;&amp;&nbsp;room.abstractRoom.nodes[i].type&nbsp;==&nbsp;AbstractRoomNode.Type.Den))
+			{
+				<span style="color:blue;">int</span>&nbsp;x&nbsp;=&nbsp;room.LocalCoordinateOfNode(i).x;
+				<span style="color:blue;">if</span>&nbsp;(x&nbsp;&lt;&nbsp;num)
+				{
+					num&nbsp;=&nbsp;x;
+					<span style="color:blue;">this</span>.protectExit&nbsp;=&nbsp;i;
+				}
+			}
+		}
+	}
+
 ======================
 {Menu}&nbsp;MenuScene
 ======================
