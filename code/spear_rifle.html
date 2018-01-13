@@ -1,0 +1,143 @@
+<pre style="font-family:Consolas;font-size:13;color:black;background:white;">==========================
+AbstractPhysicalObject
+==========================
+ 
+<span style="color:green;">//&nbsp;Add&nbsp;JokeRifle&nbsp;to&nbsp;AbstractObjectType&nbsp;enum.</span>
+ 
+==========================
+JokeRifle
+==========================
+<span style="color:green;">//&nbsp;New&nbsp;Subclass</span>
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">class</span>&nbsp;<span style="color:#2b91af;">AbstractRifle</span>&nbsp;:&nbsp;AbstractPhysicalObject&nbsp;{
+		<span style="color:blue;">public</span>&nbsp;<span style="color:#2b91af;">RifleType</span>&nbsp;rifleClass;
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">enum</span>&nbsp;<span style="color:#2b91af;">RifleType</span>&nbsp;{
+			Rock,
+			Spear,
+			ExplodeSpear,
+			Tranq
+		};
+	 
+		<span style="color:blue;">public</span>&nbsp;AbstractRifle(World&nbsp;world,&nbsp;JokeRifle&nbsp;realizedObject,&nbsp;WorldCoordinate&nbsp;pos,&nbsp;EntityID&nbsp;ID,&nbsp;<span style="color:#2b91af;">RifleType</span>&nbsp;rifleClass)&nbsp;:&nbsp;<span style="color:blue;">base</span>(world,&nbsp;AbstractPhysicalObject.AbstractObjectType.JokeRifle,&nbsp;realizedObject,&nbsp;pos,&nbsp;ID)&nbsp;{
+			<span style="color:blue;">this</span>.rifleClass&nbsp;=&nbsp;rifleClass;
+		}
+	 
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">string</span>&nbsp;ToString()&nbsp;{
+			<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">this</span>.ID.ToString()&nbsp;+&nbsp;<span style="color:#a31515;">&quot;&lt;oA&gt;&quot;</span>&nbsp;+&nbsp;<span style="color:blue;">this</span>.type.ToString()&nbsp;+&nbsp;<span style="color:#a31515;">&quot;&lt;oA&gt;&quot;</span>&nbsp;+&nbsp;<span style="color:blue;">this</span>.pos.room&nbsp;+&nbsp;<span style="color:#a31515;">&quot;.&quot;</span>&nbsp;+&nbsp;<span style="color:blue;">this</span>.pos.x&nbsp;+&nbsp;<span style="color:#a31515;">&quot;.&quot;</span>&nbsp;+&nbsp;<span style="color:blue;">this</span>.pos.y&nbsp;+&nbsp;<span style="color:#a31515;">&quot;.&quot;</span>&nbsp;+&nbsp;<span style="color:blue;">this</span>.pos.abstractNode&nbsp;+&nbsp;<span style="color:#a31515;">&quot;&lt;oA&gt;&quot;</span>&nbsp;+&nbsp;<span style="color:blue;">this</span>.rifleClass.ToString();
+		}
+	}
+ 
+<span style="color:green;">//&nbsp;New&nbsp;Accessor</span>
+	<span style="color:blue;">public</span>&nbsp;<span style="color:#2b91af;">AbstractRifle</span>&nbsp;abstractRifle&nbsp;{&nbsp;<span style="color:blue;">get</span>&nbsp;{&nbsp;<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">this</span>.abstractPhysicalObject&nbsp;<span style="color:blue;">as</span>&nbsp;<span style="color:#2b91af;">AbstractRifle</span>;&nbsp;}&nbsp;}
+ 
+<span style="color:green;">//&nbsp;In&nbsp;Update()</span>
+	<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.grabbedBy.Count&nbsp;&gt;&nbsp;0&nbsp;&amp;&amp;&nbsp;<span style="color:blue;">this</span>.grabbedBy[0].grabber&nbsp;<span style="color:blue;">is</span>&nbsp;Player)
+	{
+		<span style="color:blue;">this</span>.aimDir&nbsp;=&nbsp;Custom.DirVec(<span style="color:blue;">this</span>.grabbedBy[0].grabber.mainBodyChunk.pos,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(<span style="color:blue;">this</span>.grabbedBy[0].grabber.mainBodyChunk.pos.x&nbsp;+&nbsp;(<span style="color:blue;">this</span>.grabbedBy[0].grabber&nbsp;<span style="color:blue;">as</span>&nbsp;Player).ThrowDirection,&nbsp;<span style="color:blue;">this</span>.grabbedBy[0].grabber.mainBodyChunk.pos.y));
+		<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.counter&nbsp;&lt;&nbsp;1&nbsp;&amp;&amp;&nbsp;(<span style="color:blue;">this</span>.grabbedBy[0].grabber&nbsp;<span style="color:blue;">as</span>&nbsp;Player).input[0].thrw&nbsp;&amp;&amp;&nbsp;<span style="color:blue;">this</span>.grabbedBy[0].graspUsed&nbsp;==&nbsp;0)&nbsp;{
+			<span style="color:blue;">this</span>.counter&nbsp;=&nbsp;6;
+			<span style="color:blue;">this</span>.grabbedBy[0].grabber.mainBodyChunk.vel&nbsp;-=&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;2.5f;
+			<span style="color:blue;">base</span>.firstChunk.vel&nbsp;+=&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;10f;
+			<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;10;&nbsp;i++)
+				<span style="color:blue;">this</span>.room.AddObject(<span style="color:blue;">new</span>&nbsp;Spark(<span style="color:blue;">base</span>.firstChunk.pos&nbsp;+&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;25f,&nbsp;Custom.DegToVec(360f&nbsp;*&nbsp;UnityEngine.Random.value)&nbsp;*&nbsp;5f&nbsp;*&nbsp;UnityEngine.Random.value&nbsp;+&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;100f&nbsp;*&nbsp;UnityEngine.Random.value,&nbsp;<span style="color:blue;">new</span>&nbsp;Color(1f,&nbsp;0.8f,&nbsp;0.5f),&nbsp;<span style="color:blue;">null</span>,&nbsp;3,&nbsp;8));
+	 
+			<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.abstractRifle.rifleClass&nbsp;==&nbsp;<span style="color:#2b91af;">AbstractRifle</span>.RifleType.Spear&nbsp;||&nbsp;<span style="color:blue;">this</span>.abstractRifle.rifleClass&nbsp;==&nbsp;<span style="color:#2b91af;">AbstractRifle</span>.RifleType.ExplodeSpear)&nbsp;{
+				AbstractSpear&nbsp;abstractSpear&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;AbstractSpear(<span style="color:blue;">this</span>.room.world,&nbsp;<span style="color:blue;">null</span>,&nbsp;<span style="color:blue;">this</span>.room.GetWorldCoordinate(<span style="color:blue;">base</span>.firstChunk.pos&nbsp;+&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;25f),&nbsp;<span style="color:blue;">this</span>.room.game.GetNewID(),&nbsp;<span style="color:blue;">this</span>.abstractRifle.rifleClass&nbsp;==&nbsp;<span style="color:#2b91af;">AbstractRifle</span>.RifleType.ExplodeSpear);
+				<span style="color:blue;">this</span>.room.abstractRoom.AddEntity(abstractSpear);
+				abstractSpear.RealizeInRoom();
+				(abstractSpear.realizedObject&nbsp;<span style="color:blue;">as</span>&nbsp;Spear).Thrown(<span style="color:blue;">this</span>.grabbedBy[0].grabber&nbsp;<span style="color:blue;">as</span>&nbsp;Player,&nbsp;<span style="color:blue;">base</span>.firstChunk.pos&nbsp;+&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;25f,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2?(<span style="color:blue;">base</span>.firstChunk.pos&nbsp;-&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;2.5f),&nbsp;<span style="color:blue;">new</span>&nbsp;IntVector2((<span style="color:blue;">this</span>.grabbedBy[0].grabber&nbsp;<span style="color:blue;">as</span>&nbsp;Player).ThrowDirection,&nbsp;0),&nbsp;1f,&nbsp;eu);
+			}&nbsp;<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.abstractRifle.rifleClass&nbsp;==&nbsp;<span style="color:#2b91af;">AbstractRifle</span>.RifleType.Rock)&nbsp;{
+				AbstractPhysicalObject&nbsp;abstractPhysicalObject&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;AbstractPhysicalObject(<span style="color:blue;">this</span>.room.world,&nbsp;AbstractPhysicalObject.AbstractObjectType.Rock,&nbsp;<span style="color:blue;">null</span>,&nbsp;<span style="color:blue;">this</span>.room.GetWorldCoordinate(<span style="color:blue;">base</span>.firstChunk.pos&nbsp;+&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;25f),&nbsp;<span style="color:blue;">this</span>.room.game.GetNewID());
+				abstractPhysicalObject.RealizeInRoom();
+				(abstractPhysicalObject.realizedObject&nbsp;<span style="color:blue;">as</span>&nbsp;Rock).Thrown(<span style="color:blue;">this</span>.grabbedBy[0].grabber&nbsp;<span style="color:blue;">as</span>&nbsp;Player,&nbsp;<span style="color:blue;">base</span>.firstChunk.pos&nbsp;+&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;25f,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2?(<span style="color:blue;">base</span>.firstChunk.pos&nbsp;-&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;2.5f),&nbsp;<span style="color:blue;">new</span>&nbsp;IntVector2((<span style="color:blue;">this</span>.grabbedBy[0].grabber&nbsp;<span style="color:blue;">as</span>&nbsp;Player).ThrowDirection,&nbsp;0),&nbsp;1f,&nbsp;eu);
+			}&nbsp;<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.abstractRifle.rifleClass&nbsp;==&nbsp;<span style="color:#2b91af;">AbstractRifle</span>.RifleType.Tranq)&nbsp;{
+				AbstractPhysicalObject&nbsp;abstractPhysicalObject&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;AbstractPhysicalObject(<span style="color:blue;">this</span>.room.world,&nbsp;AbstractPhysicalObject.AbstractObjectType.DartMaggot,&nbsp;<span style="color:blue;">null</span>,&nbsp;<span style="color:blue;">this</span>.room.GetWorldCoordinate(<span style="color:blue;">base</span>.firstChunk.pos&nbsp;+&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;25f),&nbsp;<span style="color:blue;">this</span>.room.game.GetNewID());
+				abstractPhysicalObject.RealizeInRoom();
+				(abstractPhysicalObject.realizedObject&nbsp;<span style="color:blue;">as</span>&nbsp;DartMaggot).Shoot(<span style="color:blue;">base</span>.firstChunk.pos&nbsp;+&nbsp;<span style="color:blue;">this</span>.aimDir&nbsp;*&nbsp;25f,&nbsp;aimDir,&nbsp;<span style="color:blue;">this</span>.grabbedBy[0].grabber);
+			}
+		}
+	}
+ 
+<span style="color:green;">//&nbsp;In&nbsp;DrawSprites()</span>
+	<span style="color:blue;">if</span>&nbsp;(sLeaser.sprites&nbsp;[0].rotation&nbsp;&lt;&nbsp;0f)
+		sLeaser.sprites&nbsp;[0].scaleY&nbsp;=&nbsp;-1f;
+	<span style="color:blue;">else</span>
+		sLeaser.sprites&nbsp;[0].scaleY&nbsp;=&nbsp;1f;
+ 
+==========================
+AbstractPhysicalObject
+==========================
+ 
+<span style="color:green;">//&nbsp;New&nbsp;Function</span>
+	<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">void</span>&nbsp;CustomRealize()&nbsp;{
+		<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.type&nbsp;==&nbsp;AbstractPhysicalObject.AbstractObjectType.JokeRifle)
+			<span style="color:blue;">this</span>.realizedObject&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;JokeRifle(<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">this</span>.world);
+	}
+ 
+<span style="color:green;">//&nbsp;In&nbsp;Realize(),&nbsp;at&nbsp;end&nbsp;of&nbsp;function:</span>
+	<span style="color:blue;">this</span>.CustomRealize();
+	<span style="color:green;">//&nbsp;ldarg.0</span>
+	<span style="color:green;">//&nbsp;call		CustomRealize</span>
+ 
+==========================
+SaveState
+==========================
+ 
+<span style="color:green;">//&nbsp;In&nbsp;AbstractPhysicalObjectFromString()</span>
+	<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(abstractObjectType&nbsp;==&nbsp;AbstractPhysicalObject.AbstractObjectType.JokeRifle)
+		result&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;JokeRifle.AbstractRifle(world,&nbsp;<span style="color:blue;">null</span>,&nbsp;pos,&nbsp;iD,&nbsp;(JokeRifle.AbstractRifle.RifleType)Enum.Parse(<span style="color:blue;">typeof</span>(JokeRifle.AbstractRifle.RifleType),&nbsp;array[3]));
+ 
+===========================
+Player
+===========================
+ 
+<span style="color:blue;">public</span>&nbsp;JokeRifle.AbstractRifle.RifleType?&nbsp;lastPlacedRifle&nbsp;=&nbsp;<span style="color:blue;">null</span>;&nbsp;<span style="color:green;">//&nbsp;New&nbsp;field</span>
+ 
+<span style="color:green;">//&nbsp;New&nbsp;Function</span>
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">void</span>&nbsp;AddJokeGun()&nbsp;{
+		<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.room&nbsp;==&nbsp;<span style="color:blue;">null</span>)
+			<span style="color:blue;">return</span>;
+		<span style="color:blue;">bool</span>&nbsp;wasNull&nbsp;=&nbsp;lastPlacedRifle&nbsp;==&nbsp;<span style="color:blue;">null</span>;
+	 
+		<span style="color:blue;">if</span>&nbsp;(Input.GetKey(<span style="color:#a31515;">&quot;1&quot;</span>)&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;==&nbsp;<span style="color:blue;">null</span>)
+			lastPlacedRifle&nbsp;=&nbsp;JokeRifle.AbstractRifle.RifleType.Rock;
+		<span style="color:blue;">if</span>&nbsp;(!Input.GetKey(<span style="color:#a31515;">&quot;1&quot;</span>)&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;==&nbsp;JokeRifle.AbstractRifle.RifleType.Rock)
+			lastPlacedRifle&nbsp;=&nbsp;<span style="color:blue;">null</span>;
+	 
+		<span style="color:blue;">if</span>&nbsp;(Input.GetKey(<span style="color:#a31515;">&quot;2&quot;</span>)&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;==&nbsp;<span style="color:blue;">null</span>)
+			lastPlacedRifle&nbsp;=&nbsp;JokeRifle.AbstractRifle.RifleType.Spear;
+		<span style="color:blue;">if</span>&nbsp;(!Input.GetKey(<span style="color:#a31515;">&quot;2&quot;</span>)&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;==&nbsp;JokeRifle.AbstractRifle.RifleType.Spear)
+			lastPlacedRifle&nbsp;=&nbsp;<span style="color:blue;">null</span>;
+	 
+		<span style="color:blue;">if</span>&nbsp;(Input.GetKey(<span style="color:#a31515;">&quot;3&quot;</span>)&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;==&nbsp;<span style="color:blue;">null</span>)
+			lastPlacedRifle&nbsp;=&nbsp;JokeRifle.AbstractRifle.RifleType.ExplodeSpear;
+		<span style="color:blue;">if</span>&nbsp;(!Input.GetKey(<span style="color:#a31515;">&quot;3&quot;</span>)&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;==&nbsp;JokeRifle.AbstractRifle.RifleType.ExplodeSpear)
+			lastPlacedRifle&nbsp;=&nbsp;<span style="color:blue;">null</span>;
+	 
+		<span style="color:blue;">if</span>&nbsp;(Input.GetKey(<span style="color:#a31515;">&quot;4&quot;</span>)&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;==&nbsp;<span style="color:blue;">null</span>)
+			lastPlacedRifle&nbsp;=&nbsp;JokeRifle.AbstractRifle.RifleType.Tranq;
+		<span style="color:blue;">if</span>&nbsp;(!Input.GetKey(<span style="color:#a31515;">&quot;4&quot;</span>)&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;==&nbsp;JokeRifle.AbstractRifle.RifleType.Tranq)
+			lastPlacedRifle&nbsp;=&nbsp;<span style="color:blue;">null</span>;
+	 
+		<span style="color:blue;">if</span>&nbsp;(wasNull&nbsp;&amp;&amp;&nbsp;lastPlacedRifle&nbsp;!=&nbsp;<span style="color:blue;">null</span>)&nbsp;{
+			JokeRifle.AbstractRifle&nbsp;rifle&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;JokeRifle.AbstractRifle(<span style="color:blue;">this</span>.room.world,&nbsp;<span style="color:blue;">null</span>,&nbsp;<span style="color:blue;">this</span>.room.GetWorldCoordinate(mainBodyChunk.pos),&nbsp;<span style="color:blue;">this</span>.room.game.GetNewID(),&nbsp;(JokeRifle.AbstractRifle.RifleType)lastPlacedRifle);
+			<span style="color:blue;">this</span>.room.abstractRoom.AddEntity(rifle);
+			rifle.RealizeInRoom();
+		}
+	}
+ 
+<span style="color:green;">//&nbsp;In&nbsp;Update()</span>
+	<span style="color:blue;">this</span>.AddJokeGun()
+	<span style="color:green;">//&nbsp;ldarg.0</span>
+	<span style="color:green;">//&nbsp;call&nbsp;	AddJokeGun</span>
+ 
+<span style="color:green;">//&nbsp;In&nbsp;ThrowObject()</span>
+	<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">base</span>.grasps&nbsp;[grasp].grabbed&nbsp;<span style="color:blue;">is</span>&nbsp;JokeRifle)
+		<span style="color:blue;">return</span>;
+ 
+<span style="color:green;">//&nbsp;In&nbsp;ThrowToGetFree()</span>
+	<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">base</span>.grasps&nbsp;[k]&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;!(<span style="color:blue;">base</span>.grasps&nbsp;[k].grabbed&nbsp;<span style="color:blue;">is</span>&nbsp;JokeRifle))
+	{
+		<span style="color:blue;">this</span>.TossObject(k,&nbsp;eu);
+		<span style="color:blue;">this</span>.ReleaseGrasp(k);
+		<span style="color:blue;">break</span>;
+	}</pre>
