@@ -77,6 +77,16 @@ AbstractPhysicalObject
 	<span style="color:blue;">this</span>.CustomRealize();
 	<span style="color:green;">//&nbsp;ldarg.0</span>
 	<span style="color:green;">//&nbsp;call		CustomRealize</span>
+
+==========================
+Spear
+==========================
+ 
+<span style="color:green;">//&nbsp;In&nbsp;Update(),&nbsp;in&nbsp;&quot;case&nbsp;Weapon.Mode.StuckInCreature&quot;,&nbsp;above&nbsp;line&nbsp;&quot;base.firstChunk.vel&nbsp;=&nbsp;this.stuckInChunk.vel&quot;</span>
+		<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.stuckInObject&nbsp;==&nbsp;<span style="color:blue;">null</span>)&nbsp;{
+		<span style="color:blue;">this</span>.ChangeMode(Weapon.Mode.Free);
+		<span style="color:blue;">return</span>;
+	}</pre>
  
 ==========================
 SaveState
