@@ -1,0 +1,106 @@
+<pre style="font-family:Consolas;font-size:13;color:black;background:white;"><span style="color:green;">//&nbsp;New&nbsp;Class</span>
+<span style="color:blue;">using</span>&nbsp;System;
+<span style="color:blue;">using</span>&nbsp;System.Collections.Generic;
+<span style="color:blue;">using</span>&nbsp;UnityEngine;
+
+<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">class</span>&nbsp;<span style="color:#2b91af;">ColorChange</span>&nbsp;{
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;PlayerGraphics&nbsp;_playerGraphics;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;RoomCamera.SpriteLeaser&nbsp;_hookedLeaser;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;RoomCamera&nbsp;_hookedRoomCamera;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;Player&nbsp;_hookedPlayer;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:#2b91af;">List</span>&lt;Color&gt;&nbsp;_bodyColors;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;Color&nbsp;_mainColor;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">float</span>&nbsp;_camoIntens;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;Color&nbsp;_colorDelta;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">float</span>&nbsp;_colorDeltaSum;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;Color&nbsp;_backGroundColor;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;Color&nbsp;_currentPlayerColor;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">float</span>&nbsp;_camoPercent;
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">float</span>&nbsp;_camoPercentBalance;
+
+	<span style="color:blue;">static</span>&nbsp;ColorChange()&nbsp;{
+		<span style="color:#2b91af;">ColorChange</span>._bodyColors&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;<span style="color:#2b91af;">List</span>&lt;Color&gt;();
+		<span style="color:#2b91af;">ColorChange</span>._camoIntens&nbsp;=&nbsp;1.48f;
+		<span style="color:#2b91af;">ColorChange</span>._camoPercentBalance&nbsp;=&nbsp;8.5f;
+	}
+
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;Color&nbsp;CalculateBodyColor()&nbsp;{
+		<span style="color:#2b91af;">ColorChange</span>._bodyColors.Clear();
+		<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;(<span style="color:blue;">int</span>)<span style="color:#2b91af;">ColorChange</span>._hookedPlayer.bodyChunks.Length;&nbsp;i++)
+			<span style="color:#2b91af;">ColorChange</span>._bodyColors.Add(<span style="color:#2b91af;">ColorChange</span>._hookedRoomCamera.PixelColorAtCoordinate(<span style="color:#2b91af;">ColorChange</span>._hookedPlayer.bodyChunks[i].pos));
+		<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;j&nbsp;=&nbsp;0;&nbsp;j&nbsp;&lt;&nbsp;<span style="color:#2b91af;">ColorChange</span>._bodyColors.get_Count();&nbsp;j++)
+			<span style="color:#2b91af;">ColorChange</span>._mainColor&nbsp;+=&nbsp;<span style="color:#2b91af;">ColorChange</span>._bodyColors.get_Item(j);
+		<span style="color:#2b91af;">ColorChange</span>._mainColor&nbsp;=&nbsp;<span style="color:#2b91af;">ColorChange</span>._mainColor&nbsp;/&nbsp;((<span style="color:blue;">float</span>)<span style="color:#2b91af;">ColorChange</span>._bodyColors.get_Count()&nbsp;*&nbsp;<span style="color:#2b91af;">ColorChange</span>._camoIntens);
+		<span style="color:blue;">return</span>&nbsp;<span style="color:#2b91af;">ColorChange</span>._mainColor;
+	}
+
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">void</span>&nbsp;CalculateCamoPercent()&nbsp;{
+		<span style="color:#2b91af;">ColorChange</span>._camoPercent&nbsp;=&nbsp;100f&nbsp;-&nbsp;<span style="color:#2b91af;">ColorChange</span>._colorDeltaSum&nbsp;*&nbsp;100f&nbsp;/&nbsp;3f;
+	}
+
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">void</span>&nbsp;CalculateColorDeltaSum()&nbsp;{
+		<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;(<span style="color:blue;">int</span>)<span style="color:#2b91af;">ColorChange</span>._hookedLeaser.sprites.Length;&nbsp;i++)
+			<span style="color:#2b91af;">ColorChange</span>._currentPlayerColor&nbsp;+=&nbsp;<span style="color:#2b91af;">ColorChange</span>._hookedLeaser.sprites[i].color;
+		<span style="color:#2b91af;">ColorChange</span>._currentPlayerColor&nbsp;/=&nbsp;(<span style="color:blue;">float</span>)((<span style="color:blue;">int</span>)<span style="color:#2b91af;">ColorChange</span>._hookedLeaser.sprites.Length);
+		<span style="color:#2b91af;">ColorChange</span>._colorDeltaSum&nbsp;=&nbsp;Mathf.Abs(<span style="color:#2b91af;">ColorChange</span>._currentPlayerColor.r&nbsp;-&nbsp;<span style="color:#2b91af;">ColorChange</span>._backGroundColor.r)&nbsp;+&nbsp;Mathf.Abs(<span style="color:#2b91af;">ColorChange</span>._currentPlayerColor.g&nbsp;-&nbsp;<span style="color:#2b91af;">ColorChange</span>._backGroundColor.g)&nbsp;+&nbsp;Mathf.Abs(<span style="color:#2b91af;">ColorChange</span>._currentPlayerColor.b&nbsp;-&nbsp;<span style="color:#2b91af;">ColorChange</span>._backGroundColor.b);
+	}
+
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">void</span>&nbsp;calculateVisibilityBonus()&nbsp;{
+		<span style="color:#2b91af;">ColorChange</span>._hookedPlayer.slugcatStats.generalVisibilityBonus&nbsp;=&nbsp;0f&nbsp;-&nbsp;<span style="color:#2b91af;">ColorChange</span>._camoPercent&nbsp;*&nbsp;10f&nbsp;/&nbsp;100f&nbsp;+&nbsp;<span style="color:#2b91af;">ColorChange</span>._camoPercentBalance;
+	}
+
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">void</span>&nbsp;CamoIntensController()&nbsp;{
+		<span style="color:blue;">if</span>&nbsp;(Input.GetKeyDown(117))
+			<span style="color:#2b91af;">ColorChange</span>._camoIntens&nbsp;+=&nbsp;0.1f;
+		<span style="color:blue;">if</span>&nbsp;(Input.GetKeyDown(105))
+			<span style="color:#2b91af;">ColorChange</span>._camoIntens&nbsp;-=&nbsp;0.1f;
+	}
+
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">void</span>&nbsp;CamoPercentBalance()&nbsp;{
+		<span style="color:blue;">if</span>&nbsp;(Input.GetKeyDown(104))
+			<span style="color:#2b91af;">ColorChange</span>._camoPercentBalance&nbsp;+=&nbsp;0.1f;
+		<span style="color:blue;">if</span>&nbsp;(Input.GetKeyDown(106))
+			<span style="color:#2b91af;">ColorChange</span>._camoPercentBalance&nbsp;-=&nbsp;0.1f;
+	}
+
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">void</span>&nbsp;ChangeColor()&nbsp;{
+		<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;(<span style="color:blue;">int</span>)<span style="color:#2b91af;">ColorChange</span>._hookedLeaser.sprites.Length;&nbsp;i++)&nbsp;{
+			<span style="color:blue;">if</span>&nbsp;(i&nbsp;!=&nbsp;9)&nbsp;{
+				<span style="color:#2b91af;">ColorChange</span>._backGroundColor&nbsp;=&nbsp;<span style="color:#2b91af;">ColorChange</span>.CalculateBodyColor();
+				<span style="color:#2b91af;">ColorChange</span>._hookedLeaser.sprites[i].color&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;Color(Mathf.Lerp(<span style="color:#2b91af;">ColorChange</span>._hookedLeaser.sprites[i].color.r,&nbsp;<span style="color:#2b91af;">ColorChange</span>._backGroundColor.r,&nbsp;0.03f),&nbsp;Mathf.Lerp(<span style="color:#2b91af;">ColorChange</span>._hookedLeaser.sprites[i].color.g,&nbsp;<span style="color:#2b91af;">ColorChange</span>._backGroundColor.g,&nbsp;0.03f),&nbsp;Mathf.Lerp(<span style="color:#2b91af;">ColorChange</span>._hookedLeaser.sprites[i].color.b,&nbsp;<span style="color:#2b91af;">ColorChange</span>._backGroundColor.b,&nbsp;0.03f));
+			}
+		}
+	}
+
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">void</span>&nbsp;HookLeaser(RoomCamera.SpriteLeaser&nbsp;hookedLeaser)&nbsp;{
+		<span style="color:#2b91af;">ColorChange</span>._hookedLeaser&nbsp;=&nbsp;hookedLeaser;
+	}
+
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">void</span>&nbsp;HookPlayer(Player&nbsp;hookedPlayer)&nbsp;{
+		<span style="color:#2b91af;">ColorChange</span>._hookedPlayer&nbsp;=&nbsp;hookedPlayer;
+	}
+
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">void</span>&nbsp;HookRoomCamera(RoomCamera&nbsp;hookedRoomCamera)&nbsp;{
+		<span style="color:#2b91af;">ColorChange</span>._hookedRoomCamera&nbsp;=&nbsp;hookedRoomCamera;
+	}
+
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">void</span>&nbsp;UpdateByPass(PlayerGraphics&nbsp;playerGraphics)&nbsp;{
+		<span style="color:#2b91af;">ColorChange</span>._playerGraphics&nbsp;=&nbsp;playerGraphics;
+		<span style="color:#2b91af;">ColorChange</span>.ChangeColor();
+		<span style="color:#2b91af;">ColorChange</span>.CalculateColorDeltaSum();
+		<span style="color:#2b91af;">ColorChange</span>.CalculateCamoPercent();
+		<span style="color:#2b91af;">ColorChange</span>.calculateVisibilityBonus();
+	}
+}
+ 
+<span style="color:green;">// ===============================================================================================================================================================================================================</span>
+
+<span style="color:green;">//&nbsp;In&nbsp;Player.Update()			[start]</span>
+	<span style="color:#2b91af;">ColorChange</span>.HookPlayer(<span style="color:blue;">this</span>);
+ 
+<span style="color:green;">//&nbsp;In&nbsp;PlayerGraphics.DrawSprites()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[end]</span>
+	<span style="color:#2b91af;">ColorChange</span>.HookLeaser(sLeaser);
+	<span style="color:#2b91af;">ColorChange</span>.HookRoomCamera(rCam);
+ 
+<span style="color:green;">//&nbsp;In&nbsp;PlayerGraphics.Update()		[start]</span>
+	<span style="color:#2b91af;">ColorChange</span>.UpdateByPass(<span style="color:blue;">this</span>);&nbsp;&nbsp;&nbsp;</pre>
