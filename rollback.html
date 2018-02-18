@@ -1,0 +1,210 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RainDB - Tutorials</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/form-elements.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+    <style type="text/css">
+        table {
+          border-spacing: 1;
+          border-collapse: collapse;
+          background: white;
+          border-radius: 10px;
+          overflow: hidden;
+          width: 100%;
+          margin: 0 auto;
+          position: relative;
+        }
+        table * {
+          position: relative;
+        }
+        table td, table th {
+          padding-left: 8px;
+        }
+        table thead tr {
+          height: 60px;
+          background: #36304a;
+        }
+        table tbody tr {
+          height: 50px;
+        }
+        table tbody tr:last-child {
+          border: 0;
+        }
+        table td, table th {
+          text-align: left;
+        }
+        table td.l, table th.l {
+          text-align: right;
+        }
+        table td.c, table th.c {
+          text-align: center;
+        }
+        table td.r, table th.r {
+          text-align: center;
+        }
+        tbody tr:nth-child(even) {
+          background-color: #f5f5f5;
+        }
+
+        tbody tr {
+          font-size: 15px;
+          color: #808080;
+          background-color: #e5e5e5;
+          line-height: 1.2;
+          font-weight: unset;
+        }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.jpg">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader" style="display: none;">
+        <div class="loader-img" style="display: none;"></div>
+    </div>
+
+    <!-- Top menu -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="top-navbar-1">
+                <ul class="nav navbar-nav">
+                    <li><a class="scroll-link" href="#top-content">Top</a>
+                    </li>
+                    <li>
+                    </li>
+                    <li><a class="scroll-link" onclick="location.href='https://maxtcc.github.io/index.html';" href="https://maxtcc.github.io/index.html">Home</a>
+                    </li>
+                    <li><a class="scroll-link" onclick="location.href='https://maxtcc.github.io/gallery.html';" href="https://maxtcc.github.io/gallery.html">Gallery</a>
+                    </li>
+                    <li><a class="scroll-link" onclick="location.href='https://maxtcc.github.io/tutorials.html';" href="https://maxtcc.github.io/tutorials.html">Tutorials</a>
+                    </li>
+                    <li><a class="scroll-link" onclick="location.href='https://maxtcc.github.io/upload.html';" href="https://maxtcc.github.io/upload.html">Submit</a>
+                    </li>
+                    <li><a class="scroll-link" onclick="location.href='https://maxtcc.github.io/projects.html';" href="https://maxtcc.github.io/projects.html">Community Projects</a>
+                    </li>
+                    <li><a class="scroll-link" onclick="location.href='https://drive.google.com/drive/folders/0B4lvUzbgH6VqS3JpM21tUHBISGM?usp=sharing';" href="https://drive.google.com/drive/folders/0B4lvUzbgH6VqS3JpM21tUHBISGM?usp=sharing">Google Drive (File Storage)</a>
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top content -->
+    <div class="top-content" style="position: relative; z-index: 0; background: none; height:300px;">
+        <div class="inner-bg" style="padding:60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 text">
+                        <div class="logo wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                        </div>
+                        <h1 class="wow fadeInLeftBig animated" style="visibility: visible; animation-name: fadeInLeftBig;"></h1>
+                        <h1></h1>
+                        <h1 style="font-size:300%;"></h1>
+                        <h1 style="font-size:150%;"></h1>
+                        <h1 style="font-size: 100%; margin-left: -161px; width: 1107px;"></h1>
+                        <h1 style="font-size: 500%; margin-left: -428px; width: 1615px;">Rain World Mod Database</h1>
+                        <div class="description wow fadeInLeftBig animated" style="visibility: visible; animation-name: fadeInLeftBig;">
+                            <p>
+                            </p>
+                            <h2></h2>
+                            <h1 style="margin-left: 0px; margin-top: 41px;">RainDB, for short.</h1>
+                            <p></p>
+                        </div>
+                        <div class="top-big-link wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="portfolio-container section-container" style="margin-left: 0px; margin-top: 2px;">
+        <div class="container" ,="" style="height:inherit;">
+            <div class="row">
+                <div class="col-sm-12 portfolio section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+                    <h2>Installing Old Rain World Versions</h2>
+                    <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; left: 1px; top: 0px; width: 1151px;">
+                    <ul>
+                    <li>Open Window's Run dialog and enter the command: <span style="font-family:Courier New"><b>steam://open/console</b></span><br></li>
+                    <li>The Steam Console will be launched. In the console, enter the following command:<br>
+                        <span style="font-family:Courier New">download_depot 312520 312521 [manifest ID]</span><br>
+                        Where [manifest ID] should be replaced with the version of Rain World that you want to download:
+                        <table>
+                        <tr><th>Version</th><th>Manifest ID</th></tr>
+                        <tr><td>1.0</td><td>6255017919215798397</td></tr>
+                        <tr><td>1.01</td><td>6365756072218008879</td></tr>
+                        <tr><td>1.5</td><td>791678341923736547</td></tr>
+                        </table><br>
+                    </li>
+                    <li>The specified version will begin to download. There is no progress bar, you just need to leave it running for a long while to let it complete. When it does successfully finish, it will tell you the location where it installed the old version. Typically this should be in:<br><i>"Program Files/Steam/steamapps/content/app_312520/depot_312521"</i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <center style="width: 1602px;">
+                    <h3 style="margin-left: 345px; margin-top: -65px;"><br>RainDB is maintained by Six Grains of Slugcat (MaxTCC) and AndrewFM</h3>
+                    <h3 style="margin-left: 361px; margin-top: -9px;">Original template by <a href="http://azmind.com/maren-bootstrap-free-business-template/">Maren</a></h3>
+                </center>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script>$('.top-content').backstretch("assets/img/backgrounds/2.jpg");</script>
+
+    <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+</body>
