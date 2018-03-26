@@ -45,9 +45,9 @@
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script type="text/javascript">
-    function applyTooltip(my_id) {
+    function applyTooltip(my_prefix, my_id) {
         // Tooltip only Text
-        $('.masterTooltip_'+my_id).hover(function(){
+        $('.'+my_prefix+'_'+my_id).hover(function(){
                 // Hover over code
                 var title = $(this).attr('title');
                 $(this).data('tipText', title).removeAttr('title');
@@ -178,7 +178,7 @@
             <div id="1.5mods" style="display:block;">
                 <div id="1.5_title"></div>
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
-                <a onclick="generateHTML('1.5', Mods15, 'dll', 'v1.5 Mods (Standalone)')" href="#main">Standalone</a> | <a onclick="generateHTML('1.5', Mods15, 'part', 'v1.5 Mods (Partiality)')" href="#main">Partiality Patches</a>  
+                <a onclick="generateHTML('1.5', Mods15, 'dll', 'v1.5 Mods (Standalone)')" href="#main">Standalone</a> | <a onclick="generateHTML('1.5', Mods15, 'part', 'v1.5 Mods (Partiality)')" href="#main">Partiality</a>  
                 <div id="1.5_gallery"></div>
             </div> 
 
@@ -198,6 +198,7 @@
             var appendStr = ""
             var count = 0
             var tooltipIds = []
+            var partTipIds = []
             document.getElementById(div_id+"_gallery").innerHTML = ""
             for (var i=0; i<mods_array.length; i++) {
                 if (filter != "" && ((filter in mods_array[i] && mods_array[i][filter] == false) || !(filter in mods_array[i])))
@@ -208,7 +209,15 @@
                 appendStr += '<div class="col-sm-4 portfolio-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><div class="portfolio-box-image">';
                 appendStr += '<img src="' + mods_array[i]["thumb"] + '?raw=true" alt="" data-ax2x="' + mods_array[i]["thumb"] + '?raw=true" style="width:360px;height:250px;"></div>';
                 appendStr += '<h3><a href="' + mods_array[i]["url"] + '" style="margin-left: 0px; margin-top: -1px;"><b>' + mods_array[i]["name"] + '</b></a> <a href="'
-                    + mods_array[i]["url"] + '"><i class="fa fa-angle-right"></i></a></h3>';
+                    + mods_array[i]["url"] + '"><i class="fa fa-angle-right"></i></a>';
+                                if ("patch" in mods_array[i]) {
+                if (mods_array[i]["patch"] == true)
+                        appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><img class="partTooltip_'+i+'" src="assets/ico/patch.png" title="Partiality Patch"/></div>';
+                    else
+                        appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><img class="partTooltip_'+i+'" src="assets/ico/mod.png" title="Partiality Mod"/></div>';
+                    partTipIds.push(i);
+                }
+                appendStr += "</h3>";
                 if ("warn" in mods_array[i]) {
                     appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><img class="masterTooltip_'+i+'" src="assets/ico/message.png" title="'+mods_array[i]["warn"]+'"/></div>';
                     tooltipIds.push(i);
@@ -231,7 +240,9 @@
             document.getElementById(div_id+"_gallery").innerHTML += appendStr
             document.getElementById(div_id+"_title").innerHTML = '<h1 style="font-size:48px;"><b>'+title+'</b></h1>'
             for (var i=0; i<tooltipIds.length; i++)
-                applyTooltip(tooltipIds[i]);
+                applyTooltip("masterTooltip", tooltipIds[i]);
+            for (var i=0; i<partTipIds.length; i++)
+                applyTooltip("partTooltip", partTipIds[i]);
         }
 
         //////////////////////////////////////////////////////////////////////////////////
@@ -451,7 +462,8 @@
             "desc":   "Allows you to spawn a variety of creatures at the press of a button while playing in story mode.",
             "warn":   "Requires Rusty Machine to be installed.",
             "part":   true,
-            "dll":    false
+            "dll":    false,
+            "patch":  false
         });
 
         Mods15.push({
@@ -462,7 +474,8 @@
             "thumb":  "previews/skittle.png",
             "desc":   "Constantly fluctuates slugcat's color through every color in the rainbow.",
             "part":   true,
-            "dll":    false
+            "dll":    false,
+            "patch":  true
         });
 
         Mods15.push({
@@ -473,7 +486,8 @@
             "thumb":  "previews/larry.png",
             "desc":   "Pitch modulates all of the sound effects in the game over time.",
             "part":   true,
-            "dll":    false
+            "dll":    false,
+            "patch":  false
         });
 
         Mods15.push({
@@ -484,7 +498,8 @@
             "thumb":  "previews/rustymachine.png",
             "desc":   "Core utility functions to help make Partiality mods. This must be installed for certain partiality mods to function properly.",
             "part":   true,
-            "dll":    false
+            "dll":    false,
+            "patch":  false
         });
 
         Mods15.push({
@@ -495,7 +510,8 @@
             "thumb":  "previews/exceptionhandler.png",
             "desc":   "Outputs errors and console output to help with debugging mods.",
             "part":   true,
-            "dll":    false
+            "dll":    false,
+            "patch":  false
         });
 
         generateHTML("1.5", Mods15, "dll", "v1.5 Mods (Standalone)");
