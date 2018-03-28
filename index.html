@@ -210,8 +210,8 @@
                 appendStr += '<img src="' + mods_array[i]["thumb"] + '?raw=true" alt="" data-ax2x="' + mods_array[i]["thumb"] + '?raw=true" style="width:360px;height:250px;"></div>';
                 appendStr += '<h3><a href="' + mods_array[i]["url"] + '" style="margin-left: 0px; margin-top: -1px;"><b>' + mods_array[i]["name"] + '</b></a> <a href="'
                     + mods_array[i]["url"] + '"><i class="fa fa-angle-right"></i></a>';
-                                if ("patch" in mods_array[i]) {
-                if (mods_array[i]["patch"] == true)
+                if ("patch" in mods_array[i]) {
+                    if (mods_array[i]["patch"] == true)
                         appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><img class="partTooltip_'+i+'" src="assets/ico/patch.png" title="Partiality Patch"/></div>';
                     else
                         appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><img class="partTooltip_'+i+'" src="assets/ico/mod.png" title="Partiality Mod"/></div>';
@@ -309,7 +309,7 @@
         generateHTML("utilities", ToolMods, "", "Modding Tools");
 
         //////////////////////////////////////////////////////////////////////////////////
-        // VERSION 1.5 MODS
+        // VERSION 1.5 STANDALONE MODS
         //////////////////////////////////////////////////////////////////////////////////
         var Mods15 = [];
 
@@ -320,7 +320,6 @@
             "url":    "https://drive.google.com/file/d/1Ps7pdyQsNQUn1O-6PVLMiBfb1m6-aCKq/view",
             "thumb":  "previews/iconroot.png",
             "desc":   "A new region expanding on Subterranean, and The Exterior, with all new rooms. Made to give exploration focused players more Rain World to discover.",
-            "part":   false,
             "dll":    true
         });
 
@@ -332,7 +331,6 @@
             "code":   "code/side_house.html",
             "thumb":  "previews/sidehouse_preview.png",
             "desc":   "Adds a new region connecting Shoreline, 5P, and Depths. An amalgamation of many of the game's unused rooms. Also includes a couple custom unlockable maps for arena mode.",
-            "part":   false,
             "dll":    true
         });
 
@@ -343,7 +341,6 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/402078378997579776/Assembly-CSharp.dll",
             "thumb":  "previews/buffed_lizards.png",
             "desc":   "Changes the attributes of many creatures in the game, generally making them tougher and more intimidating.",
-            "part":   false,
             "dll":    true
         });
 
@@ -355,7 +352,6 @@
             "code":   "code/camo_mod.html",
             "thumb":  "previews/camomod.png",
             "desc":   "This mod makes your slugcat almost invisible, just like a white lizard! As long as you stand still, other creatures can't see you.",
-            "part":   false,
             "dll":    true
         });
 
@@ -366,7 +362,6 @@
             "url":    "https://drive.google.com/file/d/1Jfh7mpFRBxal23JZ5gN-WAJgf2Loljxx/view",
             "thumb":  "previews/ArenaCover.PNG",
             "desc":   "This mod adds 13 new arenas to the game to fight and experiment in.",
-            "part":   false,
             "dll":    true
         });
 
@@ -377,7 +372,6 @@
             "url":    "https://drive.google.com/file/d/1GVlTlMvllUe7dA9Texcxl3pUZ1hhYLFm/view",
             "thumb":  "previews/pebblearena.png",
             "desc":   "Takes three single screen levels from Five Pebbles and adds them as Arenas. Complete with broken zero-g, a memory lab, and a gravity distributor.",
-            "part":   false,
             "dll":    true
         });
 
@@ -389,7 +383,6 @@
             "code":   "code/color_mod.html",
             "thumb":  "previews/customcolors_preview.jpg",
             "desc":   "Allows you to customize your slugcat's body and eye colors! Finally you can roam the industrial wastes as a magnificent colored creature.",
-            "part":   false,
             "dll":    true
         });
 
@@ -401,7 +394,6 @@
             "code":   "code/spear_rifle.html",
             "thumb":  "previews/spearrifle_preview.jpg",
             "desc":   "Adds several overpowered rifles to the game that rapid-fire spears and stuff.",
-            "part":   false,
             "dll":    true
         });
 
@@ -413,7 +405,6 @@
             "code":   "code/coop.html",
             "thumb":  "previews/coop.png",
             "desc":   "Enables a partially functional early access version of the multiplayer co-op mode that is planned to be released in a future Rain World update.",
-            "part":   false,
             "dll":    true
         });
 
@@ -425,7 +416,6 @@
             "code":   "code/red_cycles.html",
             "thumb":  "previews/redcycle_andrew_preview.png",
             "desc":   "Removes the cycle limit when playing as the Hunter, allowing for endless exploring without the impending doom of taking too many cycles.",
-            "part":   false,
             "dll":    true
         });
 
@@ -437,7 +427,6 @@
             "code":   "code/zerog.html",
             "thumb":  "previews/zerog.png",
             "desc":   "A small mod that makes everything zero gravity everywhere. Don't fall into the sky!",
-            "part":   false,
             "dll":    true
         });
 
@@ -449,9 +438,12 @@
             "code":   "code/max_cycles.html",
             "thumb":  "previews/literallyunplayable_preview.jpg",
             "desc":   "Removes RNG from the Rain Timer so that all cycles are the maximum duration.",
-            "part":   false,
             "dll":    true
         });
+
+        //////////////////////////////////////////////////////////////////////////////////
+        // VERSION 1.5 PARTIALITY MODS
+        //////////////////////////////////////////////////////////////////////////////////
 
         Mods15.push({
             "name":   "Beastmaster",
@@ -462,7 +454,6 @@
             "desc":   "Allows you to spawn a variety of creatures at the press of a button, in all game types including story mode and arena.",
             "warn":   "Requires Rusty Machine to be installed.",
             "part":   true,
-            "dll":    false,
             "patch":  false
         });
 
@@ -474,7 +465,6 @@
             "thumb":  "previews/skittle.png",
             "desc":   "Constantly fluctuates slugcat's color through every color in the rainbow.",
             "part":   true,
-            "dll":    false,
             "patch":  true
         });
 
@@ -486,8 +476,40 @@
             "thumb":  "previews/larry.png",
             "desc":   "Pitch modulates all of the sound effects in the game over time.",
             "part":   true,
-            "dll":    false,
             "patch":  false
+        });
+
+        Mods15.push({
+            "name":   "Unlimited Cycles for Hunter",
+            "author": "AndrewFM and Four Safes",
+            "type":   "Difficulty Tweak",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428227134436278272/red_cycles.dll",
+            "thumb":  "previews/redcycle_andrew_preview.png",
+            "desc":   "Removes the cycle limit when playing as the Hunter, allowing for endless exploring without the impending doom of taking too many cycles.",
+            "part":    true,
+            "patch":   true
+        });
+
+        Mods15.push({
+            "name":   "Zero Gravity Mod",
+            "author": "Four Safes, Eleven Trees",
+            "type":   "Game Tweak",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428228532557316099/0g.dll",
+            "thumb":  "previews/zerog.png",
+            "desc":   "A small mod that makes everything zero gravity everywhere. Don't fall into the sky!",
+            "part":    true,
+            "patch":   true
+        });
+
+        Mods15.push({
+            "name":   "Max Rain Timer",
+            "author": "Sycamorph and Four Safes",
+            "type":   "Game Tweak",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428229794992226304/max_rain_timer.dll",
+            "thumb":  "previews/literallyunplayable_preview.jpg",
+            "desc":   "Removes RNG from the Rain Timer so that all cycles are the maximum duration.",
+            "part":    true,
+            "patch":   true
         });
 
         Mods15.push({
@@ -498,7 +520,6 @@
             "thumb":  "previews/rustymachine.png",
             "desc":   "Core utility functions to help make Partiality mods. This must be installed for certain partiality mods to function properly.",
             "part":   true,
-            "dll":    false,
             "patch":  false
         });
 
@@ -510,7 +531,6 @@
             "thumb":  "previews/exceptionhandler.png",
             "desc":   "Outputs errors and console output to help with debugging mods.",
             "part":   true,
-            "dll":    false,
             "patch":  false
         });
 
