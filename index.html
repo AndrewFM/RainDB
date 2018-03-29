@@ -198,6 +198,7 @@
             var appendStr = ""
             var count = 0
             var tooltipIds = []
+            var warnTipIds = []
             var partTipIds = []
             document.getElementById(div_id+"_gallery").innerHTML = ""
             for (var i=0; i<mods_array.length; i++) {
@@ -218,9 +219,13 @@
                     partTipIds.push(i);
                 }
                 appendStr += "</h3>";
-                if ("warn" in mods_array[i]) {
-                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><img class="masterTooltip_'+i+'" src="assets/ico/message.png" title="'+mods_array[i]["warn"]+'"/></div>';
+                if ("req" in mods_array[i]) {
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><img class="masterTooltip_'+i+'" src="assets/ico/message.png" title="'+mods_array[i]["req"]+'"/></div>';
                     tooltipIds.push(i);
+                }
+                if ("warn" in mods_array[i]) {
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><img class="warnTooltip_'+i+'" src="assets/ico/Warning.png" title="'+mods_array[i]["warn"]+'"/></div>';
+                    warnTipIds.push(i);
                 }
                 appendStr += '<div class="portfolio-box-date"><p style="margin-left: 0px; margin-top: -10px;">';
                 if ("code" in mods_array[i]) {
@@ -243,6 +248,8 @@
                 applyTooltip("masterTooltip", tooltipIds[i]);
             for (var i=0; i<partTipIds.length; i++)
                 applyTooltip("partTooltip", partTipIds[i]);
+            for (var i=0; i<warnTipIds.length; i++)
+                applyTooltip("warnTooltip", warnTipIds[i]);
         }
 
         //////////////////////////////////////////////////////////////////////////////////
@@ -452,9 +459,21 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/427532208039788544/Beastmaster.dll",
             "thumb":  "previews/beastmaster.png",
             "desc":   "Allows you to spawn a variety of creatures at the press of a button, in all game types including story mode and arena.",
-            "warn":   "Requires Rusty Machine to be installed.",
+            "req":   "Requires Rusty Machine to be installed.",
             "part":   true,
             "patch":  false
+        });
+
+        Mods15.push({
+            "name":   "Camo Slugcat Mod",
+            "author": "loderunner and AndrewFM",
+            "type":   "Slugcat Abilities",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428749738272096257/CamoSlugcat.dll",
+            "thumb":  "previews/camomod.png",
+            "desc":   "This mod makes your slugcat almost invisible, just like a white lizard! As long as you stand still, other creatures can't see you.",
+            "warn":   "Incompatible with Skittlekat",
+            "part":    true,
+            "patch":   true
         });
 
         Mods15.push({
@@ -464,6 +483,7 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/426546093749305344/Skittlekat.dll",
             "thumb":  "previews/skittle.png",
             "desc":   "Constantly fluctuates slugcat's color through every color in the rainbow.",
+            "warn":   "Incompatible with Camo Slugcat Mod",
             "part":   true,
             "patch":  true
         });
@@ -491,23 +511,23 @@
         });
 
         Mods15.push({
-            "name":   "Max Rain Timer",
-            "author": "Sycamorph and Four Safes",
-            "type":   "Game Tweak",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428229794992226304/max_rain_timer.dll",
-            "thumb":  "previews/literallyunplayable_preview.jpg",
-            "desc":   "Removes RNG from the Rain Timer so that all cycles are the maximum duration.",
-            "part":    true,
-            "patch":   true
-        });
-
-        Mods15.push({
             "name":   "Flatmode Fix",
             "author": "AndrewFM",
             "type":   "Bug Fix",
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428732049675911178/PartialityFlatmode.dll",
             "thumb":  "previews/flatmode_preview.png",
             "desc":   "Fixes the bug that causes the game to crash on the hibernation screen when playing with flatmode.txt.",
+            "part":    true,
+            "patch":   true
+        });
+
+        Mods15.push({
+            "name":   "Max Rain Timer",
+            "author": "Sycamorph and Four Safes",
+            "type":   "Game Tweak",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428229794992226304/max_rain_timer.dll",
+            "thumb":  "previews/literallyunplayable_preview.jpg",
+            "desc":   "Removes RNG from the Rain Timer so that all cycles are the maximum duration.",
             "part":    true,
             "patch":   true
         });
