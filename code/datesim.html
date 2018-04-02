@@ -1,0 +1,320 @@
+<pre style="font-family:Consolas;font-size:13;color:black;background:white;">==============================
+ProcessManager
+==============================
+<span style="color:green;">//&nbsp;Add&nbsp;DatingSim&nbsp;to&nbsp;ProcessID&nbsp;enum</span>
+ 
+<span style="color:green;">//&nbsp;In&nbsp;SwitchMainProcess()</span>
+	<span style="color:blue;">case</span>&nbsp;ProcessManager.ProcessID.DatingSim:
+		<span style="color:blue;">this</span>.currentMainLoop&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;DatingSim(<span style="color:blue;">this</span>);
+		<span style="color:blue;">if</span>&nbsp;(mainLoopProcess&nbsp;!=&nbsp;<span style="color:blue;">null</span>)
+		{
+			mainLoopProcess.CommunicateWithUpcomingProcess(<span style="color:blue;">this</span>.currentMainLoop);
+		}
+		<span style="color:blue;">this</span>.blackFadeTime&nbsp;=&nbsp;<span style="color:blue;">this</span>.currentMainLoop.FadeInTime;
+		<span style="color:blue;">this</span>.blackDelay&nbsp;=&nbsp;<span style="color:blue;">this</span>.currentMainLoop.InitialBlackSeconds;
+		<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.fadeSprite&nbsp;!=&nbsp;<span style="color:blue;">null</span>)
+		{
+			<span style="color:blue;">this</span>.fadeSprite.RemoveFromContainer();
+			Futile.stage.AddChild(<span style="color:blue;">this</span>.fadeSprite);
+		}
+		<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.loadingLabel&nbsp;!=&nbsp;<span style="color:blue;">null</span>)
+		{
+			<span style="color:blue;">this</span>.loadingLabel.RemoveFromContainer();
+			Futile.stage.AddChild(<span style="color:blue;">this</span>.loadingLabel);
+		}
+		<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.musicPlayer&nbsp;!=&nbsp;<span style="color:blue;">null</span>)
+		{
+			<span style="color:blue;">this</span>.musicPlayer.UpdateMusicContext(<span style="color:blue;">this</span>.currentMainLoop);
+		}
+		<span style="color:blue;">this</span>.pauseFadeUpdate&nbsp;=&nbsp;<span style="color:blue;">true</span>;
+		<span style="color:blue;">break</span>;
+ 
+==============================
+IntroRoll&nbsp;{&nbsp;Menu}
+==============================
+<span style="color:green;">//&nbsp;In&nbsp;GoToMenu()</span>
+	<span style="color:blue;">this</span>.manager.RequestMainProcessSwitch(ProcessManager.ProcessID.DatingSim);
+ 
+==============================
+SimpleButton&nbsp;{&nbsp;Menu}
+==============================
+<span style="color:green;">//&nbsp;In&nbsp;GrafUpdate()</span>
+	<span style="color:blue;">this</span>.menuLabel.label.color&nbsp;=&nbsp;<span style="color:blue;">this</span>.MyColor(timeStacker);
+	<span style="color:blue;">this</span>.menuLabel.label.color&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;Color(1f&nbsp;-&nbsp;<span style="color:blue;">this</span>.menuLabel.label.color.r,&nbsp;1f&nbsp;-&nbsp;<span style="color:blue;">this</span>.menuLabel.label.color.g,&nbsp;1f&nbsp;-&nbsp;<span style="color:blue;">this</span>.menuLabel.label.color.b);
+	<span style="color:green;">//&nbsp;...</span>
+	<span style="color:blue;">this</span>.selectRect.sprites[j].color&nbsp;=&nbsp;<span style="color:blue;">this</span>.MyColor(timeStacker);
+	<span style="color:blue;">this</span>.selectRect.sprites[j].color&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;Color(1f&nbsp;-&nbsp;<span style="color:blue;">this</span>.selectRect.sprites[j].color.r,&nbsp;1f&nbsp;-&nbsp;<span style="color:blue;">this</span>.selectRect.sprites[j].color.g,&nbsp;1f&nbsp;-&nbsp;<span style="color:blue;">this</span>.selectRect.sprites[j].color.b);
+ 
+==============================
+DatingSim&nbsp;{Menu}&nbsp;(<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">class</span>)
+==============================
+<span style="color:blue;">using</span>&nbsp;System;
+<span style="color:blue;">using</span>&nbsp;System.Collections.Generic;
+<span style="color:blue;">using</span>&nbsp;System.IO;
+<span style="color:blue;">using</span>&nbsp;System.Text.RegularExpressions;
+<span style="color:blue;">using</span>&nbsp;RWCustom;
+<span style="color:blue;">using</span>&nbsp;UnityEngine;
+ 
+<span style="color:blue;">namespace</span>&nbsp;Menu&nbsp;{
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">class</span>&nbsp;<span style="color:#2b91af;">DatingSim</span>&nbsp;:&nbsp;Menu&nbsp;{
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">bool</span>&nbsp;ForceNoMouseMode&nbsp;{
+			<span style="color:blue;">get</span>&nbsp;{
+				<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">false</span>;
+			}
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">bool</span>&nbsp;FreezeMenuFunctions&nbsp;{
+			<span style="color:blue;">get</span>&nbsp;{
+				<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">false</span>;
+			}
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;DatingSim(ProcessManager&nbsp;manager)&nbsp;:&nbsp;<span style="color:blue;">base</span>(manager,&nbsp;ProcessManager.ProcessID.DatingSim)&nbsp;{
+			<span style="color:blue;">this</span>.pages.Add(<span style="color:blue;">new</span>&nbsp;Page(<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">null</span>,&nbsp;<span style="color:#a31515;">&quot;main&quot;</span>,&nbsp;0));
+			<span style="color:blue;">if</span>&nbsp;(manager.musicPlayer&nbsp;!=&nbsp;<span style="color:blue;">null</span>)&nbsp;{
+				manager.musicPlayer.FadeOutAllSongs(30f);
+			}
+			<span style="color:blue;">this</span>.musicTimes&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;Dictionary&lt;<span style="color:blue;">string</span>,&nbsp;<span style="color:blue;">float</span>&gt;();
+			<span style="color:blue;">this</span>.bg&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;MenuIllustration(<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">this</span>.scene,&nbsp;<span style="color:#a31515;">&quot;Content&quot;</span>,&nbsp;<span style="color:#a31515;">&quot;bg&quot;</span>,&nbsp;Vector2.zero,&nbsp;<span style="color:blue;">true</span>,&nbsp;<span style="color:blue;">true</span>);
+			<span style="color:blue;">this</span>.bg.sprite.scaleX&nbsp;=&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.x;
+			<span style="color:blue;">this</span>.bg.sprite.scaleY&nbsp;=&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.y;
+			<span style="color:blue;">this</span>.bg.sprite.anchorX&nbsp;=&nbsp;0f;
+			<span style="color:blue;">this</span>.bg.sprite.anchorY&nbsp;=&nbsp;0f;
+			<span style="color:blue;">this</span>.slugcat&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;MenuIllustration(<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">this</span>.scene,&nbsp;<span style="color:#a31515;">&quot;Content&quot;</span>,&nbsp;<span style="color:#a31515;">&quot;sm1&quot;</span>,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.x&nbsp;/&nbsp;7f&nbsp;*&nbsp;2f&nbsp;+&nbsp;(1366f&nbsp;-&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.x)&nbsp;-&nbsp;50f,&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.y&nbsp;*&nbsp;0.7f),&nbsp;<span style="color:blue;">true</span>,&nbsp;<span style="color:blue;">true</span>);
+			<span style="color:blue;">this</span>.other&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;MenuIllustration(<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">this</span>.scene,&nbsp;<span style="color:#a31515;">&quot;Content&quot;</span>,&nbsp;<span style="color:#a31515;">&quot;BL1&quot;</span>,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.x&nbsp;/&nbsp;7f&nbsp;*&nbsp;5f&nbsp;+&nbsp;(1366f&nbsp;-&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.x)&nbsp;-&nbsp;50f,&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.y&nbsp;*&nbsp;0.7f),&nbsp;<span style="color:blue;">true</span>,&nbsp;<span style="color:blue;">true</span>);
+			<span style="color:blue;">this</span>.pages[0].subObjects.Add(<span style="color:blue;">this</span>.bg);
+			<span style="color:blue;">this</span>.pages[0].subObjects.Add(<span style="color:blue;">this</span>.slugcat);
+			<span style="color:blue;">this</span>.pages[0].subObjects.Add(<span style="color:blue;">this</span>.other);
+			<span style="color:blue;">this</span>.defaultXOrientation&nbsp;=&nbsp;0.5f;
+			<span style="color:blue;">this</span>.messages&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;List&lt;<span style="color:#2b91af;">DatingSim</span>.<span style="color:#2b91af;">Message</span>&gt;();
+			<span style="color:blue;">this</span>.messageLabels&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;List&lt;MenuLabel&gt;();
+			<span style="color:blue;">this</span>.messageButtons&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;List&lt;SimpleButton&gt;();
+			<span style="color:blue;">this</span>.InitNextFile(<span style="color:#a31515;">&quot;start.txt&quot;</span>);
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">void</span>&nbsp;GrafUpdate(<span style="color:blue;">float</span>&nbsp;timeStacker)&nbsp;{
+			<span style="color:blue;">base</span>.GrafUpdate(timeStacker);
+			<span style="color:blue;">float</span>&nbsp;num&nbsp;=&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.screenSize.y&nbsp;*&nbsp;0.35f&nbsp;+&nbsp;<span style="color:blue;">this</span>.totalHeight&nbsp;*&nbsp;0.5f;
+			Vector2&nbsp;vector&nbsp;=&nbsp;<span style="color:blue;">this</span>.DrawPos(timeStacker);
+			<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;<span style="color:blue;">this</span>.messageLabels.Count;&nbsp;i++)&nbsp;{
+				<span style="color:blue;">this</span>.messageLabels[i].pos&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(vector.x&nbsp;-&nbsp;<span style="color:blue;">this</span>.messageWidths[i]&nbsp;*&nbsp;0.5f,&nbsp;num&nbsp;-&nbsp;<span style="color:#2b91af;">DatingSim</span>.lineHeight&nbsp;*&nbsp;0.6666f);
+				<span style="color:blue;">if</span>&nbsp;(i&nbsp;==&nbsp;<span style="color:blue;">this</span>.showLine)&nbsp;{
+					<span style="color:blue;">this</span>.messageLabels[i].label.text&nbsp;=&nbsp;<span style="color:blue;">this</span>.showText;
+				}&nbsp;<span style="color:blue;">else</span>&nbsp;<span style="color:blue;">if</span>&nbsp;(i&nbsp;&lt;&nbsp;<span style="color:blue;">this</span>.showLine)&nbsp;{
+					<span style="color:blue;">this</span>.messageLabels[i].label.text&nbsp;=&nbsp;<span style="color:blue;">this</span>.messages[i].text;
+				}&nbsp;<span style="color:blue;">else</span>&nbsp;{
+					<span style="color:blue;">this</span>.messageLabels[i].label.text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;&quot;</span>;
+				}
+				num&nbsp;-=&nbsp;<span style="color:#2b91af;">DatingSim</span>.lineHeight&nbsp;*&nbsp;(<span style="color:blue;">float</span>)<span style="color:blue;">this</span>.messages[i].lines&nbsp;+&nbsp;<span style="color:#2b91af;">DatingSim</span>.messageSep;
+			}
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">void</span>&nbsp;Singal(MenuObject&nbsp;sender,&nbsp;<span style="color:blue;">string</span>&nbsp;message)&nbsp;{
+			<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;<span style="color:blue;">this</span>.messageButtons.Count;&nbsp;i++)&nbsp;{
+				<span style="color:blue;">if</span>&nbsp;(message&nbsp;==&nbsp;<span style="color:#a31515;">&quot;OPTION&quot;</span>&nbsp;+&nbsp;i.ToString())&nbsp;{
+					<span style="color:blue;">this</span>.InitNextFile(<span style="color:blue;">this</span>.optionFiles[i]);
+				}
+			}
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">void</span>&nbsp;Update()&nbsp;{
+			<span style="color:blue;">base</span>.Update();
+			<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.manager.musicPlayer&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;<span style="color:blue;">this</span>.manager.musicPlayer.song&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;<span style="color:blue;">this</span>.musicTimes.ContainsKey(<span style="color:blue;">this</span>.manager.musicPlayer.song.name)&nbsp;&amp;&amp;&nbsp;<span style="color:blue;">this</span>.manager.musicPlayer.song.subTracks[0]&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;<span style="color:blue;">this</span>.manager.musicPlayer.song.subTracks[0].source&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;<span style="color:blue;">this</span>.manager.musicPlayer.song.startedPlaying)&nbsp;{
+				<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.readySetMusicTime)&nbsp;{
+					Debug.Log(<span style="color:#a31515;">&quot;SETTING&nbsp;TIME&quot;</span>);
+					<span style="color:blue;">this</span>.manager.musicPlayer.song.subTracks[0].source.time&nbsp;=&nbsp;<span style="color:blue;">this</span>.musicTimes[<span style="color:blue;">this</span>.manager.musicPlayer.song.name];
+					<span style="color:blue;">this</span>.readySetMusicTime&nbsp;=&nbsp;<span style="color:blue;">false</span>;
+				}
+				<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.manager.musicPlayer.song.subTracks[0].source.clip&nbsp;!=&nbsp;<span style="color:blue;">null</span>&nbsp;&amp;&amp;&nbsp;<span style="color:blue;">this</span>.manager.musicPlayer.song.subTracks[0].source.time&nbsp;&gt;=&nbsp;<span style="color:blue;">this</span>.manager.musicPlayer.song.subTracks[0].source.clip.length)&nbsp;{
+					<span style="color:blue;">this</span>.manager.musicPlayer.song.subTracks[0].source.time&nbsp;=&nbsp;0f;
+				}
+			}
+			<span style="color:blue;">this</span>.counter++;
+			<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.showCharacter&nbsp;&lt;&nbsp;<span style="color:blue;">this</span>.CurrentMessage.text.Length)&nbsp;{
+				<span style="color:blue;">this</span>.showCharacter&nbsp;=&nbsp;Mathf.Min(<span style="color:blue;">this</span>.showCharacter&nbsp;+&nbsp;4,&nbsp;<span style="color:blue;">this</span>.CurrentMessage.text.Length);
+				<span style="color:blue;">this</span>.showText&nbsp;=&nbsp;<span style="color:blue;">this</span>.CurrentMessage.text.Substring(0,&nbsp;<span style="color:blue;">this</span>.showCharacter);
+			}
+			<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.showCharacter&nbsp;&gt;=&nbsp;<span style="color:blue;">this</span>.CurrentMessage.text.Length)&nbsp;{
+				<span style="color:blue;">this</span>.lingerCounter++;
+				<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.lingerCounter&nbsp;&gt;&nbsp;<span style="color:blue;">this</span>.CurrentMessage.linger&nbsp;&amp;&amp;&nbsp;<span style="color:blue;">this</span>.showLine&nbsp;&lt;&nbsp;<span style="color:blue;">this</span>.messages.Count&nbsp;-&nbsp;1)&nbsp;{
+					<span style="color:blue;">this</span>.InitNextMessage();
+				}
+			}
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;Vector2&nbsp;DrawPos(<span style="color:blue;">float</span>&nbsp;timeStacker)&nbsp;{
+			<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(<span style="color:blue;">this</span>.CurrentMessage.xOrientation&nbsp;*&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.screenSize.x&nbsp;+&nbsp;(1366f&nbsp;-&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.x)&nbsp;-&nbsp;50f,&nbsp;<span style="color:blue;">this</span>.CurrentMessage.yPos);
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">void</span>&nbsp;InitNextFile(<span style="color:blue;">string</span>&nbsp;filename)&nbsp;{
+			<span style="color:blue;">string</span>[]&nbsp;array&nbsp;=&nbsp;File.ReadAllLines(<span style="color:blue;">string</span>.Concat(<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">object</span>[]
+			{
+				Custom.RootFolderDirectory(),
+				<span style="color:#a31515;">&quot;Assets&quot;</span>,
+				Path.DirectorySeparatorChar,
+				<span style="color:#a31515;">&quot;Futile&quot;</span>,
+				Path.DirectorySeparatorChar,
+				<span style="color:#a31515;">&quot;Resources&quot;</span>,
+				Path.DirectorySeparatorChar,
+				<span style="color:#a31515;">&quot;Content&quot;</span>,
+				Path.DirectorySeparatorChar,
+				filename
+			}));
+			<span style="color:blue;">this</span>.showLine&nbsp;=&nbsp;0;
+			<span style="color:blue;">this</span>.showCharacter&nbsp;=&nbsp;0;
+			<span style="color:blue;">this</span>.showText&nbsp;=&nbsp;<span style="color:blue;">string</span>.Empty;
+			<span style="color:blue;">this</span>.lingerCounter&nbsp;=&nbsp;0;
+			<span style="color:blue;">this</span>.slugcat.fileName&nbsp;=&nbsp;array[0];
+			<span style="color:blue;">this</span>.slugcat.LoadFile(<span style="color:#a31515;">&quot;Content&quot;</span>);
+			<span style="color:blue;">this</span>.slugcat.sprite.SetElementByName(array[0]);
+			<span style="color:blue;">this</span>.other.fileName&nbsp;=&nbsp;array[1];
+			<span style="color:blue;">this</span>.other.LoadFile(<span style="color:#a31515;">&quot;Content&quot;</span>);
+			<span style="color:blue;">this</span>.other.sprite.SetElementByName(array[1]);
+			<span style="color:blue;">int</span>&nbsp;num&nbsp;=&nbsp;0;
+			<span style="color:blue;">this</span>.messages&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;List&lt;<span style="color:#2b91af;">DatingSim</span>.<span style="color:#2b91af;">Message</span>&gt;();
+			<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;3;&nbsp;i&nbsp;&lt;&nbsp;array.Length;&nbsp;i++)&nbsp;{
+				num&nbsp;=&nbsp;i;
+				<span style="color:blue;">if</span>&nbsp;(array[i]&nbsp;==&nbsp;<span style="color:#a31515;">&quot;&quot;</span>)&nbsp;{
+					<span style="color:blue;">break</span>;
+				}
+				<span style="color:blue;">this</span>.NewMessage(array[i],&nbsp;0);
+			}
+			<span style="color:blue;">this</span>.totalHeight&nbsp;=&nbsp;0f;
+			<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;j&nbsp;=&nbsp;0;&nbsp;j&nbsp;&lt;&nbsp;<span style="color:blue;">this</span>.messages.Count;&nbsp;j++)&nbsp;{
+				<span style="color:blue;">this</span>.totalHeight&nbsp;+=&nbsp;<span style="color:#2b91af;">DatingSim</span>.lineHeight&nbsp;*&nbsp;(<span style="color:blue;">float</span>)<span style="color:blue;">this</span>.messages[j].lines;
+				<span style="color:blue;">if</span>&nbsp;(j&nbsp;!=&nbsp;0)&nbsp;{
+					<span style="color:blue;">this</span>.totalHeight&nbsp;+=&nbsp;<span style="color:#2b91af;">DatingSim</span>.messageSep;
+				}
+			}
+			List&lt;<span style="color:blue;">string</span>&gt;&nbsp;list&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;List&lt;<span style="color:blue;">string</span>&gt;();
+			<span style="color:blue;">this</span>.optionFiles&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;List&lt;<span style="color:blue;">string</span>&gt;();
+			<span style="color:blue;">int</span>&nbsp;num2&nbsp;=&nbsp;-1;
+			<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;k&nbsp;=&nbsp;num&nbsp;+&nbsp;1;&nbsp;k&nbsp;&lt;&nbsp;array.Length;&nbsp;k&nbsp;+=&nbsp;2)&nbsp;{
+				<span style="color:blue;">if</span>&nbsp;(array[k]&nbsp;==&nbsp;<span style="color:#a31515;">&quot;&quot;</span>)&nbsp;{
+					num2&nbsp;=&nbsp;k;
+					<span style="color:blue;">break</span>;
+				}
+				list.Add(array[k]);
+				<span style="color:blue;">this</span>.optionFiles.Add(array[k&nbsp;+&nbsp;1]);
+			}
+			<span style="color:blue;">if</span>&nbsp;(num2&nbsp;!=&nbsp;-1&nbsp;&amp;&amp;&nbsp;<span style="color:blue;">this</span>.manager.musicPlayer&nbsp;!=&nbsp;<span style="color:blue;">null</span>)&nbsp;{
+				<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.manager.musicPlayer.song&nbsp;!=&nbsp;<span style="color:blue;">null</span>)&nbsp;{
+					<span style="color:blue;">this</span>.musicTimes[<span style="color:blue;">this</span>.manager.musicPlayer.song.name]&nbsp;=&nbsp;<span style="color:blue;">this</span>.manager.musicPlayer.song.subTracks[0].source.time;
+				}
+				<span style="color:blue;">if</span>&nbsp;(array[num2&nbsp;+&nbsp;1]&nbsp;==&nbsp;<span style="color:#a31515;">&quot;MUTE&quot;</span>)&nbsp;{
+					<span style="color:blue;">this</span>.manager.musicPlayer.FadeOutAllSongs(30f);
+				}&nbsp;<span style="color:blue;">else</span>&nbsp;{
+					<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.manager.musicPlayer.song&nbsp;!=&nbsp;<span style="color:blue;">null</span>)&nbsp;{
+						<span style="color:blue;">this</span>.manager.musicPlayer.song.StopAndDestroy();
+						<span style="color:blue;">this</span>.manager.musicPlayer.song&nbsp;=&nbsp;<span style="color:blue;">null</span>;
+					}
+					<span style="color:blue;">this</span>.manager.musicPlayer.MenuRequestsSong(array[num2&nbsp;+&nbsp;1],&nbsp;1f,&nbsp;0.7f);
+					<span style="color:blue;">this</span>.readySetMusicTime&nbsp;=&nbsp;<span style="color:blue;">true</span>;
+				}
+			}
+			<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;l&nbsp;=&nbsp;0;&nbsp;l&nbsp;&lt;&nbsp;<span style="color:blue;">this</span>.messageLabels.Count;&nbsp;l++)&nbsp;{
+				<span style="color:blue;">this</span>.messageLabels[l].RemoveSprites();
+				<span style="color:blue;">this</span>.pages[0].subObjects.Remove(<span style="color:blue;">this</span>.messageLabels[l]);
+			}
+			<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;m&nbsp;=&nbsp;0;&nbsp;m&nbsp;&lt;&nbsp;<span style="color:blue;">this</span>.messageButtons.Count;&nbsp;m++)&nbsp;{
+				<span style="color:blue;">this</span>.messageButtons[m].RemoveSprites();
+				<span style="color:blue;">this</span>.pages[0].selectables.Remove(<span style="color:blue;">this</span>.messageButtons[m]);
+				<span style="color:blue;">this</span>.pages[0].subObjects.Remove(<span style="color:blue;">this</span>.messageButtons[m]);
+			}
+			<span style="color:blue;">this</span>.messageLabels&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;List&lt;MenuLabel&gt;();
+			<span style="color:blue;">this</span>.messageButtons&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;List&lt;SimpleButton&gt;();
+			<span style="color:blue;">this</span>.messageWidths&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">float</span>[<span style="color:blue;">this</span>.messages.Count];
+			<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;n&nbsp;=&nbsp;0;&nbsp;n&nbsp;&lt;&nbsp;<span style="color:blue;">this</span>.messages.Count;&nbsp;n++)&nbsp;{
+				MenuLabel&nbsp;menuLabel&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;MenuLabel(<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">this</span>.pages[0],&nbsp;<span style="color:blue;">this</span>.messages[n].text,&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.x&nbsp;*&nbsp;0.1f&nbsp;+&nbsp;(1366f&nbsp;-&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.x)&nbsp;-&nbsp;100f,&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.y&nbsp;*&nbsp;0.8f),&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(100f,&nbsp;30f),&nbsp;<span style="color:blue;">true</span>);
+				menuLabel.label.alignment&nbsp;=&nbsp;FLabelAlignment.Center;
+				menuLabel.label.anchorX&nbsp;=&nbsp;0f;
+				menuLabel.label.anchorY&nbsp;=&nbsp;1f;
+				menuLabel.label.color&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;Color(0.01f,&nbsp;0.01f,&nbsp;0.01f);
+				<span style="color:blue;">this</span>.messageWidths[n]&nbsp;=&nbsp;menuLabel.label.textRect.width;
+				menuLabel.label.text&nbsp;=&nbsp;<span style="color:#a31515;">&quot;&quot;</span>;
+				<span style="color:blue;">this</span>.messageLabels.Add(menuLabel);
+				<span style="color:blue;">this</span>.pages[0].subObjects.Add(menuLabel);
+			}
+			<span style="color:blue;">float</span>&nbsp;num3&nbsp;=&nbsp;270f&nbsp;*&nbsp;(<span style="color:blue;">float</span>)list.Count;
+			<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;num4&nbsp;=&nbsp;0;&nbsp;num4&nbsp;&lt;&nbsp;list.Count;&nbsp;num4++)&nbsp;{
+				SimpleButton&nbsp;simpleButton&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;SimpleButton(<span style="color:blue;">this</span>,&nbsp;<span style="color:blue;">this</span>.pages[0],&nbsp;list[num4],&nbsp;<span style="color:#a31515;">&quot;OPTION&quot;</span>&nbsp;+&nbsp;num4.ToString(),&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.x&nbsp;*&nbsp;0.5f&nbsp;-&nbsp;num3&nbsp;*&nbsp;0.5f&nbsp;+&nbsp;270f&nbsp;*&nbsp;(<span style="color:blue;">float</span>)num4&nbsp;+&nbsp;(1366f&nbsp;-&nbsp;<span style="color:blue;">this</span>.manager.rainWorld.options.ScreenSize.x),&nbsp;15f),&nbsp;<span style="color:blue;">new</span>&nbsp;Vector2(250f,&nbsp;30f));
+				simpleButton.buttonBehav.greyedOut&nbsp;=&nbsp;<span style="color:blue;">false</span>;
+				<span style="color:blue;">this</span>.messageButtons.Add(simpleButton);
+				<span style="color:blue;">this</span>.pages[0].subObjects.Add(simpleButton);
+				<span style="color:blue;">if</span>&nbsp;(num4&nbsp;==&nbsp;0)&nbsp;{
+					<span style="color:blue;">this</span>.pages[0].lastSelectedObject&nbsp;=&nbsp;simpleButton;
+				}
+			}
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">void</span>&nbsp;NewMessage(<span style="color:blue;">string</span>&nbsp;text,&nbsp;<span style="color:blue;">int</span>&nbsp;extraLinger)&nbsp;{
+			<span style="color:blue;">this</span>.NewMessage(text,&nbsp;<span style="color:blue;">this</span>.defaultXOrientation,&nbsp;<span style="color:blue;">this</span>.defaultYPos,&nbsp;extraLinger);
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">void</span>&nbsp;NewMessage(<span style="color:blue;">string</span>&nbsp;text,&nbsp;<span style="color:blue;">float</span>&nbsp;xOrientation,&nbsp;<span style="color:blue;">float</span>&nbsp;yPos,&nbsp;<span style="color:blue;">int</span>&nbsp;extraLinger)&nbsp;{
+			<span style="color:blue;">this</span>.messages.Add(<span style="color:blue;">new</span>&nbsp;<span style="color:#2b91af;">DatingSim</span>.<span style="color:#2b91af;">Message</span>(text,&nbsp;xOrientation,&nbsp;yPos,&nbsp;extraLinger));
+			<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.messages.Count&nbsp;==&nbsp;1)&nbsp;{
+				<span style="color:blue;">this</span>.showLine&nbsp;=&nbsp;-1;
+				<span style="color:blue;">this</span>.InitNextMessage();
+			}
+		}
+ 
+		<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">void</span>&nbsp;InitNextMessage()&nbsp;{
+			<span style="color:blue;">this</span>.showCharacter&nbsp;=&nbsp;0;
+			<span style="color:blue;">this</span>.showText&nbsp;=&nbsp;<span style="color:blue;">string</span>.Empty;
+			<span style="color:blue;">this</span>.showLine++;
+			<span style="color:blue;">this</span>.lingerCounter&nbsp;=&nbsp;0;
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;<span style="color:#2b91af;">DatingSim</span>.<span style="color:#2b91af;">Message</span>&nbsp;CurrentMessage&nbsp;{
+			<span style="color:blue;">get</span>&nbsp;{
+				<span style="color:blue;">return</span>&nbsp;<span style="color:blue;">this</span>.messages[<span style="color:blue;">this</span>.showLine];
+			}
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;SimpleButton&nbsp;exitButton;
+		<span style="color:blue;">public</span>&nbsp;MenuLabel[]&nbsp;labels;
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">int</span>&nbsp;counter;
+		<span style="color:blue;">public</span>&nbsp;MenuIllustration&nbsp;slugcat;
+		<span style="color:blue;">public</span>&nbsp;MenuIllustration&nbsp;other;
+		<span style="color:blue;">public</span>&nbsp;MenuIllustration&nbsp;bg;
+		<span style="color:blue;">public</span>&nbsp;List&lt;<span style="color:#2b91af;">DatingSim</span>.<span style="color:#2b91af;">Message</span>&gt;&nbsp;messages;
+		<span style="color:blue;">public</span>&nbsp;List&lt;MenuLabel&gt;&nbsp;messageLabels;
+		<span style="color:blue;">public</span>&nbsp;List&lt;SimpleButton&gt;&nbsp;messageButtons;
+		<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">float</span>&nbsp;totalHeight;
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">float</span>&nbsp;lineHeight&nbsp;=&nbsp;15f;
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">float</span>&nbsp;messageSep&nbsp;=&nbsp;15f;
+		<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">int</span>&nbsp;showCharacter;
+		<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">int</span>&nbsp;showLine;
+		<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">string</span>&nbsp;showText;
+		<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">int</span>&nbsp;lingerCounter;
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">float</span>[]&nbsp;messageWidths;
+		<span style="color:blue;">public</span>&nbsp;List&lt;<span style="color:blue;">string</span>&gt;&nbsp;optionFiles;
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">float</span>&nbsp;defaultXOrientation;
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">float</span>&nbsp;defaultYPos;
+		<span style="color:blue;">private</span>&nbsp;Dictionary&lt;<span style="color:blue;">string</span>,&nbsp;<span style="color:blue;">float</span>&gt;&nbsp;musicTimes;
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">bool</span>&nbsp;readySetMusicTime;
+ 
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">class</span>&nbsp;<span style="color:#2b91af;">Message</span>&nbsp;{
+			<span style="color:blue;">public</span>&nbsp;Message(<span style="color:blue;">string</span>&nbsp;text,&nbsp;<span style="color:blue;">float</span>&nbsp;xOrientation,&nbsp;<span style="color:blue;">float</span>&nbsp;yPos,&nbsp;<span style="color:blue;">int</span>&nbsp;extraLinger)&nbsp;{
+				<span style="color:blue;">this</span>.text&nbsp;=&nbsp;Regex.Replace(text,&nbsp;<span style="color:#a31515;">&quot;&lt;LINE&gt;&quot;</span>,&nbsp;Environment.NewLine);
+				<span style="color:blue;">this</span>.xOrientation&nbsp;=&nbsp;xOrientation;
+				<span style="color:blue;">this</span>.linger&nbsp;=&nbsp;Mathf.Max(20,&nbsp;(<span style="color:blue;">int</span>)((<span style="color:blue;">float</span>)text.Length&nbsp;*&nbsp;0.35f)&nbsp;+&nbsp;extraLinger);
+				<span style="color:blue;">string</span>[]&nbsp;array&nbsp;=&nbsp;Regex.Split(text,&nbsp;<span style="color:#a31515;">&quot;&lt;LINE&gt;&quot;</span>);
+				<span style="color:blue;">for</span>&nbsp;(<span style="color:blue;">int</span>&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;array.Length;&nbsp;i++)&nbsp;{
+					<span style="color:blue;">this</span>.longestLine&nbsp;=&nbsp;Math.Max(<span style="color:blue;">this</span>.longestLine,&nbsp;array[i].Length);
+				}
+				<span style="color:blue;">this</span>.lines&nbsp;=&nbsp;array.Length;
+				<span style="color:blue;">this</span>.yPos&nbsp;=&nbsp;yPos&nbsp;+&nbsp;(20f&nbsp;+&nbsp;15f&nbsp;*&nbsp;(<span style="color:blue;">float</span>)<span style="color:blue;">this</span>.lines);
+			}
+ 
+			<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">float</span>&nbsp;xOrientation;
+			<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">float</span>&nbsp;yPos;
+			<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">string</span>&nbsp;text;
+			<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">int</span>&nbsp;linger;
+			<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">int</span>&nbsp;lines;
+			<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">int</span>&nbsp;longestLine;
+		}
+	}
+}
+</pre>
