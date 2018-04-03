@@ -1,0 +1,64 @@
+<pre style="font-family:Consolas;font-size:13;color:black;background:white;"><span style="color:blue;">using</span>&nbsp;System;
+<span style="color:blue;">using</span>&nbsp;System.Collections.Generic;
+<span style="color:blue;">using</span>&nbsp;System.Linq;
+<span style="color:blue;">using</span>&nbsp;System.Text;
+<span style="color:blue;">using</span>&nbsp;System.Threading.Tasks;
+<span style="color:blue;">using</span>&nbsp;RWCustom;
+<span style="color:blue;">using</span>&nbsp;UnityEngine;
+ 
+<span style="color:blue;">namespace</span>&nbsp;PartialityFlatmode
+{
+	[MonoMod.<span style="color:#2b91af;">MonoModPatch</span>(<span style="color:#a31515;">&quot;global::Menu.SleepAndDeathScreen&quot;</span>)]
+	<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">class</span>&nbsp;<span style="color:#2b91af;">patch_SleepAndDeathScreen</span>&nbsp;:&nbsp;Menu.<span style="color:#2b91af;">SleepAndDeathScreen</span>
+	{
+		[MonoMod.<span style="color:#2b91af;">MonoModIgnore</span>]
+		<span style="color:blue;">public</span>&nbsp;patch_SleepAndDeathScreen(<span style="color:#2b91af;">ProcessManager</span>&nbsp;manager,&nbsp;<span style="color:#2b91af;">ProcessManager</span>.<span style="color:#2b91af;">ProcessID</span>&nbsp;ID)&nbsp;:&nbsp;<span style="color:blue;">base</span>(manager,&nbsp;ID)&nbsp;{
+		}
+ 
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">extern</span>&nbsp;<span style="color:blue;">void</span>&nbsp;orig_Update();
+		<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">void</span>&nbsp;Update()&nbsp;{
+			<span style="color:blue;">if</span>&nbsp;(starvedWarningCounter&nbsp;&gt;=&nbsp;0)&nbsp;{
+				starvedWarningCounter++;
+			}
+			<span style="color:blue;">var</span>&nbsp;ptr&nbsp;=&nbsp;<span style="color:blue;">typeof</span>(Menu.<span style="color:#2b91af;">KarmaLadderScreen</span>).GetMethod(<span style="color:#a31515;">&quot;Update&quot;</span>).MethodHandle.GetFunctionPointer();
+			<span style="color:blue;">var</span>&nbsp;funct&nbsp;=&nbsp;(<span style="color:#2b91af;">Action</span>)<span style="color:#2b91af;">Activator</span>.CreateInstance(<span style="color:blue;">typeof</span>(<span style="color:#2b91af;">Action</span>),&nbsp;<span style="color:blue;">this</span>,&nbsp;ptr);
+			funct();
+			<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.exitButton&nbsp;!=&nbsp;<span style="color:blue;">null</span>)&nbsp;{
+				<span style="color:blue;">this</span>.exitButton.buttonBehav.greyedOut&nbsp;=&nbsp;<span style="color:blue;">this</span>.ButtonsGreyedOut;
+			}
+			<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.passageButton&nbsp;!=&nbsp;<span style="color:blue;">null</span>)&nbsp;{
+				<span style="color:blue;">this</span>.passageButton.buttonBehav.greyedOut&nbsp;=&nbsp;(<span style="color:blue;">this</span>.ButtonsGreyedOut&nbsp;||&nbsp;<span style="color:blue;">this</span>.goalMalnourished);
+				<span style="color:blue;">this</span>.passageButton.black&nbsp;=&nbsp;<span style="color:#2b91af;">Mathf</span>.Max(0f,&nbsp;<span style="color:blue;">this</span>.passageButton.black&nbsp;-&nbsp;0.0125f);
+			}
+			<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.endGameSceneCounter&nbsp;&gt;=&nbsp;0)&nbsp;{
+				<span style="color:blue;">this</span>.endGameSceneCounter++;
+				<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.endGameSceneCounter&nbsp;&gt;&nbsp;140)&nbsp;{
+					<span style="color:blue;">this</span>.manager.RequestMainProcessSwitch(<span style="color:#2b91af;">ProcessManager</span>.<span style="color:#2b91af;">ProcessID</span>.CustomEndGameScreen);
+				}
+			}
+			<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.RevealMap)&nbsp;{
+				<span style="color:blue;">this</span>.fadeOutIllustration&nbsp;=&nbsp;<span style="color:#2b91af;">Custom</span>.LerpAndTick(<span style="color:blue;">this</span>.fadeOutIllustration,&nbsp;1f,&nbsp;0.02f,&nbsp;0.025f);
+			}&nbsp;<span style="color:blue;">else</span>&nbsp;{
+				<span style="color:blue;">this</span>.fadeOutIllustration&nbsp;=&nbsp;<span style="color:#2b91af;">Custom</span>.LerpAndTick(<span style="color:blue;">this</span>.fadeOutIllustration,&nbsp;0f,&nbsp;0.02f,&nbsp;0.025f);
+			}
+			<span style="color:blue;">if</span>&nbsp;(!<span style="color:blue;">this</span>.manager.rainWorld.flatIllustrations)&nbsp;{
+				<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.IsSleepScreen)&nbsp;{
+					<span style="color:blue;">this</span>.scene.depthIllustrations[0].setAlpha&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">float</span>?(<span style="color:#2b91af;">Mathf</span>.Lerp(1f,&nbsp;0.2f,&nbsp;<span style="color:blue;">this</span>.fadeOutIllustration));
+					<span style="color:blue;">this</span>.scene.depthIllustrations[1].setAlpha&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">float</span>?(<span style="color:#2b91af;">Mathf</span>.Lerp(0.24f,&nbsp;0.1f,&nbsp;<span style="color:blue;">this</span>.fadeOutIllustration));
+					<span style="color:blue;">this</span>.scene.depthIllustrations[2].setAlpha&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">float</span>?(<span style="color:#2b91af;">Mathf</span>.Lerp(1f,&nbsp;0.35f,&nbsp;<span style="color:blue;">this</span>.fadeOutIllustration));
+					<span style="color:blue;">return</span>;
+				}
+				<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.IsStarveScreen)&nbsp;{
+					<span style="color:blue;">this</span>.scene.depthIllustrations[0].setAlpha&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">float</span>?(<span style="color:#2b91af;">Mathf</span>.Lerp(0.85f,&nbsp;0.4f,&nbsp;<span style="color:blue;">this</span>.fadeOutIllustration));
+					<span style="color:blue;">return</span>;
+				}
+				<span style="color:blue;">if</span>&nbsp;(<span style="color:blue;">this</span>.IsDeathScreen)&nbsp;{
+					<span style="color:blue;">this</span>.scene.depthIllustrations[0].setAlpha&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">float</span>?(<span style="color:#2b91af;">Mathf</span>.Lerp(1f,&nbsp;0.1f,&nbsp;<span style="color:blue;">this</span>.fadeOutIllustration));
+					<span style="color:blue;">this</span>.scene.depthIllustrations[2].setAlpha&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">float</span>?(<span style="color:#2b91af;">Mathf</span>.Lerp(1f,&nbsp;0.25f,&nbsp;<span style="color:blue;">this</span>.fadeOutIllustration));
+					<span style="color:blue;">this</span>.scene.depthIllustrations[3].setAlpha&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;<span style="color:blue;">float</span>?(<span style="color:#2b91af;">Mathf</span>.Lerp(1f,&nbsp;0.5f,&nbsp;<span style="color:blue;">this</span>.fadeOutIllustration));
+				}
+			}
+		}
+	}
+}
+</pre>

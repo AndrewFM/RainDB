@@ -188,7 +188,7 @@
                 <div id="utilities_gallery"></div>
             </div>
 
-            <div class="row"><br><br><i>Last updated on April 02, 2018.</i></div>         
+            <div class="row"><br><br><i>Last updated on April 03, 2018.</i></div>         
         </div>
     </div>
 
@@ -219,22 +219,24 @@
                     partTipIds.push(i);
                 }
                 appendStr += "</h3>";
+                if ("code" in mods_array[i]) {
+                    var top = -40;
+                    if ("patch" in mods_array[i] && ("req" in mods_array[i] || "warn" in mods_array[i]))
+                        top = 16;
+                    else if ("patch" in mods_array[i])
+                        top = -12;
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-top: '+top+'px; margin-right:20px;"><a href="' + mods_array[i]["code"] + '" target="_blank">[Source]</a></div>';
+                }
                 if ("req" in mods_array[i]) {
-                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><img class="masterTooltip_'+i+'" src="assets/ico/message.png" title="'+mods_array[i]["req"]+'"/></div>';
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-top:-10px; margin-right:20px;"><img class="masterTooltip_'+i+'" src="assets/ico/message.png" title="'+mods_array[i]["req"]+'"/></div>';
                     tooltipIds.push(i);
                 }
                 if ("warn" in mods_array[i]) {
-                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><img class="warnTooltip_'+i+'" src="assets/ico/Warning.png" title="'+mods_array[i]["warn"]+'"/></div>';
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-top:-10px; margin-right:20px;"><img class="warnTooltip_'+i+'" src="assets/ico/Warning.png" title="'+mods_array[i]["warn"]+'"/></div>';
                     warnTipIds.push(i);
                 }
                 appendStr += '<div class="portfolio-box-date"><p style="margin-left: 0px; margin-top: -10px;">';
-                if ("code" in mods_array[i]) {
-                    appendStr += '<div style="display:inline-block">By ' + mods_array[i]["author"] + '</div>';
-                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;"><a href="' + mods_array[i]["code"] + '" target="_blank">[Code Changes]</a></div>';
-                }
-                else {
-                    appendStr += 'By ' + mods_array[i]["author"];
-                }
+                appendStr += 'By ' + mods_array[i]["author"];
                 appendStr += '<br>Mod Type: ' + mods_array[i]["type"]
                 appendStr += '</p></div><p style="text-align:justify">' + mods_array[i]["desc"] + "</p></div>";
                 if (count % 3 == 2 || count == mods_array.length-1) {
@@ -352,17 +354,6 @@
         });
 
         Mods15.push({
-            "name":   "Camo Slugcat Mod",
-            "author": "loderunner",
-            "type":   "Slugcat Abilities",
-            "url":    "https://drive.google.com/file/d/11MVfXE3V8_gslBJ8aI9rgLEsTeZy0PEw/view",
-            "code":   "code/camo_mod.html",
-            "thumb":  "previews/camomod.png",
-            "desc":   "This mod makes your slugcat almost invisible, just like a white lizard! As long as you stand still, other creatures can't see you.",
-            "dll":    true
-        });
-
-        Mods15.push({
             "name":   "Arena Expansion Mod",
             "author": "Dead__Eye",
             "type":   "New Arenas",
@@ -413,40 +404,7 @@
             "thumb":  "previews/coop.png",
             "desc":   "Enables a partially functional early access version of the multiplayer co-op mode that is planned to be released in a future Rain World update.",
             "dll":    true
-        });
-
-        Mods15.push({
-            "name":   "Unlimited Cycles for Hunter",
-            "author": "AndrewFM",
-            "type":   "Game Tweak",
-            "url":    "https://drive.google.com/file/d/1jKwDrZ_gFREC_I64_6QYFi1CGmY4Jhnh/view",
-            "code":   "code/red_cycles.html",
-            "thumb":  "previews/redcycle_andrew_preview.png",
-            "desc":   "Removes the cycle limit when playing as the Hunter, allowing for endless exploring without the impending doom of taking too many cycles.",
-            "dll":    true
-        });
-
-        Mods15.push({
-            "name":   "Max Rain Timer",
-            "author": "Sycamorph",
-            "type":   "Game Tweak",
-            "url":    "https://drive.google.com/file/d/1Q2xVAcfSjO4o7xARfwa0oN5J8If-0Coz/view",
-            "code":   "code/max_cycles.html",
-            "thumb":  "previews/literallyunplayable_preview.jpg",
-            "desc":   "Removes RNG from the Rain Timer so that all cycles are the maximum duration.",
-            "dll":    true
-        });
-
-        Mods15.push({
-            "name":   "Zero Gravity Mod",
-            "author": "Four Safes, Eleven Trees",
-            "type":   "Game Tweak",
-            "url":    "https://drive.google.com/file/d/1LI7291NZJMTxYtQP17SZkKFiQ-BRr-Xz/view",
-            "code":   "code/zerog.html",
-            "thumb":  "previews/zerog.png",
-            "desc":   "A small mod that makes everything zero gravity everywhere. Don't fall into the sky!",
-            "dll":    true
-        });        
+        });    
 
         Mods15.push({
             "name":   "More Slugcats Dating Sim",
@@ -477,12 +435,13 @@
 
         Mods15.push({
             "name":   "Camo Slugcat Mod",
-            "author": "loderunner and AndrewFM",
+            "author": "loderunner & AndrewFM",
             "type":   "Slugcat Abilities",
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428749738272096257/CamoSlugcat.dll",
             "thumb":  "previews/camomod.png",
             "desc":   "This mod makes your slugcat almost invisible, just like a white lizard! As long as you stand still, other creatures can't see you.",
             "warn":   "Incompatible with Skittlekat",
+            "code":   "code/camo_mod.html",
             "part":    true,
             "patch":   true
         });
@@ -512,11 +471,12 @@
 
         Mods15.push({
             "name":   "Unlimited Cycles for Hunter",
-            "author": "AndrewFM and Four Safes",
+            "author": "AndrewFM & Four Safes",
             "type":   "Game Tweak",
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428227134436278272/red_cycles.dll",
             "thumb":  "previews/redcycle_andrew_preview.png",
             "desc":   "Removes the cycle limit when playing as the Hunter, allowing for endless exploring without the impending doom of taking too many cycles.",
+            "code":   "code/red_cycles.html",
             "part":    true,
             "patch":   true
         });
@@ -528,17 +488,19 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428732049675911178/PartialityFlatmode.dll",
             "thumb":  "previews/flatmode_preview.png",
             "desc":   "Fixes the bug that causes the game to crash on the hibernation screen when playing with flatmode.txt.",
+            "code":   "code/flatmode.html",
             "part":    true,
             "patch":   true
         });
 
         Mods15.push({
             "name":   "Max Rain Timer",
-            "author": "Sycamorph and Four Safes",
+            "author": "Sycamorph & Four Safes",
             "type":   "Game Tweak",
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428229794992226304/max_rain_timer.dll",
             "thumb":  "previews/literallyunplayable_preview.jpg",
             "desc":   "Removes RNG from the Rain Timer so that all cycles are the maximum duration.",
+            "code":   "code/max_cycles.html",
             "part":    true,
             "patch":   true
         });
@@ -550,6 +512,7 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428228532557316099/0g.dll",
             "thumb":  "previews/zerog.png",
             "desc":   "A small mod that makes everything zero gravity everywhere. Don't fall into the sky!",
+            "code":   "code/zerog.html",
             "part":    true,
             "patch":   true
         });
