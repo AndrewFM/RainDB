@@ -203,7 +203,7 @@
                 <div id="utilities_gallery"></div>
             </div>
 
-            <div class="row"><br><br><i>Last updated on April 23, 2018.</i></div>         
+            <div class="row"><br><br><i>Last updated on April 29, 2018.</i></div>         
         </div>
     </div>
 
@@ -312,13 +312,23 @@
         });
 
         ToolMods.push({
-            "name":   "Unofficial Level Editor",
-            "author": "AndrewFM & Mikronaut",
+            "name":   "Partiality Launcher",
+            "author": "Zandra",
             "type":   "Utility",
-            "url":    "https://drive.google.com/uc?export=download&id=0Bx3vgXPyiJG6WGJ0bVNzYVNRR0U",
-            "thumb":  "previews/un_leveleditor_preview.jpg",
-            "desc":   "An unofficial level editor that allows for limited editing of the pre-existing Rain World levels, such as editing pipe interconnections or changing water levels.",
-            "app": true
+            "url":    "https://github.com/PartialityModding/PartialityLauncher/releases",
+            "thumb":  "previews/partiality.png",
+            "desc":   "The mod loader that is needed to install any partiality mods and use them with the game.",
+            "app":  true
+        });
+
+        ToolMods.push({
+            "name":   "Rusty Machine",
+            "author": "Zandra",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1ikSC6mE3AR-516B_R_dEASwcOu4DVKTC",
+            "thumb":  "previews/rustymachine.png",
+            "desc":   "Core utility functions to help make Partiality mods. This must be installed for certain partiality mods to function properly.",
+            "mod":  true
         });
 
         ToolMods.push({
@@ -348,6 +358,26 @@
             "url":    "https://drive.google.com/file/d/17hWH494JwnAOrjo3Xyh8J_QZbbuAA3CO/view",
             "thumb":  "previews/specs.png",
             "desc":   "An editor for mapping out collisions for custom props and tiles added to the official level editor. Generates the specs array for the Init.txt file.",
+            "app": true
+        });
+
+        ToolMods.push({
+            "name":   "Exception Handler",
+            "author": "AndrewFM & Zandra",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/426865865611542528/ExceptionHandler.dll",
+            "thumb":  "previews/exceptionhandler.png",
+            "desc":   "Outputs errors and console output to help with debugging mods.",
+            "mod":  true
+        });
+
+        ToolMods.push({
+            "name":   "Unofficial Level Editor",
+            "author": "AndrewFM & Mikronaut",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/uc?export=download&id=0Bx3vgXPyiJG6WGJ0bVNzYVNRR0U",
+            "thumb":  "previews/un_leveleditor_preview.jpg",
+            "desc":   "An unofficial level editor that allows for limited editing of the pre-existing Rain World levels, such as editing pipe interconnections or changing water levels.",
             "app": true
         });
 
@@ -405,6 +435,17 @@
         });
 
         Mods15.push({
+            "name":   "DungeonWorld",
+            "author": "Zandra",
+            "type":   "World Edit",
+            "url":    "https://cdn.discordapp.com/attachments/421122684357836820/440007416357060620/DungeonWorld.dll",
+            "thumb":  "previews/dungeon.png",
+            "desc":   "Randomly mixes around the pipe destinations in every region, making the world unpredictable to navigate, and ever changing.",
+            "mod":  true,
+            "order": 33,
+        });
+
+        Mods15.push({
             "name":   "Buffed Creatures",
             "author": "ComboPyro",
             "type":   "Creature Edits",
@@ -441,24 +482,22 @@
             "name":   "Spear Rifle",
             "author": "Beau & AndrewFM",
             "type":   "Object Edits",
-            "url":    "https://drive.google.com/file/d/1UQsjISy0v_0M2yZ-IseoA3BzMoPBpBXm/view",
-            "code":   "code/spear_rifle.html",
+            "url":    "https://drive.google.com/file/d/1tDyjA0VoZc3x-HrgDBNOmZ9IWcf8XKEn/view",
             "thumb":  "previews/spearrifle_preview.jpg",
             "desc":   "Adds several overpowered rifles to the game that rapid-fire spears and stuff.",
-            "standalone": true,
-            "order": 6
+            "mod": true,
+            "order": 31
         });
 
         Mods15.push({
-            "name":   "Custom Colors",
-            "author": "Beau & AndrewFM",
+            "name":   "Selective Colors",
+            "author": "Garrakx & Zandra",
             "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/19WTX_jIWQE4pjlnIfICSnntOT4IHpi-y/view",
-            "code":   "code/color_mod.html",
-            "thumb":  "previews/customcolors_preview.jpg",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/440266075389820988/Selective_Colors.zip",
+            "thumb":  "previews/selectcolors.png",
             "desc":   "Allows you to customize your slugcat's body and eye colors! Finally you can roam the industrial wastes as a magnificent colored creature.",
-            "standalone": true,
-            "order": 5
+            "mod": true,
+            "order": 32
         });
 
         Mods15.push({
@@ -639,6 +678,17 @@
             "desc":   "Outputs errors and console output to help with debugging mods.",
             "mod":  true,
             "order": 13
+        });
+
+        Mods15.push({
+            "name":   "Dev Tools (1.5)",
+            "author": "Joar Jakobsson",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/438565425303781376/Devtools.dll",
+            "thumb":  "previews/devtools.png",
+            "desc":   "Enables the built-in dev tools to help with modding the game. Also adds a console log and exception handler to help debug your mods.",
+            "mod": true,
+            "order": 0
         });
 
         generateHTML("1.5", Mods15, "", "v1.5 Mods");
