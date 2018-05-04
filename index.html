@@ -352,6 +352,16 @@
         });
 
         ToolMods.push({
+            "name":   "Checksum Fix",
+            "author": "Garrakx",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/441975936447938560/CheckSumFix.dll",
+            "thumb":  "previews/checksum.png",
+            "desc":   "Disables checksum verification so that world files and save files can be edited without triggering the game's cheat protection.",
+            "mod":  true
+        });
+
+        ToolMods.push({
             "name":   "Region Baker",
             "author": "Willburd & Garrakx",
             "type":   "Utility",
@@ -688,39 +698,6 @@
             "desc":   "Why would someone make this...",
             "standalone": true,
             "order": 19
-        });
-
-        Mods15.push({
-            "name":   "Rusty Machine",
-            "author": "Zandra",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1ikSC6mE3AR-516B_R_dEASwcOu4DVKTC",
-            "thumb":  "previews/rustymachine.png",
-            "desc":   "Core utility functions to help make Partiality mods. This must be installed for certain partiality mods to function properly.",
-            "mod":  true,
-            "order": 14
-        });
-
-        Mods15.push({
-            "name":   "Exception Handler",
-            "author": "AndrewFM & Zandra",
-            "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/426865865611542528/ExceptionHandler.dll",
-            "thumb":  "previews/exceptionhandler.png",
-            "desc":   "Outputs errors and console output to help with debugging mods.",
-            "mod":  true,
-            "order": 13
-        });
-
-        Mods15.push({
-            "name":   "Dev Tools (1.5)",
-            "author": "Joar Jakobsson",
-            "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/438565425303781376/Devtools.dll",
-            "thumb":  "previews/devtools.png",
-            "desc":   "Enables the built-in dev tools to help with modding the game. Also adds a console log and exception handler to help debug your mods.",
-            "mod": true,
-            "order": 0
         });
 
         generateHTML("1.5", Mods15, "", "v1.5 Mods");
