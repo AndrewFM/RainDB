@@ -1065,7 +1065,9 @@
 
         function reloadPreview() {
             preview_img.src = preview_src + '?d=' + Date.now();
+            preview_img.style.visibility = "hidden";
             preview_rain_img.src = preview_src + '?d=' + Date.now();
+            preview_rain_img.style.visibility = "hidden";
         }
 
         function recolorPreview(palID) {
@@ -1181,11 +1183,8 @@
             }
             
             ctx.putImageData(imageData, 0, 0);
-            if (j == 0)
-                document.getElementById("preview").src = c.toDataURL('image/png');
-            else
-                document.getElementById("previewRain").src = c.toDataURL('image/png');
-            working_image.onload = function(){}
+            working_image.src = c.toDataURL('image/png');
+            working_image.onload = function(){ working_image.style.visibility = "visible"; }
             
         }
     </script>
