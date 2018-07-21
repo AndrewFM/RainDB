@@ -7,6 +7,15 @@
     <script>
         var sections = ["1.01mods", "1.5mods", "utilities", "palettes"];
         function toggle(section) {
+            if (section == "1.5mods")
+                generateHTML("1.5", Mods15, "", "v1.5 Mods");
+            else if (section == "utilities")
+                generateHTML("utilities", ToolMods, "", "Modding Tools");
+            else if (section == "1.01mods")
+                generateHTML("1.01", Mods101, "", "v1.01 Mods");
+            else if (section == "palettes")
+                generatePaletteHTML("paletteGallery", gallery);
+
             for (var i=0; i<sections.length; i+=1) {
                 if (section == sections[i])
                     document.getElementById(sections[i]).style.display = "block";
@@ -93,23 +102,12 @@
         <div class="loader-img" style="display: none;"></div>
     </div>
 
-    <!-- Top menu -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Nav Bar -->
+    <nav class="navbar-inverse navbar-fixed-top" style="background: #444;" role="navigation">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="top-navbar-1">
+            <div>
                 <ul class="nav navbar-nav">
                     <li><a class="scroll-link" href="#top-content">Top</a>
-                    </li>
-                    <li>
                     </li>
                     <li><a class="scroll-link" onclick="location.href='https://www.raindb.net/index.html';" href="https://www.raindb.net/index.html">Home</a>
                     </li>
@@ -123,7 +121,6 @@
                     </li>
                     <li><a class="scroll-link" onclick="location.href='https://drive.google.com/drive/folders/0B4lvUzbgH6VqS3JpM21tUHBISGM?usp=sharing';" href="https://drive.google.com/drive/folders/0B4lvUzbgH6VqS3JpM21tUHBISGM?usp=sharing">Google Drive (File Storage)</a>
                     </li>
-                    <li></li>
                 </ul>
             </div>
         </div>
@@ -297,7 +294,7 @@
                 }
                 count += 1
             }
-            document.getElementById(div_id+"_gallery").innerHTML += appendStr
+            document.getElementById(div_id+"_gallery").innerHTML = appendStr
             document.getElementById(div_id+"_title").innerHTML = '<h1 style="font-size:48px;"><b>'+title+'</b></h1>'
             for (var i=0; i<tooltipIds.length; i++)
                 applyTooltip("masterTooltip", tooltipIds[i]);
@@ -321,6 +318,7 @@
             for (var i=0; i<gallery_array.length; i++) {
                 appendStr += '<a id="palswitch'+i+'"><img id="palette'+i+'" src="assets/img/palette/'+gallery_array[i]["name"]+'.png" width=32 height=16></a> ';
             }
+            document.getElementById(div_id).innerHTML = "";
             document.getElementById(div_id).insertAdjacentHTML('beforeend', appendStr);
             for(var i=0; i<gallery_array.length; i++) {
                 document.getElementById("palswitch"+i).addEventListener("click", getRecolorFunct(i));
@@ -344,7 +342,6 @@
         gallery.push({"name": "dakras7", "author": "Dakras"});
         gallery.push({"name": "andrewfm0", "author": "AndrewFM"});
         gallery.push({"name": "andrewfm1", "author": "AndrewFM"});
-        generatePaletteHTML("paletteGallery", gallery);
 
         //////////////////////////////////////////////////////////////////////////////////
         // TOOLS and MODDING UTILITIES
@@ -480,8 +477,6 @@
             "desc":   "An unofficial level editor that allows for limited editing of the pre-existing Rain World levels, such as editing pipe interconnections or changing water levels.",
             "app": true
         });
-
-        generateHTML("utilities", ToolMods, "", "Modding Tools");
 
         //////////////////////////////////////////////////////////////////////////////////
         // VERSION 1.5 STANDALONE MODS
@@ -848,8 +843,6 @@
             "order": 19
         });
 
-        generateHTML("1.5", Mods15, "", "v1.5 Mods");
-
         //////////////////////////////////////////////////////////////////////////////////
         // VERSION 1.01 MODS
         //////////////////////////////////////////////////////////////////////////////////
@@ -1054,7 +1047,7 @@
             "desc":   "Cycles are now 10x shorter. Godspeed you magnificent bastard.<br>Note: only works with pre-made saves."
         });
 
-        generateHTML("1.01", Mods101, "", "v1.01 Mods");
+        toggle("1.5mods");
 
         function changePreviewSrc(prevSrc) {
             preview_src = prevSrc;
