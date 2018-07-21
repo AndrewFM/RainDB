@@ -5,32 +5,14 @@
     <title>RainDB - Home</title>
 
     <script>
-        function toggle101() 
-        {
-            var x = document.getElementById("1.01mods");
-            var y = document.getElementById("1.5mods");
-            var z = document.getElementById("utilities");
-            x.style.display = "block";
-            y.style.display = "none";
-            z.style.display = "none";
-        }
-        function toggle15() 
-        {
-            var x = document.getElementById("1.01mods");
-            var y = document.getElementById("1.5mods");
-            var z = document.getElementById("utilities");
-            x.style.display = "none";
-            y.style.display = "block";
-            z.style.display = "none";
-        }
-        function toggleTools() 
-        {
-            var x = document.getElementById("1.01mods");
-            var y = document.getElementById("1.5mods");
-            var z = document.getElementById("utilities");
-            x.style.display = "none";
-            y.style.display = "none";
-            z.style.display = "block";
+        var sections = ["1.01mods", "1.5mods", "utilities", "palettes"];
+        function toggle(section) {
+            for (var i=0; i<sections.length; i+=1) {
+                if (section == sections[i])
+                    document.getElementById(sections[i]).style.display = "block";
+                else
+                    document.getElementById(sections[i]).style.display = "none";
+            }
         }
     </script>
     
@@ -172,7 +154,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:left; float:left; margin-left:5px;">
-                   <b>Mod Category:</b> <a onclick="toggle101()" href="#main">v1.01</a> | <a onclick="toggle15()" href="#main">v1.5</a> | <a onclick="toggleTools()" href="#main">Tools</a>
+                   <b>Mod Category:</b> <a onclick="toggle('1.01mods')" href="#main">v1.01</a> | <a onclick="toggle('1.5mods')" href="#main">v1.5</a> | <a onclick="toggle('utilities')" href="#main">Tools  | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
                 </div>
                 <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:right; float:right; margin-left:5px;">
                    <b>Legend:</b> <img class="legendTooltip_0" src="assets/ico/standalone.png" title="Standalone Mod: These mods are installed alone. They cannot be used together with other standalone mods."/> 
@@ -195,7 +177,7 @@
                 <b>Show:</b> <a onclick="generateHTML('1.5', Mods15, '', 'v1.5 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.5', Mods15, 'new', 'v1.5 Mods (Newest)')" href="#main">Newest</a> | <a onclick="generateHTML('1.5', Mods15, 'content', 'v1.5 Mods (Content Mods)')" href="#main">Content Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'mod', 'v1.5 Mods (Partiality Mods)')" href="#main">Partiality Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'standalone', 'v1.5 Mods (Standalone Mods)')" href="#main">Standalone Mods</a>
             
                 <div id="1.5_gallery"></div>
-            </div> 
+            </div>
 
             <div id="utilities" style="display:none;">
                 <div id="utilities_title"></div>
@@ -203,12 +185,48 @@
                 <div id="utilities_gallery"></div>
             </div>
 
-            <div class="row"><br><br><i>Last updated on July 17, 2018.</i></div>         
+            <div id="palettes" style="display:none;">
+                <h1 style="font-size:48px;"><b>Custom Palettes</b></h1>
+                <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+                <br>
+                <table style="width:70%; margin-left:auto; margin-right:auto;">
+                    <tr>
+                        <td style="text-align:center; width:490px;">
+                            <table style="width:90%; text-align:center;">
+                            <tr><td> </td><td>Normal:</td><td>During Rain:</td></tr>
+                            <tr><td valign="top"> 
+                                <a id="prev1">[1]</a><br><a id="prev2">[2]</a><br><a id="prev3">[3]</a><br><a id="prev4">[4]</a><br><a id="prev5">[5]</a><br><a id="prev6">[6]</a>
+                                </td>
+                                <td><img id="preview" width=200 height=200></td><td><img id="previewRain" width=200 height=200></td></tr>
+                            </table>
+                        <br>
+                        <div id="paletteCaption" style="display:block;"></div></td>
+                        <td valign="top">
+                            <div id="paletteGallery" style="display:block;"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="row"><br><br><i>Last updated on July 21, 2018.</i></div>         
         </div>
     </div>
 
     <!-- POPULATE MODS -->
     <script> 
+        var current_palID = "palette0"; 
+        var preview_img = document.getElementById("preview");
+        var preview_rain_img = document.getElementById("previewRain");
+        preview_img.setAttribute('crossOrigin', '');
+        preview_rain_img.setAttribute('crossOrigin', '');
+        changePreviewSrc("assets/img/palette/preview1.png");
+        document.getElementById("prev1").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview1.png");});
+        document.getElementById("prev2").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview2.png");});
+        document.getElementById("prev3").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview3.png");});
+        document.getElementById("prev4").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview4.png");});
+        document.getElementById("prev5").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview5.png");});
+        document.getElementById("prev6").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview6.png");});
+
         function generateHTML(div_id, input_array, filter, title) {
             var appendStr = ""
             var count = 0
@@ -291,7 +309,42 @@
                 applyTooltip("authorTooltip", authorTipIds[i]);
         }
 
+        function getRecolorFunct(ind) {
+            return function(){
+                recolorPreview("palette"+ind);
+                document.getElementById("paletteCaption").innerHTML = "By: "+gallery[ind]["author"]+"<br><a download='"+gallery[ind]["name"]+".png' href='assets/img/palette/"+gallery[ind]["name"]+".png'>Download</a>";
+            }
+        }
+
+        function generatePaletteHTML(div_id, gallery_array) {
+            var appendStr = ""
+            for (var i=0; i<gallery_array.length; i++) {
+                appendStr += '<a id="palswitch'+i+'"><img id="palette'+i+'" src="assets/img/palette/'+gallery_array[i]["name"]+'.png" width=32 height=16></a> ';
+            }
+            document.getElementById(div_id).insertAdjacentHTML('beforeend', appendStr);
+            for(var i=0; i<gallery_array.length; i++) {
+                document.getElementById("palswitch"+i).addEventListener("click", getRecolorFunct(i));
+            }
+        }
+
         applyTooltip("legendTooltip", [0]);
+
+        //////////////////////////////////////////////////////////////////////////////////
+        // PALETTE GALLERY
+        //////////////////////////////////////////////////////////////////////////////////
+        var gallery = [];
+        gallery.push({"name": "dakras0", "author": "Dakras"});
+        gallery.push({"name": "cappin0", "author": "Cappin"});
+        gallery.push({"name": "dakras1", "author": "Dakras"});
+        gallery.push({"name": "dakras2", "author": "Dakras"});
+        gallery.push({"name": "dakras3", "author": "Dakras"});
+        gallery.push({"name": "dakras4", "author": "Dakras"});
+        gallery.push({"name": "dakras5", "author": "Dakras"});
+        gallery.push({"name": "dakras6", "author": "Dakras"});
+        gallery.push({"name": "dakras7", "author": "Dakras"});
+        gallery.push({"name": "andrewfm0", "author": "AndrewFM"});
+        gallery.push({"name": "andrewfm1", "author": "AndrewFM"});
+        generatePaletteHTML("paletteGallery", gallery);
 
         //////////////////////////////////////////////////////////////////////////////////
         // TOOLS and MODDING UTILITIES
@@ -1003,6 +1056,138 @@
 
         generateHTML("1.01", Mods101, "", "v1.01 Mods");
 
+        function changePreviewSrc(prevSrc) {
+            preview_src = prevSrc;
+            reloadPreview();
+            preview_img.onload = function(){recolorPreviewAsync(current_palID, 0);}
+            preview_rain_img.onload = function(){recolorPreviewAsync(current_palID, 1);}
+        }
+
+        function reloadPreview() {
+            preview_img.src = preview_src + '?d=' + Date.now();
+            preview_rain_img.src = preview_src + '?d=' + Date.now();
+        }
+
+        function recolorPreview(palID) {
+            current_palID = palID;
+            reloadPreview();
+            preview_img.onload = function(){recolorPreviewAsync(palID, 0);}
+            preview_rain_img.onload = function(){recolorPreviewAsync(palID, 1);}
+        }
+
+        function recolorPreviewAsync(palID, j) {
+            var palette_img = document.getElementById(palID);
+            var palette_canvas = document.createElement('canvas');
+            palette_canvas.width = palette_img.width;
+            palette_canvas.height = palette_img.height;
+            palette_canvas.getContext('2d').drawImage(palette_img, 0, 0, palette_img.width, palette_img.height);
+
+            var working_image = preview_img;
+            if (j == 1)
+                working_image = preview_rain_img;
+            var yoff = j*8;
+            var skyColor = palette_canvas.getContext('2d').getImageData(0, 0+yoff, 1, 1).data;
+            var itemColor = palette_canvas.getContext('2d').getImageData(3, 0+yoff, 1, 1).data;
+            var deepWaterClose = palette_canvas.getContext('2d').getImageData(4, 0+yoff, 1, 1).data;
+            var surfaceWaterFar = palette_canvas.getContext('2d').getImageData(7, 0+yoff, 1, 1).data;
+            var shortcutColor = palette_canvas.getContext('2d').getImageData(13, 0+yoff, 1, 1).data;
+
+            var palColor = []
+            for (var i=0;i<90;i+=1) {
+                if (i < 30) {
+                    palColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 4+yoff, 1, 1).data);
+                }
+                else if (i < 60) {
+                    palColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 3+yoff, 1, 1).data);
+                }
+                else {
+                    palColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 2+yoff, 1, 1).data);
+                }
+            }
+            var palShadowColor = []
+            for (var i=0;i<90;i+=1) {
+                if (i < 30) {
+                    palShadowColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 7+yoff, 1, 1).data);
+                }
+                else if (i < 60) {
+                    palShadowColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 6+yoff, 1, 1).data);
+                }
+                else {
+                    palShadowColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 5+yoff, 1, 1).data);
+                }
+            }
+
+            var c = document.createElement('canvas');
+            var ctx=c.getContext("2d");
+            var w = working_image.width;
+            var h = working_image.height;
+            c.width = w;
+            c.height = h;
+
+            ctx.drawImage(working_image, 0, 0, w, h);
+            var imageData = ctx.getImageData(0, 0, w, h);
+
+            for (var i=0;i<imageData.data.length;i+=4)
+            {
+                if (imageData.data[i]==255 && imageData.data[i+1]==255 && imageData.data[i+2]==255) {
+                  imageData.data[i]=skyColor[0];
+                  imageData.data[i+1]=skyColor[1];
+                  imageData.data[i+2]=skyColor[2];
+                }
+                else if (imageData.data[i]==0 && imageData.data[i+1]==255 && imageData.data[i+2]==0) {
+                  imageData.data[i]=itemColor[0];
+                  imageData.data[i+1]=itemColor[1];
+                  imageData.data[i+2]=itemColor[2];
+                }
+                else if (imageData.data[i]==0 && imageData.data[i+1]==255 && imageData.data[i+2]==255) {
+                  imageData.data[i]=shortcutColor[0];
+                  imageData.data[i+1]=shortcutColor[1];
+                  imageData.data[i+2]=shortcutColor[2];
+                }
+                else if (imageData.data[i]==255 && imageData.data[i+1]==0 && imageData.data[i+2]==255) {
+                  imageData.data[i]=surfaceWaterFar[0];
+                  imageData.data[i+1]=surfaceWaterFar[1];
+                  imageData.data[i+2]=surfaceWaterFar[2];
+                }
+                else if (imageData.data[i]==255 && imageData.data[i+1]==255 && imageData.data[i+2]==0) {
+                  imageData.data[i]=deepWaterClose[0];
+                  imageData.data[i+1]=deepWaterClose[1];
+                  imageData.data[i+2]=deepWaterClose[2];
+                }
+                else {
+                    var baseRed = imageData.data[i];
+                    var shaded = true;
+                    if (baseRed > 90) {
+                        baseRed -= 90;
+                        shaded = false;
+                    }
+                    baseRed -= 1;
+                    if (baseRed < 0)
+                        baseRed = 0;
+                    if (baseRed > 89)
+                        baseRed = 89;
+
+                    if (!shaded) {
+                        imageData.data[i]=palColor[baseRed][0];
+                        imageData.data[i+1]=palColor[baseRed][1];
+                        imageData.data[i+2]=palColor[baseRed][2];
+                    }
+                    else {
+                        imageData.data[i]=palShadowColor[baseRed][0];
+                        imageData.data[i+1]=palShadowColor[baseRed][1];
+                        imageData.data[i+2]=palShadowColor[baseRed][2];
+                    }
+                }
+            }
+            
+            ctx.putImageData(imageData, 0, 0);
+            if (j == 0)
+                document.getElementById("preview").src = c.toDataURL('image/png');
+            else
+                document.getElementById("previewRain").src = c.toDataURL('image/png');
+            working_image.onload = function(){}
+            
+        }
     </script>
 
     <!-- Footer -->
