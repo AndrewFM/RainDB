@@ -151,7 +151,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:left; float:left; margin-left:5px;">
-                   <b>Mod Category:</b> <a onclick="toggle('1.01mods')" href="#main">v1.01</a> | <a onclick="toggle('1.5mods')" href="#main">v1.5</a> | <a onclick="toggle('utilities')" href="#main">Tools  | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
+                   <b>Mod Category:</b> <a onclick="toggle('1.01mods')" href="#main">v1.01</a> | <a onclick="toggle('1.5mods')" href="#main">v1.5</a> | <a onclick="toggle('utilities')" href="#main">Tools</a>  | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
                 </div>
                 <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:right; float:right; margin-left:5px;">
                    <b>Legend:</b> <img class="legendTooltip_0" src="assets/ico/standalone.png" title="Standalone Mod: These mods are installed alone. They cannot be used together with other standalone mods."/> 
@@ -212,7 +212,7 @@
                     3. Use Dev Tools to apply the palette to your map(s).
             </div>
 
-            <div class="row"><br><br><i>Last updated on August 04, 2018.</i></div>         
+            <div class="row"><br><br><i>Last updated on August 05, 2018.</i></div>         
         </div>
     </div>
 
@@ -482,7 +482,7 @@
             "type":   "Utility",
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/474688248330059796/dontdie.dll",
             "thumb":  "previews/nodeath.png",
-            "desc":   "A semi-god mode tool that disables many sources of death such as drowning, being attacked by creatures, falling off the map, etc.",
+            "desc":   "A semi-god mode tool that disables many sources of death such as drowning, being attacked by creatures, fall damage, etc.",
             "mod":  true
         });
 
@@ -622,6 +622,29 @@
             "desc":   "Takes three single screen levels from Five Pebbles and adds them as Arenas. Complete with broken zero-g, a memory lab, and a gravity distributor.",
             "content": true,
             "order": 11
+        });
+
+        Mods15.push({
+            "name":   "Daddy Arenas",
+            "author": "Finch",
+            "type":   "Modified Arenas",
+            "url":    "https://drive.google.com/file/d/1st7a_iUvhItMZ0gnLKOtW5DyNu1WQ7x3/view",
+            "thumb":  "previews/daddyarenas.png",
+            "desc":   "This mod adds corruption to several of the arenas, giving them Five Pebbles' Rot.",
+            "content": true,
+            "req":   "Requires Arena Corruption Fix to be installed.",
+            "order": 55
+        });
+
+        Mods15.push({
+            "name":   "Farm Arrays Wormgrass Terrain",
+            "author": "Skilliton",
+            "type":   "World Edit",
+            "url":    "https://drive.google.com/file/d/1ugs0jvHjEJ1zaGyAd646zhKxuRgLkO1s/view",
+            "thumb":  "previews/farmalts.png",
+            "desc":   "Edits the Farm Arrays region to make worm grass sections optionally passable with parkour instead of strictly requiring use of the deers.",
+            "content": true,
+            "order": 54
         });
 
         Mods15.push({
@@ -794,6 +817,17 @@
         });
 
         Mods15.push({
+            "name":   "Anti-Snatch-Spears",
+            "author": "Willburd",
+            "type":   "Game Tweak",
+            "url":    "https://drive.google.com/file/d/129giWXk0zJmlZPkl1F-Uigig2YhkApnj/view",
+            "thumb":  "previews/spearsteal.png",
+            "desc":   "Removes scavenger's ability to steal spears off of Hunter's back.",
+            "mod":  true,
+            "order": 53,
+        });
+
+        Mods15.push({
             "name":   "Unlimited Cycles for Hunter",
             "author": "AndrewFM & Four Safes",
             "type":   "Game Tweak",
@@ -802,6 +836,17 @@
             "desc":   "Removes the cycle limit when playing as the Hunter, allowing for endless exploring without the impending doom of taking too many cycles.",
             "mod":   true,
             "order": 1
+        });
+
+        Mods15.push({
+            "name":   "Super Jetfish",
+            "author": "Fyre",
+            "type":   "Creature Edits",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/474021422667137025/SuperJetfish.dll",
+            "thumb":  "previews/jetfishnyoom.png",
+            "desc":   "Makes it possible to nyoom with jetfish at even more extreme speeds.",
+            "mod":   true,
+            "order": 50
         });
 
         Mods15.push({
@@ -828,6 +873,17 @@
         });
 
         Mods15.push({
+            "name":   "DryWorld",
+            "author": "Fyre",
+            "type":   "Game Tweak",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/473559079709704193/DryWorld.dll",
+            "thumb":  "previews/norain.png",
+            "desc":   "Removes rain from the game so all cycles are infinite length.",
+            "mod":   true,
+            "order": 52
+        });
+
+        Mods15.push({
             "name":   "Max Rain Timer",
             "author": "Sycamorph & Four Safes",
             "type":   "Game Tweak",
@@ -836,6 +892,17 @@
             "desc":   "Removes RNG from the Rain Timer so that all cycles are the maximum duration.",
             "mod":   true,
             "order": 3
+        });
+
+        Mods15.push({
+            "name":   "Triggered",
+            "author": "Fyre",
+            "type":   "Creature Edits",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/474019828244545546/TRIGGERED.dll",
+            "thumb":  "previews/triggered.png",
+            "desc":   "Makes snails always triggered and ready to pop.",
+            "mod":   true,
+            "order": 51
         });
 
         Mods15.push({
