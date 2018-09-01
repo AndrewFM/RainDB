@@ -158,6 +158,7 @@
                    <img class="legendTooltip_0" src="assets/ico/mod.png" title="Partiality Mod: Use with the Partiality Launcher. Any number of these mods can be used together at the same time, though may conflict if they edit similar things in the game."/> 
                    <img class="legendTooltip_0" src="assets/ico/content.png" title="Content Mod: These mods do not edit the game's code, and so can be used together with any other mod, including standalone mods."/> 
                    <img class="legendTooltip_0" src="assets/ico/app.png" title="External Application: These are not installed or used inside of Rain World. They are their own separate programs."/>  
+                   <img class="legendTooltip_0" src="assets/ico/message.png" title="Requirement: If this icon is shown, then the mod requires other mods to be installed alongside it. Hover over the icon to see the requirements."/>  
                 </div>
             </div>
 
@@ -212,7 +213,7 @@
                     3. Use Dev Tools to apply the palette to your map(s).
             </div>
 
-            <div class="row"><br><br><i>Last updated on August 27, 2018. [<a href="https://github.com/AndrewFM/RainDB/commits/master" target="_blank">View Change List</a>]</i></div>         
+            <div class="row"><br><br><i>Last updated on September 1, 2018.<br>[<a href="https://github.com/AndrewFM/RainDB/commits/master" target="_blank">View Change List</a>]</i></div>         
         </div>
     </div>
 
@@ -387,12 +388,32 @@
         });
 
         ToolMods.push({
+            "name":   "CompletelyOptional",
+            "author": "Topicular",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/485452365961363456/CompletelyOptional.dll",
+            "thumb":  "previews/optional.png",
+            "desc":   "Allows modders to make their own custom configuration settings in an in-game menu. Mods which are configurable require this to be installed.",
+            "mod":  true
+        });
+
+        ToolMods.push({
             "name":   "Communication Module",
             "author": "Topicular",
             "type":   "Utility",
             "url":    "https://cdn.discordapp.com/attachments/481900360324218880/483602557013458965/Rain_World_Translation_SegoeUI_Readyset8.zip",
             "thumb":  "previews/communication.png",
             "desc":   "A utility for supporting translation patches. Allows swapping out any text in the game, adding new languages, and adding new fonts, even with unicode support.",
+            "mod":  true
+        });
+
+        ToolMods.push({
+            "name":   "Rusty Machine",
+            "author": "Zandra",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1ikSC6mE3AR-516B_R_dEASwcOu4DVKTC",
+            "thumb":  "previews/rustymachine.png",
+            "desc":   "Core utility functions to help make Partiality mods. This must be installed for certain partiality mods to function properly.",
             "mod":  true
         });
 
@@ -473,16 +494,6 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/473108029458612226/Guideline.dll",
             "thumb":  "previews/debugsprite.png",
             "desc":   "Enables toggling on/off different categories of debug visualizations.",
-            "mod":  true
-        });
-
-        ToolMods.push({
-            "name":   "Rusty Machine",
-            "author": "Zandra",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1ikSC6mE3AR-516B_R_dEASwcOu4DVKTC",
-            "thumb":  "previews/rustymachine.png",
-            "desc":   "Core utility functions to help make Partiality mods. This must be installed for certain partiality mods to function properly.",
             "mod":  true
         });
 
@@ -579,6 +590,19 @@
         });
 
         Mods15.push({
+            "name":   "Colorfoot",
+            "author": "Multiple Authors",
+            "author_ext": "Colorfoot by: Topicular, Selective Colors by: Garrakx and Beau, Camo Slugcat by: loderunner, Skittlekat by: Zandra",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/485452434592890880/Colorfoot.dll",
+            "thumb":  "previews/colorfoot.png",
+            "desc":   "Provides a variety of ways of changing slugcat's colors. This is a collection of the old Selective Colors mod, Camocat mod, and Skittlecat mod.",
+            "req":    "Requires CompletelyOptional to be installed.",
+            "mod": true,
+            "order": 59
+        });
+
+        Mods15.push({
             "name":   "DungeonWorld",
             "author": "Zandra",
             "type":   "World Edit",
@@ -599,17 +623,6 @@
             "req":   "Requires Rusty Machine to be installed.",
             "mod":  true,
             "order": 24,
-        });
-
-        Mods15.push({
-            "name":   "Rusty Machine",
-            "author": "Zandra",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1ikSC6mE3AR-516B_R_dEASwcOu4DVKTC",
-            "thumb":  "previews/rustymachine.png",
-            "desc":   "Core utility functions to help make Partiality mods. This must be installed for certain partiality mods to function properly.",
-            "mod":  true,
-            "order": 36
         });
 
         Mods15.push({
@@ -677,28 +690,6 @@
             "desc":   "Adds several overpowered rifles to the game that rapid-fire spears and stuff.",
             "mod": true,
             "order": 45
-        });
-
-        Mods15.push({
-            "name":   "Selective Colors",
-            "author": "Garrakx & Zandra",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1WBwI91j1PZTAfPzZsx2yHDMPocuSsMiL/view",
-            "thumb":  "previews/selectcolors.png",
-            "desc":   "Allows you to customize your slugcat's body and eye colors! Finally you can roam the industrial wastes as a magnificent colored creature.",
-            "mod": true,
-            "order": 42
-        });
-
-        Mods15.push({
-            "name":   "Camo Slugcat Mod",
-            "author": "loderunner & AndrewFM",
-            "type":   "Slugcat Abilities",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428749738272096257/CamoSlugcat.dll",
-            "thumb":  "previews/camomod.png",
-            "desc":   "This mod makes your slugcat almost invisible, just like a white lizard! As long as you stand still, other creatures can't see you.",
-            "mod":   true,
-            "order": 9
         });
 
         Mods15.push({
@@ -815,17 +806,6 @@
         });
 
         Mods15.push({
-            "name":   "Skittlekat",
-            "author": "Zandra",
-            "type":   "Cosmetic",
-            "url":    "https://drive.google.com/file/d/1Cn0x4V1BbgK3Fg5CVYo84jFHhVspTh0q/view",
-            "thumb":  "previews/skittle.png",
-            "desc":   "Constantly fluctuates slugcat's color through every color in the rainbow.",
-            "mod":  true,
-            "order": 15
-        });
-
-        Mods15.push({
             "name":   "Lycanthrope",
             "author": "Fyre",
             "type":   "Game Tweak",
@@ -919,11 +899,11 @@
             "name":   "Max Rain Timer",
             "author": "Sycamorph & Four Safes",
             "type":   "Game Tweak",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428229794992226304/max_rain_timer.dll",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/485442427885322250/raintimer2.dll",
             "thumb":  "previews/literallyunplayable_preview.jpg",
             "desc":   "Removes RNG from the Rain Timer so that all cycles are the maximum duration.",
             "mod":   true,
-            "order": 3
+            "order": 58
         });
 
         Mods15.push({
