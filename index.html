@@ -5,10 +5,12 @@
     <title>RainDB - Home</title>
 
     <script>
-        var sections = ["1.01mods", "1.5mods", "utilities", "palettes"];
+        var sections = ["1.01mods", "1.5mods", "1.7mods", "utilities", "palettes"];
         function toggle(section) {
             if (section == "1.5mods")
                 generateHTML("1.5", Mods15, "", "v1.5 Mods");
+            else if (section == "1.7mods")
+                generateHTML("1.7", Mods17, "", "v1.7 Mods");
             else if (section == "utilities")
                 generateHTML("utilities", ToolMods, "", "Modding Tools");
             else if (section == "1.01mods")
@@ -150,8 +152,8 @@
     <div class="portfolio-container section-container" style="margin-left: 0px; margin-top: -30px; height: inherit;">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:left; float:left; margin-left:5px;">
-                   <b>Mod Category:</b> <a onclick="toggle('1.01mods')" href="#main">v1.01</a> | <a onclick="toggle('1.5mods')" href="#main">v1.5</a> | <a onclick="toggle('utilities')" href="#main">Tools</a>  | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
+                <div class="col-sm-6 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:left; float:left; margin-left:5px;">
+                   <b>Mod Category:</b> <a onclick="toggle('1.01mods')" href="#main">v1.01</a> | <a onclick="toggle('1.5mods')" href="#main">v1.5</a> | <!--<a onclick="toggle('1.7mods')" href="#main">v1.7</a> |--> <a onclick="toggle('utilities')" href="#main">Tools</a>  | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
                 </div>
                 <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:right; float:right; margin-left:5px;">
                    <b>Legend:</b> <img class="legendTooltip_0" src="assets/ico/standalone.png" title="Standalone Mod: These mods are installed alone. They cannot be used together with other standalone mods."/> 
@@ -175,6 +177,16 @@
                 <b>Show:</b> <a onclick="generateHTML('1.5', Mods15, '', 'v1.5 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.5', Mods15, 'new', 'v1.5 Mods (Newest)')" href="#main">Newest</a> | <a onclick="generateHTML('1.5', Mods15, 'content', 'v1.5 Mods (Content Mods)')" href="#main">Content Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'mod', 'v1.5 Mods (Partiality Mods)')" href="#main">Partiality Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'standalone', 'v1.5 Mods (Standalone Mods)')" href="#main">Standalone Mods</a>
             
                 <div id="1.5_gallery"></div>
+            </div>
+
+            <div id="1.7mods" style="display:none;">
+                <div id="1.7_title"></div>
+                <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+                <b>Show:</b> <a onclick="generateHTML('1.7', Mods17, '', 'v1.7 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.7', Mods17, 'new', 'v1.7 Mods (Newest)')" href="#main">Newest</a> | <a onclick="generateHTML('1.7', Mods17, 'content', 'v1.7 Mods (Content Mods)')" href="#main">Content Mods</a> | <a onclick="generateHTML('1.7', Mods17, 'mod', 'v1.7 Mods (Partiality Mods)')" href="#main">Partiality Mods</a> | <a onclick="generateHTML('1.7', Mods17, 'standalone', 'v1.7 Mods (Standalone Mods)')" href="#main">Standalone Mods</a>
+                <br><br>
+                <h3><b>Rain World v1.7 has just recently been released!<br>Please be patient as we confirm compatibility with old mods, and update mods to the new version.</b></h3>
+
+                <div id="1.7_gallery"></div>
             </div>
 
             <div id="utilities" style="display:none;">
@@ -550,7 +562,12 @@
         });
 
         //////////////////////////////////////////////////////////////////////////////////
-        // VERSION 1.5 STANDALONE MODS
+        // VERSION 1.7 MODS
+        //////////////////////////////////////////////////////////////////////////////////
+        var Mods17 = [];
+
+        //////////////////////////////////////////////////////////////////////////////////
+        // VERSION 1.5 MODS
         //////////////////////////////////////////////////////////////////////////////////
         var Mods15 = [];
 
