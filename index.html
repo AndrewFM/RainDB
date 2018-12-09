@@ -222,7 +222,7 @@
                     3. Use Dev Tools to apply the palette to your map(s).
             </div>
 
-            <div class="row"><br><br><i>Last updated on December 3, 2018.<br>[<a href="https://github.com/AndrewFM/RainDB/commits/master" target="_blank">View Change List</a>]</i></div>         
+            <div class="row"><br><br><i>Last updated on <span id="modifiedDate" />.<br>[<a href="https://github.com/AndrewFM/RainDB/commits/master" target="_blank">View Change List</a>]</i></div>         
         </div>
     </div>
 
@@ -240,6 +240,8 @@
         document.getElementById("prev4").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview4.png");});
         document.getElementById("prev5").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview5.png");});
         document.getElementById("prev6").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview6.PNG");});
+        var dateoptions = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById("modifiedDate").innerHTML = (new Date(document.lastModified)).toLocaleDateString("en-US", dateoptions);
 
         function generateHTML(div_id, input_array, filter, title) {
             var appendStr = ""
@@ -908,6 +910,17 @@
             "req":   "Requires Rusty Machine to be installed.",
             "mod":  true,
             "order": 28,
+        });
+
+        Mods15.push({
+            "name":   "Carnivore Mod",
+            "author": "Garrakx",
+            "type":   "Game Tweak",
+            "url":    "https://drive.google.com/file/d/10TrzXuf-498To1ZC7jexZaLc-_Rt18VC/view",
+            "thumb":  "previews/carnivore.png",
+            "desc":   "Lets you eat corpses with any of the characters, both in Single Player mode and in Arena mode.",
+            "mod":  true,
+            "order":  75
         });
 
         Mods15.push({
