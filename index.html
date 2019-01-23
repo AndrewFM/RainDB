@@ -263,8 +263,8 @@
                 }
                 appendStr += '<div class="col-sm-4 portfolio-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><div class="portfolio-box-image">';
                 appendStr += '<img src="' + mods_array[i]["thumb"] + '?raw=true" alt="" data-ax2x="' + mods_array[i]["thumb"] + '?raw=true" style="width:360px;height:250px;"></div>';
-                appendStr += '<h3><a href="' + mods_array[i]["url"] + '" style="margin-left: 0px; margin-top: -1px;"><b>' + mods_array[i]["name"] + '</b></a> <a href="'
-                    + mods_array[i]["url"] + '"><i class="fa fa-angle-right"></i></a>';
+                appendStr += '<h3><a href="' + mods_array[i]["url"] + '" style="margin-left: 0px; margin-top: -1px;" target="_blank"><b>' + mods_array[i]["name"] + '</b></a> <a href="'
+                    + mods_array[i]["url"] + '" target="_blank"><i class="fa fa-angle-right"></i></a>';
                 
                 // Icons
                 if ("standalone" in mods_array[i] && mods_array[i]["standalone"] == true)
@@ -1160,17 +1160,6 @@
         });
 
         Mods15.push({
-            "name":   "Clear Water",
-            "author": "Garrakx",
-            "type":   "Game Tweak",
-            "url":    "https://drive.google.com/file/d/1CvnlUljq6GKmxYrSUY2EMl2BvXp_Z1_3/view",
-            "thumb":  "previews/clearwater.png",
-            "desc":   "Makes all water in the game crystal clear.",
-            "mod":   true,
-            "order": 66
-        });
-
-        Mods15.push({
             "name":   "DryWorld",
             "author": "Fyre",
             "type":   "Game Tweak",
@@ -1182,6 +1171,17 @@
         });
 
         Mods15.push({
+            "name":   "Clear Water",
+            "author": "Garrakx",
+            "type":   "Game Tweak",
+            "url":    "https://drive.google.com/file/d/1CvnlUljq6GKmxYrSUY2EMl2BvXp_Z1_3/view",
+            "thumb":  "previews/clearwater.png",
+            "desc":   "Makes all water in the game crystal clear.",
+            "mod":   true,
+            "order": 66
+        });
+
+        Mods15.push({
             "name":   "Max Rain Timer",
             "author": "Sycamorph & Four Safes",
             "type":   "Game Tweak",
@@ -1190,17 +1190,6 @@
             "desc":   "Removes RNG from the Rain Timer so that all cycles are the maximum duration.",
             "mod":   true,
             "order": 58
-        });
-
-        Mods15.push({
-            "name":   "Triggered",
-            "author": "Fyre",
-            "type":   "Creature Edits",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/474019828244545546/TRIGGERED.dll",
-            "thumb":  "previews/triggered.png",
-            "desc":   "Makes snails always triggered and ready to pop.",
-            "mod":   true,
-            "order": 51
         });
 
         Mods15.push({
@@ -1223,6 +1212,28 @@
             "desc":   "Forces slugcat to always be in starvation mode. More food is needed, and slugcat will have trouble staying conscious. This mod takes effect even in arena mode.",
             "mod":  true,
             "order": 34,
+        });
+
+        Mods15.push({
+            "name":   "LightGiver",
+            "author": "Fyre",
+            "type":   "Game Tweak",
+            "url":    "https://drive.google.com/file/d/1dR_QbnolmGtHaxS3ieS5xySVRmHiCQm4/view",
+            "thumb":  "previews/lantern.png",
+            "desc":   "Encourages the Overseer to shine light on you in dark areas whenever you have a lantern in your stomach.",
+            "mod":  true,
+            "order": 85,
+        });
+
+        Mods15.push({
+            "name":   "Triggered",
+            "author": "Fyre",
+            "type":   "Creature Edits",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/474019828244545546/TRIGGERED.dll",
+            "thumb":  "previews/triggered.png",
+            "desc":   "Makes snails always triggered and ready to pop.",
+            "mod":   true,
+            "order": 51
         });
 
         Mods15.push({
