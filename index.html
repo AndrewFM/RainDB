@@ -15,6 +15,8 @@
                 generateHTML("utilities", ToolMods, "", "Modding Tools");
             else if (section == "1.01mods")
                 generateHTML("1.01", Mods101, "", "v1.01 Mods");
+            else if (section == "arenas")
+                generateArenaHTML("arena", Arenas, "");
             else if (section == "palettes")
                 generatePaletteHTML("paletteGallery", gallery);
 
@@ -150,7 +152,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:left; float:left; margin-left:5px;">
-                   <b>Mod Category:</b> <a onclick="toggle('1.01mods')" href="#main">v1.01</a> | <a onclick="toggle('1.5mods')" href="#main">v1.5</a> | <!--<a onclick="toggle('1.7mods')" href="#main">v1.7</a> |--> <a onclick="toggle('utilities')" href="#main">Tools</a>  | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
+                   <b>Mod Category:</b> <a onclick="toggle('1.01mods')" href="#main">v1.01</a> | <a onclick="toggle('1.5mods')" href="#main">v1.5</a> | <!--<a onclick="toggle('1.7mods')" href="#main">v1.7</a> |--> <a onclick="toggle('arenas')" href="#main">Arenas</a> | <a onclick="toggle('utilities')" href="#main">Tools</a> | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
                 </div>
                 <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:right; float:right; margin-left:5px;">
                    <b>Legend:</b> <img class="legendTooltip_0" src="assets/ico/standalone.png" title="Standalone Mod: These mods are installed alone. They cannot be used together with other standalone mods."/> 
@@ -190,6 +192,16 @@
                 <div id="utilities_title"></div>
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
                 <div id="utilities_gallery"></div>
+            </div>
+
+            <div id="arenas" style="display:block;">
+                <div id="arena_title"></div>
+                <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+                <b>Show:</b> <a onclick="generateArenaHTML('arena', Arenas, '')" href="#main">All</a> | <a onclick="generateArenaHTML('arena', Arenas, 'new')" href="#main">Newest</a>
+                <br>
+                <b>To install Arenas:</b> Unzip the downloaded file(s) into the "Levels" folder in your Rain World installation.
+                <br><br>
+                <div id="arena_gallery"></div>
             </div>
 
             <div id="palettes" style="display:none;">
@@ -253,7 +265,7 @@
             var mods_array = input_array;
             if (filter == "new")
                 mods_array = sortByKey(JSON.parse(JSON.stringify(input_array)), "order").reverse();
-            document.getElementById(div_id+"_gallery").innerHTML = ""
+            document.getElementById(div_id+"_gallery").innerHTML = "";
             for (var i=0; i<mods_array.length; i++) {
                 var hasIcon = true; 
                 if (filter != "" && filter != "new" && ((filter in mods_array[i] && mods_array[i][filter] == false) || !(filter in mods_array[i])))
@@ -325,6 +337,42 @@
                 applyTooltip("authorTooltip", authorTipIds[i]);
         }
 
+        function generateArenaHTML(div_id, input_array, filter) {
+            var appendStr = ""
+            var count = 0
+            var tooltipIds = []
+            var mods_array = input_array;
+            if (filter == "new")
+                mods_array = sortByKey(JSON.parse(JSON.stringify(input_array)), "order").reverse();
+            document.getElementById(div_id+"_gallery").innerHTML = "";
+            for (var i=0; i<mods_array.length; i++) {
+                var hasIcon = true; 
+                if (filter != "" && filter != "new" && ((filter in mods_array[i] && mods_array[i][filter] == false) || !(filter in mods_array[i])))
+                    continue;
+                if (count % 3 == 0) {
+                    appendStr += '<div class="row">';
+                }
+                appendStr += '<div class="col-sm-4 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><div class="portfolio-box-image">';
+                appendStr += '<img src="arenas/' + mods_array[i]["name"] + '_Thumb.png?raw=true" alt="" data-ax2x="arenas/' + mods_array[i]["name"] + '_Thumb.png?raw=true" style="width:360px;height:250px;"></div>';
+                appendStr += '<h3><a href="arenas/' + mods_array[i]["name"] + '.zip" style="margin-left: 0px; margin-top: -1px;" target="_blank"><b>' + mods_array[i]["name"] + '</b></a>';
+                appendStr += "</h3>";
+                if ("req" in mods_array[i]) {
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-top:-10px; margin-right:20px;"><img class="masterTooltip_'+i+'" src="assets/ico/message.png" title="'+mods_array[i]["req"]+'"/></div>';
+                    tooltipIds.push(i);
+                }
+                appendStr += '<div class="portfolio-box-date"><p style="margin-left: 0px; margin-top: -10px;">';
+                appendStr += 'By ' + mods_array[i]["author"] + '</p></div></div>';
+                if (count % 3 == 2 || count == mods_array.length-1) {
+                    appendStr += "</div>";
+                }
+                count += 1
+            }
+            document.getElementById(div_id+"_gallery").innerHTML = appendStr
+            document.getElementById(div_id+"_title").innerHTML = '<h1 style="font-size:48px;"><b>Arenas</b></h1>'
+            for (var i=0; i<tooltipIds.length; i++)
+                applyTooltip("masterTooltip", tooltipIds[i]);
+        }
+
         function getRecolorFunct(ind) {
             return function(){
                 recolorPreview("palette"+ind);
@@ -364,6 +412,51 @@
         gallery.push({"name": "nano0", "author": "NanoSpirit and Dakras"});
         gallery.push({"name": "andrewfm0", "author": "AndrewFM"});
         gallery.push({"name": "andrewfm1", "author": "AndrewFM"});
+        gallery.push({"name": "miniskidi0", "author": "1MINISKIDI"})
+
+        //////////////////////////////////////////////////////////////////////////////////
+        // ARENA GALLERY
+        //////////////////////////////////////////////////////////////////////////////////
+        var Arenas = [];
+        Arenas.push({"name":"Smoulder", "author":"dog", "order":18}); // march 2, 2019
+        Arenas.push({"name":"Reverse Pong", "author":"Ehsper", "order":17}); // february 21, 2019
+        Arenas.push({"name":"Pump Complex", "author":"GooGroker", "order":15.5}); // january 30, 2019
+        Arenas.push({"name":"Swamp", "author":"Aurora", "order":8});  
+        Arenas.push({"name":"Skull", "author":"Cappin", "order":12});
+        Arenas.push({"name":"Ventilation", "author":"Dead_Eye", "order":1});
+        Arenas.push({"name":"Braziers", "author":"GooGroker", "order":15.3}); // january 7, 2019
+        Arenas.push({"name":"Mansion", "author":"Cappin", "order":12}); // october 31, 2018
+        Arenas.push({"name":"Archipelago", "author":"Aurora", "order":8}); // august 26, 2018
+        Arenas.push({"name":"Farm Arrays Arena", "author":"lizardturtle", "order":7}); // august 19, 2018
+        Arenas.push({"name":"Orchard", "author":"Cappin", "order":12});
+        Arenas.push({"name":"Outpost", "author":"GooGroker", "order":15.2}); // december 31, 2018
+        Arenas.push({"name":"Cell", "author":"Raggedy_Muffinz", "order":2});
+        Arenas.push({"name":"SLUGSTAGE", "author":"Dakras", "order":15}); // november 21, 2018
+        Arenas.push({"name":"Testing Chamber", "author":"Raggedy_Muffinz", "order":2});
+        Arenas.push({"name":"WaterChamber", "author":"lizardturtle", "order":11}); // september 22, 2018
+        Arenas.push({"name":"Mosaic", "author":"GooGroker", "order":19}); // march 7, 2018
+        Arenas.push({"name":"Cliff", "author":"Raggedy_Muffinz", "order":3}); // july 30, 2018
+        Arenas.push({"name":"Pipe Pit", "author":"GooGroker", "order":15.4}); // january 25, 2019
+        Arenas.push({"name":"Witch Hut", "author":"Cappin", "order":12});
+        Arenas.push({"name":"Sub Platforms", "author":"lizardturtle", "order":5}); // august 14, 2018 -- 2
+        Arenas.push({"name":"ShadedCooling", "author":"Dead_Eye", "order":1});
+        Arenas.push({"name":"Watchtower", "author":"Cappin", "order":12});
+        Arenas.push({"name":"Canyon", "author":"Aurora", "order":8});
+        Arenas.push({"name":"Web", "author":"Ehsper", "order":9, "req":"Requires Arena Corruption Fix to be installed."}); // september 1, 2018 -- 1
+        Arenas.push({"name":"DirtFieldSilos", "author":"Dead_Eye", "order":1});
+        Arenas.push({"name":"Sky Receiver", "author":"Zero Flaws, Many Concerns", "order":14}); // november 14, 2018
+        Arenas.push({"name":"Night Tower", "author":"12 Steps", "order":13}); // november 12, 2018
+        Arenas.push({"name":"Battlefield", "author":"lizardturtle", "order":10}); // september 1, 2018 -- 2
+        Arenas.push({"name":"Mountains", "author":"Aurora", "order":8});
+        Arenas.push({"name":"OutskirtsRavine", "author":"Dead_Eye", "order":1});
+        Arenas.push({"name":"Underhang Arena", "author":"lizardturtle", "order":6}); // august 16, 2018
+        Arenas.push({"name":"5p Test Chamber", "author":"lizardturtle", "order":4}); // august 14, 2018 -- 1
+        Arenas.push({"name":"Cavern", "author":"Aurora", "order":8});
+        Arenas.push({"name":"Vertigo", "author":"12 Steps", "order":16}); // january 31, 2019
+        Arenas.push({"name":"HeadCave", "author":"Dead_Eye", "order":1});
+        Arenas.push({"name":"Temple", "author":"Dead_Eye", "order":1});
+        Arenas.push({"name":"SkyTower", "author":"Dead_Eye", "order":1});
+        Arenas.push({"name":"Well", "author":"Dead_Eye", "order":1});
 
         //////////////////////////////////////////////////////////////////////////////////
         // TOOLS and MODDING UTILITIES
@@ -1148,7 +1241,7 @@
 
         Mods15.push({
             "name":   "OnO Face",
-            "author": "Raggedy_Muffins",
+            "author": "Raggedy_Muffinz",
             "type":   "Cosmetic",
             "url":    "https://drive.google.com/file/d/12e4jLf9MmwP-krSBJxc4qVGGEcbU6cJ2/view",
             "thumb":  "previews/ono.png",
@@ -1215,12 +1308,12 @@
 
         Mods15.push({
             "name":   "A Quiet World",
-            "author": "Bwarch",
+            "author": "Bwarch and Garrakx",
             "type":   "Game Tweak",
             "url":    "https://drive.google.com/file/d/1hO29nQPJGJcmsfXhnCWCbPoi_mbjGjRE/view",
             "thumb":  "previews/nothreat.png",
             "desc":   "Removes all threat music from the game, making encounters more surprising and threats harder to detect.",
-            "content":  true,
+            "mod":  true,
             "order": 89,
         });
 
