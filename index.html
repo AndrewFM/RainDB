@@ -15,6 +15,8 @@
                 generateHTML("utilities", ToolMods, "", "Modding Tools");
             else if (section == "1.01mods")
                 generateHTML("1.01", Mods101, "", "v1.01 Mods");
+            else if (section == "AUDB1.5mods")
+                generateHTML("AUDB1.5", ModsAUDB15, "", "AUDB Mods");
             else if (section == "arenas")
                 generateArenaHTML("arena", Arenas, "");
             else if (section == "palettes")
@@ -1813,6 +1815,20 @@
             "thumb":  "previews/literallyunplayable_preview.jpg",
             "desc":   "Cycles are now 10x shorter. Godspeed you magnificent bastard.<br>Note: only works with pre-made saves."
         });
+	    
+        //////////////////////////////////////////////////////////////////////////////////
+        // AUDB VERSION 1.5 MODS
+        //////////////////////////////////////////////////////////////////////////////////
+	var ModsAUDB15 = [];
+	var request = new XMLHttpRequest();
+	request.open('GET', 'https://audb.pythonanywhere.com/api/raindb', true);
+	request.send();
+	request.onreadystatechange = function() {
+		if (request.readyState == XMLHttpRequest.DONE) {
+			ModsAUDB15.push.apply(ModsAUDB15, JSON.parse(request.resultText));
+		}
+	};
+	
 
         toggle("1.5mods");
 
