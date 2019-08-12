@@ -1825,7 +1825,7 @@
 	request.send();
 	request.onreadystatechange = function() {
 		if (request.readyState == XMLHttpRequest.DONE) {
-			ModsAUDB15.push.apply(ModsAUDB15, JSON.parse(request.resultText));
+			ModsAUDB15.push.apply(ModsAUDB15, JSON.parse(request.responseText));
 		}
 	};
 	
