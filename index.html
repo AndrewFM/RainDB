@@ -728,7 +728,7 @@
             "thumb":  "previews/drought.png",
             "desc":   "<b>[Available on September 28th]</b><br>An expansion adding four new regions and a new campaign following The Wanderer, a curious and calm slugcat with a deep desire to discover the ancient mysteries around it.",
             "mod": true,
-            "order": 105
+            "order": 106
         });
 
         Mods15.push({
@@ -897,7 +897,7 @@
         Mods15.push({
             "name":   "DungeonWorld",
             "author": "Zandra",
-            "type":   "World Edit",
+            "type":   "Randomizer",
             "url":    "https://drive.google.com/file/d/1KXPIUxzWPj-d1bQZhi_H3jpRjCUKoa61/view",
             "thumb":  "previews/dungeon.png",
             "desc":   "Randomly mixes around the pipe destinations in every region, making the world unpredictable to navigate, and ever changing.",
@@ -908,13 +908,35 @@
         Mods15.push({
             "name":   "GateWorld",
             "author": "FIIIIISH",
-            "type":   "World Edit",
+            "type":   "Randomizer",
             "url":    "https://drive.google.com/file/d/1efh6Tpk5detA5yzJLeE06gwLzef3bmEW/view",
             "thumb":  "previews/gateworld.png",
             "desc":   "An add-on to DungeonWorld that makes gate connections randomized as well, so regions are visited in a random order.",
             "req":    "Requires DungeonWorld to be installed.",
             "content":  true,
             "order": 62,
+        });
+
+         Mods15.push({
+            "name":   "Enemy Randomizer",
+            "author": "Mojopoop",
+            "type":   "Randomizer",
+            "url":    "https://drive.google.com/file/d/191fSP6XSG7lzhkGVNU3M01K-1ih1bjEL/view",
+            "thumb":  "previews/enemyRandomizer.png",
+            "desc":   "Any newly started save files will have all enemies in every region randomized with others.",
+            "mod": true,
+            "order": 105
+        });
+
+        Mods15.push({
+            "name":   "SainWorld",
+            "author": "Fyre",
+            "type":   "Derandomizer",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/563994830938570754/SainWorld.dll",
+            "thumb":  "previews/sain.png",
+            "desc":   "All randomly generated values in the game will now have fixed values.",
+            "mod":  true,
+            "order": 91,
         });
 
         Mods15.push({
@@ -1301,7 +1323,7 @@
 
         Mods15.push({
             "name":   "Unlimited Cycles for Hunter",
-            "author": "AndrewFM & Four Safes",
+            "author": "AndrewFM & Pastebee",
             "type":   "Game Tweak",
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428227134436278272/red_cycles.dll",
             "thumb":  "previews/redcycle_andrew_preview.png",
@@ -1413,7 +1435,7 @@
 
         Mods15.push({
             "name":   "One Hand",
-            "author": "Four Safes",
+            "author": "Pastebee",
             "type":   "Game Tweak",
             "url":    "https://drive.google.com/file/d/1Fij4UqoUHDGBI9uEbLRa5uJS3gAOqX57/view",
             "thumb":  "previews/onehand.png",
@@ -1480,7 +1502,7 @@
 
         Mods15.push({
             "name":   "Max Rain Timer",
-            "author": "Sycamorph & Four Safes",
+            "author": "Sycamorph & Pastebee",
             "type":   "Game Tweak",
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/485442427885322250/raintimer2.dll",
             "thumb":  "previews/literallyunplayable_preview.jpg",
@@ -1603,24 +1625,13 @@
 
         Mods15.push({
             "name":   "Arena Corruption Fix",
-            "author": "Willburd & Four Safes",
+            "author": "Willburd & Pastebee",
             "type":   "Bug Fix",
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/431101050536198156/daddy_corruption_patch.dll",
             "thumb":  "previews/daddydrainage_preview.jpg",
             "desc":   "Fixes the crash that prevents creating or using arena maps that have the Corruption object in them.",
             "mod":   true,
             "order":  21
-        });
-
-        Mods15.push({
-            "name":   "SainWorld",
-            "author": "Fyre",
-            "type":   "Derandomizer",
-            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/563994830938570754/SainWorld.dll",
-            "thumb":  "previews/sain.png",
-            "desc":   "All randomly generated values in the game will now have fixed values.",
-            "mod":  true,
-            "order": 91,
         });
 
         Mods15.push({
@@ -1660,20 +1671,39 @@
                 ModsAUDB15.push.apply(ModsAUDB15, JSON.parse(request.responseText));
                 for (var i=0; i<ModsAUDB15.length; i++) {
                     var found = false;
-                    for (var j=0; j<Mods15.length; j++) {
-                        if ("name" in ModsAUDB15[i] && "name" in Mods15[j] && ModsAUDB15[i]["name"].toLowerCase() === Mods15[j]["name"].toLowerCase()) {
-                            found = true;
-                            if ("url" in ModsAUDB15[i]) {
-                                Mods15[j]["url"] = ModsAUDB15[i]["url"];
+                    if ("type" in ModsAUDB15[i] && ModsAUDB15[i]["type"].toLowerCase() === "utility") {
+                        for (var j=0; j<ToolMods.length; j++) {
+                            if ("name" in ModsAUDB15[i] && "name" in ToolMods[j] && ModsAUDB15[i]["name"].toLowerCase() === ToolMods[j]["name"].toLowerCase()) {
+                                found = true;
+                                if ("url" in ModsAUDB15[i]) {
+                                    ToolMods[j]["url"] = ModsAUDB15[i]["url"];
+                                }
+                                ToolMods[j]["audb"] = true;
+                                break;
                             }
-                            Mods15[j]["audb"] = true;
-                            break;
+                        }
+                        if (!found) {
+                            ModsAUDB15[i]["audb"] = true;
+                            ModsAUDB15[i]["order"] = 0;
+                            ToolMods.push(ModsAUDB15[i]);
                         }
                     }
-                    if (!found) {
-                        ModsAUDB15[i]["audb"] = true;
-                        ModsAUDB15[i]["order"] = 0;
-                        Mods15.push(ModsAUDB15[i]);
+                    else {
+                        for (var j=0; j<Mods15.length; j++) {
+                            if ("name" in ModsAUDB15[i] && "name" in Mods15[j] && ModsAUDB15[i]["name"].toLowerCase() === Mods15[j]["name"].toLowerCase()) {
+                                found = true;
+                                if ("url" in ModsAUDB15[i]) {
+                                    Mods15[j]["url"] = ModsAUDB15[i]["url"];
+                                }
+                                Mods15[j]["audb"] = true;
+                                break;
+                            }
+                        }
+                        if (!found) {
+                            ModsAUDB15[i]["audb"] = true;
+                            ModsAUDB15[i]["order"] = 0;
+                            Mods15.push(ModsAUDB15[i]);
+                        }
                     }
                 }
                 toggle("1.5mods");
