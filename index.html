@@ -282,7 +282,7 @@
                 // Icons
                 var audbstr = "";
                 if ("audb" in mods_array[i] && mods_array[i]["audb"] == true)
-                    audbstr = '<img class="audbTooltip_'+i+'" src="assets/ico/update.png" title="Supports AutoUpdate"/> ';
+                    audbstr = '<img class="audbTooltip_'+i+'" src="assets/ico/update.png" title="Taken from AUDB"/> ';
                 if ("standalone" in mods_array[i] && mods_array[i]["standalone"] == true)
                     appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/standalone.png" title="Standalone Mod"/></div>';
                 else if ("content" in mods_array[i] && mods_array[i]["content"] == true)
@@ -533,7 +533,7 @@
             "name":   "ConfigMachine",
             "author": "Topicular",
             "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1_hPJT7NJ3PllrChAKp1Ns1R1KOF2qucD/view",
+            "url":    "https://drive.google.com/open?id=1NIE8conaoI1OOHevi4K9tvOG4v-NIfYf",
             "thumb":  "previews/optional.png",
             "desc":   "Allows modders to make their own custom configuration settings in an in-game menu. Mods which are configurable require this to be installed.",
             "mod":  true
@@ -830,7 +830,7 @@
             "name":   "The Lancer",
             "author": "Topicular",
             "type":   "Slugcat Abilities",
-            "url":    "https://drive.google.com/file/d/1b0G2gkhbWhtfH79U4Z5BkoFxemLAOORO/view",
+            "url":    "https://drive.google.com/open?id=1h5ZAWXmJ5I3qRcEEgsWgzAPEgrVuUgLF",
             "thumb":  "previews/lancer.png",
             "desc":   "Play as The Lancer, a slugpup with a horn who specializes in melee combat with spears.",
             "mod": true,
@@ -875,7 +875,7 @@
             "author": "Multiple Authors",
             "author_ext": "Colorfoot by: Topicular, Selective Colors by: Garrakx and Beau, Camo Slugcat by: loderunner, Skittlekat by: Zandra",
             "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1-rfKs96_xyYwUxlFUTDsk8IoJm43FiPG/view",
+            "url":    "https://drive.google.com/open?id=1Em9kKkh8kidRVjPS12lwlq3QGZ5-nV2U",
             "thumb":  "previews/colorfoot.png",
             "desc":   "Provides a variety of ways of changing slugcat's colors. This is a collection of the old Selective Colors mod, Camocat mod, and Skittlecat mod.",
             "req":    "Requires ConfigMachine to be installed.",
@@ -987,10 +987,22 @@
         });
 
         Mods15.push({
+            "name":   "NSH Goes for a Walk",
+            "author": "the one who screams",
+            "type":   "Character Swap",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/630678674001362954/NSHWalk.dll",
+            "thumb":  "previews/nsh.png",
+            "desc":   "Lets you play the game as the iterator NSH, who has decided to go for a walk.",
+            "mod": true,
+            "req": "Requires PublicityStunt to be installed.",
+            "order": 107
+        });
+
+        Mods15.push({
             "name":   "Hotslonk",
             "author": "Topicular",
             "type":   "Game Tweak",
-            "url":    "https://drive.google.com/file/d/1sHbpyI7bFDtVhoqZld267Sb_NdPKpcsU/view",
+            "url":    "https://drive.google.com/open?id=1wOW3iuQSgm_dgh1jl_lJ09g8WoRQMj-O",
             "thumb":  "previews/hotslonk.png",
             "desc":   "Changes the progression of everything in the world so that time only moves forwards while you are in motion.",
             "mod": true,
@@ -1001,7 +1013,7 @@
             "name":   "MoodMod",
             "author": "Topicular",
             "type":   "Cosmetic",
-            "url":    "https://drive.google.com/file/d/1EcCcvcQpbm3Ot78s-iNBfe7ytf-CAMdc/view",
+            "url":    "https://drive.google.com/open?id=1f7v2axMPs9DQ9F3tj7KNeU2gg3V3Jtzx",
             "thumb":  "previews/moodmod.png",
             "desc":   "Adds a day/night cycle effect to all areas in Rain World.",
             "mod": true,
@@ -1160,7 +1172,7 @@
             "name":   "SimplifiedJump",
             "author": "Topicular",
             "type":   "Slugcat Abilities",
-            "url":    "https://drive.google.com/file/d/1aWF-g2WKPnfgAh5MoyexBKS04AumqgRF/view",
+            "url":    "https://drive.google.com/open?id=16L5rXtQGUTJfpTFas--nD93zIoZI4zOH",
             "thumb":  "previews/simplifiedjump.png",
             "desc":   "Adds an additional action button that several of slugcat's advanced movement maneuvers are mapped to.",
             "mod": true,
@@ -1183,11 +1195,22 @@
             "name":   "Aim Anywhere",
             "author": "Demonic",
             "type":   "Slugcat Abilities",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/490709615634415645/AimAnywhere.zip",
+            "url":    "https://drive.google.com/file/d/1HHzurxw7KgUpNDJxoCd34BBQpJqoEEMI/view",
             "thumb":  "previews/omnithrow_mouse.png",
             "desc":   "Gives slugcat the ability to throw objects in the direction of the mouse cursor.",
             "app":  true,
             "order": 65,
+        });
+
+        Mods15.push({
+            "name":   "Peace Among Friends",
+            "author": "the one who screams",
+            "type":   "Game Tweak",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/633029389243777042/PeaceAmongFriends.dll",
+            "thumb":  "previews/frenland.png",
+            "desc":   "Makes tamed lizards and creatures with really high reputation not attack each other.",
+            "mod": true,
+            "order": 109
         });
 
         Mods15.push({
@@ -1205,7 +1228,7 @@
             "name":   "SingularStep",
             "author": "Topicular",
             "type":   "Game Tweak",
-            "url":    "https://drive.google.com/file/d/1n36VcqDeopBKaSVexB2r-PKgnTOZS23R/view",
+            "url":    "https://drive.google.com/open?id=1fblcsTV_r4TXhxugdI9vcxiQwhhHrwjL",
             "thumb":  "previews/singularstep.png",
             "desc":   "Every time a lineage creature is killed, there is a 100% chance for the lineage to advance to the next step.",
             "mod": true,
@@ -1348,7 +1371,7 @@
             "name":   "HunterSpawn",
             "author": "Topicular",
             "type":   "Game Tweak",
-            "url":    "https://drive.google.com/file/d/1SXT5UXNRHmpwsG5SaxJWmL7ZpYt8_3gd/view",
+            "url":    "https://drive.google.com/open?id=1VlO82XQMyXaY79xhIF2rRuiWxUYStPFu",
             "thumb":  "previews/hunterspawn.png",
             "desc":   "Makes every slugcat have the same creature spawns as The Hunter.",
             "mod": true,
@@ -1364,6 +1387,17 @@
             "desc":   "Makes lizards small and adorable!",
             "mod": true,
             "order": 104
+        });
+
+        Mods15.push({
+            "name":   "AntLizard",
+            "author": "Rᵒᵗᵗᶦⁿᵍ ᶦⁿ ʰᵉCK, Fyre, Bee",
+            "type":   "Creature Edits",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/635519856732536842/AntLizardDelta.dll",
+            "thumb":  "previews/antlizard.png",
+            "desc":   "Gives all lizards the antennas and communication abilities that yellow lizards have.",
+            "mod": true,
+            "order": 110
         });
 
         Mods15.push({
@@ -1516,7 +1550,7 @@
             "name":   "Speed",
             "author": "Topicular",
             "type":   "Game Tweak",
-            "url":    "https://drive.google.com/file/d/1wIyHGTPeomjHbTjys0jVbSrbSDcUxFjJ/view",
+            "url":    "https://drive.google.com/open?id=17gZ5SqMe2Ct3iOdFlUQzweT1qeV_U1Op",
             "thumb":  "previews/speed.png",
             "desc":   "A challenge mode where you cannot stop moving. If slugcat stays still for more than 5 seconds, an explosive death awaits.",
             "mod": true,
@@ -1544,6 +1578,17 @@
             "mod":  true,
             "order": 89,
         });
+
+        Mods15.push({
+            "name":   "Panopticon",
+            "author": "Topicular",
+            "type":   "Game Tweak",
+            "url":    "https://drive.google.com/open?id=1reEAwF1DlnoUUxLh32elLlboG70oCMQk",
+            "thumb":  "previews/panopticon.png",
+            "desc":   "Makes all creatures in the region know your location, and makes them chase after you always.",
+            "mod": true,
+            "order": 108
+        });        
 
         Mods15.push({
             "name":   "Sickness Mode",
