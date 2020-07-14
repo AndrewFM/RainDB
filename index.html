@@ -535,11 +535,11 @@
 
         ToolMods.push({
             "name":   "Partiality Launcher",
-            "author": "Zandra",
+            "author": "Zandra and DmitriySalnikov",
             "type":   "Utility",
-            "url":    "https://github.com/PartialityModding/PartialityLauncher/releases",
-            "thumb":  "previews/partiality.png",
-            "desc":   "The mod loader that is needed to install any partiality mods and use them with the game.",
+            "url":    "https://github.com/DmitriySalnikov/PartialityLauncher/releases",
+            "thumb":  "previews/partiality2.png",
+            "desc":   "The mod loader that is needed to install any Partiality mods and use them with the game.",
             "app":  true
         });
 
@@ -633,6 +633,17 @@
         });
 
         ToolMods.push({
+            "name":   "In-Game Warp Menu",
+            "author": "LeeMoriya",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/731874285643366451/Warp.dll",
+            "thumb":  "previews/warp.png",
+            "desc":   "Adds an in-game menu to dev tools that allows you to immediately warp to any room in your current region, or fast travel to other regions.",
+            "req": "Requires Dev Tools to be installed",
+            "mod": true
+        });
+
+        ToolMods.push({
             "name":   "SapphireTools",
             "author": "SapphireWine",
             "type":   "Utility",
@@ -640,7 +651,7 @@
             "thumb":  "previews/sapphire.png",
             "desc":   "Adds various utility functionality to the game for testing, such as teleporting to room exits, dragging or manipulating creatures, etc.",
             "mod": true
-        })
+        });
 
         ToolMods.push({
             "name":   "Specs Editor",
@@ -713,12 +724,34 @@
         });
 
         ToolMods.push({
+            "name":   "Visible ID",
+            "author": "ratrat44",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/729814689336262687/VisibleID.dll",
+            "thumb":  "previews/visibleids.png",
+            "desc":   "Displays the ID numbers of creatures above their heads. Toggleable with the Tab key.",
+            "req":  "Requires PublicityStunt to be installed",
+            "mod":  true
+        });
+
+        ToolMods.push({
             "name":   "Debug Sprite Enabler",
             "author": "Topicular",
             "type":   "Utility",
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/473108029458612226/Guideline.dll",
             "thumb":  "previews/debugsprite.png",
             "desc":   "Enables toggling on/off different categories of debug visualizations.",
+            "mod":  true
+        });
+
+        ToolMods.push({
+            "name":   "GreyScreen",
+            "author": "Topicular",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/711091778278785034/GreyScreen.dll",
+            "thumb":  "previews/grey.png",
+            "desc":   "Enables toggling on/off a solid color background mask, to help with chroma keying, useful for recording gifs.",
+            "req":    "Requires ConfigMachine to be installed",
             "mod":  true
         });
 
@@ -841,6 +874,18 @@
         });
 
         Mods15.push({
+            "name":   "Swamplands",
+            "author": "FishSwallower",
+            "type":   "New Region",
+            "url":    "https://drive.google.com/file/d/1vKI5r78T-rL49NdeEsfIJK01yz_mFI0z/view",
+            "thumb":  "previews/swamp.png",
+            "desc":   "A new swampy region that connects Garbage Wastes and Shoreline",
+            "content":  true,
+            "order": 140,
+            "req":    "Requires Checksum Fix to be installed.",
+        });
+
+        Mods15.push({
             "name":   "Easy Mode Modpack",
             "author": "Easy Mode Modpack Group",
             "author_ext": "Bwarch, Topicular, Seri, 1MINISKIDI",
@@ -955,6 +1000,18 @@
             "mod": true,
             "req": "Requires Rusty Machine to be installed.",
             "order": 77
+        });
+
+        Mods15.push({
+            "name":   "Fancy Slugcats",
+            "author": "the one who screams",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/699439245923844126/Fancy_Slugcats.zip",
+            "thumb":  "previews/fancy.png",
+            "desc":   "Adds a variety of tools to customize your slugcat, including body proportions, colors, and even custom graphics and assets.",
+            "req":    "Requires ConfigMachine, PublicityStunt, and Custom Assets to be installed",
+            "mod":  true,
+            "order": 136,
         });
 
         Mods15.push({
@@ -1103,6 +1160,18 @@
             "desc":   "Allows you to spawn a variety of creatures and items at will, in all game types including story mode and arena. Essentially, sandbox mode everywhere.",
             "mod":  true,
             "order": 24,
+        });
+
+        Mods15.push({
+            "name":   "Soon™",
+            "author": "Topicular",
+            "type":   "Feature Port",
+            "url":    "https://drive.google.com/file/d/1smvlHdNbyrWkc1UJGAsm6FUZ8OZkoOO4/view?usp=sharing",
+            "thumb":  "previews/soon.png",
+            "desc":   "Backports the ending cutscenes from Rain World 1.8 into Rain World 1.5.",
+            "mod":  true,
+            "req":  "Requires EnumExtender to be installed.",
+            "order": 137
         });
 
         Mods15.push({
@@ -1572,6 +1641,17 @@
         });
 
         Mods15.push({
+            "name":   "Score Tracker",
+            "author": "Henpemaz",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/731227685262590012/ScoreTrackerMod.dll",
+            "thumb":  "previews/scoretrack.png",
+            "desc":   "Adds a score tracker to the sleep screen to keep track of your current score during a Hunter run.",
+            "mod":  true,
+            "order": 139
+        });
+
+        Mods15.push({
             "name":   "Unlimited Cycles for Hunter",
             "author": "AndrewFM & Pastebee",
             "type":   "Game Tweak",
@@ -1648,6 +1728,17 @@
             "desc":   "Gives all lizards the antennas and communication abilities that yellow lizards have.",
             "mod": true,
             "order": 110
+        });
+
+        Mods15.push({
+            "name":   "RainbowLizards",
+            "author": "the one who screams",
+            "type":   "Creature Edits",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/729079332974362634/RainbowLizards.dll",
+            "thumb":  "previews/rainbowlizards.png",
+            "desc":   "Makes all of the lizards in the game flashing rainbow colored with many dangerous abilities.",
+            "mod":  true,
+            "order": 138
         });
 
         Mods15.push({
