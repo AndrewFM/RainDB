@@ -530,7 +530,7 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/438565425303781376/Devtools.dll",
             "thumb":  "previews/devtools2.png",
             "desc":   "Enables the built-in dev tools to help with modding the game.",
-            "mod": true
+            "patch": true
         });
 
         ToolMods.push({
@@ -560,12 +560,14 @@
             "url":    "https://drive.google.com/file/d/1CpyhzVxuBwoAVSQvtFTuDCj-tKXKeqE4/view",
             "thumb":  "previews/checksum.png",
             "desc":   "Disables checksum verification so that world files and save files can be edited without triggering the game's cheat protection.",
-            "mod":  true
+            "patch":  true
         });
 
+        /*
         ToolMods.push({
             "name": "AutoUpdate"
         })
+        */
 
         ToolMods.push({
             "name":   "Custom Regions Support",
@@ -573,7 +575,7 @@
             "type":   "Utility",
             "url":    "https://github.com/Garrakx/Custom-Regions/releases",
             "thumb":  "previews/customregion.png",
-            "desc":   "Add supports for custom regions: Splash Art, Text in select slugcat Select Screen and more! It works with older Regions like The Root. More information on how to use it inside the zip.",
+            "desc":   "Add support for custom regions: Splash Art, Text in slugcat select screen and more! It works with older regions like The Root. More information on how to use it inside the zip.",
             "app": true
         });
 
@@ -584,12 +586,18 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/530462441432416266/PublicityStunt.dll",
             "thumb":  "previews/public.png",
             "desc":   "Changes all private / protected members and functions in the assembly to have public access.",
-            "mod": true
+            "patch": true
         });
 
         ToolMods.push({
-            "name": "EnumExtender"
-        })
+            "name": "EnumExtender",
+            "author": "Pastebee",
+            "type": "Utility",
+            "url": "https://drive.google.com/file/d/1dJKZvcgbTXwxOCCQyCAqKmj6Fzqw1FJT/view",
+            "thumb": "previews/enumext.png",
+            "desc":   "Makes certain modifications to the game's code easier.",
+            "mod": true
+        });
 
         ToolMods.push({
             "name":   "Sandbox Unlock Core",
@@ -609,14 +617,14 @@
             "url":    "https://drive.google.com/file/d/1W9A5Jlmhkxxr8HXeTlV4zJYSKYEXvSKq/view",
             "thumb":  "previews/assets.png",
             "desc":   "Allows extended editing of the game's assets, particuarly texture atlases and music files.",
-            "mod":  true
+            "patch":  true
         });
 
         ToolMods.push({
             "name":   "CommunicationModule",
             "author": "Topicular",
             "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1TvGBqPMN2tlbmo6xYJQAC6qTX2ap3sDI/view",
+            "url":    "https://drive.google.com/file/d/1fXUcjxr4zhqY-EVDf18FXQ6k55c9YRDG/view",
             "thumb":  "previews/communication.png",
             "desc":   "A utility for supporting translation patches. Allows swapping out any text in the game, adding new languages, and adding new fonts, even with unicode support.",
             "mod":  true
@@ -700,7 +708,7 @@
             "url":    "https://cdn.discordapp.com/attachments/431534164932689921/441951417905840168/Bake_region_partiality.dll",
             "thumb":  "previews/baking.png",
             "desc":   "Allows you to turn on/off the baking of AI pathmaps into region maps via the presence of a bake.txt file.",
-            "mod":  true
+            "patch":  true
         });
 
         ToolMods.push({
@@ -710,7 +718,7 @@
             "url":    "https://drive.google.com/file/d/1QyGL9RqpEOP-fONs5ZaQcee4HCVeSIei/view",
             "thumb":  "previews/encrypt.png",
             "desc":   "Allows you to encrypt and decrypt the language files used for dialog, pearls, and other conversations in the game.",
-            "mod":  true
+            "patch":  true
         });
 
         ToolMods.push({
@@ -773,14 +781,16 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/474688248330059796/dontdie.dll",
             "thumb":  "previews/nodeath.png",
             "desc":   "A semi-god mode tool that disables many sources of death such as drowning, being attacked by creatures, fall damage, etc.",
-            "mod":  true
+            "patch":  true
         });
 
+        /*
         ToolMods.push({
             "name": "Death Protection 2",
             "req":  "Requires Death Protection to be installed",
             "desc": "Disables most sources of death for the player, and prevents creatures from dying by falling out of rooms."
         })
+        */
 
         ToolMods.push({
             "name":   "Rusty Machine",
@@ -845,7 +855,7 @@
             "url":    "https://drive.google.com/open?id=1y_u3kDjsIt6VYftvAIJ0HlCcfOfUh8uB",
             "thumb":  "previews/drought.png",
             "desc":   "An expansion adding four new regions and a new campaign following The Wanderer, a curious and calm slugcat with a deep desire to discover the ancient mysteries around it.",
-            "mod": true,
+            "patch": true,
             "order": 106
         });
 
@@ -941,7 +951,7 @@
             "url":    "https://drive.google.com/open?id=1SV7s0G5nWFP5OHqJ4H-H-AQvAdh7moMf",
             "thumb":  "previews/wingcat.png",
             "desc":   "Gives slugcat wings and the ability to fly. Activate the ability by tapping jump while in the air.",
-            "mod":  true,
+            "patch":  true,
             "order": 27
         });
 
@@ -954,7 +964,7 @@
             "thumb":  "previews/martyr.png",
             "desc":   "Play as The Martyr, a new character with custom story, gameplay mechanics and abilities. Provides an alternate experience to The Hunter, with less cycles.",
             "req":    "Requires Partiality 0.3.10",
-            "mod": true,
+            "patch": true,
             "order": 44
         });
 
@@ -976,7 +986,7 @@
             "url":    "https://drive.google.com/file/d/1LFJw84vhV4_PNDG9C6vAHnTVnMSkHVZm/view",
             "thumb":  "previews/spookcat.png",
             "desc":   "Zombifies slugcat and transforms the world into a dark and haunting nightmarescape. Turns your food meter into a health bar.",
-            "mod": true,
+            "patch": true,
             "order": 71,
         });
 
@@ -1011,7 +1021,7 @@
             "url":    "https://drive.google.com/file/d/1jBW9qM-fdCffk7DAiu2bupWKTK8uNAbz/view",
             "thumb":  "previews/electric.png",
             "desc":   "Adds a fourth playable slugcat who has electric abilities.",
-            "mod":  true,
+            "patch":  true,
             "order": 142
         });
 
@@ -1022,7 +1032,7 @@
             "url":    "https://drive.google.com/file/d/1gnLwK1rSPYtt3uuRf2JOsyZRBCFtD990/view",
             "thumb":  "previews/thicc.png",
             "desc":   "Changes slugcat's state depending on the amount of food eaten. On an empty stomach you're fast but weak, on a full stomach you're strong but slow.",
-            "mod":  true,
+            "patch":  true,
             "order": 68,
         });   
 
@@ -1093,7 +1103,7 @@
             "url":    "https://drive.google.com/file/d/1xG9XgL10xdstiNpg1SRtjTG6_lQEwjXA/view",
             "thumb":  "previews/senses.png",
             "desc":   "Adds creature icons to the map, allowing you to see creatures offscreen. This vision however is not as strong as slugcat's actual view. So still take care not to get surprised!",
-            "mod": true,
+            "patch": true,
             "order": 63
         });
 
@@ -1138,7 +1148,7 @@
             "url":    "https://drive.google.com/file/d/1KXPIUxzWPj-d1bQZhi_H3jpRjCUKoa61/view",
             "thumb":  "previews/dungeon.png",
             "desc":   "Randomly mixes around the pipe destinations in every region, making the world unpredictable to navigate, and ever changing.",
-            "mod":  true,
+            "patch":  true,
             "order": 33,
         });
 
@@ -1214,7 +1224,7 @@
             "name":   "Beastmaster",
             "author": "Fyre & Zandra",
             "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/541798039245815819/Beastmaster_4.zip",
+            "url":    "https://drive.google.com/open?id=1F00Bz9KVh6GfVrS25AesWsTHXduUkcbw",
             "thumb":  "previews/beastmaster.png",
             "desc":   "Allows you to spawn a variety of creatures and items at will, in all game types including story mode and arena. Essentially, sandbox mode everywhere.",
             "mod":  true,
@@ -1253,7 +1263,7 @@
             "thumb":  "previews/russian.jpg",
             "desc":   "Русский перевод для Rain World. This mod translates all the game text into Russian.",
             "req":  "Requires CommunicationModule to be installed.",
-            "mod":  true,
+            "patch":  true,
             "order": 67
         });
 
@@ -1265,7 +1275,7 @@
             "thumb":  "previews/korean.png",
             "desc":   "This mod translates the game text into Korean.",
             "req":  "Requires CommunicationModule to be installed.",
-            "mod":  true,
+            "patch":  true,
             "order": 111
         });
 
@@ -1471,7 +1481,7 @@
             "url":    "https://drive.google.com/file/d/1EYJZCSJjATAR6f8lsBH7dlyS0XHIITyl/view",
             "thumb":  "previews/spearrifle_preview.jpg",
             "desc":   "Adds several overpowered rifles to the game that rapid-fire spears and stuff.",
-            "mod": true,
+            "patch": true,
             "order": 45
         });
 
@@ -1482,7 +1492,7 @@
             "url":    "https://drive.google.com/drive/folders/1NoKw6OltfvybEat8IHfMtzEUtaAw1T2X?usp=sharing",
             "thumb":  "previews/electric_spear.png",
             "desc":   "This mod adds a chargeable and depletable electric spear to the game.",
-            "mod": true,
+            "patch": true,
             "order": 93
         });
 
@@ -1585,7 +1595,7 @@
             "url":    "https://cdn.discordapp.com/attachments/376539077433884694/435528021387116544/Bash.dll",
             "thumb":  "previews/bash.png",
             "desc":   "Gives slugcat the bash ability from Ori and the Blind Forest. Press jump while near a creature to bash off of them.",
-            "mod":  true,
+            "patch":  true,
             "order": 26
         });
 
@@ -1630,7 +1640,7 @@
             "url":    "https://drive.google.com/file/d/1onWaKzK4zW9NEhuy9YQ2veiQsJkT_oxa/view",
             "thumb":  "previews/quicktravel.png",
             "desc":   "Allows you to choose any specific region to spawn in when you load your save file, or start a new game.",
-            "mod":  true,
+            "patch":  true,
             "order": 39,
         }); 
 
@@ -1652,7 +1662,7 @@
             "url":    "https://drive.google.com/file/d/1wKdo3dIxFQR5RrovuT_mfVy1xl5tCelS/view",
             "thumb":  "previews/arenabackspear.png",
             "desc":   "Allows you to have a back spear in arena. Works for all four characters.",
-            "mod":  true,
+            "patch":  true,
             "order": 73,
         });
 
@@ -1674,7 +1684,7 @@
             "url":    "https://drive.google.com/file/d/129giWXk0zJmlZPkl1F-Uigig2YhkApnj/view",
             "thumb":  "previews/spearsteal.png",
             "desc":   "Removes scavenger's ability to steal spears off of Hunter's back.",
-            "mod":  true,
+            "patch":  true,
             "order": 53,
         });
 
@@ -1696,7 +1706,7 @@
             "url":    "https://cdn.discordapp.com/attachments/431534164932689921/472051839639224320/ReusableSpears.dll",
             "thumb":  "previews/infiniteExplode.png",
             "desc":   "Makes the exploding spear item not destroy itself after it explodes.",
-            "mod":  true,
+            "patch":  true,
             "order": 46,
         });
 
@@ -1707,7 +1717,7 @@
             "url":    "https://cdn.discordapp.com/attachments/421747949127598080/620328356956733447/bat.dll",
             "thumb":  "previews/badfly.png",
             "desc":   "Makes you not automatically grab batflies when you have an empty hand.",
-            "mod":   true,
+            "patch":   true,
             "order": 103
         });
 
@@ -1729,7 +1739,7 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428227134436278272/red_cycles.dll",
             "thumb":  "previews/redcycle_andrew_preview.png",
             "desc":   "Removes the cycle limit when playing as the Hunter, allowing for endless exploring without the impending doom of taking too many cycles.",
-            "mod":   true,
+            "patch":   true,
             "order": 1
         });
 
@@ -1797,7 +1807,7 @@
             "url":    "https://cdn.discordapp.com/attachments/481900360324218880/635519856732536842/AntLizardDelta.dll",
             "thumb":  "previews/antlizard.png",
             "desc":   "Gives all lizards the antennas and communication abilities that yellow lizards have.",
-            "mod": true,
+            "patch": true,
             "order": 110
         });
 
@@ -1841,7 +1851,7 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/474021422667137025/SuperJetfish.dll",
             "thumb":  "previews/jetfishnyoom.png",
             "desc":   "Makes it possible to nyoom with jetfish at even more extreme speeds.",
-            "mod":   true,
+            "patch":   true,
             "order": 50
         });
 
@@ -1977,7 +1987,7 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/473559079709704193/DryWorld.dll",
             "thumb":  "previews/norain.png",
             "desc":   "Removes rain from the game so all cycles are infinite length.",
-            "mod":   true,
+            "patch":   true,
             "order": 52
         });
 
@@ -1988,7 +1998,7 @@
             "url":    "https://drive.google.com/file/d/1CvnlUljq6GKmxYrSUY2EMl2BvXp_Z1_3/view",
             "thumb":  "previews/clearwater.png",
             "desc":   "Makes all water in the game crystal clear.",
-            "mod":   true,
+            "patch":   true,
             "order": 66
         });
 
@@ -2054,7 +2064,7 @@
             "url":    "https://cdn.discordapp.com/attachments/440814422353772544/440872416441532416/Sickness_Mode.dll",
             "thumb":  "previews/sickness.png",
             "desc":   "Forces slugcat to always be in starvation mode. More food is needed, and slugcat will have trouble staying conscious. This mod takes effect even in arena mode.",
-            "mod":  true,
+            "patch":  true,
             "order": 34,
         });
 
@@ -2076,7 +2086,7 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/474019828244545546/TRIGGERED.dll",
             "thumb":  "previews/triggered.png",
             "desc":   "Makes snails always triggered and ready to pop.",
-            "mod":   true,
+            "patch":   true,
             "order": 51
         });
 
@@ -2099,7 +2109,7 @@
             "url":    "https://cdn.discordapp.com/attachments/481900360324218880/550906539905646593/DeathFix.dll",
             "thumb":  "previews/deathfix.png",
             "desc":   "Fixes the bug where creatures can get permanently stuck in their dens after being injured.",
-            "mod":  true,
+            "patch":  true,
             "order": 86,
         });
 
@@ -2110,7 +2120,7 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/428732049675911178/PartialityFlatmode.dll",
             "thumb":  "previews/flatmode_preview.png",
             "desc":   "Fixes the bug that causes the game to crash on the hibernation screen when playing with flatmode.txt.",
-            "mod":   true,
+            "patch":   true,
             "order": 18
         });
 
@@ -2121,7 +2131,7 @@
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/431101050536198156/daddy_corruption_patch.dll",
             "thumb":  "previews/daddydrainage_preview.jpg",
             "desc":   "Fixes the crash that prevents creating or using arena maps that have the Corruption object in them.",
-            "mod":   true,
+            "patch":   true,
             "order":  21
         });
 
@@ -2165,6 +2175,7 @@
         //////////////////////////////////////////////////////////////////////////////////
         // AUDB MODS
         //////////////////////////////////////////////////////////////////////////////////
+        /*
         var ModsAUDB15 = [];
         var request = new XMLHttpRequest();
         request.open('GET', 'https://beestuff.pythonanywhere.com/audb/api/raindb', true);
@@ -2222,6 +2233,7 @@
                 toggle("1.5mods");
             }
         };
+        */
 
         //////////////////////////////////////////////////////////////////////////////////
         // VERSION 1.01 MODS
