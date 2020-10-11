@@ -156,8 +156,9 @@
                 </div>
                 <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:right; float:right; margin-left:5px;">
                    <b>Legend:</b> <img class="legendTooltip_0" src="assets/ico/standalone.png" title="Standalone Mod: These mods are installed alone. They cannot be used together with other standalone mods."/> 
-                   <img class="legendTooltip_0" src="assets/ico/mod.png" title="Partiality Mod: Use with the Partiality Launcher. Any number of these mods can be used together at the same time, though may conflict if they edit similar things in the game."/> 
-                   <img class="legendTooltip_0" src="assets/ico/content.png" title="Content Mod: These mods do not edit the game's code, and so can be used together with any other mod, including standalone mods."/> 
+                   <img class="legendTooltip_0" src="assets/ico/mod.png" title="Partiality Mod: Use with the Partiality Launcher. Any number of these mods can be used together at the same time."/> 
+                   <img class="legendTooltip_0" src="assets/ico/patch.png" title="Partiality Patch: Use with the Partiality Launcher. Any number of these mods can be used together at the same time. However, they may cause issues if they edit similar things as other mods you are using."/> 
+                   <img class="legendTooltip_0" src="assets/ico/content.png" title="Content Mod: These mods do not edit the game's code, and so can be used together with any other code mods, including standalone mods."/> 
                    <img class="legendTooltip_0" src="assets/ico/app.png" title="External Application: These are not installed or used inside of Rain World. They are their own separate programs."/>  
                    <img class="legendTooltip_0" src="assets/ico/message.png" title="Requirement: If this icon is shown, then the mod requires other mods to be installed alongside it. Hover over the icon to see the requirements."/>  
                 </div>
@@ -268,7 +269,11 @@
             document.getElementById(div_id+"_gallery").innerHTML = "";
             for (var i=0; i<mods_array.length; i++) {
                 var hasIcon = true; 
-                if (filter != "" && filter != "new" && ((filter in mods_array[i] && mods_array[i][filter] == false) || !(filter in mods_array[i])))
+                if (filter == "mod" && ((!("mod" in mods_array[i]) && !("patch" in mods_array[i])) 
+                  || ("mod" in mods_array[i] && mods_array[i]["mod"] == false)
+                  || ("patch" in mods_array[i] && mods_array[i]["patch"] == false)) )
+                    continue;
+                else if (filter != "" && filter != "new" && filter != "mod" && ((filter in mods_array[i] && mods_array[i][filter] == false) || !(filter in mods_array[i])))
                     continue;
                 if (count % 3 == 0) {
                     appendStr += '<div class="row">';
@@ -783,15 +788,18 @@
             "desc":   "A semi-god mode tool that disables many sources of death such as drowning, being attacked by creatures, fall damage, etc.",
             "patch":  true
         });
-
-        /*
+        
         ToolMods.push({
             "name": "Death Protection 2",
             "req":  "Requires Death Protection to be installed",
-            "desc": "Disables most sources of death for the player, and prevents creatures from dying by falling out of rooms."
-        })
-        */
-
+            "author": "Rᵒᵗᵗᶦⁿᵍ ᶦⁿ ʰᵉCK, Pastebee",
+            "type": "Utility",
+            "thumb":  "previews/nodeath2.png",
+            "url": "https://drive.google.com/file/d/1C3SgJ_yQQPDoEv2L9IPxabbrm9IWpreZ/view",
+            "desc": "Disables most sources of death for the player, and prevents creatures from dying by falling out of rooms.",
+            "mod": true
+        });
+        
         ToolMods.push({
             "name":   "Rusty Machine",
             "author": "Zandra",
@@ -1804,7 +1812,7 @@
             "name":   "AntLizard",
             "author": "Rᵒᵗᵗᶦⁿᵍ ᶦⁿ ʰᵉCK, Fyre, Bee",
             "type":   "Creature Edits",
-            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/635519856732536842/AntLizardDelta.dll",
+            "url":    "https://drive.google.com/file/d/1IaECSzQJVcuQfjJKBscOuwSLig1twozc/view",
             "thumb":  "previews/antlizard.png",
             "desc":   "Gives all lizards the antennas and communication abilities that yellow lizards have.",
             "patch": true,
@@ -2175,6 +2183,7 @@
         //////////////////////////////////////////////////////////////////////////////////
         // AUDB MODS
         //////////////////////////////////////////////////////////////////////////////////
+        
         /*
         var ModsAUDB15 = [];
         var request = new XMLHttpRequest();
@@ -2234,6 +2243,7 @@
             }
         };
         */
+        
 
         //////////////////////////////////////////////////////////////////////////////////
         // VERSION 1.01 MODS
