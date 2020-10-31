@@ -1441,6 +1441,17 @@
         });
 
         Mods15.push({
+            "name":   "Halloweenas 2020",
+            "author": "FIIIIISH",
+            "type":   "New Arenas",
+            "url":    "https://drive.google.com/file/d/1YjfFG3X4I0wuomLbhV0bjIKjCaMSDF0-/view",
+            "thumb":  "previews/halloweenas2020.png",
+            "desc":   "This mod acts as a spiritual succesor to the orginal Halloweenas by Cappin, adding 4 new spooky arenas to the game.",
+            "content": true,
+            "order": 150,
+        });
+
+        Mods15.push({
             "name":   "Halloweenas",
             "author": "Cappin",
             "type":   "New Arenas",
@@ -2199,7 +2210,6 @@
         // AUDB MODS
         //////////////////////////////////////////////////////////////////////////////////
         
-        /*
         var ModsAUDB15 = [];
         var request = new XMLHttpRequest();
         request.open('GET', 'https://beestuff.pythonanywhere.com/audb/api/raindb', true);
@@ -2209,55 +2219,59 @@
                 ModsAUDB15.push.apply(ModsAUDB15, JSON.parse(request.responseText));
                 for (var i=0; i<ModsAUDB15.length; i++) {
                     var found = false;
-                    if ("type" in ModsAUDB15[i] && ModsAUDB15[i]["type"].toLowerCase() === "utility") {
-                        for (var j=0; j<ToolMods.length; j++) {
-                            if ("name" in ModsAUDB15[i] && "name" in ToolMods[j] && ModsAUDB15[i]["name"].toLowerCase() === ToolMods[j]["name"].toLowerCase()) {
-                                found = true;
-                                if ("url" in ModsAUDB15[i]) {
-                                    ToolMods[j]["url"] = ModsAUDB15[i]["url"];
-                                }
-                                for (var key in ModsAUDB15[i]) {
-                                    if (ModsAUDB15[i].hasOwnProperty(key) && !(key in ToolMods[j])) {
-                                        ToolMods[j][key] = ModsAUDB15[i][key];
+                    if ("lastmodified" in ModsAUDB15[i])
+                    {
+                        var modified = ModsAUDB15[i]["lastmodified"];
+                        if ("type" in ModsAUDB15[i] && ModsAUDB15[i]["type"].toLowerCase() === "utility") {
+                            for (var j=0; j<ToolMods.length; j++) {
+                                if ("name" in ModsAUDB15[i] && "name" in ToolMods[j] && ModsAUDB15[i]["name"].toLowerCase() === ToolMods[j]["name"].toLowerCase()) {
+                                    found = true;
+                                    if ("url" in ModsAUDB15[i]) {
+                                        ToolMods[j]["url"] = ModsAUDB15[i]["url"];
                                     }
+                                    for (var key in ModsAUDB15[i]) {
+                                        if (ModsAUDB15[i].hasOwnProperty(key) && !(key in ToolMods[j])) {
+                                            ToolMods[j][key] = ModsAUDB15[i][key];
+                                        }
+                                    }
+                                    ToolMods[j]["audb"] = true;
+                                    break;
                                 }
-                                ToolMods[j]["audb"] = true;
-                                break;
+                            }
+                            if (!found) {
+                                ModsAUDB15[i]["audb"] = true;
+                                ModsAUDB15[i]["order"] = 0;
+                                ToolMods.push(ModsAUDB15[i]);
                             }
                         }
-                        if (!found) {
-                            ModsAUDB15[i]["audb"] = true;
-                            ModsAUDB15[i]["order"] = 0;
-                            ToolMods.push(ModsAUDB15[i]);
-                        }
-                    }
-                    else {
-                        for (var j=0; j<Mods15.length; j++) {
-                            if ("name" in ModsAUDB15[i] && "name" in Mods15[j] && ModsAUDB15[i]["name"].toLowerCase() === Mods15[j]["name"].toLowerCase()) {
-                                found = true;
-                                if ("url" in ModsAUDB15[i]) {
-                                    Mods15[j]["url"] = ModsAUDB15[i]["url"];
-                                }
-                                for (var key in ModsAUDB15[i]) {
-                                    if (ModsAUDB15[i].hasOwnProperty(key) && !(key in Mods15[j])) {
-                                        Mods15[j][key] = ModsAUDB15[i][key];
+                        else {
+                            for (var j=0; j<Mods15.length; j++) {
+                                if ("name" in ModsAUDB15[i] && "name" in Mods15[j] && ModsAUDB15[i]["name"].toLowerCase() === Mods15[j]["name"].toLowerCase()) {
+                                    found = true;
+                                    if ("url" in ModsAUDB15[i]) {
+                                        Mods15[j]["url"] = ModsAUDB15[i]["url"];
                                     }
+                                    for (var key in ModsAUDB15[i]) {
+                                        if (ModsAUDB15[i].hasOwnProperty(key) && !(key in Mods15[j])) {
+                                            Mods15[j][key] = ModsAUDB15[i][key];
+                                        }
+                                    }
+                                    Mods15[j]["audb"] = true;
+                                    break;
                                 }
-                                Mods15[j]["audb"] = true;
-                                break;
                             }
-                        }
-                        if (!found) {
-                            ModsAUDB15[i]["audb"] = true;
-                            ModsAUDB15[i]["order"] = 0;
-                            Mods15.push(ModsAUDB15[i]);
+                            if (!found) {
+                                ModsAUDB15[i]["audb"] = true;
+                                ModsAUDB15[i]["order"] = 0;
+                                Mods15.push(ModsAUDB15[i]);
+                            }
                         }
                     }
                 }
                 toggle("1.5mods");
             }
         };
-        */
+        
 
         //////////////////////////////////////////////////////////////////////////////////
         // VERSION 1.01 MODS
