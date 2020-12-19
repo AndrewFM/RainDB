@@ -155,9 +155,10 @@
                    <b>Mod Category:</b> <a onclick="toggle('1.01mods')" href="#main">v1.01</a> | <a onclick="toggle('1.5mods')" href="#main">v1.5</a> | <!--<a onclick="toggle('1.7mods')" href="#main">v1.7</a> |--> <a onclick="toggle('arenas')" href="#main">Arenas</a> | <a onclick="toggle('utilities')" href="#main">Tools</a> | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
                 </div>
                 <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:right; float:right; margin-left:5px;">
-                   <b>Legend:</b> <img class="legendTooltip_0" src="assets/ico/standalone.png" title="Standalone Mod: These mods are installed alone. They cannot be used together with other standalone mods."/> 
+                   <b>Legend:</b> 
                    <img class="legendTooltip_0" src="assets/ico/mod.png" title="Hook Mod: Use with BepInEx, or the Partiality Launcher. Any number of these mods can be used together at the same time."/> 
                    <img class="legendTooltip_0" src="assets/ico/patch.png" title="Patch Mod: Use with BepInEx, or the Partiality Launcher. Any number of these mods can be used together at the same time. However, they may cause issues if they edit similar things as other mods you are using."/> 
+                   <img class="legendTooltip_0" src="assets/ico/standalone.png" title="Standalone Mod: These mods are installed alone. They cannot be used together with other standalone mods."/> 
                    <img class="legendTooltip_0" src="assets/ico/content.png" title="Content Mod: These mods do not edit the game's code, and so can be used together with any other code mods, including standalone mods."/> 
                    <img class="legendTooltip_0" src="assets/ico/app.png" title="External Application: These are not installed or used inside of Rain World. They are their own separate programs."/>  
                    <img class="legendTooltip_0" src="assets/ico/message.png" title="Requirement: If this icon is shown, then the mod requires other mods to be installed alongside it. Hover over the icon to see the requirements."/>  
@@ -913,7 +914,7 @@
             "thumb":  "previews/mast.png",
             "desc":   "A region consisting of a large transmission spire in the western area of the world. Includes over 250 new screens, creature spawns for all gamemodes, arena unlocks, and some secrets to discover.",
             "mod": true,
-            "req": "Requires CustomRegions, ConfigMachine, EnumExtender, and CustomAssets to be installed.",
+            "req": "Requires CustomRegions, ConfigMachine, EnumExtender, and CustomAssets to be installed. (See README for additional requirements)",
             "order": 157
         });
 
@@ -975,6 +976,18 @@
             "content":  true,
             "order": 140,
             "req":    "Requires Checksum Fix to be installed.",
+        });
+
+        Mods15.push({
+            "name":   "Better Shelters",
+            "author": "Tronsx and Thalber",
+            "type":   "Map Edits",
+            "url":    "https://github.com/thalber/BetterShelters/releases",
+            "thumb":  "previews/bettershelters.png",
+            "desc":   "Replaces all of the shelter rooms in the original game to make the shelters more unique and interesting in their designs.",
+            "mod": true,
+            "req": "Requires EnumExtender, Custom Regions, and ConfigMachine to be installed. (See README for additional requirements)",
+            "order": 158
         });
 
         Mods15.push({
