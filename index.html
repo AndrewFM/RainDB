@@ -156,8 +156,8 @@
                 </div>
                 <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:right; float:right; margin-left:5px;">
                    <b>Legend:</b> <img class="legendTooltip_0" src="assets/ico/standalone.png" title="Standalone Mod: These mods are installed alone. They cannot be used together with other standalone mods."/> 
-                   <img class="legendTooltip_0" src="assets/ico/mod.png" title="Partiality Mod: Use with the Partiality Launcher. Any number of these mods can be used together at the same time."/> 
-                   <img class="legendTooltip_0" src="assets/ico/patch.png" title="Partiality Patch: Use with the Partiality Launcher. Any number of these mods can be used together at the same time. However, they may cause issues if they edit similar things as other mods you are using."/> 
+                   <img class="legendTooltip_0" src="assets/ico/mod.png" title="Hook Mod: Use with BepInEx, or the Partiality Launcher. Any number of these mods can be used together at the same time."/> 
+                   <img class="legendTooltip_0" src="assets/ico/patch.png" title="Patch Mod: Use with BepInEx, or the Partiality Launcher. Any number of these mods can be used together at the same time. However, they may cause issues if they edit similar things as other mods you are using."/> 
                    <img class="legendTooltip_0" src="assets/ico/content.png" title="Content Mod: These mods do not edit the game's code, and so can be used together with any other code mods, including standalone mods."/> 
                    <img class="legendTooltip_0" src="assets/ico/app.png" title="External Application: These are not installed or used inside of Rain World. They are their own separate programs."/>  
                    <img class="legendTooltip_0" src="assets/ico/message.png" title="Requirement: If this icon is shown, then the mod requires other mods to be installed alongside it. Hover over the icon to see the requirements."/>  
@@ -173,7 +173,7 @@
             <div id="1.5mods" style="display:block;">
                 <div id="1.5_title"></div>
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
-                <b>Show:</b> <a onclick="generateHTML('1.5', Mods15, '', 'v1.5 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.5', Mods15, 'new', 'v1.5 Mods (Newest)')" href="#main">Newest</a> | <a onclick="generateHTML('1.5', Mods15, 'content', 'v1.5 Mods (Content Mods)')" href="#main">Content Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'mod', 'v1.5 Mods (Partiality Mods)')" href="#main">Partiality Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'standalone', 'v1.5 Mods (Standalone Mods)')" href="#main">Standalone Mods</a>
+                <b>Show:</b> <a onclick="generateHTML('1.5', Mods15, '', 'v1.5 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.5', Mods15, 'new', 'v1.5 Mods (Newest)')" href="#main">Newest</a> | <a onclick="generateHTML('1.5', Mods15, 'content', 'v1.5 Mods (Content Mods)')" href="#main">Content Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'mod', 'v1.5 Mods (Hook/Patch Mods)')" href="#main">Hook/Patch Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'standalone', 'v1.5 Mods (Standalone Mods)')" href="#main">Standalone Mods</a>
             
                 <div id="1.5_gallery"></div>
             </div>
@@ -181,7 +181,7 @@
             <div id="1.7mods" style="display:none;">
                 <div id="1.7_title"></div>
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
-                <b>Show:</b> <a onclick="generateHTML('1.7', Mods17, '', 'v1.7 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.7', Mods17, 'new', 'v1.7 Mods (Newest)')" href="#main">Newest</a> | <a onclick="generateHTML('1.7', Mods17, 'content', 'v1.7 Mods (Content Mods)')" href="#main">Content Mods</a> | <a onclick="generateHTML('1.7', Mods17, 'mod', 'v1.7 Mods (Partiality Mods)')" href="#main">Partiality Mods</a> | <a onclick="generateHTML('1.7', Mods17, 'standalone', 'v1.7 Mods (Standalone Mods)')" href="#main">Standalone Mods</a>
+                <b>Show:</b> <a onclick="generateHTML('1.7', Mods17, '', 'v1.7 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.7', Mods17, 'new', 'v1.7 Mods (Newest)')" href="#main">Newest</a> | <a onclick="generateHTML('1.7', Mods17, 'content', 'v1.7 Mods (Content Mods)')" href="#main">Content Mods</a> | <a onclick="generateHTML('1.7', Mods17, 'mod', 'v1.7 Mods (Hook/Patch Mods)')" href="#main">Hook/Patch Mods</a> | <a onclick="generateHTML('1.7', Mods17, 'standalone', 'v1.7 Mods (Standalone Mods)')" href="#main">Standalone Mods</a>
                 <br><br>
                 <h3><b>Rain World v1.7 has just recently been released!<br>Please be patient as we confirm compatibility with old mods, and update mods to the new version.</b></h3>
 
@@ -292,9 +292,9 @@
                 else if ("content" in mods_array[i] && mods_array[i]["content"] == true)
                     appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/content.png" title="Content Mod"/></div>';
                 else if ("patch" in mods_array[i] && mods_array[i]["patch"] == true)
-                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/patch.png" title="Partiality Patch"/></div>';
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/patch.png" title="Patch Mod"/></div>';
                 else if ("mod" in mods_array[i] && mods_array[i]["mod"] == true)
-                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/mod.png" title="Partiality Mod"/></div>';
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/mod.png" title="Hook Mod"/></div>';
                 else if ("app" in mods_array[i] && mods_array[i]["app"] == true)
                     appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/app.png" title="External Application/Script"/></div>';
                 else
@@ -521,7 +521,7 @@
         ToolMods.push({
             "name":   "Extended Dev Tools",
             "author": "The More Slugcats Team",
-            "author_ext": "By AndrewFM and Willburd -- Ported to Partiality by Garrakx", 
+            "author_ext": "By AndrewFM and Willburd -- Ported out of MSC by Garrakx", 
             "type":   "Utility",
             "url":    "https://drive.google.com/file/d/1X9EQbZ__lla36YLKYijvwsshyEwy7QA7/view",
             "thumb":  "previews/devtools.png",
@@ -540,12 +540,33 @@
         });
 
         ToolMods.push({
+            "name":   "BepInEx",
+            "author": "Various Authors",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1WcCCsS3ABBdO1aX-iJGeqeE07YE4Qv88/view",
+            "thumb":  "previews/bepinex.png",
+            "desc":   "A modding framework that allows Rain World to be modded. Install alongside BOI to use hook and patch mods with Rain World.",
+            "app":  true
+        });
+
+        ToolMods.push({
+            "name":   "BOI Mod Manager",
+            "author": "Thalber",
+            "type":   "Utility",
+            "url":    "https://github.com/thalber/BOI/releases",
+            "thumb":  "previews/boi.png",
+            "desc":   "The mod loader that is needed to apply hook and patch mods to Rain World, when using BepInEx.",
+            "req": "Requires BepInEx to be installed.",
+            "app":  true
+        });
+
+        ToolMods.push({
             "name":   "Partiality Launcher",
             "author": "Zandra and DmitriySalnikov",
             "type":   "Utility",
             "url":    "https://github.com/DmitriySalnikov/PartialityLauncher/releases",
             "thumb":  "previews/partiality2.png",
-            "desc":   "The mod loader that is needed to install any Partiality mods and use them with the game.",
+            "desc":   "The mod loader that is needed to apply hook and patch mods to Rain World, when not using BepInEx.",
             "app":  true
         });
 
@@ -1000,7 +1021,6 @@
             "url":    "https://drive.google.com/file/d/19cdeXsJhHhYnGGDFitIzCmTOeQ9qzobf/view",
             "thumb":  "previews/martyr.png",
             "desc":   "Play as The Martyr, a new character with custom story, gameplay mechanics and abilities. Provides an alternate experience to The Hunter, with less cycles.",
-            "req":    "Requires Partiality 0.3.10",
             "patch": true,
             "order": 44
         });
