@@ -82,6 +82,18 @@
             max-width:420px;
             line-height: 1.25;
         }
+		#mod-search {
+			height:1.5em;
+			background-color:transparent;
+			border-left:0px;
+			border-top:0px;
+			border-right:0px;
+			border-bottom:1px solid #666;
+			color:#555;
+		}
+		.no-results {
+			font-weight: bold;
+		}
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -153,6 +165,7 @@
             <div class="row">
                 <div class="col-sm-6 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:left; float:left; margin-left:5px;">
                    <b>Mod Category:</b> <a onclick="toggle('1.01mods')" href="#main">v1.01</a> | <a onclick="toggle('1.5mods')" href="#main">v1.5</a> | <!--<a onclick="toggle('1.7mods')" href="#main">v1.7</a> |--> <a onclick="toggle('arenas')" href="#main">Arenas</a> | <a onclick="toggle('utilities')" href="#main">Tools</a> | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
+				   <br><b>Search:</b> <input type="text" id="mod-search" name="search" onchange="doSearch(this.value)" autocomplete="off" spellcheck="false">
                 </div>
                 <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:right; float:right; margin-left:5px;">
                    <b>Legend:</b> 
@@ -255,8 +268,29 @@
         document.getElementById("prev6").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview6.PNG");});
         var dateoptions = { year: 'numeric', month: 'long', day: 'numeric' };
         document.getElementById("modifiedDate").innerHTML = (new Date(document.lastModified)).toLocaleDateString("en-US", dateoptions);
+		
+		var search = "";
+		var generateLastHTML = null;
+		var generateLastHTMLArgs = [];
+		function doSearch(searchString) {
+			let newSearch = searchString.toLowerCase().trim();
+			if(search != newSearch) {
+				search = newSearch;
+				if(generateLastHTML != null)
+					generateLastHTML(...generateLastHTMLArgs);
+			}
+		}
+		
+		var searchTimeout = null;
+		document.getElementById("mod-search").addEventListener("input", function(e) {
+			if(searchTimeout != null) clearTimeout(searchTimeout);
+			searchTimeout = setTimeout(() => { doSearch(this.value) }, 300);
+		});
 
         function generateHTML(div_id, input_array, filter, title) {
+			generateLastHTML = generateHTML;
+			generateLastHTMLArgs = arguments;
+		
             var appendStr = "";
             var count = 0;
             var tooltipIds = [];
@@ -269,6 +303,14 @@
                 mods_array = sortByKey(JSON.parse(JSON.stringify(input_array)), "order").reverse();
             document.getElementById(div_id+"_gallery").innerHTML = "";
             for (var i=0; i<mods_array.length; i++) {
+			
+				// Filter mods by search term
+				if(search != "" &&
+					!mods_array[i]["name"  ].toLowerCase().includes(search) &&
+					!mods_array[i]["author"].toLowerCase().includes(search) &&
+					!mods_array[i]["type"  ].toLowerCase().includes(search))
+					continue;
+				
                 var hasIcon = true; 
                 if (filter == "mod" && ((!("mod" in mods_array[i]) && !("patch" in mods_array[i])) 
                   || ("mod" in mods_array[i] && mods_array[i]["mod"] == false)
@@ -336,6 +378,20 @@
                 }
                 count += 1
             }
+			
+			if(count == 0) {
+				switch(div_id) {
+					case "1.5":
+					case "1.01":
+					case "1.7":
+						appendStr += '<p class="no-results">No results found. Try changing your search term or checking the <a onclick="toggle(\'utilities\')" href="#main">Tools</a> tab.</p>';
+						break;
+					default:
+						appendStr += '<p class="no-results">No results found. Try changing your search term.</p>';
+						break;
+				}
+			}
+			
             document.getElementById(div_id+"_gallery").innerHTML = appendStr
             document.getElementById(div_id+"_title").innerHTML = '<h1 style="font-size:48px;"><b>'+title+'</b></h1>'
             for (var i=0; i<tooltipIds.length; i++)
@@ -351,6 +407,9 @@
         }
 
         function generateArenaHTML(div_id, input_array, filter) {
+			generateLastHTML = generateArenaHTML;
+			generateLastHTMLArgs = arguments;
+			
             var appendStr = ""
             var count = 0
             var tooltipIds = []
@@ -359,6 +418,14 @@
                 mods_array = sortByKey(JSON.parse(JSON.stringify(input_array)), "order").reverse();
             document.getElementById(div_id+"_gallery").innerHTML = "";
             for (var i=0; i<mods_array.length; i++) {
+				
+				// Filter mods by search term
+				if(search != "" &&
+					!mods_array[i]["name"  ].toLowerCase().includes(search) &&
+					!mods_array[i]["author"].toLowerCase().includes(search))
+					continue;
+				
+				
                 var hasIcon = true; 
                 if (filter != "" && filter != "new" && ((filter in mods_array[i] && mods_array[i][filter] == false) || !(filter in mods_array[i])))
                     continue;
@@ -380,6 +447,11 @@
                 }
                 count += 1
             }
+			
+			if(count == 0) {
+				appendStr += '<p class="no-results">No results found. Try changing your search term.</p>';
+			}
+			
             document.getElementById(div_id+"_gallery").innerHTML = appendStr
             document.getElementById(div_id+"_title").innerHTML = '<h1 style="font-size:48px;"><b>Arenas</b></h1>'
             for (var i=0; i<tooltipIds.length; i++)
@@ -394,6 +466,9 @@
         }
 
         function generatePaletteHTML(div_id, gallery_array) {
+			generateLastHTML = null;
+			generateLastHTMLArgs = [];
+			
             var appendStr = ""
             for (var i=0; i<gallery_array.length; i++) {
                 appendStr += '<a id="palswitch'+i+'"><img id="palette'+i+'" src="assets/img/palette/'+gallery_array[i]["name"]+'.png" width=32 height=16></a> ';
