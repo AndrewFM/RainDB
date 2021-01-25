@@ -298,6 +298,7 @@
             var partTipIds = [];
             var authorTipIds = [];
             var audbTipIds = [];
+            var trailerTipIds = []
             var mods_array = input_array;
             if (filter == "new")
                 mods_array = sortByKey(JSON.parse(JSON.stringify(input_array)), "order").reverse();
@@ -330,6 +331,8 @@
                 var audbstr = "";
                 if ("audb" in mods_array[i] && mods_array[i]["audb"] == true)
                     audbstr = '<img class="audbTooltip_'+i+'" src="assets/ico/update.png" title="Taken from AUDB"/> ';
+                if ("video" in mods_array[i])
+                    audbstr += '<a href="' + mods_array[i]["video"] + '" target="_blank"><img class="trailerTooltip_'+i+'" src="assets/ico/video.png" title="Click to view trailer video"/></a> ';
                 if ("standalone" in mods_array[i] && mods_array[i]["standalone"] == true)
                     appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/standalone.png" title="Standalone Mod"/></div>';
                 else if ("content" in mods_array[i] && mods_array[i]["content"] == true)
@@ -346,6 +349,8 @@
                     partTipIds.push(i);
                 if ("audb" in mods_array[i])
                     audbTipIds.push(i);
+                if ("video" in mods_array[i])
+                    trailerTipIds.push(i);
                 
                 appendStr += "</h3>";
                 if ("code" in mods_array[i]) {
@@ -404,6 +409,8 @@
                 applyTooltip("authorTooltip", authorTipIds[i]);
             for (var i=0; i<audbTipIds.length; i++)
                 applyTooltip("audbTooltip", audbTipIds[i]);
+            for (var i=0; i<trailerTipIds.length; i++)
+                applyTooltip("trailerTooltip", trailerTipIds[i]);
         }
 
         function generateArenaHTML(div_id, input_array, filter) {
@@ -947,7 +954,8 @@
             "desc":   "Local campaign co-op with extended configuration and piggy back riding. You can customize your campaign like your food bar, ability to hold back spears with Survivor/Monk and more!",
             "mod": true,
             "req":    "Requires ConfigMachine to be installed.",
-            "order": 76
+            "order": 76,
+            "video": "https://www.youtube.com/watch?v=eoGbBm6Nvjg"
         });
 
         Mods15.push({
@@ -958,7 +966,8 @@
             "thumb":  "previews/expedition.png",
             "desc":   "A new gamemode focused on completing challenges, earning points, unlocking new perks and abilities, and permadeath!",
             "mod":  true,
-            "order": 143
+            "order": 143,
+            "video": "https://www.youtube.com/watch?v=q-4RdlW2EvU"
         });
 
         Mods15.push({
@@ -970,7 +979,21 @@
             "thumb":  "previews/drought.png",
             "desc":   "An expansion adding four new regions and a new campaign following The Wanderer, a curious and calm slugcat with a deep desire to discover the ancient mysteries around it.",
             "patch": true,
-            "order": 106
+            "order": 106,
+            "video": "https://www.youtube.com/watch?v=-2xrE87xnW0"
+        });
+
+        Mods15.push({
+            "name":   "Arid Barrens",
+            "author": "Rain World Community",
+            "type":   "New Region",
+            "url":    "https://drive.google.com/drive/folders/1xM_t4WcF4CxAuF2eFewJt5BrkaARBk0Y",
+            "thumb":  "previews/arid_barrens.png",
+            "desc":   "An expansive wasteland connecting Shoreline and Farm Arrays. This is a community region project developed by many members of the Rain World Discord server.",
+            "mod": true,
+            "order": 165,
+            "req": "Requires CustomRegions to be installed. (See Arid Barrens Readme for installation instructions)",
+            "video": "https://www.youtube.com/watch?v=jaiZxc6tBW0"
         });
 
         Mods15.push({
@@ -982,7 +1005,8 @@
             "desc":   "Aether Ridge is a derelict desalination rig to the north of Sky Islands. Includes over 200 new rooms, six new arenas, and more. Fully compatible with The Root and Badlands.",
             "req":    "Requires Checksum Fix, Custom Regions Support, and Custom Assets to be installed.",
             "content": true,
-            "order": 127
+            "order": 127,
+            "video": "https://www.youtube.com/watch?v=H2QKsZeVXsI"
         });
 
         Mods15.push({
@@ -994,7 +1018,8 @@
             "desc":   "A region consisting of a large transmission spire in the western area of the world. Includes over 250 new screens, creature spawns for all gamemodes, arena unlocks, and some secrets to discover.",
             "mod": true,
             "req": "Requires CustomRegions, ConfigMachine, EnumExtender, and Custom Assets to be installed. (See README for additional requirements)",
-            "order": 157
+            "order": 157,
+            "video": "https://www.youtube.com/watch?v=_pUZdVm3IqI"
         });
 
         Mods15.push({
@@ -1029,6 +1054,7 @@
             "code":   "code/side_house.html",
             "thumb":  "previews/sidehouse_preview.png",
             "desc":   "Adds a new region connecting Shoreline, 5P, and Depths. An amalgamation of many of the game's unused rooms. Also includes a couple custom unlockable maps for arena mode.",
+            "video": "https://www.youtube.com/watch?v=iibKGKT5OBg",
             "standalone": true,
             "order": 7
         });
@@ -1055,6 +1081,7 @@
             "content":  true,
             "order": 140,
             "req":    "Requires Checksum Fix to be installed.",
+            "video": "https://www.youtube.com/watch?v=Mc6OH-0fT5Q"
         });
 
         Mods15.push({
@@ -1125,7 +1152,8 @@
             "thumb":  "previews/lancer.png",
             "desc":   "Play as The Lancer, a slugpup with a horn who specializes in melee combat with spears.",
             "mod": true,
-            "order": 72
+            "order": 72,
+            "video": "https://www.youtube.com/watch?v=g57JyLRM70M"
         });
 
         Mods15.push({
@@ -1463,6 +1491,17 @@
         });
 
         Mods15.push({
+            "name":   "Pause Settings",
+            "author": "LeeMoriya",
+            "type":   "Utility",
+            "url":    "https://github.com/LeeMoriya/PauseSettings/blob/master/README.md",
+            "thumb":  "previews/pause_settings.png",
+            "desc":   "Adds volume control sliders to the game's pause menu, so audio can be adjusted without exiting your game session.",
+            "mod": true,
+            "order": 164
+        });
+
+        Mods15.push({
             "name":   "VibeWorld",
             "author": "HelloThere",
             "type":   "Audio",
@@ -1489,12 +1528,13 @@
             "name":   "Downpour",
             "author": "LeeMoriya",
             "type":   "Environmental",
-            "url":    "https://drive.google.com/file/d/1MgUhG9tElf8qMridT5LTS-B65LFldvFy/view",
+            "url":    "https://github.com/LeeMoriya/Downpour/blob/rain/README.md ",
             "thumb":  "previews/downpour.png",
             "desc":   "A mod that adds dynamic rainfall and other effects to Rain World, highly configurable.",
-            "req":    "Requires ConfigMachine and PublicityStunt to be installed.",
+            "req":    "Requires ConfigMachine to be installed.",
             "mod": true,
-            "order": 126
+            "order": 126,
+            "video": "https://www.youtube.com/watch?v=rosN0avujXw"
         });
 
         Mods15.push({
@@ -1538,7 +1578,8 @@
             "thumb":  "previews/caecus.png",
             "desc":   "This mod makes you blind, replacing vision with hearing. You will sense other creatures if they move or make sounds.",
             "mod":   true,
-            "order": 95
+            "order": 95,
+            "video": "https://www.youtube.com/watch?v=jslHXfHXfWA"
         });
 
         Mods15.push({
@@ -2521,7 +2562,8 @@
             "type":   "Slugcat Abilities",
             "url":    "https://drive.google.com/file/d/0Bx3vgXPyiJG6SW1wVExJRTdqaWM/view",
             "thumb":  "previews/moreslugcats_preview.png",
-            "desc":   "Introduces five new playable slugcats into Rain World, each with their own unique playstyles, abilities, pros and cons."
+            "desc":   "Introduces five new playable slugcats into Rain World, each with their own unique playstyles, abilities, pros and cons.",
+            "video": "https://www.youtube.com/watch?v=pXaxqMb_R4A"
         });
 
         Mods101.push({
@@ -2539,7 +2581,8 @@
             "type":   "New Region",
             "url":    "https://drive.google.com/uc?export=download&confirm=lKvs&id=0Bx3vgXPyiJG6NXUtdDhLTnpEd00",
             "thumb":  "previews/sidehouse_preview.png",
-            "desc":   "Adds an entirely new region to Rain World that connects Shoreline, Five Pebbles, and the Depths. It's an amalgamation of many of the map files that went unused in the final game."
+            "desc":   "Adds an entirely new region to Rain World that connects Shoreline, Five Pebbles, and the Depths. It's an amalgamation of many of the map files that went unused in the final game.",
+            "video": "https://www.youtube.com/watch?v=iibKGKT5OBg"
         });
 
         Mods101.push({
@@ -2629,7 +2672,8 @@
             "type":   "Region Revamp",
             "url":    "https://drive.google.com/uc?export=download&id=0Bx3vgXPyiJG6S1c4cVVIQklUVEE",
             "thumb":  "http://eggzero.serv.pink/img/rainworld/screenshotUW.png",
-            "desc":   "A deadly conversion of The Leg, Underhang, and the Wall, infested with Daddy Long Legs."
+            "desc":   "A deadly conversion of The Leg, Underhang, and the Wall, infested with Daddy Long Legs.",
+            "video": "https://www.youtube.com/watch?v=x3qzYdPNnCo"
         });
 
 
