@@ -292,6 +292,10 @@
 			generateLastHTMLArgs = arguments;
 		
             var appendStr = "";
+            if (div_id === "1.01")
+            {
+                appendStr = '<b>All mods in this list require Rain World v1.01 to be installed. Follow the <a href="https://www.raindb.net/rollback.html">Rollback Instructions</a> for getting the older version.<br>(All v1.01 Rain World mods are Standalone mods)</b>';
+            }
             var count = 0;
             var tooltipIds = [];
             var warnTipIds = [];
@@ -587,6 +591,7 @@
         Arenas.push({"name":"Sky Towers", "author":"Mojopoop", "order":25.4}); // october 11, 2019
         Arenas.push({"name":"Towers", "author":"Ehsper", "order":24});
         Arenas.push({"name":"Cavern", "author":"Aurora", "order":8});
+        Arenas.push({"name":"Amid Grass", "author":"Volch.Dan", "order":37}); // may 14, 2021
         Arenas.push({"name":"Vertigo", "author":"12 Steps", "order":16}); // january 31, 2019
         Arenas.push({"name":"Well", "author":"Dead_Eye", "order":1});
         Arenas.push({"name":"Temple", "author":"Dead_Eye", "order":1});
@@ -1788,6 +1793,18 @@
             "req":    "Requires Publicity Stunt to be installed.",
             "mod": true,
             "order": 125
+        });
+
+        Mods15.push({
+            "name":   "Simplified Moveset",
+            "author": "SchuhBaum",
+            "type":   "Slugcat Abilities",
+            "url":    "https://drive.google.com/file/d/14SxeSbz7HY1SgziBCA5aYNmhIAzX4JoH/view",
+            "thumb":  "previews/simplified.png",
+            "desc":   "Simplifies the timing on slugcat's advanced moves, making them easier to perform even with slower inputs or reaction times.",
+            "mod": true,
+            "req":    "Requires ConfigMachine to be installed.",
+            "order": 177
         });
 
         Mods15.push({
@@ -3005,7 +3022,7 @@
         <div class="container-fluid">
             <div class="row">
                 <center>
-                    <h3 style="margin-top: -20px;"><br>RainDB is maintained by AndrewFM &nbsp;--&nbsp; ( Site template: <a href="http://azmind.com/maren-bootstrap-free-business-template/">Maren</a> )</h3>
+                    <h3 style="margin-top: -20px;"><br>RainDB is maintained by <a href="http://egg-zero.com/" target="_blank">AndrewFM</a> &nbsp;--&nbsp; ( Site template: <a href="http://azmind.com/maren-bootstrap-free-business-template/" target="_blank">Maren</a> )</h3>
                 </center>
             </div>
         </div>
