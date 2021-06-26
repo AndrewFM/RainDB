@@ -533,6 +533,7 @@
         Arenas.push({"name":"Watchtower", "author":"Cappin", "order":12});
         Arenas.push({"name":"Compactor", "author":"perr", "order":30}); // july 7, 2020
         Arenas.push({"name":"Witch Hut", "author":"Cappin", "order":12});
+        Arenas.push({"name":"Stalactite", "author":"42cat", "order":38}); // june 25, 2021
         Arenas.push({"name":"Braziers", "author":"GooGroker", "order":15.3}); // january 7, 2019
         Arenas.push({"name":"Clean Up", "author":"Riv Otter", "order":25});
         Arenas.push({"name":"Core", "author":"perr", "order":30}); // july 7, 2020
@@ -568,6 +569,7 @@
         Arenas.push({"name":"Piping", "author":"Niko", "order":32}); // january 17, 2021
         Arenas.push({"name":"Pipe Pit", "author":"GooGroker", "order":15.4}); // january 25, 2019
         Arenas.push({"name":"Functions", "author":"Ubaser", "order":34}); // january 19, 2021
+        Arenas.push({"name":"Alleyway", "author":"42cat", "order":38}); // june 25, 2021
         Arenas.push({"name":"Peak", "author":"perr", "order":27}); // april 15, 2020
         Arenas.push({"name":"Roost", "author":"Ehsper", "order":24});
         Arenas.push({"name":"Cliff", "author":"Raggedy_Muffinz", "order":3}); // july 30, 2018
@@ -909,6 +911,16 @@
             "desc":   "Enables toggling on/off a solid color background mask, to help with chroma keying, useful for recording gifs.",
             "req":    "Requires ConfigMachine to be installed",
             "mod":  true
+        });
+
+        ToolMods.push({
+            "name":   "Testing Arenas",
+            "author": "ZombieMan101",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/11ADaxF7B_1VEZack5BPGHbiGv-fVtSW9/view",
+            "thumb":  "previews/testingarenas.png",
+            "desc":   "Simple arenas made for testing mod mechanics and development, or getting screenshots and gifs.",
+            "content":  true
         });
 
         ToolMods.push({
@@ -1796,6 +1808,17 @@
             "content": true,
             "req":   "Requires Arena Corruption Fix to be installed.",
             "order": 55
+        });
+
+        Mods15.push({
+            "name":   "GrappleWorld",
+            "author": "Slime_Cubed and ThreeFingerG",
+            "type":   "World Edit",
+            "url":    "https://drive.google.com/file/d/1KEOQo-Mm0HnNy667qeWx994jKiZANhEH/view",
+            "thumb":  "previews/grappleworld.png",
+            "desc":   "Adds Grapple Worms to 1-3 locations in every region except Pebbles.",
+            "mod":    true,
+            "order": 180
         });
 
         Mods15.push({
