@@ -11,8 +11,6 @@
                 generateHTML("1.5", Mods15, "", "v1.5 Mods");
             else if (section == "1.7mods")
                 generateHTML("1.7", Mods17, "", "v1.7 Mods");
-            else if (section == "utilities")
-                generateHTML("utilities", ToolMods, "", "Modding Tools");
             else if (section == "1.01mods")
                 generateHTML("1.01", Mods101, "", "v1.01 Mods");
             else if (section == "arenas")
@@ -164,7 +162,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:left; float:left; margin-left:5px;">
-                   <b>Mod Category:</b> <a onclick="toggle('1.01mods')" href="#main">v1.01</a> | <a onclick="toggle('1.5mods')" href="#main">v1.5</a> | <!--<a onclick="toggle('1.7mods')" href="#main">v1.7</a> |--> <a onclick="toggle('arenas')" href="#main">Arenas</a> | <a onclick="toggle('utilities')" href="#main">Tools</a> | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
+                   <b>Mod Category:</b> <a onclick="toggle('1.01mods')" href="#main">v1.01</a> | <a onclick="toggle('1.5mods')" href="#main">v1.5</a> | <!--<a onclick="toggle('1.7mods')" href="#main">v1.7</a> |--> <a onclick="toggle('arenas')" href="#main">Arenas</a> | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
 				   <br><b>Search:</b> <input type="text" id="mod-search" name="search" onchange="doSearch(this.value)" autocomplete="off" spellcheck="false">
                 </div>
                 <div class="col-sm-4 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:right; float:right; margin-left:5px;">
@@ -187,7 +185,7 @@
             <div id="1.5mods" style="display:block;">
                 <div id="1.5_title"></div>
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
-                <b>Show:</b> <a onclick="generateHTML('1.5', Mods15, '', 'v1.5 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.5', Mods15, 'new', 'v1.5 Mods (Newest)')" href="#main">Newest</a> | <a onclick="generateHTML('1.5', Mods15, 'content', 'v1.5 Mods (Content Mods)')" href="#main">Content Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'mod', 'v1.5 Mods (Hook/Patch Mods)')" href="#main">Hook/Patch Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'standalone', 'v1.5 Mods (Standalone Mods)')" href="#main">Standalone Mods</a>
+                <b>Show:</b> <a onclick="generateHTML('1.5', Mods15, '', 'v1.5 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.5', Mods15, 'new', 'v1.5 Mods (Newest)')" href="#main">Newest</a> | <a onclick="generateHTML('1.5', Mods15, 'tool', 'v1.5 Mods (Tools)')" href="#main">Tools</a> | <a onclick="generateHTML('1.5', Mods15, 'content', 'v1.5 Mods (Content Mods)')" href="#main">Content Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'mod', 'v1.5 Mods (Hook/Patch Mods)')" href="#main">Hook/Patch Mods</a> | <a onclick="generateHTML('1.5', Mods15, 'standalone', 'v1.5 Mods (Standalone Mods)')" href="#main">Standalone Mods</a>
             
                 <div id="1.5_gallery"></div>
             </div>
@@ -195,7 +193,7 @@
             <div id="1.7mods" style="display:none;">
                 <div id="1.7_title"></div>
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
-                <b>Show:</b> <a onclick="generateHTML('1.7', Mods17, '', 'v1.7 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.7', Mods17, 'new', 'v1.7 Mods (Newest)')" href="#main">Newest</a> | <a onclick="generateHTML('1.7', Mods17, 'content', 'v1.7 Mods (Content Mods)')" href="#main">Content Mods</a> | <a onclick="generateHTML('1.7', Mods17, 'mod', 'v1.7 Mods (Hook/Patch Mods)')" href="#main">Hook/Patch Mods</a> | <a onclick="generateHTML('1.7', Mods17, 'standalone', 'v1.7 Mods (Standalone Mods)')" href="#main">Standalone Mods</a>
+                <b>Show:</b> <a onclick="generateHTML('1.7', Mods17, '', 'v1.7 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.7', Mods17, 'new', 'v1.7 Mods (Newest)')" href="#main">Newest</a> | <a onclick="generateHTML('1.7', Mods17, 'tool', 'v1.7 Mods (Tools)')" href="#main">Tools</a> | <a onclick="generateHTML('1.7', Mods17, 'content', 'v1.7 Mods (Content Mods)')" href="#main">Content Mods</a> | <a onclick="generateHTML('1.7', Mods17, 'mod', 'v1.7 Mods (Hook/Patch Mods)')" href="#main">Hook/Patch Mods</a> | <a onclick="generateHTML('1.7', Mods17, 'standalone', 'v1.7 Mods (Standalone Mods)')" href="#main">Standalone Mods</a>
                 <br><br>
                 <h3><b>Rain World v1.7 has just recently been released!<br>Please be patient as we confirm compatibility with old mods, and update mods to the new version.</b></h3>
 
@@ -598,392 +596,6 @@
         Arenas.push({"name":"Well", "author":"Dead_Eye", "order":1});
         Arenas.push({"name":"Temple", "author":"Dead_Eye", "order":1});
         Arenas.push({"name":"SkyTower", "author":"Dead_Eye", "order":1});
-
-        //////////////////////////////////////////////////////////////////////////////////
-        // TOOLS and MODDING UTILITIES
-        //////////////////////////////////////////////////////////////////////////////////
-        var ToolMods = [];
-
-        ToolMods.push({
-            "name":   "Official Level Editor",
-            "author": "Joar Jakobsson",
-            "type":   "Utility",
-            "url":    "https://ln.sync.com/dl/db7b0cf70/nebg7d6b-qg7gjua7-gjdi94jn-xuvivhw3",
-            "thumb":  "previews/of_editor.png",
-            "desc":   "The very powerful and flexible level editor used by the devs to build and render all of the levels in the final game.",
-            "app": true
-        });
-
-        ToolMods.push({
-            "name":   "Extended Dev Tools",
-            "author": "The More Slugcats Team",
-            "author_ext": "By AndrewFM and Willburd -- Ported out of MSC by Garrakx", 
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1X9EQbZ__lla36YLKYijvwsshyEwy7QA7/view",
-            "thumb":  "previews/devtools.png",
-            "desc":   "Enables the built-in dev tools to help with modding the game, and provides a number of new tools and utilities to increase efficiency and quality of life for Rain World modders.",
-            "mod": true
-        });
-
-        ToolMods.push({
-            "name":   "Region Kit",
-            "author": "The Substratum Team & Others",
-            "author_ext": "By DryCryCrystal, DeltaEcho, Henpemaz, Thalber, Thrithralas, Slime_Cubed, Doggo, LeeMoriya, and Kaeporo", 
-            "type":   "Utility",
-            "url":    "https://github.com/DryCryCrystal/Region-Kit/releases",
-            "thumb":  "previews/regionkit.png",
-            "desc":   "A unified dependency and object kit for Rain World region modding.",
-            "req":  "Requires EnumExtender and Custom Regions Support to be installed",
-            "mod": true
-        });
-		
-        ToolMods.push({
-            "name":   "BepInEx",
-            "author": "Various Authors",
-            "type":   "Utility",
-            "url":    "https://beestuff.pythonanywhere.com/audb/api/v2/bepinex/download",
-            "thumb":  "previews/bepinex.png",
-            "desc":   "A modding framework that allows Rain World to be modded. Install alongside BOI to use hook and patch mods with Rain World.",
-            "app":  true
-        });
-
-        ToolMods.push({
-            "name":   "BOI Mod Manager",
-            "author": "Thalber",
-            "type":   "Utility",
-            "url":    "https://github.com/Rain-World-Modding/BOI/releases",
-            "thumb":  "previews/boi.png",
-            "desc":   "GUI mod manager used together with BepInEx for loading mods.",
-            "req": "Requires BepInEx to function; can download and install/update BepInEx on demand.",
-            "app":  true
-        });
-
-        ToolMods.push({
-            "name":   "Partiality Launcher",
-            "author": "Zandra and DmitriySalnikov",
-            "type":   "Utility",
-            "url":    "https://github.com/DmitriySalnikov/PartialityLauncher/releases",
-            "thumb":  "previews/partiality2.png",
-            "desc":   "This outdated mod loader is needed to apply hook and patch mods to Rain World, when not using BepInEx.",
-            "app":  true
-        });
-
-        ToolMods.push({
-            "name":   "ConfigMachine",
-            "author": "Topicular",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/open?id=1NIE8conaoI1OOHevi4K9tvOG4v-NIfYf",
-            "thumb":  "previews/optional.png",
-            "desc":   "Allows modders to make their own custom configuration settings in an in-game menu. Mods which are configurable require this to be installed.",
-            "mod":  true
-        });
-
-        ToolMods.push({
-            "name":   "Checksum Fix",
-            "author": "Garrakx",
-            "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/431534164932689921/786711573354774577/FixedChecksumFix.dll",
-            "thumb":  "previews/checksum.png",
-            "desc":   "Disables checksum verification so that world files and save files can be edited without triggering the game's cheat protection.",
-            "patch":  true
-        });
-
-        ToolMods.push({
-            "name": "AutoUpdate",
-            "author": "Pastebee",
-            "type": "Utility",
-            "url": "https://beestuff.pythonanywhere.com/audb/api/mods/0/0/download/latest",
-            "thumb": "previews/auto.png",
-            "desc": "Automatically updates other compatible mods when they are enabled (Image by LeeMoriya).",
-            "mod": true
-        })
-
-        ToolMods.push({
-            "name":   "Custom Regions Support",
-            "author": "Garrakx",
-            "type":   "Utility",
-            "url":    "https://github.com/Garrakx/Custom-Regions/releases/latest",
-            "thumb":  "previews/customregion.png",
-            "req":    "Requires ConfigMachine and EnumExtender to be installed.",
-            "desc":   "Lets you install and browse region packs with one click and without modifying the base game's files. It works by automerging the world files at runtime and rerouting accesses to rooms",
-            "mod": true
-        });
-
-        ToolMods.push({
-            "name":   "PublicityStunt",
-            "author": "Zandra",
-            "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/530462441432416266/PublicityStunt.dll",
-            "thumb":  "previews/public.png",
-            "desc":   "Changes all private / protected members and functions in the assembly to have public access.",
-            "patch": true
-        });
-
-        ToolMods.push({
-            "name": "EnumExtender",
-            "author": "Pastebee",
-            "type": "Utility",
-            "url": "https://drive.google.com/file/d/1dJKZvcgbTXwxOCCQyCAqKmj6Fzqw1FJT/view",
-            "thumb": "previews/enumext.png",
-            "desc":   "Makes certain modifications to the game's code easier.",
-            "mod": true
-        });
-
-        ToolMods.push({
-            "name":   "SlugBase",
-            "author": "Slime_Cubed",
-            "type":   "Utility",
-            "url":    "https://github.com/SlimeCubed/SlugBase/blob/master/Readme.md",
-            "thumb":  "previews/slugbase.png",
-            "desc":   "A framework that simplifies adding new characters to Rain World.",
-            "mod": true
-        });
-
-        ToolMods.push({
-            "name":   "Sandbox Unlock Core",
-            "author": "the one who screams",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/open?id=1h90v7kuyP6GF6zPoKq_-bSJHJSKnIWNV",
-            "thumb":  "previews/sandboxUnlock.png",
-            "desc":   "Allows mod makers to effortlessly add new items to Sandbox Mode's item select through hooking.",
-            "req":    "Requires PublicityStunt to be installed.",
-            "mod": true
-        });
-
-        ToolMods.push({
-            "name":   "Echo Extender",
-            "author": "Thrithralas",
-            "type":   "Utility",
-            "url":    "https://github.com/Thrithralas/EchoExtender/releases",
-            "thumb":  "previews/EchoExtender.png",
-            "desc":   "Allows modders to add echoes to custom CRS regions without any coding.",
-            "req":    "Requires EnumExtender and Custom Regions Support to be installed.",
-            "mod": true
-        });
-
-        ToolMods.push({
-            "name":   "Custom Assets",
-            "author": "AndrewFM",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1W9A5Jlmhkxxr8HXeTlV4zJYSKYEXvSKq/view",
-            "thumb":  "previews/assets.png",
-            "desc":   "Allows extended editing of the game's assets, particuarly texture atlases and music files.",
-            "patch":  true
-        });
-
-        ToolMods.push({
-            "name":   "CommunicationModule",
-            "author": "Topicular",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1fXUcjxr4zhqY-EVDf18FXQ6k55c9YRDG/view",
-            "thumb":  "previews/communication.png",
-            "desc":   "A utility for supporting translation patches. Allows swapping out any text in the game, adding new languages, and adding new fonts, even with unicode support.",
-            "mod":  true
-        });
-
-        ToolMods.push({
-            "name":   "Conditional Effects",
-            "author": "Slime_Cubed",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1_L2IeSGuKTnlO36tnlJDSJGJKHrgb9ao/view",
-            "thumb":  "previews/conditional.png",
-            "desc":   "Allows effects placed using Dev Tools to only appear for some slugcats.",
-            "mod": true
-        });
-
-        ToolMods.push({
-            "name":   "Dev Console",
-            "author": "Slime_Cubed",
-            "type":   "Utility",
-            "url":    "https://github.com/SlimeCubed/DevConsole/releases",
-            "thumb":  "previews/console.png",
-            "desc":   "Adds an extensible in-game command console to Rain World inspired by the Source engine.",
-            "mod": true
-        });
-
-        ToolMods.push({
-            "name":   "In-Game Warp Menu",
-            "author": "LeeMoriya",
-            "type":   "Utility",
-            "url":    "https://github.com/LeeMoriya/Warp/releases",
-            "thumb":  "previews/warp.png",
-            "desc":   "Adds an in-game menu to dev tools that allows you to immediately warp to any room in your current region, or fast travel to other regions.",
-            "mod": true
-        });
-
-        ToolMods.push({
-            "name":   "SapphireTools",
-            "author": "SapphireWine",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1xWiK4Y4W6u07ZKCMJWJ3lnGR-vKiTnR8/view",
-            "thumb":  "previews/sapphire.png",
-            "desc":   "Adds various utility functionality to the game for testing, such as teleporting to room exits, dragging or manipulating creatures, etc.",
-            "mod": true
-        });
-
-        ToolMods.push({
-            "name":   "Specs Editor",
-            "author": "Willburd",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/17hWH494JwnAOrjo3Xyh8J_QZbbuAA3CO/view",
-            "thumb":  "previews/specs.png",
-            "desc":   "An editor for mapping out collisions for custom props and tiles added to the official level editor. Generates the specs array for the Init.txt file.",
-            "app": true
-        });
-
-        ToolMods.push({
-            "name":   "Editor Project Image Converter",
-            "author": "AndrewFM",
-            "type":   "Utility",
-            "url":    "https://ln.sync.com/dl/357bdf1b0/z6tktgzw-a77f8imc-yw45zfsd-aytdk8hz",
-            "thumb":  "previews/imconvert.png",
-            "desc":   "A tool that converts drawn pixel-art images into level editor projects for the official editor. Works for geometry layers and tile material layers.",
-            "app": true
-        });
-
-        ToolMods.push({
-            "name":   "Prop Renderer",
-            "author": "Ongomato",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1LvD7pYMeS18RD4l0wD9KrdmQdigfaEdo/view",
-            "thumb":  "previews/blendprop.png",
-            "desc":   "A scene and rendering workflow for Blender that slices and converts closed meshes into prop sprite sheets that can be used with the official level editor.",
-            "app": true
-        });
-
-        ToolMods.push({
-            "name":   "Dual Palette Tool",
-            "author": "AndrewFM",
-            "type":   "Utility",
-            "url":    "https://ln.sync.com/dl/dd7b51aa0/nghxu8mk-u7crkvph-kwqek68q-ne3p85fy",
-            "thumb":  "previews/dualpalette.png",
-            "desc":   "Tools that make it possible to use two different color palettes in the same map, at the expense of a reduced color depth in each palette.",
-            "app": true
-        });
-
-        ToolMods.push({
-            "name":   "Region Baker",
-            "author": "Willburd & Garrakx",
-            "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/431534164932689921/441951417905840168/Bake_region_partiality.dll",
-            "thumb":  "previews/baking.png",
-            "desc":   "Allows you to turn on/off the baking of AI pathmaps into region maps via the presence of a bake.txt file.",
-            "patch":  true
-        });
-
-        ToolMods.push({
-            "name":   "Text Encryptor / Decryptor",
-            "author": "AndrewFM & Garrakx",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1QyGL9RqpEOP-fONs5ZaQcee4HCVeSIei/view",
-            "thumb":  "previews/encrypt.png",
-            "desc":   "Allows you to encrypt and decrypt the language files used for dialog, pearls, and other conversations in the game.",
-            "patch":  true
-        });
-
-        ToolMods.push({
-            "name":   "Input Display",
-            "author": "Slime_Cubed",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/1sBjdcAByPEgEKBxyD4mWGtuGLCmsbvGj/view",
-            "thumb":  "previews/inputdisplay.png",
-            "desc":   "Adds a customizable on-screen input display. The display updates at the same time as the game, so it can be more precise than an external input display.",
-            "req":  "Requires ConfigMachine to be installed",
-            "mod":  true
-        });
-
-        ToolMods.push({
-            "name":   "Visible ID",
-            "author": "ratrat44",
-            "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/729814689336262687/VisibleID.dll",
-            "thumb":  "previews/visibleids.png",
-            "desc":   "Displays the ID numbers of creatures above their heads. Toggleable with the Tab key.",
-            "req":  "Requires PublicityStunt to be installed",
-            "mod":  true
-        });
-
-        ToolMods.push({
-            "name":   "Debug Sprite Enabler",
-            "author": "Topicular",
-            "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/473108029458612226/Guideline.dll",
-            "thumb":  "previews/debugsprite.png",
-            "desc":   "Enables toggling on/off different categories of debug visualizations.",
-            "mod":  true
-        });
-
-        ToolMods.push({
-            "name":   "GreyScreen",
-            "author": "Topicular",
-            "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/711091778278785034/GreyScreen.dll",
-            "thumb":  "previews/grey.png",
-            "desc":   "Enables toggling on/off a solid color background mask, to help with chroma keying, useful for recording gifs.",
-            "req":    "Requires ConfigMachine to be installed",
-            "mod":  true
-        });
-
-        ToolMods.push({
-            "name":   "Testing Arenas",
-            "author": "ZombieMan101",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/file/d/11ADaxF7B_1VEZack5BPGHbiGv-fVtSW9/view",
-            "thumb":  "previews/testingarenas.png",
-            "desc":   "Simple arenas made for testing mod mechanics and development, or getting screenshots and gifs.",
-            "content":  true
-        });
-
-        ToolMods.push({
-            "name":   "HokoHub",
-            "author": "Houkou",
-            "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/495172295824769024/HokoHub.zip",
-            "thumb":  "previews/hokou.png",
-            "desc":   "A utility hub room that provides 12 different pipe connections to other rooms, for quick travel when developing your regions.",
-            "content":  true
-        });
-
-        ToolMods.push({
-            "name":   "Death Protection",
-            "author": "Snailturtle",
-            "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/474688248330059796/dontdie.dll",
-            "thumb":  "previews/nodeath.png",
-            "desc":   "A semi-god mode tool that disables many sources of death such as drowning, being attacked by creatures, fall damage, etc.",
-            "patch":  true
-        });
-        
-        ToolMods.push({
-            "name": "Death Protection 2",
-            "req":  "Requires Death Protection to be installed",
-            "author": "Rᵒᵗᵗᶦⁿᵍ ᶦⁿ ʰᵉCK, Pastebee",
-            "type": "Utility",
-            "thumb":  "previews/nodeath2.png",
-            "url": "https://drive.google.com/file/d/1C3SgJ_yQQPDoEv2L9IPxabbrm9IWpreZ/view",
-            "desc": "Disables most sources of death for the player, and prevents creatures from dying by falling out of rooms.",
-            "mod": true
-        });
-        
-        ToolMods.push({
-            "name":   "Rusty Machine",
-            "author": "Zandra",
-            "type":   "Utility",
-            "url":    "https://cdn.discordapp.com/attachments/431534164932689921/701103726785462272/RustyMachine_publicityStuntCompatible_1.dll",
-            "thumb":  "previews/rustymachine.png",
-            "desc":   "Core utility functions to help make Partiality mods. This must be installed for certain partiality mods to function properly.",
-            "mod":  true
-        });
-
-        ToolMods.push({
-            "name":   "Unofficial Level Editor",
-            "author": "AndrewFM & Mikronaut",
-            "type":   "Utility",
-            "url":    "https://drive.google.com/uc?export=download&id=0Bx3vgXPyiJG6WGJ0bVNzYVNRR0U",
-            "thumb":  "previews/un_leveleditor_preview.jpg",
-            "desc":   "An unofficial level editor that allows for limited editing of the pre-existing Rain World levels, such as editing pipe interconnections or changing water levels.",
-            "app": true
-        });
 
         //////////////////////////////////////////////////////////////////////////////////
         // VERSION 1.7 MODS
@@ -2829,6 +2441,461 @@
             "order": 19
         });
 
+        Mods15.push({
+            "name":   "Official Level Editor",
+            "author": "Joar Jakobsson",
+            "type":   "Utility",
+            "url":    "https://ln.sync.com/dl/db7b0cf70/nebg7d6b-qg7gjua7-gjdi94jn-xuvivhw3",
+            "thumb":  "previews/of_editor.png",
+            "desc":   "The very powerful and flexible level editor used by the devs to build and render all of the levels in the final game.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Extended Dev Tools",
+            "author": "The More Slugcats Team",
+            "author_ext": "By AndrewFM and Willburd -- Ported out of MSC by Garrakx", 
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1X9EQbZ__lla36YLKYijvwsshyEwy7QA7/view",
+            "thumb":  "previews/devtools.png",
+            "desc":   "Enables the built-in dev tools to help with modding the game, and provides a number of new tools and utilities to increase efficiency and quality of life for Rain World modders.",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Region Kit",
+            "author": "The Substratum Team & Others",
+            "author_ext": "By DryCryCrystal, DeltaEcho, Henpemaz, Thalber, Thrithralas, Slime_Cubed, Doggo, LeeMoriya, and Kaeporo", 
+            "type":   "Utility",
+            "url":    "https://github.com/DryCryCrystal/Region-Kit/releases",
+            "thumb":  "previews/regionkit.png",
+            "desc":   "A unified dependency and object kit for Rain World region modding.",
+            "req":  "Requires EnumExtender and Custom Regions Support to be installed",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+        
+        Mods15.push({
+            "name":   "BepInEx",
+            "author": "Various Authors",
+            "type":   "Utility",
+            "url":    "https://beestuff.pythonanywhere.com/audb/api/v2/bepinex/download",
+            "thumb":  "previews/bepinex.png",
+            "desc":   "A modding framework that allows Rain World to be modded. Install alongside BOI to use hook and patch mods with Rain World.",
+            "app":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "BOI Mod Manager",
+            "author": "Thalber",
+            "type":   "Utility",
+            "url":    "https://github.com/Rain-World-Modding/BOI/releases",
+            "thumb":  "previews/boi.png",
+            "desc":   "GUI mod manager used together with BepInEx for loading mods.",
+            "req": "Requires BepInEx to function; can download and install/update BepInEx on demand.",
+            "app":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Partiality Launcher",
+            "author": "Zandra and DmitriySalnikov",
+            "type":   "Utility",
+            "url":    "https://github.com/DmitriySalnikov/PartialityLauncher/releases",
+            "thumb":  "previews/partiality2.png",
+            "desc":   "This outdated mod loader is needed to apply hook and patch mods to Rain World, when not using BepInEx.",
+            "app":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "ConfigMachine",
+            "author": "Topicular",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/open?id=1NIE8conaoI1OOHevi4K9tvOG4v-NIfYf",
+            "thumb":  "previews/optional.png",
+            "desc":   "Allows modders to make their own custom configuration settings in an in-game menu. Mods which are configurable require this to be installed.",
+            "mod":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Checksum Fix",
+            "author": "Garrakx",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/431534164932689921/786711573354774577/FixedChecksumFix.dll",
+            "thumb":  "previews/checksum.png",
+            "desc":   "Disables checksum verification so that world files and save files can be edited without triggering the game's cheat protection.",
+            "patch":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name": "AutoUpdate",
+            "author": "Pastebee",
+            "type": "Utility",
+            "url": "https://beestuff.pythonanywhere.com/audb/api/mods/0/0/download/latest",
+            "thumb": "previews/auto.png",
+            "desc": "Automatically updates other compatible mods when they are enabled (Image by LeeMoriya).",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        })
+
+        Mods15.push({
+            "name":   "Custom Regions Support",
+            "author": "Garrakx",
+            "type":   "Utility",
+            "url":    "https://github.com/Garrakx/Custom-Regions/releases/latest",
+            "thumb":  "previews/customregion.png",
+            "req":    "Requires ConfigMachine and EnumExtender to be installed.",
+            "desc":   "Lets you install and browse region packs with one click and without modifying the base game's files. It works by automerging the world files at runtime and rerouting accesses to rooms",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "PublicityStunt",
+            "author": "Zandra",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/530462441432416266/PublicityStunt.dll",
+            "thumb":  "previews/public.png",
+            "desc":   "Changes all private / protected members and functions in the assembly to have public access.",
+            "patch": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name": "EnumExtender",
+            "author": "Pastebee",
+            "type": "Utility",
+            "url": "https://drive.google.com/file/d/1dJKZvcgbTXwxOCCQyCAqKmj6Fzqw1FJT/view",
+            "thumb": "previews/enumext.png",
+            "desc":   "Makes certain modifications to the game's code easier.",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "SlugBase",
+            "author": "Slime_Cubed",
+            "type":   "Utility",
+            "url":    "https://github.com/SlimeCubed/SlugBase/blob/master/Readme.md",
+            "thumb":  "previews/slugbase.png",
+            "desc":   "A framework that simplifies adding new characters to Rain World.",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Sandbox Unlock Core",
+            "author": "the one who screams",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/open?id=1h90v7kuyP6GF6zPoKq_-bSJHJSKnIWNV",
+            "thumb":  "previews/sandboxUnlock.png",
+            "desc":   "Allows mod makers to effortlessly add new items to Sandbox Mode's item select through hooking.",
+            "req":    "Requires PublicityStunt to be installed.",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Echo Extender",
+            "author": "Thrithralas",
+            "type":   "Utility",
+            "url":    "https://github.com/Thrithralas/EchoExtender/releases",
+            "thumb":  "previews/EchoExtender.png",
+            "desc":   "Allows modders to add echoes to custom CRS regions without any coding.",
+            "req":    "Requires EnumExtender and Custom Regions Support to be installed.",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Custom Assets",
+            "author": "AndrewFM",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1W9A5Jlmhkxxr8HXeTlV4zJYSKYEXvSKq/view",
+            "thumb":  "previews/assets.png",
+            "desc":   "Allows extended editing of the game's assets, particuarly texture atlases and music files.",
+            "patch":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "CommunicationModule",
+            "author": "Topicular",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1fXUcjxr4zhqY-EVDf18FXQ6k55c9YRDG/view",
+            "thumb":  "previews/communication.png",
+            "desc":   "A utility for supporting translation patches. Allows swapping out any text in the game, adding new languages, and adding new fonts, even with unicode support.",
+            "mod":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Conditional Effects",
+            "author": "Slime_Cubed",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1_L2IeSGuKTnlO36tnlJDSJGJKHrgb9ao/view",
+            "thumb":  "previews/conditional.png",
+            "desc":   "Allows effects placed using Dev Tools to only appear for some slugcats.",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Dev Console",
+            "author": "Slime_Cubed",
+            "type":   "Utility",
+            "url":    "https://github.com/SlimeCubed/DevConsole/releases",
+            "thumb":  "previews/console.png",
+            "desc":   "Adds an extensible in-game command console to Rain World inspired by the Source engine.",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "In-Game Warp Menu",
+            "author": "LeeMoriya",
+            "type":   "Utility",
+            "url":    "https://github.com/LeeMoriya/Warp/releases",
+            "thumb":  "previews/warp.png",
+            "desc":   "Adds an in-game menu to dev tools that allows you to immediately warp to any room in your current region, or fast travel to other regions.",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "SapphireTools",
+            "author": "SapphireWine",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1xWiK4Y4W6u07ZKCMJWJ3lnGR-vKiTnR8/view",
+            "thumb":  "previews/sapphire.png",
+            "desc":   "Adds various utility functionality to the game for testing, such as teleporting to room exits, dragging or manipulating creatures, etc.",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Specs Editor",
+            "author": "Willburd",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/17hWH494JwnAOrjo3Xyh8J_QZbbuAA3CO/view",
+            "thumb":  "previews/specs.png",
+            "desc":   "An editor for mapping out collisions for custom props and tiles added to the official level editor. Generates the specs array for the Init.txt file.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Editor Project Image Converter",
+            "author": "AndrewFM",
+            "type":   "Utility",
+            "url":    "https://ln.sync.com/dl/357bdf1b0/z6tktgzw-a77f8imc-yw45zfsd-aytdk8hz",
+            "thumb":  "previews/imconvert.png",
+            "desc":   "A tool that converts drawn pixel-art images into level editor projects for the official editor. Works for geometry layers and tile material layers.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Prop Renderer",
+            "author": "Ongomato",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1LvD7pYMeS18RD4l0wD9KrdmQdigfaEdo/view",
+            "thumb":  "previews/blendprop.png",
+            "desc":   "A scene and rendering workflow for Blender that slices and converts closed meshes into prop sprite sheets that can be used with the official level editor.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Dual Palette Tool",
+            "author": "AndrewFM",
+            "type":   "Utility",
+            "url":    "https://ln.sync.com/dl/dd7b51aa0/nghxu8mk-u7crkvph-kwqek68q-ne3p85fy",
+            "thumb":  "previews/dualpalette.png",
+            "desc":   "Tools that make it possible to use two different color palettes in the same map, at the expense of a reduced color depth in each palette.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Region Baker",
+            "author": "Willburd & Garrakx",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/431534164932689921/441951417905840168/Bake_region_partiality.dll",
+            "thumb":  "previews/baking.png",
+            "desc":   "Allows you to turn on/off the baking of AI pathmaps into region maps via the presence of a bake.txt file.",
+            "patch":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Text Encryptor / Decryptor",
+            "author": "AndrewFM & Garrakx",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1QyGL9RqpEOP-fONs5ZaQcee4HCVeSIei/view",
+            "thumb":  "previews/encrypt.png",
+            "desc":   "Allows you to encrypt and decrypt the language files used for dialog, pearls, and other conversations in the game.",
+            "patch":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Input Display",
+            "author": "Slime_Cubed",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1sBjdcAByPEgEKBxyD4mWGtuGLCmsbvGj/view",
+            "thumb":  "previews/inputdisplay.png",
+            "desc":   "Adds a customizable on-screen input display. The display updates at the same time as the game, so it can be more precise than an external input display.",
+            "req":  "Requires ConfigMachine to be installed",
+            "mod":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Visible ID",
+            "author": "ratrat44",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/729814689336262687/VisibleID.dll",
+            "thumb":  "previews/visibleids.png",
+            "desc":   "Displays the ID numbers of creatures above their heads. Toggleable with the Tab key.",
+            "req":  "Requires PublicityStunt to be installed",
+            "mod":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Debug Sprite Enabler",
+            "author": "Topicular",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/473108029458612226/Guideline.dll",
+            "thumb":  "previews/debugsprite.png",
+            "desc":   "Enables toggling on/off different categories of debug visualizations.",
+            "mod":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "GreyScreen",
+            "author": "Topicular",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/711091778278785034/GreyScreen.dll",
+            "thumb":  "previews/grey.png",
+            "desc":   "Enables toggling on/off a solid color background mask, to help with chroma keying, useful for recording gifs.",
+            "req":    "Requires ConfigMachine to be installed",
+            "mod":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Testing Arenas",
+            "author": "ZombieMan101",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/11ADaxF7B_1VEZack5BPGHbiGv-fVtSW9/view",
+            "thumb":  "previews/testingarenas.png",
+            "desc":   "Simple arenas made for testing mod mechanics and development, or getting screenshots and gifs.",
+            "content":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "HokoHub",
+            "author": "Houkou",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/481900360324218880/495172295824769024/HokoHub.zip",
+            "thumb":  "previews/hokou.png",
+            "desc":   "A utility hub room that provides 12 different pipe connections to other rooms, for quick travel when developing your regions.",
+            "content":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Death Protection",
+            "author": "Snailturtle",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/305139167300550666/474688248330059796/dontdie.dll",
+            "thumb":  "previews/nodeath.png",
+            "desc":   "A semi-god mode tool that disables many sources of death such as drowning, being attacked by creatures, fall damage, etc.",
+            "patch":  true,
+            "tool": true,
+            "order": 0
+        });
+        
+        Mods15.push({
+            "name": "Death Protection 2",
+            "req":  "Requires Death Protection to be installed",
+            "author": "Rᵒᵗᵗᶦⁿᵍ ᶦⁿ ʰᵉCK, Pastebee",
+            "type": "Utility",
+            "thumb":  "previews/nodeath2.png",
+            "url": "https://drive.google.com/file/d/1C3SgJ_yQQPDoEv2L9IPxabbrm9IWpreZ/view",
+            "desc": "Disables most sources of death for the player, and prevents creatures from dying by falling out of rooms.",
+            "mod": true,
+            "tool": true,
+            "order": 0
+        });
+        
+        Mods15.push({
+            "name":   "Rusty Machine",
+            "author": "Zandra",
+            "type":   "Utility",
+            "url":    "https://cdn.discordapp.com/attachments/431534164932689921/701103726785462272/RustyMachine_publicityStuntCompatible_1.dll",
+            "thumb":  "previews/rustymachine.png",
+            "desc":   "Core utility functions to help make Partiality mods. This must be installed for certain partiality mods to function properly.",
+            "mod":  true,
+            "tool": true,
+            "order": 0
+        });
+
+        Mods15.push({
+            "name":   "Unofficial Level Editor",
+            "author": "AndrewFM & Mikronaut",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/uc?export=download&id=0Bx3vgXPyiJG6WGJ0bVNzYVNRR0U",
+            "thumb":  "previews/un_leveleditor_preview.jpg",
+            "desc":   "An unofficial level editor that allows for limited editing of the pre-existing Rain World levels, such as editing pipe interconnections or changing water levels.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
 
         //////////////////////////////////////////////////////////////////////////////////
         // AUDB MODS
@@ -2846,49 +2913,25 @@
                     if ("lastmodified" in ModsAUDB15[i])
                     {
                         var modified = ModsAUDB15[i]["lastmodified"];
-                        if ("type" in ModsAUDB15[i] && ModsAUDB15[i]["type"].toLowerCase() === "utility") {
-                            for (var j=0; j<ToolMods.length; j++) {
-                                if ("name" in ModsAUDB15[i] && "name" in ToolMods[j] && ModsAUDB15[i]["name"].toLowerCase() === ToolMods[j]["name"].toLowerCase()) {
-                                    found = true;
-                                    if ("url" in ModsAUDB15[i]) {
-                                        ToolMods[j]["url"] = ModsAUDB15[i]["url"];
-                                    }
-                                    for (var key in ModsAUDB15[i]) {
-                                        if (ModsAUDB15[i].hasOwnProperty(key) && !(key in ToolMods[j])) {
-                                            ToolMods[j][key] = ModsAUDB15[i][key];
-                                        }
-                                    }
-                                    ToolMods[j]["audb"] = true;
-                                    break;
+                        for (var j=0; j<Mods15.length; j++) {
+                            if ("name" in ModsAUDB15[i] && "name" in Mods15[j] && ModsAUDB15[i]["name"].toLowerCase() === Mods15[j]["name"].toLowerCase()) {
+                                found = true;
+                                if ("url" in ModsAUDB15[i]) {
+                                    Mods15[j]["url"] = ModsAUDB15[i]["url"];
                                 }
-                            }
-                            if (!found) {
-                                ModsAUDB15[i]["audb"] = true;
-                                ModsAUDB15[i]["order"] = 0;
-                                ToolMods.push(ModsAUDB15[i]);
+                                for (var key in ModsAUDB15[i]) {
+                                    if (ModsAUDB15[i].hasOwnProperty(key) && !(key in Mods15[j])) {
+                                        Mods15[j][key] = ModsAUDB15[i][key];
+                                    }
+                                }
+                                Mods15[j]["audb"] = true;
+                                break;
                             }
                         }
-                        else {
-                            for (var j=0; j<Mods15.length; j++) {
-                                if ("name" in ModsAUDB15[i] && "name" in Mods15[j] && ModsAUDB15[i]["name"].toLowerCase() === Mods15[j]["name"].toLowerCase()) {
-                                    found = true;
-                                    if ("url" in ModsAUDB15[i]) {
-                                        Mods15[j]["url"] = ModsAUDB15[i]["url"];
-                                    }
-                                    for (var key in ModsAUDB15[i]) {
-                                        if (ModsAUDB15[i].hasOwnProperty(key) && !(key in Mods15[j])) {
-                                            Mods15[j][key] = ModsAUDB15[i][key];
-                                        }
-                                    }
-                                    Mods15[j]["audb"] = true;
-                                    break;
-                                }
-                            }
-                            if (!found) {
-                                ModsAUDB15[i]["audb"] = true;
-                                ModsAUDB15[i]["order"] = 0;
-                                Mods15.push(ModsAUDB15[i]);
-                            }
+                        if (!found) {
+                            ModsAUDB15[i]["audb"] = true;
+                            ModsAUDB15[i]["order"] = 0;
+                            Mods15.push(ModsAUDB15[i]);
                         }
                     }
                 }
