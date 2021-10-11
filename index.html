@@ -387,16 +387,7 @@
             }
 			
 			if(count == 0) {
-				switch(div_id) {
-					case "1.5":
-					case "1.01":
-					case "1.7":
-						appendStr += '<p class="no-results">No results found. Try changing your search term or checking the <a onclick="toggle(\'utilities\')" href="#main">Tools</a> tab.</p>';
-						break;
-					default:
-						appendStr += '<p class="no-results">No results found. Try changing your search term.</p>';
-						break;
-				}
+				appendStr += '<p class="no-results">No results found. Try changing your search term.</p>';
 			}
 			
             document.getElementById(div_id+"_gallery").innerHTML = appendStr
