@@ -806,7 +806,7 @@
             "url":    "https://drive.google.com/file/d/1b_J-ijVMX6RJbMKZURew3lRCCVKHDVue/view",
             "thumb":  "previews/easy.png",
             "desc":   "A rebalance and overhaul of Rain World's difficulty. Play as The Renegade, a buffed-up combination of the pre-existing slugcats. The journey will be easier.",
-            "req":    "Requires PublicityStunt to be installed.",
+            "req":    "Requires PublicityStunt to be installed (only if using Partiality).",
             "mod": true,
             "order": 84
         });
@@ -877,7 +877,7 @@
             "url":    "https://drive.google.com/file/d/10-2BDsRM9-fUg_10Z_6DWCl4eQaQNVyX/view",
             "thumb":  "previews/automaton.png",
             "desc":   "Play as a machine with an indestructable body but a delicate mind. Though predators pose no threat to your avatar, care must be taken to protect your neurons.",
-            "req":   "Requires PublicityStunt to be installed.",
+            "req":   "Requires PublicityStunt to be installed (only if using Partiality).",
             "mod":  true,
             "order": 112
         });
@@ -958,7 +958,7 @@
             "url":    "https://cdn.discordapp.com/attachments/481900360324218880/699439245923844126/Fancy_Slugcats.zip",
             "thumb":  "previews/fancy.png",
             "desc":   "Adds a variety of tools to customize your slugcat, including body proportions, colors, and even custom graphics and assets.",
-            "req":    "Requires ConfigMachine, PublicityStunt, and Custom Assets to be installed",
+            "req":    "Requires ConfigMachine and Custom Assets to be installed. (Also, PublicityStunt, only if using Partiality)",
             "mod":  true,
             "order": 136
         });
@@ -1133,7 +1133,7 @@
             "url":    "https://drive.google.com/file/d/1xgHC_C15HlYrGFseuVo7UPRpu3gsx4dJ/view",
             "thumb":  "previews/enemyRandomizer.png",
             "desc":   "Randomizes the creatures that spawn from all dens in the game, meaning any creature can spawn anywhere.",
-            "req":   "Requires PublicityStunt and ConfigMachine to be installed.",
+            "req":   "Requires ConfigMachine to be installed. (Also, PublicityStunt, only if using Partiality)",
             "mod": true,
             "order": 118
         });
@@ -1262,7 +1262,7 @@
             "thumb":  "previews/nsh.png",
             "desc":   "Lets you play the game as the iterator NSH, who has decided to go for a walk.",
             "mod": true,
-            "req": "Requires PublicityStunt and ConfigMachine to be installed.",
+            "req": "Requires ConfigMachine to be installed. (Also PublicityStunt, only if using Partiality)",
             "order": 107
         });
 
@@ -1401,7 +1401,7 @@
             "thumb":  "previews/voidworld.png",
             "desc":   "Dunks Rain World in the void for a while so that every room in the entire game has the Void Sea's dark, trippy, confusing effect.",
             "mod":   true,
-            "req":   "Requires PublicityStunt to be installed.",
+            "req":   "Requires PublicityStunt to be installed (only if using Partiality).",
             "order": 99
         });
 
@@ -1719,7 +1719,7 @@
             "url":    "https://cdn.discordapp.com/attachments/383654066258968606/649471389170139147/DeerFix.zip",
             "thumb":  "previews/deers.png",
             "desc":   "Improves Raindeer behavior. Allows you to wiggle in their horns to make them turn around. Also allows modders to use mirobirds and deer in any room they assign them access to.",
-            "req":    "Requires PublicityStunt to be installed.",
+            "req":    "Requires PublicityStunt to be installed (only if using Partiality).",
             "mod":  true,
             "order": 116
         });
@@ -1945,7 +1945,7 @@
             "thumb":  "previews/frenland.png",
             "desc":   "Makes tamed lizards and creatures with really high reputation not attack each other.",
             "mod": true,
-            "req":   "Requires PublicityStunt to be installed.",
+            "req":   "Requires PublicityStunt to be installed (only if using Partiality).",
             "order": 109
         });
 
@@ -2079,7 +2079,7 @@
             "thumb":  "previews/antiwormgrass.png",
             "desc":   "Turns the deadly worm grass into a harmless, mellow background element.",
             "mod":   true,
-            "req":   "Requires PublicityStunt to be installed.",
+            "req":   "Requires PublicityStunt to be installed (only if using Partiality).",
             "order": 100
         });
 
@@ -2471,7 +2471,7 @@
         Mods15.push({
             "name":   "Region Kit",
             "author": "The Substratum Team & Others",
-            "author_ext": "By DryCryCrystal, DeltaEcho, Henpemaz, Thalber, Thrithralas, Slime_Cubed, Doggo, LeeMoriya, and Kaeporo", 
+            "author_ext": "By DryCryCrystal, DeltaTime, Henpemaz, Thalber, Thrithralas, Slime_Cubed, Doggo, LeeMoriya, and Kaeporo", 
             "type":   "Utility",
             "url":    "https://github.com/DryCryCrystal/Region-Kit/releases",
             "thumb":  "previews/regionkit.png",
@@ -2502,18 +2502,6 @@
             "thumb":  "previews/boi.png",
             "desc":   "GUI mod manager used together with BepInEx for loading mods.",
             "req": "Requires BepInEx to function; can download and install/update BepInEx on demand.",
-            "app":  true,
-            "tool": true,
-            "order": 0
-        });
-
-        Mods15.push({
-            "name":   "Partiality Launcher",
-            "author": "Zandra and DmitriySalnikov",
-            "type":   "Utility",
-            "url":    "https://github.com/DmitriySalnikov/PartialityLauncher/releases",
-            "thumb":  "previews/partiality2.png",
-            "desc":   "This outdated mod loader is needed to apply hook and patch mods to Rain World, when not using BepInEx.",
             "app":  true,
             "tool": true,
             "order": 0
@@ -2611,20 +2599,7 @@
             "url":    "https://drive.google.com/open?id=1h90v7kuyP6GF6zPoKq_-bSJHJSKnIWNV",
             "thumb":  "previews/sandboxUnlock.png",
             "desc":   "Allows mod makers to effortlessly add new items to Sandbox Mode's item select through hooking.",
-            "req":    "Requires PublicityStunt to be installed.",
-            "mod": true,
-            "tool": true,
-            "order": 0
-        });
-
-        Mods15.push({
-            "name":   "Echo Extender",
-            "author": "Thrithralas",
-            "type":   "Utility",
-            "url":    "https://github.com/Thrithralas/EchoExtender/releases",
-            "thumb":  "previews/EchoExtender.png",
-            "desc":   "Allows modders to add echoes to custom CRS regions without any coding.",
-            "req":    "Requires EnumExtender and Custom Regions Support to be installed.",
+            "req":    "Requires PublicityStunt to be installed (only if using Partiality).",
             "mod": true,
             "tool": true,
             "order": 0
@@ -2794,7 +2769,7 @@
             "url":    "https://cdn.discordapp.com/attachments/481900360324218880/729814689336262687/VisibleID.dll",
             "thumb":  "previews/visibleids.png",
             "desc":   "Displays the ID numbers of creatures above their heads. Toggleable with the Tab key.",
-            "req":  "Requires PublicityStunt to be installed",
+            "req":  "Requires PublicityStunt to be installed (only if using Partiality).",
             "mod":  true,
             "tool": true,
             "order": 0
