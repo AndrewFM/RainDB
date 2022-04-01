@@ -311,6 +311,7 @@
 				if(search != "" &&
 					!mods_array[i]["name"  ].toLowerCase().includes(search) &&
 					!mods_array[i]["author"].toLowerCase().includes(search) &&
+                    (!("author_ext" in mods_array[i]) || !mods_array[i]["author_ext"].toLowerCase().includes(search)) &&
 					!mods_array[i]["type"  ].toLowerCase().includes(search))
 					continue;
 				
@@ -497,7 +498,7 @@
         gallery.push({"name": "dakras5", "author": "Dakras"});
         gallery.push({"name": "dakras6", "author": "Dakras"});
         gallery.push({"name": "dakras7", "author": "Dakras"});
-        gallery.push({"name": "nano0", "author": "NanoSpirit and Dakras"});
+        gallery.push({"name": "nano0", "author": "NanoSpirit & Dakras"});
         gallery.push({"name": "andrewfm0", "author": "AndrewFM"});
         gallery.push({"name": "andrewfm1", "author": "AndrewFM"});
         gallery.push({"name": "miniskidi0", "author": "1MINISKIDI"})
@@ -798,7 +799,7 @@
 
         Mods15.push({
             "name":   "Better Shelters",
-            "author": "Tronsx and Thalber",
+            "author": "Tronsx & Thalber",
             "type":   "Map Edits",
             "url":    "https://github.com/thalber/BetterShelters/releases",
             "thumb":  "previews/bettershelters.png",
@@ -847,8 +848,8 @@
 
         Mods15.push({
             "name":   "Wing Cat",
-            "author": "Minkimaro",
-            "author_ext": "Original code Zandra; Ported to BepInEx Plugin by topicular",
+            "author": "The Wing Cat Team",
+            "author_ext": "Concept/Art/Design by Minkimaro; Programming by Zandra; Ported to BepInEx Plugin by topicular",
             "type":   "Slugcat Abilities",
             "url":    "https://drive.google.com/file/d/1KRZVq014-jV8VoUx96GoPu5Y9xbn8QaR/view",
             "thumb":  "previews/wingcat.png",
@@ -883,7 +884,7 @@
 
         Mods15.push({
             "name":   "Spookcat",
-            "author": "Garrakx and Cappin",
+            "author": "Garrakx & Cappin",
             "type":   "Slugcat Abilities",
             "url":    "https://drive.google.com/file/d/1LFJw84vhV4_PNDG9C6vAHnTVnMSkHVZm/view",
             "thumb":  "previews/spookcat.png",
@@ -1023,7 +1024,7 @@
 
         Mods15.push({
             "name":   "Lizard Customizer",
-            "author": "Ratrat44 and Bigabyte",
+            "author": "Ratrat44 & Bigabyte",
             "type":   "Utility",
             "url":    "https://drive.google.com/file/d/1QVtHonYnq1N3EDvaCMVxjArX-f1WUbi5/view",
             "thumb":  "previews/customlizard.png",
@@ -1094,7 +1095,7 @@
 
          Mods15.push({
             "name":   "SBCameraScroll",
-            "author": "SchuhBaum and Bee",
+            "author": "SchuhBaum & Bee",
             "type":   "Utility",
             "url":    "https://drive.google.com/file/d/16mNQ8X0GEo2LodQfK-sO92LMGML6VHDt/view",
             "thumb":  "previews/sbcamerascroll.jpg",
@@ -1198,7 +1199,7 @@
 
         Mods15.push({
             "name":   "Random Start",
-            "author": "Willburd and Garrakx",
+            "author": "Willburd & Garrakx",
             "type":   "Randomizer",
             "url":    "https://drive.google.com/file/d/17WpR48COrVVWuPebobiy_g5R-At6g4l0/view",
             "thumb":  "previews/randomStart.png",
@@ -1708,7 +1709,7 @@
 
         /*Mods15.push({
             "name":   "Za Warudo",
-            "author": "Topicular and Garrakx",
+            "author": "Topicular & Garrakx",
             "type":   "Slugcat Abilities",
             "url":    "",
             "thumb":  "previews/zawarudo.png",
@@ -1833,7 +1834,7 @@
 
         Mods15.push({
             "name":   "ScoreRush",
-            "author": "Henpemaz and SapphireWine",
+            "author": "Henpemaz & SapphireWine",
             "type":   "Game Mode",
             "url":    "https://drive.google.com/file/d/1l0qaeqa5JR08m2jQdAYXWLAfPVEda-jV/view",
             "thumb":  "previews/scorerush.png",
@@ -2463,7 +2464,7 @@
 
         Mods15.push({
             "name":   "A Quiet World",
-            "author": "Bwarch and Garrakx",
+            "author": "Bwarch & Garrakx",
             "type":   "Game Tweak",
             "url":    "https://drive.google.com/file/d/1hO29nQPJGJcmsfXhnCWCbPoi_mbjGjRE/view",
             "thumb":  "previews/nothreat.png",
