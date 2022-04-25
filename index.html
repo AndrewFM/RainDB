@@ -310,8 +310,9 @@
 				// Filter mods by search term
 				if(search != "" &&
 					!mods_array[i]["name"  ].toLowerCase().includes(search) &&
-					!mods_array[i]["author"].toLowerCase().includes(search) &&
+					(!("author" in mods_array[i]) || !mods_array[i]["author"].toLowerCase().includes(search)) &&
                     (!("author_ext" in mods_array[i]) || !mods_array[i]["author_ext"].toLowerCase().includes(search)) &&
+                    (!("search_key" in mods_array[i]) || !mods_array[i]["search_key"].toLowerCase().includes(search)) &&
 					!mods_array[i]["type"  ].toLowerCase().includes(search))
 					continue;
 				
@@ -373,13 +374,19 @@
                     warnTipIds.push(i);
                 }
                 appendStr += '<div class="portfolio-box-date"><p style="margin-left: 0px; margin-top: -10px;">';
+                var usesAuthor = false;
                 if ("author_ext" in mods_array[i]) {
-                    appendStr += 'By <span class="authorTooltip_'+i+'" title="'+mods_array[i]["author_ext"]+'" style="color:#ff8a38;">' + mods_array[i]["author"] + "</span>";
+                    appendStr += 'By <span class="authorTooltip_'+i+'" title="'+mods_array[i]["author_ext"]+'" style="color:#ff8a38;">' + mods_array[i]["author"] + "</span><br>";
                     authorTipIds.push(i);
+                    usesAuthor = true;
                 }
-                else
-                    appendStr += 'By ' + mods_array[i]["author"];
-                appendStr += '<br>Mod Type: ' + mods_array[i]["type"]
+                else if ("author" in mods_array[i]) {
+                    appendStr += 'By ' + mods_array[i]["author"] + "<br>";
+                    usesAuthor = true;
+                }
+                appendStr += 'Mod Type: ' + mods_array[i]["type"];
+                if (!usesAuthor)
+                    appendStr += "<br><br>";
                 appendStr += '</p></div><p style="text-align:justify">' + mods_array[i]["desc"] + "</p></div>";
                 if (count % 3 == 2 || count == mods_array.length-1) {
                     appendStr += "</div>";
@@ -964,13 +971,13 @@
 
         Mods15.push({
             "name":   "Character Pack",
-            "author": "Zandra",
             "type":   "Slugcat Abilities",
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/527562749337665556/CharacterPack.dll",
             "thumb":  "previews/characterpack.png",
             "desc":   "Adds additional characters to Rusty Machine's character selector: Vult, Aquaria, Spirit, and Refractor.",
             "mod": true,
             "req": "Requires Rusty Machine to be installed.",
+            "search_key": "Zandra",
             "order": 77
         });
 
@@ -1024,12 +1031,13 @@
         Mods15.push({
             "name":   "Colorfoot",
             "author": "Multiple Authors",
-            "author_ext": "Colorfoot by: Topicular, Selective Colors by: Garrakx and Beau, Camo Slugcat by: loderunner, Skittlekat by: Zandra",
+            "author_ext": "Colorfoot by: Topicular, Selective Colors by: Garrakx and Beau, Camo Slugcat by: loderunner",
             "type":   "Utility",
             "url":    "https://drive.google.com/open?id=1Em9kKkh8kidRVjPS12lwlq3QGZ5-nV2U",
             "thumb":  "previews/colorfoot.png",
             "desc":   "Provides a variety of ways of changing slugcat's colors. This is a collection of the old Selective Colors mod, Camocat mod, and Skittlecat mod.",
             "req":    "Requires ConfigMachine to be installed.",
+            "search_key": "Zandra",
             "mod": true,
             "order": 59
         });
@@ -1151,11 +1159,11 @@
 
         Mods15.push({
             "name":   "DungeonWorld",
-            "author": "Zandra",
             "type":   "Randomizer",
             "url":    "https://cdn.discordapp.com/attachments/431534164932689921/797633454560772166/DungeonWorld_fixed.dll",
             "thumb":  "previews/dungeon.png",
             "desc":   "Randomly mixes around the pipe destinations in every region, making the world unpredictable to navigate, and ever changing.",
+            "search_key": "Zandra",
             "patch":  true,
             "order": 33
         });
@@ -1230,11 +1238,12 @@
 
         Mods15.push({
             "name":   "Beastmaster",
-            "author": "Fyre & Zandra",
+            "author": "Fyre",
             "type":   "Utility",
-            "url":    "https://drive.google.com/open?id=1F00Bz9KVh6GfVrS25AesWsTHXduUkcbw",
+            "url":    "https://drive.google.com/file/d/1kTJawrm3PoZnK8VLmvTIZwYuJjfYAQx2/view",
             "thumb":  "previews/beastmaster.png",
             "desc":   "Allows you to spawn a variety of creatures and items at will, in all game types including story mode and arena. Essentially, sandbox mode everywhere.",
+            "search_key": "Zandra",
             "mod":  true,
             "order": 24
         });
@@ -1353,7 +1362,8 @@
             "type":   "Audio",
             "url":    "https://drive.google.com/file/d/1u1JG9UQBsbFrHeubN2TxMGQnnU5O2zX_/view",
             "thumb":  "previews/vibeworld.png",
-            "desc":   "Gives each region its own playlist of Rain World songs that play continuously.",
+            "desc":   "Makes it so Rain World's music plays continuously, and adds configurable playlist functionality.",
+            "req": "Requires ConfigMachine to be installed.",
             "mod": true,
             "order": 160
         });
@@ -1660,11 +1670,11 @@
 
         Mods15.push({
             "name":   "Omnithrow",
-            "author": "Zandra",
             "type":   "Slugcat Abilities",
             "url":    "https://drive.google.com/file/d/1kiFLRVl7p0EvFGneHeZejfQuGXADozTS/view",
             "thumb":  "previews/omnithrow.png",
             "desc":   "Gives slugcat the ability to throw objects in any direction.",
+            "search_key": "Zandra",
             "mod":  true,
             "order": 25
         });
@@ -1948,7 +1958,7 @@
             "url":    "https://drive.google.com/drive/folders/1A_hGT781ysBlDxmWw_BlJyfa-_8S3b99?usp=sharing",
             "thumb":  "previews/arenabackspear.png",
             "desc":   "Allows you to have a back spear in arena. Works for all four characters.",
-            "patch":  true,
+            "mod":  true,
             "order": 73
         });
 
@@ -2268,11 +2278,11 @@
 
         Mods15.push({
             "name":   "Silly Sounds With Larry",
-            "author": "Zandra",
             "type":   "Audio",
             "url":    "https://cdn.discordapp.com/attachments/305139167300550666/427590377437003796/SillySoundsWithLarry.dll",
             "thumb":  "previews/larry.png",
             "desc":   "Pitch modulates all of the sound effects in the game over time.",
+            "search_key": "Zandra",
             "mod":  true,
             "order": 16
         });
@@ -2401,6 +2411,17 @@
         });
 
         Mods15.push({
+            "name":   "Flood",
+            "author": "Formal Lizard",
+            "type":   "Game Tweak",
+            "url":    "https://drive.google.com/file/d/1GSeu3dAOkN_sDiJQ_J0Tu8Mrb8kQRFfy/view?usp=sharing",
+            "thumb":  "previews/flood.jpg",
+            "desc":   "Water slowly fills up the world as time goes on, resetting on each cycle.",
+            "mod":    true,
+            "order": 209
+        });
+
+        Mods15.push({
             "name":   "Clear Water",
             "author": "Garrakx",
             "author_ext": "Ported to BepInEx plugin by M4rbleL1ne",
@@ -2408,7 +2429,7 @@
             "url":    "https://drive.google.com/drive/folders/1Bv5rtZ-Ek6I37owGRST9DH7XGzKC--Ad?usp=sharing",
             "thumb":  "previews/clearwater.png",
             "desc":   "Makes all water in the game crystal clear.",
-            "patch":   true,
+            "mod":   true,
             "order": 66
         });
 
@@ -2498,7 +2519,7 @@
             "url":    "https://drive.google.com/drive/folders/1At4X6-KY5IbxQrAch8sZ72ORcS9ygVtp?usp=sharing",
             "thumb":  "previews/sickness.png",
             "desc":   "Forces slugcat to always be in starvation mode. More food is needed, and slugcat will have trouble staying conscious. This mod takes effect even in arena mode.",
-            "patch":  true,
+            "mod":  true,
             "order": 34
         });
 
@@ -2603,7 +2624,6 @@
             "mod":    true,
             "order": 208
         });
-
 
         Mods15.push({
             "name":   "UwU Mod",
@@ -3058,11 +3078,11 @@
         
         Mods15.push({
             "name":   "Rusty Machine",
-            "author": "Zandra",
             "type":   "Utility",
             "url":    "https://cdn.discordapp.com/attachments/431534164932689921/701103726785462272/RustyMachine_publicityStuntCompatible_1.dll",
             "thumb":  "previews/rustymachine.png",
             "desc":   "Collection of utility functions for modders. Also some utilities for adding characters to the game, though this has been superseded by SlugBase.",
+            "search_key": "Zandra",
             "mod":  true,
             "tool": true,
             "order": 0
