@@ -40,19 +40,19 @@
         <div class="container">
             <div>
                 <ul class="nav navbar-nav">
-                    <li><a class="scroll-link" href="#top-content">Top</a>
+                    <li><a href="https://www.raindb.net/index.html">Home</a>
                     </li>
-                    <li><a class="scroll-link" onclick="location.href='https://www.raindb.net/index.html';" href="https://www.raindb.net/index.html">Home</a>
+                    <li class="heading-divider">|</li>
+                    <li><a href="https://www.raindb.net/legacy.html">Legacy Mods</a>
                     </li>
-                    <li><a class="scroll-link" onclick="location.href='https://www.raindb.net/gallery.html';" href="https://www.raindb.net/gallery.html">Gallery</a>
+                    <li class="heading-divider">|</li>
+                    <li><a href="https://www.raindb.net/tools.html">Modding Tools</a>
                     </li>
-                    <li><a class="scroll-link" onclick="location.href='https://www.raindb.net/tutorials.html';" href="https://www.raindb.net/tutorials.html">Tutorials</a>
+                    <li class="heading-divider">|</li>
+                    <li><a href="https://www.raindb.net/tutorials.html">Tutorials</a>
                     </li>
-                    <li><a class="scroll-link" onclick="location.href='https://www.raindb.net/upload.html';" href="https://www.raindb.net/upload.html">Submit</a>
-                    </li>
-                    <li><a class="scroll-link" onclick="location.href='https://www.raindb.net/projects.html';" href="https://www.raindb.net/projects.html">Community Projects</a>
-                    </li>
-                    <li><a class="scroll-link" onclick="location.href='https://raindb.fandom.com/';" href="https://raindb.fandom.com/">Wiki</a>
+                    <li class="heading-divider">|</li>
+                    <li><a target="_blank" href="https://rainworldmodding.miraheze.org/wiki/Main_Page">Modding Wiki</a>
                     </li>
                 </ul>
             </div>
@@ -79,23 +79,28 @@
     <!-- Portfolio -->
     <div class="portfolio-container section-container" style="margin-left: 0px; margin-top: 2px;">
         <div class="container" ,="" style="height:inherit;">
-            <div class="col-sm-12 portfolio section-description wow fadeIn animated">
-            <table style="width:100%">
-            <tr>
-            <td width="50%" valign="top" style="padding-right:75px; text-align:justify;">
+            <div class="col-sm-12 portfolio section-description wow fadeIn animated" style="text-align: justify;">
+
                 <div class="row">
                     <h2>Installing Mods</h2>
                     <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span>
                     </div>
                 </div>
                 <div class="row">
-                    <br>
-                    Before installing any mods, first locate your Rain World folder. This can be located easily from your Steam install directory. From the Steam directory, go to "steamapps/common/Rain World".
-                    Then backup your important files, especially your save files! Saves are located in the UserData folder; make a copy of them somewhere.
-
-                    <h3><b>Hook / Patch Mods:</b></h3> 
-                    Any number of these types of mods can be used together at the same time, using BepInEx.
+                    <h3><b>Installing v1.9.XX and Downpour Mods:</b></h3> 
+                    If you own Rain World on Steam, these mods can be installed by locating them on the <a href="https://steamcommunity.com/app/312520/workshop/" target="_blank">Steam Workshop</a>, subscribing to the desired mod(s), and then launching the game and enabling the mod(s) through the Remix menu.
                     <br><br>
+                    If you own Rain World on GOG/EGS or another PC platform, you will need to get a direct link to the mod. Once the mod is downloaded, the directory for the mod should be extracted into:
+                    <pre>RainWorld_Data/StreamingAssets/mods</pre>
+                    within your Rain World game folder. For mod creators, this is where you will place your mods' directories while you are developing them as well.
+
+                    <h3><b>Installing v1.5 Hook / Patch Mods:</b></h3> 
+                    These mods are only compatible with v1.5 of Rain World. Before installing any mods, first locate your Rain World save files. In Rain World v1.5 and v1.01, this can be located easily from your Steam install directory. From the Steam directory, go to: <pre>steamapps/common/Rain World/UserData</pre>
+                    Backup your important files; all of your save files are stored in this directory! Make a copy of them somewhere safe, as mods can break your save file, and you will need to revert to these backed up files after uninstalling mods if you don't want to lose your saves.
+                    <br><br>
+                    Hook and Patch mods are generally installed using BepInEx and BOI. With this method, any number of hook and patch mods can be used together at the same time, as long as they don't conflict in their functionality.
+                    <br><br>
+                    <b>To Install:</b>
                     <ol>
                         <li><a href="https://beestuff.pythonanywhere.com/audb/api/v2/bepinex/download" target="_blank">Download BepInEx</a> and extract the contents of the zip file into your Rain World folder.</li>
                         <li><a href="https://github.com/Rain-World-Modding/BOI/releases" target="_blank">Download BOI Mod Manager</a> and extract it anywhere.</li>
@@ -106,17 +111,16 @@
                         <li>Enable/disable mods as you need in BOI using the checkboxes, then close BOI and launch Rain World.</li>
                     </ol>
 
-                    <h3><b>Standalone Mods:</b></h3> 
-                    Standalone mods are mods that can only be used one at a time. Certain mods come with a README file. Always be sure to check those for special install instructions. 
+                    <h3><b>Installing v1.01 Mods or Standalone Mods:</b></h3> 
+                    Standalone mods are mods that are incompatible with other standalone mods, so only one such mod can be installed at any given time. Certain standalone mods come with a README file. Always be sure to check those for special install instructions. Every standalone mod comes with a dll file.
                     <br>
-                    <br> Navigate to the RainWorld_Data/Managed folder, and replace ‘Assembly-CSharp.dll’ with your modded .dll.
-                    <br>
-                    <br> That’s it, the mod is now installed! To uninstall the mod and revert the game to its normal state, right click the game in Steam, and use "Verify Integrity of Game Cache". Then restore the save files you backed up.
+                    <br><b>To Install:</b>
+                    <ul><li>Navigate to the RainWorld_Data/Managed folder, and replace ‘Assembly-CSharp.dll’ with the standalone mod's .dll. It must still be named Assembly-CSharp.dll after replacing.</li></ul>
+                    That’s it, the mod is now installed! To uninstall the mod and revert the game to its normal state, right click the game in Steam, and use "Verify Integrity of Game Cache". Then restore the save files that you backed up.
                     <br>
                     <p></p>
                 </div>
-            </td>
-            <td width="50%" valign="top" style="padding-left:75px; text-align:justify;">
+
                 <div class="row">
                     <h2>Creating Mods</h2>
                     <div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span>
@@ -126,31 +130,27 @@
                     <h3><b>Essential Download Links:</b></h3>
                     <p></p>
                     <ul>
-                    <li><a href="https://cdn.discordapp.com/attachments/305139167300550666/438565425303781376/Devtools.dll" target="_blank">Dev Tools</a></li>
-                    <li><a href="https://ln.sync.com/dl/db7b0cf70/nebg7d6b-qg7gjua7-gjdi94jn-xuvivhw3" target="_blank">Official Level Editor</a></li>
+                    <li><a href="https://ln5.sync.com/dl/2c28693d0/q2b2zh8m-vdmsuwyj-5w3efg5c-gvhg7ben" target="_blank">Official Level Editor</a></li>
                     <li><a href="https://github.com/0xd4d/dnSpy/actions" target="_blank">dnSpy</a></li>
                     </ul>
-
                     <br>
-                    <b>Dev Tools</b> are in-game debug and editing tools that can be used to make basic modifications to the pre-existing maps. They are a good starting point for new modders.
+                    <b>Dev Tools</b> are in-game debug and editing tools that can be used to make basic modifications to the pre-existing maps. They are a good starting point for new modders. In the newest versions of Rain World, Dev Tools are included with the game and can be enabled through the Remix menu. For Rain World v1.5, download Dev Tools from RainDB's Legacy Mods page.
                     <br><br>
                     <b>The Official Level Editor</b> is used to make new maps that can be added into the game. It is the actual editor that the developers created and used to make all of the maps in the game, so it is very powerful! However, it is also quite unyieldy, and requires patience, experimentation, and tenacity to learn.
                     <br><br>
-                    <b>dnSpy</b> is an assembly decompiler tool for advanced modders with programming experience who intend to make changes to the game's code.
-                    <br>
+                    <b>dnSpy</b> is an assembly decompiler tool for advanced modders with programming experience who intend to make changes to the game's code. With this tool you can read and inspect the source code of the game.
+                    <br><br>
 
                     <h3><b>Community Support:</b></h3>
                     <ul>
-                    <li style="margin-bottom: 20px;">The <a href="https://rain-world-modding.github.io/" target="_blank">Rain World Modding Wiki</a> is the central location for collecting community knowledge on modding Rain World. Look here for all kinds of useful information and tutorials.</li>
+                    <li style="margin-bottom: 20px;">The <a href="https://rainworldmodding.miraheze.org/wiki/Main_Page" target="_blank">Rain World Modding Wiki</a> is the central location for collecting community knowledge on modding Rain World. Look here for all kinds of useful information and tutorials.</li>
                     <li style="margin-bottom: 20px;">Visit the modding channels on the <a href="https://discord.gg/rainworld" target="_blank">Rain World Discord</a> to talk with fellow modders and ask questions!</li>
                     <li style="margin-bottom: 20px;"><a href="https://www.youtube.com/watch?v=YQ0DO-fmPCE" target="_blank">Here</a> is a comprehensive video tutorial on how to make maps and regions with the level editor.</li>
-                    <li style="margin-bottom: 20px;"><a href="https://rain-world-modding.github.io/pages/making-code-mods/BepInPlugins.html" target="_blank">Here</a> is a handy guide for getting started with making BepInEx mods.</li>
+                    <li style="margin-bottom: 20px;"><a href="https://rainworldmodding.miraheze.org/wiki/BepInPlugins" target="_blank">Here</a> is a starting point for making BepInEx mods.</li>
                     </ul>
                 </div>
             </div>
-            </td>
-            </tr>
-            </table>
+
         </div>
         </div>
 

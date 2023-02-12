@@ -91,19 +91,19 @@
         <div class="container">
             <div>
                 <ul class="nav navbar-nav">
-                    <li><a class="scroll-link" href="#top-content">Top</a>
+                    <li><a href="https://www.raindb.net/index.html">Home</a>
                     </li>
-                    <li><a class="scroll-link" onclick="location.href='https://www.raindb.net/index.html';" href="https://www.raindb.net/index.html">Home</a>
+                    <li class="heading-divider">|</li>
+                    <li><a href="https://www.raindb.net/legacy.html">Legacy Mods</a>
                     </li>
-                    <li><a class="scroll-link" onclick="location.href='https://www.raindb.net/gallery.html';" href="https://www.raindb.net/gallery.html">Gallery</a>
+                    <li class="heading-divider">|</li>
+                    <li><a href="https://www.raindb.net/tools.html">Modding Tools</a>
                     </li>
-                    <li><a class="scroll-link" onclick="location.href='https://www.raindb.net/tutorials.html';" href="https://www.raindb.net/tutorials.html">Tutorials</a>
+                    <li class="heading-divider">|</li>
+                    <li><a href="https://www.raindb.net/tutorials.html">Tutorials</a>
                     </li>
-                    <li><a class="scroll-link" onclick="location.href='https://www.raindb.net/upload.html';" href="https://www.raindb.net/upload.html">Submit</a>
-                    </li>
-                    <li><a class="scroll-link" onclick="location.href='https://www.raindb.net/projects.html';" href="https://www.raindb.net/projects.html">Community Projects</a>
-                    </li>
-                    <li><a class="scroll-link" onclick="location.href='https://raindb.fandom.com/';" href="https://raindb.fandom.com/">Wiki</a>
+                    <li class="heading-divider">|</li>
+                    <li><a target="_blank" href="https://rainworldmodding.miraheze.org/wiki/Main_Page">Modding Wiki</a>
                     </li>
                 </ul>
             </div>
@@ -139,17 +139,19 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; left: 1px; top: 0px; width: 1151px;">
-                    <ul>
-                    <li>You will need to use the <a href="https://github.com/SteamRE/DepotDownloader">DepotDownloader</a> command line tool in order to downpatch to earlier versions of Rain World. You can watch <a href="https://www.youtube.com/watch?v=44HBxzC_RTg" target="_blank">this video</a> for instructions on how to use it. The relevant IDs for Rain World are:<br><br><b>App ID:</b> 312520<br><b>Depot ID:</b> 312521<br>
-                        <table>
-                        <tr><th>Version</th><th>Manifest ID</th></tr>
-                        <tr><td>1.0</td><td>6255017919215798397</td></tr>
-                        <tr><td><b>1.01</b></td><td><b>6365756072218008879</b></td></tr>
-                        <tr><td>1.5</td><td>791678341923736547</td></tr>
-                        </table><br>
-                    </li>
-                    <li>If the downloaded version doesn't have a "UserData" folder included with the game, you'll have to create one (it's fine if it's empty), otherwise the game will freeze before you can get to the title screen.</li>
-                    </ul>
+                    This guide will walk you through installing one of the previous Rain World versions (v1.01/v1.5) as a <b>separate installation</b> from your current Rain World install. You will need to do this process in order to install and use any of the legacy mods on this website.<br>This guide is for the Steam version of Rain World particuarly, and explains how to do this rollback process through the Steam client:
+                    <br><br>
+                    <ol>
+                        <li>Navigate to the Steam folder on your computer where all of your Steam games are installed. Typically this will be at: <pre>C:/Program Files/Steam/steamapps/common</pre></li>
+                        <li>Find your "Rain World" folder, and temporarily rename the folder to something else.</li>
+                        <li>Right click the game in your Steam library, go to <b>Properties</b>, go to <b>BETAS</b>, and opt into the desired version of the game from the dropdown list.</li>
+                        <li>Close the Properties window, and Steam will start a fresh installation of the old version of the game into: <pre>C:/Program Files/Steam/steamapps/common/Rain World</pre></li>
+                        <li>Wait for the download to finish, and then you can rename and/or move the newly downloaded Rain World folder to elsewhere on your computer.</li>
+                        <li>Rename the folder for the original installation of the game back to "Rain World" (the one you renamed in step 2).</li>
+                        <li>Right click the game in your Steam Library, go back to <b>Properties</b> > <b>BETAS</b>, and opt back into the default beta (None).</li>
+                        <li>Your Steam version of the game will now be back to your normal Rain World installation, and you'll now still have your separate downloaded copy of the old version to install your legacy mods into.</li>
+                        <li>If you have any legacy save files, you can copy them into the <b>UserData</b> folder of the old version of the game.</li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -174,7 +176,7 @@
     <script src="assets/js/retina-1.1.0.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/scripts.js"></script>
-    <script>$('.top-content').backstretch("assets/img/backgrounds/2.jpg");</script>
+    <script>$('.top-content').backstretch("assets/img/backgrounds/3.jpg");</script>
 
     <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>

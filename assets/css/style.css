@@ -74,6 +74,10 @@ img { max-width: 100%; }
 
 /***** General style, all sections *****/
 
+.heading-divider {
+	padding-top:13px;
+}
+
 .section-container {
     margin: 0 auto;
     padding-bottom: 40px;

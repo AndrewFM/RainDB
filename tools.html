@@ -1,0 +1,671 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RainDB - Home</title>
+
+    <script>
+        var sections = ["toolsgallery", "palettes"];
+        function toggle(section) {
+            if (section == "toolsgallery")
+                generateHTML("toolsg", ToolsGallery, "", "Modding Tools");
+            else if (section == "palettes")
+                generatePaletteHTML("paletteGallery", gallery);
+
+            for (var i=0; i<sections.length; i+=1) {
+                if (section == sections[i])
+                    document.getElementById(sections[i]).style.display = "block";
+                else
+                    document.getElementById(sections[i]).style.display = "none";
+            }
+        }
+    </script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/form-elements.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    function applyTooltip(my_prefix, my_id) {
+        // Tooltip only Text
+        $('.'+my_prefix+'_'+my_id).hover(function(){
+                // Hover over code
+                var title = $(this).attr('title');
+                $(this).data('tipText', title).removeAttr('title');
+                $('<p class="tooltipp"></p>')
+                .text(title)
+                .appendTo('body')
+                .fadeIn('fast');
+        }, function() {
+                // Hover out code
+                $(this).attr('title', $(this).data('tipText'));
+                $('.tooltipp').remove();
+        }).mousemove(function(e) {
+                var mousex = e.pageX + 20; //Get X coordinates
+                var mousey = e.pageY + 10; //Get Y coordinates
+                $('.tooltipp')
+                .css({ top: mousey, left: mousex })
+        });
+    }
+
+    function sortByKey(array, key) {
+        return array.sort(function(a, b) {
+            var x = a[key]; var y = b[key];
+            return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+        });
+    }
+    </script>
+    <style type="text/css">
+        .tooltipp {
+            display:none;
+            position:absolute;
+            border:1px solid #333;
+            background-color:#161616;
+            border-radius:5px;
+            padding:5px;
+            color:#fff;
+            font-size:12px;
+            max-width:420px;
+            line-height: 1.25;
+        }
+		#mod-search {
+			height:1.5em;
+			background-color:transparent;
+			border-left:0px;
+			border-top:0px;
+			border-right:0px;
+			border-bottom:1px solid #666;
+			color:#555;
+		}
+		.no-results {
+			font-weight: bold;
+		}
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.jpg">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body>
+   
+    <!-- Loader -->
+    <div class="loader" style="display: none;">
+        <div class="loader-img" style="display: none;"></div>
+    </div>
+
+    <!-- Nav Bar -->
+    <nav class="navbar-inverse navbar-fixed-top" style="background: #444;" role="navigation">
+        <div class="container">
+            <div>
+                <ul class="nav navbar-nav">
+                    <li><a href="https://www.raindb.net/index.html">Home</a>
+                    </li>
+                    <li class="heading-divider">|</li>
+                    <li><a href="https://www.raindb.net/legacy.html">Legacy Mods</a>
+                    </li>
+                    <li class="heading-divider">|</li>
+                    <li><a href="https://www.raindb.net/tools.html">Modding Tools</a>
+                    </li>
+                    <li class="heading-divider">|</li>
+                    <li><a href="https://www.raindb.net/tutorials.html">Tutorials</a>
+                    </li>
+                    <li class="heading-divider">|</li>
+                    <li><a target="_blank" href="https://rainworldmodding.miraheze.org/wiki/Main_Page">Modding Wiki</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top content -->
+    <div class="top-content" style="position: relative; z-index: 0; background: none; height: 300px;">
+        <div class="inner-bg" style="padding:60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 text">
+                        <br>
+                        <h1 style="font-size: 500%; margin-left: -428px; width: 1615px; text-shadow: 2px 2px #000000;">Rain World Mod Database</h1>
+                        <div class="description" style="visibility: visible;">
+                            <h1 style="margin-left: 0px; margin-top: 41px; text-shadow: 2px 2px #000000;">RainDB, for short.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <a id="main"></a>
+    <div class="portfolio-container section-container" style="margin-left: 0px; margin-top: -30px; height: inherit;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:left; float:left; margin-left:5px;">
+                   <b>Category:</b> <a onclick="toggle('toolsgallery')" href="#main">Tools</a> | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
+				   <br><b>Search:</b> <input type="text" id="mod-search" name="search" onchange="doSearch(this.value)" autocomplete="off" spellcheck="false">
+                </div>
+            </div>
+
+            <div id="toolsgallery" style="display:block;">
+                <div id="toolsg_title"></div>
+                <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>            
+                <div id="toolsg_gallery"></div>
+            </div>
+
+            <div id="palettes" style="display:none;">
+                <h1 style="font-size:48px;"><b>Custom Palettes</b></h1>
+                <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+                <br>
+                <table style="width:70%; margin-left:auto; margin-right:auto;">
+                    <tr>
+                        <td style="text-align:center; width:490px;">
+                            <table style="width:90%; text-align:center;">
+                            <tr><td> </td><td>Normal:</td><td>During Rain:</td></tr>
+                            <tr><td valign="top"> 
+                                <a id="prev1">[1]</a><br><a id="prev2">[2]</a><br><a id="prev3">[3]</a><br><a id="prev4">[4]</a><br><a id="prev5">[5]</a><br><a id="prev6">[6]</a>
+                                </td>
+                                <td><img id="preview" width=200 height=200></td><td><img id="previewRain" width=200 height=200></td></tr>
+                            </table>
+                        <br>
+                        <div id="paletteCaption" style="display:block;"></div></td>
+                        <td valign="top">
+                            <div id="paletteGallery" style="display:block;"></div>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <hr>
+                <h3>Installing Palettes</h3>
+   
+                    1. Place the downloaded palette image into your mod's "palettes" folder.<br>
+                    2. Rename it to follow the naming convention of the other palettes, ie: palette98.png, palette99.png, etc.<br>
+                    3. Use Dev Tools to apply the palette to your map(s).
+            </div>
+
+            <div class="row"><br><br><i>Last updated on <span id="modifiedDate"></span>.<br>[<a href="https://github.com/AndrewFM/RainDB/commits/master" target="_blank">View Change List</a>]</i></div>         
+        </div>
+    </div>
+
+    <!-- POPULATE MODS -->
+    <script> 
+        var current_palID = "palette0"; 
+        var preview_img = document.getElementById("preview");
+        var preview_rain_img = document.getElementById("previewRain");
+        preview_img.setAttribute('crossOrigin', '');
+        preview_rain_img.setAttribute('crossOrigin', '');
+        changePreviewSrc("assets/img/palette/preview1.png");
+        document.getElementById("prev1").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview1.png");});
+        document.getElementById("prev2").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview2.png");});
+        document.getElementById("prev3").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview3.png");});
+        document.getElementById("prev4").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview4.png");});
+        document.getElementById("prev5").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview5.png");});
+        document.getElementById("prev6").addEventListener("click", function(){changePreviewSrc("assets/img/palette/preview6.PNG");});
+        var dateoptions = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById("modifiedDate").innerHTML = (new Date(document.lastModified)).toLocaleDateString("en-US", dateoptions);
+		
+		var search = "";
+		var generateLastHTML = null;
+		var generateLastHTMLArgs = [];
+		function doSearch(searchString) {
+			let newSearch = searchString.toLowerCase().trim();
+			if(search != newSearch) {
+				search = newSearch;
+				if(generateLastHTML != null)
+					generateLastHTML(...generateLastHTMLArgs);
+			}
+		}
+		
+		var searchTimeout = null;
+		document.getElementById("mod-search").addEventListener("input", function(e) {
+			if(searchTimeout != null) clearTimeout(searchTimeout);
+			searchTimeout = setTimeout(() => { doSearch(this.value) }, 300);
+		});
+
+        function generateHTML(div_id, input_array, filter, title) {
+			generateLastHTML = generateHTML;
+			generateLastHTMLArgs = arguments;
+		
+            var appendStr = "";
+            var count = 0;
+            var tooltipIds = [];
+            var warnTipIds = [];
+            var partTipIds = [];
+            var authorTipIds = [];
+            var audbTipIds = [];
+            var trailerTipIds = []
+            var mods_array = input_array;
+            if (filter == "new")
+                mods_array = sortByKey(JSON.parse(JSON.stringify(input_array)), "order").reverse();
+            document.getElementById(div_id+"_gallery").innerHTML = "";
+            for (var i=0; i<mods_array.length; i++) {
+			
+				// Filter mods by search term
+				if(search != "" &&
+					!mods_array[i]["name"  ].toLowerCase().includes(search) &&
+					(!("author" in mods_array[i]) || !mods_array[i]["author"].toLowerCase().includes(search)) &&
+                    (!("author_ext" in mods_array[i]) || !mods_array[i]["author_ext"].toLowerCase().includes(search)) &&
+                    (!("search_key" in mods_array[i]) || !mods_array[i]["search_key"].toLowerCase().includes(search)) &&
+					!mods_array[i]["type"  ].toLowerCase().includes(search))
+					continue;
+				
+                var hasIcon = true; 
+                if (filter == "mod" && ((!("mod" in mods_array[i]) && !("patch" in mods_array[i])) 
+                  || ("mod" in mods_array[i] && mods_array[i]["mod"] == false)
+                  || ("patch" in mods_array[i] && mods_array[i]["patch"] == false)) )
+                    continue;
+                else if (filter != "" && filter != "new" && filter != "mod" && ((filter in mods_array[i] && mods_array[i][filter] == false) || !(filter in mods_array[i])))
+                    continue;
+                if (count % 3 == 0) {
+                    appendStr += '<div class="row">';
+                }
+                appendStr += '<div class="col-sm-4 portfolio-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><div class="portfolio-box-image">';
+                appendStr += '<img src="' + mods_array[i]["thumb"] + '?raw=true" alt="" data-ax2x="' + mods_array[i]["thumb"] + '?raw=true" style="width:360px;height:250px;"></div>';
+                appendStr += '<h3><a href="' + mods_array[i]["url"] + '" style="margin-left: 0px; margin-top: -1px;" target="_blank"><b>' + mods_array[i]["name"] + '</b></a> <a href="'
+                    + mods_array[i]["url"] + '" target="_blank"><i class="fa fa-angle-right"></i></a>';
+                
+                // Icons
+                var audbstr = "";
+                if ("audb" in mods_array[i] && mods_array[i]["audb"] == true)
+                    audbstr = '<img class="audbTooltip_'+i+'" src="assets/ico/update.png" title="Taken from AUDB"/> ';
+                if ("video" in mods_array[i])
+                    audbstr += '<a href="' + mods_array[i]["video"] + '" target="_blank"><img class="trailerTooltip_'+i+'" src="assets/ico/video.png" title="Click to view trailer video"/></a> ';
+                if ("standalone" in mods_array[i] && mods_array[i]["standalone"] == true)
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/standalone.png" title="Standalone Mod"/></div>';
+                else if ("content" in mods_array[i] && mods_array[i]["content"] == true)
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/content.png" title="Content Mod"/></div>';
+                else if ("patch" in mods_array[i] && mods_array[i]["patch"] == true)
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/patch.png" title="Patch Mod"/></div>';
+                else if ("mod" in mods_array[i] && mods_array[i]["mod"] == true)
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/mod.png" title="Hook Mod"/></div>';
+                else if ("app" in mods_array[i] && mods_array[i]["app"] == true)
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-right:20px;">'+audbstr+'<img class="partTooltip_'+i+'" src="assets/ico/app.png" title="External Application/Script"/></div>';
+                else
+                    hasIcon = false;
+                if (hasIcon)
+                    partTipIds.push(i);
+                if ("audb" in mods_array[i])
+                    audbTipIds.push(i);
+                if ("video" in mods_array[i])
+                    trailerTipIds.push(i);
+                
+                appendStr += "</h3>";
+                if ("code" in mods_array[i]) {
+                    var top = -40;
+                    if (hasIcon && ("req" in mods_array[i] || "warn" in mods_array[i]))
+                        top = 16;
+                    else if (hasIcon)
+                        top = -12;
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-top: '+top+'px; margin-right:20px;"><a href="' + mods_array[i]["code"] + '" target="_blank">[Source]</a></div>';
+                }
+                if ("req" in mods_array[i]) {
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-top:-10px; margin-right:20px;"><img class="masterTooltip_'+i+'" src="assets/ico/message.png" title="'+mods_array[i]["req"]+'"/></div>';
+                    tooltipIds.push(i);
+                }
+                if ("warn" in mods_array[i]) {
+                    appendStr += '<div style="display:inline-block; position:absolute; right:0; margin-top:-10px; margin-right:20px;"><img class="warnTooltip_'+i+'" src="assets/ico/Warning.png" title="'+mods_array[i]["warn"]+'"/></div>';
+                    warnTipIds.push(i);
+                }
+                appendStr += '<div class="portfolio-box-date"><p style="margin-left: 0px; margin-top: -10px;">';
+                var usesAuthor = false;
+                if ("author_ext" in mods_array[i]) {
+                    appendStr += 'By <span class="authorTooltip_'+i+'" title="'+mods_array[i]["author_ext"]+'" style="color:#ff8a38;">' + mods_array[i]["author"] + "</span><br>";
+                    authorTipIds.push(i);
+                    usesAuthor = true;
+                }
+                else if ("author" in mods_array[i]) {
+                    appendStr += 'By ' + mods_array[i]["author"] + "<br>";
+                    usesAuthor = true;
+                }
+                appendStr += 'Mod Type: ' + mods_array[i]["type"];
+                if (!usesAuthor)
+                    appendStr += "<br><br>";
+                appendStr += '</p></div><p style="text-align:justify">' + mods_array[i]["desc"] + "</p></div>";
+                if (count % 3 == 2 || count == mods_array.length-1) {
+                    appendStr += "</div>";
+                }
+                count += 1
+            }
+			
+			if(count == 0) {
+				appendStr += '<p class="no-results">No results found. Try changing your search term.</p>';
+			}
+			
+            document.getElementById(div_id+"_gallery").innerHTML = appendStr
+            document.getElementById(div_id+"_title").innerHTML = '<h1 style="font-size:48px;"><b>'+title+'</b></h1>'
+            for (var i=0; i<tooltipIds.length; i++)
+                applyTooltip("masterTooltip", tooltipIds[i]);
+            for (var i=0; i<partTipIds.length; i++)
+                applyTooltip("partTooltip", partTipIds[i]);
+            for (var i=0; i<warnTipIds.length; i++)
+                applyTooltip("warnTooltip", warnTipIds[i]);
+            for (var i=0; i<authorTipIds.length; i++)
+                applyTooltip("authorTooltip", authorTipIds[i]);
+            for (var i=0; i<audbTipIds.length; i++)
+                applyTooltip("audbTooltip", audbTipIds[i]);
+            for (var i=0; i<trailerTipIds.length; i++)
+                applyTooltip("trailerTooltip", trailerTipIds[i]);
+        }
+
+        function getRecolorFunct(ind) {
+            return function(){
+                recolorPreview("palette"+ind);
+                document.getElementById("paletteCaption").innerHTML = "By: "+gallery[ind]["author"]+"<br><a download='"+gallery[ind]["name"]+".png' href='assets/img/palette/"+gallery[ind]["name"]+".png'>Download</a>";
+            }
+        }
+
+        function generatePaletteHTML(div_id, gallery_array) {
+			generateLastHTML = null;
+			generateLastHTMLArgs = [];
+			
+            var appendStr = ""
+            for (var i=0; i<gallery_array.length; i++) {
+                appendStr += '<a id="palswitch'+i+'"><img id="palette'+i+'" src="assets/img/palette/'+gallery_array[i]["name"]+'.png" width=32 height=16></a> ';
+            }
+            document.getElementById(div_id).innerHTML = "";
+            document.getElementById(div_id).insertAdjacentHTML('beforeend', appendStr);
+            for(var i=0; i<gallery_array.length; i++) {
+                document.getElementById("palswitch"+i).addEventListener("click", getRecolorFunct(i));
+            }
+        }
+
+        applyTooltip("legendTooltip", [0]);
+
+        //////////////////////////////////////////////////////////////////////////////////
+        // PALETTE GALLERY
+        //////////////////////////////////////////////////////////////////////////////////
+        var gallery = [];
+        gallery.push({"name": "dakras0", "author": "Dakras"});
+        gallery.push({"name": "cappin0", "author": "Cappin"});
+        gallery.push({"name": "cappin1", "author": "Cappin"});
+        gallery.push({"name": "cappin2", "author": "Cappin"});
+        gallery.push({"name": "dakras1", "author": "Dakras"});
+        gallery.push({"name": "dakras2", "author": "Dakras"});
+        gallery.push({"name": "dakras3", "author": "Dakras"});
+        gallery.push({"name": "dakras4", "author": "Dakras"});
+        gallery.push({"name": "dakras5", "author": "Dakras"});
+        gallery.push({"name": "dakras6", "author": "Dakras"});
+        gallery.push({"name": "dakras7", "author": "Dakras"});
+        gallery.push({"name": "nano0", "author": "NanoSpirit & Dakras"});
+        gallery.push({"name": "andrewfm0", "author": "AndrewFM"});
+        gallery.push({"name": "andrewfm1", "author": "AndrewFM"});
+        gallery.push({"name": "miniskidi0", "author": "1MINISKIDI"})
+        gallery.push({"name": "formal0", "author": "Formal Lizard"});
+        gallery.push({"name": "formal1", "author": "Formal Lizard"});
+
+        //////////////////////////////////////////////////////////////////////////////////
+        // TOOLS
+        //////////////////////////////////////////////////////////////////////////////////
+        var ToolsGallery = [];
+
+        ToolsGallery.push({
+            "name":   "Official Level Editor",
+            "author": "Joar Jakobsson",
+            "type":   "Utility",
+            "url":    "https://ln5.sync.com/dl/2c28693d0/q2b2zh8m-vdmsuwyj-5w3efg5c-gvhg7ben",
+            "thumb":  "previews/of_editor.png",
+            "desc":   "The very powerful and flexible level editor used by the devs to build and render all of the levels in the final game.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Tile Init Editor",
+            "author": "Bro",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/15it9oLIAD5698Y-4xe6cmD_ckdAHs-As/view",
+            "thumb":  "previews/specs2.png",
+            "desc":   "A tool that gives a simple and easy-to-use UI to creating Level Editor tile init lines.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Specs Editor",
+            "author": "Willburd",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/17hWH494JwnAOrjo3Xyh8J_QZbbuAA3CO/view",
+            "thumb":  "previews/specs.png",
+            "desc":   "An editor for mapping out collisions for custom props and tiles added to the official level editor. Generates the specs array for the Init.txt file.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Editor Project Image Converter",
+            "author": "AndrewFM",
+            "type":   "Utility",
+            "url":    "https://ln.sync.com/dl/357bdf1b0/z6tktgzw-a77f8imc-yw45zfsd-aytdk8hz",
+            "thumb":  "previews/imconvert.png",
+            "desc":   "A tool that converts drawn pixel-art images into level editor projects for the official editor. Works for geometry layers and tile material layers.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "World Editor",
+            "author": "Bro",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1nSxDXC210Sf_eeR3VpMAw4xhs4grKCKw/view",
+            "thumb":  "previews/worldedit.png",
+            "desc":   "An editor for assembling world and map files. Has features for connecting and positioning rooms, creatures spawns, and more.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Prop Renderer",
+            "author": "Ongomato",
+            "type":   "Utility",
+            "url":    "https://drive.google.com/file/d/1LvD7pYMeS18RD4l0wD9KrdmQdigfaEdo/view",
+            "thumb":  "previews/blendprop.png",
+            "desc":   "A scene and rendering workflow for Blender that slices and converts closed meshes into prop sprite sheets that can be used with the official level editor.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Dual Palette Tool",
+            "author": "AndrewFM",
+            "type":   "Utility",
+            "url":    "https://ln.sync.com/dl/dd7b51aa0/nghxu8mk-u7crkvph-kwqek68q-ne3p85fy",
+            "thumb":  "previews/dualpalette.png",
+            "desc":   "Tools that make it possible to use two different color palettes in the same map, at the expense of a reduced color depth in each palette.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Unofficial Level Editor",
+            "author": "AndrewFM & Mikronaut",
+            "type":   "Utility",
+            "url":    "https://ln5.sync.com/dl/55a36f020/ab9tsrvb-pawzct9a-cevwrdgn-2pkthfz2",
+            "thumb":  "previews/un_leveleditor_preview.jpg",
+            "desc":   "An unofficial level editor that allows for limited editing of the pre-existing Rain World levels, such as editing pipe interconnections or changing water levels.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        toggle("toolsgallery");
+
+        function changePreviewSrc(prevSrc) {
+            preview_src = prevSrc;
+            reloadPreview();
+            preview_img.onload = function(){recolorPreviewAsync(current_palID, 0);}
+            preview_rain_img.onload = function(){recolorPreviewAsync(current_palID, 1);}
+        }
+
+        function reloadPreview() {
+            preview_img.src = preview_src + '?d=' + Date.now();
+            preview_img.style.visibility = "hidden";
+            preview_rain_img.src = preview_src + '?d=' + Date.now();
+            preview_rain_img.style.visibility = "hidden";
+        }
+
+        function recolorPreview(palID) {
+            current_palID = palID;
+            reloadPreview();
+            preview_img.onload = function(){recolorPreviewAsync(palID, 0);}
+            preview_rain_img.onload = function(){recolorPreviewAsync(palID, 1);}
+        }
+
+        function recolorPreviewAsync(palID, j) {
+            var palette_img = document.getElementById(palID);
+            var palette_canvas = document.createElement('canvas');
+            palette_canvas.width = palette_img.width;
+            palette_canvas.height = palette_img.height;
+            palette_canvas.getContext('2d').drawImage(palette_img, 0, 0, palette_img.width, palette_img.height);
+
+            var working_image = preview_img;
+            if (j == 1)
+                working_image = preview_rain_img;
+            var yoff = j*8;
+            var skyColor = palette_canvas.getContext('2d').getImageData(0, 0+yoff, 1, 1).data;
+            var itemColor = palette_canvas.getContext('2d').getImageData(3, 0+yoff, 1, 1).data;
+            var deepWaterClose = palette_canvas.getContext('2d').getImageData(4, 0+yoff, 1, 1).data;
+            var surfaceWaterFar = palette_canvas.getContext('2d').getImageData(7, 0+yoff, 1, 1).data;
+            var shortcutColor = palette_canvas.getContext('2d').getImageData(13, 0+yoff, 1, 1).data;
+
+            var palColor = []
+            for (var i=0;i<90;i+=1) {
+                if (i < 30) {
+                    palColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 4+yoff, 1, 1).data);
+                }
+                else if (i < 60) {
+                    palColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 3+yoff, 1, 1).data);
+                }
+                else {
+                    palColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 2+yoff, 1, 1).data);
+                }
+            }
+            var palShadowColor = []
+            for (var i=0;i<90;i+=1) {
+                if (i < 30) {
+                    palShadowColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 7+yoff, 1, 1).data);
+                }
+                else if (i < 60) {
+                    palShadowColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 6+yoff, 1, 1).data);
+                }
+                else {
+                    palShadowColor.push(palette_canvas.getContext('2d').getImageData(i % 30, 5+yoff, 1, 1).data);
+                }
+            }
+
+            var c = document.createElement('canvas');
+            var ctx=c.getContext("2d");
+            var w = working_image.width;
+            var h = working_image.height;
+            c.width = w;
+            c.height = h;
+
+            ctx.drawImage(working_image, 0, 0, w, h);
+            var imageData = ctx.getImageData(0, 0, w, h);
+
+            for (var i=0;i<imageData.data.length;i+=4)
+            {
+                if (imageData.data[i]==255 && imageData.data[i+1]==255 && imageData.data[i+2]==255) {
+                  imageData.data[i]=skyColor[0];
+                  imageData.data[i+1]=skyColor[1];
+                  imageData.data[i+2]=skyColor[2];
+                }
+                else if (imageData.data[i]==0 && imageData.data[i+1]==255 && imageData.data[i+2]==0) {
+                  imageData.data[i]=itemColor[0];
+                  imageData.data[i+1]=itemColor[1];
+                  imageData.data[i+2]=itemColor[2];
+                }
+                else if (imageData.data[i]==0 && imageData.data[i+1]==255 && imageData.data[i+2]==255) {
+                  imageData.data[i]=shortcutColor[0];
+                  imageData.data[i+1]=shortcutColor[1];
+                  imageData.data[i+2]=shortcutColor[2];
+                }
+                else if (imageData.data[i]==255 && imageData.data[i+1]==0 && imageData.data[i+2]==255) {
+                  imageData.data[i]=surfaceWaterFar[0];
+                  imageData.data[i+1]=surfaceWaterFar[1];
+                  imageData.data[i+2]=surfaceWaterFar[2];
+                }
+                else if (imageData.data[i]==255 && imageData.data[i+1]==255 && imageData.data[i+2]==0) {
+                  imageData.data[i]=deepWaterClose[0];
+                  imageData.data[i+1]=deepWaterClose[1];
+                  imageData.data[i+2]=deepWaterClose[2];
+                }
+                else {
+                    var baseRed = imageData.data[i];
+                    var shaded = true;
+                    if (baseRed > 90) {
+                        baseRed -= 90;
+                        shaded = false;
+                    }
+                    baseRed -= 1;
+                    if (baseRed < 0)
+                        baseRed = 0;
+                    if (baseRed > 89)
+                        baseRed = 89;
+
+                    if (!shaded) {
+                        imageData.data[i]=palColor[baseRed][0];
+                        imageData.data[i+1]=palColor[baseRed][1];
+                        imageData.data[i+2]=palColor[baseRed][2];
+                    }
+                    else {
+                        imageData.data[i]=palShadowColor[baseRed][0];
+                        imageData.data[i+1]=palShadowColor[baseRed][1];
+                        imageData.data[i+2]=palShadowColor[baseRed][2];
+                    }
+                }
+            }
+            
+            ctx.putImageData(imageData, 0, 0);
+            working_image.src = c.toDataURL('image/png');
+            working_image.onload = function(){ working_image.style.visibility = "visible"; }
+            
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <center>
+                    <h3 style="margin-top: -20px;"><br>RainDB is maintained by <a href="http://egg-zero.com/" target="_blank">AndrewFM</a> &nbsp;--&nbsp; ( Site template: <a href="http://azmind.com/maren-bootstrap-free-business-template/" target="_blank">Maren</a> )</h3>
+                </center>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script>$('.top-content').backstretch("assets/img/backgrounds/6.jpg");</script>
+
+    <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+</body>
