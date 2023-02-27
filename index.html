@@ -332,7 +332,16 @@
                 var useInd = strSub.indexOf("]") + uind;
                 strtext = strtext.slice(0, uind) + strtext.slice(useInd + 1);
             }
-            return strtext;
+            strspl = strtext.split(" ");
+            for (var i=0; i<strspl.length; i++) {
+                brspl = strspl[i].split("<br>");
+                for (var j=0; j<brspl.length; j++) {
+                    if (brspl[j].length > 35)
+                        brspl[j] = brspl[j].slice(0, 35) + "...";
+                }
+                strspl[i] = brspl.join("<br>");
+            }
+            return strspl.join(" ");
         }
 
         function formatSteamTags(text) {
