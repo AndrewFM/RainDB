@@ -791,7 +791,7 @@ Mods.push({
 "id": "kadw.deathcount",
 "workshop_id": "2920640816",
 "author": "KADW",
-"desc": "Shows each slugcat's number of deaths on the sleep/death screen and save file select screen.<br><br>Commented source code, and mod folder for non-Steam players, available at https://github.com/kadw108/deathcount/tree/RW1.9<br><br>If you run into errors, you can message KADW#4425 on Discord. Include the consoleLog.txt and possible exceptionLog.txt file in your Rain World folder. Thanks!<br><br>Last updated Jan 24, 2023: another error that crashed Story Mode should hopefully be fixed.",
+"desc": "Shows each slugcat's number of deaths on the sleep/death screen and save file select screen.<br><br>Commented source code, and mod folder for non-Steam players, available at https://github.com/kadw108/deathcount/tree/RW1.9<br><br>If you run into errors, you can message KADW#4425 on Discord. Include the consoleLog.txt and possible exceptionLog.txt file in your Rain World folder. Thanks!<br><br>Last updated March 5, 2023: an error that crashed the game with SlugBase enabled should hopefully be fixed.<br><br>Note: the newest update may also prevent the mod from working at all. It worked when I uploaded it, but the version I download doesn't work for some reason? Not sure why? I will try to fix it later. If Deathcount appears to suddenly have broken, this is why.",
 "thumb": "previews/2920640816.png",
 "url": "https://andrew.fm/rainworld/raindb/Deathcount.zip",
 "requirements": "",
@@ -833,7 +833,7 @@ Mods.push({
 "id": "fyre.BeastMaster",
 "workshop_id": "2920903670",
 "author": "fyre (BeastMaster), NoirCatto (porting and fixes)",
-"desc": "Allows you to spawn a variety of creatures and items at will, in all game types including story mode and arena.<br><br>Press 'B' in-game to access the spawnmenu! (Key can be re-bound through the Remix options)<br><br>Hold SHIFT to spawn a tamed creature (if possible)<br>Hold ALT to spawn a dead creature.<br><br><br>Warning!!<br>- Spawning some items objects from DLL menu can freeze the game, as it contains ALL the items in the game. Creatures should be fine though.<br>- Doesn't work with Safari mode yet, due to extensive changes that have been made to the gamemode.",
+"desc": "Allows you to spawn a variety of creatures and items at will, in all game types including story mode and arena.<br><br>Press 'B' in-game to access the spawnmenu! (Key can be re-bound through the Remix options)<br><br>Hold SHIFT to spawn a tamed creature (if possible)<br>Hold ALT to spawn a dead creature.<br><br>When spawning Slugcats, hold SHIFT to spawn a Pup.<br>The PINK Slugcat is the original Pup.<br><br>If you use BeastMaster to spawn Pups for Story Mode, also get this helper mod:<br>https://steamcommunity.com/sharedfiles/filedetails/?id=2943737047<br><br>Warning!!<br>- Spawning some items objects from DLL menu can freeze the game, as it contains ALL the items in the game. Creatures should be fine though.<br>- Doesn't work with Safari mode yet, due to extensive changes that have been made to the gamemode.",
 "thumb": "previews/2920903670.png",
 "url": "https://andrew.fm/rainworld/raindb/BeastMaster.zip",
 "requirements": "",
@@ -1183,12 +1183,12 @@ Mods.push({
 "id": "MapOptions",
 "workshop_id": "2923374705",
 "author": "SchuhBaum",
-"desc": "Adds options to configure the map:<br>- (Map Zoom) The zoom can be adjusted (50%-150%).<br>- (Aerial Map) When disabled, the default map shader is used in Chimney Canopy and Sky Islands.<br>- (Creature Symbols) These symbols display what creature types are present in each room.<br>- (Layer Focus) Only the active layer is displayed on the map.<br>- (Skip Fade In/Out) Pressing the map button shows the map with no delay.<br>- (Slugcat Symbols) Draws a slugcat sprite on the map instead of a red circle. When Jolly Co-Op Mod is enabled, draws a sprite for each player.<br>- (Uncover Region) Once loaded into the game the whole region map gets uncovered.<br>- (Uncover Room) When the player enters a room the whole room gets uncovered instead of just the area around slugcat.<br>- (Reveal Speed Multiplier) For a given value X the map is revealed X-times as fast. If the maximum value is selected then opening the map displays known areas instantly instead of revealing them gradually.<br><br>[h1] BUG REPORTS [/h1]<br>Please post bugs on the Rain World Discord server in the channel #modding-support:<br>https://discord.gg/rainworld<br><br>[h1] FAQ [/h1]<br>Q: The mod doesn't work. I can't open the mod's option menu. How to fix this?<br>A: One thing that helped multiple people is to delete the 'Rain World/BepInEx' folder and then verifying the integrity of the game files in steam.<br><br>Q: The mod still doesn't work. I still can't open the mod's option menu. How to fix this?<br>A: Maybe this more extensive strategy works for you:<br>- Delete RW completely.<br>- Then deactivate downpour on steam client so it won't download.<br>- Install RW again.<br>- Apply all mods that you want in remix and test them<br>- Continue if they work now<br>- Activate downpour on steam so it would download<br>- Activate downpour mods in remix<br>- Reboot the game<br><br>[h1] SOURCE CODE & CHANGELOG [/h1]<br>You can find the source code, changelog and other things on GitHub:<br>https://github.com/SchuhBaum/MapOptions",
+"desc": "Adds options to configure the map:<br>[list]<br>[*](Map Zoom) The zoom can be adjusted (50%-150%).<br>[*](Aerial Map) When disabled, the default map shader is used in Chimney Canopy and Sky Islands.<br>[*](Creature Symbols) These symbols display what creature types are present in each room.<br>[*](Item Tracker) Tracked key items are shown on the map even when the option 'Slug Senses' is disabled. The option 'Key item tracking' needs to be enabled in Rain World Remix.<br>[*](Layer Focus) Only the active layer is displayed on the map.<br>[*](Shadow Sprites) Draws shadows for creature and slugcat symbols.<br>[*](Skip Fade In/Out) Pressing the map button shows the map with no delay.<br>[*](Slugcat Symbols) Draws a slugcat sprite on the map instead of a red circle. When Jolly Co-Op Mod is enabled, draws a sprite for each player.<br>[*](Uncover Region) Once loaded into the game the whole region map gets uncovered.<br>[*](Uncover Room) When the player enters a room the whole room gets uncovered instead of just the area around slugcat.<br>[*](Reveal Speed Multiplier) For a given value X the map is revealed X-times as fast. If the maximum value is selected then opening the map displays known areas instantly instead of revealing them gradually.<br>[/list]<br><br>[h1] BUG REPORTS [/h1]<br>Please post bugs on the Rain World Discord server in the channel #modding-support:<br>https://discord.gg/rainworld<br><br>[h1] FAQ [/h1]<br>Q: The mod doesn't work. I can't open the mod's option menu. How to fix this?<br>A: One thing that helped multiple people is to delete the 'Rain World/BepInEx' folder and then verifying the integrity of the game files in steam.<br><br>Q: The mod still doesn't work. I still can't open the mod's option menu. How to fix this?<br>A: Maybe this more extensive strategy works for you:<br>- Delete RW completely.<br>- Then deactivate downpour on steam client so it won't download.<br>- Install RW again.<br>- Apply all mods that you want in remix and test them<br>- Continue if they work now<br>- Activate downpour on steam so it would download<br>- Activate downpour mods in remix<br>- Reboot the game<br><br>[h1] SOURCE CODE & CHANGELOG [/h1]<br>You can find the source code, changelog and other things on GitHub:<br>https://github.com/SchuhBaum/MapOptions",
 "thumb": "previews/2923374705.png",
 "url": "https://andrew.fm/rainworld/raindb/MapOptions.zip",
 "requirements": "",
 "requirement_names": "",
-"tags": "",
+"tags": "Accessibility,Game Mechanics",
 "order": 47
 });
 
@@ -1740,7 +1740,7 @@ Mods.push({
 "id": "willowwisp.bellyplus",
 "workshop_id": "2928004252",
 "author": "WillowWispy",
-"desc": "Become certifiably Rotund and make the game more challenging by getting fatter the closer you are to being full.<br>Get too chubby and you'll struggle to squeeze through pipes or pull yourself onto beams.<br><br>Eat past your maximum belly size to gain even more food pips at a reduced rate! Just don't get too greedy...<br>Pipes all have a random size, so some will be harder to squeeze through than others.<br><br>[h1]Sprinkle obesity into the rain world wildlife[/h1]<br>Other creatures like lizards and Lantern mice start with random levels of chub and will continue to get chunky as they eat<br>-Haul overweight lantern mice through the shaded citadel<br>-Point and laugh at fat lizards that get stuck trying to chase you through pipes<br>-Become the roundest lizard yourself in Safari Mode by dragging prey into your den to eat<br><br><br>[h1]Struggle with your friends in Jolly Co-op[/h1]<br>Help the fat ones in the group through small gaps by grabbing and pulling them or shoving against them<br>Use the jump button while pushing or pulling to spend stamina and shove harder<br>Dash, belly slide, or pounce into stuck creatures to ram into them with your momentum<br>No friends to play with? Enlist the help of friendly scavengers or tamed lizards to help you through tight spots<br><br>Other random features:<br>[list]<br>[*]Goofy sound effects<br>[*]Iterator Shenanigans<br>[*]Difficulty settings in the mod config menu<br>[*]Should work with most custom slugcats! (Until fancySlugcats comes along to ruin that)<br>[*]Store food items on your back for later (recommended! but disabled by default because it's a jarring change)<br>[*]Point tamed lizards in a direction you want them to go (double tap map with co-op enabled)<br>[*]Gourmand bodyslams do extra damage based on how fat he is<br>[/list]<br><br>[hr][/hr]<br>[u]Update 1.3![/u] 2/28/23  (Finally able to update again!)<br>-Added an option to enable gourmand's body slam ability for all slugcats, once they reach 1 bonus food pip (by default) (Downpour DLC Required)<br>-New custom art for the Glutton passage screen, courtesy of W.James!<br>-Pushing stuck lizards through gaps will slightly increase your reputation with them<br>-Added the ability to strain with the jump button while pulling yourself up onto horizontal bars<br>-Added lots of new era-specific iterator dialogue (spearmaster / articifer)<br>-Lots more changes! check the change notes (top right) for full list of changes!<br><br><br>[u]Thank you to anyone who helped translate![/u]<br>Chinese: Camiu<br>Russian: pOpLiK_Owl & Pipistrele<br><br>[hr][/hr]<br>Please report any bugs you find so I can fix them! <br>I am not very active on steam, so feel free to send me bug reports, error logs, suggestions and feedback to my Discord! [u]WillowWisp#3565[/u] (or just drop by and say hi!)<br><br>Suggestions and feedback on the mod are encouraged and appreciated! You can expect updates based on feedback",
+"desc": "Eat past your maximum belly size and become certifiably rotund by storing extra food pips at a reduced rate.<br>Become slower and more tanky the more chonk you obtain, Just don't get too greedy...<br>Get too chubby and you'll struggle to squeeze through randomly sized pipes or pull yourself onto beams.<br><br>Hibernating with extra food pips will earn progress towards the new Glutton passage!<br>Gain a resistance to death bites, stuns, and freezing based on how fat you are.<br>Deal extra falling damage to enemies as gourmand (or any slugcat, from the config menu)(dlc required)<br>(Settings configurable in the mod config menu)<br><br>[h1]Sprinkle obesity into the rain world wildlife[/h1]<br>Other creatures like lizards and Lantern mice start with random levels of chub and will continue to get chunky as they eat<br>-Haul overweight lantern mice through the shaded citadel<br>-Point and laugh at fat lizards that get stuck trying to chase you through pipes<br>-Gain reputation with them by helping shove them through pipes<br>-Become the roundest lizard yourself in Safari Mode by dragging prey into your den to eat<br><br><br>[h1]Struggle with your friends in Jolly Co-op[/h1]<br>Help the fat ones in the group through small gaps by grabbing and pulling them or shoving against them<br>Use the jump button while pushing or pulling to spend stamina and shove harder<br>Dash, belly slide, or pounce into stuck creatures to ram into them with your momentum<br>No friends to play with? Enlist the help of friendly scavengers or tamed lizards to help you through tight spots<br><br>Other random features:<br>[list]<br>[*]Goofy sound effects<br>[*]Iterator Shenanigans<br>[*]Difficulty settings in the mod config menu<br>[*]Should work with most custom slugcats!<br>[*]Store food items on your back for later (recommended! but disabled by default because it's a jarring change)<br>[*]Point tamed lizards in a direction you want them to go (double tap map with co-op enabled)<br>[*]Gourmand bodyslams do extra damage based on how fat he is<br>[/list]<br><br>[hr][/hr]<br>[u]Update 1.3![/u] 2/28/23  (Finally able to update again!)<br>-Added an option to enable gourmand's body slam ability for all slugcats, once they reach 1 bonus food pip (by default) (Downpour DLC Required)<br>-New custom art for the Glutton passage screen, courtesy of W.James!<br>-Pushing stuck lizards through gaps will slightly increase your reputation with them<br>-Added the ability to strain with the jump button while pulling yourself up onto horizontal bars<br>-Added lots of new era-specific iterator dialogue (spearmaster / articifer)<br>-Lots more changes! check the change notes (top right) for full list of changes!<br><br><br>[u]Thank you to anyone who helped translate![/u]<br>Chinese: Camiu<br>Russian: pOpLiK_Owl & Pipistrele<br><br>[hr][/hr]<br>Please report any bugs you find so I can fix them! <br>I am not very active on steam, so feel free to send me bug reports, error logs, suggestions and feedback to my Discord! [u]WillowWisp#3565[/u] (or just drop by and say hi!)<br><br>Suggestions and feedback on the mod are encouraged and appreciated! You can expect updates based on feedback",
 "thumb": "previews/2928004252.png",
 "url": "https://andrew.fm/rainworld/raindb/Rotund_World.zip",
 "video": "https://www.youtube.com/channel/UCdBtWjmdqCFeSYZEpS2LOhA",
@@ -1839,12 +1839,12 @@ Mods.push({
 "id": "SchuhBaum.SBCameraScroll",
 "workshop_id": "2928752589",
 "author": "SchuhBaum",
-"desc": "Creates a smooth, scrolling camera that moves with the slugcat. Based on pipi toki's CameraScroll mod.<br><br>Here is a youtube video showing Rain World v1.5 + SBCameraScroll (+ other mods) in action:<br>https://www.youtube.com/watch?v=ePJbY4GSMck<br><br>This mod generates files for each room with multiple cameras. These files are saved in the folder:<br>'Steam/SteamApps/workshop/content/312520/2928752589/world'<br><br>If rooms textures are changed then you need to generate these files again. This might happen when you use custom regions. Simply delete everything or specifically what you need in that folder.<br><br>[h1] INCOMPATIBILITIES [/h1]<br>- The zoom camera option in the Slugcat Eyebrow Raise mod.<br><br>[h1] BUG REPORTS [/h1]<br>Please post bugs on the Rain World Discord server in the channel #modding-support:<br>https://discord.gg/rainworld<br><br>[h1] FAQ [/h1]<br>Q: I subscribed before. What happened?<br>A: I couldn't update this mod anymore. I decided to re-upload it. I needed to change the mod id as well. Apparently this mod already 'exists' by another author. :/<br><br>Q: The mod doesn't work. I can't open the mod's option menu. How to fix this?<br>A: One thing that helped multiple people is to delete the 'Rain World/BepInEx' folder and then verifying the integrity of the game files in steam.<br><br>Q: The mod still doesn't work. I still can't open the mod's option menu. How to fix this?<br>A: Maybe this more extensive strategy works for you:<br>- Delete RW completely.<br>- Then deactivate downpour on steam client so it won't download.<br>- Install RW again.<br>- Apply all mods that you want in remix and test them<br>- Continue if they work now<br>- Activate downpour on steam so it would download<br>- Activate downpour mods in remix<br>- Reboot the game<br><br>Q: The game freezes when entering a region. How to fix this?<br>A: The game might actually not be frozen. The mod needs to generate files for each region. This can take time (>1 minute). Wait a bit. If the game actually crashed then you have an exceptionLog.txt file in your Rain World folder. If that is the case then proceed with the section BUG REPORTS.<br><br>Q: My game actually crashed. What happened?<br>A: Your game might have run out of memory. So far I haven't found a solution to this. As a workaround, I recommend that you restart your game from time to time (see KNOWN ISSUES).<br><br>[h1] KNOWN ISSUES [/h1]<br>[list]<br>[*]Snow shaders don't work correctly. Snow on objects is more pixelated and in some places displays more snow than vanilla and in other places less. Falling snow can 'jump' when you would have changed screens.<br>[*]There are blue outlines in certain rooms (shader issues?).<br>[*]This mod increases memory consumption. When the game runs low on memory the performance will decline and the game might crash. This might take a while (90+ minutes). Merging room texture accelerates this. This needs to happen once for every room with multiple screens. The textures are saved to disk (cached) and reused. It is recommended to restart the game every now and then.<br>CONTEXT: There might be memory leaks or memory fragmentation. A memory leak would mean that memory is not released when it is not used anymore. Fragmentation might happen because most roomCamera textures are now fairly large and change in size often. This means that they need to be re-allocated in memory often and they require a chunk of memory without 'holes'.<br>[*]The underwater shaders do not work correctly. In large rooms they can smear sprites.<br>[*]Shadows at the edge of the screen seem to flicker or stretch in some rooms. I can see the same thing without camera scroll. Maybe a vanilla bug.<br>[*]Motion sickness might be a problem. I wonder how much is due to noise (details) in the textures. You can play around with the parameters and see what works for you.<br>[/list]<br><br>[h1] SOURCE CODE & CHANGELOG [/h1]<br>You can find the source code, changelog and other things on GitHub:<br>https://github.com/SchuhBaum/SBCameraScroll",
+"desc": "Creates a smooth, scrolling camera that moves with the slugcat. Based on pipi toki's CameraScroll mod.<br><br>Here is a youtube video showing Rain World v1.5 + SBCameraScroll (+ other mods) in action:<br>https://www.youtube.com/watch?v=ePJbY4GSMck<br><br>This mod generates room textures for each room with multiple cameras. These textures are cached in the folders 'levels' and 'world' inside the folder:<br>'Steam/SteamApps/workshop/content/312520/2928752589/'<br><br>If you want to clear the cache and let the textures be generated again then you can go the Remix options menu and press the button 'Clear Cache'. In addition, there is the option 'Region Mods' (enabled by default) that should update cached textures when mods modify existing rooms.<br><br>[h1] INCOMPATIBILITIES [/h1]<br>- The zoom camera option in the Slugcat Eyebrow Raise mod.<br><br>[h1] BUG REPORTS [/h1]<br>Please post bugs on the Rain World Discord server in the channel #modding-support:<br>https://discord.gg/rainworld<br><br>[h1] FAQ [/h1]<br>Q: I subscribed before. What happened?<br>A: I couldn't update this mod anymore. I decided to re-upload it. I needed to change the mod id as well. Apparently this mod already 'exists' by another author. :/<br><br>Q: The mod doesn't work. I can't open the mod's option menu. How to fix this?<br>A: One thing that helped multiple people is to delete the 'Rain World/BepInEx' folder and then verifying the integrity of the game files in steam.<br><br>Q: The mod still doesn't work. I still can't open the mod's option menu. How to fix this?<br>A: Maybe this more extensive strategy works for you:<br>- Delete RW completely.<br>- Then deactivate downpour on steam client so it won't download.<br>- Install RW again.<br>- Apply all mods that you want in remix and test them<br>- Continue if they work now<br>- Activate downpour on steam so it would download<br>- Activate downpour mods in remix<br>- Reboot the game<br><br>Q: The game freezes when entering a region. How to fix this?<br>A: The game might actually not be frozen. The mod needs to generate files for each region. This can take time (>1 minute). Wait a bit. If the game actually crashed then you have an exceptionLog.txt file in your Rain World folder. If that is the case then proceed with the section BUG REPORTS.<br><br>Q: My game actually crashed. What happened?<br>A: Your game might have run out of memory. So far I haven't found a solution to this. As a workaround, I recommend that you restart your game from time to time (see KNOWN ISSUES).<br><br>[h1] KNOWN ISSUES [/h1]<br>[list]<br>[*]Snow shaders don't work correctly. Snow on objects is more pixelated and in some places displays more snow than vanilla and in other places less. Falling snow can 'jump' when you would have changed screens.<br>[*]There are blue outlines in certain rooms (shader issues?).<br>[*]This mod increases memory consumption. When the game runs low on memory the performance will decline and the game might crash. This might take a while (90+ minutes). Merging room texture accelerates this. This needs to happen once for every room with multiple screens. The textures are saved to disk (cached) and reused. It is recommended to restart the game every now and then.<br>CONTEXT: There might be memory leaks or memory fragmentation. A memory leak would mean that memory is not released when it is not used anymore. Fragmentation might happen because most roomCamera textures are now fairly large and change in size often. This means that they need to be re-allocated in memory often and they require a chunk of memory without 'holes'.<br>[*]The underwater shaders do not work correctly. In large rooms they can smear sprites.<br>[*]Shadows at the edge of the screen seem to flicker or stretch in some rooms. I can see the same thing without camera scroll. Maybe a vanilla bug.<br>[*]Motion sickness might be a problem. I wonder how much is due to noise (details) in the textures. You can play around with the parameters and see what works for you.<br>[/list]<br><br>[h1] SOURCE CODE & CHANGELOG [/h1]<br>You can find the source code, changelog and other things on GitHub:<br>https://github.com/SchuhBaum/SBCameraScroll",
 "thumb": "previews/2928752589.png",
 "url": "https://andrew.fm/rainworld/raindb/SBCameraScroll.zip",
 "requirements": "",
 "requirement_names": "",
-"tags": "",
+"tags": "Accessibility,Game Mechanics",
 "order": 94
 });
 
@@ -1951,7 +1951,7 @@ Mods.push({
 "id": "testarenas",
 "workshop_id": "2929613038",
 "author": "Zombieman101",
-"desc": "Need to test something? Well here it is! My Testing Arenas, now on steam!<br><br>Known issues<br><br>Decals not working<br><br>Please feel free to suggest arenas! Though remember, at the moment i wont be adding anything thats new in downpour as i have uh.. not beaten it yet lol, though when i do finish downpour and make downpour testing arenas, ill make a new mod so people who havent beaten downpour/doesnt own downpour can use the arenas!<br><br>Downpour not required! <br><br>Planning something special very soon...",
+"desc": "Need to test something? Well here it is! My Testing Arenas, now on steam!<br><br>Known issues<br><br>Decals not working<br><br>Please feel free to suggest arenas! Though remember, i wont be adding anything thats new in downpour as ill make a new mod so people who havent beaten downpour/doesnt own downpour can use the arenas! I havent finished that yet though<br><br>Downpour not required!<br><br>Planning something special very soon...",
 "thumb": "previews/2929613038.png",
 "url": "https://andrew.fm/rainworld/raindb/Testing_Arenas.zip",
 "requirements": "",
@@ -2174,7 +2174,7 @@ Mods.push({
 "id": "lizardcustomizer",
 "workshop_id": "2931520964",
 "author": "ratrat44",
-"desc": "[h1]Lets you edit all lizards with its config menu![/h1]<br>[b]Notes[/b]<br>-This mod might not work with some other mods<br>-I'll make it able to create new lizard types soon<br>[b]Credit[/b]<br>-Developed by Ratrat44<br>-Commissioned by Bigabyte",
+"desc": "[h1] Allows you to edit and create lizards! [/h1]<br><br>[b] Tips [/b]<br>-Default lizards are stored in 'Rain World/RainWorld_Data/StreamingAssets/LizardCustomizer/DefaultLizards'<br>-Edited lizards are stored in 'Rain World/RainWorld_Data/StreamingAssets/LizardCustomizer/Lizards'<br>-You can move values out of their limits by pressing the < > keys, also holding M or N at the same time makes it move in greater increments<br><br>[b] Creating new lizards [/b]<br>1: First you need to create an empty mod [url=https://rainworldmodding.miraheze.org/wiki/Downpour_Reference/Mod_Directories] Mod folder structure [/url] in 'Rain World/RainWorld_Data/StreamingAssets/mods'<br>2: Once you've created the mod, create a folder in it named 'CustomLizards'<br>3: All your edits to the normal lizards are stored as .liz files in 'Rain World/RainWorld_Data/StreamingAssets/LizardCustomizer/Lizards' once you've edited one of them take its .liz file and put it in your mods CustomLizards folder<br>4: Then rename it to the name you want your lizard to have<br>5: You can also put a .txt file in your CustomLizards folder named 'UnlockAll' or 'Unlock'LizardName'', so that you can spawn it in sandbox",
 "thumb": "previews/2931520964.png",
 "url": "https://andrew.fm/rainworld/raindb/Lizard_Customizer.zip",
 "requirements": "",
@@ -2221,7 +2221,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SimplifiedMoveset.zip",
 "requirements": "",
 "requirement_names": "",
-"tags": "",
+"tags": "Accessibility,Game Mechanics",
 "order": 121
 });
 
@@ -2314,7 +2314,7 @@ Mods.push({
 "id": "move testing rooms",
 "workshop_id": "2933088640",
 "author": "laura",
-"desc": "Adds 6 movement practice/testing rooms in pretty blue-purple!",
+"desc": "Adds 6 practice/testing arena rooms in pretty blue-purple, for movement and tech! Credit to nonames for the tunnels room!",
 "thumb": "previews/2933088640.png",
 "url": "https://andrew.fm/rainworld/raindb/Move_Testing_Rooms.zip",
 "requirements": "",
@@ -2966,16 +2966,16 @@ Mods.push({
 });
 
 Mods.push({
-"name": "CHARACTER BETA - The Friend",
+"name": "BETA - The Friend",
 "id": "thefriend",
 "workshop_id": "2937471209",
 "author": "MusicalMiracle",
-"desc": "[strike](ive never uploaded a workshop mod in my life. im pretending that i know what im doing but i dont actually)[/strike]<br><br>[b]This is a character beta. A custom campaign has not been implimented yet, and as they borrow their world from the Saint, the campaign cannot be completed. I want players to be able to mess around and experiment with this character as I work on adding more content.[/b]<br><br>[h1]The sleep screen broke again. It'll be fixed in a day I think, sorry guys DX[/h1]<br><br>Face the winter storm as a new custom slugcat, the Friend! Set between the Rivulet and the Saint. This heavy slugcat, with their developed limbs, is exceptional at crawling, climbing, jumping and even throwing. However, they're clumsy at walking, so avoid standing up! They get just as much nutrition as any other slugcat from normal food, but can also eat creatures for a quarter of their regular food pips. Thanks to their fatty tail, they can store food better than most for when resources are scarce. This soft survivalist makes the most with what they have, and can maul. Making meals out of the weak is not their preferred diet, but in the frozen wasteland, it's hard to be picky. Especially when their lizards get hungry.<br><br>[u]KNOWN ISSUES:[/u]<br>- The Friend is missing an ascended portrait. There's no void sea for them to ascend into, so it doesn't matter yet.<br>- The Friend may not work as intended in co-op modes, and I'm not interested in fixing bugs related to that yet.<br><br>[u]PLANNED:[/u]<br>- Intro and ending cutscenes<br>- 3 custom creatures exclusive to the Friend's campaign<br>- Custom LTTM and Pebbles Dialogue<br>- Less food available in all regions<br>- [spoiler]Slugpups[/spoiler] that can naturally spawn, like most other campaigns<br>- For Saint and Friend, a new subregion of Subterranean that connects it to Outer Expanse<br>- A new region which [spoiler]combines Silent Construct and the Rot (aka, Pebbles will be at the height of his rotting)[/spoiler]<br><br>[u]KNOWN INCOMPATIBILITIES:[/u]<br>Deathcount<br>Omnithrow (spears will only be thrown the normal way)<br>Simplified Movement (some settings negate the crawl speed, does not crash the game)<br><br>[u]ATTRIBUTIONS:[/u]<br>A huge thank-you to Slime-Cubed, o645, Vigaro, Fish, and the rest of the modding-dev channel members on the official Rain World discord! Without you guys, this would not have been possible. These people helped me with understanding the code, getting the character working, and making their movement unique.<br><br>[u]FEEDBACK:[/u]<br>I will gladly accept feedback concerning the Friend's movement. However, the character itself is mostly finished for now, so I will be focusing on the next part of the mod; custom creatures!",
+"desc": "[b]This is in beta. A custom campaign has not been implimented yet, and as they borrow their world from the Saint, the campaign cannot be completed. I want players to be able to mess around and experiment with this character and their creatures as I work on adding more content.[/b]<br><br>My huge thanks goes to Ruffles, who took the time to make the hilarious and wonderful youtube video showcasing this mod! They're a new youtuber, but they've very funny, so please check out their channel!<br><br>Face the winter storm as a new custom slugcat, the Friend! Set between the Rivulet and the Saint. This heavy slugcat, with their developed limbs, is exceptional at crawling, climbing, jumping and even throwing. However, they're clumsy at walking, so avoid standing up! They get just as much nutrition as any other slugcat from normal food, but can also eat creatures for a quarter of their regular food pips. Thanks to their fatty tail, they can store food better than most for when resources are scarce. This soft survivalist makes the most with what they have, and can maul. Making meals out of the weak is not their preferred diet, but in the frozen wasteland, it's hard to be picky. Especially when their lizards get hungry.<br><br>2 custom creatures have now been added! To spawn them, either use the Beastmaster mod, or use the cheat in More Slugcats' remix menu to have all sandbox unlocks. These two creatures are designed to be together!<br><br>[u]KNOWN ISSUES:[/u]<br>- The Friend is missing an ascended portrait. There's no void sea for them to ascend into, so it doesn't matter yet.<br>- The Friend may not work as intended in co-op modes, and I'm not interested in fixing bugs related to that yet.<br>- Connection between Shaded Citadel and Shoreline is bugged, and Undergrowth is missing. It'll be fixed once I start working on the Friend's regions.<br><br>[u]PLANNED:[/u]<br>- Intro and ending cutscenes<br>- 3 custom creatures exclusive to the Friend's campaign<br>- Custom LTTM and Pebbles Dialogue<br>- Less food available in all regions<br>- [spoiler]Slugpups[/spoiler] that can naturally spawn, like most other campaigns<br>- For Saint and Friend, a new subregion of Subterranean that connects it to Outer Expanse<br>- A new region which [spoiler]combines Silent Construct and the Rot (aka, Pebbles will be at the height of his rotting)[/spoiler]<br><br>[u]KNOWN INCOMPATIBILITIES:[/u]<br>Singleplayer Co-op Emotes (breaks Friend's movement. Friend's movement works as expected with Jolly Co-op, so don't worry about that)<br>Omnithrow (spears will only be thrown the normal way)<br><br>[u]ATTRIBUTIONS:[/u]<br>A huge thank-you to Slime-Cubed, o645, Vigaro, Fish, Bebe, Noir, forthbridge, and the rest of the modding-dev channel members on the official Rain World discord! Without you guys, this would not have been possible. These people helped me with understanding the code, getting the character working, making their movement unique, and adding the new creatures.<br><br>[u]FEEDBACK:[/u]<br>I will gladly accept feedback concerning the Friend's movement. However, the character itself is mostly finished for now, so I will be focusing on the next part of the mod; custom creatures! Only one left to go. Please report any crashes caused by interacting with the new creatures!",
 "thumb": "previews/2937471209.png",
-"url": "https://andrew.fm/rainworld/raindb/CHARACTER_BETA__The_Friend.zip",
+"url": "https://andrew.fm/rainworld/raindb/BETA__The_Friend.zip",
 "requirements": "slime-cubed.slugbase",
 "requirement_names": "SlugBase",
-"tags": "",
+"tags": "Campaigns",
 "order": 175
 });
 
@@ -3068,7 +3068,7 @@ Mods.push({
 "id": "Arenapackage",
 "workshop_id": "2938673424",
 "author": "Bronsej",
-"desc": "Arena pack mod with 25 arena maps.<br><br>All of arenas were made before 1.9 version of the game but with small testing maps seem to work and most likely *will work* and I've been making with a bit of time breaks and some early ones are visibly with less quality, generally maps could look better.<br><br>I plan to tinker a bit with some maps, remake one or two and for sure and mess more with spawns as they may appear weird currently.<br><br>Enjoy<br><br>Note: Some arenas take a bit of time to load for a reason I don't know yet",
+"desc": "Arena pack mod with 25 arena maps.<br><br>All of arenas were made before 1.9 version of the game but with small testing maps seem to work and most likely *will work* and I've been making with a bit of time breaks and some early ones are visibly with less quality, generally maps could look better.<br><br>I can eventually try fixing or changing some stuff if there will be need to do so.<br><br>Enjoy<br><br>Note: Some arenas take a bit of time to load for a reason I don't know yet",
 "thumb": "previews/2938673424.png",
 "url": "https://andrew.fm/rainworld/raindb/Arena_Map_Pack.zip",
 "requirements": "",
@@ -3082,7 +3082,7 @@ Mods.push({
 "id": "frostbird347.vestiges",
 "workshop_id": "2939112857",
 "author": "FrostBird347",
-"desc": "Upon death, you will leave a temporary remnant for other players to find.<br><br>[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2939112857][img]https://img.shields.io/github/v/release/FrostBird347/Vestiges.svg?style=for-the-badge&label=Latest%20Release[/img][/url]<br>[url=https://github.com/FrostBird347/Vestiges/issues][img]https://img.shields.io/github/issues/FrostBird347/Vestiges?style=for-the-badge[/img][/url]<br><br>[hr][/hr]<br>[h1]WARNING:[/h1]<br><br>Upon death, your current room and region will be accessible via a [b]public[/b] spreadsheet. Do not use this mod if you are working on a custom region mod and don't wish to leak any info!<br><br>[hr][/hr]<br>So, what exactly does this mod do?<br><br>Well upon death or being grabbed by a lizard, a [strike]modified firefly[/strike] Vestige is created at your current location and through a very advanced system called uh... Google Forms and Google Sheets, your new Vestige will be uploaded and then become accessible to everyone else (within half an hour) for up to a month!<br><br>I got the idea of [strike]ab[/strike]using Google Forms and Sheets a year ago from a small game called [url=https://ash-k.itch.io/radiobubble/devlog/343058/radio-bubbles-postmortem]Radio Bubbles[/url].",
+"desc": "Upon death, you will leave a temporary remnant for other players to find.<br><br>[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2939112857][img]https://img.shields.io/github/v/release/FrostBird347/Vestiges.svg?style=for-the-badge&label=Latest%20Release[/img][/url]<br>[url=https://github.com/FrostBird347/Vestiges/issues][img]https://img.shields.io/github/issues/FrostBird347/Vestiges?style=for-the-badge[/img][/url]<br><br>[hr][/hr]<br>[h1]WARNING:[/h1]<br><br>Upon death, your current room and region will be accessible via a [b]public[/b] spreadsheet. Do not use this mod if you are working on a custom region mod and don't wish to leak any info!<br><br>[hr][/hr]<br>So, what exactly does this mod do?<br><br>Well upon death or being grabbed by a lizard, a [strike]modified firefly[/strike] Vestige is created at your current location and through a very advanced system called uh... Google Forms and Google Sheets, your new Vestige will be uploaded and then become accessible to everyone else (within half an hour) for up to a month! (The default lifespan is 4 days)<br><br>I got the idea of [strike]ab[/strike]using Google Forms and Sheets a year ago from a small game called [url=https://ash-k.itch.io/radiobubble/devlog/343058/radio-bubbles-postmortem]Radio Bubbles[/url].",
 "thumb": "previews/2939112857.png",
 "url": "https://andrew.fm/rainworld/raindb/Vestiges.zip",
 "requirements": "",
@@ -3110,13 +3110,27 @@ Mods.push({
 "id": "ceko.screenpeek",
 "workshop_id": "2939290231",
 "author": "Ceko",
-"desc": "Allows you to peek a look into other screens!<br><br>Left Alt + Arrow keys by default. Peek into the 8 neighbouring screens (if they exist) and see what's going on without facechecking! Check if there's a room there or if it's out of bounds!<br><br>Default behaviour is while you're holding Left Alt, you'll stand still and peek into nearby rooms with arrow keys.<br><br>INCOMPATIBLE WITH PRETTY MUCH EVERY OTHER SCREEN-ALTERING MOD!! <br>No controller support either (yet) because I couldn't get the controller to work!<br><br>TODO:<br>Controller support<br>Compatibility with SBCameraScroll / Split screen / Jolly co-op?? ambitious thinking<br>Icon to show that you're peeking<br>Mappable arrow keys<br>Reduced motion option for motion sickness?<br>Add blacklisted rooms probably<br>put this on github sometime<br><br>Reports bugs you've found in this mod page or bother me on discord: lé cekö#2930",
+"desc": "Allows you to peek a look into other screens!<br><br>Left Alt + Arrow keys by default. Peek into the 8 neighbouring screens (if they exist) and see what's going on without facechecking! Check if there's a room there or if it's out of bounds!<br><br>Default behaviour is while you're holding Left Alt, you'll stand still and peek into nearby rooms with arrow keys.<br><br>INCOMPATIBLE WITH PRETTY MUCH EVERY OTHER SCREEN-ALTERING MOD!!<br>No controller support either (yet) because I couldn't get the controller to work!<br><br>TODO:<br>Controller support<br>Compatibility with SBCameraScroll / Split screen / Jolly co-op?? ambitious thinking<br>Icon to show that you're peeking<br>✅ Mappable arrow keys<br>Reduced motion option for motion sickness?<br>Add blacklisted rooms probably<br>✅ put this on github sometime<br>https://github.com/Cekomen/ScreenPeek<br><br>Reports bugs you've found in this mod page or bother me on discord: lé cekö#2930",
 "thumb": "previews/2939290231.png",
 "url": "https://andrew.fm/rainworld/raindb/Screen_Peek.zip",
 "requirements": "",
 "requirement_names": "",
 "tags": "Game Mechanics,Accessibility",
 "order": 185
+});
+
+Mods.push({
+"name": "Cryssian Slugcats - The Enigma",
+"id": "cryssianslugcats.enigma",
+"workshop_id": "2939568597",
+"author": "Crysseil, Blondazz",
+"desc": "WORK IN PROGRESS!!<br>Please report any bugs in the pinned post in discussions.<br><br>This mod adds a new slugcat for you to play as, The Enigma, set between Spearmaster and Artificer. The slugcat has the ability to slow time for a short while and create flaming spears in a similar fashion to Artificer.<br><br>[b]Hold GRAB and press MAP to slow time.[/b]<br>There is a slow cooldown before you can use it again.<br><br>[b]Hold GRAB while holding a spear to create a flaming spear.[/b]<br>This uses up 2 food pips.<br><br><br>The Enigma was an attempt at creating a purposed organism for ascension, created by two iterators from far away lands, Initially Destabilized Pressure and Seeking Through The Abyss. The experiment was ultimately a failure, but yielded very interesting results, and thus became a messenger and scout of the former.<br>Start your journey in Drainage System and experience the world of Rain World with this new slugcat.<br><br>TO BE ADDED:<br>- Enigma's starting pearl<br>- Add transmission collectibles (Like in spearmaster's campaign)<br>- Karma 5 showing up above Enigma's head when using their primary ability<br>- Karma 1 showing up above Enigma's head when using their secondary ability<br>- Current Karma showing up above Enigma's head<br>- New arena art<br>- Actual campaign??? (no promises)<br><br>KNOWN BUGS<br>- Visiting Five Pebbles results in a softlock<br>- Cannot create special spears in jolly coop<br>- Dying in jolly coop while in slowed time makes the effect stay until you use a shelter<br>- Can't swallow things after the new update ",
+"thumb": "previews/2939568597.png",
+"url": "https://andrew.fm/rainworld/raindb/Cryssian_Slugcats__The_Enigma.zip",
+"requirements": "slime-cubed.slugbase",
+"requirement_names": "SlugBase",
+"tags": "",
+"order": 186
 });
 
 Mods.push({
@@ -3130,7 +3144,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "",
-"order": 186
+"order": 187
 });
 
 Mods.push({
@@ -3144,7 +3158,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 187
+"order": 188
 });
 
 Mods.push({
@@ -3158,7 +3172,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "",
-"order": 188
+"order": 189
 });
 
 Mods.push({
@@ -3172,7 +3186,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "",
-"order": 189
+"order": 190
 });
 
 Mods.push({
@@ -3186,7 +3200,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "",
-"order": 190
+"order": 191
 });
 
 Mods.push({
@@ -3200,7 +3214,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "Tools,Accessibility",
-"order": 191
+"order": 192
 });
 
 Mods.push({
@@ -3214,7 +3228,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "",
-"order": 192
+"order": 193
 });
 
 Mods.push({
@@ -3228,7 +3242,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "Arenas",
-"order": 193
+"order": 194
 });
 
 Mods.push({
@@ -3242,21 +3256,21 @@ Mods.push({
 "requirements": "moreslugcats",
 "requirement_names": "",
 "tags": "",
-"order": 194
+"order": 195
 });
 
 Mods.push({
-"name": "No Friend Fire 1.2.0",
+"name": "No Friend Fire 1.3.0",
 "id": "pkuyo.nofriendfire",
 "workshop_id": "2940940236",
 "author": "pkuyo",
-"desc": "[UPDATE 1.2.0]<br>prevent tamed lizards from trying to eat the slugpups<br><br><br>a small mod make in half an hour.<br>prevent you from hurting lizard friends.<br>prevent you from hurting scavengers when you have high reputation(>0.5).<br>prevent scavengers hurting you when you have high reputation(>0.5).<br><br>1.1.0<br>prevent you from ascending other slugcats or your friend Lizard",
+"desc": "[UPDATE 1.3.0]<br>add option menu<br>prevent your from hurting lizard when you have high reputation(=1.0).<br>add chinese language<br><br><br>a small mod make in half an hour.<br>prevent you from hurting lizard friends.<br>prevent you from hurting scavengers when you have high reputation(>0.5).<br>prevent scavengers hurting you when you have high reputation(>0.5).<br><br>1.1.0<br>prevent you from ascending other slugcats or your friend Lizard<br><br>1.2.0<br>prevent tamed lizards from trying to eat the slugpups",
 "thumb": "previews/2940940236.png",
-"url": "https://andrew.fm/rainworld/raindb/No_Friend_Fire_120.zip",
+"url": "https://andrew.fm/rainworld/raindb/No_Friend_Fire_130.zip",
 "requirements": "",
 "requirement_names": "",
 "tags": "",
-"order": 195
+"order": 196
 });
 
 Mods.push({
@@ -3270,7 +3284,7 @@ Mods.push({
 "requirements": "slime-cubed.slugbase",
 "requirement_names": "SlugBase",
 "tags": "Campaigns,Game Mechanics",
-"order": 196
+"order": 197
 });
 
 Mods.push({
@@ -3284,7 +3298,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "",
-"order": 197
+"order": 198
 });
 
 Mods.push({
@@ -3298,7 +3312,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "Accessibility,Game Mechanics",
-"order": 198
+"order": 199
 });
 
 Mods.push({
@@ -3312,7 +3326,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "",
-"order": 199
+"order": 200
 });
 
 Mods.push({
@@ -3326,7 +3340,7 @@ Mods.push({
 "requirements": "",
 "requirement_names": "",
 "tags": "",
-"order": 200
+"order": 201
 });
 
 Mods.push({
@@ -3340,7 +3354,246 @@ Mods.push({
 "requirements": "moreslugcats",
 "requirement_names": "More Slugcats",
 "tags": "",
-"order": 201
+"order": 202
+});
+
+Mods.push({
+"name": "Fast Reset",
+"id": "fastreset",
+"workshop_id": "2942454026",
+"author": "Vigaro",
+"desc": "Allows you to quickly reset the current campaign by pressing a key, default keybind is two presses of the letter J.<br><br>Settings available in the Remix menu.",
+"thumb": "previews/2942454026.png",
+"url": "https://andrew.fm/rainworld/raindb/Fast_Reset.zip",
+"requirements": "",
+"requirement_names": "",
+"tags": "",
+"order": 203
+});
+
+Mods.push({
+"name": "Miros Birds Honks",
+"id": "untitledmirosmod",
+"workshop_id": "2942624484",
+"author": "GreenShpiel (mod idea), forthbridge (title idea that I stole, pls don't sue .-. )",
+"desc": "Replaces miros birds sounds with goose honks from Untitled Goose Game by a mod request in discussions<br><br>[h1] Notes [/h1]<br>[list]<br>[*]Also replaces miros birds grabbing and walking noises (although it's barely noticeable)<br>[*]Miros Birds may still honk even after dying, [b] nothing can stop them honking. [/b]<br>[*]Does not change the appearance of the miros birds as requested in the mod idea. <br>Vigaro might make a better version than this one.<br>[/list]",
+"thumb": "previews/2942624484.png",
+"url": "https://andrew.fm/rainworld/raindb/Miros_Birds_Honks.zip",
+"requirements": "",
+"requirement_names": "",
+"tags": "",
+"order": 204
+});
+
+Mods.push({
+"name": "Five Pebbles Pong (SPOILERS)",
+"id": "maxi-mol.fivepebblespong",
+"workshop_id": "2942659714",
+"author": "Maxi Mol",
+"desc": "Adds a game controller to Five Pebbles' room. If slugcat grabs it, Pebbles invites you to play Pong.<br>Controls are the up and down keys. This mod does not alter existing dialogue or behavior.<br><br>Added to all campaigns.<br><br>To manually install, check: https://github.com/woutkolkman/fivepebblespong/<br>Originally ratrat44's idea: https://www.youtube.com/watch?v=X-k5ytvMFQ4",
+"thumb": "previews/2942659714.png",
+"url": "https://andrew.fm/rainworld/raindb/Five_Pebbles_Pong_SPOILERS.zip",
+"requirements": "",
+"requirement_names": "",
+"tags": "Game Mechanics",
+"order": 205
+});
+
+Mods.push({
+"name": "Force Shelter Failures",
+"id": "forceshelterfailures",
+"workshop_id": "2942852779",
+"author": "forthbridge & badgerotter (thumbnail)",
+"desc": "[h1]Provides a Remix config for Shelter Failure (Precycle) chance![/h1]<br><br>[h1]Disable them, make them occur every cycle, or anything in-between![/h1]<br><br>[b]Potential Incompatibilities:[/b]<br>[list]<br>    [*]Slugsomnia from Emerald's Tweaks<br>[/list]<br><br>[b](thumbnail and idea by badgerotter)[/b]<br>[b][u]Source: https://github.com/forthbridge/force-shelter-failures[/u][/b]",
+"thumb": "previews/2942852779.png",
+"url": "https://andrew.fm/rainworld/raindb/Force_Shelter_Failures.zip",
+"requirements": "moreslugcats",
+"requirement_names": "More Slugcats Expansion",
+"tags": "Game Mechanics,Accessibility",
+"order": 206
+});
+
+Mods.push({
+"name": "pvp balance - nerf artificer parry",
+"id": "RodOfDiscord.pvpbalance",
+"workshop_id": "2942980948",
+"author": "SCP Fazbear, RodOfDiscord",
+"desc": "artificer in pvp is broken so i attempted to fix it<br>(this mod was poorly made by someone who doesn't play rainworld and someone who sucks at csharp)<br><br>recommend use with the remix option for the more slugcats expansion artificer explosion capacity 10 -> 5<br><br>features:<br>(these apply in and outside of pvp so be cautious with it enabled)<br>- parry knock back 30 -> 35<br>- parry stun time 80 -> 10 (practically non existent)<br>- parry cool down 80 -> 10 (practically non existent)<br>- parry range 200 -> 125 and 60 - 37.5 (a little more than half)<br><br>with this mod enabled and the artificer explosion capacity turned down to five, artificer is fair and balanced in arena competitive mode<br><br>credits:<br>-me (i did everything except for the code)<br>-SCP Fazbear (did most of the code)<br>-Noir (Someone) (made public templates in which we used one of)<br>-Cats (my friend who drove me to insanity about how it wasn't fun playing against artificer in pvp, especially me)",
+"thumb": "previews/2942980948.png",
+"url": "https://andrew.fm/rainworld/raindb/pvp_balance__nerf_artificer_parry.zip",
+"video": "https://www.youtube.com/channel/UCxnjM81Ocy56hnLjNUA2Pvg",
+"requirements": "",
+"requirement_names": "",
+"tags": "",
+"order": 207
+});
+
+Mods.push({
+"name": "Rainbow Needles",
+"id": "rainbowneedles",
+"workshop_id": "2943128091",
+"author": "forthbridge",
+"desc": "[h1]Makes Spearmaster's needles and tail speckles a fully animated rainbow![/h1]<br><br>[h1]Configurable via Remix, from the parts affected to the rainbow cycle speed![/h1]<br><br>[b]Thank you to [u]Silvar#9999[/u] for playtesting, and suggesting the rainbow cycles![b]<br><br>[b][u]Source: https://github.com/forthbridge/rainbow-needles[/u][/b]",
+"thumb": "previews/2943128091.png",
+"url": "https://andrew.fm/rainworld/raindb/Rainbow_Needles.zip",
+"requirements": "",
+"requirement_names": "",
+"tags": "Cosmetics",
+"order": 208
+});
+
+Mods.push({
+"name": "No More Rain Timer",
+"id": "hideraintimer",
+"workshop_id": "2943320414",
+"author": "Vigaro",
+"desc": "Do you think being able to see the rain timer is too OP?<br><br>Then this mod is for you!<br><br>Removes the rain timer from the HUD, providing a more balanced gameplay experience.",
+"thumb": "previews/2943320414.png",
+"url": "https://andrew.fm/rainworld/raindb/No_More_Rain_Timer.zip",
+"requirements": "",
+"requirement_names": "",
+"tags": "",
+"order": 209
+});
+
+Mods.push({
+"name": "Super Slugcat World 2: Slugcat's Island",
+"id": "MarioPup",
+"workshop_id": "2943430812",
+"author": "Monobrobe, Vigaro",
+"desc": "Want to relive your Super Mario World 2 days? Now you can! Protect any pups you find, or else...<br><br>Update: Spup no longer cries while the game is paused.",
+"thumb": "previews/2943430812.png",
+"url": "https://andrew.fm/rainworld/raindb/Super_Slugcat_World_2_Slugcats_Island.zip",
+"requirements": "moreslugcats",
+"requirement_names": "More Slugcats Expansion",
+"tags": "",
+"order": 210
+});
+
+Mods.push({
+"name": "BeastMasterPupExtras",
+"id": "NoirCatto.BeastMasterPupExtras",
+"workshop_id": "2943737047",
+"author": "NoirCatto",
+"desc": "Some fixes to SlugNPC (Slugpups) that annoyed me<br><br>- Adds story-mode support for custom Pups (adult, other slugcats) spawned with BeastMaster<br><br>- Allows SlugNPCs the use of creature shortcuts (which they are coded to try and use in vanilla, but they can't since Player can't use them)<br><br>- Toggleable experimental option, which slightly improves SlugNPC's ability to follow the Player, by attempting to repeat a jump that Player has previously made in the same room if they can't find another path.",
+"thumb": "previews/2943737047.png",
+"url": "https://andrew.fm/rainworld/raindb/BeastMasterPupExtras.zip",
+"requirements": "moreslugcats,fyre.BeastMaster",
+"requirement_names": "More Slugcats Expansion,BeastMaster",
+"tags": "",
+"order": 211
+});
+
+Mods.push({
+"name": "The Lost",
+"id": "thelost",
+"workshop_id": "2943746697",
+"author": "Leo",
+"desc": "A little lost slugcat, exploring a harsh world. <br> Currently a WIP.<br><br>Features:<br>Discharge - You can discharge a shock onto anything grabbing you by pressing S! Uses up 2 pips by default. You can also discharge on anything you grab by using up + grab.<br>Sporepuff allergy - Due to your centipede genetics, Sporepuffs will harm and stun you.<br>Deercaller - By using up some of your stored food, the lost can call out for any deer in the nearby vicinity by pressing D.<br>Shock resisting - Centipedes won't be able to shock you.<br>Omnivore - While the lost is most suited for eating meat, they can eat most things for a small boost.<br><br>Planned Features:<br>The metal glen - A custom region for the lost to explore!<br>New creatures<br>An actual campaign",
+"thumb": "previews/2943746697.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Lost.zip",
+"requirements": "moreslugcats",
+"requirement_names": "More Slugcats Expansion",
+"tags": "",
+"order": 212
+});
+
+Mods.push({
+"name": "Bone Masks",
+"id": "Bone Masks",
+"workshop_id": "2943881137",
+"author": "Unknown",
+"desc": "No Description.",
+"thumb": "previews/2943881137.png",
+"url": "https://andrew.fm/rainworld/raindb/Bone_Masks.zip",
+"requirements": "",
+"requirement_names": "",
+"tags": "",
+"order": 213
+});
+
+Mods.push({
+"name": "Mainframe",
+"id": "arenamainframe",
+"workshop_id": "2944081285",
+"author": "Coitur",
+"desc": "A simple arena set inside the chamber of a large computer.",
+"thumb": "previews/2944081285.png",
+"url": "https://andrew.fm/rainworld/raindb/Mainframe.zip",
+"requirements": "",
+"requirement_names": "",
+"tags": "Arenas",
+"order": 214
+});
+
+Mods.push({
+"name": "Smarter Stealth",
+"id": "smarterstealth",
+"workshop_id": "2944430260",
+"author": "Coder23848",
+"desc": "Makes white lizards a little bit better at stealth.",
+"thumb": "previews/2944430260.png",
+"url": "https://andrew.fm/rainworld/raindb/Smarter_Stealth.zip",
+"requirements": "",
+"requirement_names": "",
+"tags": "",
+"order": 215
+});
+
+Mods.push({
+"name": "Collection Labels",
+"id": "sabreml.collectionlabels",
+"workshop_id": "2944480166",
+"author": "SabreML",
+"desc": "Adds a name/location to each item in the Collections menu, for spoiler-free collectible hunting!<br><br>[i](Having just said 'spoiler-free', this [b]does[/b] of course contain some spoilers for region names.)[/i]<br><br>[hr]<br>[i]The source code and a non-workshop download are available here:[/i]<br>https://github.com/SabreML/CollectionLabels",
+"thumb": "previews/2944480166.png",
+"url": "https://andrew.fm/rainworld/raindb/Collection_Labels.zip",
+"requirements": "moreslugcats",
+"requirement_names": "More Slugcats Expansion",
+"tags": "Cosmetics",
+"order": 216
+});
+
+Mods.push({
+"name": "Improved Input Config",
+"id": "improved-input-config",
+"workshop_id": "2944727862",
+"author": "Dual",
+"desc": "Doctors up the Input Settings menu and allows mods to add their own keybinds easily.<br><br>Code at github.com/Dual-Iron/improved-input-config",
+"thumb": "previews/2944727862.png",
+"url": "https://andrew.fm/rainworld/raindb/Improved_Input_Config.zip",
+"requirements": "",
+"requirement_names": "",
+"tags": "Accessibility,Dependency,Tools",
+"order": 217
+});
+
+Mods.push({
+"name": "The Hero",
+"id": "thesnivy123.thehero",
+"workshop_id": "2944957207",
+"author": "thesnivy123",
+"desc": "An Underhero-themed character Currently a WIP, and my first ever mod!<br><br>Use Jolly Co-Op  and select the Slugpup option for the intended experience. The Hero is slower on the ground, but faster in tunnels and climbing poles- It needs very little food, but can't carry any over to the next cycle. It also can activate mushroom slowtime at will. Cycle times vary greatly!<br><br>Press R to activate mushroom slowtime.<br><br>Planned features: Slowtime costing 1 food pip + increasing spear damage while it's active, permanent vulture mask ability, vulture mask cosmetic.",
+"thumb": "previews/2944957207.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Hero.zip",
+"requirements": "slime-cubed.slugbase",
+"requirement_names": "SlugBase",
+"tags": "",
+"order": 218
+});
+
+Mods.push({
+"name": "Majora's Mask Over Vulture Mask",
+"id": "m4j0r45-ma5k.v3r7-c001",
+"workshop_id": "2945094611",
+"author": "Keegerwocky",
+"desc": "Replaces Vulture Masks with Majora's Mask from the video game, The Legend of Zelda, Majora's Mask.<br>Does not affect the masks added in Downpour (Elite Scav Masks).<br><br>Credit to A.J. Nitro for the texture.",
+"thumb": "previews/2945094611.png",
+"url": "https://andrew.fm/rainworld/raindb/Majoras_Mask_Over_Vulture_Mask.zip",
+"requirements": "",
+"requirement_names": "",
+"tags": "Cosmetics",
+"order": 219
 });
 
 toggle("mods");
