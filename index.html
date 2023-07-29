@@ -581,10 +581,10 @@ Mods.push({
 "id": "pom",
 "workshop_id": "2920439169",
 "author": "Henpemaz, Thalber",
-"desc": "DevUI extender for placed objects.<br>Source code and instructions can be found here: https://github.com/Rain-World-Modding/Pom",
+"desc": "DevUI extender for placed objects and effects.<br>Source code and instructions can be found here: https://github.com/Rain-World-Modding/Pom<br><br>[b]Changelog v2.8[/b]<br><br>- No longer crashes when another mod tries to interact with it before its logger is initialized<br>- Added a new module that can extend effects in a similar way to objects. [i]EffExt module is in BETA and has not been tested thoroughly[/i]. See github for instructions.",
 "url": "https://andrew.fm/rainworld/raindb/POM.zip",
 "requirements": "",
-"tags": "",
+"tags": "Dependency,Tools",
 "order": 4
 });
 
@@ -606,7 +606,8 @@ Mods.push({
 "id": "regionkit",
 "workshop_id": "2920439476",
 "author": "RegionKit team",
-"desc": "All-in-one custom region dependency pack.<br>Source code and detailed descriptions are hosted here: https://github.com/Rain-World-Modding/RegionKit<br>[b]Reporting bugs[/b]<br>If you have a problem to report, please do it via github issues, Rain World discord server, or leave a post on discussions under this workshop item. Try to first look if anyone has already reported similar problem, attach logs and other materials if relevant!<br><br>[b] 3.9 changelog [/b]<br><br>- Rainbow related bugfixes by Bro",
+"desc": "All-in-one custom region dependency pack.<br>Source code and detailed descriptions are hosted here: https://github.com/Rain-World-Modding/RegionKit<br>[b]Reporting bugs[/b]<br>If you have a problem to report, please do it via github issues, Rain World discord server, or leave a post on discussions under this workshop item. Try to first look if anyone has already reported similar problem, attach logs and other materials if relevant!",
+"thumb": "previews/2920439476.png",
 "url": "https://andrew.fm/rainworld/raindb/RegionKit.zip",
 "requirements": "pom",
 "tags": "Dependency,Tools",
@@ -3173,7 +3174,7 @@ Mods.push({
 "id": "crs",
 "workshop_id": "2941565790",
 "author": "Garrakx & Bro",
-"desc": "Support for modded regions! Maintained by Bro, thumbnail by @Nautillo1<br><br>Check the repository here: https://github.com/Garrakx/Custom-Regions/tree/dp-release",
+"desc": "Support for modded regions! Maintained by Bro, thumbnail by @Nautillo1<br>- This mod does nothing on its own, it is a dependency. <br>- The pack browser no longer exists as it has been replaced by the Steam Workshop.<br><br>Check the repository here: https://github.com/Garrakx/Custom-Regions/tree/dp-release",
 "thumb": "previews/2941565790.png",
 "url": "https://andrew.fm/rainworld/raindb/Custom_Regions_Support__CRS_BETA.zip",
 "requirements": "",
@@ -3703,13 +3704,13 @@ Mods.push({
 });
 
 Mods.push({
-"name": "[WIP] The Escort",
+"name": "[Beta] The Escort",
 "id": "urufudoggo.theescort",
 "workshop_id": "2947805022",
 "author": "Urufudoggo",
 "desc": "A mod that will add The Escort and (eventually) their very special slugpup.<br>[i]Thank You Eclipse Shadow Scale for the headshot![/i]<br>[i]Thank You Lurzard for the Menu and Sleep scenes![/i]<br><br>Currently implements The Escort and some of their abilities and movement tech. <br>[i]Should[/i] be fully compatible for playing in other campaigns or arena.<br><br>[b]Feedback of any sort is HIGHLY appreciated![/b]<br><br>Found a bug? Put it in the forums or reach me in Discord! I'm in the main RW discord server (as [b]Deathpits[/b]). Feel free to ping me!<br><br>[hr][/hr][h2]<~CONFLICTING MODS/KNOWN ISSUES~>[/h2]<br>These mods may or may not cause issues with the Escort mod, or these are issues that have been found and will be fixed eventually<br>[list]<br>[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2924848641]Rico Spear[/url]: [b]Apparently causes Brawler Escort to explode when shanking[/b] (Confirmed to kill Brawler Escort upon 'shanking')<br>[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2923554821]Rideable Lizards[/url]: [b]Prevents Escort from picking up lizards and punting them across the room.[/b] (Will release a patch eventually on my end that will simply disable that option at the presence of that mod.)<br>[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2931679448]SimplifiedMoveset[/url]: [b]Affects Escort gameplay significantly![/b] Many of Escort's movement adjustments don't work when this is turned on, such as the sick flip and low pounce (which would make aiming drop-kicks harder). Use at your own risk!<br>[*] [b]Campaign:[/b] Garbage Waste doesn't work properly<br>[*] [b]Campaign:[/b] When playing COOP in Escort's Campaign, the food intake may not work properly (gives you too much food sometimes)<br>[*] [b]Campaign:[/b] Escort starts in water... that'll be fixed once I make a custom room.<br>[*] [b]General:[/b] Spearthrowing mechanics are still a wee bit janky and needs cleanup.<br>[/list]<br>[hr][/hr][h2]<~PATCHED MODS~>[/h2]<br>This mod will apply a patch to work better with the following mods. How they change the behaviour of the Escort mod is as detailed (Any mods not listed in either conflicts or patched may be assumed to be working):<br>[list]<br>[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2950327774]Revivify[/url]: [b]Somewhat patched for 1.2.0[/b] (Doesn't work as well on slugpups...)<br>[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2948971756]Dress My Slugcat 1.4.X[/url]: [b]Patched![/b] (Custom sprite ready? Who knows.)<br>[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2928004252]Rotund World 1.6.X[/url]: [b]Doesn't need patching really, but added a silly sfx and the chest marking stretch with the body![/b]<br>[/list]<br>[*] [url=][/url]: [b][/b] ()<br>[hr][/hr][h2]<~CURRENTLY IMPLEMENTED~>[/h2]<br>[list]<br>[*] REMIX MENU to tweak some features and enable optional gimmicks<br>[*] Builds that alter how the character plays significantly, giving each build a unique ability to make them special<br>[*] Custom sprites<br>[*] Slide Stun (sliding into creature)<br>[*] Drop Kick (roll/slide pouncing into creature)<br>[*] Flip Pounce (charge pounce)<br>[*] Flip wall jump (holding up or down and direction (towards the wall) while on the wall, then pressing jump after a bit)<br>[*] Infinite roll (that speeds up!)<br>[*] Dual wield spears (and dead lizards)<br>[*] Parryslide! (Sliding will parry most damage, including explosives!)<br>[*] Battle-Hyped: Keep your tired meter above a threshhold by engaging in combat to become stronger and faster. Let that adrenaline PUMP!<br>[*] Arc'd Spear (Monk throwing trajectory, Survivor damage (and way more when hyped!), (lesser) Gourmand forward thrust)<br>[*] Custom (silly) SFX!<br>[*] Custom dialogue with them iterators!<br>[*] Custom HUD!<br>[/list]<br>[hr][/hr][h3]<~REPOSITORY~>[/h3]<br>[url=https://github.com/urufu765/rw-scb-TheEscort]Enjoy! It's on Github! Free for you to do whatever (as long as it follows the original licenses and whatever)[/url]",
 "thumb": "previews/2947805022.png",
-"url": "https://andrew.fm/rainworld/raindb/WIP_The_Escort.zip",
+"url": "https://andrew.fm/rainworld/raindb/Beta_The_Escort.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Campaigns",
 "order": 245
@@ -5652,7 +5653,7 @@ Mods.push({
 "id": "fauxdesigns",
 "workshop_id": "2958676379",
 "author": "Fauxbia",
-"desc": "A mod that provides new designs for all of the slugcats! Naturally, it requires Dress My Slugcat. For best results, set all colors (body, eyes, etc.) to white! Note that Artificer uses the default face due to weird stuff with the scar. Inv and Nightcat not included, though they might be once I make designs for them!",
+"desc": "A mod that provides new designs for all of the slugcats! Naturally, it requires Dress My Slugcat. Note that Artificer uses the default face due to weird stuff with the scar. Inv and Nightcat not included, though they might be once I make designs for them.<br><br>————————PLEASE READ —————————<br><br>Instructions for use to achieve the intended appearance of the sprites: (Failure to follow the instructions will result in very odd-looking sprites.)<br><br>ALL: Set /all/ colors to #FFFFFF (pure white) in the customize menu. Head, Face, Body, Tail, all of it. <br><br>MONK: Make /sure/ to set face colors to white. Activate tail asymmetry.<br><br>HUNTER: Activate tail asymmetry. <br><br>RIVULET: Activate tail asymmetry. The tail will look /terrible/ without it. Recommended to set tail length to 6, wideness to 2, and roundness to 0.3. Adjust as desired.<br><br>ARTIFICER: Activate tail asymmetry. Leave face sprite colors alone (she uses the default face due to sprite difficulties.)<br><br>SPEARMASTER: Activate tail asymmetry.",
 "thumb": "previews/2958676379.png",
 "url": "https://andrew.fm/rainworld/raindb/Fauxbias_Slugcat_Designs.zip",
 "requirements": "dressmyslugcat",
@@ -5695,7 +5696,7 @@ Mods.push({
 "thumb": "previews/2959051212.png",
 "url": "https://andrew.fm/rainworld/raindb/Artificer_Faces.zip",
 "requirements": "",
-"tags": "",
+"tags": "Cosmetics",
 "order": 398
 });
 
@@ -5957,13 +5958,13 @@ Mods.push({
 });
 
 Mods.push({
-"name": "[BETA] The Incandescent",
+"name": "The Incandescent [Hailstorm]",
 "id": "theincandescent",
 "workshop_id": "2960863440",
 "author": "Bry",
-"desc": "Brave an ever-worsening ice age as the Incandescent, a post-Saint slugcat with a rather extreme adaptation for the raging blizzards. This slugcat's campaign is meant to be a greater challenge than any campaign from the base game or the DLC, while still being fun, I hope.<br>Only the Incandescent, themselves, is currently implemented. However, there are plans for a fully-fledged campaign with both significant changes to the world and up to 6 new creatures to create an overall harder experience!<br><br>Yeah, uh, this mod will take a while to reach completion.<br><br>__________________________________________________<br><br>[h1]Slugcat Features[/h1]<br>[u]Upsides[/u] [list]<br> [*] Faster running and speedier slides!<br> [*] Rolling is faster and has tripled duration!<br> [*] Huge backflips!<br> [*] Rolls, Slides, Flips, Slide Pounces, and Whiplash Jumps will all deal damage on impact, but cause the Incandescent to lose some warmth.<br> [*] Naturally glows!<br> [*] Highly resistant to the cold, and warms up faster than other slugcats.<br> [*] Can warm up other adjacent creatures.<br>[/list]<br>[u]Drawbacks[/u] [list]<br> [*] 0.75x Spear damage.<br> [*] Loses all resistance to cold while in water.<br> [*] Stays wet after leaving water, losing cold resistance and glow strength until they dry out. The longer you stay in water, the more resistance you lose, and the longer it'll take for you to dry out.<br>[/list]<br>[u]Arena/PvP-Specific Features[/u] [list]<br> [*] The Incandescent gets some fancy custom colors in Arena!<br> [*] Warmth regeneration is weakened, and being too wet will instead cause you to start LOSING warmth.<br> [*] The Incandescent's movement attacks will drain a tiny bit of warmth just for being used, even if they don't connect.<br> [*] Against other players, movement attacks will deal half damage and drain more warmth than usual. However, the Whiplash Jump can still one-shot!<br> [*] The Incandescent starts losing health if they're too cold! This can make you easier to kill, and can even kill you [i]directly[/i] if you stay cold for too long!<br>[/list] I tried to keep the Incandescent from being Artificer 2 in Arena, though I wonder if I went too far. Feel free to give me feedback on these changes!<br>__________________________________________________<br><br>[h2]Campaign Features[/h2]<br>[u]Food Requirements[/u] [list]<br> [*] 9 to hibernate; can store 1 for next cycle<br>       [*] Will be lowered down to 7 to hibernate eventually, if I can make plants more scarce.<br> [*] Only gains half as much food from most things, except for plants and Jellyfish.<br>Cycles:<br> [*] Cycles last for half as long, but the Incandescent's adaptations allow her to stay out in the blizzards for a LONG time.<br>[/list]<br>-- PLANNED FEATURES -- [list]<br> [*] Plants will become more scarce throughout most of the regions, including Popcorn Plants.<br> [*] Batflies will be much rarer.<br> [*] Modified creature spawns for all regions.<br> [*] Modified layouts for most regions.<br> [*] Up to 6 new creatures, 5 of which being exclusive to the Incandescent's campaign.<br> [*] 1 new area, if all goes well; may be either a full region or a subregion.<br> [*] Greater use of the Stowaway creature, including a modified AI so they, uh, actually exist and pose a threat.<br>[/list]<br>__________________________________________________<br><br>[h1]Known Issues[/h1]<br>Jolly Co-op [i](I can't do anything about these right now, unfortunately)[/i]: [list]<br> [*] Colors for Incandescent's Waistband cannot be customized.<br> [*] Colors for Incandescent's Cheek Fluff can be customized, but will end up just using Arena colors, instead.<br> [*] Eating food as anyone but Player 1 in Incandescent's campaign quickly starts multiplying how much food you get.<br>[/list]",
+"desc": "Brave an ever-worsening ice age as the Incandescent, a post-Saint slugcat with a rather extreme adaptation for the raging blizzards. This slugcat's campaign is meant to be a greater challenge than any campaign from the base game or the DLC, while still being fun, I hope.<br>[b]Development on this project has reached an indefinite hiatus (in other words, don't expect any more content ever), since, uh, being completely frank with you guys: coding is not for me; this project has been AGONY to work on.[/b]<br><br>__________________________________________________<br><br>[h1]Slugcat Features[/h1]<br>[u]Upsides[/u] [list]<br> [*] Slightly faster running speed<br> [*] Slightly higher jumps<br> [*] Rolling is faster and has tripled duration!<br> [*] Huge backflips!<br> [*] Double-reach slides!<br> [*] [b]Heat Attacks:[/b] Rolls, slides, flips, pounces, and whiplash jumps all deal damage on impact, at the cost of some warmth.<br> [*] Has a natural glow, thanks to their flaming tail!<br> [*] Highly resistant to the cold, and warms up faster than other slugcats.<br> [*] Can warm up other adjacent creatures.<br>[/list]<br>[u]Drawbacks[/u] [list]<br> [*] 0.75x Spear damage.<br> [*] Warmed up significantly less by Lanterns, Lantern Mice, or other Incandescents.<br> [*] Loses all resistance to cold while in water.<br> [*] Stays wet after leaving water, losing cold resistance and glow strength until they dry out. The longer you stay in water, the more resistance you lose, and the longer it'll take for you to dry out.<br>[/list]<br>[u]Arena/PvP-Specific Features[/u] [list]<br> [*] The Incandescent gets some fancy custom colors in Arena!<br> [*] Warmth regeneration is weakened, and being too wet will cause you to start LOSING warmth.<br> [*] The Incandescent's heat attacks will ALSO drain a tiny bit of warmth while in use.<br> [*] Against other players, heat attacks will deal half damage and drain more warmth.<br> [*] The Incandescent starts outright losing health if they're too cold! This can kill you [i]on its own[/i] if you stay cold for too long!<br>[/list] I tried to keep the Incandescent from being Artificer 2 in Arena, though I wonder if I went too far. Feel free to give me feedback on these changes!<br>__________________________________________________<br><br>[h2]Campaign Features[/h2]<br>[u]Main Features[/u] [list]<br> [*] Plants have become rarer - and many that remain are harder to get.<br> [*] Batflies and Popcorn Plants have been nearly wiped out!<br> [*] Stowaways, Mother Spiders, and Miros Vultures have all received a bit of a touch-up, fleshing them out a bit more or making them less insufferable.<br> [*] Many creatures have new, more wintery colors!<br> [*] All regions have received new creature spawns, with some completely new creature [i]types[/i] having come into existence thanks to the blizzards. Each creature has an Arena unlock to accompany them!<br> [*] Some regions are even COLDER than they were during the [i]Saint's[/i] time -- even the Incandescent may not be able to survive these areas forever.<br> [*] Many areas have become more flooded, making life more difficult for the Incandescent...<br>[/list] [u]Food Requirements[/u] [list]<br> [*] 8 to hibernate; can store 1 for next cycle<br> [*] Gains only half as much food from anything that's not a plant.<br>[/list] <br>[u]Cycles:[/u]<br> [*] Cycles are a whopping 60% shorter; however, the Incandescent's flame allows her to stay out in the blizzards for a REALLY long time.<br> [*] Precycles are fairly common in most regions, occasionally offsetting the shorter cycles in trade for an increase in creature spawns.<br>[/list]<br>-- 'PLANNED' FEATURES (either if I've completely lost it, or in an alternate universe where I decided to come back to this project for some inexplicable reason) -- [list]<br> [*] Modified layouts for most regions.<br> [*] Up to 6 new creatures, 5 of which being exclusive to the Incandescent's campaign.<br> [*] 1 new area; would potentially be either a full region or just a subregion.<br>[/list]<br>__________________________________________________<br><br>[h1]Known Issues[/h1] [list]<br> [*] The Arena Unlocks display at the end-of-cycle screens doesn't display unlocks available in the Incandescent's campaign correctly. I tried my best to figure out what was wrong here, but I could not fix it.<br> [*] Looks to the Moon dialogue is VERY noticeably untouched/unfinished  - this one's on me for trying to implement some of it this soon; this would have been one of the last things this mod would get to.<br>[/list]Jolly Co-op: [list]<br> [*] Colors for Incandescent's Waistband cannot be customized - this is currently a limitation with the Jolly Co-op menu.<br> [*] The Incandescent's colors are, uh, [i]not right[/i] outside of her own campaign - this is a weird vanilla issue.<br> [*] The Incandescent's Jolly Co-op pup button kinda bugs out visually outside of her own campaign - this one might be on me.<br>[/list]<br>__________________________________________________<br><br>[h1]Credits[/h1]<br>A lot of people from the Rain World discord's modding channels had to put up with a VERY exasperated Bryan for way longer than they probably wanted to; the very least I can do is credit them for all the help and patience they had for me.<br>I apologize greatly if I forgot anyone; my memory isn't the best.<br>SUPER thanks to: [list]<br> [*] Bro<br> [*] Slime-Cubed<br> [*] Lurzard<br> [*] spinch<br> [*] Vigaro<br> [*] MusicalMiracle<br> [*] Moon<br> [*] urufudoggo<br> [*] Turt<br>[/list]",
 "thumb": "previews/2960863440.png",
-"url": "https://andrew.fm/rainworld/raindb/BETA_The_Incandescent.zip",
+"url": "https://andrew.fm/rainworld/raindb/The_Incandescent_Hailstorm.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "",
 "order": 419
@@ -6428,7 +6429,7 @@ Mods.push({
 "id": "ShinyKelp.SlugcatScootsConfig",
 "workshop_id": "2963661736",
 "author": "Shiny Kelp",
-"desc": "Provides a Remix config for configuring various movement techs such as slides, pounces and rolls!<br><br>(yes original thumbnail is from Turtle Toad, pls dont sue me I didnt have anything els--)",
+"desc": "Provides a Remix config for configuring various movement techs such as slides, pounces and rolls!<br><br>And also extra options for Triple Jump mod (if it's enabled)!<br><br>(yes original thumbnail is from Turtle Toad, pls dont sue me I didnt have anything els--)",
 "thumb": "previews/2963661736.png",
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_Scoots_Config.zip",
 "requirements": "",
@@ -6533,7 +6534,7 @@ Mods.push({
 "id": "kingmaxthe2.gravelslug",
 "workshop_id": "2964671523",
 "author": "Kingmaxthe2",
-"desc": "This mod features a new slugcat campaign, region properties, and mechanics<br><br>Some features that Gravel Eater has are:<br><br>- Ability to eat anything that they can shove in their mouth<br>- Can craft things like Artificer and can spit out rocks similar to Gourmand<br>- Can and will sink in deep water if full enough<br>- Food drains over time<br>- Hated by Garbage Worms<br><br>Gravel Eater's main mechanic activates when they are malnourished or not<br><br>if nourished:<br><br>- Resistant to projectiles<br>- Very heavy<br>- Body slam<br>- Immune to Wormgrass<br><br>if malnourished:<br><br>- Boosts to thrown weapons<br>- Boosts to Move set<br>- Mauling<br>- Tummy ache<br><br>There are many other things that you will discover for yourself as well :)<br><br>I'm still working on this when i can and hope to be 'finished' sometime in the next several months<br><br>Enjoy!",
+"desc": "This mod features a new slugcat campaign, region properties, and mechanics<br><br>Some features that Gravel Eater has are:<br><br>- Ability to eat anything that they can shove in their mouth<br>- Can craft things similar to Artificer and can spit out rocks similar to Gourmand<br>- Can and will sink in deep water if full enough<br>- Food drains over time<br>- Hated by Garbage Worms<br><br>Gravel Eater's main mechanic activates when they are malnourished or not<br><br>if nourished:<br><br>- Resistant to projectiles and stunning<br>- Very heavy<br>- Body slam<br>- Immune to Wormgrass<br><br>if malnourished:<br><br>- Boosts to thrown weapons<br>- Boosts to Move set<br>- Mauling<br>- Tummy ache<br><br>There are many other things that you will discover for yourself as well :)<br><br>I'm still working on this when i can and hope to be 'finished' sometime in the next several months<br><br>Enjoy!",
 "thumb": "previews/2964671523.png",
 "url": "https://andrew.fm/rainworld/raindb/The_GravelEater.zip",
 "video": "https://www.youtube.com/@Kingmaxthe2",
@@ -7361,13 +7362,13 @@ Mods.push({
 });
 
 Mods.push({
-"name": "Parasitic Slugcat [0.4.64]",
+"name": "Parasitic Slugcat [0.4.66]",
 "id": "sprobgik.parasitescug",
 "workshop_id": "2972537492",
 "author": "Sprobgik",
-"desc": "Introduces a slugcat that has the ability to control creatures, as well as eat as them. Uses safari mode controls (and modified features from it), with a few changes to make controlling certain creatures marginally easier<br><br>WARNING! This mod heavily modifies Lizards, Scavengers and Vultures and their behavior (or at least, they're the most edited), this mod may not work on other mods that add or modify creatures based off of the 3 mentioned!<br><br>Everything (by that i mean the important stuff) on how to do stuff is told to you through in-game tutorial text, look out for them! (info dump below)<br><br>[spoiler]Pickup, Jump and Map to Burst out of current creature, Pickup is usually bound to biting, Throw usually a ranged attack, Jump either jumping or biting, Map will make lizards aim their bodies while also showing the map<br><br>Additionally, you can take control of creatures by trying to eat them while not controlling one. This allows you to use creatures across multiple cycles, however they have limited uses and eventually run out the more you use them<br><br>You can also use creature dens to hibernate (can be triggered by pressing jump while entering one, or map if you're a vulture), which allows you to use creatures for even more cycles. However the creature you control will eventually get sick, or if its revived, will start expiring. Revived creatures have a set cycle limit, whilst non-revived creatures have a longer, but somewhat random limit.<br>[/spoiler]<br><br>Controls are also shown in the control map, assuming you don't have a mod that hides it (please disable this through the remix menu if the mod gives you a blackscreen when pausing, remind me if it doesn't work)<br><br>P.S. Custom key binds may or may not function correctly when controlling creatures, but from testing, it does not affect anything at all",
+"desc": "Introduces a slugcat that has the ability to control creatures, as well as eat as them. Uses safari mode controls (and modified features from it), with a few changes to make controlling certain creatures marginally easier<br><br>WARNING! This mod heavily modifies Lizards, Scavengers and Vultures and their behavior (or at least, they're the most edited), this mod may not work on other mods that add or modify creatures based off of the 3 mentioned!<br><br>Everything (by that i mean the important stuff) on how to do stuff is told to you through in-game tutorial text, look out for them! (info dump below)<br><br>[spoiler]Pickup, Jump and Map to Burst out of current creature, Pickup is usually bound to biting, Throw usually a ranged attack, Jump either jumping or biting, Map will make lizards aim their bodies while also showing the map<br><br>Additionally, you can take control of creatures by trying to eat them while not controlling one. This allows you to use creatures across multiple cycles, however they have limited uses and eventually run out the more you use them<br><br>You can also use creature dens to hibernate (can be triggered by pressing jump while entering one, or map if you're a vulture), which allows you to use creatures for even more cycles. However the creature you control will eventually get sick, or if its revived, will start expiring. Revived creatures have a set cycle limit, whilst non-revived creatures have a longer, but somewhat random limit.<br><br>(press up and down movement keys to flap wings as vulture)<br>[/spoiler]<br><br>Controls are also shown in the control map, assuming you don't have a mod that hides it (please disable this through the remix menu if the mod gives you a blackscreen when pausing, remind me if it doesn't work)<br><br>P.S. Custom key binds may or may not function correctly when controlling creatures, but from testing, it does not affect anything at all",
 "thumb": "previews/2972537492.png",
-"url": "https://andrew.fm/rainworld/raindb/Parasitic_Slugcat_0464.zip",
+"url": "https://andrew.fm/rainworld/raindb/Parasitic_Slugcat_0466.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns,Game Mechanics",
 "order": 527
@@ -7651,7 +7652,7 @@ Mods.push({
 "id": "ashleyn.manual_dialogue_progression",
 "workshop_id": "2975209181",
 "author": "callistoAshley",
-"desc": "This mod makes a couple of changes: namely, dialogue does not rely on a short delay before continuing to the next message, and rather relies on the player pressing the map button.<br>It also pauses the rain timer while text is on screen.",
+"desc": "This mod makes a couple of changes: namely, dialogue does not rely on a short delay before continuing to the next message, and rather relies on the player pressing the map button.<br>It also pauses the rain timer while text is on screen.<br><br>Source code: https://github.com/callistoAshley/rw-mdp",
 "thumb": "previews/2975209181.png",
 "url": "https://andrew.fm/rainworld/raindb/Manual_Dialogue_Progression.zip",
 "requirements": "",
@@ -8402,11 +8403,11 @@ Mods.push({
 "id": "ukrtranslate",
 "workshop_id": "2982673768",
 "author": "Kashak",
-"desc": "A mod that translates Rain World into Ukrainian.<br><br>Translated: Monologues and pearls (Rain World), Menu and some phrases (Rain World), Menu and some phrases (Rain World Remix), Cooperative (Jolly co-op)<br>Next in line: Expeditions<br>Not translated: Monologues and pearls (Downpour), Menu and some phrases (Downpour)<br><br>Known bugs: There are problems with the hints in the Jolly Co-op guide<br>Submit a translation error: https://discord.gg/awBYSgnPrE<br><br>Thanks for the help: Ved_s, SASHA58, ✙Ҝ1V1✙",
+"desc": "A mod that translates Rain World into Ukrainian.<br><br>Translated: Monologues and pearls (Rain World), Menu and some phrases (Rain World), Menu and some phrases (Rain World Remix), Cooperative (Jolly co-op), Expeditions (Expeditions)<br>Next up: Menu and some phrases (Downpour)<br>Not translated: Monologues and pearls (Downpour)<br><br>Known bugs: There are problems with the hints in the Jolly Co-op guide<br>Submit a translation error: https://discord.gg/awBYSgnPrE<br><br>Thanks for the help: Ved_s, SASHA58, ✙Ҝ1V1✙",
 "thumb": "previews/2982673768.png",
 "url": "https://andrew.fm/rainworld/raindb/Ukrainian_Localisation.zip",
 "requirements": "",
-"tags": "",
+"tags": "Translations",
 "order": 607
 });
 
@@ -9182,7 +9183,7 @@ Mods.push({
 "id": "tcan.marshlandwastes",
 "workshop_id": "2989757351",
 "author": "Tcan",
-"desc": "Get ready to explore the murky landscape of the Marshland Wastes. Featuring over 200 screens and 3 unique subregions, the Marshland Wastes offers a connection to Garbage Wastes, Pipeyard, Chimney Canopy, and Farm arrays<br><br>If you're playing with Diverse Shelters, make sure Marshland Wastes is above it in the remix menu",
+"desc": "Get ready to explore the murky landscape of the Marshland Wastes. Featuring over 200 screens and 3 unique subregions, the Marshland Wastes offers a connection to Garbage Wastes, Pipeyard, Chimney Canopy, and Farm arrays",
 "thumb": "previews/2989757351.png",
 "url": "https://andrew.fm/rainworld/raindb/Marshland_Wastes.zip",
 "requirements": "regionkit,moreslugcats,pom,rwremix,crs",
@@ -9233,7 +9234,7 @@ Mods.push({
 "id": "Ravoofi.MenuTogether",
 "workshop_id": "2990579020",
 "author": "Ravoofi",
-"desc": "Enables multiplayer context on menus so that all players can navigate them instead of just the first player. This mod also gives the ability to pause the game to the other players as well.<br><br>The pausing part doesn't work well with the Improved Input Config mod, but the other players should still be able to unpause or go the dress my slugcat menu.",
+"desc": "Enables multiplayer context on menus and optionally allows all players to pause the game.",
 "thumb": "previews/2990579020.png",
 "url": "https://andrew.fm/rainworld/raindb/Menu_Together.zip",
 "requirements": "",
@@ -10033,7 +10034,7 @@ Mods.push({
 "id": "ssfusefix",
 "workshop_id": "2999742987",
 "author": "Xan",
-"desc": "Downpour introduced a change to the Superstructure Fuse effect which caused it to completely fail at its one purpose: to render on fuse tiles. This mod resolves the issue by properly offsetting the rendered depth. It also fixes a half-tile misalignment bug on objects with an odd width on Layer 1.A small shout to gromit mug over in the RW discord for complaining about the problem while working on the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2999289203]Fortunate Development[/url] mod, which prompted me to fix this because I happen to be working on a superstructure too.",
+"desc": "If you use RegionKit, this patch is natively included. This mod will quietly skip its patches if you have RegionKit installed, so no worries if you left this enabled.<br><br>If you don't use RegionKit and just want this mod in its standalone form, it's still available here and will remain that way.<br><br>Downpour introduced a change to the Superstructure Fuse effect which caused it to completely fail at its one purpose: to render on fuse tiles. This mod resolves the issue by properly offsetting the rendered depth. It also fixes a half-tile misalignment bug on objects with an odd width on Layer 1.<br><br>A small shout to gromit mug for complaining about the problem while working on the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2999289203]Fortunate Development[/url] mod, which prompted me to fix this because I happen to be working on a superstructure too.",
 "thumb": "previews/2999742987.png",
 "url": "https://andrew.fm/rainworld/raindb/Superstructure_Fuse_Fix.zip",
 "requirements": "",
@@ -10059,7 +10060,7 @@ Mods.push({
 "id": "dododonut.unshackledcoop",
 "workshop_id": "2999820529",
 "author": "Dododonut",
-"desc": "[h1]Play as anyone, anywhere.[/h1]<br>Makes every slugcat selectable in Jolly Co-op and Arena!<br>Nightcat, Inv, and even playable Slugpups are available!<br>[i]And yes, real playable Slugpups, not the cosmetic option.[/i]<br>Also gives every campaign Co-op! Even Inv!<br><br>[h1]Now with added features![/h1]<br>All features can be toggled through the remix menu, and are [b]disabled by default.[/b]<br>- Player 1 can eat dead creatures in Gourmand's campaign if no other player can, with a greater food reduction.<br>- All slugcats can use scavenger karma in Artificer's campaign.<br>- All non-Rivulet slugcats get extended lung capacity in submerged superstructure for Rivulet's campaign.<br><br>[h1]Bugs and glitches are abound, be warned![/h1]<br>Known bugs:<br>- Cross-Mod compatibility issues (if a bug you have encountered is not listed below, this is [i]likely[/i] the case)<br>- Nightcat, Inv, and Slugpups do not have character portraits.<br>- Artificer's dreams can encounter a variety of bugs, from unusual pups, failing to spawn the player, etc. Shouldn't cause any more loading issues than what the base game has already. I hope.<br>- Slugpups use custom colours even if colour settings are set otherwise.<br>- Gourmand's food quest is missing a null check for when it is created without Gourmand as player 1. Shouldn't cause major issues.<br>- Extended lung capacity feature currently does not carry over multiple cycles.<br>- Saint's gameplay intro is missing the orig() call. May cause cross-mod incompatibilities.<br><br>Known mod incompatibilities:<br>- CoopTweaks: Slugpups become unplayable.<br>Please report any other incompatibilities! If enough people report the same mod, it'll be added to the list.<br><br>[h1]Update History[/h1]<br>v1.1.2:<br>- Fixed additional missing null checks in Player.Update().<br>- Fixed Saint's gameplay intro not loading if the player with the highest player number was not Saint.<br>- Saint's rollover object is now given to player 1.<br>- Singularity bombs spawned by Inv on non-Inv campaigns will now look like the eggzero, until hibernation or storage.<br><br>v1.1.1:<br>- Fixed missing null check in Player.Update(), which was causing some loading issues.<br><br>v1.1.0:<br>- Added remix menu.<br>- Added feature that allows player 1 to eat dead creatures in Gourmand's campaign.<br>- Added all slugcat scavenger karma feature.<br>- Added extended lung capacity feature.<br>- Fixed Gourmand's food quest not appearing on their campaign if player 1 was not Gourmand.<br>- Fixed issues relating to scavenger karma.<br>- Fixed Speamaster's iterator cutscenes freezing if player 1 was not Spearmaster.<br>- Five Pebbles now shoves away all players after reading Spearmaster's pearl. Smart shortcuts recommended.<br>- Hidden slugcat names are more polished.<br>- Inv's name is now changable via the remix menu, if you prefer to call them something else.<br><br>v1.0.3:<br>- Fixed bitter aerie warp, which can now be triggered by any player.<br>- Fixed Rivulet's end cutscene.<br>- ACTUALLY fixed broken Steam workshop tag.<br><br>v1.0.2:<br>- Slugpups now support custom colours.<br><br>v1.0.1:<br>- Fixed issues regarding player Slugpup food requirements.<br>- Fixed Slugpup starving issue.<br>- Fixed broken Steam workshop tag.",
+"desc": "[h1]Play as anyone, anywhere.[/h1]<br>Makes every slugcat selectable in Jolly Co-op and Arena!<br>Nightcat, Inv, and even playable Slugpups are available!<br>[i]And yes, real playable Slugpups, not the cosmetic option.[/i]<br>Also gives every campaign Co-op! Even Inv!<br><br>[h1]Now with added features![/h1]<br>All features can be toggled through the remix menu, and are [b]disabled by default.[/b]<br>- Player 1 can eat dead creatures in Gourmand's campaign if no other player can, with a greater food reduction.<br>- All slugcats can use scavenger karma in Artificer's campaign.<br>- All slugcats get high agility in The Rot.<br>- All non-Rivulet slugcats get extended lung capacity in Submerged Superstructure for Rivulet's campaign.<br>- All slugcats get a grappling tongue in Saint's exclusive regions.<br>- Super Nightcat.<br><br>[h1]Bugs and glitches ahead, be warned![/h1]<br>Known bugs:<br>- Cross-Mod compatibility issues (if a bug you have encountered is not listed below, this is [i]likely[/i] the case)<br>- Artificer's dreams can encounter a variety of bugs, from unusual pups, failing to spawn the player, etc.<br><br>Known mod incompatibilities:<br>- CoopTweaks: Slugpups become unplayable.<br>Please report any other incompatibilities! If enough people report the same mod, it'll be added to the list.<br><br>[h1]Update History[/h1]<br>v1.2.1:<br>- Fixed bug that was causing Spearmaster's campaign to fail rendering other players.<br><br>v1.2.0:<br>- Created trailer.<br>- Added Nightcat, Inv and Slugpup character portraits.<br>- Added high agility in The Rot feature.<br>- Added all slugcat grappling tongue in Saint regions feature.<br>- Added Super Nightcat.<br>- Fixed problem with extended lung capacity feature.<br>- Fixed missing orig() call in Saint's gameplay intro.<br>- Fixed Slugpups using custom colours when colour settings were set otherwise.<br>- Fixed Slugpups using default colours in arena mode.<br>- Polished remix setting labels.<br>- 'Expedition-proof'ed the code, so the mod wouldn't affect Expedition mode.<br><br>v1.1.2:<br>- Fixed additional missing null checks in Player.Update().<br>- Fixed Saint's gameplay intro not loading if the player with the highest player number was not Saint.<br>- Saint's rollover object is now given to player 1.<br>- Singularity bombs spawned by Inv on non-Inv campaigns will now look like the eggzero, until hibernation or storage.<br><br>v1.1.1:<br>- Fixed missing null check in Player.Update(), which was causing some loading issues.<br><br>v1.1.0:<br>- Added remix menu.<br>- Added feature that allows player 1 to eat dead creatures in Gourmand's campaign.<br>- Added all slugcat scavenger karma feature.<br>- Added extended lung capacity feature.<br>- Fixed Gourmand's food quest not appearing on their campaign if player 1 was not Gourmand.<br>- Fixed issues relating to scavenger karma.<br>- Fixed Speamaster's iterator cutscenes freezing if player 1 was not Spearmaster.<br>- Five Pebbles now shoves away all players after reading Spearmaster's pearl. Smart shortcuts recommended.<br>- Hidden slugcat names are more polished.<br>- Inv's name is now changable via the remix menu, if you prefer to call them something else.<br><br>v1.0.3:<br>- Fixed Bitter Aerie warp, which can now be triggered by any player.<br>- Fixed Rivulet's end cutscene.<br>- ACTUALLY fixed broken Steam workshop tag.<br><br>v1.0.2:<br>- Slugpups now support custom colours.<br><br>v1.0.1:<br>- Fixed issues regarding player Slugpup food requirements.<br>- Fixed Slugpup starving issue.<br>- Fixed broken Steam workshop tag.",
 "thumb": "previews/2999820529.png",
 "url": "https://andrew.fm/rainworld/raindb/Unshackled_Coop_Play_Anyone_on_Every_Campaign.zip",
 "requirements": "moreslugcats,jollycoop",
@@ -10190,7 +10191,7 @@ Mods.push({
 "id": "olaycolay.thevinki",
 "workshop_id": "3001275271",
 "author": "OlayColay",
-"desc": "[b]Play as an angsty teen wearing rail-grinding shoes and spraying graffiti to enact revenge on 5P.[/b]<br><br>[h1]Controls[/h1]<br>Hold pickup to land on horizontal beams with your Soap shoes and grind on them. Jumping when going fast enough allows you to do a trick jump!<br>[img]https://i.imgur.com/9EviGd5.gif[/img]<br><br>You can also grind vertical beams. Holding jump when you get to the top will result in a trick jump as well.<br>[img]https://i.imgur.com/fOCUaI1.gif[/img]<br><br>Hold LB/L1/C to enter GRAFFITI MODE (you can change this button in Rain World's input settings) and then press pickup to spray a graffiti on the background! Details for inserting your own images are below.<br>[img]https://i.imgur.com/dwGJtYC.gif[/img]<br><br>[h1]Advanced mechanics[/h1]<br>Trick jumping just after falling from a horizontal beam grind (coyote jumping) will give you a horizontal boost!<br>[img]https://i.imgur.com/r7ZffJB.gif[/img]<br><br>You can hold down to fall through the beam you're on, then let go to land on a lower beam!<br>[img]https://i.imgur.com/p9XkyOq.gif[/img]<br><br>[h1]Story[/h1]<br>Once upon a time in the sprawling world of Rain World, there lived a slugcat named The Vinki. He was a mischievous and artistic slugcat who had a knack for graffiti, and was inspired by the music he listen to from his RainPods(tm). Every wall, pipe, and surface in his vicinity became his canvas, as he painted vibrant murals that brought color to the gloomy world.<br><br>However, The Vinki's life took a sad turn when he encountered Five Pebbles, a notorious and eccentric iterator known for his strict adherence to rules. It was an unfortunate meeting that forever changed The Vinki's perception of the world. Five Pebbles, in his unyielding quest for order, found one of The Vinki's graffiti pieces and decided to erase it with a single stroke of his overseer's laser.<br><br>The Vinki was devastated. His masterpiece was gone, reduced to mere dust. The pain of betrayal seeped deep into his slugcat soul. But he was determined to turn his sadness into something extraordinary.<br><br>As he wandered through the ruins and remnants of the Rain World, The Vinki stumbled upon a hidden alcove. Within it lay a forgotten artifact known as Soap shoes. These shoes were unlike anything he had ever seen before. They were infused with a long-lost technology that allowed the wearer to effortlessly grind rails and poles.<br><br>The Vinki saw this as a sign—a chance to not only express himself through art but to also seek vengeance in a playful yet hilarious manner. With his newfound grinding abilities, he set out to create his most audacious and eye-catching graffiti pieces yet, leaving them in the most daring and impossible-to-reach places.<br><br>From the tops of crumbling skyscrapers to the edges of perilous cliffs, The Vinki's art became a symbol of rebellion and resilience. He painted with passion, pouring his heart and soul into each stroke, defying the oppressive world around him.<br><br>The Rain World denizens, initially puzzled by The Vinki's antics, couldn't help but be both amused and awestruck. They laughed at the absurdity of seeing a slugcat grinding rails and poles, creating intricate art high above their heads. The Vinki's graffiti became a beacon of hope, reminding them that even in the darkest of times, there was still room for joy and laughter.<br><br>And so, The Vinki, the sad yet funny slugcat, continued to roam the Rain World, leaving his mark wherever he could. He carried the pain of betrayal, but he channeled it into his art, inspiring others to find solace in their own creativity. The Vinki's saga taught the denizens of Rain World that even amidst sorrow, a little laughter and self-expression could bring about profound healing and transformation.<br><br>[b][url=https://artfight.net/character/3448140.the-vinki-slugcat]Artfight link[/url][/b] <br><br>[h1]To Do[/h1]<br>[list]<br>    [*][strike]Grind in 0G[/strike]<br>    [*][strike]Grind on vines[/strike]<br>    [*][strike]Graffiti placement mechanic[/strike]<br>    [*]Graffiti quest<br>    [*]Story<br>    [*]World design changes (moar grind rails, etc.)<br>    [*]Art (for sleep screens, char select, etc.)<br>    [*]Custom animations (grinding vertically, etc.)<br>    [*]Trailer<br>[/list]<br><br>Let me know if you have any questions or suggestions! You can also find me on Discord at [i]olaycolay[/i]<br><br>[h1]Custom Art Instructions[/h1]<br>[h2]In Game Graffiti[/h2]<br>When you first start Rain World with The Vinki mod enabled, a new folder will appear in [i]Steam/steamapps/common/Rain World/RainWorld_Data/StreamingAssets/decals[/i] called [i]VinkiGraffiti[/i]. There, you can upload pngs of graffitis you want to see, and remove the ones you don't!<br>[img]https://i.imgur.com/of4EUPl.png[/img]<br><br>If you need to access Rain World's files, you can right-click the game in your Steam Library, then go to Manage > Browse Local Files<br><br>[h2]Slugcat Selection Screen Graffiti[/h2]<br>This is a bit more involved, so prepare thyself.<br>[olist]<br>    [*]Navigate to the mod's folder. It should be under [i]Steam/steamapps/workshop/content/312520/3001275271[/i]<br>[img]https://i.imgur.com/vrlz9e2.png[/img]<br><br>    [*]Go into [i]scenes/slugcat - vinki[/i]<br>[img]https://i.imgur.com/5EatpRd.png[/img]<br><br>    [*][b]Optional[/b]: You can open Flat.png in a photo-editing program, then size your graffiti to fit on the wall. Save just that graffiti as a png with all of the extra whitespace and you'll get to skip adjusting it (in a much more painful way) later.<br>[img]https://i.imgur.com/RNTwaXK.png[/img]<br><br>    [*]Put your new graffiti there and rename it to [i]Graffiti - X[/i] where X is one number higher than the highest already in the folder<br>[img]https://i.imgur.com/QycMuUj.png[/img]<br><br>    [*]Almost done! Now go back to the mod folder and go into [i]slugbase/scenes[/i]. Then open slugcat_vinki.json<br>[img]https://i.imgur.com/KjJP08F.png[/img]<br><br>    [*]Copy & paste one of the blocks for the graffiti images. Then, rename the pasted block to match your new graffiti. If you resized your image earlier, then you don't have to worry about changing the other parameters!<br>[img]https://i.imgur.com/NOo9XQm.png[/img]<br><br>    [*]You're done, congrats! Now you should see your graffiti eventually in Vinki's slugcat selection screen. Note that you should back your files up somewhere in case a future update messes with them.<br>[img]https://i.imgur.com/MNKOnTF.png[/img]<br>[/olist]<br><br>[h1]Credits[/h1]<br>The legendary [i]cone._.lord[/i] (on Discord) for the Art!<br>My lovely gf for the name idea and help with the original color choices! <3<br>The teams behind the mod's dependencies for making modding Rain World as painless and as fun of a process as possible!",
+"desc": "[b]Play as an angsty teen wearing rail-grinding shoes and spraying graffiti to enact revenge on 5P.[/b]<br><br>[h1][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3009407468]Guide on how to play and how to insert custom images![/url][/h1]<br>https://steamcommunity.com/sharedfiles/filedetails/?id=3009407468<br><br>[img]https://i.imgur.com/9EviGd5.gif[/img]<br><br>[img]https://i.imgur.com/fOCUaI1.gif[/img]<br><br>[img]https://i.imgur.com/dwGJtYC.gif[/img]<br><br>[h1]Story[/h1]<br>Once upon a time in the sprawling world of Rain World, there lived a slugcat named The Vinki. He was a mischievous and artistic slugcat who had a knack for graffiti, and was inspired by the music he listen to from his RainPods(tm). Every wall, pipe, and surface in his vicinity became his canvas, as he painted vibrant murals that brought color to the gloomy world.<br><br>However, The Vinki's life took a sad turn when he encountered Five Pebbles, a notorious and eccentric iterator known for his strict adherence to rules. It was an unfortunate meeting that forever changed The Vinki's perception of the world. Five Pebbles, in his unyielding quest for order, found one of The Vinki's graffiti pieces and decided to erase it with a single stroke of his overseer's laser.<br><br>The Vinki was devastated. His masterpiece was gone, reduced to mere dust. The pain of betrayal seeped deep into his slugcat soul. But he was determined to turn his sadness into something extraordinary.<br><br>As he wandered through the ruins and remnants of the Rain World, The Vinki stumbled upon a hidden alcove. Within it lay a forgotten artifact known as Soap shoes. These shoes were unlike anything he had ever seen before. They were infused with a long-lost technology that allowed the wearer to effortlessly grind rails and poles.<br><br>The Vinki saw this as a sign—a chance to not only express himself through art but to also seek vengeance in a playful yet hilarious manner. With his newfound grinding abilities, he set out to create his most audacious and eye-catching graffiti pieces yet, leaving them in the most daring and impossible-to-reach places.<br><br>From the tops of crumbling skyscrapers to the edges of perilous cliffs, The Vinki's art became a symbol of rebellion and resilience. He painted with passion, pouring his heart and soul into each stroke, defying the oppressive world around him.<br><br>The Rain World denizens, initially puzzled by The Vinki's antics, couldn't help but be both amused and awestruck. They laughed at the absurdity of seeing a slugcat grinding rails and poles, creating intricate art high above their heads. The Vinki's graffiti became a beacon of hope, reminding them that even in the darkest of times, there was still room for joy and laughter.<br><br>And so, The Vinki, the sad yet funny slugcat, continued to roam the Rain World, leaving his mark wherever he could. He carried the pain of betrayal, but he channeled it into his art, inspiring others to find solace in their own creativity. The Vinki's saga taught the denizens of Rain World that even amidst sorrow, a little laughter and self-expression could bring about profound healing and transformation.<br><br>[b][url=https://artfight.net/character/3448140.the-vinki-slugcat]Artfight link[/url][/b] <br><br>[h1]To Do[/h1]<br>[list]<br>    [*][strike]Grind in 0G[/strike]<br>    [*][strike]Grind on vines[/strike]<br>    [*][strike]Graffiti placement mechanic[/strike]<br>    [*]Graffiti quest<br>    [*]Story<br>    [*]World design changes (moar grind rails, etc.)<br>    [*]Art (for sleep screens, char select, etc.)<br>    [*]Custom animations (grinding vertically, etc.)<br>    [*]Trailer<br>[/list]<br><br>Let me know if you have any questions or suggestions! You can also find me on Discord at [i]olaycolay[/i]<br><br>[h1]Credits[/h1]<br>The legendary [i]cone._.lord[/i] (on Discord) for the Art!<br>My lovely gf for the name idea and help with the original color choices! <3<br>The teams behind the mod's dependencies for making modding Rain World as painless and as fun of a process as possible!",
 "thumb": "previews/3001275271.png",
 "url": "https://andrew.fm/rainworld/raindb/The_Vinki.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
@@ -10229,7 +10230,7 @@ Mods.push({
 "id": "everywherearenastwg",
 "workshop_id": "3001859244",
 "author": "The_Wild_Goose",
-"desc": "An arena map pack with lots of variations. Ranging from industrial spaces to natural landscapes.<br>The maps don't come from somewhere in the story mode map, they just come from my imagination.<br>In the future there will be more maps in the mod.<br><br>Arenas in order of creation <br><br>- Chimneys<br>- Fantasy Isles <br>- Greenhouse <br>- Hollow<br>- Reed Farm<br>- Bridge<br>- Snowy Pits<br>- Complex<br>- Acid Filters<br>- Communicator<br>",
+"desc": "An arena map pack with a lot variation. Ranging to industrial spaces to natural landscapes.",
 "thumb": "previews/3001859244.png",
 "url": "https://andrew.fm/rainworld/raindb/Everywhere_and_No_Where.zip",
 "requirements": "",
@@ -10268,7 +10269,7 @@ Mods.push({
 "id": "lizardbananza",
 "workshop_id": "3002707647",
 "author": "collywobbles",
-"desc": "Adds some new types of lizards! im mostly just making these for fun whenever i feel like and im not too experienced, so bear with me here<br><br>Gilded Lizard - 20% chance to replace Cyan lizard spawns<br><br>can leap, climb walls, has a high surface swim speed, and are naturally passive towards the player and slugpups! they also want to obliterate every centipede in existence<br><br>Mohitora Lizard - 10% chance to replace Green lizard spawns<br><br>similar to green lizards, but have worse eyesight and the ability to spit.<br><br>Blueberry Lizard - 5% chance to replace Blue lizard spawns, 15% chance to replace Strawberry lizard spawns<br><br>sort of just a blue strawberry lizard i guess",
+"desc": "woop! more goobers!!<br><br>Gilded Lizard - naturally passive toward the player, high mobility, and are not too fond of centipedes existing<br>20% chance to replace Cyan Lizard spawns<br><br>Mohitora Lizard - A larger green lizard with the ability to spit, with lower than average vision<br>10% chance to replace Green Lizard spawns.<br><br>Blueberry Lizard - Similar to the strawberry lizard, but with the same antennae orange lizards have<br>5% chance to replace Blue Lizard spawns.<br>15% chance to replace Strawberry Lizard spawns.<br><br>Conifer Lizard - Barely acknowledges the players existence. they are public number 1 hater of all centipedes and can spit spore puffs. practically impossible to tame, so dont bother trying<br>5% chance to replace normal Centipede spawns.<br><br>(regarding the Conifer lizard, yes i am aware that there is already a lizard made by someone else who can spit spore puffs. i did not know at the time of making it and i only realised after i'd finished, so i thought i might aswell shove em in here anyway.)",
 "thumb": "previews/3002707647.png",
 "url": "https://andrew.fm/rainworld/raindb/Silly_Lizards.zip",
 "requirements": "lizardcustomizer,simplespawnswapper",
@@ -10407,6 +10408,18 @@ Mods.push({
 });
 
 Mods.push({
+"name": "The Tower - Daszombes",
+"id": "hibiscousdragon.thetower",
+"workshop_id": "3003902112",
+"author": "HibiscousDragon",
+"desc": "Inspired by a video from youtuber Daszombes. WIP<br><br><br>Region entrance is just beside the OE entrance. Some rooms are unfinished, some will be redesigned.<br><br>Constructive feedback appreciated, region was developed with permission from Daszombes.",
+"url": "https://andrew.fm/rainworld/raindb/The_Tower__Daszombes.zip",
+"requirements": "",
+"tags": "Regions",
+"order": 762
+});
+
+Mods.push({
 "name": "Long Jump",
 "id": "longjump",
 "workshop_id": "3003902508",
@@ -10416,7 +10429,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Long_Jump.zip",
 "requirements": "",
 "tags": "",
-"order": 762
+"order": 763
 });
 
 Mods.push({
@@ -10429,7 +10442,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/They_Are_Different.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics,Accessiblity",
-"order": 763
+"order": 764
 });
 
 Mods.push({
@@ -10443,7 +10456,7 @@ Mods.push({
 "video": "https://www.youtube.com/@tsoewoe",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 764
+"order": 765
 });
 
 Mods.push({
@@ -10451,12 +10464,12 @@ Mods.push({
 "id": "h648804.femsaint",
 "workshop_id": "3004481514",
 "author": "h648804",
-"desc": "please... krill me, make it shrimple.<br><br>based on tsoewoe femsaint on yt",
+"desc": "please... krill me, make it shrimple.",
 "thumb": "previews/3004481514.png",
 "url": "https://andrew.fm/rainworld/raindb/femsaint.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 765
+"order": 766
 });
 
 Mods.push({
@@ -10469,7 +10482,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/VultureTankMod.zip",
 "requirements": "",
 "tags": "",
-"order": 766
+"order": 767
 });
 
 Mods.push({
@@ -10482,7 +10495,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tommys_Monk.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 767
+"order": 768
 });
 
 Mods.push({
@@ -10495,7 +10508,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Funny_Deltarune_Explosion.zip",
 "requirements": "",
 "tags": "",
-"order": 768
+"order": 769
 });
 
 Mods.push({
@@ -10508,7 +10521,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Copycats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 769
+"order": 770
 });
 
 Mods.push({
@@ -10516,12 +10529,12 @@ Mods.push({
 "id": "screen-lady.cloudburst",
 "workshop_id": "3005133250",
 "author": "Screen Lady",
-"desc": "A collection of simplified custom Slugcats based on characters from my Cloudburst server.<br>[u]This is my first attempt at a proper Rain World mod, so don't expect anything to be too fancy, as it currently has no custom abilities or world changes yet. It only has custom stats and artwork for now.[/u]<br><br><br><br>Currently includes one W.I.P playable, though more are planned to be made once custom abilities are ready:<br><br>[h1]The Ascendant[/h1]<br>The Ascendant is built lightly, and as a result has a lower weight than most Slugcats. This also allows them to jump slightly higher as well as sprint faster, though they are not as agile as the infamous Rivulet.<br>They start off with a natural glow that aids them through dark areas, as well as the Mark of Communication.<br>With the help of their extra arms, they are capable of throwing a spear that deals more damage than usual in order to defend themselves, which comes in handy when the world they find themselves in is littered with dangerous enemies...<br><br>Thanks to their strange feather tufts, The Ascendant has a slightly higher than usual reputation with lizards, as they will hesitate to attack them as quickly, giving them an advantage to plan out the situation before engaging in combat. However, this comes with a cost of local creatures such as Squidcadas, Jetfish, and Scavengers having a natural disliking to you as well. You will have to go out of your way to increase your reputation with them.<br><br>Starvation is a higher risk than usual for The Ascendant, as they require 5 food to hibernate while being able to store 10 total. Plants give less food than usual, as they are mainly carnivorous. However, certain foods will fill much more hunger than usual, with their favorite food being Eggbug Eggs and especially anything Firebug related.<br><br>Lastly, the Ascendant starts off in Rubicon, and currently uses Rivlet's worldstate.[spoiler](Post-Rivulet, Pre-Saint.)[/spoiler]<br>[spoiler]If you happen to load the mod without Downpour, Ascendant will instead use Hunter's worldstate as a failsafe.[/spoiler]<br><br>[b]I highly recommend you set the tail settings to the following in Dress My Slugcat, for the best experience:<br>[i]6 to 7 Length<br>2.5 Wideness<br>0.5 Roundness[/i][/b]<br><br><br>[b][h1]NEXT UPDATE IS FOCUSING ON ADDING CUSTOM SPAWNS TO EVERY REGION ASCENDANT CAN REACH. THIS MAY TAKE A FEW DAYS.[/h1][/b]<br><br><br>[h1]Known Issues[/h1]<br>- Due to currently using Rivulet's worldstate, it also loads up Rivulet's campaign. It is very likely that Ascendant is incapable of finishing this campaign due to being unable to navigate the underwater portions of Submerged Superstructure.<br>[spoiler]Again, if you do not own Downpour it will load Hunter's instead. But since you do not start with the reset key in hand, it is still unbeatable.[/spoiler]<br>As a result the only real ending one can achieve is choosing to ascend.<br>- Unsure if this is an issue with the base game or not, but the mod appears to need to be installed after each [u]major[/u] update to detect the correct version number. I'm unsure how to fix this, and apologize in advance.<br>- Character may be a bit unbalanced at the moment, a few nerfs are planned once their crafting is implemented.<br>- Sometimes certain sprites appear to white out into triangles, this may be a Dress My Slugcat issue. Reloading Atlases or reinstalling the mod tends to fix this however.<br><br><br><br>[h1]To Do[/h1]<br>- [strike]Add Arena Mode sprites.[/strike]<br>- [strike]Add unique in-game sprites.[/strike]<br>- Add Death artwork.<br>- Add Sleeping artwork.<br>- Add Ascended artwork.<br>- [strike]Add Title Screen artwork.[/strike]<br>- [strike]Add Selection Screen artwork.[/strike]<br>- Update Selection Screen background/foreground.<br><br><br><br>[h1]Future playables[/h1]<br>- The Vorpal?<br>- The Siren?<br><br><br><br>[h1]Planned Abilities[/h1]<br>- Give Ascendant limited crafting for void/light base objects.<br><br><br><br>[h1]Requirements[/h1]<br>- [b]Slugbase[/b] allows the character to function.<br>- [b]Dress My Slugcat[/b] allows you to give the character their intended skin until I can figure out how to hardcode it into the character.<br>- [b]Open Exclusive Regions[/b] allows the character to escape Rubicon until I can figure out how to add unique gates myself, this requirement is mostly a placeholder for now.<br>- [b]Downpour DLC[/b] gives the character the intended worldstate for gameplay, as well as some of their favorite foods, and future crafting recipes. Since the mod doesn't have any mechanic dependencies from Downpour yet, it is theoretically possible to play it with the base game. Though I highly recommend against this as it will only cause the mod to break later on once these are added.",
+"desc": "A collection of simplified custom Slugcats and Lizards based on characters from my Cloudburst server.<br>[u]This is my first attempt at a proper Rain World mod, so don't expect anything to be too fancy, as it currently has no custom abilities or world changes yet. It only has custom stats and artwork for now.[/u]<br><br><br><br>Currently includes one W.I.P playable, though more are planned to be made once custom abilities are ready:<br><br>[h1]The Ascendant[/h1]<br>The Ascendant is built lightly, and as a result has a lower weight than most Slugcats. This also allows them to jump slightly higher as well as sprint faster, though they are not as agile as the infamous Rivulet.<br>They start off with a natural glow that aids them through dark areas, as well as the Mark of Communication.<br>With the help of their extra arms, they are capable of throwing a spear that deals more damage than usual in order to defend themselves, which comes in handy when the world they find themselves in is littered with dangerous enemies...<br><br>Thanks to their strange feather tufts, The Ascendant has a slightly higher than usual reputation with lizards, as they will hesitate to attack them as quickly, giving them an advantage to plan out the situation before engaging in combat. However, this comes with a cost of local creatures such as Squidcadas, Jetfish, and Scavengers having a natural disliking to you as well. You will have to go out of your way to increase your reputation with them.<br><br>Starvation is a higher risk than usual for The Ascendant, as they require 5 food to hibernate while being able to store 10 total. Plants give less food than usual, as they are mainly carnivorous. However, certain foods will fill much more hunger than usual, with their favorite food being Eggbug Eggs and especially anything Firebug related.<br><br>Lastly, the Ascendant starts off in Rubicon, and currently uses Rivlet's worldstate.<br>[spoiler](Post-Rivulet, Pre-Saint.)[/spoiler]<br>[spoiler]If you happen to load the mod without Downpour, Ascendant will instead use Hunter's worldstate as a failsafe, starting in Shaded Citadel.[/spoiler]<br><br>[b][u]I highly recommend you set the tail settings to the following in Dress My Slugcat, for the best experience:[/u]<br>[i]Asymmetry<br>6 to 7 Length<br>2.0 Wideness<br>0.1 Roundness[/i][/b]<br><br><br>[h1]Known Issues[/h1]<br>- Due to currently using Rivulet's worldstate, it also loads up Rivulet's campaign. It is very likely that Ascendant is incapable of finishing this campaign due to being unable to navigate the underwater portions of Submerged Superstructure.<br>[spoiler]Again, if you do not own Downpour it will load Hunter's instead. But since you do not start with the reset key in hand, it is still unbeatable.[/spoiler]<br>As a result the only real ending one can achieve is choosing to ascend.<br>- Unsure if this is an issue with the base game or not, but the mod appears to need to be installed after each [u]major[/u] update to detect the correct version number. I'm unsure how to fix this, and apologize in advance.<br>- Character may be a bit unbalanced at the moment, a few nerfs are planned once their crafting is implemented.<br>- Sometimes certain sprites appear to white out into triangles, this may be a Dress My Slugcat issue. Reloading Atlases or reinstalling the mod tends to fix this however.<br>- Custom spawns are unfinished, and only Rubicon, Outer Expanse, and Garbage Wastes has them.<br>- Lavender Lizard does not naturally spawn anywhere in the current patch, but can be used in Arena Mode.<br><br><br><br>[h1]To Do[/h1]<br>- [strike]Add Arena Mode sprites.[/strike]<br>- [strike]Add unique in-game sprites.[/strike]<br>- Add Death artwork.<br>- Add Sleeping artwork.<br>- Add Ascended artwork.<br>- [strike]Add Title Screen artwork.[/strike]<br>- [strike]Add Selection Screen artwork.[/strike]<br>- Update Selection Screen background/foreground.<br>- [u][b]Finish adding custom spawns to every Region[/b][/u].<br><br><br><br>[h1]Future playables[/h1]<br>- The Vorpal?<br>- The Siren?<br><br><br><br>[h1]Planned Abilities[/h1]<br>- Give Ascendant limited crafting for void/light base objects.<br><br><br><br>[h1]Requirements[/h1]<br>- [b]Slugbase[/b] allows the character to function.<br>- [b]Dress My Slugcat[/b] allows you to give the character their intended skin until I can figure out how to hardcode it into the character.<br>- [b]Open Exclusive Regions[/b] allows the character to escape Rubicon until I can figure out how to add unique gates myself, this requirement is mostly a placeholder for now.<br>- [b]Lizard Customizer[/b] and [b]Spit Anything[/b] allow Cream, Lavender, and Mimic lizards to function and spawn throughout various regions on this specific character.<br>- [b]Downpour DLC[/b] gives the character the intended worldstate for gameplay, as well as some of their favorite foods, and future crafting recipes. Since the mod doesn't have any mechanic dependencies from Downpour yet, it is theoretically possible to play it with the base game. Though I highly recommend against this as it will only cause the mod to break later on once these are added.",
 "thumb": "previews/3005133250.png",
 "url": "https://andrew.fm/rainworld/raindb/Cloudburst.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat,openthegates",
 "tags": "Campaigns",
-"order": 770
+"order": 771
 });
 
 Mods.push({
@@ -10534,7 +10547,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Foxies_Random_Frills_And_a_Burn_Mark.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 771
+"order": 772
 });
 
 Mods.push({
@@ -10547,7 +10560,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/LillyPuck_Damage_Bonus.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 772
+"order": 773
 });
 
 Mods.push({
@@ -10560,7 +10573,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pupify.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 773
+"order": 774
 });
 
 Mods.push({
@@ -10573,7 +10586,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Boykisser_scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 774
+"order": 775
 });
 
 Mods.push({
@@ -10586,7 +10599,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Big_Pants.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 775
+"order": 776
 });
 
 Mods.push({
@@ -10599,20 +10612,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Waaaa.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 776
+"order": 777
 });
 
 Mods.push({
-"name": "Individual Food Bars [0.1.17]",
+"name": "Individual Food Bars [0.1.181]",
 "id": "sprobgik.individualfoodbars",
 "workshop_id": "3006215037",
 "author": "Sprobgik",
 "desc": "A mod for Jolly Co-op that separates your friends' food bars as opposed to sharing one, so you can have that one friend who's always starving!<br><br>Changes certain things in order to allow each player to have their own food without affecting the other, though these changes may be affected by other mods, or even affect what they do! Load order might fix this however, so make sure it loads last!<br><br>Do note that this may not function correctly if you use it for singleplayer purposes, also changes shelter closing conditions<br><br>Notable changes include:<br>- Players having individual food bars, similarly to pup food bars<br>- Individual players can become malnourished, and if there's enough players malnourished, will trigger a starve cycle<br>- Individual players can starve to death, basically spawning dead next cycle<br>- Players who arrive in a shelter dead will become malnourished next cycle, and will not retain any food they had",
 "thumb": "previews/3006215037.png",
-"url": "https://andrew.fm/rainworld/raindb/Individual_Food_Bars_0117.zip",
+"url": "https://andrew.fm/rainworld/raindb/Individual_Food_Bars_01181.zip",
 "requirements": "jollycoop",
 "tags": "Game Mechanics",
-"order": 777
+"order": 778
 });
 
 Mods.push({
@@ -10625,7 +10638,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hexcugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 778
+"order": 779
 });
 
 Mods.push({
@@ -10638,7 +10651,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mouse_Input.zip",
 "requirements": "",
 "tags": "",
-"order": 779
+"order": 780
 });
 
 Mods.push({
@@ -10651,7 +10664,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NekoArcSFX.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 780
+"order": 781
 });
 
 Mods.push({
@@ -10664,7 +10677,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Zeths_stuff.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 781
+"order": 782
 });
 
 Mods.push({
@@ -10677,7 +10690,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/eepy.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 782
+"order": 783
 });
 
 Mods.push({
@@ -10690,7 +10703,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gloobus_Makes_Lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 783
+"order": 784
 });
 
 Mods.push({
@@ -10703,7 +10716,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Mechanical.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 784
+"order": 785
 });
 
 Mods.push({
@@ -10716,7 +10729,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Centriscugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 785
+"order": 786
 });
 
 Mods.push({
@@ -10729,7 +10742,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sludge_cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 786
+"order": 787
 });
 
 Mods.push({
@@ -10742,7 +10755,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/slime.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 787
+"order": 788
 });
 
 Mods.push({
@@ -10755,7 +10768,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sino_Reskin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 788
+"order": 789
 });
 
 Mods.push({
@@ -10768,7 +10781,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/THICCINV.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 789
+"order": 790
 });
 
 Mods.push({
@@ -10781,7 +10794,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RaccoonAvi.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 790
+"order": 791
 });
 
 Mods.push({
@@ -10794,7 +10807,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Tower.zip",
 "requirements": "regionkit,pom,rwremix,crs",
 "tags": "Regions",
-"order": 791
+"order": 792
 });
 
 Mods.push({
@@ -10807,7 +10820,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Courier.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 792
+"order": 793
 });
 
 Mods.push({
@@ -10820,7 +10833,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Unused_Slugcats_Portraits.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "",
-"order": 793
+"order": 794
 });
 
 Mods.push({
@@ -10832,7 +10845,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lavender_Lizards.zip",
 "requirements": "lizardcustomizer",
 "tags": "",
-"order": 794
+"order": 795
 });
 
 Mods.push({
@@ -10845,7 +10858,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Belpix.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 795
+"order": 796
 });
 
 Mods.push({
@@ -10858,7 +10871,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/PVP_integration_pack.zip",
 "requirements": "arenaslugcatsconfigurator,regionkit",
 "tags": "",
-"order": 796
+"order": 797
 });
 
 Mods.push({
@@ -10870,7 +10883,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Garfields_Lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 797
+"order": 798
 });
 
 Mods.push({
@@ -10878,25 +10891,401 @@ Mods.push({
 "id": "exquisitelamp.missingtexture",
 "workshop_id": "3008433796",
 "author": "ExquisiteLamp",
-"desc": "MISSING TEXTURE (yes its a source game reference)",
+"desc": "missing",
 "thumb": "previews/3008433796.png",
 "url": "https://andrew.fm/rainworld/raindb/MISSING_TEXTURE.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 798
+"order": 799
 });
 
 Mods.push({
-"name": "Galaxy Slugcat",
+"name": "Galaxy Slugcats",
 "id": "nova.galaxy",
 "workshop_id": "3008463885",
 "author": "Nova",
-"desc": "Galaxy Slugcat<br><br>Pls give me any ideas to make this better",
+"desc": "Galaxy SlugcatFrosty Galaxy Slugcat(Added fur for both!)Pls tell me anything that looks weird",
 "thumb": "previews/3008463885.png",
-"url": "https://andrew.fm/rainworld/raindb/Galaxy_Slugcat.zip",
+"url": "https://andrew.fm/rainworld/raindb/Galaxy_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 799
+"order": 800
+});
+
+Mods.push({
+"name": "Elitist Difficulty",
+"id": "urufudoggo.elitist",
+"workshop_id": "3008565004",
+"author": "Urufudoggo",
+"desc": "A mod that provides extra difficulty on top of existing stuff for those who wish to make the game harder than it already is. There are multiple difficulties to choose from so check out the remix settings![i](more to come very soon)[/i]<br><br>The lovely thumbnail is by Matt Meowcer!<br><br>[h3]Hard Difficulty[/h3]<br>Your Regular Rain World ExperienceTM<br>[list]<br>[*] Changes absolutely nothing. It's as if you turned off the mod.<br>[/list]<br>[h3]Elite Difficulty[/h3]<br>Adds a little bit of difficulty, but punishes hard for making mistakes.<br>[list]<br>[*] Hard falls that normally stun you will kill you instead (avoidable by breaking the fall with a roll)<br>[*] Death on failed escape opportunity. Getting grabbed by a lizard or vulture and failing to react will kill you.<br>[*] Electric shocks kill. Even the little jellyfish in the water.<br>[*] Karma resets to 1 (unless karma reinforced)<br>[/list]<br>[h3]Madland Difficulty[/h3]<br>Coming soon...",
+"thumb": "previews/3008565004.png",
+"url": "https://andrew.fm/rainworld/raindb/Elitist_Difficulty.zip",
+"requirements": "",
+"tags": "Game Mechanics",
+"order": 801
+});
+
+Mods.push({
+"name": "Inventory",
+"id": "leemoriya.inventory",
+"workshop_id": "3008821321",
+"author": "LeeMoriya",
+"desc": "[h1]BETA RELEASE[/h1]<br>Inventory adds a customizable player inventory to the game that is accessible in Campaign and Expedition modes when holding the MAP button. This is the initial release of the mod and as such there may be bugs, please report them in the comments and make sure you are using the Guardian mod so exceptions are reported.<br><br>[h1]Controls:[/h1]<br>[list]<br>[*]Map - Open inventory<br>[*]Movement - Move cursor<br>[*]Jump - Store/retrieve<br>[*]Pickup - Toggle Map<br>[/list]<br><br>[h1]Co-Op:[/h1]<br>Co-Op is currently only partially supported, there is only a single inventory that is shared between all players, the player that holds the MAP button can access the inventory and store and retrieve items from it.<br><br>[h1]Changelog[/h1]<br>[u]v1.02[/u]<br>-Fixed Pearls not being consumed<br>-Prevent Dronemaster drones being stored to avoid a freeze<br>[u]v1.01[/u]<br>-Changed save location to AppData<br>-Fixed exception when saving<br>-Fixed incorrect default inventory size<br>-Fixed flickering preview sprites when resetting config<br>",
+"thumb": "previews/3008821321.png",
+"url": "https://andrew.fm/rainworld/raindb/Inventory.zip",
+"requirements": "",
+"tags": "",
+"order": 802
+});
+
+Mods.push({
+"name": "Mouse Drag",
+"id": "maxi-mol.mousedrag",
+"workshop_id": "3008864244",
+"author": "Maxi Mol",
+"desc": "[h3]Description[/h3]<br>Tool which allows dragging creatures in story-mode using your mouse, also known as the Sandbox Mouse. Includes options to pause, delete, duplicate, kill & revive individual creatures and objects. <br><br>Source code is here: https://github.com/woutkolkman/mousedrag <br><br>[h3]Known issues/bugs[/h3]<br>- You cannot duplicate certain objects because of the way they are added to rooms. <br>- Pausing a deer while you're on it will make you slide off. You need to jump to be able to move again. <br><br>[h3]Reporting[/h3]<br>Please report any bug, problem, change or feature request via the Discussions, or message me on the Rain World Discord (https://discord.gg/rainworld): Maxi Mol#3079 <br>If reporting a problem, also include the steps to recreate it & the following file(s): <br>- 'exceptionLog.txt' (C:/Program Files (x86)/Steam/steamapps/common/Rain World/exceptionLog.txt) <br>- 'LogOutput.txt' (C:/Program Files (x86)/Steam/steamapps/common/Rain World/BepInEx/LogOutput.txt) <br>",
+"thumb": "previews/3008864244.png",
+"url": "https://andrew.fm/rainworld/raindb/Mouse_Drag.zip",
+"requirements": "devtools",
+"tags": "Tools",
+"order": 803
+});
+
+Mods.push({
+"name": "The Vigilante",
+"id": "Aureuix.VIGI",
+"workshop_id": "3008903666",
+"author": "Aureuix",
+"desc": "Adds a campaign about a slug with a gun! <br>spritework by wolfycatt<br><br>This mod is currently in open alpha to find issues with the gun firing system. Please report bugs to the Modding Academy server or just by dming Aureuix on discord. (must be in modding academy server or i wont accept your dm)<br><br>Known issues:<br>- gun doesn't have gravity<br>- starting cutscene doesnt always work (this is an issue with the game itself, not the mod. i have no clue how to fix it so i just havent)<br><br><br>!! THIS MOD DOES NOT WORK IN COOP AND HAS NO CURRENT PLANS TO BE ABLE TO !!<br><br>coop support MAY be added in the future when all other content is done",
+"thumb": "previews/3008903666.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Vigilante.zip",
+"requirements": "moreslugcats,fisobs,slime-cubed.slugbase,dressmyslugcat",
+"tags": "",
+"order": 804
+});
+
+Mods.push({
+"name": "Voidcat",
+"id": "cloverfall.voidcat",
+"workshop_id": "3008937521",
+"author": "Cloverfall",
+"desc": "The voidcat. Mostly customizable (purely cosmetic). Includes a custom ascension and gills.<br>Might look a little wonky, this is a second attempt at making something with dms",
+"thumb": "previews/3008937521.png",
+"url": "https://andrew.fm/rainworld/raindb/Voidcat.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 805
+});
+
+Mods.push({
+"name": "the pillar scugs",
+"id": "pillarscugs.thepillarscugs",
+"workshop_id": "3009339685",
+"author": "Emmet",
+"desc": "no way is that a jojo reference?!?!?! sprites are based off of my own stylizations. set all colors to pure white for the best results. the communication mark and attunement mark can be recolored. artificers scar and rivulets gills are all precolored in the sprites, set them to white too.",
+"thumb": "previews/3009339685.png",
+"url": "https://andrew.fm/rainworld/raindb/the_pillar_scugs.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 806
+});
+
+Mods.push({
+"name": "The Curator (cosmetic)",
+"id": "axolodoll.curator",
+"workshop_id": "3009378563",
+"author": "Axolodoll",
+"desc": "my slugcat oc, purely cosmetic. All body parts must be white for the intended look (including face)",
+"thumb": "previews/3009378563.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Curator_cosmetic.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 807
+});
+
+Mods.push({
+"name": "Pikmin Cosmetics Mod",
+"id": "babil.pikmincosmeticmod",
+"workshop_id": "3009378680",
+"author": "Babil",
+"desc": "This mod adds Pikmin cosmetics for Dress My Slugcat. When equiping this on your slugcat, you will have to fiddle around with the colours on the face, then set it to white, so it does not look like a black sludge. I do not know why it does that, but I know it can be fixed. This is my first DMS mod, so please tell me if there's something wrong with it. I do intend to add some of the other Pikmin in future updates.Features: A cosmetics set for the Red, Blue, Yellow, Purple and White Pikmin.",
+"thumb": "previews/3009378680.png",
+"url": "https://andrew.fm/rainworld/raindb/Pikmin_Cosmetics_Mod.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 808
+});
+
+Mods.push({
+"name": "Leafy in Rain World 🤯🤯🤯",
+"id": "diana.leafy",
+"workshop_id": "3009409264",
+"author": "1974Diana, Konezz",
+"desc": "OC by Konezz<br>Optional mark of communication is from https://www.reddit.com/r/rainworld/comments/pibemu<br>Everything else is by me<br><br><br><br><br>🏳️‍⚧️ Trans rights",
+"thumb": "previews/3009409264.png",
+"url": "https://andrew.fm/rainworld/raindb/Leafy_in_Rain_World.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 809
+});
+
+Mods.push({
+"name": "Buneary Slugcat",
+"id": "axolodoll.bunearyscug",
+"workshop_id": "3009459629",
+"author": "Axolodoll",
+"desc": "Buneary. Make All body parts white to get the correct coloration.",
+"thumb": "previews/3009459629.png",
+"url": "https://andrew.fm/rainworld/raindb/Buneary_Slugcat.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 810
+});
+
+Mods.push({
+"name": "Setheria",
+"id": "diana.setheria",
+"workshop_id": "3009498649",
+"author": "1974Diana",
+"desc": "OC by novusfart. Thumbnail art and everything else by me<br><br><br><br><br>🏳️‍⚧️ Trans rights",
+"thumb": "previews/3009498649.png",
+"url": "https://andrew.fm/rainworld/raindb/Setheria.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 811
+});
+
+Mods.push({
+"name": "yippe cat",
+"id": "yippe.H6",
+"workshop_id": "3009596159",
+"author": "H6",
+"desc": "meow, what?",
+"thumb": "previews/3009596159.png",
+"url": "https://andrew.fm/rainworld/raindb/yippe_cat.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 812
+});
+
+Mods.push({
+"name": "THE Stickcat",
+"id": "axolodoll.sticky",
+"workshop_id": "3009781291",
+"author": "Axolodoll",
+"desc": "A stick. He doesn't want to eat his veggies.<br>He has the abilities you could expect from him now. (different from the stickcat cosmetic)<br>make sure you give him the stickcat body before you start playing<br>",
+"thumb": "previews/3009781291.png",
+"url": "https://andrew.fm/rainworld/raindb/THE_Stickcat.zip",
+"requirements": "slime-cubed.slugbase,dressmyslugcat",
+"tags": "",
+"order": 813
+});
+
+Mods.push({
+"name": "Pyrocynical Face",
+"id": "hallowate.pyrocynical",
+"workshop_id": "3009920255",
+"author": "Hallowate",
+"desc": "Id like to mention the faces rapidly change so probably dont play if you dont like flashing lights.<br><br><br><br>Did you ever want to have hit youtuber Pyrocynical's face as your head whilst playing rainworld?<br><br>No?<br><br>Well I dont care. <br>Look at the rapidly changing face portraits of Pyrocynical whilst playing rainworld.<br><br><br><br>Add Rotund-World for the ultimate Pyrocynical experience! (not sponsored)<br>( https://steamcommunity.com/sharedfiles/filedetails/?id=2928004252&searchtext=rotund+world )<br><br>",
+"thumb": "previews/3009920255.png",
+"url": "https://andrew.fm/rainworld/raindb/Pyrocynical_Face.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 814
+});
+
+Mods.push({
+"name": "Triluminary",
+"id": "toothandclaw.slugpack",
+"workshop_id": "3010350558",
+"author": "ToothandClaw",
+"desc": "A mod adding the Aquatic, a Slugcat perfectly built for this world. Also includes the Scholar and the Forgotten. Requires Dress My Slugcat if you want to use the Aquatic costume (Not currently in the files, will add later upon full release).<br>CURRENT PLANS:<br>New regions<br>A combination of shoreline and waterfront facility for Scholar<br>A new ability for Scholar<br>More creatures<br>Actual campaigns for these guys<br>And also just... yes.<br><br>Currently Added:<br><br>The Aquatic; a Slugcat who takes place between The Friend and Rivulet, with many secrets and a custom worldstate.<br><br>The Scholar; a smart, but failed experiment, with a directive to catalogue everything from the smallest Batfly to the largest Leviathan. Your travels will be harsh, but it will all be worth it in the end.<br><br>The Forgotten; a creature looking for a mate, who wants nothing more than a safe place to live. But, to get this, many secrets will need to be uncovered, not all of them pleasant...",
+"thumb": "previews/3010350558.png",
+"url": "https://andrew.fm/rainworld/raindb/Triluminary.zip",
+"tags": "Campaigns",
+"order": 815
+});
+
+Mods.push({
+"name": "asymetrical fluffy tails",
+"id": "fluffytails.pink",
+"workshop_id": "3010430661",
+"author": "pink",
+"desc": "a tail that is fluffy using the asymmetry option for tails. mostly intended as a template. feel free to edit it!",
+"thumb": "previews/3010430661.png",
+"url": "https://andrew.fm/rainworld/raindb/asymetrical_fluffy_tails.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 816
+});
+
+Mods.push({
+"name": "Controllable Deer",
+"id": "maxi-mol.controllabledeer",
+"workshop_id": "3010517336",
+"author": "Maxi Mol",
+"desc": "Makes Rain Deer less of a PITA.<br><br>[h3]Description[/h3]<br>Once you're in the antlers, a Rain Deer will move into the direction pointed to by your movement keys. If you do nothing, the AI takes over again. Supports Jolly Co-op (first player that reached the antlers will have priority control). <br><br>Source code is here: https://github.com/woutkolkman/controllabledeer <br><br>[h3]Reporting[/h3]<br>Please report any bug, problem, change or feature request via the Discussions, or message me on the Rain World Discord (https://discord.gg/rainworld): Maxi Mol#3079 <br>If reporting a problem, also include the steps to recreate it & the following file(s): <br>- 'exceptionLog.txt' (C:/Program Files (x86)/Steam/steamapps/common/Rain World/exceptionLog.txt) <br>- 'LogOutput.txt' (C:/Program Files (x86)/Steam/steamapps/common/Rain World/BepInEx/LogOutput.txt) <br>",
+"thumb": "previews/3010517336.png",
+"url": "https://andrew.fm/rainworld/raindb/Controllable_Deer.zip",
+"requirements": "",
+"tags": "Accessibility,Game Mechanics",
+"order": 817
+});
+
+Mods.push({
+"name": "Music triggers fix",
+"id": "jevmen.musictriggersfix",
+"workshop_id": "3010768757",
+"author": "Jevmen",
+"desc": "-Fixes All That's Left never playing where its suposed to in Farm Arrays (Gate from Outskirts). <br>-Fixes Interest Pad never playing if triggered while Drainage Duct is still playing.<br>Thumbnail art by Notocorda<br>",
+"thumb": "previews/3010768757.png",
+"url": "https://andrew.fm/rainworld/raindb/Music_triggers_fix.zip",
+"requirements": "bro.mergefix",
+"tags": "Cosmetics",
+"order": 818
+});
+
+Mods.push({
+"name": "Winston",
+"id": "lamp.winston",
+"workshop_id": "3010828768",
+"author": "Lamp",
+"desc": "Slugcat for Floof",
+"thumb": "previews/3010828768.png",
+"url": "https://andrew.fm/rainworld/raindb/Winston.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 819
+});
+
+Mods.push({
+"name": "Lavender Lizards",
+"id": "lavenderlizards",
+"workshop_id": "3010878918",
+"author": "Chad Monke",
+"desc": "A Lizard I made with lizard customizer, feel free to use it in regions. They have a chance to replace certain lizard types in game",
+"thumb": "previews/3010878918.png",
+"url": "https://andrew.fm/rainworld/raindb/Lavender_Lizards.zip",
+"requirements": "lizardcustomizer",
+"tags": "",
+"order": 820
+});
+
+Mods.push({
+"name": "Electric Rubbish",
+"id": "phace.electricrubbish",
+"workshop_id": "3010967605",
+"author": "Phace",
+"desc": "No spear attached, so handle with care.An electric storm has charged some debris, leaving dangerous traps awaiting adventurous creatures. A clever slugcat, however, may be able to make use of them.",
+"thumb": "previews/3010967605.png",
+"url": "https://andrew.fm/rainworld/raindb/Electric_Rubbish.zip",
+"requirements": "",
+"tags": "Items,Game Mechanics",
+"order": 821
+});
+
+Mods.push({
+"name": "The AppleCat (abandon)",
+"id": "applecat",
+"workshop_id": "3011187072",
+"author": "AbyssLasea",
+"desc": "Applecat is a peculiar variant of the slug cat that has a love for peace. It has the ability to undergo photosynthesis, allowing it to forego hunting and foraging like other animals. However, its journey is still very dangerous.<br><br>Features:<br>Applecat can undergo photosynthesis and automatically regain saturation as long as there are no objects on its head and the player's location is bright. The color of its body gradually changes as its saturation increases.<br><br>Applecat can now spit out objects called candies, which consume saturation. Additionally, if the player is holding an item, they can perform a dance by holding the up arrow key and the pick-up key.<br><br>Separator - ↑ The above is the description before it was taken down.<br>This mod has been temporarily abandoned, but I may reset it in the future. If there are any bugs, please provide feedback on my GitHub page. I will address them in the revamped version.<br><br>https://github.com/AbyssLasea/Rainworld-The_Applecat",
+"thumb": "previews/3011187072.png",
+"url": "https://andrew.fm/rainworld/raindb/The_AppleCat_abandon.zip",
+"requirements": "slime-cubed.slugbase,nutils",
+"tags": "",
+"order": 822
+});
+
+Mods.push({
+"name": "ERROR",
+"id": "lamp.error",
+"workshop_id": "3011277259",
+"author": "Lamp",
+"desc": "ANOTHER SOURCE GAME REFERENCE!?!?",
+"thumb": "previews/3011277259.png",
+"url": "https://andrew.fm/rainworld/raindb/ERROR.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 823
+});
+
+Mods.push({
+"name": "Juvenile Lizards",
+"id": "juvielizards",
+"workshop_id": "3011298338",
+"author": "Chad Monke",
+"desc": "Each Lizard has a 10% chance to spawn as an adolescent! easy to kill and kinda adorable!",
+"thumb": "previews/3011298338.png",
+"url": "https://andrew.fm/rainworld/raindb/Juvenile_Lizards.zip",
+"requirements": "lizardcustomizer,simplespawnswapper",
+"tags": "",
+"order": 824
+});
+
+Mods.push({
+"name": "Grug Slugs",
+"id": "inkiidonut.grug",
+"workshop_id": "3011414782",
+"author": "inkiidonut",
+"desc": "slugcats for my friends. currently 4 slugs from different backgrounds included",
+"thumb": "previews/3011414782.png",
+"url": "https://andrew.fm/rainworld/raindb/Grug_Slugs.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 825
+});
+
+Mods.push({
+"name": "Siamese Nightcat",
+"id": "siameseNightcat",
+"workshop_id": "3011490150",
+"author": "visceracocktail",
+"desc": "!!this is a reupload as someone told me that my id may cause some interference + i dont know how to update mods lol!!<br><br>'Some nightcats are born white with a dark pigment that develops throughout there life. However, in certain conditions where the nightcat spends most of their youth growing up in a cold environment, the nightcat's extremeties do not have the proper warmth to develop the proper pigments for their fur. This leads to a siamese fur pattern and it is very rare to find in nature.' <br>---<br>Nightcat with white extremeties, meant to replace the survivor, have not tested with the other slugcats.",
+"thumb": "previews/3011490150.png",
+"url": "https://andrew.fm/rainworld/raindb/Siamese_Nightcat.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 826
+});
+
+Mods.push({
+"name": "The Saint-ler",
+"id": "tac.saintler",
+"workshop_id": "3011515647",
+"author": "Tacname, Kuzushi",
+"desc": "'How bad could I possibly be?'<br><br>Adds a Dress My Slugcat outfit based on the Once-ler for Saint.<br>Can be used on other slugcats, but will come with Saint's fur.<br><br>Based on a drawing made by my friend Kuzushi / DWERFY, as seen in the thumbnail.",
+"thumb": "previews/3011515647.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Saintler.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 827
+});
+
+Mods.push({
+"name": "Eevee's Challenges",
+"id": "eeveeisepic.eeveeschallenges",
+"workshop_id": "3011635214",
+"author": "Eeveeisepic",
+"desc": "A small package of 14 challenges I whipped up. They're probably not very balanced but idc :)<br>Likely that I'll make more in the future.",
+"thumb": "previews/3011635214.png",
+"url": "https://andrew.fm/rainworld/raindb/Eevees_Challenges.zip",
+"requirements": "moreslugcats",
+"tags": "",
+"order": 828
+});
+
+Mods.push({
+"name": "Tasty Nom Nom World",
+"id": "tastynomnomworld",
+"workshop_id": "3011798057",
+"author": "Human4321",
+"desc": "A simple mod that makes everything want to eat everything else. For example, a squidcada will grab an inspector and fly away or a mommy long legs will eat a leviathan.",
+"thumb": "previews/3011798057.png",
+"url": "https://andrew.fm/rainworld/raindb/Tasty_Nom_Nom_World.zip",
+"requirements": "",
+"tags": "",
+"order": 829
 });
 
 toggle("mods");
