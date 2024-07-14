@@ -597,6 +597,19 @@ Mods.push({
 });
 
 Mods.push({
+"name": "MapOptions",
+"id": "MapOptions",
+"workshop_id": "2923374705",
+"author": "SchuhBaum",
+"desc": "Adds options to configure the map:<br>[list]<br>[*](Map Zoom) The zoom can be adjusted (50%-150%).<br>[*](Aerial Map) When disabled, the default map shader is used in Chimney Canopy and Sky Islands.<br>[*](Clear Expedition Maps) When enabled, clears the map progress for each new expedition run. Warning: Map progress is saved even without completing a full cycle.<br>[*](Creature Symbols) These symbols display what creature types are present in each room.<br>[*](Discover Multiplier) Can be used to decrease or increase the map discover range around slugcat. Warning: This deletes your map progress first. The game tries to recover your map progress based on visited rooms.<br>[*](Item Tracker) Tracked key items are shown on the map even when the option 'Slug Senses' is disabled. The option 'Key item tracking' needs to be enabled in Rain World Remix.<br>[*](Layer Focus) Only the active layer is displayed on the map.<br>[*](Shadow Sprites) Draws shadows for creature and slugcat symbols.<br>[*](Skip Fade In/Out) Pressing the map button shows the map with no delay.<br>[*](Slugcat Symbols) Draws a slugcat sprite on the map instead of a red circle. When Jolly Co-Op Mod is enabled, draws a sprite for each player.<br>[*](Uncover Region) Once loaded into the game the whole region map gets uncovered. Warning: Map progress is saved even without completing a full cycle<br>[*](Uncover Room) When the player enters a room the whole room gets uncovered instead of just the area around slugcat.<br>[*](Reveal Speed Multiplier) For a given value X the map is revealed X-times as fast. If the maximum value is selected then opening the map displays known areas instantly instead of revealing them gradually.<br>[/list]<br><br>[h1]BUG REPORTS & FAQ[/h1]<br>See the corresponding sections on the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2928752589]Steam Workshop page[/url] for the mod 'SBCameraScroll'.<br><br>[h1] SOURCE CODE & CHANGELOG [/h1]<br>You can find the source code, changelog and other things on GitHub:<br>https://github.com/SchuhBaum/MapOptions",
+"thumb": "previews/2923374705.png",
+"url": "https://andrew.fm/rainworld/raindb/MapOptions.zip",
+"requirements": "",
+"tags": "Game Mechanics,Accessibility",
+"order": 47
+});
+
+Mods.push({
 "name": "Some Arenas",
 "id": "somearenas",
 "workshop_id": "2923439485",
@@ -605,7 +618,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Some_Arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 47
+"order": 48
 });
 
 Mods.push({
@@ -618,7 +631,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_World_SCDS.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 48
+"order": 49
 });
 
 Mods.push({
@@ -631,7 +644,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/9_Arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 49
+"order": 50
 });
 
 Mods.push({
@@ -644,7 +657,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scorched_District_code_stuff.zip",
 "requirements": "fisobs",
 "tags": "Creatures,Dependency",
-"order": 50
+"order": 51
 });
 
 Mods.push({
@@ -657,7 +670,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rideable_Lizards.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 51
+"order": 52
 });
 
 Mods.push({
@@ -670,7 +683,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pilgrims_Ascent.zip",
 "requirements": "regionkit,lb-fgf-m4r-ik.pa-stuff,lb-fgf-m4r-ik.scutigera-creature",
 "tags": "Regions",
-"order": 52
+"order": 53
 });
 
 Mods.push({
@@ -683,7 +696,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Forbidden_Path.zip",
 "requirements": "",
 "tags": "",
-"order": 53
+"order": 54
 });
 
 Mods.push({
@@ -696,7 +709,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/FluffyCats.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 54
+"order": 55
 });
 
 Mods.push({
@@ -709,7 +722,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/KeepThatAwayFromMe.zip",
 "requirements": "",
 "tags": "Accessibility,Tools",
-"order": 55
+"order": 56
 });
 
 Mods.push({
@@ -722,7 +735,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Music_Announcements.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 56
+"order": 57
 });
 
 Mods.push({
@@ -735,7 +748,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Water_Blobs.zip",
 "requirements": "fisobs",
 "tags": "Creatures,Items,Dependency",
-"order": 57
+"order": 58
 });
 
 Mods.push({
@@ -747,7 +760,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cut_Challenges.zip",
 "requirements": "",
 "tags": "",
-"order": 58
+"order": 59
 });
 
 Mods.push({
@@ -760,7 +773,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Greyscreen.zip",
 "requirements": "",
 "tags": "",
-"order": 59
+"order": 60
 });
 
 Mods.push({
@@ -773,7 +786,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rico_Spear.zip",
 "requirements": "",
 "tags": "",
-"order": 60
+"order": 61
 });
 
 Mods.push({
@@ -786,7 +799,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Broken_teleport.zip",
 "requirements": "",
 "tags": "",
-"order": 61
+"order": 62
 });
 
 Mods.push({
@@ -799,7 +812,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Back_Spears.zip",
 "requirements": "",
 "tags": "",
-"order": 62
+"order": 63
 });
 
 Mods.push({
@@ -812,7 +825,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Unshaded_Citadel.zip",
 "requirements": "",
 "tags": "",
-"order": 63
+"order": 64
 });
 
 Mods.push({
@@ -825,7 +838,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Minimalist_Multiplayer.zip",
 "requirements": "",
 "tags": "",
-"order": 64
+"order": 65
 });
 
 Mods.push({
@@ -838,7 +851,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/LightGiver.zip",
 "requirements": "",
 "tags": "",
-"order": 65
+"order": 66
 });
 
 Mods.push({
@@ -851,7 +864,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Back_flip_slow_motion.zip",
 "requirements": "",
 "tags": "",
-"order": 66
+"order": 67
 });
 
 Mods.push({
@@ -864,7 +877,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Running_acceleration.zip",
 "requirements": "",
 "tags": "",
-"order": 67
+"order": 68
 });
 
 Mods.push({
@@ -877,7 +890,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/slugged_cat_is_uncanny.zip",
 "requirements": "",
 "tags": "",
-"order": 68
+"order": 69
 });
 
 Mods.push({
@@ -890,7 +903,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Get_out_of_my_way.zip",
 "requirements": "",
 "tags": "",
-"order": 69
+"order": 70
 });
 
 Mods.push({
@@ -903,7 +916,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fartificer.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 70
+"order": 71
 });
 
 Mods.push({
@@ -916,7 +929,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Firmly_Grasp_It.zip",
 "requirements": "",
 "tags": "Creatures,Game Mechanics",
-"order": 71
+"order": 72
 });
 
 Mods.push({
@@ -929,7 +942,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SplitScreen_Coop.zip",
 "requirements": "",
 "tags": "Game Modes,Accessibility",
-"order": 72
+"order": 73
 });
 
 Mods.push({
@@ -942,7 +955,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sun_Hat.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 73
+"order": 74
 });
 
 Mods.push({
@@ -955,7 +968,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dark_World.zip",
 "requirements": "",
 "tags": "",
-"order": 74
+"order": 75
 });
 
 Mods.push({
@@ -968,7 +981,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Once_Chieftain_Always_Chieftain.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 75
+"order": 76
 });
 
 Mods.push({
@@ -980,7 +993,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Presently_broken_Reasonably_Sheltered.zip",
 "requirements": "",
 "tags": "",
-"order": 76
+"order": 77
 });
 
 Mods.push({
@@ -993,7 +1006,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Unlocked_Saint.zip",
 "requirements": "",
 "tags": "",
-"order": 77
+"order": 78
 });
 
 Mods.push({
@@ -1006,7 +1019,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/InfiniteSpears.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 78
+"order": 79
 });
 
 Mods.push({
@@ -1019,7 +1032,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Watch_Your_Aim.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 79
+"order": 80
 });
 
 Mods.push({
@@ -1032,7 +1045,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/OSHA_Compliant_Gates.zip",
 "requirements": "",
 "tags": "Accessibility,Game Mechanics,Items,Creatures",
-"order": 80
+"order": 81
 });
 
 Mods.push({
@@ -1045,7 +1058,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Puppetmaster.zip",
 "requirements": "moreslugcats,letmesetmyneedlesdown,fisobs",
 "tags": "",
-"order": 81
+"order": 82
 });
 
 Mods.push({
@@ -1058,7 +1071,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Carnivore_Reborn.zip",
 "requirements": "",
 "tags": "",
-"order": 82
+"order": 83
 });
 
 Mods.push({
@@ -1071,7 +1084,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Remix__early_development.zip",
 "requirements": "rwremix",
 "tags": "",
-"order": 83
+"order": 84
 });
 
 Mods.push({
@@ -1084,7 +1097,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Unlimited_Passage.zip",
 "requirements": "",
 "tags": "",
-"order": 84
+"order": 85
 });
 
 Mods.push({
@@ -1097,7 +1110,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/HP_Bar.zip",
 "requirements": "moreslugcats,rwremix",
 "tags": "",
-"order": 85
+"order": 86
 });
 
 Mods.push({
@@ -1111,7 +1124,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCdBtWjmdqCFeSYZEpS2LOhA",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 86
+"order": 87
 });
 
 Mods.push({
@@ -1124,7 +1137,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Immortal_Pups.zip",
 "requirements": "",
 "tags": "",
-"order": 87
+"order": 88
 });
 
 Mods.push({
@@ -1137,7 +1150,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_World_Chaos_Edition.zip",
 "requirements": "",
 "tags": "",
-"order": 88
+"order": 89
 });
 
 Mods.push({
@@ -1150,7 +1163,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Needle_Cleanup.zip",
 "requirements": "moreslugcats",
 "tags": "Accessibility",
-"order": 89
+"order": 90
 });
 
 Mods.push({
@@ -1163,7 +1176,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rucoons_Movement_Levels.zip",
 "requirements": "",
 "tags": "",
-"order": 90
+"order": 91
 });
 
 Mods.push({
@@ -1176,7 +1189,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slug_King.zip",
 "requirements": "regionkit",
 "tags": "",
-"order": 91
+"order": 92
 });
 
 Mods.push({
@@ -1189,7 +1202,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Friends_of_Friends.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 92
+"order": 93
 });
 
 Mods.push({
@@ -1202,7 +1215,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SBCameraScroll.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 93
+"order": 94
 });
 
 Mods.push({
@@ -1215,7 +1228,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Editorify.zip",
 "requirements": "",
 "tags": "",
-"order": 94
+"order": 95
 });
 
 Mods.push({
@@ -1228,7 +1241,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scout_Voices_Rivulet.zip",
 "requirements": "",
 "tags": "",
-"order": 95
+"order": 96
 });
 
 Mods.push({
@@ -1241,7 +1254,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/HalfLife_Steps.zip",
 "requirements": "",
 "tags": "",
-"order": 96
+"order": 97
 });
 
 Mods.push({
@@ -1254,7 +1267,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Seaside_Level_Pack.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 97
+"order": 98
 });
 
 Mods.push({
@@ -1267,7 +1280,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Saint.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 98
+"order": 99
 });
 
 Mods.push({
@@ -1280,7 +1293,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tokens_in_Expedition.zip",
 "requirements": "expedition",
 "tags": "",
-"order": 99
+"order": 100
 });
 
 Mods.push({
@@ -1293,7 +1306,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pups_For_Everyone.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 100
+"order": 101
 });
 
 Mods.push({
@@ -1306,7 +1319,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Testing_Arenas.zip",
 "requirements": "",
 "tags": "Arenas,Tools",
-"order": 101
+"order": 102
 });
 
 Mods.push({
@@ -1319,7 +1332,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cappins_Arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 102
+"order": 103
 });
 
 Mods.push({
@@ -1332,7 +1345,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Thicc_Spearmaster_longerthicker_tail.zip",
 "requirements": "",
 "tags": "",
-"order": 103
+"order": 104
 });
 
 Mods.push({
@@ -1345,7 +1358,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Arena.zip",
 "requirements": "",
 "tags": "",
-"order": 104
+"order": 105
 });
 
 Mods.push({
@@ -1358,7 +1371,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Memeipede.zip",
 "requirements": "",
 "tags": "",
-"order": 105
+"order": 106
 });
 
 Mods.push({
@@ -1371,7 +1384,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Everyone_Can_MaulBite.zip",
 "requirements": "",
 "tags": "",
-"order": 106
+"order": 107
 });
 
 Mods.push({
@@ -1384,7 +1397,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Score_Galore.zip",
 "requirements": "",
 "tags": "Cosmetics,Tools",
-"order": 107
+"order": 108
 });
 
 Mods.push({
@@ -1397,7 +1410,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pipe_Juke_Nerf.zip",
 "requirements": "",
 "tags": "",
-"order": 108
+"order": 109
 });
 
 Mods.push({
@@ -1410,7 +1423,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pit_Respawn.zip",
 "requirements": "",
 "tags": "",
-"order": 109
+"order": 110
 });
 
 Mods.push({
@@ -1423,7 +1436,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Aim_Anywhere.zip",
 "requirements": "",
 "tags": "",
-"order": 110
+"order": 111
 });
 
 Mods.push({
@@ -1436,7 +1449,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hairless_Saint.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 111
+"order": 112
 });
 
 Mods.push({
@@ -1449,7 +1462,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Artificers_Cookbook.zip",
 "requirements": "moreslugcats,fisobs",
 "tags": "",
-"order": 112
+"order": 113
 });
 
 Mods.push({
@@ -1462,7 +1475,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_Eyebrow_Raise.zip",
 "requirements": "",
 "tags": "Cosmetics,Game Mechanics",
-"order": 113
+"order": 114
 });
 
 Mods.push({
@@ -1475,7 +1488,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lunacy.zip",
 "requirements": "",
 "tags": "Game Mechanics,Dependency,Tools",
-"order": 114
+"order": 115
 });
 
 Mods.push({
@@ -1487,7 +1500,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Extra_Threatening_Threat_Music.zip",
 "requirements": "",
 "tags": "",
-"order": 115
+"order": 116
 });
 
 Mods.push({
@@ -1500,7 +1513,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Some_Arenas_2.zip",
 "requirements": "",
 "tags": "",
-"order": 116
+"order": 117
 });
 
 Mods.push({
@@ -1513,7 +1526,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lizard_Customizer.zip",
 "requirements": "",
 "tags": "Creatures,Lizards,Tools,Dependency,Cosmetics",
-"order": 117
+"order": 118
 });
 
 Mods.push({
@@ -1526,7 +1539,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/What_a_thrill.zip",
 "requirements": "",
 "tags": "",
-"order": 118
+"order": 119
 });
 
 Mods.push({
@@ -1539,7 +1552,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Actually_bad_arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 119
+"order": 120
 });
 
 Mods.push({
@@ -1552,7 +1565,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SimplifiedMoveset.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 120
+"order": 121
 });
 
 Mods.push({
@@ -1565,7 +1578,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/LEANYARD.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 121
+"order": 122
 });
 
 Mods.push({
@@ -1578,7 +1591,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Better_Grab.zip",
 "requirements": "",
 "tags": "",
-"order": 122
+"order": 123
 });
 
 Mods.push({
@@ -1591,7 +1604,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/KarmArti.zip",
 "requirements": "",
 "tags": "",
-"order": 123
+"order": 124
 });
 
 Mods.push({
@@ -1604,7 +1617,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Red_Horror_Centipede.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 124
+"order": 125
 });
 
 Mods.push({
@@ -1617,7 +1630,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Singleplayer_Coop_Emotes.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 125
+"order": 126
 });
 
 Mods.push({
@@ -1630,7 +1643,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shield_Mask.zip",
 "requirements": "",
 "tags": "",
-"order": 126
+"order": 127
 });
 
 Mods.push({
@@ -1643,7 +1656,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Move_Testing_Rooms.zip",
 "requirements": "",
 "tags": "",
-"order": 127
+"order": 128
 });
 
 Mods.push({
@@ -1656,7 +1669,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SlugBase.zip",
 "requirements": "",
 "tags": "Dependency",
-"order": 128
+"order": 129
 });
 
 Mods.push({
@@ -1668,7 +1681,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Decryptor.zip",
 "requirements": "",
 "tags": "",
-"order": 129
+"order": 130
 });
 
 Mods.push({
@@ -1681,7 +1694,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Reputation_Control.zip",
 "requirements": "",
 "tags": "",
-"order": 130
+"order": 131
 });
 
 Mods.push({
@@ -1694,20 +1707,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Stygian_Shuffle.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 131
+"order": 132
 });
 
 Mods.push({
-"name": "Flowering Antlers",
+"name": "Flowering Antlers [DMS!]",
 "id": "flowerantlers",
 "workshop_id": "2933838433",
 "author": "TrashRamen",
-"desc": "Gives slugcat some pretty new flowering antlers! Antlers should show on all slugcats but Saint, and its colors will change to fit your scug's color.<br>This is more of a test for uploading mods to the workshop and getting back into the sprite-editing flow than anything else. I have future plans to make many character preset packs when the fancyslug equivalent is finally released.<br><br>I am also taking requests for edits on any body part. I've got lots of time on my hands and could use the practice. Put requests down below!<br><br>Credit for the original sprite editing code until the fancyslug/shinyrat/whatever releases goes to Dual-Iron and their open source code from SunHat! Though their profile says they don't care what people do with their code, if they want this taken down for any reason I will gladly do so ^^",
+"desc": "Finally got around to this. Sorry for whoever was wanting it. If you still do, here you go.<br>Should work. Let me know if it doesn't.",
 "thumb": "previews/2933838433.png",
-"url": "https://andrew.fm/rainworld/raindb/Flowering_Antlers.zip",
+"url": "https://andrew.fm/rainworld/raindb/Flowering_Antlers_DMS.zip",
 "requirements": "",
-"tags": "",
-"order": 132
+"tags": "Cosmetics",
+"order": 133
 });
 
 Mods.push({
@@ -1720,7 +1733,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Legible_Devtools.zip",
 "requirements": "devtools",
 "tags": "Accessibility,Tools",
-"order": 133
+"order": 134
 });
 
 Mods.push({
@@ -1733,7 +1746,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Metal_pipe_spears.zip",
 "requirements": "",
 "tags": "",
-"order": 134
+"order": 135
 });
 
 Mods.push({
@@ -1746,7 +1759,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Emeralds_Tweaks__Features.zip",
 "requirements": "moreslugcats",
 "tags": "Accessibility,Game Mechanics,Cosmetics",
-"order": 135
+"order": 136
 });
 
 Mods.push({
@@ -1759,7 +1772,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Enemy_Randomizer.zip",
 "requirements": "",
 "tags": "",
-"order": 136
+"order": 137
 });
 
 Mods.push({
@@ -1772,7 +1785,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Edible_Rocks.zip",
 "requirements": "",
 "tags": "",
-"order": 137
+"order": 138
 });
 
 Mods.push({
@@ -1785,7 +1798,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Crazy_Weapons.zip",
 "requirements": "",
 "tags": "",
-"order": 138
+"order": 139
 });
 
 Mods.push({
@@ -1798,7 +1811,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CoopTweaks.zip",
 "requirements": "",
 "tags": "",
-"order": 139
+"order": 140
 });
 
 Mods.push({
@@ -1811,7 +1824,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Checksum_Unfix.zip",
 "requirements": "",
 "tags": "",
-"order": 140
+"order": 141
 });
 
 Mods.push({
@@ -1824,7 +1837,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Expedition_Extra_Config.zip",
 "requirements": "expedition",
 "tags": "",
-"order": 141
+"order": 142
 });
 
 Mods.push({
@@ -1837,7 +1850,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Artificer_Karma_On_Kill.zip",
 "requirements": "",
 "tags": "",
-"order": 142
+"order": 143
 });
 
 Mods.push({
@@ -1850,7 +1863,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Clown_Long_Legs_With_Music.zip",
 "requirements": "",
 "tags": "",
-"order": 143
+"order": 144
 });
 
 Mods.push({
@@ -1863,7 +1876,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Death_Pit_Scream.zip",
 "requirements": "",
 "tags": "",
-"order": 144
+"order": 145
 });
 
 Mods.push({
@@ -1876,7 +1889,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Movement_Marker.zip",
 "requirements": "",
 "tags": "",
-"order": 145
+"order": 146
 });
 
 Mods.push({
@@ -1889,7 +1902,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Eyecat.zip",
 "requirements": "",
 "tags": "",
-"order": 146
+"order": 147
 });
 
 Mods.push({
@@ -1902,7 +1915,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sporantula.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 147
+"order": 148
 });
 
 Mods.push({
@@ -1915,7 +1928,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Scoundrel__Scavcat.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 148
+"order": 149
 });
 
 Mods.push({
@@ -1928,7 +1941,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Visible_ID.zip",
 "requirements": "",
 "tags": "",
-"order": 149
+"order": 150
 });
 
 Mods.push({
@@ -1941,7 +1954,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Biodiversity.zip",
 "requirements": "",
 "tags": "",
-"order": 150
+"order": 151
 });
 
 Mods.push({
@@ -1954,7 +1967,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Remix_Auto_Restarter.zip",
 "requirements": "",
 "tags": "",
-"order": 151
+"order": 152
 });
 
 Mods.push({
@@ -1967,7 +1980,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Surface_Swimmer.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 152
+"order": 153
 });
 
 Mods.push({
@@ -1980,7 +1993,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mooore_Slugcats_Remix.zip",
 "requirements": "",
 "tags": "",
-"order": 153
+"order": 154
 });
 
 Mods.push({
@@ -1993,7 +2006,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lizardcat_Major_Update.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 154
+"order": 155
 });
 
 Mods.push({
@@ -2006,7 +2019,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Music_in_Challenge_70.zip",
 "requirements": "",
 "tags": "",
-"order": 155
+"order": 156
 });
 
 Mods.push({
@@ -2019,7 +2032,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_Expedition_Permadeath.zip",
 "requirements": "",
 "tags": "",
-"order": 156
+"order": 157
 });
 
 Mods.push({
@@ -2032,7 +2045,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Explosive_DLLs.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 157
+"order": 158
 });
 
 Mods.push({
@@ -2045,7 +2058,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rainbow_Long_Legs.zip",
 "requirements": "fisobs",
 "tags": "",
-"order": 158
+"order": 159
 });
 
 Mods.push({
@@ -2058,7 +2071,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Blood.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 159
+"order": 160
 });
 
 Mods.push({
@@ -2071,7 +2084,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hubert_gets_paid_Slugcat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 160
+"order": 161
 });
 
 Mods.push({
@@ -2084,7 +2097,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/More_Dlls.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 161
+"order": 162
 });
 
 Mods.push({
@@ -2097,7 +2110,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Inv_Sound_Effects.zip",
 "requirements": "moreslugcats",
 "tags": "Cosmetics",
-"order": 162
+"order": 163
 });
 
 Mods.push({
@@ -2110,7 +2123,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rainbow_pups.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 163
+"order": 164
 });
 
 Mods.push({
@@ -2123,7 +2136,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Retro_MSC_Illustrations.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 164
+"order": 165
 });
 
 Mods.push({
@@ -2136,7 +2149,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Open_Exclusive_Regions.zip",
 "requirements": "",
 "tags": "",
-"order": 165
+"order": 166
 });
 
 Mods.push({
@@ -2149,7 +2162,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Saint_No_Spear.zip",
 "requirements": "",
 "tags": "",
-"order": 166
+"order": 167
 });
 
 Mods.push({
@@ -2162,7 +2175,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Helium_Slug.zip",
 "requirements": "",
 "tags": "",
-"order": 167
+"order": 168
 });
 
 Mods.push({
@@ -2175,7 +2188,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Vibe_World.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 168
+"order": 169
 });
 
 Mods.push({
@@ -2188,7 +2201,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Random_Title_Screen.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 169
+"order": 170
 });
 
 Mods.push({
@@ -2200,7 +2213,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Lurker_Template_Slugcat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 170
+"order": 171
 });
 
 Mods.push({
@@ -2213,7 +2226,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jolly_Rebind.zip",
 "requirements": "jollycoop",
 "tags": "Accessibility,Game Mechanics",
-"order": 171
+"order": 172
 });
 
 Mods.push({
@@ -2226,7 +2239,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cabinet_of_Creatures__Lacunar.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 172
+"order": 173
 });
 
 Mods.push({
@@ -2239,7 +2252,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/actually_really_bad_arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 173
+"order": 174
 });
 
 Mods.push({
@@ -2252,7 +2265,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Papich_pole_mimic.zip",
 "requirements": "",
 "tags": "",
-"order": 174
+"order": 175
 });
 
 Mods.push({
@@ -2265,7 +2278,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BETA_Solace.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns",
-"order": 175
+"order": 176
 });
 
 Mods.push({
@@ -2278,7 +2291,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pudge_lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 176
+"order": 177
 });
 
 Mods.push({
@@ -2291,7 +2304,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ScavThud.zip",
 "requirements": "",
 "tags": "",
-"order": 177
+"order": 178
 });
 
 Mods.push({
@@ -2304,7 +2317,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Catnap.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 178
+"order": 179
 });
 
 Mods.push({
@@ -2317,7 +2330,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Freak_Slugcat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 179
+"order": 180
 });
 
 Mods.push({
@@ -2330,7 +2343,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_Stats_Config.zip",
 "requirements": "",
 "tags": "Game Mechanics,Tools",
-"order": 180
+"order": 181
 });
 
 Mods.push({
@@ -2343,7 +2356,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Metal_Pipe_On_Scav_Death.zip",
 "requirements": "",
 "tags": "",
-"order": 181
+"order": 182
 });
 
 Mods.push({
@@ -2356,7 +2369,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Arena_Map_Pack.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 182
+"order": 183
 });
 
 Mods.push({
@@ -2369,7 +2382,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Vestiges.zip",
 "requirements": "",
 "tags": "",
-"order": 183
+"order": 184
 });
 
 Mods.push({
@@ -2382,7 +2395,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Vocal_WIP.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 184
+"order": 185
 });
 
 Mods.push({
@@ -2395,7 +2408,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Screen_Peek.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 185
+"order": 186
 });
 
 Mods.push({
@@ -2408,7 +2421,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cryssian_Slugcats__The_Enigma.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 186
+"order": 187
 });
 
 Mods.push({
@@ -2421,7 +2434,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/PerTileVisualizer.zip",
 "requirements": "",
 "tags": "",
-"order": 187
+"order": 188
 });
 
 Mods.push({
@@ -2434,7 +2447,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Beecat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns,Creatures,Game Mechanics,Items,Custom Slugcat",
-"order": 188
+"order": 189
 });
 
 Mods.push({
@@ -2447,7 +2460,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Faster_Gates.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 189
+"order": 190
 });
 
 Mods.push({
@@ -2460,7 +2473,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Megalovania_in_Challenge_70.zip",
 "requirements": "",
 "tags": "",
-"order": 190
+"order": 191
 });
 
 Mods.push({
@@ -2473,7 +2486,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Physics_Speed_Config.zip",
 "requirements": "",
 "tags": "",
-"order": 191
+"order": 192
 });
 
 Mods.push({
@@ -2486,7 +2499,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugjail.zip",
 "requirements": "",
 "tags": "",
-"order": 192
+"order": 193
 });
 
 Mods.push({
@@ -2499,7 +2512,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rebind_Dev_Tools.zip",
 "requirements": "",
 "tags": "Accessibility,Tools",
-"order": 193
+"order": 194
 });
 
 Mods.push({
@@ -2512,7 +2525,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Throw_Movement.zip",
 "requirements": "",
 "tags": "",
-"order": 194
+"order": 195
 });
 
 Mods.push({
@@ -2525,7 +2538,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Serene_Grotto_Arenas.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 195
+"order": 196
 });
 
 Mods.push({
@@ -2538,7 +2551,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Not_Really_A_Gamer.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 196
+"order": 197
 });
 
 Mods.push({
@@ -2551,7 +2564,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_Friend_Fire_15.zip",
 "requirements": "",
 "tags": "Tools",
-"order": 197
+"order": 198
 });
 
 Mods.push({
@@ -2564,7 +2577,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Guns_over_Spears.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 198
+"order": 199
 });
 
 Mods.push({
@@ -2577,7 +2590,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Sporecat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns,Game Mechanics",
-"order": 199
+"order": 200
 });
 
 Mods.push({
@@ -2590,7 +2603,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Strong_Scavs.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 200
+"order": 201
 });
 
 Mods.push({
@@ -2603,7 +2616,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shortswords_over_Spears.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 201
+"order": 202
 });
 
 Mods.push({
@@ -2616,7 +2629,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Greatswords_over_Spears.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 202
+"order": 203
 });
 
 Mods.push({
@@ -2628,7 +2641,7 @@ Mods.push({
 "thumb": "previews/2941565790.png",
 "url": "https://andrew.fm/rainworld/raindb/Custom_Regions_Support__CRS.zip",
 "tags": "Regions,Dependency",
-"order": 203
+"order": 204
 });
 
 Mods.push({
@@ -2641,7 +2654,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Metal_Pipes_over_Spears.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 204
+"order": 205
 });
 
 Mods.push({
@@ -2654,7 +2667,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rebind_Spearmaster.zip",
 "requirements": "",
 "tags": "Accessibility,Game Mechanics",
-"order": 205
+"order": 206
 });
 
 Mods.push({
@@ -2667,7 +2680,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NootNootFly.zip",
 "requirements": "",
 "tags": "",
-"order": 206
+"order": 207
 });
 
 Mods.push({
@@ -2680,7 +2693,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kepleomax_hurt_sound.zip",
 "requirements": "",
 "tags": "",
-"order": 207
+"order": 208
 });
 
 Mods.push({
@@ -2693,7 +2706,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Drain_Cleaner.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 208
+"order": 209
 });
 
 Mods.push({
@@ -2706,7 +2719,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fast_Reset.zip",
 "requirements": "",
 "tags": "",
-"order": 209
+"order": 210
 });
 
 Mods.push({
@@ -2719,7 +2732,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Miros_Birds_Honks.zip",
 "requirements": "",
 "tags": "",
-"order": 210
+"order": 211
 });
 
 Mods.push({
@@ -2732,7 +2745,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Five_Pebbles_Pong.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 211
+"order": 212
 });
 
 Mods.push({
@@ -2745,7 +2758,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Force_Shelter_Failures.zip",
 "requirements": "moreslugcats",
 "tags": "Game Mechanics,Accessibility",
-"order": 212
+"order": 213
 });
 
 Mods.push({
@@ -2758,7 +2771,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sticks_over_Spears.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 213
+"order": 214
 });
 
 Mods.push({
@@ -2771,7 +2784,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Swordfish_over_Spears.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 214
+"order": 215
 });
 
 Mods.push({
@@ -2785,7 +2798,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCxnjM81Ocy56hnLjNUA2Pvg",
 "requirements": "",
 "tags": "",
-"order": 215
+"order": 216
 });
 
 Mods.push({
@@ -2798,7 +2811,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rainbow_Needles.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 216
+"order": 217
 });
 
 Mods.push({
@@ -2811,7 +2824,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_More_Rain_Timer.zip",
 "requirements": "",
 "tags": "",
-"order": 217
+"order": 218
 });
 
 Mods.push({
@@ -2823,7 +2836,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/LanternSpear_WIP.zip",
 "requirements": "",
 "tags": "",
-"order": 218
+"order": 219
 });
 
 Mods.push({
@@ -2836,7 +2849,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BoneSpears.zip",
 "requirements": "",
 "tags": "",
-"order": 219
+"order": 220
 });
 
 Mods.push({
@@ -2849,7 +2862,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Super_Slugcat_World_2_Slugcats_Island.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 220
+"order": 221
 });
 
 Mods.push({
@@ -2862,7 +2875,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BeastMasterPupExtras.zip",
 "requirements": "moreslugcats,fyre.BeastMaster",
 "tags": "",
-"order": 221
+"order": 222
 });
 
 Mods.push({
@@ -2875,7 +2888,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Lost.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 222
+"order": 223
 });
 
 Mods.push({
@@ -2888,7 +2901,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Custom_Masks_PACK_1.zip",
 "requirements": "",
 "tags": "",
-"order": 223
+"order": 224
 });
 
 Mods.push({
@@ -2901,7 +2914,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mainframe.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 224
+"order": 225
 });
 
 Mods.push({
@@ -2914,7 +2927,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Smarter_Critters.zip",
 "requirements": "",
 "tags": "",
-"order": 225
+"order": 226
 });
 
 Mods.push({
@@ -2927,7 +2940,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Collection_Labels.zip",
 "requirements": "moreslugcats",
 "tags": "Cosmetics",
-"order": 226
+"order": 227
 });
 
 Mods.push({
@@ -2940,7 +2953,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Improved_Input_Config.zip",
 "requirements": "",
 "tags": "Accessibility,Dependency,Tools",
-"order": 227
+"order": 228
 });
 
 Mods.push({
@@ -2953,7 +2966,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Hero.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 228
+"order": 229
 });
 
 Mods.push({
@@ -2966,7 +2979,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Majoras_Mask_Over_Vulture_Mask.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 229
+"order": 230
 });
 
 Mods.push({
@@ -2979,7 +2992,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Arena_Slugcats_Configurator.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 230
+"order": 231
 });
 
 Mods.push({
@@ -2992,7 +3005,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/OSHA_Compliant_Shelters.zip",
 "requirements": "",
 "tags": "Accessibility,Game Mechanics,Items,Creatures",
-"order": 231
+"order": 232
 });
 
 Mods.push({
@@ -3005,7 +3018,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_More_Tinnitus.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 232
+"order": 233
 });
 
 Mods.push({
@@ -3018,7 +3031,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Stowawake.zip",
 "requirements": "",
 "tags": "",
-"order": 233
+"order": 234
 });
 
 Mods.push({
@@ -3031,7 +3044,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spearmaster_Pearl_Storage.zip",
 "requirements": "moreslugcats",
 "tags": "Game Mechanics,Accessibility",
-"order": 234
+"order": 235
 });
 
 Mods.push({
@@ -3045,7 +3058,7 @@ Mods.push({
 "video": "https://www.youtube.com/@lolight2",
 "requirements": "moreslugcats,slime-cubed.slugbase",
 "tags": "Campaigns",
-"order": 235
+"order": 236
 });
 
 Mods.push({
@@ -3059,7 +3072,7 @@ Mods.push({
 "video": "https://www.youtube.com/@lolight2",
 "requirements": "moreslugcats,slime-cubed.slugbase",
 "tags": "",
-"order": 236
+"order": 237
 });
 
 Mods.push({
@@ -3072,7 +3085,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Nymph_WIP.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns,Game Mechanics",
-"order": 237
+"order": 238
 });
 
 Mods.push({
@@ -3085,7 +3098,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Drop_Button.zip",
 "requirements": "improved-input-config",
 "tags": "Accessibility,Game Mechanics,Items",
-"order": 238
+"order": 239
 });
 
 Mods.push({
@@ -3098,7 +3111,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Combustable_Artificer.zip",
 "requirements": "moreslucats",
 "tags": "",
-"order": 239
+"order": 240
 });
 
 Mods.push({
@@ -3111,7 +3124,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/spears_bounce_off_of_creatures_including_slugcats.zip",
 "requirements": "",
 "tags": "",
-"order": 240
+"order": 241
 });
 
 Mods.push({
@@ -3123,7 +3136,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ceramic_Lizards.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 241
+"order": 242
 });
 
 Mods.push({
@@ -3136,7 +3149,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_DroneMasterWIP.zip",
 "requirements": "slime-cubed.slugbase,fisobs",
 "tags": "",
-"order": 242
+"order": 243
 });
 
 Mods.push({
@@ -3149,7 +3162,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Throw_Fix.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 243
+"order": 244
 });
 
 Mods.push({
@@ -3162,7 +3175,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Beta_The_Escort.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Campaigns",
-"order": 244
+"order": 245
 });
 
 Mods.push({
@@ -3175,7 +3188,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Strong_Delivery.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 245
+"order": 246
 });
 
 Mods.push({
@@ -3188,7 +3201,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Challenge_70_Phase_Skip.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "",
-"order": 246
+"order": 247
 });
 
 Mods.push({
@@ -3201,7 +3214,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Amongus_Vulture_Mask.zip",
 "requirements": "",
 "tags": "Comsetics",
-"order": 247
+"order": 248
 });
 
 Mods.push({
@@ -3214,7 +3227,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dress_My_Slugcat.zip",
 "requirements": "",
 "tags": "Cosmetics,Dependency,Tools",
-"order": 248
+"order": 249
 });
 
 Mods.push({
@@ -3227,7 +3240,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lizard_Dating_Sim_WIP.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 249
+"order": 250
 });
 
 Mods.push({
@@ -3240,7 +3253,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Family_Slug_Death_Pose.zip",
 "requirements": "",
 "tags": "",
-"order": 250
+"order": 251
 });
 
 Mods.push({
@@ -3253,7 +3266,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cabinet_of_Creatures.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 251
+"order": 252
 });
 
 Mods.push({
@@ -3266,7 +3279,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CanonRivulet.zip",
 "requirements": "",
 "tags": "",
-"order": 252
+"order": 253
 });
 
 Mods.push({
@@ -3279,7 +3292,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Accurate_Hunter_Expression.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 253
+"order": 254
 });
 
 Mods.push({
@@ -3292,7 +3305,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Haven__Chimney_Canopy_Test.zip",
 "requirements": "",
 "tags": "",
-"order": 254
+"order": 255
 });
 
 Mods.push({
@@ -3305,7 +3318,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/EarlessCat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 255
+"order": 256
 });
 
 Mods.push({
@@ -3318,7 +3331,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Miimows_Artstyle_Legs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 256
+"order": 257
 });
 
 Mods.push({
@@ -3331,7 +3344,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Skill_Issue.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 257
+"order": 258
 });
 
 Mods.push({
@@ -3345,7 +3358,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCdsmyBiHrNKhGwgqM5FyixQ",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 258
+"order": 259
 });
 
 Mods.push({
@@ -3358,7 +3371,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Silly_Faces.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 259
+"order": 260
 });
 
 Mods.push({
@@ -3371,7 +3384,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rotcat_Skin.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 260
+"order": 261
 });
 
 Mods.push({
@@ -3384,7 +3397,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Caretaker_Mod.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 261
+"order": 262
 });
 
 Mods.push({
@@ -3397,7 +3410,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cursed_Cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 262
+"order": 263
 });
 
 Mods.push({
@@ -3409,7 +3422,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcats_Wardrobe.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 263
+"order": 264
 });
 
 Mods.push({
@@ -3422,7 +3435,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Apex_Up_Your_Spawns.zip",
 "requirements": "moreslugcats",
 "tags": "Creatures",
-"order": 264
+"order": 265
 });
 
 Mods.push({
@@ -3434,7 +3447,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/big_ear.zip",
 "requirements": "",
 "tags": "",
-"order": 265
+"order": 266
 });
 
 Mods.push({
@@ -3447,7 +3460,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CatCat.zip",
 "requirements": "",
 "tags": "",
-"order": 266
+"order": 267
 });
 
 Mods.push({
@@ -3460,7 +3473,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Random_Slugcat_Costumes_V2.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 267
+"order": 268
 });
 
 Mods.push({
@@ -3473,7 +3486,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SusCat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 268
+"order": 269
 });
 
 Mods.push({
@@ -3486,7 +3499,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dexxys_Designs.zip",
 "requirements": "",
 "tags": "Cosmetic",
-"order": 269
+"order": 270
 });
 
 Mods.push({
@@ -3499,7 +3512,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Saint_TubeWorm.zip",
 "requirements": "",
 "tags": "",
-"order": 270
+"order": 271
 });
 
 Mods.push({
@@ -3512,7 +3525,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Alternate_Slugcat_Missions.zip",
 "requirements": "expedition,moreslugcats",
 "tags": "",
-"order": 271
+"order": 272
 });
 
 Mods.push({
@@ -3525,7 +3538,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Max_Point_Slugcat_Missions.zip",
 "requirements": "expedition,moreslugcats",
 "tags": "",
-"order": 272
+"order": 273
 });
 
 Mods.push({
@@ -3538,7 +3551,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CRTcat.zip",
 "requirements": "",
 "tags": "",
-"order": 273
+"order": 274
 });
 
 Mods.push({
@@ -3551,7 +3564,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/the_drip_mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 274
+"order": 275
 });
 
 Mods.push({
@@ -3564,7 +3577,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Googly_Eyes.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 275
+"order": 276
 });
 
 Mods.push({
@@ -3577,7 +3590,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NoirCatto.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns",
-"order": 276
+"order": 277
 });
 
 Mods.push({
@@ -3591,7 +3604,7 @@ Mods.push({
 "video": "https://www.youtube.com/@sussus42",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 277
+"order": 278
 });
 
 Mods.push({
@@ -3603,7 +3616,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/bigger_thicker_ears.zip",
 "requirements": "",
 "tags": "",
-"order": 278
+"order": 279
 });
 
 Mods.push({
@@ -3616,7 +3629,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Revivify.zip",
 "requirements": "",
 "tags": "Accessibility,Creatures,Game Mechanics",
-"order": 279
+"order": 280
 });
 
 Mods.push({
@@ -3629,7 +3642,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Accurate_Hunter.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 280
+"order": 281
 });
 
 Mods.push({
@@ -3642,7 +3655,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/More_Sandbox_Creatures.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 281
+"order": 282
 });
 
 Mods.push({
@@ -3655,7 +3668,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/discount_pebbles_cloak.zip",
 "requirements": "",
 "tags": "",
-"order": 282
+"order": 283
 });
 
 Mods.push({
@@ -3668,7 +3681,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slay_My_Slug_MINI_UPDATE_SLIME_BOSS_AND_DECA.zip",
 "requirements": "",
 "tags": "",
-"order": 283
+"order": 284
 });
 
 Mods.push({
@@ -3681,7 +3694,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Improved_Scugs.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 284
+"order": 285
 });
 
 Mods.push({
@@ -3694,7 +3707,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fedoras.zip",
 "requirements": "",
 "tags": "",
-"order": 285
+"order": 286
 });
 
 Mods.push({
@@ -3706,7 +3719,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Earpack__extras.zip",
 "requirements": "",
 "tags": "",
-"order": 286
+"order": 287
 });
 
 Mods.push({
@@ -3719,7 +3732,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/VoidcornCat.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 287
+"order": 288
 });
 
 Mods.push({
@@ -3732,7 +3745,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spear_Master_With_No_ASMR.zip",
 "requirements": "",
 "tags": "",
-"order": 288
+"order": 289
 });
 
 Mods.push({
@@ -3745,7 +3758,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Too_Much_Slugcat.zip",
 "requirements": "",
 "tags": "",
-"order": 289
+"order": 290
 });
 
 Mods.push({
@@ -3758,7 +3771,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/explosive_Saint.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 290
+"order": 291
 });
 
 Mods.push({
@@ -3771,7 +3784,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Caterators.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 291
+"order": 292
 });
 
 Mods.push({
@@ -3784,7 +3797,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugtennas.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 292
+"order": 293
 });
 
 Mods.push({
@@ -3797,7 +3810,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jester_Attire.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 293
+"order": 294
 });
 
 Mods.push({
@@ -3810,7 +3823,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Karmic_Potential_Scavs_For_All.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 294
+"order": 295
 });
 
 Mods.push({
@@ -3823,7 +3836,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nyan_slugCat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 295
+"order": 296
 });
 
 Mods.push({
@@ -3836,7 +3849,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DELTACATS.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 296
+"order": 297
 });
 
 Mods.push({
@@ -3849,7 +3862,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Diverse_Shelters.zip",
 "requirements": "regionkit",
 "tags": "Accessibility,Regions",
-"order": 297
+"order": 298
 });
 
 Mods.push({
@@ -3862,7 +3875,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Artificer_Dont_Swallow.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 298
+"order": 299
 });
 
 Mods.push({
@@ -3875,7 +3888,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Caterators_goes_for_a_walk.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 299
+"order": 300
 });
 
 Mods.push({
@@ -3888,7 +3901,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slughoodie.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 300
+"order": 301
 });
 
 Mods.push({
@@ -3901,7 +3914,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Darkest_slugcats.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 301
+"order": 302
 });
 
 Mods.push({
@@ -3914,7 +3927,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Allies_Skinpack.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 302
+"order": 303
 });
 
 Mods.push({
@@ -3927,7 +3940,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_AAHW_Branch_has_been_deployed.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 303
+"order": 304
 });
 
 Mods.push({
@@ -3940,7 +3953,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Chippers_Antennae_Sprites.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 304
+"order": 305
 });
 
 Mods.push({
@@ -3953,7 +3966,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Simple_Customization.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 305
+"order": 306
 });
 
 Mods.push({
@@ -3966,7 +3979,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Sturdy_Skin_WIP.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 306
+"order": 307
 });
 
 Mods.push({
@@ -3979,7 +3992,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sleve.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 307
+"order": 308
 });
 
 Mods.push({
@@ -3992,7 +4005,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Disaster_Catters.zip",
 "requirements": "",
 "tags": "",
-"order": 308
+"order": 309
 });
 
 Mods.push({
@@ -4005,7 +4018,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bikers_Wardrobe.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 309
+"order": 310
 });
 
 Mods.push({
@@ -4018,7 +4031,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jammin_Headphones.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 310
+"order": 311
 });
 
 Mods.push({
@@ -4031,7 +4044,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/3_Face.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 311
+"order": 312
 });
 
 Mods.push({
@@ -4044,7 +4057,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Vulturecat.zip",
 "requirements": "",
 "tags": "",
-"order": 312
+"order": 313
 });
 
 Mods.push({
@@ -4057,7 +4070,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugtain_risk_of_rain_2__void_fiend.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 313
+"order": 314
 });
 
 Mods.push({
@@ -4070,7 +4083,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Chippers_Centipede_Sprites.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 314
+"order": 315
 });
 
 Mods.push({
@@ -4083,7 +4096,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sluggy_Long_Legs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 315
+"order": 316
 });
 
 Mods.push({
@@ -4096,7 +4109,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BioLumi.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 316
+"order": 317
 });
 
 Mods.push({
@@ -4109,7 +4122,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Angry_Inspectors.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 317
+"order": 318
 });
 
 Mods.push({
@@ -4122,7 +4135,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Diamond_Pickaxe_Spears.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 318
+"order": 319
 });
 
 Mods.push({
@@ -4135,7 +4148,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Protogen.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 319
+"order": 320
 });
 
 Mods.push({
@@ -4148,7 +4161,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Batcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 320
+"order": 321
 });
 
 Mods.push({
@@ -4161,7 +4174,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/PainText.zip",
 "requirements": "",
 "tags": "",
-"order": 321
+"order": 322
 });
 
 Mods.push({
@@ -4174,7 +4187,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kill_Feed.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 322
+"order": 323
 });
 
 Mods.push({
@@ -4187,7 +4200,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Wondas_Slug_Outfits.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 323
+"order": 324
 });
 
 Mods.push({
@@ -4200,7 +4213,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dragoncat.zip",
 "requirements": "",
 "tags": "",
-"order": 324
+"order": 325
 });
 
 Mods.push({
@@ -4213,7 +4226,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NoMoreFlashes.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 325
+"order": 326
 });
 
 Mods.push({
@@ -4226,7 +4239,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Speedrunner.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 326
+"order": 327
 });
 
 Mods.push({
@@ -4239,7 +4252,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Physical_Object_Tools.zip",
 "requirements": "",
 "tags": "",
-"order": 327
+"order": 328
 });
 
 Mods.push({
@@ -4252,7 +4265,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Change_Player_1_in_Expedition.zip",
 "requirements": "jollycoop,expedition",
 "tags": "Game Mechanics,Accessibility",
-"order": 328
+"order": 329
 });
 
 Mods.push({
@@ -4265,7 +4278,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Leviathan_Cat.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 329
+"order": 330
 });
 
 Mods.push({
@@ -4278,7 +4291,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mini_Guardian_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 330
+"order": 331
 });
 
 Mods.push({
@@ -4290,7 +4303,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Void_bullets.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 331
+"order": 332
 });
 
 Mods.push({
@@ -4303,7 +4316,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Crispy_sprites_for_crispy_players.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 332
+"order": 333
 });
 
 Mods.push({
@@ -4316,7 +4329,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_AppleCat__WIP.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 333
+"order": 334
 });
 
 Mods.push({
@@ -4329,7 +4342,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Flooded_Shortcuts.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 334
+"order": 335
 });
 
 Mods.push({
@@ -4342,7 +4355,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Simple_MiniMap.zip",
 "requirements": "",
 "tags": "",
-"order": 335
+"order": 336
 });
 
 Mods.push({
@@ -4355,7 +4368,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Customizable_Slugcat_Glow.zip",
 "requirements": "",
 "tags": "Game Mechanics,Cosmetics,Accessibility",
-"order": 336
+"order": 337
 });
 
 Mods.push({
@@ -4368,7 +4381,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/gibus_hat_for_slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 337
+"order": 338
 });
 
 Mods.push({
@@ -4381,7 +4394,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CatSupplement.zip",
 "requirements": "",
 "tags": "Dependency",
-"order": 338
+"order": 339
 });
 
 Mods.push({
@@ -4394,7 +4407,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slug_Song.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 339
+"order": 340
 });
 
 Mods.push({
@@ -4407,7 +4420,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/qbcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 340
+"order": 341
 });
 
 Mods.push({
@@ -4420,7 +4433,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Roblos_Man_Face.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 341
+"order": 342
 });
 
 Mods.push({
@@ -4433,7 +4446,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Stylin_Stache.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 342
+"order": 343
 });
 
 Mods.push({
@@ -4446,7 +4459,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Sillies.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 343
+"order": 344
 });
 
 Mods.push({
@@ -4459,7 +4472,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SATCAT.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 344
+"order": 345
 });
 
 Mods.push({
@@ -4472,7 +4485,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Liberal_Rain_World.zip",
 "requirements": "",
 "tags": "",
-"order": 345
+"order": 346
 });
 
 Mods.push({
@@ -4485,7 +4498,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lantern_Cat.zip",
 "requirements": "dressmyslugcat,moreslugcats",
 "tags": "Cosmetics",
-"order": 346
+"order": 347
 });
 
 Mods.push({
@@ -4499,7 +4512,7 @@ Mods.push({
 "video": "https://www.youtube.com/watch?v=zgDOJ7e-mOw",
 "requirements": "slime-cubed.slugbase,fisobs,moreslugcats",
 "tags": "Campaigns,Items,Game Modes",
-"order": 347
+"order": 348
 });
 
 Mods.push({
@@ -4512,7 +4525,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Glow_Nerf.zip",
 "requirements": "",
 "tags": "",
-"order": 348
+"order": 349
 });
 
 Mods.push({
@@ -4525,7 +4538,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CryingSlugcat.zip",
 "requirements": "",
 "tags": "",
-"order": 349
+"order": 350
 });
 
 Mods.push({
@@ -4538,7 +4551,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SnailDogs_Cosmetic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 350
+"order": 351
 });
 
 Mods.push({
@@ -4551,7 +4564,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/TD_cats.zip",
 "requirements": "dressmyslugcat,moreslugcats",
 "tags": "",
-"order": 351
+"order": 352
 });
 
 Mods.push({
@@ -4564,7 +4577,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Unbound.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
 "tags": "",
-"order": 352
+"order": 353
 });
 
 Mods.push({
@@ -4577,7 +4590,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rebind_Everything.zip",
 "requirements": "improved-input-config",
 "tags": "Game Mechanics,Accessibility",
-"order": 353
+"order": 354
 });
 
 Mods.push({
@@ -4589,7 +4602,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nottoslugcats.zip",
 "requirements": "",
 "tags": "",
-"order": 354
+"order": 355
 });
 
 Mods.push({
@@ -4602,7 +4615,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fast_Roll_Button.zip",
 "requirements": "",
 "tags": "Accessibility,Tools",
-"order": 355
+"order": 356
 });
 
 Mods.push({
@@ -4615,7 +4628,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NoriCat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 356
+"order": 357
 });
 
 Mods.push({
@@ -4628,7 +4641,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Monolog_Skip.zip",
 "requirements": "",
 "tags": "",
-"order": 357
+"order": 358
 });
 
 Mods.push({
@@ -4641,7 +4654,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Tinkerer.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns,Game Modes,Game Mechanics",
-"order": 358
+"order": 359
 });
 
 Mods.push({
@@ -4654,7 +4667,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/MirosSlug__Character_mod.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "",
-"order": 359
+"order": 360
 });
 
 Mods.push({
@@ -4667,7 +4680,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Monks_Funky_Junk_Trunk.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 360
+"order": 361
 });
 
 Mods.push({
@@ -4680,7 +4693,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Aim_Helper.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 361
+"order": 362
 });
 
 Mods.push({
@@ -4693,7 +4706,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CowBoySLugCat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 362
+"order": 363
 });
 
 Mods.push({
@@ -4706,7 +4719,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Iterator_Walk.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 363
+"order": 364
 });
 
 Mods.push({
@@ -4719,7 +4732,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Regional_Danglefruit_Colors.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 364
+"order": 365
 });
 
 Mods.push({
@@ -4732,7 +4745,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Soporific_the_spider_slugcat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 365
+"order": 366
 });
 
 Mods.push({
@@ -4745,7 +4758,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dont_drag_me_into_this.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 366
+"order": 367
 });
 
 Mods.push({
@@ -4758,7 +4771,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Florist_WIP.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns",
-"order": 367
+"order": 368
 });
 
 Mods.push({
@@ -4770,7 +4783,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugjosh.zip",
 "requirements": "",
 "tags": "",
-"order": 368
+"order": 369
 });
 
 Mods.push({
@@ -4783,7 +4796,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Beent_world.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 369
+"order": 370
 });
 
 Mods.push({
@@ -4796,7 +4809,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shiny_Shield_Mask.zip",
 "requirements": "moreslugcats",
 "tags": "Game Mechanics",
-"order": 370
+"order": 371
 });
 
 Mods.push({
@@ -4809,7 +4822,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Risk_Of_Rain_World.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 371
+"order": 372
 });
 
 Mods.push({
@@ -4822,7 +4835,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Garten_of_Slug_Slug.zip",
 "requirements": "moreslugcats,dressmyslugcat",
 "tags": "",
-"order": 372
+"order": 373
 });
 
 Mods.push({
@@ -4835,7 +4848,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lanterncat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 373
+"order": 374
 });
 
 Mods.push({
@@ -4848,7 +4861,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Aquaphobia.zip",
 "requirements": "",
 "tags": "",
-"order": 374
+"order": 375
 });
 
 Mods.push({
@@ -4861,7 +4874,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Artificer_Scar_Fix.zip",
 "requirements": "",
 "tags": "",
-"order": 375
+"order": 376
 });
 
 Mods.push({
@@ -4874,7 +4887,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CyanLizardSlugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 376
+"order": 377
 });
 
 Mods.push({
@@ -4887,7 +4900,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/TameableDLL.zip",
 "requirements": "",
 "tags": "",
-"order": 377
+"order": 378
 });
 
 Mods.push({
@@ -4900,7 +4913,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Twitch_Integration.zip",
 "requirements": "",
 "tags": "",
-"order": 378
+"order": 379
 });
 
 Mods.push({
@@ -4913,7 +4926,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hero_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 379
+"order": 380
 });
 
 Mods.push({
@@ -4926,7 +4939,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Madness_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 380
+"order": 381
 });
 
 Mods.push({
@@ -4939,7 +4952,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Parasite_Beta.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns,Game Mechanics",
-"order": 381
+"order": 382
 });
 
 Mods.push({
@@ -4952,7 +4965,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcats_with_Yoshi_sounds.zip",
 "requirements": "",
 "tags": "",
-"order": 382
+"order": 383
 });
 
 Mods.push({
@@ -4965,7 +4978,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Poorly_Translated_Rain_World.zip",
 "requirements": "",
 "tags": "",
-"order": 383
+"order": 384
 });
 
 Mods.push({
@@ -4978,7 +4991,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Whats_in_My_Pocket.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 384
+"order": 385
 });
 
 Mods.push({
@@ -4991,7 +5004,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Grubcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 385
+"order": 386
 });
 
 Mods.push({
@@ -5004,7 +5017,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NightcrawlerMod.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
 "tags": "",
-"order": 386
+"order": 387
 });
 
 Mods.push({
@@ -5017,7 +5030,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/YoRha_Slugcat_9S.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 387
+"order": 388
 });
 
 Mods.push({
@@ -5030,7 +5043,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Better_Pup_AI.zip",
 "requirements": "moreslugcats",
 "tags": "Game Mechanics",
-"order": 388
+"order": 389
 });
 
 Mods.push({
@@ -5043,7 +5056,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Maul_Alive_Creatures.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 389
+"order": 390
 });
 
 Mods.push({
@@ -5056,7 +5069,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sludge_Lizard.zip",
 "requirements": "lizardcustomizer",
 "tags": "Creatures",
-"order": 390
+"order": 391
 });
 
 Mods.push({
@@ -5068,7 +5081,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_Hunter_Dont_throw_that_neuron.zip",
 "requirements": "",
 "tags": "",
-"order": 391
+"order": 392
 });
 
 Mods.push({
@@ -5081,7 +5094,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lancer.zip",
 "requirements": "slime-cubed.slugbase,topicular.catsupplement",
 "tags": "Campaigns,Game Mechanics",
-"order": 392
+"order": 393
 });
 
 Mods.push({
@@ -5094,7 +5107,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/MOcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 393
+"order": 394
 });
 
 Mods.push({
@@ -5107,7 +5120,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Infinite_Singularity.zip",
 "requirements": "",
 "tags": "",
-"order": 394
+"order": 395
 });
 
 Mods.push({
@@ -5120,7 +5133,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fauxbias_Slugcat_Designs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 395
+"order": 396
 });
 
 Mods.push({
@@ -5133,7 +5146,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Disable_Monkstyle_Gates.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 396
+"order": 397
 });
 
 Mods.push({
@@ -5146,7 +5159,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/WORM_ON_A_STRING.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 397
+"order": 398
 });
 
 Mods.push({
@@ -5159,7 +5172,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Artificer_Faces.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 398
+"order": 399
 });
 
 Mods.push({
@@ -5172,7 +5185,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Secret_Dating_Sim_Remix.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 399
+"order": 400
 });
 
 Mods.push({
@@ -5185,7 +5198,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SlugBani.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics,Dependency",
-"order": 400
+"order": 401
 });
 
 Mods.push({
@@ -5197,7 +5210,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nutils.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Game Modes",
-"order": 401
+"order": 402
 });
 
 Mods.push({
@@ -5210,7 +5223,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Brightened_Items.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 402
+"order": 403
 });
 
 Mods.push({
@@ -5223,7 +5236,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Palette_Creator.zip",
 "requirements": "",
 "tags": "",
-"order": 403
+"order": 404
 });
 
 Mods.push({
@@ -5236,7 +5249,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_Chieftain_Mask.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 404
+"order": 405
 });
 
 Mods.push({
@@ -5249,7 +5262,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Unicorn_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 405
+"order": 406
 });
 
 Mods.push({
@@ -5262,7 +5275,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SHORELEAN.zip",
 "requirements": "leanyard",
 "tags": "",
-"order": 406
+"order": 407
 });
 
 Mods.push({
@@ -5275,7 +5288,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Wormgrass_Immunity.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 407
+"order": 408
 });
 
 Mods.push({
@@ -5288,7 +5301,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ColourYourSpears.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 408
+"order": 409
 });
 
 Mods.push({
@@ -5301,7 +5314,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/More_Slugcat_Parts_Alpha_03.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 409
+"order": 410
 });
 
 Mods.push({
@@ -5314,7 +5327,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ultrascug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 410
+"order": 411
 });
 
 Mods.push({
@@ -5327,7 +5340,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Beta_Echoes.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 411
+"order": 412
 });
 
 Mods.push({
@@ -5340,7 +5353,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Artificer_Revive_on_Kill.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 412
+"order": 413
 });
 
 Mods.push({
@@ -5353,7 +5366,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ballcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 413
+"order": 414
 });
 
 Mods.push({
@@ -5366,7 +5379,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Aquatic.zip",
 "requirements": "slime-cubed.slugbase,lb-fgf-m4r-ik.fat-fire-fly-creature,pilgrims_ascent,lb-fgf-m4r-ik.bl-crit,niko.explodingdlls,rainbowlonglegs,lb-fgf-m4r-ik.coral-reef,lb-fgf-m4r-ik.scorched-district,lb-fgf-m4r-ik.red-horror-centi,lb-fgf-m4r-ik.swalkins,lb-fgf-m4r-ik.howling-rift,lb-fgf-m4r-ik.scutigera-creature,moreslugcats,lb-fgf-m4r-ik.waterblobs,regionkit,lb-fgf-m4r-ik.water-spitter,moredlls",
 "tags": "",
-"order": 414
+"order": 415
 });
 
 Mods.push({
@@ -5378,7 +5391,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/4823c3560/gv88unds-rahkevru-niigp9us-2cx9buwc",
 "requirements": "toothandclaw.theaquatic",
 "tags": "",
-"order": 415
+"order": 416
 });
 
 Mods.push({
@@ -5391,7 +5404,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Speedrun_Timer_Tweaks.zip",
 "requirements": "",
 "tags": "Accessibility,Tools",
-"order": 416
+"order": 417
 });
 
 Mods.push({
@@ -5404,7 +5417,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Guide.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 417
+"order": 418
 });
 
 Mods.push({
@@ -5417,7 +5430,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lost_Cranny.zip",
 "requirements": "moreslugcats",
 "tags": "Regions",
-"order": 418
+"order": 419
 });
 
 Mods.push({
@@ -5430,7 +5443,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Big_Shoe_LMFAO.zip",
 "requirements": "",
 "tags": "",
-"order": 419
+"order": 420
 });
 
 Mods.push({
@@ -5443,7 +5456,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/c83aefc10/8u4pzmjq-kuatwtba-tjyijk7i-vrrn48e3",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Campaigns,Creatures,Items,Custom Slugcat",
-"order": 420
+"order": 421
 });
 
 Mods.push({
@@ -5456,7 +5469,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cool_eyeballs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 421
+"order": 422
 });
 
 Mods.push({
@@ -5469,7 +5482,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Restart_Button.zip",
 "requirements": "",
 "tags": "",
-"order": 422
+"order": 423
 });
 
 Mods.push({
@@ -5482,7 +5495,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Washroom_in_progress.zip",
 "requirements": "",
 "tags": "Regions",
-"order": 423
+"order": 424
 });
 
 Mods.push({
@@ -5495,7 +5508,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BetterLover.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 424
+"order": 425
 });
 
 Mods.push({
@@ -5508,7 +5521,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lethal_Fall.zip",
 "requirements": "",
 "tags": "",
-"order": 425
+"order": 426
 });
 
 Mods.push({
@@ -5521,7 +5534,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Journalists_Gamemode.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 426
+"order": 427
 });
 
 Mods.push({
@@ -5534,7 +5547,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/YupiaCat.zip",
 "requirements": "",
 "tags": "",
-"order": 427
+"order": 428
 });
 
 Mods.push({
@@ -5547,7 +5560,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slug_Cells.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 428
+"order": 429
 });
 
 Mods.push({
@@ -5560,7 +5573,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Digiscugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 429
+"order": 430
 });
 
 Mods.push({
@@ -5573,7 +5586,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Remix_Menu_Template_examples.zip",
 "requirements": "",
 "tags": "Tools",
-"order": 430
+"order": 431
 });
 
 Mods.push({
@@ -5586,7 +5599,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/bed344300/x78h5tw2-mdu77uk3-734sgnr8-v9vnp53u",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Campaigns",
-"order": 431
+"order": 432
 });
 
 Mods.push({
@@ -5599,7 +5612,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SlugpupsPurrs.zip",
 "requirements": "",
 "tags": "",
-"order": 432
+"order": 433
 });
 
 Mods.push({
@@ -5612,7 +5625,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shoreline_is_OVER.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 433
+"order": 434
 });
 
 Mods.push({
@@ -5620,12 +5633,12 @@ Mods.push({
 "id": "splugpack",
 "workshop_id": "2961854585",
 "author": "Niko, Lurzard, Supernova, LunarCatPlays",
-"desc": "Adds a new playable slugcat to the game: The Technomancer!<br>With the ability to manipulate the ancient technologies around you to your whim, what might you do with it? <br><br>If you want to learn your abilities on your own, do not look underneath this spoiler!<br>[spoiler]Hold shift/grab key to start targeting<br>Shortcuts - X to lock, Z to unlock<br>Miros Bird - X to stun/blind<br>Vulture Grub - X to activate<br>Vulture - X to stun and misfire<br>Inspector - X to stun<br>Overseer - X to kill<br>Neuron Fly/Overseer Eye - Z to detonate<br>Pearl - X to detonate[/spoiler]<br><br><br>The Technomancer is a fluffy new Slugcat whose campaign takes place a long time ago, in the time of Looks to the Moon's prime. Regions are/will be much different than their future (present) versions. The world is alive, and you will get to explore it!",
+"desc": "Adds a new playable slugcat to the game: The Technomancer!<br>With the ability to manipulate the ancient technologies around you to your whim, what might you do with it? <br><br>The Technomancer is a fluffy new Slugcat whose campaign takes place a long time ago, in the time of Looks to the Moon's prime. Regions are/will be much different than their future (present) versions. The world is alive, and you will get to explore it!",
 "thumb": "previews/2961854585.png",
 "url": "https://ln5.sync.com/dl/43caf2ec0/stjqazsp-pwh75ekh-pwuuygaa-wmsrt222",
 "requirements": "slime-cubed.slugbase,moreslugcats",
-"tags": "Regions,Campaigns,Creatures,Game Mechanics,Custom Slugcat",
-"order": 434
+"tags": "Regions,Campaigns,Creatures,Game Mechanics,Items,Custom Slugcat",
+"order": 435
 });
 
 Mods.push({
@@ -5638,7 +5651,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Goro_Majima.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 435
+"order": 436
 });
 
 Mods.push({
@@ -5651,7 +5664,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Chippers_Harpy_Sprites.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 436
+"order": 437
 });
 
 Mods.push({
@@ -5664,7 +5677,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Purr_Text.zip",
 "requirements": "",
 "tags": "",
-"order": 437
+"order": 438
 });
 
 Mods.push({
@@ -5677,7 +5690,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rains_Fancy_Cats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 438
+"order": 439
 });
 
 Mods.push({
@@ -5690,7 +5703,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sticky_HUD.zip",
 "requirements": "",
 "tags": "",
-"order": 439
+"order": 440
 });
 
 Mods.push({
@@ -5703,7 +5716,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ProjectionScreenWindows.zip",
 "requirements": "maxi-mol.fivepebblespong",
 "tags": "Tools",
-"order": 440
+"order": 441
 });
 
 Mods.push({
@@ -5716,7 +5729,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/yharon_the_slugcat_of_rebirth.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 441
+"order": 442
 });
 
 Mods.push({
@@ -5728,7 +5741,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Leechworld.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 442
+"order": 443
 });
 
 Mods.push({
@@ -5741,7 +5754,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Faster_Shortcuts.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 443
+"order": 444
 });
 
 Mods.push({
@@ -5754,7 +5767,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Goldie.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 444
+"order": 445
 });
 
 Mods.push({
@@ -5767,7 +5780,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_Powder.zip",
 "requirements": "fisobs",
 "tags": "Items",
-"order": 445
+"order": 446
 });
 
 Mods.push({
@@ -5780,7 +5793,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Stow_Them_Away.zip",
 "requirements": "",
 "tags": "",
-"order": 446
+"order": 447
 });
 
 Mods.push({
@@ -5793,7 +5806,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Anya_the_Teslugcathic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 447
+"order": 448
 });
 
 Mods.push({
@@ -5806,7 +5819,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pikaslug__Turn_your_Slugcat_into_a_Pokemon.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics,Dependency,Tools",
-"order": 448
+"order": 449
 });
 
 Mods.push({
@@ -5819,7 +5832,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kiryu_Kazuma.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 449
+"order": 450
 });
 
 Mods.push({
@@ -5832,7 +5845,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Demoman_Tf2.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 450
+"order": 451
 });
 
 Mods.push({
@@ -5845,7 +5858,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Wow_a_cosmetic_for_Inv.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 451
+"order": 452
 });
 
 Mods.push({
@@ -5858,7 +5871,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Duke_of_the_Wastes__Vulturecat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 452
+"order": 453
 });
 
 Mods.push({
@@ -5871,7 +5884,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/deadcat_face.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 453
+"order": 454
 });
 
 Mods.push({
@@ -5884,7 +5897,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/更好的翻译中文WIP.zip",
 "requirements": "moreslugcats",
 "tags": "Translations",
-"order": 454
+"order": 455
 });
 
 Mods.push({
@@ -5897,7 +5910,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/OC_Extravaganza.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 455
+"order": 456
 });
 
 Mods.push({
@@ -5910,7 +5923,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_Scoots_Config.zip",
 "requirements": "",
 "tags": "Game Mechanics,Tools",
-"order": 456
+"order": 457
 });
 
 Mods.push({
@@ -5923,7 +5936,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/niko_from_the_hit_game_oneshot.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 457
+"order": 458
 });
 
 Mods.push({
@@ -5937,7 +5950,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCJIgiCbxI969KIrllSkzU-w",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 458
+"order": 459
 });
 
 Mods.push({
@@ -5950,7 +5963,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/paraslug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 459
+"order": 460
 });
 
 Mods.push({
@@ -5963,7 +5976,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dumbassery_Skinpack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 460
+"order": 461
 });
 
 Mods.push({
@@ -5976,7 +5989,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugus.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 461
+"order": 462
 });
 
 Mods.push({
@@ -5989,7 +6002,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slug_Knight.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 462
+"order": 463
 });
 
 Mods.push({
@@ -6002,7 +6015,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Wolfycatts_Assorted_Sprites.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 463
+"order": 464
 });
 
 Mods.push({
@@ -6010,13 +6023,13 @@ Mods.push({
 "id": "kingmaxthe2.gravelslug",
 "workshop_id": "2964671523",
 "author": "Kingmaxthe2",
-"desc": "Fair warning that playing GE's campaign with jolly coop will freeze when interacting with iterators, it is disabled by default but other mods can bypass that.<br><br>This mod features a new slugcat campaign, world state, and mechanics<br><br>Some features that Gravel Eater has are:<br><br>- Ability to eat anything that they can shove in their mouth<br>- Can craft fire spears and other items similar to Artificer<br>- If you have nothing stored in your stomach you can regurgitate rocks and eventually make yourself malnourished<br>- Can and will sink in deep water if full enough<br>- Food drains over time<br>- Hated by Garbage Worms<br><br>Gravel Eater's main mechanic activates when they are malnourished or not<br><br>if nourished:<br><br>- Resistant to projectiles and stunning<br>- Body slam<br>- Immune to Wormgrass<br>- Unable to roll<br><br>if malnourished:<br><br>- Increased damage and velocity to thrown weapons<br>- Boosts to move set<br>- Mauling<br><br>There are many other things that you will discover for yourself as well :)<br><br>Compatible with: The Vinki, Rotund World, and Push To Meow<br><br>Lovely art by Beep (mod thumbnail and intro card), SAPatry (menu screen, sleep screen, ending slideshows(coming soon)), and CopperCrow (graffiti)<br><br>Enjoy!",
+"desc": "Fair warning that playing GE's campaign with jolly coop will freeze when interacting with iterators, it is disabled by default but other mods can bypass that if you really want to play with friends.<br><br>This mod features a new slugcat campaign, world state, and mechanics<br><br>Some features that Gravel Eater has are:<br><br>- Ability to eat anything that they can shove in their mouth<br>- Can craft fire spears and other items similar to Artificer<br>- If you have nothing stored in your stomach you can regurgitate rocks and eventually make yourself malnourished<br>- Can and will sink in deep water if full enough<br>- Food drains over time<br>- Hated by Garbage Worms<br><br>Gravel Eater's main mechanic activates when they are malnourished or not<br><br>if nourished:<br><br>- Resistant to projectiles and stunning<br>- Body slam<br>- Immune to Wormgrass<br>- Unable to roll<br><br>if malnourished:<br><br>- Increased damage and velocity to thrown weapons<br>- Boosts to move set<br>- Mauling<br><br>There are many other things that you will discover for yourself as well :)<br><br>Compatible with: The Vinki, Rotund World, and Push To Meow<br><br>Lovely art by Beep (mod thumbnail and intro card), SAPatry (menu screen, sleep screen, ending slideshows(coming soon)), and CopperCrow (graffiti)<br><br>Enjoy!",
 "thumb": "previews/2964671523.png",
 "url": "https://andrew.fm/rainworld/raindb/The_GravelEater.zip",
 "video": "https://www.youtube.com/@Kingmaxthe2",
 "requirements": "slime-cubed.slugbase",
-"tags": "",
-"order": 464
+"tags": "Arenas,Regions,Campaigns,Game Mechanics,Custom Slugcat",
+"order": 465
 });
 
 Mods.push({
@@ -6029,7 +6042,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Silly_Ascension_Sounds.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 465
+"order": 466
 });
 
 Mods.push({
@@ -6042,7 +6055,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Emis_Scugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 466
+"order": 467
 });
 
 Mods.push({
@@ -6055,7 +6068,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Stinger.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 467
+"order": 468
 });
 
 Mods.push({
@@ -6068,7 +6081,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sharkcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 468
+"order": 469
 });
 
 Mods.push({
@@ -6081,7 +6094,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pluto_Cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 469
+"order": 470
 });
 
 Mods.push({
@@ -6094,7 +6107,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Femboy_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 470
+"order": 471
 });
 
 Mods.push({
@@ -6108,7 +6121,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCtdk-6Mhk0xd7FlZTedoDHw",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 471
+"order": 472
 });
 
 Mods.push({
@@ -6121,7 +6134,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Vent_shortcut_sounds.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 472
+"order": 473
 });
 
 Mods.push({
@@ -6134,7 +6147,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Disguiser.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 473
+"order": 474
 });
 
 Mods.push({
@@ -6147,7 +6160,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dress_My_Monkey_SKIN.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 474
+"order": 475
 });
 
 Mods.push({
@@ -6160,7 +6173,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/monkey.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 475
+"order": 476
 });
 
 Mods.push({
@@ -6173,7 +6186,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Eighth_Food_Points.zip",
 "requirements": "",
 "tags": "",
-"order": 476
+"order": 477
 });
 
 Mods.push({
@@ -6186,7 +6199,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Frogcat.zip",
 "requirements": "moreslugcats,eighthfoodpoints",
 "tags": "",
-"order": 477
+"order": 478
 });
 
 Mods.push({
@@ -6199,7 +6212,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Guardian.zip",
 "requirements": "",
 "tags": "Dependency",
-"order": 478
+"order": 479
 });
 
 Mods.push({
@@ -6212,7 +6225,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Faputa_Made_in_Abyss.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 479
+"order": 480
 });
 
 Mods.push({
@@ -6224,7 +6237,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Let_There_Be_Light.zip",
 "requirements": "",
 "tags": "Arenas,Accessibility",
-"order": 480
+"order": 481
 });
 
 Mods.push({
@@ -6238,7 +6251,7 @@ Mods.push({
 "video": "https://www.youtube.com/@NevilsicoShard",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 481
+"order": 482
 });
 
 Mods.push({
@@ -6251,7 +6264,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Cohozuna.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 482
+"order": 483
 });
 
 Mods.push({
@@ -6264,7 +6277,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Horrorboros.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 483
+"order": 484
 });
 
 Mods.push({
@@ -6277,7 +6290,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slughoodies.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 484
+"order": 485
 });
 
 Mods.push({
@@ -6291,7 +6304,7 @@ Mods.push({
 "video": "https://www.youtube.com/@h64880/videos",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 485
+"order": 486
 });
 
 Mods.push({
@@ -6304,7 +6317,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/KotoSlug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 486
+"order": 487
 });
 
 Mods.push({
@@ -6317,7 +6330,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dante_from_Devil_May_Cry_series.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 487
+"order": 488
 });
 
 Mods.push({
@@ -6330,7 +6343,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugvali_Skin_Pack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 488
+"order": 489
 });
 
 Mods.push({
@@ -6343,7 +6356,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Messiah_alpha.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 489
+"order": 490
 });
 
 Mods.push({
@@ -6356,7 +6369,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Filthycat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 490
+"order": 491
 });
 
 Mods.push({
@@ -6370,7 +6383,7 @@ Mods.push({
 "video": "https://www.youtube.com/@NevilsicoShard",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 491
+"order": 492
 });
 
 Mods.push({
@@ -6383,7 +6396,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Line_of_Sight.zip",
 "requirements": "",
 "tags": "Game Mechanics,Game Modes",
-"order": 492
+"order": 493
 });
 
 Mods.push({
@@ -6396,7 +6409,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Perspective_Wings__DMS_Sample.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 493
+"order": 494
 });
 
 Mods.push({
@@ -6410,7 +6423,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCDUzftMKkotyWN4Drv_6yLw",
 "requirements": "",
 "tags": "Regions,Game Mechanics",
-"order": 494
+"order": 495
 });
 
 Mods.push({
@@ -6423,7 +6436,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/slug_drip.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 495
+"order": 496
 });
 
 Mods.push({
@@ -6436,7 +6449,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Savage__Slugcat_Mod_v12.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns",
-"order": 496
+"order": 497
 });
 
 Mods.push({
@@ -6449,7 +6462,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Less_Deadly_Rain.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 497
+"order": 498
 });
 
 Mods.push({
@@ -6462,7 +6475,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Azem__Hades_But_Slugcat.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 498
+"order": 499
 });
 
 Mods.push({
@@ -6476,7 +6489,7 @@ Mods.push({
 "video": "https://www.youtube.com/watch?v=ibajaxdyGU0",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Campaigns",
-"order": 499
+"order": 500
 });
 
 Mods.push({
@@ -6489,7 +6502,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/peppino_spaghetti_from_the_hit_game_pizza_tower.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 500
+"order": 501
 });
 
 Mods.push({
@@ -6502,7 +6515,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Furret_Skinpack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 501
+"order": 502
 });
 
 Mods.push({
@@ -6515,7 +6528,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Expanded_Outskirts.zip",
 "requirements": "",
 "tags": "",
-"order": 502
+"order": 503
 });
 
 Mods.push({
@@ -6528,7 +6541,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/gustavo_and_brick.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 503
+"order": 504
 });
 
 Mods.push({
@@ -6541,7 +6554,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/AnnabelleCat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 504
+"order": 505
 });
 
 Mods.push({
@@ -6554,7 +6567,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ClimbableSaintTounge.zip",
 "requirements": "",
 "tags": "",
-"order": 505
+"order": 506
 });
 
 Mods.push({
@@ -6567,7 +6580,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ollies_Arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 506
+"order": 507
 });
 
 Mods.push({
@@ -6580,7 +6593,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rayworld.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 507
+"order": 508
 });
 
 Mods.push({
@@ -6593,7 +6606,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Peppino_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 508
+"order": 509
 });
 
 Mods.push({
@@ -6606,7 +6619,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Triluminary.zip",
 "requirements": "slime-cubed.slugbase,lb-fgf-m4r-ik.fat-fire-fly-creature,pilgrims_ascent,lb-fgf-m4r-ik.bl-crit,rainbowlonglegs,lb-fgf-m4r-ik.coral-reef,lb-fgf-m4r-ik.scorched-district,lb-fgf-m4r-ik.red-horror-centi,lb-fgf-m4r-ik.swalkins,lb-fgf-m4r-ik.howling-rift,lb-fgf-m4r-ik.scutigera-creature,moreslugcats,lb-fgf-m4r-ik.waterblobs,regionkit,moredlls,thefriend",
 "tags": "Campaigns,Creatures",
-"order": 509
+"order": 510
 });
 
 Mods.push({
@@ -6618,7 +6631,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/0bf9b40f0/w3phsj5k-eybcsig7-8mp2h6rh-euexvdwe",
 "requirements": "toothandclaw.slugpack",
 "tags": "",
-"order": 510
+"order": 511
 });
 
 Mods.push({
@@ -6630,7 +6643,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Grape_juice_WIP.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Dependency",
-"order": 511
+"order": 512
 });
 
 Mods.push({
@@ -6643,7 +6656,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/stupid_rat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 512
+"order": 513
 });
 
 Mods.push({
@@ -6656,7 +6669,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Burger_king.zip",
 "requirements": "",
 "tags": "",
-"order": 513
+"order": 514
 });
 
 Mods.push({
@@ -6669,7 +6682,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/snick_the_porcupine_from_the_hit_game_pizza_tower_SAGE_2019_demo.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 514
+"order": 515
 });
 
 Mods.push({
@@ -6682,7 +6695,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ronalds_kitty_cats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 515
+"order": 516
 });
 
 Mods.push({
@@ -6695,7 +6708,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sluggeroth.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 516
+"order": 517
 });
 
 Mods.push({
@@ -6708,7 +6721,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Karma_reinforcement_reinforcement.zip",
 "requirements": "",
 "tags": "",
-"order": 517
+"order": 518
 });
 
 Mods.push({
@@ -6721,7 +6734,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugpups_cap_configuration.zip",
 "requirements": "",
 "tags": "",
-"order": 518
+"order": 519
 });
 
 Mods.push({
@@ -6734,7 +6747,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mayos_Furret_for_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetic",
-"order": 519
+"order": 520
 });
 
 Mods.push({
@@ -6747,7 +6760,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gay_World.zip",
 "requirements": "",
 "tags": "",
-"order": 520
+"order": 521
 });
 
 Mods.push({
@@ -6760,7 +6773,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Expedition_dev_button.zip",
 "requirements": "expedition",
 "tags": "",
-"order": 521
+"order": 522
 });
 
 Mods.push({
@@ -6773,7 +6786,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Passage_Tracker.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 522
+"order": 523
 });
 
 Mods.push({
@@ -6785,7 +6798,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Room_Randomizer_WIP.zip",
 "requirements": "",
 "tags": "",
-"order": 523
+"order": 524
 });
 
 Mods.push({
@@ -6798,7 +6811,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Martha_Slugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 524
+"order": 525
 });
 
 Mods.push({
@@ -6811,7 +6824,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SAPatrys_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 525
+"order": 526
 });
 
 Mods.push({
@@ -6824,7 +6837,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pride_Slug_Tails.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 526
+"order": 527
 });
 
 Mods.push({
@@ -6837,7 +6850,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Peppino_VERY_WIP.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Game Mechanics",
-"order": 527
+"order": 528
 });
 
 Mods.push({
@@ -6850,7 +6863,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Parasitic_Slugcat_0472.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns,Game Mechanics",
-"order": 528
+"order": 529
 });
 
 Mods.push({
@@ -6863,7 +6876,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/MeowScug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 529
+"order": 530
 });
 
 Mods.push({
@@ -6876,7 +6889,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Koopalings_In_Rain_World.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 530
+"order": 531
 });
 
 Mods.push({
@@ -6889,7 +6902,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Community_Gallery_Region.zip",
 "requirements": "regionkit,lb-fgf-m4r-ik.howling-rift,moreslugcats",
 "tags": "Regions",
-"order": 531
+"order": 532
 });
 
 Mods.push({
@@ -6902,7 +6915,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spear_Master_WAWA.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 532
+"order": 533
 });
 
 Mods.push({
@@ -6916,7 +6929,7 @@ Mods.push({
 "video": "https://www.youtube.com/@h64880/videos",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 533
+"order": 534
 });
 
 Mods.push({
@@ -6929,7 +6942,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Room_Randomizer.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 534
+"order": 535
 });
 
 Mods.push({
@@ -6942,7 +6955,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Forest_Lizard.zip",
 "requirements": "lizardcustomizer",
 "tags": "",
-"order": 535
+"order": 536
 });
 
 Mods.push({
@@ -6955,7 +6968,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/God_Lizard.zip",
 "requirements": "lizardcustomizer",
 "tags": "Cosmetics",
-"order": 536
+"order": 537
 });
 
 Mods.push({
@@ -6968,7 +6981,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Akira_Nishikiyama.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 537
+"order": 538
 });
 
 Mods.push({
@@ -6980,7 +6993,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Lizard_Mod.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 538
+"order": 539
 });
 
 Mods.push({
@@ -6993,7 +7006,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/astra_cosmetic_mod_featuring_monknana__gnarpy.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 539
+"order": 540
 });
 
 Mods.push({
@@ -7006,7 +7019,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/mae.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 540
+"order": 541
 });
 
 Mods.push({
@@ -7019,7 +7032,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/hatty_hattington_from_the_hit_2013_game_battleblock_theater.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 541
+"order": 542
 });
 
 Mods.push({
@@ -7032,7 +7045,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Clementine_The_Bunny.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 542
+"order": 543
 });
 
 Mods.push({
@@ -7045,7 +7058,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Timeless_Conservatory_12_WIP_used_to_be_Quiet_Gardens.zip",
 "requirements": "",
 "tags": "Regions",
-"order": 543
+"order": 544
 });
 
 Mods.push({
@@ -7058,7 +7071,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/sonic_cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 544
+"order": 545
 });
 
 Mods.push({
@@ -7071,7 +7084,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/首.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 545
+"order": 546
 });
 
 Mods.push({
@@ -7084,7 +7097,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_Omnislug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 546
+"order": 547
 });
 
 Mods.push({
@@ -7097,7 +7110,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Die_Button.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 547
+"order": 548
 });
 
 Mods.push({
@@ -7110,7 +7123,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Explosive_World.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 548
+"order": 549
 });
 
 Mods.push({
@@ -7123,7 +7136,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/WIPThe_Moonlight.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Campaigns",
-"order": 549
+"order": 550
 });
 
 Mods.push({
@@ -7136,7 +7149,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Manual_Dialogue_Progression.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 550
+"order": 551
 });
 
 Mods.push({
@@ -7149,7 +7162,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pokéballs.zip",
 "requirements": "fisobs",
 "tags": "Game Mechanics,Items",
-"order": 551
+"order": 552
 });
 
 Mods.push({
@@ -7163,7 +7176,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCVLICSSiWE13A2V5aS1jJ-A",
 "requirements": "",
 "tags": "Creatures",
-"order": 552
+"order": 553
 });
 
 Mods.push({
@@ -7177,7 +7190,7 @@ Mods.push({
 "video": "https://youtube.com/EmDoesStuffYT",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 553
+"order": 554
 });
 
 Mods.push({
@@ -7189,7 +7202,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Woomiis_Arena_Pack.zip",
 "requirements": "",
 "tags": "",
-"order": 554
+"order": 555
 });
 
 Mods.push({
@@ -7202,7 +7215,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Centipede_Lizard.zip",
 "requirements": "lizardcustomizer",
 "tags": "",
-"order": 555
+"order": 556
 });
 
 Mods.push({
@@ -7215,7 +7228,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Exploding_Batflies.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 556
+"order": 557
 });
 
 Mods.push({
@@ -7228,7 +7241,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Wawa_Scream.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 557
+"order": 558
 });
 
 Mods.push({
@@ -7241,7 +7254,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Eggcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 558
+"order": 559
 });
 
 Mods.push({
@@ -7254,7 +7267,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jessee_Slugcat_REAL.zip",
 "requirements": "dressmyslugcat,slughoodie",
 "tags": "Cosmetics",
-"order": 559
+"order": 560
 });
 
 Mods.push({
@@ -7267,7 +7280,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BIOGRAFT_MEDKIT_ROCKET_AND_SWORD_PHIGHTING.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 560
+"order": 561
 });
 
 Mods.push({
@@ -7279,7 +7292,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Merge_Fix.zip",
 "requirements": "",
 "tags": "",
-"order": 561
+"order": 562
 });
 
 Mods.push({
@@ -7292,7 +7305,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cat_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 562
+"order": 563
 });
 
 Mods.push({
@@ -7305,7 +7318,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Vine_Boom_Death_Sound.zip",
 "requirements": "",
 "tags": "",
-"order": 563
+"order": 564
 });
 
 Mods.push({
@@ -7318,7 +7331,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dangerous_Cuisine.zip",
 "requirements": "",
 "tags": "",
-"order": 564
+"order": 565
 });
 
 Mods.push({
@@ -7331,7 +7344,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Vash_the_Slugpede.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 565
+"order": 566
 });
 
 Mods.push({
@@ -7344,7 +7357,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lizard_party_remake.zip",
 "requirements": "lizardcustomizer",
 "tags": "Cosmetics",
-"order": 566
+"order": 567
 });
 
 Mods.push({
@@ -7357,7 +7370,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scugs_from_afar.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 567
+"order": 568
 });
 
 Mods.push({
@@ -7370,7 +7383,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Javen_in_Rain_world.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 568
+"order": 569
 });
 
 Mods.push({
@@ -7383,7 +7396,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mario_World.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 569
+"order": 570
 });
 
 Mods.push({
@@ -7396,7 +7409,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ultrakill_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 570
+"order": 571
 });
 
 Mods.push({
@@ -7409,7 +7422,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Saint_Head_Sprites.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 571
+"order": 572
 });
 
 Mods.push({
@@ -7422,7 +7435,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dynamo_Cosmetic_Pack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 572
+"order": 573
 });
 
 Mods.push({
@@ -7435,7 +7448,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Run_run_as_fast_as_you_can.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 573
+"order": 574
 });
 
 Mods.push({
@@ -7448,7 +7461,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mothcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 574
+"order": 575
 });
 
 Mods.push({
@@ -7461,7 +7474,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cottonball.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 575
+"order": 576
 });
 
 Mods.push({
@@ -7474,7 +7487,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Similar_WIP.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 576
+"order": 577
 });
 
 Mods.push({
@@ -7487,7 +7500,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gakvu.zip",
 "requirements": "",
 "tags": "",
-"order": 577
+"order": 578
 });
 
 Mods.push({
@@ -7500,7 +7513,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spit_Anything.zip",
 "requirements": "lizardcustomizer",
 "tags": "",
-"order": 578
+"order": 579
 });
 
 Mods.push({
@@ -7514,7 +7527,7 @@ Mods.push({
 "video": "https://www.youtube.com/@Daszombes",
 "requirements": "slime-cubed.slugbase",
 "tags": "Slugcats,Cosmetics,Regions,Items,Arenas",
-"order": 579
+"order": 580
 });
 
 Mods.push({
@@ -7527,7 +7540,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Community_Lizards.zip",
 "requirements": "moreslugcats,lizardcustomizer,spitanything",
 "tags": "",
-"order": 580
+"order": 581
 });
 
 Mods.push({
@@ -7540,7 +7553,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pebbles_Reads_Pearls.zip",
 "requirements": "moreslugcats",
 "tags": "Game Mechanics",
-"order": 581
+"order": 582
 });
 
 Mods.push({
@@ -7553,7 +7566,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/sillymaster.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 582
+"order": 583
 });
 
 Mods.push({
@@ -7566,7 +7579,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Funny_Slugs_skinpack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 583
+"order": 584
 });
 
 Mods.push({
@@ -7579,7 +7592,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Saint_Eyes.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 584
+"order": 585
 });
 
 Mods.push({
@@ -7591,7 +7604,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Drifter_The_Magician_DressMySlugcat.zip",
 "requirements": "",
 "tags": "",
-"order": 585
+"order": 586
 });
 
 Mods.push({
@@ -7604,7 +7617,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Ambidextrous.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 586
+"order": 587
 });
 
 Mods.push({
@@ -7616,7 +7629,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/lizard_dudes.zip",
 "requirements": "",
 "tags": "",
-"order": 587
+"order": 588
 });
 
 Mods.push({
@@ -7629,7 +7642,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_Lizards.zip",
 "requirements": "lizardcustomizer,spitanything,moreslugcats",
 "tags": "",
-"order": 588
+"order": 589
 });
 
 Mods.push({
@@ -7642,7 +7655,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Yeet_Cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 589
+"order": 590
 });
 
 Mods.push({
@@ -7655,7 +7668,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Custom_Food_Point_11.zip",
 "requirements": "jollycoop",
 "tags": "Game Modes",
-"order": 590
+"order": 591
 });
 
 Mods.push({
@@ -7668,7 +7681,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/P0Scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 591
+"order": 592
 });
 
 Mods.push({
@@ -7680,7 +7693,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Paint_Bucket.zip",
 "requirements": "",
 "tags": "",
-"order": 592
+"order": 593
 });
 
 Mods.push({
@@ -7693,7 +7706,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Barren_Wastes.zip",
 "requirements": "",
 "tags": "Regions",
-"order": 593
+"order": 594
 });
 
 Mods.push({
@@ -7706,7 +7719,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugmanda_The_Adventurer.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 594
+"order": 595
 });
 
 Mods.push({
@@ -7719,7 +7732,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Arachnid.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 595
+"order": 596
 });
 
 Mods.push({
@@ -7732,7 +7745,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_is_Baba.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 596
+"order": 597
 });
 
 Mods.push({
@@ -7745,7 +7758,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Skug_Skellington.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 597
+"order": 598
 });
 
 Mods.push({
@@ -7758,7 +7771,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Millions_Challenges.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 598
+"order": 599
 });
 
 Mods.push({
@@ -7771,7 +7784,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/100_Slugpup_Chance.zip",
 "requirements": "",
 "tags": "",
-"order": 599
+"order": 600
 });
 
 Mods.push({
@@ -7784,7 +7797,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Zlugora.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 600
+"order": 601
 });
 
 Mods.push({
@@ -7797,7 +7810,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/shadow_the_slugehog.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 601
+"order": 602
 });
 
 Mods.push({
@@ -7810,7 +7823,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Happy_Face_Eyes.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 602
+"order": 603
 });
 
 Mods.push({
@@ -7823,7 +7836,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rainy_World_Funkin.zip",
 "requirements": "",
 "tags": "Game Modes",
-"order": 603
+"order": 604
 });
 
 Mods.push({
@@ -7836,7 +7849,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SpiritSpearMod.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 604
+"order": 605
 });
 
 Mods.push({
@@ -7849,7 +7862,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lizard_Variants.zip",
 "requirements": "moreslugcats,lizardcustomizer,spitanything",
 "tags": "Creatures",
-"order": 605
+"order": 606
 });
 
 Mods.push({
@@ -7861,7 +7874,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BEEEEEEEEG_Frills.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 606
+"order": 607
 });
 
 Mods.push({
@@ -7874,7 +7887,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Begonia.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,regionkit",
 "tags": "Regions,Campaigns,Custom Slugcat",
-"order": 607
+"order": 608
 });
 
 Mods.push({
@@ -7887,7 +7900,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ukrainian_Localisation.zip",
 "requirements": "",
 "tags": "",
-"order": 608
+"order": 609
 });
 
 Mods.push({
@@ -7900,7 +7913,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fixed_Saint_Face.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 609
+"order": 610
 });
 
 Mods.push({
@@ -7913,7 +7926,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Halflife_SFX.zip",
 "requirements": "",
 "tags": "",
-"order": 610
+"order": 611
 });
 
 Mods.push({
@@ -7926,7 +7939,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/McMeow_from_super_cat_tales.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 611
+"order": 612
 });
 
 Mods.push({
@@ -7939,7 +7952,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fluffy_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 612
+"order": 613
 });
 
 Mods.push({
@@ -7952,7 +7965,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Community_Challenges.zip",
 "requirements": "millionschallenges,moreslugcats",
 "tags": "",
-"order": 613
+"order": 614
 });
 
 Mods.push({
@@ -7965,7 +7978,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Darkness_211.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,nutils",
 "tags": "Campaigns",
-"order": 614
+"order": 615
 });
 
 Mods.push({
@@ -7978,7 +7991,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Carnivore_Reborn.zip",
 "requirements": "",
 "tags": "",
-"order": 615
+"order": 616
 });
 
 Mods.push({
@@ -7991,7 +8004,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugward.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 616
+"order": 617
 });
 
 Mods.push({
@@ -8004,7 +8017,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pride_Rainbow_World.zip",
 "requirements": "bro.mergefix,regionkit",
 "tags": "Cosmetics",
-"order": 617
+"order": 618
 });
 
 Mods.push({
@@ -8017,7 +8030,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nicholas_D_Slugwood.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 618
+"order": 619
 });
 
 Mods.push({
@@ -8030,7 +8043,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lavish_Knack.zip",
 "requirements": "regionkit,moreslugcats",
 "tags": "Regions",
-"order": 619
+"order": 620
 });
 
 Mods.push({
@@ -8043,7 +8056,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Room_Randomizer_Community_Logic.zip",
 "requirements": "floofcheeks.roomrando",
 "tags": "Game Mechanics",
-"order": 620
+"order": 621
 });
 
 Mods.push({
@@ -8056,7 +8069,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pansears_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 621
+"order": 622
 });
 
 Mods.push({
@@ -8069,7 +8082,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Submas_Slugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 622
+"order": 623
 });
 
 Mods.push({
@@ -8083,7 +8096,7 @@ Mods.push({
 "video": "https://www.youtube.com/@DCYT1974",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 623
+"order": 624
 });
 
 Mods.push({
@@ -8096,7 +8109,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Unknown.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 624
+"order": 625
 });
 
 Mods.push({
@@ -8109,7 +8122,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Artificer_except_i_added_50_dropwigs_to_the_first_room_of_the_leg.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 625
+"order": 626
 });
 
 Mods.push({
@@ -8122,7 +8135,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Expedition_for_Everyone_101.zip",
 "requirements": "moreslugcats,expedition",
 "tags": "Game Modes",
-"order": 626
+"order": 627
 });
 
 Mods.push({
@@ -8135,7 +8148,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/FNAFs_Phone_Heads.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 627
+"order": 628
 });
 
 Mods.push({
@@ -8148,7 +8161,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Capacitor.zip",
 "requirements": "slime-cubed.slugbase,improved-input-config,dressmyslugcat,moreslugcats",
 "tags": "",
-"order": 628
+"order": 629
 });
 
 Mods.push({
@@ -8161,7 +8174,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SuperSmashScugs_The_Legend_of_Zelda_Pack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 629
+"order": 630
 });
 
 Mods.push({
@@ -8169,12 +8182,12 @@ Mods.push({
 "id": "harvie.biography",
 "workshop_id": "2985657499",
 "author": "Harvie",
-"desc": "A simple biography that shows all the creatures in the rain world.<br><br>How to open: button is on the right side of the COLLECTION on the main menu<br>Main function: Display the appearance of the creature with the specified ID, as well as some information of the creature.<br><br>Github link: https://github.com/HarvieSorroway/Biography<br><br>This mod is currently imperfect, sorry for the bug that may occur.",
+"desc": "an in-game biography for all rainworld creatures",
 "thumb": "previews/2985657499.png",
 "url": "https://andrew.fm/rainworld/raindb/Biography_Beta.zip",
 "requirements": "",
 "tags": "",
-"order": 630
+"order": 631
 });
 
 Mods.push({
@@ -8187,7 +8200,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Survivor_but_it_can_eat_meat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 631
+"order": 632
 });
 
 Mods.push({
@@ -8200,7 +8213,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Trans_Gloves.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 632
+"order": 633
 });
 
 Mods.push({
@@ -8213,7 +8226,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Clovers_Slugs_DMS_Mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 633
+"order": 634
 });
 
 Mods.push({
@@ -8226,7 +8239,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Centaurify.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 634
+"order": 635
 });
 
 Mods.push({
@@ -8239,7 +8252,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_Pounce_Tutorial.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 635
+"order": 636
 });
 
 Mods.push({
@@ -8252,7 +8265,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Carnivorous_Scugs.zip",
 "requirements": "",
 "tags": "",
-"order": 636
+"order": 637
 });
 
 Mods.push({
@@ -8265,7 +8278,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Starting_rooms_but_absolute_garbage_Postponed_for_a_day.zip",
 "requirements": "",
 "tags": "",
-"order": 637
+"order": 638
 });
 
 Mods.push({
@@ -8278,7 +8291,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Siamese_Nightcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 638
+"order": 639
 });
 
 Mods.push({
@@ -8291,7 +8304,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cat_Things_Alternate_Eyes.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 639
+"order": 640
 });
 
 Mods.push({
@@ -8304,7 +8317,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Extra_Threat_Themes.zip",
 "requirements": "crs",
 "tags": "",
-"order": 640
+"order": 641
 });
 
 Mods.push({
@@ -8318,7 +8331,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCKg3SRflTZgb2slKgO29EwA",
 "requirements": "crs",
 "tags": "Regions,Cosmetics",
-"order": 641
+"order": 642
 });
 
 Mods.push({
@@ -8331,7 +8344,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lovehearts.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 642
+"order": 643
 });
 
 Mods.push({
@@ -8344,7 +8357,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Olli_from_super_cat_tales.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 643
+"order": 644
 });
 
 Mods.push({
@@ -8357,7 +8370,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RwEXP_Beta.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 644
+"order": 645
 });
 
 Mods.push({
@@ -8369,7 +8382,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/FoodSkins.zip",
 "requirements": "",
 "tags": "",
-"order": 645
+"order": 646
 });
 
 Mods.push({
@@ -8382,7 +8395,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lego_Yoda_Death_Sound.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 646
+"order": 647
 });
 
 Mods.push({
@@ -8395,7 +8408,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CatPunchPunch.zip",
 "requirements": "",
 "tags": "",
-"order": 647
+"order": 648
 });
 
 Mods.push({
@@ -8408,7 +8421,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shoreline_but_theres_75_FUCKING_LEVIATHANS.zip",
 "requirements": "",
 "tags": "",
-"order": 648
+"order": 649
 });
 
 Mods.push({
@@ -8421,7 +8434,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/solaces_rivulet_design.zip",
 "requirements": "dressmyslugcat,moreslugcats",
 "tags": "Cosmetics",
-"order": 649
+"order": 650
 });
 
 Mods.push({
@@ -8434,7 +8447,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/King_Cat_cosmetic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 650
+"order": 651
 });
 
 Mods.push({
@@ -8447,7 +8460,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Omori_Fall_Death_Sound.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 651
+"order": 652
 });
 
 Mods.push({
@@ -8455,12 +8468,12 @@ Mods.push({
 "id": "scorched_district",
 "workshop_id": "2987764922",
 "author": "Myrmice",
-"desc": "Scorched District is back! Explore the remnants of an ancient city high above the clouds, ruined by violent dust storms. This region connects with The Exterior, 5P, Metropolis, Pilgrims' Ascent, and now The Mast!<br>It includes :<br><br>- 138 rooms and almost 300 screens<br>- custom day and night threat themes by Joseph Nied and Aki<br>- a new lizard and a new centipede by M4rbleL1ne<br>- alternative rooms and spawns for Downpour slugcats<br>- a custom echo, safari mode, dust storms, and a lot more!<br><br>Playing with the Pilgrims' Ascent region mod is highly recommended for the optimal experience™<br><br>Thumbnail by @HoldingEar on Twitter<br>Region art by Tsunochizu",
+"desc": "Scorched District is back! Explore the remnants of an ancient city high above the clouds, ruined by violent dust storms. This region connects with The Exterior, 5P, Metropolis, Pilgrims' Ascent, and now The Mast!<br>It includes :<br><br>- 126 rooms and almost 300 screens<br>- custom day and night threat themes by Joseph Nied and Aki<br>- a new lizard and a new centipede by M4rbleL1ne<br>- alternative rooms and spawns for Downpour slugcats<br>- a custom echo, safari mode, dust storms, and a lot more!<br><br>Playing with the Pilgrims' Ascent region mod is highly recommended for the optimal experience™<br><br>Thumbnail by @HoldingEar on Twitter<br>Region art by Tsunochizu",
 "thumb": "previews/2987764922.png",
 "url": "https://ln5.sync.com/dl/5bbdad1e0/pnab9b42-g962e6ra-v27zyvsy-2793dy2y",
 "requirements": "crs,regionkit,lb-fgf-m4r-ik.scorched-district,lb-fgf-m4r-ik.red-horror-centi",
 "tags": "Regions",
-"order": 652
+"order": 653
 });
 
 Mods.push({
@@ -8473,7 +8486,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Prideful_Extravaganza.zip",
 "requirements": "dressmyslugcat,moreslugcats",
 "tags": "Cosmetics",
-"order": 653
+"order": 654
 });
 
 Mods.push({
@@ -8486,7 +8499,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/897a572c0/e8dgeaqf-9r2fzmqt-dn8xq4m4-igai4mx2",
 "requirements": "crs,regionkit,lb-fgf-m4r-ik.howling-rift,fisobs,lb-fgf-m4r-ik.fat-fire-fly-creature",
 "tags": "Regions",
-"order": 654
+"order": 655
 });
 
 Mods.push({
@@ -8499,7 +8512,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Alternative_Stun_Eyes.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 655
+"order": 656
 });
 
 Mods.push({
@@ -8512,7 +8525,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/AniSlug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 656
+"order": 657
 });
 
 Mods.push({
@@ -8525,7 +8538,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Placek.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 657
+"order": 658
 });
 
 Mods.push({
@@ -8538,7 +8551,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/the_parasitoid_skin.zip",
 "requirements": "",
 "tags": "Cosmetics,Dependency,Tools",
-"order": 658
+"order": 659
 });
 
 Mods.push({
@@ -8551,7 +8564,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/scarred_scug.zip",
 "requirements": "",
 "tags": "",
-"order": 659
+"order": 660
 });
 
 Mods.push({
@@ -8564,7 +8577,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Wayfarer_BETA.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
 "tags": "",
-"order": 660
+"order": 661
 });
 
 Mods.push({
@@ -8577,7 +8590,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Underhang_but_theres_40_SHTING_DLL.zip",
 "requirements": "",
 "tags": "",
-"order": 661
+"order": 662
 });
 
 Mods.push({
@@ -8590,7 +8603,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/the_rest_of_the_PAWS_team_that_i_didnt_make_yet.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 662
+"order": 663
 });
 
 Mods.push({
@@ -8603,7 +8616,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Flower_Crown_NOW_WITH_SAINT_FLUFF.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 663
+"order": 664
 });
 
 Mods.push({
@@ -8616,7 +8629,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Raindeer_but_theres_90_DAMN_RAINDEER.zip",
 "requirements": "",
 "tags": "",
-"order": 664
+"order": 665
 });
 
 Mods.push({
@@ -8629,7 +8642,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Monument_MythCats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 665
+"order": 666
 });
 
 Mods.push({
@@ -8641,7 +8654,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tetros_custom_lizards_1.zip",
 "requirements": "",
 "tags": "",
-"order": 666
+"order": 667
 });
 
 Mods.push({
@@ -8654,7 +8667,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Shadow__Sun_Shade.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 667
+"order": 668
 });
 
 Mods.push({
@@ -8667,7 +8680,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Marshland_Wastes.zip",
 "requirements": "regionkit,moreslugcats,pom,rwremix,crs",
 "tags": "Regions",
-"order": 668
+"order": 669
 });
 
 Mods.push({
@@ -8680,7 +8693,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Expeditions_Enhanced.zip",
 "requirements": "expedition",
 "tags": "Game Mechanics,Game Modes,Expedition",
-"order": 669
+"order": 670
 });
 
 Mods.push({
@@ -8693,7 +8706,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kaboom.zip",
 "requirements": "",
 "tags": "",
-"order": 670
+"order": 671
 });
 
 Mods.push({
@@ -8706,7 +8719,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nyctophobia.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Arenas,Regions,Campaigns,Game Mechanics,Cosmetics",
-"order": 671
+"order": 672
 });
 
 Mods.push({
@@ -8719,7 +8732,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Menu_Together.zip",
 "requirements": "",
 "tags": "Accessibility,Tools",
-"order": 672
+"order": 673
 });
 
 Mods.push({
@@ -8732,7 +8745,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/A_Chaos_Modpack.zip",
 "requirements": "mojosoup.enemyrando,Aureuix.Kaboom,Gamer025.RainworldCE,floofcheeks.roomrando,squidboom",
 "tags": "",
-"order": 673
+"order": 674
 });
 
 Mods.push({
@@ -8745,7 +8758,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/A_Boom_Modpack.zip",
 "requirements": "Aureuix.Kaboom,squidboom,NoirCatto.ExplodingBatflies,ExplosiveWorld,scavthud,combustableartificer,niko.explodingdlls",
 "tags": "",
-"order": 674
+"order": 675
 });
 
 Mods.push({
@@ -8758,7 +8771,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Iterator_TTS.zip",
 "requirements": "",
 "tags": "",
-"order": 675
+"order": 676
 });
 
 Mods.push({
@@ -8771,7 +8784,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Frigidcoasts_Slugcat_Designs_WIP.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 676
+"order": 677
 });
 
 Mods.push({
@@ -8784,7 +8797,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Spot.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 677
+"order": 678
 });
 
 Mods.push({
@@ -8797,7 +8810,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMSShrimpulet.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 678
+"order": 679
 });
 
 Mods.push({
@@ -8810,7 +8823,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Misc_DMS_Items.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 679
+"order": 680
 });
 
 Mods.push({
@@ -8823,7 +8836,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/delirium_from_the_hit_game_the_binding_of_isaac_afterbirth.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 680
+"order": 681
 });
 
 Mods.push({
@@ -8835,7 +8848,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/FP_to_Interior.zip",
 "requirements": "",
 "tags": "",
-"order": 681
+"order": 682
 });
 
 Mods.push({
@@ -8848,7 +8861,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/EmgTx.zip",
 "requirements": "",
 "tags": "",
-"order": 682
+"order": 683
 });
 
 Mods.push({
@@ -8861,7 +8874,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Peter_Griffin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 683
+"order": 684
 });
 
 Mods.push({
@@ -8874,7 +8887,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_JudgeRuler_of_Everything.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 684
+"order": 685
 });
 
 Mods.push({
@@ -8887,7 +8900,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/AmbiScug.zip",
 "requirements": "",
 "tags": "",
-"order": 685
+"order": 686
 });
 
 Mods.push({
@@ -8900,7 +8913,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kills_Add_Time.zip",
 "requirements": "",
 "tags": "",
-"order": 686
+"order": 687
 });
 
 Mods.push({
@@ -8913,7 +8926,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/KohgaCat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 687
+"order": 688
 });
 
 Mods.push({
@@ -8926,7 +8939,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Flappy_Pebbles.zip",
 "requirements": "maxi-mol.fivepebblespong",
 "tags": "Game Mechanics",
-"order": 688
+"order": 689
 });
 
 Mods.push({
@@ -8939,7 +8952,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pines_Skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 689
+"order": 690
 });
 
 Mods.push({
@@ -8952,7 +8965,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/gay_arrow.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 690
+"order": 691
 });
 
 Mods.push({
@@ -8965,7 +8978,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Enlightened__DMS_Cosmetic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 691
+"order": 692
 });
 
 Mods.push({
@@ -8978,7 +8991,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/b9a4c7670/3gzup946-65gx9sws-86jgfpkc-punzd4by",
 "requirements": "moreslugcats,crs",
 "tags": "Regions",
-"order": 692
+"order": 693
 });
 
 Mods.push({
@@ -8991,7 +9004,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Reaper_Lizard.zip",
 "requirements": "",
 "tags": "Creatures,Lizard,Halloween",
-"order": 693
+"order": 694
 });
 
 Mods.push({
@@ -9004,7 +9017,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Axolotl_head.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 694
+"order": 695
 });
 
 Mods.push({
@@ -9017,7 +9030,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hold_Squidcada_With_One_Hand.zip",
 "requirements": "",
 "tags": "",
-"order": 695
+"order": 696
 });
 
 Mods.push({
@@ -9030,7 +9043,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Moi_and_Noi_IN_THE_RAINY_WORLD.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 696
+"order": 697
 });
 
 Mods.push({
@@ -9043,7 +9056,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Fusion_cosmetic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 697
+"order": 698
 });
 
 Mods.push({
@@ -9056,7 +9069,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Marks_of_Passage.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 698
+"order": 699
 });
 
 Mods.push({
@@ -9068,7 +9081,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BETA_Breadway.zip",
 "requirements": "slime-cubed.devconsole",
 "tags": "",
-"order": 699
+"order": 700
 });
 
 Mods.push({
@@ -9081,7 +9094,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spacecats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 700
+"order": 701
 });
 
 Mods.push({
@@ -9094,7 +9107,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cat_Crashers.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 701
+"order": 702
 });
 
 Mods.push({
@@ -9107,7 +9120,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/a_PRIDE_SHIRT_for_your_PROUD_SLUG.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 702
+"order": 703
 });
 
 Mods.push({
@@ -9120,7 +9133,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/sluggyg.zip",
 "requirements": "",
 "tags": "",
-"order": 703
+"order": 704
 });
 
 Mods.push({
@@ -9133,7 +9146,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Simple_Spawn_Swapper.zip",
 "requirements": "",
 "tags": "Creatures,Lizard Customizer,Tools,Dependency",
-"order": 704
+"order": 705
 });
 
 Mods.push({
@@ -9146,7 +9159,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mark_Cosmetics.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 705
+"order": 706
 });
 
 Mods.push({
@@ -9159,7 +9172,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_Fortress_2_12_Update.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 706
+"order": 707
 });
 
 Mods.push({
@@ -9172,7 +9185,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/brutus_from_super_cat_tales.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 707
+"order": 708
 });
 
 Mods.push({
@@ -9185,7 +9198,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Group_Alpha_goes_on_a_walk.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 708
+"order": 709
 });
 
 Mods.push({
@@ -9198,7 +9211,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Entities_of_The_Void__Echocat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 709
+"order": 710
 });
 
 Mods.push({
@@ -9211,7 +9224,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tiny_The_Sluggy_PuppyThe_Tiny_Multiverses_Character.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 710
+"order": 711
 });
 
 Mods.push({
@@ -9223,7 +9236,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/YEEKWORLD.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 711
+"order": 712
 });
 
 Mods.push({
@@ -9236,7 +9249,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bad_Pixel_Remover.zip",
 "requirements": "",
 "tags": "",
-"order": 712
+"order": 713
 });
 
 Mods.push({
@@ -9248,7 +9261,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spore_Lizard_Mod.zip",
 "requirements": "",
 "tags": "",
-"order": 713
+"order": 714
 });
 
 Mods.push({
@@ -9261,7 +9274,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Expanded_Leg.zip",
 "requirements": "crs,moreslugcats,jevmen.drainagesystemplus",
 "tags": "Regions",
-"order": 714
+"order": 715
 });
 
 Mods.push({
@@ -9274,7 +9287,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Struggle_Mod.zip",
 "requirements": "moreslugcats,rwremix",
 "tags": "",
-"order": 715
+"order": 716
 });
 
 Mods.push({
@@ -9287,7 +9300,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kobayashi.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 716
+"order": 717
 });
 
 Mods.push({
@@ -9300,7 +9313,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Vordt.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 717
+"order": 718
 });
 
 Mods.push({
@@ -9313,7 +9326,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Epic_Echocat_Eyes_Soon_to_have_the_rest_of_an_echocat_design.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 718
+"order": 719
 });
 
 Mods.push({
@@ -9326,7 +9339,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lanker_Costume.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 719
+"order": 720
 });
 
 Mods.push({
@@ -9339,7 +9352,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/MINE_MINE_Miros.zip",
 "requirements": "",
 "tags": "",
-"order": 720
+"order": 721
 });
 
 Mods.push({
@@ -9352,7 +9365,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SuperSmashScugs_EarthboundMOTHER_Pack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 721
+"order": 722
 });
 
 Mods.push({
@@ -9364,7 +9377,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/stygian_depths.zip",
 "requirements": "",
 "tags": "",
-"order": 722
+"order": 723
 });
 
 Mods.push({
@@ -9377,7 +9390,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rubio_for_Dress_My_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 723
+"order": 724
 });
 
 Mods.push({
@@ -9390,7 +9403,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Chinacat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 724
+"order": 725
 });
 
 Mods.push({
@@ -9402,7 +9415,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lizs_Custom_Lizards.zip",
 "requirements": "lizardcustomizer",
 "tags": "",
-"order": 725
+"order": 726
 });
 
 Mods.push({
@@ -9415,7 +9428,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Region_Title_Fix.zip",
 "requirements": "",
 "tags": "",
-"order": 726
+"order": 727
 });
 
 Mods.push({
@@ -9428,7 +9441,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/io_paladins_as_slugcat_Dress_my_slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 727
+"order": 728
 });
 
 Mods.push({
@@ -9441,7 +9454,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tank_and_Spotter.zip",
 "requirements": "",
 "tags": "",
-"order": 728
+"order": 729
 });
 
 Mods.push({
@@ -9454,7 +9467,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cone_Spawner.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 729
+"order": 730
 });
 
 Mods.push({
@@ -9467,7 +9480,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dont_Get_Wet.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 730
+"order": 731
 });
 
 Mods.push({
@@ -9480,7 +9493,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Crazy_OC_Pack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 731
+"order": 732
 });
 
 Mods.push({
@@ -9493,7 +9506,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ukrainian_Localisation_Addition.zip",
 "requirements": "rwremix",
 "tags": "",
-"order": 732
+"order": 733
 });
 
 Mods.push({
@@ -9506,7 +9519,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fortunate_Development.zip",
 "requirements": "bro.mergefix,regionkit,moreslugcats,crs",
 "tags": "Regions",
-"order": 733
+"order": 734
 });
 
 Mods.push({
@@ -9519,7 +9532,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Superstructure_Fuse_Fix.zip",
 "requirements": "",
 "tags": "",
-"order": 734
+"order": 735
 });
 
 Mods.push({
@@ -9532,7 +9545,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Triple_Jump.zip",
 "requirements": "",
 "tags": "",
-"order": 735
+"order": 736
 });
 
 Mods.push({
@@ -9545,7 +9558,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Unshackled_Coop.zip",
 "requirements": "moreslugcats,jollycoop",
 "tags": "Game Mechanics",
-"order": 736
+"order": 737
 });
 
 Mods.push({
@@ -9558,7 +9571,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Deers_Slugcat_Designs_WIP.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 737
+"order": 738
 });
 
 Mods.push({
@@ -9571,7 +9584,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/OnO.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 738
+"order": 739
 });
 
 Mods.push({
@@ -9585,7 +9598,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCh2Uxj3mTb1ytBYMlCJMXAg",
 "requirements": "",
 "tags": "",
-"order": 739
+"order": 740
 });
 
 Mods.push({
@@ -9598,7 +9611,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Five_Pebbles_Expansion_Beta.zip",
 "requirements": "moreslugcats,regionkit,crs,ssfusefix",
 "tags": "Regions",
-"order": 740
+"order": 741
 });
 
 Mods.push({
@@ -9611,7 +9624,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/PROJECT_The_Goph.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 741
+"order": 742
 });
 
 Mods.push({
@@ -9625,7 +9638,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCgwU6_Yr3PmtKAgvQ5JprSg",
 "requirements": "",
 "tags": "",
-"order": 742
+"order": 743
 });
 
 Mods.push({
@@ -9638,7 +9651,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Snailcat.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
 "tags": "",
-"order": 743
+"order": 744
 });
 
 Mods.push({
@@ -9651,7 +9664,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Uncreative_Lizards.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 744
+"order": 745
 });
 
 Mods.push({
@@ -9664,7 +9677,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Feminine_Eyes.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 745
+"order": 746
 });
 
 Mods.push({
@@ -9677,7 +9690,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Vinki.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
 "tags": "Campaigns,Game Mechanics,Items,Cosmetics",
-"order": 746
+"order": 747
 });
 
 Mods.push({
@@ -9690,7 +9703,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Neco_Arc.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 747
+"order": 748
 });
 
 Mods.push({
@@ -9703,7 +9716,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/I_Have_Slooggifide_Myself_ooFloufi_Cosmetic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 748
+"order": 749
 });
 
 Mods.push({
@@ -9711,12 +9724,12 @@ Mods.push({
 "id": "everywherearenastwg",
 "workshop_id": "3001859244",
 "author": "The_Wild_Goose",
-"desc": "Everywhere and nowhere<br><br>Everywhere and Nowhere is a set of arena maps with a lot of variation. Ranging from industrial spaces to natural landscapes, hence the name Everywhere and Nowhere.<br><br>Inspiration<br>The maps in the mod mostly come from my mind and from time to time it might be in the campaigns. This may result in longer loading times for this reason.<br> <br>Note: I don't think about gameplay first, I focus on beauty and may leave out some impossible jumps or spaces that you're not supposed to be. That's why Jay helps with gameplay, testing and playability.<br><br>Arenas in order of creation<br><br>Release<br>Chimneys – Fantasy Islands – Greenhouse<br><br>Update – Deeper<br>Hollow<br><br>Update - Farming<br>Reed Farm<br><br>Update - Explorer<br>Bridge – Snow Pits – Complex – Acid Filters – Communicator<br><br>Update - Expedition<br>Backyard - Darker - Deserted Roof - Elder Sequoias - Fallen Life - Hidden Ruins - Neuronal Abode - Rime Spikes - Treacherous Chasm - Vast Expanse<br><br>Be Aware that the mod SBCameraScroll bugs the water's visuals",
+"desc": "Everywhere and nowhere<br><br>Everywhere and Nowhere is a set of arena maps with a lot of variation. Ranging from industrial spaces to natural landscapes, hence the name Everywhere and Nowhere.<br><br>Inspiration<br>The maps in the mod mostly come from my mind and from time to time it might be in the campaigns. This may result in longer loading times for this reason.<br> <br>Note: I don't think about gameplay first, I focus on beauty and may leave out some impossible jumps or spaces that you're not supposed to be. That's why Jay helps with gameplay, testing and playability.<br><br>Arenas in order of creation<br><br>Release<br>Chimneys – Fantasy Islands – Greenhouse<br><br>Update – Deeper<br>Hollow<br><br>Update - Farming<br>Reed Farm<br><br>Update - Explorer<br>Bridge – Snow Pits – Complex – Acid Filters – Communicator<br><br>Update - Expedition<br>Backyard - Darker - Deserted Roof - Elder Sequoias - Fallen Life - Hidden Ruins - Neuronal Abode - Rime Spikes - Treacherous Chasm - Basalt Pillar<br><br>Be Aware that the mod SBCameraScroll bugs the water's visuals",
 "thumb": "previews/3001859244.png",
 "url": "https://andrew.fm/rainworld/raindb/Everywhere_and_No_Where.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 749
+"order": 750
 });
 
 Mods.push({
@@ -9729,7 +9742,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Egg_for_all.zip",
 "requirements": "",
 "tags": "",
-"order": 750
+"order": 751
 });
 
 Mods.push({
@@ -9742,7 +9755,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Bionic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 751
+"order": 752
 });
 
 Mods.push({
@@ -9755,7 +9768,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Silly_Lizards.zip",
 "requirements": "lizardcustomizer,simplespawnswapper",
 "tags": "Creatures",
-"order": 752
+"order": 753
 });
 
 Mods.push({
@@ -9768,7 +9781,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/EARLY_DEV_The_Sightseer.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,bro.mergefix,crs",
 "tags": "Regions,Campaigns,Game Mechanics",
-"order": 753
+"order": 754
 });
 
 Mods.push({
@@ -9781,7 +9794,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Portraitinspired_Monk_face.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 754
+"order": 755
 });
 
 Mods.push({
@@ -9794,7 +9807,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Stickcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 755
+"order": 756
 });
 
 Mods.push({
@@ -9807,7 +9820,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Emmets_cool_texpack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 756
+"order": 757
 });
 
 Mods.push({
@@ -9820,7 +9833,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/choccy_the_sequel.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 757
+"order": 758
 });
 
 Mods.push({
@@ -9833,7 +9846,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tommys_Spearmaster_Design.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 758
+"order": 759
 });
 
 Mods.push({
@@ -9846,7 +9859,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pullup_Fix.zip",
 "requirements": "",
 "tags": "",
-"order": 759
+"order": 760
 });
 
 Mods.push({
@@ -9859,7 +9872,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Any_Pounce_Roll.zip",
 "requirements": "",
 "tags": "",
-"order": 760
+"order": 761
 });
 
 Mods.push({
@@ -9872,7 +9885,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Easy_Roll_Slide.zip",
 "requirements": "",
 "tags": "",
-"order": 761
+"order": 762
 });
 
 Mods.push({
@@ -9885,7 +9898,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Directionality_Fix.zip",
 "requirements": "",
 "tags": "",
-"order": 762
+"order": 763
 });
 
 Mods.push({
@@ -9897,7 +9910,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Tower__Daszombes.zip",
 "requirements": "",
 "tags": "Regions",
-"order": 763
+"order": 764
 });
 
 Mods.push({
@@ -9910,7 +9923,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Long_Jump.zip",
 "requirements": "",
 "tags": "",
-"order": 764
+"order": 765
 });
 
 Mods.push({
@@ -9923,7 +9936,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/They_Are_Different.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics,Accessiblity",
-"order": 765
+"order": 766
 });
 
 Mods.push({
@@ -9937,7 +9950,7 @@ Mods.push({
 "video": "https://www.youtube.com/@tsoewoe",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 766
+"order": 767
 });
 
 Mods.push({
@@ -9950,7 +9963,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/femsaint.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 767
+"order": 768
 });
 
 Mods.push({
@@ -9963,7 +9976,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/VultureTankMod.zip",
 "requirements": "",
 "tags": "",
-"order": 768
+"order": 769
 });
 
 Mods.push({
@@ -9976,7 +9989,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tommys_Monk.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 769
+"order": 770
 });
 
 Mods.push({
@@ -9989,7 +10002,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Funny_Deltarune_Explosion.zip",
 "requirements": "",
 "tags": "",
-"order": 770
+"order": 771
 });
 
 Mods.push({
@@ -10002,7 +10015,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Sturdy_part_II.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 771
+"order": 772
 });
 
 Mods.push({
@@ -10015,7 +10028,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Copycats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 772
+"order": 773
 });
 
 Mods.push({
@@ -10028,7 +10041,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cloudburst.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat,openthegates",
 "tags": "Campaigns",
-"order": 773
+"order": 774
 });
 
 Mods.push({
@@ -10041,7 +10054,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Foxies_Random_Frills_And_a_Burn_Mark.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 774
+"order": 775
 });
 
 Mods.push({
@@ -10054,7 +10067,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/LillyPuck_Damage_Bonus.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 775
+"order": 776
 });
 
 Mods.push({
@@ -10067,7 +10080,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pupify.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 776
+"order": 777
 });
 
 Mods.push({
@@ -10080,7 +10093,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Boykisser_scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 777
+"order": 778
 });
 
 Mods.push({
@@ -10093,7 +10106,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Big_Pants.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 778
+"order": 779
 });
 
 Mods.push({
@@ -10106,20 +10119,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Waaaa.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 779
+"order": 780
 });
 
 Mods.push({
-"name": "Individual Food Bars [0.1.189]",
+"name": "Individual Food Bars [0.1.19]",
 "id": "sprobgik.individualfoodbars",
 "workshop_id": "3006215037",
 "author": "Sprobgik",
 "desc": "A mod for Jolly Co-op that separates your friends' food bars as opposed to sharing one, so you can have that one friend who's always starving!<br><br>Changes certain things in order to allow each player to have their own food without affecting the other, though these changes may be affected by other mods, or even affect what they do! Load order might fix this however, so make sure it loads last! (Disclaimer: this may not matter anymore considering the more recent changes of the mod)<br><br>Do note that this may not function correctly if you use it for singleplayer purposes, also changes shelter closing conditions<br><br>Notable changes include:<br>- Players having individual food bars, similarly to pup food bars<br>- Individual players can become malnourished, and if there's enough players malnourished, will trigger a starve cycle<br>- Individual players can starve to death, basically spawning dead next cycle<br>- Players who arrive in a shelter dead will become malnourished next cycle, and will not retain any food they had",
 "thumb": "previews/3006215037.png",
-"url": "https://andrew.fm/rainworld/raindb/Individual_Food_Bars_01189.zip",
+"url": "https://andrew.fm/rainworld/raindb/Individual_Food_Bars_0119.zip",
 "requirements": "jollycoop",
 "tags": "Game Mechanics",
-"order": 780
+"order": 781
 });
 
 Mods.push({
@@ -10132,7 +10145,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hexcugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 781
+"order": 782
 });
 
 Mods.push({
@@ -10145,7 +10158,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mouse_Input.zip",
 "requirements": "",
 "tags": "",
-"order": 782
+"order": 783
 });
 
 Mods.push({
@@ -10158,7 +10171,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NekoArcSFX.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 783
+"order": 784
 });
 
 Mods.push({
@@ -10171,7 +10184,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Zeths_stuff.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 784
+"order": 785
 });
 
 Mods.push({
@@ -10184,7 +10197,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/eepy.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 785
+"order": 786
 });
 
 Mods.push({
@@ -10197,7 +10210,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gloobus_Makes_Lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 786
+"order": 787
 });
 
 Mods.push({
@@ -10210,7 +10223,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Mechanical.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 787
+"order": 788
 });
 
 Mods.push({
@@ -10223,7 +10236,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Centriscugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 788
+"order": 789
 });
 
 Mods.push({
@@ -10236,7 +10249,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sludge_cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 789
+"order": 790
 });
 
 Mods.push({
@@ -10249,7 +10262,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/slime.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 790
+"order": 791
 });
 
 Mods.push({
@@ -10262,7 +10275,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sino_Reskin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 791
+"order": 792
 });
 
 Mods.push({
@@ -10275,7 +10288,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/THICCINV.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 792
+"order": 793
 });
 
 Mods.push({
@@ -10288,7 +10301,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RaccoonAvi.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 793
+"order": 794
 });
 
 Mods.push({
@@ -10301,7 +10314,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Tower.zip",
 "requirements": "regionkit,pom,rwremix,crs",
 "tags": "Regions",
-"order": 794
+"order": 795
 });
 
 Mods.push({
@@ -10314,7 +10327,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Courier.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 795
+"order": 796
 });
 
 Mods.push({
@@ -10327,7 +10340,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Unused_Slugcats_Portraits.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "",
-"order": 796
+"order": 797
 });
 
 Mods.push({
@@ -10339,7 +10352,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lavender_Lizards.zip",
 "requirements": "lizardcustomizer",
 "tags": "",
-"order": 797
+"order": 798
 });
 
 Mods.push({
@@ -10352,7 +10365,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Belpix.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 798
+"order": 799
 });
 
 Mods.push({
@@ -10365,7 +10378,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/PVP_integration_pack.zip",
 "requirements": "arenaslugcatsconfigurator,regionkit",
 "tags": "",
-"order": 799
+"order": 800
 });
 
 Mods.push({
@@ -10377,7 +10390,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Garfields_Lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 800
+"order": 801
 });
 
 Mods.push({
@@ -10390,7 +10403,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/MISSING_TEXTURE.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 801
+"order": 802
 });
 
 Mods.push({
@@ -10403,7 +10416,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Galaxy_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 802
+"order": 803
 });
 
 Mods.push({
@@ -10416,7 +10429,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Elitist_Difficulty.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 803
+"order": 804
 });
 
 Mods.push({
@@ -10429,7 +10442,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Inventory.zip",
 "requirements": "",
 "tags": "",
-"order": 804
+"order": 805
 });
 
 Mods.push({
@@ -10442,7 +10455,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mouse_Drag.zip",
 "requirements": "",
 "tags": "Tools",
-"order": 805
+"order": 806
 });
 
 Mods.push({
@@ -10455,7 +10468,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Vigilante.zip",
 "requirements": "moreslugcats,fisobs,slime-cubed.slugbase,dressmyslugcat",
 "tags": "",
-"order": 806
+"order": 807
 });
 
 Mods.push({
@@ -10468,7 +10481,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Voidcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 807
+"order": 808
 });
 
 Mods.push({
@@ -10481,7 +10494,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/the_pillar_scugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 808
+"order": 809
 });
 
 Mods.push({
@@ -10494,7 +10507,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Curator_cosmetic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 809
+"order": 810
 });
 
 Mods.push({
@@ -10507,7 +10520,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pikmin_Cosmetics_Mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 810
+"order": 811
 });
 
 Mods.push({
@@ -10520,7 +10533,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Leafy_in_Rain_World.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 811
+"order": 812
 });
 
 Mods.push({
@@ -10533,7 +10546,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Buneary_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 812
+"order": 813
 });
 
 Mods.push({
@@ -10546,7 +10559,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Setheria.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 813
+"order": 814
 });
 
 Mods.push({
@@ -10559,7 +10572,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/yippe_cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 814
+"order": 815
 });
 
 Mods.push({
@@ -10572,7 +10585,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/THE_Stickcat.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
 "tags": "",
-"order": 815
+"order": 816
 });
 
 Mods.push({
@@ -10585,7 +10598,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pyrocynical_Face.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 816
+"order": 817
 });
 
 Mods.push({
@@ -10598,7 +10611,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Triluminary.zip",
 "requirements": "slime-cubed.slugbase,lb-fgf-m4r-ik.fat-fire-fly-creature,pilgrims_ascent,lb-fgf-m4r-ik.bl-crit,rainbowlonglegs,lb-fgf-m4r-ik.coral-reef,lb-fgf-m4r-ik.scorched-district,lb-fgf-m4r-ik.red-horror-centi,lb-fgf-m4r-ik.swalkins,lb-fgf-m4r-ik.howling-rift,lb-fgf-m4r-ik.scutigera-creature,moreslugcats,lb-fgf-m4r-ik.waterblobs,regionkit,moredlls,thefriend,crs",
 "tags": "Campaigns",
-"order": 817
+"order": 818
 });
 
 Mods.push({
@@ -10611,7 +10624,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/asymetrical_fluffy_tails.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 818
+"order": 819
 });
 
 Mods.push({
@@ -10624,7 +10637,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Controllable_Deer.zip",
 "requirements": "",
 "tags": "Accessibility,Game Mechanics",
-"order": 819
+"order": 820
 });
 
 Mods.push({
@@ -10637,7 +10650,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Music_triggers_fix.zip",
 "requirements": "bro.mergefix",
 "tags": "Cosmetics",
-"order": 820
+"order": 821
 });
 
 Mods.push({
@@ -10650,7 +10663,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Winston.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 821
+"order": 822
 });
 
 Mods.push({
@@ -10663,7 +10676,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lavender_Lizards.zip",
 "requirements": "lizardcustomizer",
 "tags": "",
-"order": 822
+"order": 823
 });
 
 Mods.push({
@@ -10676,7 +10689,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Electric_Rubbish.zip",
 "requirements": "",
 "tags": "Items,Game Mechanics",
-"order": 823
+"order": 824
 });
 
 Mods.push({
@@ -10689,7 +10702,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sluggy_English.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
 "tags": "",
-"order": 824
+"order": 825
 });
 
 Mods.push({
@@ -10702,7 +10715,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_AppleCat_abandon.zip",
 "requirements": "slime-cubed.slugbase,nutils",
 "tags": "",
-"order": 825
+"order": 826
 });
 
 Mods.push({
@@ -10715,7 +10728,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ERROR.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 826
+"order": 827
 });
 
 Mods.push({
@@ -10728,7 +10741,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Juvenile_Lizards.zip",
 "requirements": "lizardcustomizer,simplespawnswapper",
 "tags": "",
-"order": 827
+"order": 828
 });
 
 Mods.push({
@@ -10741,7 +10754,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Grug_Slugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 828
+"order": 829
 });
 
 Mods.push({
@@ -10754,7 +10767,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Siamese_Nightcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 829
+"order": 830
 });
 
 Mods.push({
@@ -10767,7 +10780,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Saintler.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 830
+"order": 831
 });
 
 Mods.push({
@@ -10780,7 +10793,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Eevees_Challenges.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 831
+"order": 832
 });
 
 Mods.push({
@@ -10793,7 +10806,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tasty_Nom_Nom_World.zip",
 "requirements": "",
 "tags": "",
-"order": 832
+"order": 833
 });
 
 Mods.push({
@@ -10806,7 +10819,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/nyctophobia.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 833
+"order": 834
 });
 
 Mods.push({
@@ -10819,7 +10832,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jump__Die.zip",
 "requirements": "",
 "tags": "",
-"order": 834
+"order": 835
 });
 
 Mods.push({
@@ -10832,7 +10845,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Super_Shotgun.zip",
 "requirements": "",
 "tags": "Game Mechanics,Items",
-"order": 835
+"order": 836
 });
 
 Mods.push({
@@ -10845,7 +10858,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/bcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 836
+"order": 837
 });
 
 Mods.push({
@@ -10858,7 +10871,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mod_Presets.zip",
 "requirements": "",
 "tags": "Accessibility,Tools",
-"order": 837
+"order": 838
 });
 
 Mods.push({
@@ -10871,7 +10884,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hardcore_Mode.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 838
+"order": 839
 });
 
 Mods.push({
@@ -10884,20 +10897,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/7_Simple_Faces.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 839
+"order": 840
 });
 
 Mods.push({
-"name": "The Blight, another Rotscug cosmetic",
+"name": "The Catalyst, another Rotscug cosmetic",
 "id": "rotscugcos",
 "workshop_id": "3013297958",
-"author": "Orchid",
-"desc": "Turns your slugcat into a silly little rotscug.<br>Have you seen enough Rot-related Slugcat cosmetics? Yes? Well, too bad! Here's my own personal spin on a Rot Slugcat. Make sure to set all colors to white for this to work correctly! Or don't, your choice.<br><br>The rot covering its face/hips is supposed to stay on the right side but it flips for some reason and I dunno how to fix that, so oh well... This is my first time messing with DMS, so there are bound to be errors here and there.<br><br>Comes in:<br>- Blueberry Flavor!<br>- Dirt Flavor!<br>- Grape Flavor!<br><br>Requires Dress My Slugcat, of course.<br>Antenna head sprites originally by Colfy, on their mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2951021876]Slugtennas [/url]! <br>Robotic body parts initially by moss, on their mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2960123351] More Slugcat Parts [/url]!",
+"author": "Unknown",
+"desc": "Turns your slugcat into a silly little rotscug.<br>Have you seen enough Rot-related Slugcat cosmetics? Yes? Well, too bad! Here's my own personal spin on a Rot Slugcat. Make sure to set all colors to white for this to work correctly! Or don't, your choice.<br><br>Now featuring proper asymmetry, as well as a colorable variant!<br><br>Comes in:<br>- Blueberry Flavor!<br>- Dirt Flavor!<br>- Grape Flavor!<br>- Monochrome Flavor! [colorable]<br><br>Requires Dress My Slugcat, of course.<br>Antenna head sprites originally by Colfy, on their mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2951021876]Slugtennas[/url]! <br>Robotic body parts initially by moss, on their mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2960123351] More Slugcat Parts[/url]!<br>Thick leg sprites originally by Teno Al Mehri, on their mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2949354070]Miimows Art-style Legs[/url]!",
 "thumb": "previews/3013297958.png",
-"url": "https://andrew.fm/rainworld/raindb/The_Blight_another_Rotscug_cosmetic.zip",
+"url": "https://andrew.fm/rainworld/raindb/The_Catalyst_another_Rotscug_cosmetic.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 840
+"order": 841
 });
 
 Mods.push({
@@ -10910,7 +10923,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NiGHTslug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 841
+"order": 842
 });
 
 Mods.push({
@@ -10923,7 +10936,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Traveler.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Campaigns",
-"order": 842
+"order": 843
 });
 
 Mods.push({
@@ -10937,7 +10950,7 @@ Mods.push({
 "video": "https://www.youtube.com/@forthbridge",
 "requirements": "slime-cubed.slugbase,crs",
 "tags": "Campaigns,Game Mechanics,Translations,Custom Slugcat",
-"order": 843
+"order": 844
 });
 
 Mods.push({
@@ -10950,7 +10963,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Miscellaneous_Arenas.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 844
+"order": 845
 });
 
 Mods.push({
@@ -10963,7 +10976,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Made_in_Rain_World.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 845
+"order": 846
 });
 
 Mods.push({
@@ -10976,7 +10989,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Some_Of_My_Two_Fancy_Sloog_Ocs_Loomi_and_Myceliuoo_3.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 846
+"order": 847
 });
 
 Mods.push({
@@ -10989,7 +11002,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/renamon.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 847
+"order": 848
 });
 
 Mods.push({
@@ -11002,7 +11015,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Diplomatist_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 848
+"order": 849
 });
 
 Mods.push({
@@ -11015,7 +11028,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Singularity_Lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 849
+"order": 850
 });
 
 Mods.push({
@@ -11027,7 +11040,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Custom_Lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 850
+"order": 851
 });
 
 Mods.push({
@@ -11040,7 +11053,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/09b10e970/82cg28zn-nc44iesn-puc85ytz-ss47dm5t",
 "requirements": "regionkit,lb-fgf-m4r-ik.water-spitter,crs",
 "tags": "Regions",
-"order": 851
+"order": 852
 });
 
 Mods.push({
@@ -11053,7 +11066,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Undersea.zip",
 "requirements": "regionkit,lb-fgf-m4r-ik.undersea-lizard,crs",
 "tags": "Regions",
-"order": 852
+"order": 853
 });
 
 Mods.push({
@@ -11066,7 +11079,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Explorer.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns",
-"order": 853
+"order": 854
 });
 
 Mods.push({
@@ -11079,7 +11092,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Echos_Skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 854
+"order": 855
 });
 
 Mods.push({
@@ -11092,20 +11105,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rainhood_an_inneffable_tale_of_the_inexpressive_wet_moments_of_the_rain.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 855
+"order": 856
 });
 
 Mods.push({
 "name": "Bee Lizard",
 "id": "BeeLizard",
 "workshop_id": "3015537017",
-"author": "Orchid",
-"desc": "A slow, bulky lizard that can shoot beehives. A relative of the Red Lizard.<br>It can eat almost any lizard, excluding Red Lizards, Train Lizards, and other Bee Lizards.<br><br>Pros:<br>- Very bulky<br>- Can climb poles, although slowly<br>- Can shoot beehives (5 total) at prey<br>- Can lunge very quickly when close enough<br><br>Cons:<br>- Slow<br>- Difficult to tame<br>- Has trouble moving over itself",
+"author": "Unknown",
+"desc": "A slow, bulky lizard that can shoot beehives. A relative of the Red Lizard.<br>It can be violent towards other lizards, especially Red Lizards and other Bee Lizards. It even preys on smaller lizards, such as Blue and Pink Lizards.<br><br>Pros / Strengths:<br>- Very bulky<br>- Can shoot beehives (5 total) at prey<br>- Can lunge, similar to a Caramel Lizard<br>- Immune to all centipede shocks, even preying on Red Centipedes<br><br>Cons / Weaknesses:<br>- Slow<br>- Difficult to tame<br>- Has trouble moving over itself at times<br>- Often ensnares itself in its own beehives",
 "thumb": "previews/3015537017.png",
 "url": "https://andrew.fm/rainworld/raindb/Bee_Lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 856
+"order": 857
 });
 
 Mods.push({
@@ -11118,7 +11131,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tommys_Saint.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 857
+"order": 858
 });
 
 Mods.push({
@@ -11131,7 +11144,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/S_Word_Pass.zip",
 "requirements": "jollycoop",
 "tags": "Game Mechanics",
-"order": 858
+"order": 859
 });
 
 Mods.push({
@@ -11144,7 +11157,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shadow_of_Lizards.zip",
 "requirements": "fisobs",
 "tags": "Game Mechanics",
-"order": 859
+"order": 860
 });
 
 Mods.push({
@@ -11157,7 +11170,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Symbiote_DMS_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 860
+"order": 861
 });
 
 Mods.push({
@@ -11169,7 +11182,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Rotted_Wastelands.zip",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 861
+"order": 862
 });
 
 Mods.push({
@@ -11183,7 +11196,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCeU75MRRkQepeIb6_e2A34g",
 "requirements": "moreslugcats,crs,regionkit,fisobs,nacu.lunacy,lb-fgf-m4r-ik.coral-reef,lb-fgf-m4r-ik.water-spitter,lb-fgf-m4r-ik.scutigera-creature,lb-fgf-m4r-ik.scorched-district",
 "tags": "Regions",
-"order": 862
+"order": 863
 });
 
 Mods.push({
@@ -11195,7 +11208,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_OceanDiver.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 863
+"order": 864
 });
 
 Mods.push({
@@ -11208,7 +11221,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dynamic_Sleep_Screens_For_Jolly_CoOp.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 864
+"order": 865
 });
 
 Mods.push({
@@ -11221,7 +11234,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/PebbleFlies.zip",
 "requirements": "",
 "tags": "",
-"order": 865
+"order": 866
 });
 
 Mods.push({
@@ -11234,7 +11247,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Conductors_Cap.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 866
+"order": 867
 });
 
 Mods.push({
@@ -11247,7 +11260,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Rot_20.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 867
+"order": 868
 });
 
 Mods.push({
@@ -11260,7 +11273,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Five_Pebbles_Arenas_that_VideoCult_was_too_Scared_to_Make.zip",
 "requirements": "crs",
 "tags": "",
-"order": 868
+"order": 869
 });
 
 Mods.push({
@@ -11273,7 +11286,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Freyed_Ropecat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 869
+"order": 870
 });
 
 Mods.push({
@@ -11286,7 +11299,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gravel_Eater_Face.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 870
+"order": 871
 });
 
 Mods.push({
@@ -11299,7 +11312,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Destructive_Bombs.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 871
+"order": 872
 });
 
 Mods.push({
@@ -11312,7 +11325,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SLUGBUNNY.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 872
+"order": 873
 });
 
 Mods.push({
@@ -11325,7 +11338,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tommys_Gourmand.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 873
+"order": 874
 });
 
 Mods.push({
@@ -11338,7 +11351,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Elemental_Lizards.zip",
 "requirements": "lizardcustomizer,spitanything",
 "tags": "Creatures",
-"order": 874
+"order": 875
 });
 
 Mods.push({
@@ -11350,7 +11363,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SwampLizard.zip",
 "requirements": "",
 "tags": "",
-"order": 875
+"order": 876
 });
 
 Mods.push({
@@ -11364,7 +11377,7 @@ Mods.push({
 "video": "https://www.youtube.com/@tinyslugcat/featured",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 876
+"order": 877
 });
 
 Mods.push({
@@ -11377,7 +11390,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pikmin_Skin_mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 877
+"order": 878
 });
 
 Mods.push({
@@ -11390,7 +11403,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cult_of_the_Scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 878
+"order": 879
 });
 
 Mods.push({
@@ -11403,7 +11416,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Drone_Lizards.zip",
 "requirements": "lizardcustomizer,simplespawnswapper,spitanything",
 "tags": "",
-"order": 879
+"order": 880
 });
 
 Mods.push({
@@ -11415,7 +11428,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Misc_Arenas_Mod.zip",
 "requirements": "",
 "tags": "Arena",
-"order": 880
+"order": 881
 });
 
 Mods.push({
@@ -11428,7 +11441,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mimic_Lizards.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper",
 "tags": "Creatures",
-"order": 881
+"order": 882
 });
 
 Mods.push({
@@ -11441,7 +11454,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CSGO_Death_Sounds.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 882
+"order": 883
 });
 
 Mods.push({
@@ -11454,7 +11467,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slug_goose.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 883
+"order": 884
 });
 
 Mods.push({
@@ -11467,7 +11480,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Knight_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 884
+"order": 885
 });
 
 Mods.push({
@@ -11480,7 +11493,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Raincaying_Winter_The_Executioner_cosmetic_only.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 885
+"order": 886
 });
 
 Mods.push({
@@ -11493,7 +11506,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/COATS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 886
+"order": 887
 });
 
 Mods.push({
@@ -11506,7 +11519,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kawas_Slugmom_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 887
+"order": 888
 });
 
 Mods.push({
@@ -11519,7 +11532,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/2be8e1490/2mihb5sg-k3vwj96n-cdtfprvc-5hejsabp",
 "requirements": "regionkit,lb-fgf-m4r-ik.coral-reef,lb-fgf-m4r-ik.swalkins",
 "tags": "Regions",
-"order": 888
+"order": 889
 });
 
 Mods.push({
@@ -11532,7 +11545,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Void_Lizard.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 889
+"order": 890
 });
 
 Mods.push({
@@ -11545,7 +11558,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Duskcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 890
+"order": 891
 });
 
 Mods.push({
@@ -11558,7 +11571,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fake_Slugcat_for_Dress_My_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 891
+"order": 892
 });
 
 Mods.push({
@@ -11571,7 +11584,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/jerma_face.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 892
+"order": 893
 });
 
 Mods.push({
@@ -11584,7 +11597,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Empyrean_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 893
+"order": 894
 });
 
 Mods.push({
@@ -11597,7 +11610,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mouse_controlled_saint_ascension.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 894
+"order": 895
 });
 
 Mods.push({
@@ -11610,7 +11623,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gourmond_is_GOD.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 895
+"order": 896
 });
 
 Mods.push({
@@ -11623,7 +11636,7 @@ Mods.push({
 "video": "https://www.youtube.com/watch?v=YdaRUvsSacQ",
 "requirements": "slime-cubed.slugbase,moreslugcats,emgtx",
 "tags": "Campaigns",
-"order": 896
+"order": 897
 });
 
 Mods.push({
@@ -11636,7 +11649,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Deeper_Still.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 897
+"order": 898
 });
 
 Mods.push({
@@ -11649,7 +11662,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rotpocalypse.zip",
 "requirements": "moreslugcats,simplespawnswapper",
 "tags": "",
-"order": 898
+"order": 899
 });
 
 Mods.push({
@@ -11662,7 +11675,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cutscene_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 899
+"order": 900
 });
 
 Mods.push({
@@ -11675,7 +11688,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shutdown.zip",
 "requirements": "",
 "tags": "",
-"order": 900
+"order": 901
 });
 
 Mods.push({
@@ -11688,7 +11701,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SuperSmashScugs_PIKMIN_Pack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 901
+"order": 902
 });
 
 Mods.push({
@@ -11700,7 +11713,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_World_but_the_gods_have_forsaken_us.zip",
 "requirements": "simplespawnswapper",
 "tags": "Creatures,Game Modes,Campaigns,Game Mechanics",
-"order": 902
+"order": 903
 });
 
 Mods.push({
@@ -11712,7 +11725,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rot_Spawn_Chance.zip",
 "requirements": "moreslugcats,simplespawnswapper",
 "tags": "",
-"order": 903
+"order": 904
 });
 
 Mods.push({
@@ -11725,7 +11738,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Wingcat_Rising.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 904
+"order": 905
 });
 
 Mods.push({
@@ -11738,7 +11751,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hanging_Gardens.zip",
 "requirements": "regionkit,lb-fgf-m4r-ik.coral-reef,lb-fgf-m4r-ik.scorched-district,lb-fgf-m4r-ik.scutigera-creature,lb-fgf-m4r-ik.undersea-lizard,lb-fgf-m4r-ik.water-spitter",
 "tags": "Regions",
-"order": 905
+"order": 906
 });
 
 Mods.push({
@@ -11751,7 +11764,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cherrybomb_Lizard.zip",
 "requirements": "spitanything,lizardcustomizer",
 "tags": "Lizards",
-"order": 906
+"order": 907
 });
 
 Mods.push({
@@ -11763,7 +11776,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/oc_loadouts_slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 907
+"order": 908
 });
 
 Mods.push({
@@ -11775,7 +11788,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/oc_loadouts_iterator.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 908
+"order": 909
 });
 
 Mods.push({
@@ -11787,7 +11800,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rot_Spawn_Chance_Basegame_Edition.zip",
 "requirements": "simplespawnswapper",
 "tags": "",
-"order": 909
+"order": 910
 });
 
 Mods.push({
@@ -11800,7 +11813,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_World_Brawl.zip",
 "requirements": "",
 "tags": "",
-"order": 910
+"order": 911
 });
 
 Mods.push({
@@ -11813,7 +11826,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lanterns_Little_Critters_9_DMS_Skins__Recolorable_Greyscales.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 911
+"order": 912
 });
 
 Mods.push({
@@ -11826,7 +11839,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rainscryption.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 912
+"order": 913
 });
 
 Mods.push({
@@ -11838,7 +11851,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Aerial_Arrays_v103.zip",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 913
+"order": 914
 });
 
 Mods.push({
@@ -11851,7 +11864,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bowtie.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 914
+"order": 915
 });
 
 Mods.push({
@@ -11864,7 +11877,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Older_Hunter_Preview.zip",
 "requirements": "moreslugcats,regionkit",
 "tags": "",
-"order": 915
+"order": 916
 });
 
 Mods.push({
@@ -11877,7 +11890,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cakes_Redesigns.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 916
+"order": 917
 });
 
 Mods.push({
@@ -11890,7 +11903,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jade_Lizard.zip",
 "requirements": "spitanything,lizardcustomizer,simplespawnswapper",
 "tags": "Lizards",
-"order": 917
+"order": 918
 });
 
 Mods.push({
@@ -11903,7 +11916,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Harbinger_WIP.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Slugcat",
-"order": 918
+"order": 919
 });
 
 Mods.push({
@@ -11916,7 +11929,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugotomy_Corporation_EGO_Suits.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 919
+"order": 920
 });
 
 Mods.push({
@@ -11928,7 +11941,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Evas_Custom_Tail.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 920
+"order": 921
 });
 
 Mods.push({
@@ -11941,7 +11954,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/arctic_slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 921
+"order": 922
 });
 
 Mods.push({
@@ -11954,7 +11967,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BETAThe_Desperado.zip",
 "requirements": "emgtx,fisobs,slime-cubed.slugbase,moreslugcats",
 "tags": "Campaigns",
-"order": 922
+"order": 923
 });
 
 Mods.push({
@@ -11967,7 +11980,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Conquests_Corrected_Inv_Now_with_more_accuracy.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 923
+"order": 924
 });
 
 Mods.push({
@@ -11980,7 +11993,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SlugLizards.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper",
 "tags": "Creatures,Lizards",
-"order": 924
+"order": 925
 });
 
 Mods.push({
@@ -11993,7 +12006,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Geometry_dash.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 925
+"order": 926
 });
 
 Mods.push({
@@ -12006,7 +12019,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Assassin_Slugcat.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "",
-"order": 926
+"order": 927
 });
 
 Mods.push({
@@ -12019,7 +12032,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Burnout.zip",
 "requirements": "slime-cubed.slugbase,regionkit",
 "tags": "Custom Slugcat,Campaigns",
-"order": 927
+"order": 928
 });
 
 Mods.push({
@@ -12032,7 +12045,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Overseer__Inspector_Color_Customization.zip",
 "requirements": "",
 "tags": "Cosmetics,Tools",
-"order": 928
+"order": 929
 });
 
 Mods.push({
@@ -12046,7 +12059,7 @@ Mods.push({
 "video": "https://www.youtube.com/@FivePuddles255",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 929
+"order": 930
 });
 
 Mods.push({
@@ -12059,7 +12072,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/jellycats.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 930
+"order": 931
 });
 
 Mods.push({
@@ -12072,7 +12085,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/emmets_custom_dating_sim_portraits.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 931
+"order": 932
 });
 
 Mods.push({
@@ -12085,7 +12098,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Explosion_Immunity.zip",
 "requirements": "",
 "tags": "",
-"order": 932
+"order": 933
 });
 
 Mods.push({
@@ -12098,7 +12111,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_Iterators.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 933
+"order": 934
 });
 
 Mods.push({
@@ -12111,7 +12124,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hand_Grenade.zip",
 "requirements": "fisobs",
 "tags": "Game Mechanics,Items",
-"order": 934
+"order": 935
 });
 
 Mods.push({
@@ -12124,7 +12137,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Glacier.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "",
-"order": 935
+"order": 936
 });
 
 Mods.push({
@@ -12137,7 +12150,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Amplikewt_Lizards.zip",
 "requirements": "lizardcustomizer",
 "tags": "",
-"order": 936
+"order": 937
 });
 
 Mods.push({
@@ -12150,7 +12163,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ineffable_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 937
+"order": 938
 });
 
 Mods.push({
@@ -12163,7 +12176,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Grimms_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 938
+"order": 939
 });
 
 Mods.push({
@@ -12176,7 +12189,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/7054b0560/9pnaxtk3-zgkthiw5-k76n52fb-q9iuru4g",
 "requirements": "crs,regionkit,pilgrims_ascent,lb-fgf-m4r-ik.water-spitter,lb-fgf-m4r-ik.bl-crit,lb-fgf-m4r-ik.swalkins",
 "tags": "Regions",
-"order": 939
+"order": 940
 });
 
 Mods.push({
@@ -12189,7 +12202,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Festive_world.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 940
+"order": 941
 });
 
 Mods.push({
@@ -12202,7 +12215,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Stick_Together_CoOp.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 941
+"order": 942
 });
 
 Mods.push({
@@ -12215,7 +12228,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_Joslug_Catjo.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 942
+"order": 943
 });
 
 Mods.push({
@@ -12228,7 +12241,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Monny_Mothcat_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 943
+"order": 944
 });
 
 Mods.push({
@@ -12241,7 +12254,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sea_Breeze_The_Fluffgons_Cosmetic_3.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 944
+"order": 945
 });
 
 Mods.push({
@@ -12254,7 +12267,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Xiphis_shrimpcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 945
+"order": 946
 });
 
 Mods.push({
@@ -12267,7 +12280,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Highfleet_Vultures.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 946
+"order": 947
 });
 
 Mods.push({
@@ -12280,7 +12293,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/no_optimizations.zip",
 "requirements": "",
 "tags": "",
-"order": 947
+"order": 948
 });
 
 Mods.push({
@@ -12292,7 +12305,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Yellow_Crazy_Lizard.zip",
 "requirements": "spitanything,lizardcustomizer,ShinyKelp.ApexUpYourSpawns",
 "tags": "Lizards",
-"order": 948
+"order": 949
 });
 
 Mods.push({
@@ -12305,7 +12318,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Five_Cycles_in_Rainworld.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 949
+"order": 950
 });
 
 Mods.push({
@@ -12318,7 +12331,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SlugPaladin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 950
+"order": 951
 });
 
 Mods.push({
@@ -12331,7 +12344,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Glenn_Quagmire.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 951
+"order": 952
 });
 
 Mods.push({
@@ -12344,7 +12357,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_slugcat_of_sunlight.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 952
+"order": 953
 });
 
 Mods.push({
@@ -12356,7 +12369,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Babuleh.zip",
 "requirements": "",
 "tags": "",
-"order": 953
+"order": 954
 });
 
 Mods.push({
@@ -12369,7 +12382,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RWF_The_Charts_Ever.zip",
 "requirements": "silky.rwf",
 "tags": "Game Modes",
-"order": 954
+"order": 955
 });
 
 Mods.push({
@@ -12382,7 +12395,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Myriad_of_Slugcats.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 955
+"order": 956
 });
 
 Mods.push({
@@ -12395,7 +12408,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Individual_Karma.zip",
 "requirements": "",
 "tags": "",
-"order": 956
+"order": 957
 });
 
 Mods.push({
@@ -12408,7 +12421,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Candi_Lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 957
+"order": 958
 });
 
 Mods.push({
@@ -12421,7 +12434,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lunar_Lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 958
+"order": 959
 });
 
 Mods.push({
@@ -12434,7 +12447,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Expedite.zip",
 "requirements": "",
 "tags": "Quality of Life",
-"order": 959
+"order": 960
 });
 
 Mods.push({
@@ -12447,7 +12460,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Garten_of_Ban_Ban_Slugcat_Ban_Ban.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 960
+"order": 961
 });
 
 Mods.push({
@@ -12460,7 +12473,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Super_Mario__DMS_Reskin_Friends_Update.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 961
+"order": 962
 });
 
 Mods.push({
@@ -12473,7 +12486,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Light_work_no_reaction.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 962
+"order": 963
 });
 
 Mods.push({
@@ -12481,12 +12494,12 @@ Mods.push({
 "id": "off.dms",
 "workshop_id": "3030385130",
 "author": "mokoi aruka",
-"desc": "[Note: Please set all parts to white! The only exception is Hugo's face which should be set to default.] <br><br>Fell inlove with OFF so I'm making a cosmetic series! The rest will be done soon, Batter done first because he's the most iconic, [totally not because he's my favorite.]<br><br>Includes:<br>-The Batter. [Slightly taller than a regular scug.]<br>-Hugo. [For slugpups !]<br>-Zacharie. [Slightly taller, still shorter then Batter !]<br><br>Alternates:<br>-Batter comes with alternate versions, including a different face, a turtleneck-only outfit, and plain white pants.<br>-Hugo comes in a separate white cloak variant to blend better with the different colors of slugpups that aren't white. <br>[Ps: Hugo is meant to be used with slugpups, so they may look wonky on a default slugcat.]<br>-Zacharie has no Alternates yet.<br><br>Currently working on:<br>The Queen<br><br>Soon to be worked on:<br>-The Judge<br>-Japhet<br>-Enoch<br>-Dedan<br>-Elsen(?)<br><br>This is also my first DMS mod, I'm not skilled at this whatsoever so please be aware and be patient !",
+"desc": "HOLD ON ! Before you download this please caution that there's a possible issue with it, I MIGHT have fixed the problem however as I think that when updating the files you have to upload the mod again in-game and IM SOSORRY IT TOOK THIS LONG AAAA<br><br>ALSO ALSO-- Keep your heads up for a second OFF mod with all the characters listed, I've been messing around this summer and I thought it would be cool to potentially finish it off with a final addition !<br><br>------------------------------------------------------------------------------------------------------<br><br>[Note: Please set all parts to white! The only exception is Hugo's face which should be set to default.] <br><br>Fell inlove with OFF so I'm making a cosmetic series! The rest will be done soon, Batter done first because he's the most iconic, [totally not because he's my favorite.]<br><br>Includes:<br>-The Batter. [Slightly taller than a regular scug.]<br>-Hugo. [For slugpups !]<br>-Zacharie. [Slightly taller, still shorter then Batter !]<br><br>Alternates:<br>-Batter comes with alternate versions, including a different face, a turtleneck-only outfit, and plain white pants.<br>-Hugo comes in a separate white cloak variant to blend better with the different colors of slugpups that aren't white. <br>[Ps: Hugo is meant to be used with slugpups, so they may look wonky on a default slugcat.]<br>-Zacharie has no Alternates yet.<br><br>Currently working on:<br>The Queen<br><br>Soon to be worked on:<br>-The Judge<br>-Japhet<br>-Enoch<br>-Dedan<br>-Elsen(?)<br><br>This is also my first DMS mod, I'm not skilled at this whatsoever so please be aware and be patient !",
 "thumb": "previews/3030385130.png",
 "url": "https://andrew.fm/rainworld/raindb/OFF.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 963
+"order": 964
 });
 
 Mods.push({
@@ -12498,7 +12511,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Janitor.zip",
 "requirements": "",
 "tags": "",
-"order": 964
+"order": 965
 });
 
 Mods.push({
@@ -12510,7 +12523,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Inkling_of_Hope.zip",
 "requirements": "",
 "tags": "",
-"order": 965
+"order": 966
 });
 
 Mods.push({
@@ -12523,7 +12536,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sky_Masks.zip",
 "requirements": "moreslugcats",
 "tags": "Cosmetics",
-"order": 966
+"order": 967
 });
 
 Mods.push({
@@ -12536,7 +12549,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Iterator_Logs_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 967
+"order": 968
 });
 
 Mods.push({
@@ -12549,7 +12562,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Impulse.zip",
 "requirements": "slime-cubed.slugbase,phace.electricrubbish",
 "tags": "Campaigns,Custom Slugcat",
-"order": 968
+"order": 969
 });
 
 Mods.push({
@@ -12562,7 +12575,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fortnite_Region_Names__SFX.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 969
+"order": 970
 });
 
 Mods.push({
@@ -12575,7 +12588,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Doomer_Hunter_DMS_Cosmetic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 970
+"order": 971
 });
 
 Mods.push({
@@ -12588,7 +12601,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NCRs_Eeveelutions.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 971
+"order": 972
 });
 
 Mods.push({
@@ -12601,7 +12614,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Censorship_world.zip",
 "requirements": "",
 "tags": "",
-"order": 972
+"order": 973
 });
 
 Mods.push({
@@ -12614,7 +12627,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugpup_Safari.zip",
 "requirements": "moreslugcats,rwremix",
 "tags": "Game Mechanics",
-"order": 973
+"order": 974
 });
 
 Mods.push({
@@ -12627,7 +12640,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Banana_Suit.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 974
+"order": 975
 });
 
 Mods.push({
@@ -12640,7 +12653,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sweet_Dreams.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 975
+"order": 976
 });
 
 Mods.push({
@@ -12653,7 +12666,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Lure.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 976
+"order": 977
 });
 
 Mods.push({
@@ -12666,7 +12679,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/0303emily_scug_designs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 977
+"order": 978
 });
 
 Mods.push({
@@ -12679,7 +12692,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/V_the_scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 978
+"order": 979
 });
 
 Mods.push({
@@ -12692,7 +12705,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/307e57cb0/yitpk8ma-kpur5brs-69cy6zaj-aw39ixxt",
 "requirements": "slime-cubed.slugbase,moreslugcats,fisobs,regionkit,crs",
 "tags": "Regions,Campaigns,Creatures,Game Mechanics,Game Modes,Custom Slugcat",
-"order": 979
+"order": 980
 });
 
 Mods.push({
@@ -12705,7 +12718,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/this_button_will_crash_your_game.zip",
 "requirements": "",
 "tags": "",
-"order": 980
+"order": 981
 });
 
 Mods.push({
@@ -12718,7 +12731,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Otter.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 981
+"order": 982
 });
 
 Mods.push({
@@ -12731,7 +12744,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RotSlayer_Cosmetic_mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 982
+"order": 983
 });
 
 Mods.push({
@@ -12745,7 +12758,7 @@ Mods.push({
 "video": "https://www.youtube.com/@arsonistictarantula3036",
 "requirements": "",
 "tags": "",
-"order": 983
+"order": 984
 });
 
 Mods.push({
@@ -12759,7 +12772,7 @@ Mods.push({
 "video": "https://www.youtube.com/@arsonistictarantula3036",
 "requirements": "",
 "tags": "",
-"order": 984
+"order": 985
 });
 
 Mods.push({
@@ -12772,7 +12785,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ruffles.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 985
+"order": 986
 });
 
 Mods.push({
@@ -12785,7 +12798,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Spam.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 986
+"order": 987
 });
 
 Mods.push({
@@ -12798,7 +12811,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/YIPPEE_BACKFLIPS.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 987
+"order": 988
 });
 
 Mods.push({
@@ -12811,7 +12824,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dress_My_Davecat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 988
+"order": 989
 });
 
 Mods.push({
@@ -12824,7 +12837,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Champion_YET_ANOTHER_MICRO_UPDATE_BECAUSE_THE_SPEAR_BROKE_THIS_TIME.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns",
-"order": 989
+"order": 990
 });
 
 Mods.push({
@@ -12837,7 +12850,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugsign_Captions.zip",
 "requirements": "jollycoop",
 "tags": "",
-"order": 990
+"order": 991
 });
 
 Mods.push({
@@ -12850,7 +12863,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Inved_Superstructure.zip",
 "requirements": "moreslugcats",
 "tags": "Regions",
-"order": 991
+"order": 992
 });
 
 Mods.push({
@@ -12863,7 +12876,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Graboid.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 992
+"order": 993
 });
 
 Mods.push({
@@ -12876,7 +12889,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_FireLight.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "",
-"order": 993
+"order": 994
 });
 
 Mods.push({
@@ -12888,7 +12901,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Underground_City.zip",
 "requirements": "regionkit",
 "tags": "Regions",
-"order": 994
+"order": 995
 });
 
 Mods.push({
@@ -12902,7 +12915,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UC8DE3Jl_pcwr_KWRdT42rOg",
 "requirements": "",
 "tags": "",
-"order": 995
+"order": 996
 });
 
 Mods.push({
@@ -12914,7 +12927,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/movement_levels.zip",
 "requirements": "",
 "tags": "",
-"order": 996
+"order": 997
 });
 
 Mods.push({
@@ -12928,7 +12941,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCR5sDLUfDs__adb-X2cvrlg",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 997
+"order": 998
 });
 
 Mods.push({
@@ -12941,7 +12954,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ori_And_The_Rainy_Worl_lol_3.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 998
+"order": 999
 });
 
 Mods.push({
@@ -12955,7 +12968,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCKg3SRflTZgb2slKgO29EwA",
 "requirements": "crs,regionkit,fisobs",
 "tags": "Arenas,Regions,Creatures,Game Mechanics",
-"order": 999
+"order": 1000
 });
 
 Mods.push({
@@ -12968,7 +12981,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tukos_Scugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1000
+"order": 1001
 });
 
 Mods.push({
@@ -12981,7 +12994,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_Randomizer.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1001
+"order": 1002
 });
 
 Mods.push({
@@ -12994,7 +13007,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/74e55acd0/p6sway3s-9zehw87c-rbtbc76g-7mn3acaw",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1002
+"order": 1003
 });
 
 Mods.push({
@@ -13007,7 +13020,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugwich.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1003
+"order": 1004
 });
 
 Mods.push({
@@ -13019,7 +13032,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Abandoned_Chemical_Plant_WIP.zip",
 "requirements": "",
 "tags": "",
-"order": 1004
+"order": 1005
 });
 
 Mods.push({
@@ -13032,7 +13045,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SAPatrys_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1005
+"order": 1006
 });
 
 Mods.push({
@@ -13045,7 +13058,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sniper_Rifle.zip",
 "requirements": "fisobs,SBCameraScroll",
 "tags": "Game Mechanics,Items",
-"order": 1006
+"order": 1007
 });
 
 Mods.push({
@@ -13058,7 +13071,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Cosmospectre.zip",
 "requirements": "",
 "tags": "",
-"order": 1007
+"order": 1008
 });
 
 Mods.push({
@@ -13071,7 +13084,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Brian_Griffin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1008
+"order": 1009
 });
 
 Mods.push({
@@ -13084,7 +13097,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Stewie_Griffin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1009
+"order": 1010
 });
 
 Mods.push({
@@ -13097,7 +13110,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Expanded_Industrial.zip",
 "requirements": "",
 "tags": "",
-"order": 1010
+"order": 1011
 });
 
 Mods.push({
@@ -13110,7 +13123,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ThunderMorphs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1011
+"order": 1012
 });
 
 Mods.push({
@@ -13123,7 +13136,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lap_Mod.zip",
 "requirements": "",
 "tags": "",
-"order": 1012
+"order": 1013
 });
 
 Mods.push({
@@ -13136,7 +13149,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Debug__Stuck_in_a_Cycle.zip",
 "requirements": "",
 "tags": "Debug",
-"order": 1013
+"order": 1014
 });
 
 Mods.push({
@@ -13149,7 +13162,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Debug__Super_Visualizer.zip",
 "requirements": "rwremix",
 "tags": "HUD,Debug,Info",
-"order": 1014
+"order": 1015
 });
 
 Mods.push({
@@ -13162,7 +13175,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Staminer.zip",
 "requirements": "rwremix",
 "tags": "HUD,Quality of Life,Info",
-"order": 1015
+"order": 1016
 });
 
 Mods.push({
@@ -13175,7 +13188,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dull_Teeth.zip",
 "requirements": "rwremix",
 "tags": "Gameplay,Assist",
-"order": 1016
+"order": 1017
 });
 
 Mods.push({
@@ -13188,7 +13201,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DinoLib.zip",
 "requirements": "fisobs",
 "tags": "dependencies",
-"order": 1017
+"order": 1018
 });
 
 Mods.push({
@@ -13201,7 +13214,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kai_slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1018
+"order": 1019
 });
 
 Mods.push({
@@ -13214,7 +13227,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/wow_john_ward_from_FAITH.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1019
+"order": 1020
 });
 
 Mods.push({
@@ -13227,7 +13240,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shoreline_Expanded.zip",
 "requirements": "moreslugcats,crs,bro.mergefix,regionkit",
 "tags": "Regions",
-"order": 1020
+"order": 1021
 });
 
 Mods.push({
@@ -13241,7 +13254,7 @@ Mods.push({
 "video": "https://www.youtube.com/c/heckingheavy",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1021
+"order": 1022
 });
 
 Mods.push({
@@ -13254,7 +13267,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Massive_Fing_MaceNow_with_better_sprites.zip",
 "requirements": "fisobs,Dino.DinoLib",
 "tags": "Game Mechanics,Items",
-"order": 1022
+"order": 1023
 });
 
 Mods.push({
@@ -13267,7 +13280,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Silly_Skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1023
+"order": 1024
 });
 
 Mods.push({
@@ -13279,7 +13292,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Custom_Region_Names.zip",
 "requirements": "",
 "tags": "",
-"order": 1024
+"order": 1025
 });
 
 Mods.push({
@@ -13292,7 +13305,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/scug_requests_1.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1025
+"order": 1026
 });
 
 Mods.push({
@@ -13305,7 +13318,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Various_Arenas.zip",
 "requirements": "moreslugcats",
 "tags": "Arenas",
-"order": 1026
+"order": 1027
 });
 
 Mods.push({
@@ -13318,7 +13331,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Neuron_Forest.zip",
 "requirements": "moreslugcats",
 "tags": "Regions",
-"order": 1027
+"order": 1028
 });
 
 Mods.push({
@@ -13331,7 +13344,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_Mod_Update_Confirm.zip",
 "requirements": "",
 "tags": "",
-"order": 1028
+"order": 1029
 });
 
 Mods.push({
@@ -13344,7 +13357,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Feathery.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1029
+"order": 1030
 });
 
 Mods.push({
@@ -13357,7 +13370,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gill_Issue.zip",
 "requirements": "moreslugcats",
 "tags": "Accessibility,mechanics",
-"order": 1030
+"order": 1031
 });
 
 Mods.push({
@@ -13370,7 +13383,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Flirpys_cats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1031
+"order": 1032
 });
 
 Mods.push({
@@ -13383,7 +13396,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hungry_Lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 1032
+"order": 1033
 });
 
 Mods.push({
@@ -13396,7 +13409,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RPG_Mod.zip",
 "requirements": "fisobs,Dino.DinoLib",
 "tags": "Game Mechanics,Items",
-"order": 1033
+"order": 1034
 });
 
 Mods.push({
@@ -13409,7 +13422,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_Map.zip",
 "requirements": "",
 "tags": "",
-"order": 1034
+"order": 1035
 });
 
 Mods.push({
@@ -13421,7 +13434,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Undersea_LM_Patch.zip",
 "requirements": "moreslugcats,crs,wrayk.undersea",
 "tags": "Regions,Accessibility",
-"order": 1035
+"order": 1036
 });
 
 Mods.push({
@@ -13434,7 +13447,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Echo_Artificer.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1036
+"order": 1037
 });
 
 Mods.push({
@@ -13447,7 +13460,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Less_UI.zip",
 "requirements": "",
 "tags": "",
-"order": 1037
+"order": 1038
 });
 
 Mods.push({
@@ -13460,7 +13473,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Text_Randomizer.zip",
 "requirements": "",
 "tags": "",
-"order": 1038
+"order": 1039
 });
 
 Mods.push({
@@ -13473,7 +13486,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Itinerant.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1039
+"order": 1040
 });
 
 Mods.push({
@@ -13485,7 +13498,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Windswept_Expanse_Arena_Pack.zip",
 "requirements": "rwremix",
 "tags": "",
-"order": 1040
+"order": 1041
 });
 
 Mods.push({
@@ -13498,7 +13511,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Drip_World.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1041
+"order": 1042
 });
 
 Mods.push({
@@ -13510,7 +13523,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Symbiote_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1042
+"order": 1043
 });
 
 Mods.push({
@@ -13523,7 +13536,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ID_Finder.zip",
 "requirements": "",
 "tags": "Creatures,Tools",
-"order": 1043
+"order": 1044
 });
 
 Mods.push({
@@ -13536,7 +13549,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Think_Ring.zip",
 "requirements": "maxi-mol.mousedrag",
 "tags": "Cosmetics",
-"order": 1044
+"order": 1045
 });
 
 Mods.push({
@@ -13549,7 +13562,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Flamethrower.zip",
 "requirements": "fisobs,Dino.DinoLib",
 "tags": "Game Mechanics,Items",
-"order": 1045
+"order": 1046
 });
 
 Mods.push({
@@ -13562,7 +13575,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nezarec.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1046
+"order": 1047
 });
 
 Mods.push({
@@ -13575,7 +13588,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hunters_exclusive_Garbage_Wastes.zip",
 "requirements": "moreslugcats,regionkit",
 "tags": "",
-"order": 1047
+"order": 1048
 });
 
 Mods.push({
@@ -13587,7 +13600,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jellyfish_Bombs.zip",
 "requirements": "",
 "tags": "",
-"order": 1048
+"order": 1049
 });
 
 Mods.push({
@@ -13601,7 +13614,7 @@ Mods.push({
 "video": "https://www.youtube.com/@jedwu1596/videos",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1049
+"order": 1050
 });
 
 Mods.push({
@@ -13614,7 +13627,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/fem_riv.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1050
+"order": 1051
 });
 
 Mods.push({
@@ -13627,7 +13640,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Capacitor_Spears.zip",
 "requirements": "fisobs",
 "tags": "Items",
-"order": 1051
+"order": 1052
 });
 
 Mods.push({
@@ -13641,7 +13654,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCvMbQiWOZM7PbtqAdDTC2zQ",
 "requirements": "",
 "tags": "",
-"order": 1052
+"order": 1053
 });
 
 Mods.push({
@@ -13654,7 +13667,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/cayde6.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1053
+"order": 1054
 });
 
 Mods.push({
@@ -13667,7 +13680,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Chieftains_Lair.zip",
 "requirements": "moreslugcats",
 "tags": "Arena",
-"order": 1054
+"order": 1055
 });
 
 Mods.push({
@@ -13680,7 +13693,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jiggilibu_World.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "",
-"order": 1055
+"order": 1056
 });
 
 Mods.push({
@@ -13693,7 +13706,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slavina_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1056
+"order": 1057
 });
 
 Mods.push({
@@ -13706,7 +13719,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scug_requests_2.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1057
+"order": 1058
 });
 
 Mods.push({
@@ -13719,7 +13732,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Astras_Slugcat_Portrait_Replacer.zip",
 "requirements": "moreslugcats,jollycoop,dododonut.unshackledcoop",
 "tags": "Cosmetics",
-"order": 1058
+"order": 1059
 });
 
 Mods.push({
@@ -13732,7 +13745,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/PetCat_very_early_WIP_purely_cosmetic_for_now.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1059
+"order": 1060
 });
 
 Mods.push({
@@ -13745,7 +13758,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dropwigs_Return.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1060
+"order": 1061
 });
 
 Mods.push({
@@ -13757,7 +13770,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/1000_Mods_Party_Hat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1061
+"order": 1062
 });
 
 Mods.push({
@@ -13770,7 +13783,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/02ea5e870/wufebiej-2mybnr3j-svx2qv26-2t3bzanp",
 "requirements": "regionkit,coral.caves,lb-fgf-m4r-ik.coral-reef,lb-fgf-m4r-ik.water-spitter,lb-fgf-m4r-ik.swalkins,lb-fgf-m4r-ik.red-horror-centi,lb-fgf-m4r-ik.undersea-lizard,fisobs,crs,lb-fgf-m4r-ik.sk-wrayk-region-code",
 "tags": "Regions",
-"order": 1062
+"order": 1063
 });
 
 Mods.push({
@@ -13783,7 +13796,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Always_Sick.zip",
 "requirements": "",
 "tags": "",
-"order": 1063
+"order": 1064
 });
 
 Mods.push({
@@ -13796,7 +13809,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/PebblesMark.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1064
+"order": 1065
 });
 
 Mods.push({
@@ -13810,7 +13823,7 @@ Mods.push({
 "video": "https://www.youtube.com/@arsonistictarantula3036/videos",
 "requirements": "",
 "tags": "",
-"order": 1065
+"order": 1066
 });
 
 Mods.push({
@@ -13823,7 +13836,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ellis_voice_lines.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1066
+"order": 1067
 });
 
 Mods.push({
@@ -13836,7 +13849,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/057d76880/k6n8p26h-nygrz5ja-ecwyjvn5-6a7zf6pp",
 "requirements": "slime-cubed.slugbase,regionkit,moreslugcats,crs",
 "tags": "Regions,Campaigns,Custom Slugcat",
-"order": 1067
+"order": 1068
 });
 
 Mods.push({
@@ -13849,7 +13862,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cake_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1068
+"order": 1069
 });
 
 Mods.push({
@@ -13862,7 +13875,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sheer_Ice_Torrent_Trigger_Fix.zip",
 "requirements": "moreslugcats",
 "tags": "Cosmetics",
-"order": 1069
+"order": 1070
 });
 
 Mods.push({
@@ -13875,7 +13888,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/My_Scug_Pixystal.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1070
+"order": 1071
 });
 
 Mods.push({
@@ -13888,7 +13901,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Subslugcat_Phighting_Subspace.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1071
+"order": 1072
 });
 
 Mods.push({
@@ -13901,7 +13914,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lyzard_The_Lizard.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 1072
+"order": 1073
 });
 
 Mods.push({
@@ -13914,7 +13927,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Blurry_cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1073
+"order": 1074
 });
 
 Mods.push({
@@ -13927,7 +13940,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jinx_The_Skrunkly_Cat_lol_3.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1074
+"order": 1075
 });
 
 Mods.push({
@@ -13940,7 +13953,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Achievement_Tracker.zip",
 "requirements": "",
 "tags": "",
-"order": 1075
+"order": 1076
 });
 
 Mods.push({
@@ -13953,7 +13966,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Horse.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1076
+"order": 1077
 });
 
 Mods.push({
@@ -13966,7 +13979,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RetroSpecter_DMS_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1077
+"order": 1078
 });
 
 Mods.push({
@@ -13979,7 +13992,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gourmand_Startroom_access.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1078
+"order": 1079
 });
 
 Mods.push({
@@ -13992,7 +14005,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Assorted_Arenas.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 1079
+"order": 1080
 });
 
 Mods.push({
@@ -14005,7 +14018,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Action_world.zip",
 "requirements": "",
 "tags": "Game Mechanics,Game Modes",
-"order": 1080
+"order": 1081
 });
 
 Mods.push({
@@ -14018,7 +14031,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Slayer_unfinished.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1081
+"order": 1082
 });
 
 Mods.push({
@@ -14031,7 +14044,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Portal_Core_Scugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1082
+"order": 1083
 });
 
 Mods.push({
@@ -14044,7 +14057,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Outline.zip",
 "requirements": "regionkit",
 "tags": "Regions",
-"order": 1083
+"order": 1084
 });
 
 Mods.push({
@@ -14057,7 +14070,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Desiccation_BUGGY_ALPHA.zip",
 "requirements": "slime-cubed.slugbase,regionkit,moreslugcats",
 "tags": "",
-"order": 1084
+"order": 1085
 });
 
 Mods.push({
@@ -14070,7 +14083,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/slugcat_dressed_as_Reimu_Hakurei_DMS_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1085
+"order": 1086
 });
 
 Mods.push({
@@ -14083,7 +14096,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sand_Eater_test_slugcat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1086
+"order": 1087
 });
 
 Mods.push({
@@ -14096,7 +14109,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sinedake.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1087
+"order": 1088
 });
 
 Mods.push({
@@ -14109,7 +14122,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Elite_Fix.zip",
 "requirements": "moreslugcats,crs",
 "tags": "",
-"order": 1088
+"order": 1089
 });
 
 Mods.push({
@@ -14122,7 +14135,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/THE_MONKEYS_new_monkeys_lol.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1089
+"order": 1090
 });
 
 Mods.push({
@@ -14135,7 +14148,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Шайлушай.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1090
+"order": 1091
 });
 
 Mods.push({
@@ -14148,7 +14161,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spooky_Costumes.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1091
+"order": 1092
 });
 
 Mods.push({
@@ -14161,7 +14174,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_dressed_as_Utsuho_ReiujiDMS_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1092
+"order": 1093
 });
 
 Mods.push({
@@ -14174,7 +14187,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scavenger_World.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1093
+"order": 1094
 });
 
 Mods.push({
@@ -14187,7 +14200,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Moon_and_HRC01_no_flood_fix.zip",
 "requirements": "moreslugcats,bro.mergefix",
 "tags": "Cosmetics,Regions",
-"order": 1094
+"order": 1095
 });
 
 Mods.push({
@@ -14200,7 +14213,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ShorelineMoon_Expanded.zip",
 "requirements": "moreslugcats,crs,bro.mergefix,regionkit",
 "tags": "Regions",
-"order": 1095
+"order": 1096
 });
 
 Mods.push({
@@ -14213,7 +14226,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Outspectors.zip",
 "requirements": "fisobs,moreslugcats",
 "tags": "Creatures",
-"order": 1096
+"order": 1097
 });
 
 Mods.push({
@@ -14226,7 +14239,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SkipVoid.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1097
+"order": 1098
 });
 
 Mods.push({
@@ -14239,7 +14252,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spear_Injuries_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics,Halloween",
-"order": 1098
+"order": 1099
 });
 
 Mods.push({
@@ -14252,7 +14265,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ascension.zip",
 "requirements": "",
 "tags": "Arena",
-"order": 1099
+"order": 1100
 });
 
 Mods.push({
@@ -14265,7 +14278,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/slugcat_dressed_asDoremy_SweetDMS_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1100
+"order": 1101
 });
 
 Mods.push({
@@ -14277,7 +14290,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Goofy_Goober_Lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 1101
+"order": 1102
 });
 
 Mods.push({
@@ -14290,7 +14303,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SprinkleofTrains.zip",
 "requirements": "rwremix,moreslugcats,bro.mergefix",
 "tags": "Creatures",
-"order": 1102
+"order": 1103
 });
 
 Mods.push({
@@ -14303,7 +14316,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Rot__General_Systems_Bus.zip",
 "requirements": "moreslugcats",
 "tags": "Regions",
-"order": 1103
+"order": 1104
 });
 
 Mods.push({
@@ -14316,7 +14329,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cowboy_Hat.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1104
+"order": 1105
 });
 
 Mods.push({
@@ -14329,7 +14342,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Porlgatory.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1105
+"order": 1106
 });
 
 Mods.push({
@@ -14342,7 +14355,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Scrunglycat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1106
+"order": 1107
 });
 
 Mods.push({
@@ -14355,7 +14368,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/PipeKing.zip",
 "requirements": "regionkit",
 "tags": "Arenas",
-"order": 1107
+"order": 1108
 });
 
 Mods.push({
@@ -14368,7 +14381,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ULTRAKILL_Style_Region_Titles.zip",
 "requirements": "",
 "tags": "",
-"order": 1108
+"order": 1109
 });
 
 Mods.push({
@@ -14381,7 +14394,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Testing_Simulation.zip",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 1109
+"order": 1110
 });
 
 Mods.push({
@@ -14394,7 +14407,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nero_DMS_Mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1110
+"order": 1111
 });
 
 Mods.push({
@@ -14407,7 +14420,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Drifter.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1111
+"order": 1112
 });
 
 Mods.push({
@@ -14420,7 +14433,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BackgroundBaking.zip",
 "requirements": "",
 "tags": "",
-"order": 1112
+"order": 1113
 });
 
 Mods.push({
@@ -14433,7 +14446,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dans_wig_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1113
+"order": 1114
 });
 
 Mods.push({
@@ -14446,7 +14459,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/slugcat_dressed_as_Mamizou_FutatsuiwaDMS_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1114
+"order": 1115
 });
 
 Mods.push({
@@ -14459,7 +14472,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Valentines_Biology.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1115
+"order": 1116
 });
 
 Mods.push({
@@ -14472,7 +14485,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Personalizer.zip",
 "requirements": "moreslugcats",
 "tags": "Creatures,Game Mechanics",
-"order": 1116
+"order": 1117
 });
 
 Mods.push({
@@ -14485,7 +14498,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/slugcat_dressed_as_Yachie_KicchouDMS_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1117
+"order": 1118
 });
 
 Mods.push({
@@ -14498,7 +14511,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lilav_Cosmetics_3.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1118
+"order": 1119
 });
 
 Mods.push({
@@ -14511,7 +14524,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slughemian_Rhapsody.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1119
+"order": 1120
 });
 
 Mods.push({
@@ -14524,7 +14537,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kiki_The_Slugcat_WIP.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1120
+"order": 1121
 });
 
 Mods.push({
@@ -14537,7 +14550,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_GrimmWIP.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,nutils",
 "tags": "",
-"order": 1121
+"order": 1122
 });
 
 Mods.push({
@@ -14550,7 +14563,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Angry_Eyes.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1122
+"order": 1123
 });
 
 Mods.push({
@@ -14563,7 +14576,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Shrieker.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1123
+"order": 1124
 });
 
 Mods.push({
@@ -14576,7 +14589,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bug_Scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1124
+"order": 1125
 });
 
 Mods.push({
@@ -14590,7 +14603,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCcM7fv_WRR-1dP3jdj6qj3g",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1125
+"order": 1126
 });
 
 Mods.push({
@@ -14603,7 +14616,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spooky_arena.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 1126
+"order": 1127
 });
 
 Mods.push({
@@ -14616,7 +14629,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Medslugcat_PhightingMedkit.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1127
+"order": 1128
 });
 
 Mods.push({
@@ -14629,7 +14642,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Alpha_Tracks_in_Arena.zip",
 "requirements": "",
 "tags": "",
-"order": 1128
+"order": 1129
 });
 
 Mods.push({
@@ -14642,7 +14655,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Menu_Region_Name_Fix.zip",
 "requirements": "",
 "tags": "Tools",
-"order": 1129
+"order": 1130
 });
 
 Mods.push({
@@ -14655,7 +14668,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcarbuncle.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1130
+"order": 1131
 });
 
 Mods.push({
@@ -14668,7 +14681,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Vics_Lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 1131
+"order": 1132
 });
 
 Mods.push({
@@ -14681,7 +14694,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Thornss_lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 1132
+"order": 1133
 });
 
 Mods.push({
@@ -14694,7 +14707,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cloth.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1133
+"order": 1134
 });
 
 Mods.push({
@@ -14707,7 +14720,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Thundercat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1134
+"order": 1135
 });
 
 Mods.push({
@@ -14719,7 +14732,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_Arena_Grab_Death.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1135
+"order": 1136
 });
 
 Mods.push({
@@ -14733,7 +14746,7 @@ Mods.push({
 "video": "https://www.youtube.com/@lkelly1069",
 "requirements": "moreslugcats,crs,regionkit",
 "tags": "Regions",
-"order": 1136
+"order": 1137
 });
 
 Mods.push({
@@ -14746,7 +14759,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dress_my_Slugcat__Sharky_mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1137
+"order": 1138
 });
 
 Mods.push({
@@ -14759,7 +14772,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Monkey_Jumpscare.zip",
 "requirements": "",
 "tags": "",
-"order": 1138
+"order": 1139
 });
 
 Mods.push({
@@ -14772,7 +14785,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Elliots_Arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 1139
+"order": 1140
 });
 
 Mods.push({
@@ -14784,7 +14797,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lavas_SpearMaster.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1140
+"order": 1141
 });
 
 Mods.push({
@@ -14797,7 +14810,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spooky_Masks.zip",
 "requirements": "moreslugcats",
 "tags": "Cosmetics",
-"order": 1141
+"order": 1142
 });
 
 Mods.push({
@@ -14810,7 +14823,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lizardcat__Downpour.zip",
 "requirements": "dressmyslugcat,moreslugcats",
 "tags": "Cosmetics",
-"order": 1142
+"order": 1143
 });
 
 Mods.push({
@@ -14823,7 +14836,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Deluge_Skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1143
+"order": 1144
 });
 
 Mods.push({
@@ -14836,7 +14849,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Inedible_Neurons.zip",
 "requirements": "",
 "tags": "",
-"order": 1144
+"order": 1145
 });
 
 Mods.push({
@@ -14849,7 +14862,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spooky_music.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1145
+"order": 1146
 });
 
 Mods.push({
@@ -14862,7 +14875,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kiki_The_Slugcat_Reupload.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1146
+"order": 1147
 });
 
 Mods.push({
@@ -14875,7 +14888,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spearmasters_Nightmares.zip",
 "requirements": "",
 "tags": "",
-"order": 1147
+"order": 1148
 });
 
 Mods.push({
@@ -14888,7 +14901,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mojuns_Lizards_Lizard_Upgrade.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper",
 "tags": "",
-"order": 1148
+"order": 1149
 });
 
 Mods.push({
@@ -14901,7 +14914,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Touhou_Project_skins_collectionDMS_skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1149
+"order": 1150
 });
 
 Mods.push({
@@ -14914,7 +14927,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hunters_Scar.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1150
+"order": 1151
 });
 
 Mods.push({
@@ -14927,7 +14940,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Foxcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1151
+"order": 1152
 });
 
 Mods.push({
@@ -14940,7 +14953,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_arena_music_only_modded_music.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1152
+"order": 1153
 });
 
 Mods.push({
@@ -14953,7 +14966,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hazer_Ink_Refill_Hazer_is_gas_bomb.zip",
 "requirements": "",
 "tags": "Creatures,Items",
-"order": 1153
+"order": 1154
 });
 
 Mods.push({
@@ -14966,7 +14979,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Chaislug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1154
+"order": 1155
 });
 
 Mods.push({
@@ -14979,7 +14992,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Haunted.zip",
 "requirements": "",
 "tags": "",
-"order": 1155
+"order": 1156
 });
 
 Mods.push({
@@ -14992,7 +15005,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spookcat.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,bro.mergefix",
 "tags": "Custom Slugcat,Game Mechanics",
-"order": 1156
+"order": 1157
 });
 
 Mods.push({
@@ -15004,7 +15017,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cass_Cosmetics.zip",
 "requirements": "",
 "tags": "",
-"order": 1157
+"order": 1158
 });
 
 Mods.push({
@@ -15017,7 +15030,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lights_Out.zip",
 "requirements": "",
 "tags": "",
-"order": 1158
+"order": 1159
 });
 
 Mods.push({
@@ -15030,7 +15043,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Turtles_Nightmare.zip",
 "requirements": "fisobs",
 "tags": "Creatures,Game Machanics",
-"order": 1159
+"order": 1160
 });
 
 Mods.push({
@@ -15044,7 +15057,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCC60B87__L-NhPDmdOojCXw",
 "requirements": "moreslugcats",
 "tags": "Content",
-"order": 1160
+"order": 1161
 });
 
 Mods.push({
@@ -15057,7 +15070,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/WarriorsUnsafeImpl.zip",
 "requirements": "",
 "tags": "Dependency",
-"order": 1161
+"order": 1162
 });
 
 Mods.push({
@@ -15070,7 +15083,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Ancient_DMS_WIP.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1162
+"order": 1163
 });
 
 Mods.push({
@@ -15083,7 +15096,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Goober_Cats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1163
+"order": 1164
 });
 
 Mods.push({
@@ -15096,7 +15109,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Moonlit_Acres.zip",
 "requirements": "regionkit,lb-fgf-m4r-ik.fat-fire-fly-creature,reaperlizard",
 "tags": "Arenas,Regions,Items",
-"order": 1164
+"order": 1165
 });
 
 Mods.push({
@@ -15109,7 +15122,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SPOOKY_LIZARDS.zip",
 "requirements": "simplespawnswapper",
 "tags": "Creatures",
-"order": 1165
+"order": 1166
 });
 
 Mods.push({
@@ -15122,7 +15135,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Leflyathan.zip",
 "requirements": "",
 "tags": "",
-"order": 1166
+"order": 1167
 });
 
 Mods.push({
@@ -15135,7 +15148,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Soulweaver_GOATMANS_awesome_sloog_oc.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1167
+"order": 1168
 });
 
 Mods.push({
@@ -15148,7 +15161,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Flamboyant_WIP.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1168
+"order": 1169
 });
 
 Mods.push({
@@ -15160,7 +15173,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hanks_Crap_Arena_Pack.zip",
 "requirements": "regionkit",
 "tags": "",
-"order": 1169
+"order": 1170
 });
 
 Mods.push({
@@ -15172,7 +15185,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Fool__Art_Trade.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1170
+"order": 1171
 });
 
 Mods.push({
@@ -15185,7 +15198,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Skibidi_Toilet_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1171
+"order": 1172
 });
 
 Mods.push({
@@ -15198,7 +15211,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Make_It_Rain.zip",
 "requirements": "",
 "tags": "",
-"order": 1172
+"order": 1173
 });
 
 Mods.push({
@@ -15211,7 +15224,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/A_Cosmetic_For_Bubbles_gift_for_Bubblestherivulet.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1173
+"order": 1174
 });
 
 Mods.push({
@@ -15224,7 +15237,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Iterator_Kit.zip",
 "requirements": "",
 "tags": "Iterators",
-"order": 1174
+"order": 1175
 });
 
 Mods.push({
@@ -15232,12 +15245,12 @@ Mods.push({
 "id": "Dreamstars.ModTranslation",
 "workshop_id": "3072912119",
 "author": "DreamStars",
-"desc": "This mod is used to translate text that other mod added.<br><br>translate area:<br>mod regions<br>mod slugcats<br>custom pearls<br>custom dialogs<br>custom missons<br>custom dev comments<br><br>If you find something I forgot to translate,please tell me in the comments or github。<br><br>non-steam version here https://github.com/InkCloudStarsDream/Rainworld-ModTranslation<br>Currently only include Chinese,welcome to help me to translate into other languages.<br>If you want to help me to translate or put up some advice,please pull requests,thanks for your help. <br><br>Special thanks:<br>@Exmeom<br>@Celen",
+"desc": "Due to uncontrollable factors, DreamStars cannot continue updating. All subsequent updates are provided by @Exmeow and @Celen. I sincerely appreciate their contributions.<br><br>This mod is used to translate text that other mod added.<br><br>translate area:<br>mod regions<br>mod slugcats<br>custom pearls<br>custom dialogs<br>custom missons<br>custom dev comments<br><br>If you find something I forgot to translate,please tell me in the comments or github。<br><br>non-steam version here https://github.com/InkCloudStarsDream/Rainworld-ModTranslation<br>Currently only include Chinese,welcome to help me to translate into other languages.<br>If you want to help me to translate or put up some advice,please pull requests,thanks for your help. <br><br>Special thanks:<br>@Exmeow<br>@Celen",
 "thumb": "previews/3072912119.png",
 "url": "https://andrew.fm/rainworld/raindb/Mod_Translation.zip",
 "requirements": "",
 "tags": "Translations",
-"order": 1175
+"order": 1176
 });
 
 Mods.push({
@@ -15250,7 +15263,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/hlvrai_slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1176
+"order": 1177
 });
 
 Mods.push({
@@ -15263,7 +15276,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ventalation_Ducts.zip",
 "requirements": "regionkit",
 "tags": "region",
-"order": 1177
+"order": 1178
 });
 
 Mods.push({
@@ -15276,7 +15289,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/harpcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1178
+"order": 1179
 });
 
 Mods.push({
@@ -15289,7 +15302,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Test_Rooms.zip",
 "requirements": "",
 "tags": "",
-"order": 1179
+"order": 1180
 });
 
 Mods.push({
@@ -15302,7 +15315,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/GLaDOS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1180
+"order": 1181
 });
 
 Mods.push({
@@ -15315,7 +15328,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Entropy_Slugcat.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,regionkit,pom",
 "tags": "Campaigns,Custom Slugcat",
-"order": 1181
+"order": 1182
 });
 
 Mods.push({
@@ -15328,7 +15341,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Slugcast.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1182
+"order": 1183
 });
 
 Mods.push({
@@ -15341,7 +15354,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Andrews_Rooms.zip",
 "requirements": "",
 "tags": "",
-"order": 1183
+"order": 1184
 });
 
 Mods.push({
@@ -15354,7 +15367,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Curious_Ascent.zip",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 1184
+"order": 1185
 });
 
 Mods.push({
@@ -15367,7 +15380,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/femtnaly_scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1185
+"order": 1186
 });
 
 Mods.push({
@@ -15380,7 +15393,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/KA__Karma_Appetite.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat,Custom Region",
-"order": 1186
+"order": 1187
 });
 
 Mods.push({
@@ -15393,7 +15406,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/KA__Iterator_Kit.zip",
 "requirements": "darkgran.karmaappetite",
 "tags": "Custom Iterator",
-"order": 1187
+"order": 1188
 });
 
 Mods.push({
@@ -15406,7 +15419,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/KA__Solemn_Quarry.zip",
 "requirements": "",
 "tags": "Custom Region",
-"order": 1188
+"order": 1189
 });
 
 Mods.push({
@@ -15419,7 +15432,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RNG_Created_Arena.zip",
 "requirements": "regionkit",
 "tags": "Arenas",
-"order": 1189
+"order": 1190
 });
 
 Mods.push({
@@ -15432,7 +15445,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NeuroCat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1190
+"order": 1191
 });
 
 Mods.push({
@@ -15445,7 +15458,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lavas_Scug_Designstemplate.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1191
+"order": 1192
 });
 
 Mods.push({
@@ -15458,7 +15471,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scavenger_Mitosis.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 1192
+"order": 1193
 });
 
 Mods.push({
@@ -15471,7 +15484,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Visible_Arena_Tweaks_Arena_visible_after_round_is_over.zip",
 "requirements": "",
 "tags": "Game Mechanics,Accessibility",
-"order": 1193
+"order": 1194
 });
 
 Mods.push({
@@ -15484,7 +15497,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugpup_Mitosis.zip",
 "requirements": "moreslugcats",
 "tags": "Creatures",
-"order": 1194
+"order": 1195
 });
 
 Mods.push({
@@ -15497,7 +15510,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Juice_World.zip",
 "requirements": "",
 "tags": "",
-"order": 1195
+"order": 1196
 });
 
 Mods.push({
@@ -15511,7 +15524,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCyRR3FB7FsPhJjsRc43k8bw",
 "requirements": "lizardcustomizer,spitanything",
 "tags": "",
-"order": 1196
+"order": 1197
 });
 
 Mods.push({
@@ -15524,7 +15537,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/OwO_faces.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1197
+"order": 1198
 });
 
 Mods.push({
@@ -15537,7 +15550,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kiki.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1198
+"order": 1199
 });
 
 Mods.push({
@@ -15549,7 +15562,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Monk_Route_Dating_Simulator.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1199
+"order": 1200
 });
 
 Mods.push({
@@ -15562,7 +15575,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/insanity.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1200
+"order": 1201
 });
 
 Mods.push({
@@ -15575,7 +15588,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sacred_Garden.zip",
 "requirements": "regionkit,crs",
 "tags": "Regions",
-"order": 1201
+"order": 1202
 });
 
 Mods.push({
@@ -15588,7 +15601,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Where_Slugpup.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1202
+"order": 1203
 });
 
 Mods.push({
@@ -15601,7 +15614,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bird_Skin.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1203
+"order": 1204
 });
 
 Mods.push({
@@ -15614,20 +15627,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Depression.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1204
+"order": 1205
 });
 
 Mods.push({
-"name": "Red Lizard (Cupcakke Remix)",
+"name": "Red Lizard (CupcakKe Remix)",
 "id": "redlizards.weavesnatched",
 "workshop_id": "3083405016",
 "author": "Alga",
-"desc": "Not even Rain World is safe from her... Are you ready to get smacked like the drums?<br><br>Credits to Cupcakke for the audio",
+"desc": "the red lizards snatched ma weave :(",
 "thumb": "previews/3083405016.png",
-"url": "https://andrew.fm/rainworld/raindb/Red_Lizard_Cupcakke_Remix.zip",
+"url": "https://andrew.fm/rainworld/raindb/Red_Lizard_CupcakKe_Remix.zip",
 "requirements": "",
 "tags": "",
-"order": 1205
+"order": 1206
 });
 
 Mods.push({
@@ -15640,7 +15653,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Badlands.zip",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 1206
+"order": 1207
 });
 
 Mods.push({
@@ -15653,20 +15666,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_End_Is_Nigh_Arena.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1207
+"order": 1208
 });
 
 Mods.push({
-"name": "Eel Lizard (Cupcakke Remix)",
+"name": "Eel Lizard (CupcakKe Remix)",
 "id": "eellizards.remindya",
 "workshop_id": "3084745637",
 "author": "Alga",
-"desc": "All eel lizards across the globe have something to remind ya...<br><br>Credits to Cupcakke for the audio",
+"desc": "For the WETtest lizard <3",
 "thumb": "previews/3084745637.png",
-"url": "https://andrew.fm/rainworld/raindb/Eel_Lizard_Cupcakke_Remix.zip",
+"url": "https://andrew.fm/rainworld/raindb/Eel_Lizard_CupcakKe_Remix.zip",
 "requirements": "",
 "tags": "",
-"order": 1208
+"order": 1209
 });
 
 Mods.push({
@@ -15679,7 +15692,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Researcher_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1209
+"order": 1210
 });
 
 Mods.push({
@@ -15692,7 +15705,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pikmin_Cosmetics_Mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1210
+"order": 1211
 });
 
 Mods.push({
@@ -15706,7 +15719,7 @@ Mods.push({
 "video": "",
 "requirements": "",
 "tags": "Tools",
-"order": 1211
+"order": 1212
 });
 
 Mods.push({
@@ -15719,7 +15732,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Pursuer_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1212
+"order": 1213
 });
 
 Mods.push({
@@ -15732,7 +15745,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SLS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1213
+"order": 1214
 });
 
 Mods.push({
@@ -15745,7 +15758,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spear_Snail.zip",
 "requirements": "fisobs,moreslugcats",
 "tags": "Creatures",
-"order": 1214
+"order": 1215
 });
 
 Mods.push({
@@ -15758,7 +15771,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spear_Snail_Spawns.zip",
 "requirements": "spearsnail,bro.mergefix",
 "tags": "Creatures",
-"order": 1215
+"order": 1216
 });
 
 Mods.push({
@@ -15771,7 +15784,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/winter.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1216
+"order": 1217
 });
 
 Mods.push({
@@ -15784,7 +15797,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/WWAG_Wizards.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1217
+"order": 1218
 });
 
 Mods.push({
@@ -15797,7 +15810,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tophcat_DMS_Skin_Ver_012.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1218
+"order": 1219
 });
 
 Mods.push({
@@ -15810,7 +15823,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Oh_so_no_eyes.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1219
+"order": 1220
 });
 
 Mods.push({
@@ -15823,7 +15836,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Random_Cosmetics.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1220
+"order": 1221
 });
 
 Mods.push({
@@ -15836,7 +15849,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Verdes_World_Fixes_Breaks_Expedition.zip",
 "requirements": "moreslugcats",
 "tags": "Regions",
-"order": 1221
+"order": 1222
 });
 
 Mods.push({
@@ -15849,20 +15862,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Vibe_World_Auto_Mode_Fixes.zip",
 "requirements": "HelloThere.VibeWorld",
 "tags": "Game Mechanics",
-"order": 1222
+"order": 1223
 });
 
 Mods.push({
-"name": "Spitting (Cupcakke Remix)",
+"name": "Spitting (CupcakKe Remix)",
 "id": "spitting.gulpaugh",
 "workshop_id": "3088854039",
 "author": "Alga",
-"desc": "For when the lizards unleash their deepthroat circus!<br><br>Credit to Cupcakke for the audio",
+"desc": "For when the lizards unleash what was in their deepthroat circus!",
 "thumb": "previews/3088854039.png",
-"url": "https://andrew.fm/rainworld/raindb/Spitting_Cupcakke_Remix.zip",
+"url": "https://andrew.fm/rainworld/raindb/Spitting_CupcakKe_Remix.zip",
 "requirements": "",
 "tags": "",
-"order": 1223
+"order": 1224
 });
 
 Mods.push({
@@ -15875,7 +15888,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ysas_Random_Swaps.zip",
 "requirements": "simplespawnswapper",
 "tags": "Creatures",
-"order": 1224
+"order": 1225
 });
 
 Mods.push({
@@ -15888,7 +15901,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pokemontype_Lizards.zip",
 "requirements": "lizardcustomizer,simplespawnswapper,spitanything",
 "tags": "Lizards",
-"order": 1225
+"order": 1226
 });
 
 Mods.push({
@@ -15901,7 +15914,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ventilation_Ducts.zip",
 "requirements": "regionkit,crs",
 "tags": "Regions",
-"order": 1226
+"order": 1227
 });
 
 Mods.push({
@@ -15914,7 +15927,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Auto_Parry_Spears_自动格挡长矛.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1227
+"order": 1228
 });
 
 Mods.push({
@@ -15927,7 +15940,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Poorly_Translated.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "",
-"order": 1228
+"order": 1229
 });
 
 Mods.push({
@@ -15940,7 +15953,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/f4cd87020/qexh59vq-rshiqx6s-n26aukht-b9be6yem",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 1229
+"order": 1230
 });
 
 Mods.push({
@@ -15953,7 +15966,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Radiance_Cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1230
+"order": 1231
 });
 
 Mods.push({
@@ -15966,7 +15979,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rexs_slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1231
+"order": 1232
 });
 
 Mods.push({
@@ -15979,7 +15992,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dripcat_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1232
+"order": 1233
 });
 
 Mods.push({
@@ -15992,7 +16005,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/IS_THAT_A_TRAIN.zip",
 "requirements": "simplespawnswapper",
 "tags": "Creatures",
-"order": 1233
+"order": 1234
 });
 
 Mods.push({
@@ -16005,7 +16018,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Snallys_Custom_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1234
+"order": 1235
 });
 
 Mods.push({
@@ -16018,7 +16031,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Desiccation_Extras.zip",
 "requirements": "slime-cubed.slugbase,regionkit,crs,moreslugcats,saltedsour.desiccation",
 "tags": "",
-"order": 1235
+"order": 1236
 });
 
 Mods.push({
@@ -16031,7 +16044,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Latex_Scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1236
+"order": 1237
 });
 
 Mods.push({
@@ -16044,7 +16057,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cone_Moth_Designs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1237
+"order": 1238
 });
 
 Mods.push({
@@ -16057,7 +16070,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bonk_Rocks.zip",
 "requirements": "",
 "tags": "",
-"order": 1238
+"order": 1239
 });
 
 Mods.push({
@@ -16070,7 +16083,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Edgar_the_Computer_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1239
+"order": 1240
 });
 
 Mods.push({
@@ -16083,7 +16096,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_Bodoque.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1240
+"order": 1241
 });
 
 Mods.push({
@@ -16096,7 +16109,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/my_first_slug_mod_yayyyy_confetti.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1241
+"order": 1242
 });
 
 Mods.push({
@@ -16109,7 +16122,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/IDs_Expanded.zip",
 "requirements": "",
 "tags": "",
-"order": 1242
+"order": 1243
 });
 
 Mods.push({
@@ -16122,7 +16135,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/thenoise.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 1243
+"order": 1244
 });
 
 Mods.push({
@@ -16135,7 +16148,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_World_Zero.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1244
+"order": 1245
+});
+
+Mods.push({
+"name": "Soppyscug",
+"id": "soppyomg",
+"workshop_id": "3094940185",
+"author": "DobbyLiker,fudginbunnye",
+"desc": "DMS Template",
+"thumb": "previews/3094940185.png",
+"url": "https://andrew.fm/rainworld/raindb/Soppyscug.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 1246
 });
 
 Mods.push({
@@ -16148,7 +16174,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/瞬移矛猫.zip",
 "requirements": "",
 "tags": "",
-"order": 1245
+"order": 1247
 });
 
 Mods.push({
@@ -16161,7 +16187,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Arena_Ether_Facility.zip",
 "requirements": "",
 "tags": "",
-"order": 1246
+"order": 1248
 });
 
 Mods.push({
@@ -16174,7 +16200,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/MeowScug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1247
+"order": 1249
 });
 
 Mods.push({
@@ -16187,7 +16213,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/cloud.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1248
+"order": 1250
 });
 
 Mods.push({
@@ -16200,7 +16226,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hoverfly.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 1249
+"order": 1251
 });
 
 Mods.push({
@@ -16214,7 +16240,7 @@ Mods.push({
 "video": "https://www.youtube.com/@arsonistictarantula3036",
 "requirements": "",
 "tags": "",
-"order": 1250
+"order": 1252
 });
 
 Mods.push({
@@ -16227,7 +16253,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/terraria_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1251
+"order": 1253
 });
 
 Mods.push({
@@ -16239,7 +16265,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Custom_Passage_Support.zip",
 "requirements": "",
 "tags": "Passages,Passage,Game Mechanics,Dependency",
-"order": 1252
+"order": 1254
 });
 
 Mods.push({
@@ -16252,7 +16278,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/GarfCat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1253
+"order": 1255
 });
 
 Mods.push({
@@ -16265,7 +16291,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fish_from_Nuclear_Throne_DMS_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1254
+"order": 1256
 });
 
 Mods.push({
@@ -16278,7 +16304,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Heisenscug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1255
+"order": 1257
 });
 
 Mods.push({
@@ -16291,7 +16317,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugbines.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1256
+"order": 1258
 });
 
 Mods.push({
@@ -16304,7 +16330,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Drifter_HLD_Dress_My_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1257
+"order": 1259
 });
 
 Mods.push({
@@ -16317,7 +16343,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hoodie_Guy.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1258
+"order": 1260
 });
 
 Mods.push({
@@ -16331,7 +16357,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCWiMGl-elHybtBaABNsIYdw",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1259
+"order": 1261
 });
 
 Mods.push({
@@ -16344,7 +16370,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Frigid_Threat_Themes.zip",
 "requirements": "crs",
 "tags": "",
-"order": 1260
+"order": 1262
 });
 
 Mods.push({
@@ -16357,7 +16383,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rainworld_Sona_time.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1261
+"order": 1263
 });
 
 Mods.push({
@@ -16370,7 +16396,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/LIGHTBULB_AND_PAINTBRUZH_DUO_TAG_TEAM_REAL.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1262
+"order": 1264
 });
 
 Mods.push({
@@ -16383,7 +16409,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Puffwamp.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1263
+"order": 1265
 });
 
 Mods.push({
@@ -16396,7 +16422,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gift_World.zip",
 "requirements": "fisobs",
 "tags": "",
-"order": 1264
+"order": 1266
 });
 
 Mods.push({
@@ -16409,7 +16435,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Varmint.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1265
+"order": 1267
 });
 
 Mods.push({
@@ -16422,7 +16448,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Siren.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Custom Slugcat",
-"order": 1266
+"order": 1268
 });
 
 Mods.push({
@@ -16435,7 +16461,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ApotheosisStarry_Guardians.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1267
+"order": 1269
 });
 
 Mods.push({
@@ -16448,7 +16474,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ApotheosisSupernature_Artists.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1268
+"order": 1270
 });
 
 Mods.push({
@@ -16462,7 +16488,7 @@ Mods.push({
 "video": "",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1269
+"order": 1271
 });
 
 Mods.push({
@@ -16476,7 +16502,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCeU75MRRkQepeIb6_e2A34g",
 "requirements": "crs",
 "tags": "Regions",
-"order": 1270
+"order": 1272
 });
 
 Mods.push({
@@ -16489,7 +16515,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spawn_Menu.zip",
 "requirements": "",
 "tags": "",
-"order": 1271
+"order": 1273
 });
 
 Mods.push({
@@ -16502,7 +16528,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Iterators_Slugcats_and_a_weird_boy_oh_my.zip",
 "requirements": "dressmyslugcat,iteratorwalk,mehri_lizardcat",
 "tags": "Cosmetics",
-"order": 1272
+"order": 1274
 });
 
 Mods.push({
@@ -16515,7 +16541,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Faelings_Pride_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1273
+"order": 1275
 });
 
 Mods.push({
@@ -16527,7 +16553,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/倒地关机.zip",
 "requirements": "",
 "tags": "",
-"order": 1274
+"order": 1276
 });
 
 Mods.push({
@@ -16540,7 +16566,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fanged_Terrors.zip",
 "requirements": "fisobs",
 "tags": "Creatures,Lizards",
-"order": 1275
+"order": 1277
 });
 
 Mods.push({
@@ -16553,7 +16579,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RWF_8moo.zip",
 "requirements": "silky.rwf",
 "tags": "Game Modes",
-"order": 1276
+"order": 1278
 });
 
 Mods.push({
@@ -16565,7 +16591,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Excess.zip",
 "requirements": "",
 "tags": "",
-"order": 1277
+"order": 1279
 });
 
 Mods.push({
@@ -16578,7 +16604,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Challenge_Arenas_and_Betas.zip",
 "requirements": "moreslugcats",
 "tags": "Arenas",
-"order": 1278
+"order": 1280
 });
 
 Mods.push({
@@ -16591,7 +16617,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dante_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1279
+"order": 1281
 });
 
 Mods.push({
@@ -16604,7 +16630,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Daniel_Grind_slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1280
+"order": 1282
 });
 
 Mods.push({
@@ -16617,7 +16643,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gary_Miller_from_FAITH.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1281
+"order": 1283
 });
 
 Mods.push({
@@ -16630,20 +16656,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Hidden.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1282
+"order": 1284
 });
 
 Mods.push({
-"name": "madness downpour [DMS]",
+"name": "madness downpour",
 "id": "mdp",
 "workshop_id": "3107665514",
 "author": "goldfish",
-"desc": "这是一个技术含量低全凭想象力的蛞蝓土豆猫皮肤模组！旨在一款吃不上饭拿游戏代餐也能玩的同人女精神！<br><br>要用这个模组首先你要去订阅一下”Dress My Slugcat“这个模组（←他们制作团队真的好伟大喂饱了不知道多少人）<br>以及我们本地还有 'The A.A.H.W Branch has been deployed!'（←好天才我真的玩到的时候到处发截图）和 'Madness Slugcats'（←妈呀这个更是重量级好神的像素画技巧我眼睛袅袅了）真的都好天才我超爱😭😭😭<br><br>用的时候要记得把蛞蝓猫所有身体部件改成纯白色！但是如果是工匠和矛大师的话他们脸本身是纯白就要把颜色调成稍微一点点灰就可以了（不是纯纯白都行）以及我们DMS团队还特别贴心地加了一键换装和复制粘贴设定功能，特别方便我真的磕三个响头！！！<br><br>特别感谢腿哥天天听我废话还跟我一起乐和pekia在创作初期发表重要讲话使我的数位笔旋转，还有各种被我骚扰的好哥们。。。。我永远伟大的精神支柱（喜报他超爱）<br><br><br>This is a Dress My Slugcat skin for our infamous Madness Combat characters, mainly relies on your imagination to make it look like little potato grunts<br>go nuts, my friends<br><br>So, you'll need Dress My Slugcat mod for this to function normally (a big thank you to the team for making this possible!!)<br><br>And if you don't know, browse for 'The A.A.H.W Branch has been deployed!' (i sent screenshots everywhere when i found this) and 'Madness Slugcats' (lord how did they make that awesome pixel art i'm crying😭)<br><br>Normally you'll need to change EVERY body part of the slugcat to pure white, but for Artificer and Spearmaster (Downpour DLC) whose face is already white, you should make it a little gray in the setting. Also, the DMS team added the Use Entire Set and Copy&Paste features, now using skins can go more smoothly than before<br><br>Go get your pals and make me proud<br><br>有没有人和我玩土豆猫我要闹了。。。。。<br>下次更新记得把介绍复制一遍。。。。。。天哪创意工坊你们更新怎么还会把我简介爬走！！！",
+"desc": "——————————————————<br>给我捡回来画完了！现在你能在里面玩到所有mpn2故事线可操控角色了！<br><br>it got picked up and finished! (or is it?) now we have every controllable character in m:pn story mode! <br>+hell yeah<br>——————————————————<br><br>这是一个技术含量低全凭想象力的蛞蝓土豆猫皮肤模组！旨在一款吃不上饭拿游戏代餐也能玩的同人女精神！<br><br>要用这个模组首先你要去订阅一下”Dress My Slugcat“这个模组（←他们制作团队真的好伟大喂饱了不知道多少人）<br>以及我们本地还有 'The A.A.H.W Branch has been deployed!'（←好天才我真的玩到的时候到处发截图）和 'Madness Slugcats'（←妈呀这个更是重量级好神的像素画技巧我眼睛袅袅了）真的都好天才我超爱😭😭😭<br><br>用的时候要记得把蛞蝓猫所有身体部件改成纯白色！但是如果是工匠和矛大师的话他们脸本身是纯白就要把颜色调成稍微一点点灰就可以了（不是纯纯白都行）以及我们DMS团队还特别贴心地加了一键换装和复制粘贴设定功能，特别方便我真的磕三个响头！！！<br><br>特别感谢腿哥天天听我废话还跟我一起乐和pekia在创作初期发表重要讲话使我的数位笔旋转，还有各种被我骚扰的好哥们。。。。我永远伟大的精神支柱（喜报他超爱）<br><br><br>This is a Dress My Slugcat skin for our infamous Madness Combat characters, mainly relies on your imagination to make it look like little potato grunts<br>go nuts, my friends<br><br>So, you'll need Dress My Slugcat mod for this to function normally (a big thank you to the team for making this possible!!)<br><br>And if you don't know, browse for 'The A.A.H.W Branch has been deployed!' (i sent screenshots everywhere when i found this) and 'Madness Slugcats' (lord how did they make that awesome pixel art i'm crying😭)<br><br>Normally you'll need to change EVERY body part of the slugcat to pure white, but for Artificer and Spearmaster (Downpour DLC) whose face is already white, you should make it a little gray in the setting. Also, the DMS team added the Use Entire Set and Copy&Paste features, now using skins can go more smoothly than before<br><br>Go get your pals and make me proud<br><br>有没有人和我玩土豆猫我要闹了。。。。。<br>下次更新记得把介绍复制一遍。。。。。。天哪创意工坊你们更新怎么还会把我简介爬走！！！<br><br>——————————————————<br>2023年12月，鱼师傅大喊没人和他玩土豆猫他要闹了<br>2024年7月，还是没人和鱼师傅玩土豆猫TT<br>——————————————————",
 "thumb": "previews/3107665514.png",
-"url": "https://andrew.fm/rainworld/raindb/madness_downpour_DMS.zip",
+"url": "https://andrew.fm/rainworld/raindb/madness_downpour.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1283
+"order": 1285
 });
 
 Mods.push({
@@ -16656,7 +16682,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Grave_digger_slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1284
+"order": 1286
 });
 
 Mods.push({
@@ -16668,7 +16694,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Let_me_rest_in_peace.zip",
 "requirements": "",
 "tags": "Accessibility,Tools",
-"order": 1285
+"order": 1287
 });
 
 Mods.push({
@@ -16681,7 +16707,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Olive_from_purrfect_apawcalypse.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1286
+"order": 1288
 });
 
 Mods.push({
@@ -16695,7 +16721,7 @@ Mods.push({
 "video": "https://www.youtube.com/@GalacticBeanSouper",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
 "tags": "",
-"order": 1287
+"order": 1289
 });
 
 Mods.push({
@@ -16708,7 +16734,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Creature_Respawn_Chances.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1288
+"order": 1290
 });
 
 Mods.push({
@@ -16721,7 +16747,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RWF_Faznews_MEWMIX.zip",
 "requirements": "silky.rwf",
 "tags": "Game Modes",
-"order": 1289
+"order": 1291
 });
 
 Mods.push({
@@ -16734,7 +16760,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Jester.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1290
+"order": 1292
 });
 
 Mods.push({
@@ -16746,7 +16772,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/the_thing.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1291
+"order": 1293
 });
 
 Mods.push({
@@ -16759,7 +16785,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Harbour_Slugcat_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1292
+"order": 1294
 });
 
 Mods.push({
@@ -16772,7 +16798,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_Sanitäter_萨尼猫装扮.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1293
+"order": 1295
 });
 
 Mods.push({
@@ -16785,7 +16811,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Silkslug_The_Shaw_11_Ending_Beta.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Arenas,Custom Slugcat",
-"order": 1294
+"order": 1296
 });
 
 Mods.push({
@@ -16799,7 +16825,7 @@ Mods.push({
 "video": "https://www.youtube.com/watch?v=41RrVMUxAQM",
 "requirements": "improved-input-config",
 "tags": "Accessibility,Tools",
-"order": 1295
+"order": 1297
 });
 
 Mods.push({
@@ -16812,7 +16838,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gate_Scanner.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1296
+"order": 1298
 });
 
 Mods.push({
@@ -16825,7 +16851,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Avatar_The_Last_Scugbender.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1297
+"order": 1299
 });
 
 Mods.push({
@@ -16837,7 +16863,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Artificer_Fire_Breathing.zip",
 "requirements": "Dino.DinoLib",
 "tags": "Game Mechanics",
-"order": 1298
+"order": 1300
 });
 
 Mods.push({
@@ -16850,7 +16876,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fat_Man.zip",
 "requirements": "fisobs,Dino.DinoLib",
 "tags": "Game Mechanics,Items",
-"order": 1299
+"order": 1301
 });
 
 Mods.push({
@@ -16863,7 +16889,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kuvi_Slugcat.zip",
 "requirements": "regionkit,slime-cubed.slugbase,dressmyslugcat",
 "tags": "Custom Slugcat",
-"order": 1300
+"order": 1302
 });
 
 Mods.push({
@@ -16876,7 +16902,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Neons_Custom_DMS_Kitties.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1301
+"order": 1303
 });
 
 Mods.push({
@@ -16890,7 +16916,7 @@ Mods.push({
 "video": "https://www.youtube.com/@HeckingHeavy",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1302
+"order": 1304
 });
 
 Mods.push({
@@ -16903,7 +16929,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hide_The_Cursor.zip",
 "requirements": "",
 "tags": "",
-"order": 1303
+"order": 1305
 });
 
 Mods.push({
@@ -16916,7 +16942,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fix_safari_button_bug.zip",
 "requirements": "",
 "tags": "",
-"order": 1304
+"order": 1306
 });
 
 Mods.push({
@@ -16929,7 +16955,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Add_Inv_to_Campaign_Select.zip",
 "requirements": "",
 "tags": "",
-"order": 1305
+"order": 1307
 });
 
 Mods.push({
@@ -16942,7 +16968,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/If_you_move_left_you__explode.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1306
+"order": 1308
 });
 
 Mods.push({
@@ -16955,7 +16981,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Patapon_Uberhero_Death_Sound.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1307
+"order": 1309
 });
 
 Mods.push({
@@ -16967,7 +16993,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/wobblas_lizors.zip",
 "requirements": "",
 "tags": "",
-"order": 1308
+"order": 1310
 });
 
 Mods.push({
@@ -16980,7 +17006,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Transporter.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1309
+"order": 1311
 });
 
 Mods.push({
@@ -16993,7 +17019,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Patches_from_purrfect_apawcalypse.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1310
+"order": 1312
 });
 
 Mods.push({
@@ -17006,7 +17032,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Holiy_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1311
+"order": 1313
 });
 
 Mods.push({
@@ -17019,7 +17045,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jevil_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1312
+"order": 1314
 });
 
 Mods.push({
@@ -17032,7 +17058,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mewnies_Pokescugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1313
+"order": 1315
 });
 
 Mods.push({
@@ -17044,7 +17070,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dress_My_Slugcat_Menu_Fix.zip",
 "requirements": "",
 "tags": "Dress My Slugcat,DMS,Menu,UI",
-"order": 1314
+"order": 1316
 });
 
 Mods.push({
@@ -17057,7 +17083,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Youre_Dead.zip",
 "requirements": "",
 "tags": "",
-"order": 1315
+"order": 1317
 });
 
 Mods.push({
@@ -17069,7 +17095,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Beholder_FANMADE.zip",
 "requirements": "",
 "tags": "",
-"order": 1316
+"order": 1318
 });
 
 Mods.push({
@@ -17082,7 +17108,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/clown.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1317
+"order": 1319
 });
 
 Mods.push({
@@ -17095,7 +17121,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Yeek_Fix_Discontinued.zip",
 "requirements": "moreslugcats",
 "tags": "Creatures",
-"order": 1318
+"order": 1320
 });
 
 Mods.push({
@@ -17108,7 +17134,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Forager.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Custom Slugcat",
-"order": 1319
+"order": 1321
 });
 
 Mods.push({
@@ -17120,7 +17146,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jaron.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1320
+"order": 1322
 });
 
 Mods.push({
@@ -17133,7 +17159,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Nightshade.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1321
+"order": 1323
 });
 
 Mods.push({
@@ -17146,7 +17172,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Yulecat_dms_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1322
+"order": 1324
 });
 
 Mods.push({
@@ -17159,7 +17185,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Chaotic_family.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1323
+"order": 1325
 });
 
 Mods.push({
@@ -17172,7 +17198,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/LEGACY_v1907b_Scissor_Vulture_Priority_Fix.zip",
 "requirements": "moreslugcats",
 "tags": "Creatures",
-"order": 1324
+"order": 1326
 });
 
 Mods.push({
@@ -17185,7 +17211,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Companion.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1325
+"order": 1327
 });
 
 Mods.push({
@@ -17199,7 +17225,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCRfPKWXF0wDOx5VVB3_KU7g",
 "requirements": "regionkit,crs,bro.mergefix",
 "tags": "",
-"order": 1326
+"order": 1328
 });
 
 Mods.push({
@@ -17212,7 +17238,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jingle_Death.zip",
 "requirements": "",
 "tags": "",
-"order": 1327
+"order": 1329
 });
 
 Mods.push({
@@ -17226,7 +17252,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCvv1xWUfMXD559KpxDlG-mA",
 "requirements": "dressmyslugcat,moreslugcats",
 "tags": "Cosmetics",
-"order": 1328
+"order": 1330
 });
 
 Mods.push({
@@ -17239,7 +17265,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Thief_dms_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1329
+"order": 1331
 });
 
 Mods.push({
@@ -17252,7 +17278,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Eradicator_DMS_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1330
+"order": 1332
 });
 
 Mods.push({
@@ -17265,7 +17291,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Arachnophobia_Mode.zip",
 "requirements": "",
 "tags": "Accessibility,Creatures",
-"order": 1331
+"order": 1333
 });
 
 Mods.push({
@@ -17277,7 +17303,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/HiddenRoomFix.zip",
 "requirements": "",
 "tags": "Tools",
-"order": 1332
+"order": 1334
 });
 
 Mods.push({
@@ -17290,7 +17316,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Offscreen_Indicators.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 1333
+"order": 1335
 });
 
 Mods.push({
@@ -17303,7 +17329,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Slugnus_Archives.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1334
+"order": 1336
 });
 
 Mods.push({
@@ -17316,7 +17342,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_World_Jungle_Roads.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
 "tags": "Custom Slugcat,Campaigns",
-"order": 1335
+"order": 1337
 });
 
 Mods.push({
@@ -17329,7 +17355,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/wotcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1336
+"order": 1338
 });
 
 Mods.push({
@@ -17342,7 +17368,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Exploding_Corpse.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1337
+"order": 1339
 });
 
 Mods.push({
@@ -17355,7 +17381,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rus_Dev_Commentary.zip",
 "requirements": "moreslugcats",
 "tags": "Translations",
-"order": 1338
+"order": 1340
 });
 
 Mods.push({
@@ -17368,7 +17394,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Room_Screenshot.zip",
 "requirements": "",
 "tags": "Tools",
-"order": 1339
+"order": 1341
 });
 
 Mods.push({
@@ -17381,7 +17407,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fortnite_down_sound.zip",
 "requirements": "",
 "tags": "",
-"order": 1340
+"order": 1342
 });
 
 Mods.push({
@@ -17394,7 +17420,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bombardier_Vulture.zip",
 "requirements": "fisobs",
 "tags": "Creatures,Vultures",
-"order": 1341
+"order": 1343
 });
 
 Mods.push({
@@ -17407,7 +17433,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Downpour_End_Slugcats_DMS_Skin_The_Ruffian.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1342
+"order": 1344
 });
 
 Mods.push({
@@ -17420,7 +17446,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/a_fluffy_moron.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1343
+"order": 1345
 });
 
 Mods.push({
@@ -17433,7 +17459,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Better_Chinese_Translation.zip",
 "requirements": "",
 "tags": "Translations",
-"order": 1344
+"order": 1346
 });
 
 Mods.push({
@@ -17447,20 +17473,20 @@ Mods.push({
 "video": "",
 "requirements": "slime-cubed.slugbase,moreslugcats,improved-input-config",
 "tags": "Custom Slugcat",
-"order": 1345
+"order": 1347
 });
 
 Mods.push({
-"name": "Salamanders (Cupcakke Remix)",
+"name": "Salamanders (CupcakKe Remix)",
 "id": "salamanders.nyagafaws",
 "workshop_id": "3126334067",
 "author": "Alga",
-"desc": "This broken shelter is wetter than a fish bowl!<br><br>Credit to Cupcakke for the audio",
+"desc": "It's like Niagra Falls in this broken shelter all day!",
 "thumb": "previews/3126334067.png",
-"url": "https://andrew.fm/rainworld/raindb/Salamanders_Cupcakke_Remix.zip",
+"url": "https://andrew.fm/rainworld/raindb/Salamanders_CupcakKe_Remix.zip",
 "requirements": "",
 "tags": "",
-"order": 1346
+"order": 1348
 });
 
 Mods.push({
@@ -17472,7 +17498,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Beholder_Fanmade.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1347
+"order": 1349
 });
 
 Mods.push({
@@ -17485,7 +17511,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Achievement_Manager_Unlock_All.zip",
 "requirements": "",
 "tags": "Tools",
-"order": 1348
+"order": 1350
 });
 
 Mods.push({
@@ -17498,7 +17524,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ImprovedCollectiblesTracker.zip",
 "requirements": "",
 "tags": "",
-"order": 1349
+"order": 1351
 });
 
 Mods.push({
@@ -17511,7 +17537,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spires_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1350
+"order": 1352
 });
 
 Mods.push({
@@ -17523,7 +17549,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Cartographer.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 1351
+"order": 1353
 });
 
 Mods.push({
@@ -17536,7 +17562,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_More_Jangling.zip",
 "requirements": "moreslugcats",
 "tags": "Items,Cosmetics",
-"order": 1352
+"order": 1354
 });
 
 Mods.push({
@@ -17549,7 +17575,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Fidget_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1353
+"order": 1355
 });
 
 Mods.push({
@@ -17562,7 +17588,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Alien_Slugcat_Cybernetics.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1354
+"order": 1356
 });
 
 Mods.push({
@@ -17575,7 +17601,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RWDatingsim_Ironaddon.zip",
 "requirements": "",
 "tags": "",
-"order": 1355
+"order": 1357
 });
 
 Mods.push({
@@ -17588,7 +17614,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hanks_New_Years_Arenas.zip",
 "requirements": "regionkit",
 "tags": "Arenas",
-"order": 1356
+"order": 1358
 });
 
 Mods.push({
@@ -17601,7 +17627,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_More_Fullscreen_Blur.zip",
 "requirements": "",
 "tags": "",
-"order": 1357
+"order": 1359
 });
 
 Mods.push({
@@ -17614,7 +17640,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Flems_Arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 1358
+"order": 1360
 });
 
 Mods.push({
@@ -17627,7 +17653,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ourple_scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1359
+"order": 1361
 });
 
 Mods.push({
@@ -17640,7 +17666,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sea_Bunny_Seaslugcat__dms_mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1360
+"order": 1362
 });
 
 Mods.push({
@@ -17653,7 +17679,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Instant_Replay.zip",
 "requirements": "",
 "tags": "",
-"order": 1361
+"order": 1363
 });
 
 Mods.push({
@@ -17666,7 +17692,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/GATE_WORLD.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1362
+"order": 1364
 });
 
 Mods.push({
@@ -17679,7 +17705,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Leon_Slug_Kennedy.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1363
+"order": 1365
 });
 
 Mods.push({
@@ -17692,7 +17718,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Fallen_skin_mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1364
+"order": 1366
 });
 
 Mods.push({
@@ -17705,7 +17731,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tall_Guy__dms_gift_for_a_friend.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1365
+"order": 1367
 });
 
 Mods.push({
@@ -17717,7 +17743,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Load_Time_Fix.zip",
 "requirements": "",
 "tags": "",
-"order": 1366
+"order": 1368
 });
 
 Mods.push({
@@ -17730,7 +17756,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/2x2_Arenas.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 1367
+"order": 1369
 });
 
 Mods.push({
@@ -17743,7 +17769,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tragiscugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1368
+"order": 1370
 });
 
 Mods.push({
@@ -17756,7 +17782,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ULTRAKILL_Threat_Musics.zip",
 "requirements": "crs",
 "tags": "Cosmetics",
-"order": 1369
+"order": 1371
 });
 
 Mods.push({
@@ -17769,7 +17795,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Yuki_Rivulet.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1370
+"order": 1372
 });
 
 Mods.push({
@@ -17782,7 +17808,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Stanchion_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1371
+"order": 1373
 });
 
 Mods.push({
@@ -17795,7 +17821,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Item_Randomizer.zip",
 "requirements": "",
 "tags": "",
-"order": 1372
+"order": 1374
 });
 
 Mods.push({
@@ -17808,7 +17834,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Auto_Rickroller.zip",
 "requirements": "",
 "tags": "",
-"order": 1373
+"order": 1375
 });
 
 Mods.push({
@@ -17821,7 +17847,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Anakit_Slugwalker.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 1374
+"order": 1376
 });
 
 Mods.push({
@@ -17834,7 +17860,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Edible_Iterators.zip",
 "requirements": "",
 "tags": "",
-"order": 1375
+"order": 1377
 });
 
 Mods.push({
@@ -17847,7 +17873,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Darcy.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1376
+"order": 1378
 });
 
 Mods.push({
@@ -17861,7 +17887,7 @@ Mods.push({
 "video": "https://www.youtube.com/@None",
 "requirements": "lizardcustomizer",
 "tags": "",
-"order": 1377
+"order": 1379
 });
 
 Mods.push({
@@ -17874,7 +17900,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Turkish_Translation.zip",
 "requirements": "",
 "tags": "",
-"order": 1378
+"order": 1380
 });
 
 Mods.push({
@@ -17887,7 +17913,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bioengineering_Center_WIP.zip",
 "requirements": "crs,regionkit",
 "tags": "",
-"order": 1379
+"order": 1381
 });
 
 Mods.push({
@@ -17900,7 +17926,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kills_Add_Time_2.zip",
 "requirements": "",
 "tags": "",
-"order": 1380
+"order": 1382
 });
 
 Mods.push({
@@ -17913,7 +17939,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Anne_Boonchuy.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1381
+"order": 1383
 });
 
 Mods.push({
@@ -17926,7 +17952,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ace_Combat_Zero__5_Explosion_Sound_Effects.zip",
 "requirements": "",
 "tags": "",
-"order": 1382
+"order": 1384
 });
 
 Mods.push({
@@ -17940,7 +17966,7 @@ Mods.push({
 "video": "https://www.youtube.com/@cutiefox29",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1383
+"order": 1385
 });
 
 Mods.push({
@@ -17953,7 +17979,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Concussion.zip",
 "requirements": "",
 "tags": "",
-"order": 1384
+"order": 1386
 });
 
 Mods.push({
@@ -17966,7 +17992,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DebugVisualizer.zip",
 "requirements": "",
 "tags": "",
-"order": 1385
+"order": 1387
 });
 
 Mods.push({
@@ -17979,7 +18005,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ecco_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1386
+"order": 1388
 });
 
 Mods.push({
@@ -17992,7 +18018,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Marcy_Wu.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1387
+"order": 1389
 });
 
 Mods.push({
@@ -18005,7 +18031,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_World_but_jumping_is_dangerous.zip",
 "requirements": "",
 "tags": "",
-"order": 1388
+"order": 1390
 });
 
 Mods.push({
@@ -18018,7 +18044,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sasha_Waybright.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1389
+"order": 1391
 });
 
 Mods.push({
@@ -18031,7 +18057,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/artificer_but_with_more_scars_dms.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1390
+"order": 1392
 });
 
 Mods.push({
@@ -18044,7 +18070,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/boomboom_dms.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1391
+"order": 1393
 });
 
 Mods.push({
@@ -18057,7 +18083,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pups.zip",
 "requirements": "moreslugcats,rwremix",
 "tags": "Creatures,Game Mechanics",
-"order": 1392
+"order": 1394
 });
 
 Mods.push({
@@ -18070,7 +18096,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Debug__Zero_Palette.zip",
 "requirements": "",
 "tags": "Debug",
-"order": 1393
+"order": 1395
 });
 
 Mods.push({
@@ -18082,7 +18108,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Log_Manager_BETA.zip",
 "requirements": "",
 "tags": "Logger,Logging,utility,BepInEx",
-"order": 1394
+"order": 1396
 });
 
 Mods.push({
@@ -18095,7 +18121,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Questionable_Intentions_Campaigns.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,regionkit,pom,fisobs",
 "tags": "Campaigns,Custom Slugcat",
-"order": 1395
+"order": 1397
 });
 
 Mods.push({
@@ -18108,7 +18134,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/More_Ammo.zip",
 "requirements": "moreslugcats",
 "tags": "Game Mechanics",
-"order": 1396
+"order": 1398
 });
 
 Mods.push({
@@ -18121,7 +18147,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hunterglee.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1397
+"order": 1399
 });
 
 Mods.push({
@@ -18134,7 +18160,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mariner_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1398
+"order": 1400
 });
 
 Mods.push({
@@ -18147,7 +18173,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Mariner__Custom_Slugcat.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Custom Slugcat",
-"order": 1399
+"order": 1401
 });
 
 Mods.push({
@@ -18155,12 +18181,12 @@ Mods.push({
 "id": "mossybeesslugcats",
 "workshop_id": "3138987959",
 "author": "mossybees",
-"desc": "mossys slugcats, set color to white, tail asymmetry for artificer and hunter, extras (gills, face scar, ascension wheel, etc) dont work with the use whole set option",
+"desc": "mossys slugcats, set color to white, tail asymmetry for artificer and hunter, Saint and Spearmaster have some alternate parts (alt arms and tail for Saint, alt hips and face for Spearmaster)<br><br>Update:<br>-fixed issue with extras not working with 'use entire set'<br>-fixed Artificers face (both eyes open before)<br>-slightly darkened Arti<br>-added alt arms (frostbitten) and tail (echo) for Saint<br>-added alt face (whiskers) and changed main hips (scar is now alt) for Spearmaster<br>-remade Nightcat/Watcher entirely (I hated the old design so much)",
 "thumb": "previews/3138987959.png",
 "url": "https://andrew.fm/rainworld/raindb/mossys_slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1400
+"order": 1402
 });
 
 Mods.push({
@@ -18173,7 +18199,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pale_King_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1401
+"order": 1403
 });
 
 Mods.push({
@@ -18186,7 +18212,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lizardcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 1402
+"order": 1404
 });
 
 Mods.push({
@@ -18200,7 +18226,7 @@ Mods.push({
 "video": "https://www.youtube.com/@Phobia-ve3do",
 "requirements": "slime-cubed.slugbase",
 "tags": "Regions,Campaigns,Creatures,Game Mechanics,Items,Custom Slugcat",
-"order": 1403
+"order": 1405
 });
 
 Mods.push({
@@ -18213,7 +18239,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Global_World.zip",
 "requirements": "",
 "tags": "",
-"order": 1404
+"order": 1406
 });
 
 Mods.push({
@@ -18225,7 +18251,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sky_kid_WIP.zip",
 "requirements": "",
 "tags": "",
-"order": 1405
+"order": 1407
 });
 
 Mods.push({
@@ -18238,7 +18264,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Evas_Silly_OCs.zip",
 "requirements": "dressmyslugcat,moreslugcats",
 "tags": "Cosmetics",
-"order": 1406
+"order": 1408
 });
 
 Mods.push({
@@ -18251,7 +18277,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Palette_Randomizer.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1407
+"order": 1409
 });
 
 Mods.push({
@@ -18263,7 +18289,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Rotten_City.zip",
 "requirements": "",
 "tags": "",
-"order": 1408
+"order": 1410
 });
 
 Mods.push({
@@ -18276,7 +18302,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/the_abomination_dms.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1409
+"order": 1411
 });
 
 Mods.push({
@@ -18289,7 +18315,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Monzoura_The_Exploura__DMSAn_OC_of_mine_3.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1410
+"order": 1412
 });
 
 Mods.push({
@@ -18302,7 +18328,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sticky_Items.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1411
+"order": 1413
 });
 
 Mods.push({
@@ -18315,7 +18341,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Snek_Scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1412
+"order": 1414
 });
 
 Mods.push({
@@ -18328,7 +18354,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Remix_Menu_Tweaks.zip",
 "requirements": "improved-input-config",
 "tags": "",
-"order": 1413
+"order": 1415
 });
 
 Mods.push({
@@ -18341,7 +18367,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RWF_Plus_Pak.zip",
 "requirements": "silky.rwf",
 "tags": "",
-"order": 1414
+"order": 1416
 });
 
 Mods.push({
@@ -18354,7 +18380,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/AzzzYs_Rivulet_Dress_My_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1415
+"order": 1417
 });
 
 Mods.push({
@@ -18367,7 +18393,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Remove_RegionKit_Iggy.zip",
 "requirements": "",
 "tags": "Accessibility,Tools",
-"order": 1416
+"order": 1418
 });
 
 Mods.push({
@@ -18380,7 +18406,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Portal_Gun.zip",
 "requirements": "fisobs",
 "tags": "Items",
-"order": 1417
+"order": 1419
 });
 
 Mods.push({
@@ -18393,7 +18419,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Karma_Control.zip",
 "requirements": "",
 "tags": "Tools,Game Mechanics",
-"order": 1418
+"order": 1420
 });
 
 Mods.push({
@@ -18407,7 +18433,7 @@ Mods.push({
 "video": "https://www.youtube.com/@chlkrisz",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1419
+"order": 1421
 });
 
 Mods.push({
@@ -18420,7 +18446,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Xoroth_DMSslugcat_version.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1420
+"order": 1422
 });
 
 Mods.push({
@@ -18434,7 +18460,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCDGCKkt-V9zg5bqRQRwQhsQ",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1421
+"order": 1423
 });
 
 Mods.push({
@@ -18447,7 +18473,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Colony_dms_skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1422
+"order": 1424
 });
 
 Mods.push({
@@ -18460,7 +18486,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/cakedesigns.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1423
+"order": 1425
 });
 
 Mods.push({
@@ -18473,7 +18499,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/OCscug_Painter.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1424
+"order": 1426
 });
 
 Mods.push({
@@ -18486,7 +18512,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spit_Items_when_Knocked_Out.zip",
 "requirements": "",
 "tags": "",
-"order": 1425
+"order": 1427
 });
 
 Mods.push({
@@ -18499,7 +18525,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Room_Object_Manager.zip",
 "requirements": "",
 "tags": "",
-"order": 1426
+"order": 1428
 });
 
 Mods.push({
@@ -18512,7 +18538,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Meteor.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,nutils,fisobs",
 "tags": "",
-"order": 1427
+"order": 1429
 });
 
 Mods.push({
@@ -18525,7 +18551,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dawn_Of_The_Red.zip",
 "requirements": "spitanything,lizardcustomizer",
 "tags": "Lizards",
-"order": 1428
+"order": 1430
 });
 
 Mods.push({
@@ -18538,7 +18564,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Echo_arena_music.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1429
+"order": 1431
 });
 
 Mods.push({
@@ -18551,7 +18577,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SlugMoth.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1430
+"order": 1432
 });
 
 Mods.push({
@@ -18564,7 +18590,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Drainage_system_leeches_Room_remove.zip",
 "requirements": "",
 "tags": "",
-"order": 1431
+"order": 1433
 });
 
 Mods.push({
@@ -18577,7 +18603,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/REGRETAVATOR_SLUGS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1432
+"order": 1434
 });
 
 Mods.push({
@@ -18590,7 +18616,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jiggilibu_World.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,rwremix,iteratorKit",
 "tags": "Custom Slugcat,Campaigns",
-"order": 1433
+"order": 1435
 });
 
 Mods.push({
@@ -18603,7 +18629,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sylvester_Pattern.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1434
+"order": 1436
 });
 
 Mods.push({
@@ -18616,7 +18642,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BlueTint_The_Crystal_Weaver_DMS_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1435
+"order": 1437
 });
 
 Mods.push({
@@ -18629,7 +18655,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Syranthiel_the_scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1436
+"order": 1438
 });
 
 Mods.push({
@@ -18642,7 +18668,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Messenger.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1437
+"order": 1439
 });
 
 Mods.push({
@@ -18655,7 +18681,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ZzZArenas.zip",
 "requirements": "regionkit",
 "tags": "Arenas",
-"order": 1438
+"order": 1440
 });
 
 Mods.push({
@@ -18668,7 +18694,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pirate_WorldWORK_IN_PROGRESS.zip",
 "requirements": "",
 "tags": "",
-"order": 1439
+"order": 1441
 });
 
 Mods.push({
@@ -18681,7 +18707,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Random_Slugcat_Costumes_V3.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 1440
+"order": 1442
 });
 
 Mods.push({
@@ -18694,7 +18720,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Skip_Farm_Arrays.zip",
 "requirements": "",
 "tags": "",
-"order": 1441
+"order": 1443
 });
 
 Mods.push({
@@ -18707,7 +18733,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rainbow_Aura.zip",
 "requirements": "",
 "tags": "",
-"order": 1442
+"order": 1444
 });
 
 Mods.push({
@@ -18720,7 +18746,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Giant_Coalescipedes.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 1443
+"order": 1445
 });
 
 Mods.push({
@@ -18733,7 +18759,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dents_Critter_Box.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1444
+"order": 1446
 });
 
 Mods.push({
@@ -18746,7 +18772,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/GOOEY.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1445
+"order": 1447
 });
 
 Mods.push({
@@ -18758,7 +18784,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ID_Range_Extender.zip",
 "requirements": "",
 "tags": "",
-"order": 1446
+"order": 1448
 });
 
 Mods.push({
@@ -18771,7 +18797,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Moss_Fields.zip",
 "requirements": "crs,regionkit,far_shore",
 "tags": "Regions",
-"order": 1447
+"order": 1449
 });
 
 Mods.push({
@@ -18784,7 +18810,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/PETRICHOR_P7s_Skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1448
+"order": 1450
 });
 
 Mods.push({
@@ -18797,7 +18823,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fefe_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1449
+"order": 1451
 });
 
 Mods.push({
@@ -18810,7 +18836,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Green_Walrus_Scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1450
+"order": 1452
 });
 
 Mods.push({
@@ -18818,13 +18844,13 @@ Mods.push({
 "id": "Metal_Scug_Solid",
 "workshop_id": "3149278380",
 "author": "Nevilsico Shard",
-"desc": "[b] Cooler thumbnail in progress... [/b]<br>[h1] In progress scuffed cosmetic pack that allows slugcats to become Snake from Metal Gear Solid. Introducing Solid Scug and maybe in the future Liquid Scug and maybe the secret Gas Scug! Please make suggestions, comment on flaws or glaring issues. [/h1]<br>[b] Disclaimer: My main focus is [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2965959618] Scugs of Sparda, [/url] so the status list is less planned and more 'I would like to make at some point.' [/b]<br>[b] This is disregarding I am terrible at making time for these projects. [/b]<br>[list]<br>    [*]For expected colored visuals, set body color to white, eyes default black<br>    [*]Cardboard Box allows Snake to truly become the box; Cardboard Box Alt. let's you crouch-walk with box.<br>[/list]<br><br>➢ Priority<br><br>[h2] Metal Gear Solid [/h2]<br>[table]<br>    [tr]<br>        [th]Character[/th]<br>        [th]Status[/th]<br>    [/tr]<br>    [tr]<br>        [td]MGS2 Snake[/td]<br>        [td]██████████ 100%[/td]<br>    [/tr]<br>    [tr]<br>        [td][b]cardboard box[/b][/td]<br>        [td]██████████ 100%[/td]<br>    [/tr]<br>    [tr]<br>        [td]➢Big Boss[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>[/table]<br><br><br>Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2948971756] Dress My Slugcat [/url] mod.<br><br>[b]My other Dress My Slugcat mods:[/b]<br>[u][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2965959618] Scugs of Sparda [/url][/u]<br>[u][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2966522396] Metal Scug Rising [/url][/u]",
+"desc": "[h1] In progress scuffed cosmetic pack that allows slugcats to become Snake from Metal Gear Solid. Introducing Solid Scug and perhaps later Naked Scug and Big Scug! Please make suggestions, comment on flaws or glaring issues. [/h1]<br>[b]Disclaimer: Once again, very scuffed!1! Also I am terrible at making time for these projects.[/b]<br>[h1]Recently I've not been working on my DMS packs so I want to say this: if anyone has a particular outfit they really want from my existing DMS packs, just state it in the comments. Not only would it motivate me to get off my bum but it gives me a particular reason to make the outfit.[/h1]<br><br>[b] Cooler thumbnail in progress... [/b]<br>[h3]➢ Priority[/h3]<br>[h3]⚑ Work In Progress ([u]Kiryu[/u])[/h3]<br>[list]<br>[h2]If a comment asks, I can make an [i]outfit variant[/i] from default white to [u]another slugcat color[/u]; via linked, unlisted separate mod[/h2]<br>    [*][b][u]General Usage:[/u] Get Fancy Menu ➤ ☑ Use Entire Set ➤ Select [b]Default[/b] ➤ Select one of skins given<br>    [*]For expected colored visuals, set body color to white, eyes default black<br>[/list]<br>[quote=Nevilsico Shard][h2][i]If anyone wants to get insight on my Rain World DMS pack plans, see here:[/i]<br>[u][b][url=https://text.is/NevilsicoShard_DMS_Pack_Outline]Nevil's DMS Pack Outline[/url][/b][/u][/h2][/quote]<br><br>[img]https://i.imgur.com/7SaXePx.png[/img]<br>[table]<br>    [tr]<br>        [th][h3]Metal Gear Solid 3[/h3][/th]<br>        [th]Status[/th]<br>    [/tr]<br>    [tr]<br>        [td]Naked Snake[/td]<br>        [td]██████████ 100%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Revolver Ocelot[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>[/table]<br><br>[img]https://i.imgur.com/SdulOm7.png[/img]<br>[table]<br>    [tr]<br>        [th][h3]Metal Gear Solid Portable Ops[/h3][/th]<br>        [th]Status[/th]<br>    [/tr]<br>    [tr]<br>        [td]PO Naked Snake[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>[/table]<br><br>[img]https://i.imgur.com/QwYag1h.png[/img]<br>[table]<br>    [tr]<br>        [th][h3]Metal Gear Solid Peace Walker[/h3][/th]<br>        [th]Status[/th]<br>    [/tr]<br>    [tr]<br>        [td]Big Boss[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>[/table]<br><br>[img]https://i.imgur.com/P8HPUxz.png[/img]<br>[table]<br>    [tr]<br>        [th][h3]Metal Gear Solid V[/h3][/th]<br>        [th]Status[/th]<br>    [/tr]<br>    [tr]<br>        [td]➢Punished 'Venom' Snake[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Big Boss[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Revolver 'Shalashaska' Ocelot[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Some random guy named Ishmael[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>[/table]<br><br>[img]https://i.imgur.com/1UZXyy1.png[/img]<br>[table]<br>    [tr]<br>        [th][h3]Metal Gear[/h3][/th]<br>        [th]Status[/th]<br>    [/tr]<br>    [tr]<br>        [td]Snake[/td]<br>        [td]Maybe[/td]<br>    [/tr]<br>[/table]<br><br>[img]https://i.imgur.com/mdkqfx3.png[/img]<br>[table]<br>    [tr]<br>        [th][h3]Metal Gear 2[/h3][/th]<br>        [th]Status[/th]<br>    [/tr]<br>    [tr]<br>        [td]Solid Snake[/td]<br>        [td]Maybe[/td]<br>    [/tr]<br>[/table]<br><br>[img]https://i.imgur.com/XOBpQ1K.png[/img]<br>[table]<br>    [tr]<br>        [th][h3]Metal Gear Solid[/h3][/th]<br>        [th]Status[/th]<br>    [/tr]<br>    [tr]<br>        [td]Solid Snake[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Liquid Snake[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Revolver Ocelot[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Gray Fox[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>[/table]<br><br>[img]https://i.imgur.com/OfcG7is.png[/img]<br>[table]<br>    [tr]<br>        [th][h3]Metal Gear Solid 2[/h3][/th]<br>        [th]Status[/th]<br>    [/tr]<br>    [tr]<br>        [td]Solid Snake[/td]<br>        [td]██████████ 100%[/td]<br>    [/tr]<br>    [tr]<br>        [td][b]Cardboard box!!!!!![/b][/td]<br>        [td]██████████ 100%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Raiden[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Liquid Ocelot[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Solidus Snake[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>   [tr]<br>        [td]Iroquois Plisken ;) [/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>[/table]<br><br>[img]https://i.imgur.com/Icz57Uv.png[/img]<br>[table]<br>    [tr]<br>        [th][h3]Metal Gear Solid 4[/h3][/th]<br>        [th]Status[/th]<br>    [/tr]<br>    [tr]<br>        [td]Old Snake[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Raiden[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Liquid Ocelot[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td][spoiler]Revolver Ocelot[/spoiler][/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>    [tr]<br>        [td]Big Boss[/td]<br>        [td][̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 0%[/td]<br>    [/tr]<br>[/table]<br><br>[h2]Chronological Timeline continues here: [u][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2966522396] Metal Scug Rising [/url][/u][/h2]<br><br><br>[h3]Credit to [b][url=https://www.steamgriddb.com/logo/88705] GabeValentine [/url][/b] for MG2 Sold Snake logo.[/h3]<br><br>[h1]☆ Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2948971756] Dress My Slugcat [/url] mod.[/h1]<br><br><br>[u][h3]Nevil's Dress My Scug mods:[/h3][/u]<br>[img]https://i.imgur.com/5od47WV.gif[/img]<br>[u][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2965959618] Scugs of Sparda [/url][/u]<br>[u][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2966522396] Metal Scug Rising [/url][/u]<br>[u]Metal Scug Solid[/u]<br>[u][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163120140] Scug of War [/url][/u]",
 "thumb": "previews/3149278380.png",
 "url": "https://andrew.fm/rainworld/raindb/Metal_Scug_Solid.zip",
-"video": "https://www.youtube.com/@NevilsicoShard",
+"video": "",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1451
+"order": 1453
 });
 
 Mods.push({
@@ -18837,7 +18863,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sleeplesss_silly_skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1452
+"order": 1454
 });
 
 Mods.push({
@@ -18850,7 +18876,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Zoidberg_Lizors_SFX.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1453
+"order": 1455
 });
 
 Mods.push({
@@ -18862,7 +18888,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pansear_sleep_screens.zip",
 "requirements": "",
 "tags": "",
-"order": 1454
+"order": 1456
 });
 
 Mods.push({
@@ -18875,7 +18901,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugmin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1455
+"order": 1457
 });
 
 Mods.push({
@@ -18888,7 +18914,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/LETHAL_COMPANY_SLUGS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1456
+"order": 1458
 });
 
 Mods.push({
@@ -18900,7 +18926,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Wobbledog_Lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 1457
+"order": 1459
 });
 
 Mods.push({
@@ -18913,7 +18939,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Helper_Mascots.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1458
+"order": 1460
 });
 
 Mods.push({
@@ -18926,7 +18952,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bucket_Cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1459
+"order": 1461
 });
 
 Mods.push({
@@ -18939,7 +18965,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_Snipped_Ear.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1460
+"order": 1462
 });
 
 Mods.push({
@@ -18952,7 +18978,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/628dd3bd0/jcyvykgx-myh9cbri-tq8egrwn-bqiminrm",
 "requirements": "crs",
 "tags": "",
-"order": 1461
+"order": 1463
 });
 
 Mods.push({
@@ -18964,7 +18990,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Squid_BEGONE.zip",
 "requirements": "simplespawnswapper",
 "tags": "Creatures,Game Modes,Campaigns,Game Mechanics",
-"order": 1462
+"order": 1464
 });
 
 Mods.push({
@@ -18977,7 +19003,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tukos_Strange_Forecast.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1463
+"order": 1465
 });
 
 Mods.push({
@@ -18990,7 +19016,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hollow.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1464
+"order": 1466
 });
 
 Mods.push({
@@ -19003,7 +19029,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Team_Rulet_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1465
+"order": 1467
 });
 
 Mods.push({
@@ -19016,7 +19042,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/COMZ.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1466
+"order": 1468
 });
 
 Mods.push({
@@ -19029,7 +19055,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Watermelon_Slugcat_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1467
+"order": 1469
 });
 
 Mods.push({
@@ -19042,7 +19068,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Snailcats_DMS___Grayscale_version_now_included.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1468
+"order": 1470
 });
 
 Mods.push({
@@ -19055,7 +19081,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Maestro_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1469
+"order": 1471
 });
 
 Mods.push({
@@ -19068,7 +19094,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kimono_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1470
+"order": 1472
 });
 
 Mods.push({
@@ -19081,7 +19107,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dawn_Of_The_Red_WIP_COMING_SOON.zip",
 "requirements": "spitanything,lizardcustomizer,simplespawnswapper",
 "tags": "Lizards",
-"order": 1471
+"order": 1473
 });
 
 Mods.push({
@@ -19094,7 +19120,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Palette_Fix.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1472
+"order": 1474
 });
 
 Mods.push({
@@ -19107,7 +19133,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/EVIL_MONK_AU_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1473
+"order": 1475
 });
 
 Mods.push({
@@ -19120,7 +19146,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NotiiCGs_Arenas.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 1474
+"order": 1476
 });
 
 Mods.push({
@@ -19133,7 +19159,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Death_As_A_Lizard.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper",
 "tags": "Creatures",
-"order": 1475
+"order": 1477
 });
 
 Mods.push({
@@ -19146,7 +19172,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/v121_OP_Artificer.zip",
 "requirements": "moreslugcats",
 "tags": "Game Mechanics",
-"order": 1476
+"order": 1478
 });
 
 Mods.push({
@@ -19159,7 +19185,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Pursuer_DMS_Reupload.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1477
+"order": 1479
 });
 
 Mods.push({
@@ -19172,7 +19198,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/v110_OP_Spearmaster.zip",
 "requirements": "moreslugcats",
 "tags": "Game Mechanics",
-"order": 1478
+"order": 1480
 });
 
 Mods.push({
@@ -19185,7 +19211,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Silly_skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1479
+"order": 1481
 });
 
 Mods.push({
@@ -19198,7 +19224,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Legcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1480
+"order": 1482
 });
 
 Mods.push({
@@ -19211,7 +19237,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rus_DatingSim.zip",
 "requirements": "moreslugcats",
 "tags": "Translations",
-"order": 1481
+"order": 1483
 });
 
 Mods.push({
@@ -19224,7 +19250,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Sparkle_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1482
+"order": 1484
 });
 
 Mods.push({
@@ -19238,7 +19264,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCutEUrstL-V4nozIVy09VDg",
 "requirements": "",
 "tags": "Creatures,Game Mechanics,Game Modes",
-"order": 1483
+"order": 1485
 });
 
 Mods.push({
@@ -19251,7 +19277,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/OP_Rivulet.zip",
 "requirements": "moreslugcats",
 "tags": "Game Mechanics",
-"order": 1484
+"order": 1486
 });
 
 Mods.push({
@@ -19264,7 +19290,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Skin_for_The_Nomad_not_Deadlands.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1485
+"order": 1487
 });
 
 Mods.push({
@@ -19277,7 +19303,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Purification_Conduits.zip",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 1486
+"order": 1488
 });
 
 Mods.push({
@@ -19290,7 +19316,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/v102_OP_Saint.zip",
 "requirements": "moreslugcats",
 "tags": "Game Mechanics",
-"order": 1487
+"order": 1489
 });
 
 Mods.push({
@@ -19303,7 +19329,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rocks_instakill_everything.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1488
+"order": 1490
 });
 
 Mods.push({
@@ -19316,7 +19342,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Debug__Input_Log.zip",
 "requirements": "",
 "tags": "Debug",
-"order": 1489
+"order": 1491
 });
 
 Mods.push({
@@ -19330,7 +19356,7 @@ Mods.push({
 "video": "https://www.youtube.com/@FivePuddles",
 "requirements": "onh,bro.mergefix,moreslugcats",
 "tags": "Regions",
-"order": 1490
+"order": 1492
 });
 
 Mods.push({
@@ -19342,7 +19368,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Reborn.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1491
+"order": 1493
 });
 
 Mods.push({
@@ -19355,7 +19381,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Noseless.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1492
+"order": 1494
 });
 
 Mods.push({
@@ -19368,7 +19394,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Devtools_Translation.zip",
 "requirements": "",
 "tags": "",
-"order": 1493
+"order": 1495
 });
 
 Mods.push({
@@ -19381,7 +19407,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sea_critters.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1494
+"order": 1496
 });
 
 Mods.push({
@@ -19394,7 +19420,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Genetic_Slugpups.zip",
 "requirements": "moreslugcats",
 "tags": "Creatures",
-"order": 1495
+"order": 1497
 });
 
 Mods.push({
@@ -19407,7 +19433,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/mango.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1496
+"order": 1498
 });
 
 Mods.push({
@@ -19420,7 +19446,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Smiling_Critters.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1497
+"order": 1499
 });
 
 Mods.push({
@@ -19433,7 +19459,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Industrial_Complex_GONE.zip",
 "requirements": "",
 "tags": "",
-"order": 1498
+"order": 1500
 });
 
 Mods.push({
@@ -19447,7 +19473,7 @@ Mods.push({
 "video": "https://www.youtube.com/@naneyezgani",
 "requirements": "crs",
 "tags": "",
-"order": 1499
+"order": 1501
 });
 
 Mods.push({
@@ -19461,7 +19487,7 @@ Mods.push({
 "video": "https://www.youtube.com/@naneyezgani",
 "requirements": "crs",
 "tags": "",
-"order": 1500
+"order": 1502
 });
 
 Mods.push({
@@ -19474,7 +19500,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/cc805e360/xws9expm-kh8xmzu6-5kuqe45j-wu4yizcp",
 "requirements": "crs",
 "tags": "",
-"order": 1501
+"order": 1503
 });
 
 Mods.push({
@@ -19488,7 +19514,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCh2Uxj3mTb1ytBYMlCJMXAg",
 "requirements": "crs",
 "tags": "",
-"order": 1502
+"order": 1504
 });
 
 Mods.push({
@@ -19502,7 +19528,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCh2Uxj3mTb1ytBYMlCJMXAg",
 "requirements": "crs",
 "tags": "",
-"order": 1503
+"order": 1505
 });
 
 Mods.push({
@@ -19516,7 +19542,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCh2Uxj3mTb1ytBYMlCJMXAg",
 "requirements": "crs",
 "tags": "",
-"order": 1504
+"order": 1506
 });
 
 Mods.push({
@@ -19529,7 +19555,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sky_Tower.zip",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 1505
+"order": 1507
 });
 
 Mods.push({
@@ -19542,7 +19568,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sphynx_Slugcat_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1506
+"order": 1508
 });
 
 Mods.push({
@@ -19555,7 +19581,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/TheFeral.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1507
+"order": 1509
 });
 
 Mods.push({
@@ -19568,7 +19594,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dont_Merge_This.zip",
 "requirements": "",
 "tags": "",
-"order": 1508
+"order": 1510
 });
 
 Mods.push({
@@ -19581,7 +19607,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dinos_Creatures.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper",
 "tags": "",
-"order": 1509
+"order": 1511
 });
 
 Mods.push({
@@ -19594,7 +19620,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fall_Guys_for_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1510
+"order": 1512
 });
 
 Mods.push({
@@ -19606,7 +19632,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Easier_Karma_Gates.zip",
 "requirements": "",
 "tags": "Game Mechanics,Regions",
-"order": 1511
+"order": 1513
 });
 
 Mods.push({
@@ -19618,7 +19644,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Five_Pebbles_74_threat.zip",
 "requirements": "crs",
 "tags": "",
-"order": 1512
+"order": 1514
 });
 
 Mods.push({
@@ -19631,7 +19657,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dinos_Creatures_Downpour.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper,dinosabominations",
 "tags": "",
-"order": 1513
+"order": 1515
 });
 
 Mods.push({
@@ -19645,7 +19671,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCc1x7oHsgwGMefo4zn9ZPfw",
 "requirements": "slime-cubed.slugbase,dressmyslugcat,iteratorKit",
 "tags": "Campaigns,Cosmetics,Custom Slugcat",
-"order": 1514
+"order": 1516
 });
 
 Mods.push({
@@ -19658,7 +19684,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Overseer_Ignorer_Scav_Edition.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 1515
+"order": 1517
 });
 
 Mods.push({
@@ -19670,7 +19696,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Eras_End_Major_Work_In_Progress.zip",
 "requirements": "",
 "tags": "",
-"order": 1516
+"order": 1518
 });
 
 Mods.push({
@@ -19683,7 +19709,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Better_Russian_Translation.zip",
 "requirements": "bro.mergefix,crs",
 "tags": "Translations",
-"order": 1517
+"order": 1519
 });
 
 Mods.push({
@@ -19697,7 +19723,7 @@ Mods.push({
 "video": "https://www.youtube.com/watch?v=U3TykbzU5po",
 "requirements": "crs,regionkit,pom",
 "tags": "Regions",
-"order": 1518
+"order": 1520
 });
 
 Mods.push({
@@ -19710,7 +19736,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Custom_Centipede_Maker.zip",
 "requirements": "fisobs",
 "tags": "Creatures,Dependency",
-"order": 1519
+"order": 1521
 });
 
 Mods.push({
@@ -19723,7 +19749,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Yellow_Gold.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1520
+"order": 1522
 });
 
 Mods.push({
@@ -19736,7 +19762,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Verbalses_50k_Mod.zip",
 "requirements": "",
 "tags": "",
-"order": 1521
+"order": 1523
 });
 
 Mods.push({
@@ -19750,7 +19776,7 @@ Mods.push({
 "video": "https://www.youtube.com/@NevilsicoShard",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1522
+"order": 1524
 });
 
 Mods.push({
@@ -19762,7 +19788,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/lizorslair.zip",
 "requirements": "",
 "tags": "",
-"order": 1523
+"order": 1525
 });
 
 Mods.push({
@@ -19775,7 +19801,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Fallen_skin_mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1524
+"order": 1526
 });
 
 Mods.push({
@@ -19788,7 +19814,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/1eb0d1640/bujv6yvc-5dsn9hrk-dxej5rxf-p6q4xrxm",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1525
+"order": 1527
 });
 
 Mods.push({
@@ -19800,7 +19826,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ATrainLizard_yippee.zip",
 "requirements": "",
 "tags": "",
-"order": 1526
+"order": 1528
 });
 
 Mods.push({
@@ -19813,7 +19839,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cherrys_Funky_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1527
+"order": 1529
 });
 
 Mods.push({
@@ -19826,7 +19852,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Joker_Suit.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1528
+"order": 1530
 });
 
 Mods.push({
@@ -19839,7 +19865,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/STOP_SPITTING.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1529
+"order": 1531
 });
 
 Mods.push({
@@ -19851,7 +19877,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Debug__TAMacro_ALPHA.zip",
 "requirements": "",
 "tags": "Debug",
-"order": 1530
+"order": 1532
 });
 
 Mods.push({
@@ -19864,7 +19890,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gilded_Sanctuary_code_stuff.zip",
 "requirements": "fisobs",
 "tags": "Creatures,Game Mechanics,Cosmetics,Dependency",
-"order": 1531
+"order": 1533
 });
 
 Mods.push({
@@ -19877,7 +19903,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NCRs_In_Stars_And_Time_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1532
+"order": 1534
 });
 
 Mods.push({
@@ -19890,7 +19916,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nightcat_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1533
+"order": 1535
 });
 
 Mods.push({
@@ -19903,7 +19929,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/rollipee.zip",
 "requirements": "lb-fgf-m4r-ik.custom-centis",
 "tags": "Creatures",
-"order": 1534
+"order": 1536
 });
 
 Mods.push({
@@ -19915,7 +19941,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/crack_centipede.zip",
 "requirements": "",
 "tags": "",
-"order": 1535
+"order": 1537
 });
 
 Mods.push({
@@ -19928,7 +19954,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Drain_Mites.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 1536
+"order": 1538
 });
 
 Mods.push({
@@ -19941,7 +19967,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Smiler_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1537
+"order": 1539
 });
 
 Mods.push({
@@ -19954,7 +19980,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Journey_Creature.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 1538
+"order": 1540
 });
 
 Mods.push({
@@ -19967,7 +19993,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Desert_Centipede.zip",
 "requirements": "lb-fgf-m4r-ik.custom-centis,fisobs",
 "tags": "Creatures",
-"order": 1539
+"order": 1541
 });
 
 Mods.push({
@@ -19980,7 +20006,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pats_Lizards_V6.zip",
 "requirements": "lizardcustomizer",
 "tags": "Game Mechanics",
-"order": 1540
+"order": 1542
 });
 
 Mods.push({
@@ -19994,7 +20020,7 @@ Mods.push({
 "video": "http://www.youtube.com/@voidsatas1524",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1541
+"order": 1543
 });
 
 Mods.push({
@@ -20008,7 +20034,7 @@ Mods.push({
 "video": "http://www.youtube.com/@voidsatas1524",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1542
+"order": 1544
 });
 
 Mods.push({
@@ -20021,7 +20047,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Metallic_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1543
+"order": 1545
 });
 
 Mods.push({
@@ -20034,7 +20060,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Journey_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 1544
+"order": 1546
 });
 
 Mods.push({
@@ -20046,7 +20072,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Meaning_of_Life.zip",
 "requirements": "moreslugcats",
 "tags": "Arenas",
-"order": 1545
+"order": 1547
 });
 
 Mods.push({
@@ -20059,7 +20085,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Insolent.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1546
+"order": 1548
 });
 
 Mods.push({
@@ -20072,7 +20098,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Megatron.zip",
 "requirements": "",
 "tags": "",
-"order": 1547
+"order": 1549
 });
 
 Mods.push({
@@ -20085,7 +20111,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Optimus_Prime.zip",
 "requirements": "",
 "tags": "",
-"order": 1548
+"order": 1550
 });
 
 Mods.push({
@@ -20098,7 +20124,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Orion_Pax.zip",
 "requirements": "",
 "tags": "",
-"order": 1549
+"order": 1551
 });
 
 Mods.push({
@@ -20110,7 +20136,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scott_The_Destroyer_Of_Hell.zip",
 "requirements": "",
 "tags": "",
-"order": 1550
+"order": 1552
 });
 
 Mods.push({
@@ -20122,7 +20148,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Grand_Reservoir.zip",
 "requirements": "regionkit,fisobs,crs",
 "tags": "Regions",
-"order": 1551
+"order": 1553
 });
 
 Mods.push({
@@ -20134,7 +20160,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Archipelago_Quadrant_Scugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1552
+"order": 1554
 });
 
 Mods.push({
@@ -20146,7 +20172,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Expanded_Dating_Simulator_Engine.zip",
 "requirements": "moreslugcats",
 "tags": "Content",
-"order": 1553
+"order": 1555
 });
 
 Mods.push({
@@ -20159,7 +20185,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dreams_Discord_Rich_Presence.zip",
 "requirements": "",
 "tags": "",
-"order": 1554
+"order": 1556
 });
 
 Mods.push({
@@ -20172,7 +20198,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Saint_Rain_Timer.zip",
 "requirements": "",
 "tags": "Accessibility,Tools",
-"order": 1555
+"order": 1557
 });
 
 Mods.push({
@@ -20185,7 +20211,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Consistent_Cycles.zip",
 "requirements": "",
 "tags": "",
-"order": 1556
+"order": 1558
 });
 
 Mods.push({
@@ -20198,7 +20224,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rainbow_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1557
+"order": 1559
 });
 
 Mods.push({
@@ -20211,7 +20237,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gourmarce_Catfish.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1558
+"order": 1560
 });
 
 Mods.push({
@@ -20224,7 +20250,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Overgrown_Facility.zip",
 "requirements": "",
 "tags": "",
-"order": 1559
+"order": 1561
 });
 
 Mods.push({
@@ -20237,7 +20263,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Scrunglers.zip",
 "requirements": "lizardcustomizer,simplespawnswapper",
 "tags": "",
-"order": 1560
+"order": 1562
 });
 
 Mods.push({
@@ -20250,7 +20276,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/yeek_cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1561
+"order": 1563
 });
 
 Mods.push({
@@ -20263,7 +20289,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Baby_Lizards.zip",
 "requirements": "moreslugcats,lizardcustomizer",
 "tags": "Lizards,Creatures",
-"order": 1562
+"order": 1564
 });
 
 Mods.push({
@@ -20276,7 +20302,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Checkpointer.zip",
 "requirements": "",
 "tags": "Debug",
-"order": 1563
+"order": 1565
 });
 
 Mods.push({
@@ -20289,7 +20315,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rotund_Red_centipede.zip",
 "requirements": "fisobs,lb-fgf-m4r-ik.custom-centis",
 "tags": "",
-"order": 1564
+"order": 1566
 });
 
 Mods.push({
@@ -20302,7 +20328,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_In_Stars_and_Time_skin_pack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1565
+"order": 1567
 });
 
 Mods.push({
@@ -20315,7 +20341,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CRT_World.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1566
+"order": 1568
 });
 
 Mods.push({
@@ -20328,7 +20354,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Maggies_Managery_of_Modded_Mobs_now_with_Luciles_Lusciously_LongLegged_Lanky_Lovelies.zip",
 "requirements": "lizardcustomizer,lb-fgf-m4r-ik.custom-centis,spitanything",
 "tags": "Creatures",
-"order": 1567
+"order": 1569
 });
 
 Mods.push({
@@ -20341,7 +20367,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Videocat.zip",
 "requirements": "dressmyslugcat",
 "tags": "",
-"order": 1568
+"order": 1570
 });
 
 Mods.push({
@@ -20353,7 +20379,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/rain_world_but_everything_is_dead.zip",
 "requirements": "rwremix",
 "tags": "",
-"order": 1569
+"order": 1571
 });
 
 Mods.push({
@@ -20366,7 +20392,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Multiplayer_Menu_Label_Fix.zip",
 "requirements": "",
 "tags": "",
-"order": 1570
+"order": 1572
 });
 
 Mods.push({
@@ -20379,7 +20405,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fortnite_The_Forbidden_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1571
+"order": 1573
 });
 
 Mods.push({
@@ -20392,7 +20418,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/znunneys_arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 1572
+"order": 1574
 });
 
 Mods.push({
@@ -20405,7 +20431,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/pinks_slug_designs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1573
+"order": 1575
 });
 
 Mods.push({
@@ -20418,7 +20444,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_Vinestaff_Scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1574
+"order": 1576
 });
 
 Mods.push({
@@ -20431,7 +20457,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Paragon_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1575
+"order": 1577
 });
 
 Mods.push({
@@ -20444,7 +20470,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/znunneys_arenas_LEGACY.zip",
 "requirements": "",
 "tags": "",
-"order": 1576
+"order": 1578
 });
 
 Mods.push({
@@ -20457,7 +20483,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Word_World.zip",
 "requirements": "",
 "tags": "Creatures,Items",
-"order": 1577
+"order": 1579
 });
 
 Mods.push({
@@ -20470,7 +20496,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Megatronus.zip",
 "requirements": "",
 "tags": "",
-"order": 1578
+"order": 1580
 });
 
 Mods.push({
@@ -20483,7 +20509,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCM4gWWoaEo3agMDUfwubsKg",
 "requirements": "",
 "tags": "Dependency",
-"order": 1579
+"order": 1581
 });
 
 Mods.push({
@@ -20496,7 +20522,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_Reloader.zip",
 "requirements": "",
 "tags": "Code,Reload,Hot Reload,Live Reload",
-"order": 1580
+"order": 1582
 });
 
 Mods.push({
@@ -20509,7 +20535,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Puppy_Lizard.zip",
 "requirements": "lizardcustomizer,simplespawnswapper",
 "tags": "",
-"order": 1581
+"order": 1583
 });
 
 Mods.push({
@@ -20522,7 +20548,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kaiju_Centipede.zip",
 "requirements": "lb-fgf-m4r-ik.custom-centis,fisobs",
 "tags": "",
-"order": 1582
+"order": 1584
 });
 
 Mods.push({
@@ -20535,7 +20561,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Vanilla_Intros.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1583
+"order": 1585
 });
 
 Mods.push({
@@ -20548,7 +20574,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Goober_Lizard.zip",
 "requirements": "lizardcustomizer,simplespawnswapper",
 "tags": "Creatures",
-"order": 1584
+"order": 1586
 });
 
 Mods.push({
@@ -20561,7 +20587,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gravity_Coil_Cyans.zip",
 "requirements": "",
 "tags": "",
-"order": 1585
+"order": 1587
 });
 
 Mods.push({
@@ -20574,7 +20600,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Starfallen__DMS_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1586
+"order": 1588
 });
 
 Mods.push({
@@ -20587,7 +20613,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Save_File_Names.zip",
 "requirements": "",
 "tags": "",
-"order": 1587
+"order": 1589
 });
 
 Mods.push({
@@ -20600,7 +20626,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/LancerLizardThe_Long_Leg_Hunter香菇猎手.zip",
 "requirements": "lizardcustomizer,simplespawnswapper",
 "tags": "",
-"order": 1588
+"order": 1590
 });
 
 Mods.push({
@@ -20613,7 +20639,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Heavy_TF2_Voices_and_Noises.zip",
 "requirements": "",
 "tags": "",
-"order": 1589
+"order": 1591
 });
 
 Mods.push({
@@ -20626,7 +20652,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Oracle_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1590
+"order": 1592
 });
 
 Mods.push({
@@ -20634,12 +20660,12 @@ Mods.push({
 "id": "You're.Dead.Expansion",
 "workshop_id": "3175760486",
 "author": "JeffTheJingleBob & IdkBoutIt",
-"desc": "[h3] Hey, can your mod do this?<br>*expands*<br>Mmm, that's very interesting...<br><br>The 'You're Dead Expansion' mod is an expansion and separate mod to the 'You're Dead' mod that includes over 40 sounds from asdfmovie into the game. [/h3]<br><br>[h2] [b] Credits: [/b] [/h2]<br>Artwork by IdkBoutIt<br>asdfmovie by TomSka: https://www.youtube.com/playlist?list=PL3A5849BDE0581B19<br><br>[h2] [b] Try on the asdfscug: [/b] [/h2]<br>https://steamcommunity.com/sharedfiles/filedetails/?id=3175762351<br><br>[h3] Please note that neither of us are professionals so if you have any problems please let us know as this is the best way to improve our mods. [/h3]",
+"desc": "[h3] Hey, can your mod do this?<br>*expands*<br>Mmm, that's very interesting...<br><br>The 'You're Dead Expansion' mod is an expansion and separate mod to the 'You're Dead' mod that includes over 80 sounds (87 to be exact) from asdfmovie into the game. [/h3]<br><br>[h2] [b] Credits: [/b] [/h2]<br>Artwork by IdkBoutIt<br>asdfmovie by TomSka: <br>https://www.youtube.com/playlist?list=PL3A5849BDE0581B19<br><br>[h2] [b] Try on the asdfscug: [/b] [/h2]<br>https://steamcommunity.com/sharedfiles/filedetails/?id=3175762351<br><br>[h3] Please note that neither of us are professionals, but if you have any problems please let us know as this is the best way to improve our mods. [/h3]",
 "thumb": "previews/3175760486.png",
 "url": "https://andrew.fm/rainworld/raindb/Youre_Dead_Expansion.zip",
 "requirements": "You're.Dead",
 "tags": "",
-"order": 1591
+"order": 1593
 });
 
 Mods.push({
@@ -20647,12 +20673,12 @@ Mods.push({
 "id": "asdfscug",
 "workshop_id": "3175762351",
 "author": "JeffTheJingleBob & IdkBoutIt",
-"desc": "[h3] Alan, are you a asdfscug?<br>What? No.<br>yah me neither you guys want to go murder?<br><br>Have [i] you [/i] ever wanted to dress up as an asdfscug? No? oh... ok... [/h3]<br><br>[h2] [b] Credits: [/b] [/h2]<br>asdfmovie by TomSka: https://www.youtube.com/playlist?list=PL3A5849BDE0581B19 <br>DMS by Vigaro, forthbridge, Frithuritaks, WillowWispy, and Teno Al Mehri [b] [i] (also it's required)[/i][/b]: https://steamcommunity.com/workshop/filedetails/?id=2948971756<br><br>[h2] [b] Try out the 'You're Dead' mod: [/b] [/h2]<br>https://steamcommunity.com/sharedfiles/filedetails/?id=3118547211<br>[h2] [b] And the expansion: [/b] [/h2]<br>https://steamcommunity.com/sharedfiles/filedetails/?id=3175760486<br><br>[h3] Please note that neither of us are professionals so if you have any problems please let us know as this is the best way to improve our mods. [/h3]",
+"desc": "[h3] Alan, are you a asdfscug?<br>What? No.<br>yah me neither you guys want to go murder?<br><br>Have [i] you [/i] ever wanted to dress up as an asdfscug? No? oh... ok... [/h3]<br><br>[h2] [b] Credits: [/b] [/h2]<br>asdfmovie by TomSka: https://www.youtube.com/playlist?list=PL3A5849BDE0581B19 <br>DMS by Vigaro, forthbridge, Frithuritaks, WillowWispy, and Teno Al Mehri [b] [i] (also it's required)[/i][/b]: https://steamcommunity.com/workshop/filedetails/?id=2948971756<br><br>[h2] [b] Try out the 'You're Dead' mod: [/b] [/h2]<br>https://steamcommunity.com/sharedfiles/filedetails/?id=3118547211<br>[h2] [b] And it's expansion too: [/b] [/h2]<br>https://steamcommunity.com/sharedfiles/filedetails/?id=3175760486<br><br>In the mod's files there is a .zip with an incomplete asdf(mine)scug (suggested by imel.john). I decided to scrap this because I found it difficult to work with. If anyone wants to go through it, fix it up, and upload it to steam workshop go ahead, just credit TomSka as the creator of asdfmovie, and me as the sprite artist (assuming you're editing the version I made, if what you make is completely original you don't need to credit me).<br><br>[h3] Please note that I'm not a professional, but if you have any problems please let me know as this is the best way to improve these mods. [/h3]",
 "thumb": "previews/3175762351.png",
 "url": "https://andrew.fm/rainworld/raindb/asdfscug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1592
+"order": 1594
 });
 
 Mods.push({
@@ -20665,7 +20691,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Vee_here.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1593
+"order": 1595
 });
 
 Mods.push({
@@ -20678,7 +20704,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lithiums_Minimalistic_Skins_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1594
+"order": 1596
 });
 
 Mods.push({
@@ -20691,7 +20717,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sans_shortcuts.zip",
 "requirements": "",
 "tags": "",
-"order": 1595
+"order": 1597
 });
 
 Mods.push({
@@ -20704,7 +20730,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/windy_and_ena_DMS_skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1596
+"order": 1598
 });
 
 Mods.push({
@@ -20717,7 +20743,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ShorelineMoon_Expanded_again.zip",
 "requirements": "moreslugcats,crs,bro.mergefix,regionkit",
 "tags": "Regions",
-"order": 1597
+"order": 1599
 });
 
 Mods.push({
@@ -20730,7 +20756,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scaggy_Town.zip",
 "requirements": "pom,crs,regionkit",
 "tags": "",
-"order": 1598
+"order": 1600
 });
 
 Mods.push({
@@ -20743,7 +20769,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Train_Fix.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "",
-"order": 1599
+"order": 1601
 });
 
 Mods.push({
@@ -20755,7 +20781,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/simple_Outlaw_DMS_skin.zip",
 "requirements": "",
 "tags": "",
-"order": 1600
+"order": 1602
 });
 
 Mods.push({
@@ -20767,7 +20793,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lizards_from_Further_Out.zip",
 "requirements": "",
 "tags": "",
-"order": 1601
+"order": 1603
 });
 
 Mods.push({
@@ -20779,7 +20805,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Expedition_Region_Support_BETA.zip",
 "requirements": "expedition",
 "tags": "Expedition,Gameplay,CRS,Custom",
-"order": 1602
+"order": 1604
 });
 
 Mods.push({
@@ -20792,7 +20818,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Artillery_Lizards.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper",
 "tags": "Creatures",
-"order": 1603
+"order": 1605
 });
 
 Mods.push({
@@ -20805,7 +20831,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Splat_Cat.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1604
+"order": 1606
 });
 
 Mods.push({
@@ -20818,7 +20844,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Silvername_Dropwig.zip",
 "requirements": "",
 "tags": "",
-"order": 1605
+"order": 1607
 });
 
 Mods.push({
@@ -20831,7 +20857,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Crippled_World.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1606
+"order": 1608
 });
 
 Mods.push({
@@ -20844,7 +20870,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_gang.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1607
+"order": 1609
 });
 
 Mods.push({
@@ -20857,7 +20883,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/My_Silly_Arenas.zip",
 "requirements": "moreslugcats",
 "tags": "Arenas",
-"order": 1608
+"order": 1610
 });
 
 Mods.push({
@@ -20869,7 +20895,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Family_Road_Trip.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1609
+"order": 1611
 });
 
 Mods.push({
@@ -20882,7 +20908,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Silly_Names.zip",
 "requirements": "",
 "tags": "",
-"order": 1610
+"order": 1612
 });
 
 Mods.push({
@@ -20895,7 +20921,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_Away.zip",
 "requirements": "improved-input-config",
 "tags": "Game Mechanics,Accessibility,Tools",
-"order": 1611
+"order": 1613
 });
 
 Mods.push({
@@ -20907,7 +20933,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Stormchaser_Dress_my_slugcat_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1612
+"order": 1614
 });
 
 Mods.push({
@@ -20919,7 +20945,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Aranea_Dress_my_slugcat_DMS.zip",
 "requirements": "",
 "tags": "",
-"order": 1613
+"order": 1615
 });
 
 Mods.push({
@@ -20932,7 +20958,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Teavonn_PVP_arena_pack.zip",
 "requirements": "regionkit",
 "tags": "Arenas",
-"order": 1614
+"order": 1616
 });
 
 Mods.push({
@@ -20944,7 +20970,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Schas_Catbred_Skin_Pack__3_Skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1615
+"order": 1617
 });
 
 Mods.push({
@@ -20957,7 +20983,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/1f8bfb100/myuwzc2f-nwxwhi37-ek9iya8q-a5k8k8dh",
 "requirements": "emgtx,moreslugcats,crs",
 "tags": "Campaigns,Regions",
-"order": 1616
+"order": 1618
 });
 
 Mods.push({
@@ -20970,7 +20996,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cannibal_skin_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1617
+"order": 1619
 });
 
 Mods.push({
@@ -20983,7 +21009,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kézia_Slugcat_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1618
+"order": 1620
 });
 
 Mods.push({
@@ -20996,7 +21022,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Stick_World.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1619
+"order": 1621
 });
 
 Mods.push({
@@ -21009,7 +21035,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Forgotten.zip",
 "requirements": "",
 "tags": "",
-"order": 1620
+"order": 1622
 });
 
 Mods.push({
@@ -21022,7 +21048,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Evangelion_Death_Sound.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1621
+"order": 1623
 });
 
 Mods.push({
@@ -21035,7 +21061,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Alchemist_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1622
+"order": 1624
 });
 
 Mods.push({
@@ -21048,7 +21074,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NO_TinnitusRinging_noise_v1907b.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 1623
+"order": 1625
 });
 
 Mods.push({
@@ -21061,7 +21087,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/LOTGWalk.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1624
+"order": 1626
 });
 
 Mods.push({
@@ -21074,7 +21100,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Quinns_Slugcat_Skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1625
+"order": 1627
 });
 
 Mods.push({
@@ -21087,7 +21113,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Korean_Translation_Fix.zip",
 "requirements": "",
 "tags": "Translations",
-"order": 1626
+"order": 1628
 });
 
 Mods.push({
@@ -21100,7 +21126,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_BeebcatCOSMETIC.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1627
+"order": 1629
 });
 
 Mods.push({
@@ -21113,7 +21139,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Better_Aerie.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1628
+"order": 1630
 });
 
 Mods.push({
@@ -21126,7 +21152,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Conditional_link_from_PA_to_LC.zip",
 "requirements": "moreslugcats,pilgrims_ascent",
 "tags": "Regions",
-"order": 1629
+"order": 1631
 });
 
 Mods.push({
@@ -21139,7 +21165,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pehox_Face.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1630
+"order": 1632
 });
 
 Mods.push({
@@ -21152,7 +21178,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ace_Cosmetics.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1631
+"order": 1633
 });
 
 Mods.push({
@@ -21165,7 +21191,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Log_Switch.zip",
 "requirements": "",
 "tags": "",
-"order": 1632
+"order": 1634
 });
 
 Mods.push({
@@ -21178,7 +21204,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fifteen_Crosses.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1633
+"order": 1635
 });
 
 Mods.push({
@@ -21190,7 +21216,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shrimp_Lizard.zip",
 "requirements": "lizardcustomizer",
 "tags": "",
-"order": 1634
+"order": 1636
 });
 
 Mods.push({
@@ -21203,7 +21229,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/TITC_Metropolis_Threat_Music_Consistent_Ver.zip",
 "requirements": "crs,moreslugcats,rwremix",
 "tags": "Regions,Cosmetics",
-"order": 1635
+"order": 1637
 });
 
 Mods.push({
@@ -21216,7 +21242,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/e6adea290/2seauuh3-crf2rd7w-3gdzdh66-cgrbyhkr",
 "requirements": "crs,moreslugcats,rwremix",
 "tags": "Regions,Cosmetics",
-"order": 1636
+"order": 1638
 });
 
 Mods.push({
@@ -21229,7 +21255,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Karma_Bong_Sound.zip",
 "requirements": "",
 "tags": "",
-"order": 1637
+"order": 1639
 });
 
 Mods.push({
@@ -21237,12 +21263,12 @@ Mods.push({
 "id": "dissonified.amazingskins",
 "workshop_id": "3195196641",
 "author": "Dissonified",
-"desc": "VERSION 2 IS OUT!<br><br>This is your favorite mod now!<br>It includes 10 new Slugcat skins, renamed-regions, and new menu art!<br>Full list of skins are<br>- Noodle (survivor)<br>- Morlk (Monk)<br>- Promo Art Hunter (Hunter)<br>- Nullcat (Nightcat)<br>- Rot hunter (Hunter)<br>- Obese (Gourmand)<br>- Buffmand (Gourmand)<br>- Frillulet (Rivulet)<br>- PRO GAMER INV (Inv/Enot/Sofanthiel)<br><br>The thumbnail/Moon dream art was made by @SPEAR_MASTERZ on Twitter<br>All the skins were made by me<br>",
+"desc": "Version 2.5 is out? <br>Removed the changed region names, and altered art, enjoy!<br><br>It includes 10 new Slugcat skins<br>Full list of skins are<br>- Noodle (survivor)<br>- Morlk (Monk)<br>- Promo Art Hunter (Hunter)<br>- Nullcat (Nightcat)<br>- Rot hunter (Hunter)<br>- Obese (Gourmand)<br>- Buffmand (Gourmand)<br>- Frillulet (Rivulet)<br>- PRO GAMER INV (Inv/Enot/Sofanthiel)<br><br>The thumbnail art was made by @SPEAR_MASTERZ on Twitter<br>All the skins were made by me",
 "thumb": "previews/3195196641.png",
 "url": "https://andrew.fm/rainworld/raindb/best_dms_skins_ever.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1638
+"order": 1640
 });
 
 Mods.push({
@@ -21255,7 +21281,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugpup_Foodbar_Restorer.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1639
+"order": 1641
 });
 
 Mods.push({
@@ -21268,7 +21294,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Precipice_Leap.zip",
 "requirements": "moreslugcats,regionkit",
 "tags": "",
-"order": 1640
+"order": 1642
 });
 
 Mods.push({
@@ -21281,7 +21307,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bap_mm_da_da_Singularity.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1641
+"order": 1643
 });
 
 Mods.push({
@@ -21294,7 +21320,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/New_Arena_All_Downpour_Region.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1642
+"order": 1644
 });
 
 Mods.push({
@@ -21307,7 +21333,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Marketable_Plushies_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1643
+"order": 1645
 });
 
 Mods.push({
@@ -21320,7 +21346,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_Batfly_Autograb.zip",
 "requirements": "",
 "tags": "Creatures,Accessibility",
-"order": 1644
+"order": 1646
 });
 
 Mods.push({
@@ -21333,7 +21359,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Amiis_SlugCats.zip",
 "requirements": "dressmyslugcat,moreslugcats",
 "tags": "Cosmetics",
-"order": 1645
+"order": 1647
 });
 
 Mods.push({
@@ -21345,7 +21371,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SCAV_ARENA.zip",
 "requirements": "",
 "tags": "",
-"order": 1646
+"order": 1648
 });
 
 Mods.push({
@@ -21357,7 +21383,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SCAV_ARENA.zip",
 "requirements": "",
 "tags": "",
-"order": 1647
+"order": 1649
 });
 
 Mods.push({
@@ -21370,7 +21396,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/MarshadowSlugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1648
+"order": 1650
 });
 
 Mods.push({
@@ -21383,7 +21409,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Collector_DMS_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1649
+"order": 1651
 });
 
 Mods.push({
@@ -21396,7 +21422,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kit_Face_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1650
+"order": 1652
 });
 
 Mods.push({
@@ -21409,7 +21435,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Magma_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1651
+"order": 1653
 });
 
 Mods.push({
@@ -21422,7 +21448,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Do_Not_Deafen.zip",
 "requirements": "",
 "tags": "",
-"order": 1652
+"order": 1654
 });
 
 Mods.push({
@@ -21435,7 +21461,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Vulture_Master.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1653
+"order": 1655
 });
 
 Mods.push({
@@ -21448,7 +21474,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Goblinos_Chaotic_Lizards_and_centis_Vol_2.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper",
 "tags": "Creatures",
-"order": 1654
+"order": 1656
 });
 
 Mods.push({
@@ -21461,7 +21487,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Cloaked.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,dressmyslugcat",
 "tags": "Custom Slugcat",
-"order": 1655
+"order": 1657
 });
 
 Mods.push({
@@ -21474,7 +21500,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Alliums_Arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 1656
+"order": 1658
 });
 
 Mods.push({
@@ -21487,7 +21513,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/reaccessible.zip",
 "requirements": "",
 "tags": "",
-"order": 1657
+"order": 1659
 });
 
 Mods.push({
@@ -21495,12 +21521,12 @@ Mods.push({
 "id": "ap.qwertzremix",
 "workshop_id": "3202883391",
 "author": "Qwertz, ZatchyBeeps, ammarPC",
-"desc": "This mod changes some soundtracks of the game to the remix version.<br>---------------------------------------------------------------------<br>Changed soundtracks:<br>Sundown (Main menu soundtrack)<br>Shoreline threat theme<br>Chimney Canopy threat theme<br>Sky Islands threat theme<br>Digital Sundown (Moondown)<br>Reflection of the Moon<br>Random Fate<br>Random Gods<br>Deep Ghosts<br>Deep Light<br>The Cycle (Does not work for the final room)<br>Reclaiming Entropy<br>Hibernation screen soundtrack (Sleep Screen Loop)<br>---------------------------------------------------------------------<br>All music made by Qwertz<br>Shoreline Threat Remix link: https://www.youtube.com/watch?v=vTDtYVg6_Rs<br>Kayava Remix link: https://www.youtube.com/watch?v=eIlimp3_D5g<br>Chimney Canopy Remix link: https://www.youtube.com/watch?v=e3Elf8R8kGk<br>Sundown Remix: https://www.youtube.com/watch?v=BMNBsOgJ0fU<br>---------------------------------------------------------------------<br>Use Custom Region Support with this mod!",
+"desc": "This mod changes some soundtracks of the game to the remix version.<br>---------------------------------------------------------------------<br>Changed soundtracks:<br>Sundown (Main menu soundtrack)<br>Shoreline threat theme<br>Chimney Canopy threat theme<br>Sky Islands threat theme<br>Rubicon threat theme<br>Digital Sundown (Moondown)<br>Reflection of the Moon<br>Random Fate<br>Random Gods<br>Deep Ghosts<br>Deep Light<br>The Cycle<br>Reclaiming Entropy<br>Hibernation screen soundtrack (Sleep Screen Loop)<br>---------------------------------------------------------------------<br>All music made by Qwertz<br>Shoreline Threat Remix link: https://www.youtube.com/watch?v=vTDtYVg6_Rs<br>Kayava Remix link: https://www.youtube.com/watch?v=eIlimp3_D5g<br>Chimney Canopy Remix link: https://www.youtube.com/watch?v=e3Elf8R8kGk<br>Sundown Remix: https://www.youtube.com/watch?v=BMNBsOgJ0fU<br>---------------------------------------------------------------------<br>Use Custom Region Support with this mod!",
 "thumb": "previews/3202883391.png",
 "url": "https://andrew.fm/rainworld/raindb/Qwertz_Remix.zip",
 "requirements": "crs,moreslugcats",
 "tags": "Cosmetics",
-"order": 1658
+"order": 1660
 });
 
 Mods.push({
@@ -21513,7 +21539,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scroungers.zip",
 "requirements": "fisobs,moreslugcats",
 "tags": "",
-"order": 1659
+"order": 1661
 });
 
 Mods.push({
@@ -21525,7 +21551,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Outer_Expanse_Gate_Unlock_for_slugbase_slugs.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Regions,Campaigns,Game Mechanics",
-"order": 1660
+"order": 1662
 });
 
 Mods.push({
@@ -21538,7 +21564,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scug_Kitchen.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1661
+"order": 1663
 });
 
 Mods.push({
@@ -21551,7 +21577,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Crystal_Cave.zip",
 "requirements": "crs,regionkit,pom",
 "tags": "Regions",
-"order": 1662
+"order": 1664
 });
 
 Mods.push({
@@ -21564,7 +21590,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Promoart_Nightcat_Cosmetic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1663
+"order": 1665
 });
 
 Mods.push({
@@ -21577,7 +21603,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DLMO_Scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1664
+"order": 1666
 });
 
 Mods.push({
@@ -21590,7 +21616,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/New_Arena_All_Downpour_Region.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1665
+"order": 1667
 });
 
 Mods.push({
@@ -21603,7 +21629,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ice_Creams_Scuggies.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1666
+"order": 1668
 });
 
 Mods.push({
@@ -21616,7 +21642,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Milky_Way_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1667
+"order": 1669
 });
 
 Mods.push({
@@ -21629,7 +21655,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Noodle_Eater.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 1668
+"order": 1670
 });
 
 Mods.push({
@@ -21642,7 +21668,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Minigun.zip",
 "requirements": "fisobs,Dino.DinoLib",
 "tags": "Game Mechanics,Items",
-"order": 1669
+"order": 1671
 });
 
 Mods.push({
@@ -21654,7 +21680,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_WilloWisp.zip",
 "requirements": "",
 "tags": "",
-"order": 1670
+"order": 1672
 });
 
 Mods.push({
@@ -21666,7 +21692,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Save_Manager.zip",
 "requirements": "",
 "tags": "Saving,Backups,utility,Backwards Compatibility,Tools",
-"order": 1671
+"order": 1673
 });
 
 Mods.push({
@@ -21679,7 +21705,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Poles_Or_Plants.zip",
 "requirements": "",
 "tags": "",
-"order": 1672
+"order": 1674
 });
 
 Mods.push({
@@ -21692,7 +21718,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ice_Creams_Abominations.zip",
 "requirements": "fisobs,simplespawnswapper,lb-fgf-m4r-ik.custom-centis,lizardcustomizer,spitanything",
 "tags": "Creatures",
-"order": 1673
+"order": 1675
 });
 
 Mods.push({
@@ -21705,7 +21731,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Jorney.zip",
 "requirements": "slime-cubed.slugbase,crs,Cute_Fatalis.RegionNameFix",
 "tags": "",
-"order": 1674
+"order": 1676
 });
 
 Mods.push({
@@ -21718,7 +21744,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sickness_Mode.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1675
+"order": 1677
 });
 
 Mods.push({
@@ -21731,7 +21757,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Courage_the_Cowardly_Mouse.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 1676
+"order": 1678
 });
 
 Mods.push({
@@ -21744,7 +21770,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Scugrunner.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1677
+"order": 1679
 });
 
 Mods.push({
@@ -21757,7 +21783,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dry_Shoreline.zip",
 "requirements": "regionkit",
 "tags": "",
-"order": 1678
+"order": 1680
 });
 
 Mods.push({
@@ -21770,7 +21796,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/scribblecat1_dms_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1679
+"order": 1681
 });
 
 Mods.push({
@@ -21783,7 +21809,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Slugcat_of_All_Time.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1680
+"order": 1682
 });
 
 Mods.push({
@@ -21796,7 +21822,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Raiden_Mark.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1681
+"order": 1683
 });
 
 Mods.push({
@@ -21809,7 +21835,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Crazy_Room.zip",
 "requirements": "regionkit",
 "tags": "",
-"order": 1682
+"order": 1684
 });
 
 Mods.push({
@@ -21822,7 +21848,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shmoovican_but_without_glide.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1683
+"order": 1685
 });
 
 Mods.push({
@@ -21835,7 +21861,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Silly_Slugcat_Soundpack.zip",
 "requirements": "",
 "tags": "",
-"order": 1684
+"order": 1686
 });
 
 Mods.push({
@@ -21848,7 +21874,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lizard_Mod_Wing_Lizard_Pole_Lizard_Apex_Red.zip",
 "requirements": "lizardcustomizer,spitanything",
 "tags": "Creatures",
-"order": 1685
+"order": 1687
 });
 
 Mods.push({
@@ -21861,7 +21887,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bola_do_Fogo_random_sounds.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1686
+"order": 1688
 });
 
 Mods.push({
@@ -21874,7 +21900,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nightcat_Dating_Simulator.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1687
+"order": 1689
 });
 
 Mods.push({
@@ -21887,7 +21913,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Shaded_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1688
+"order": 1690
 });
 
 Mods.push({
@@ -21900,7 +21926,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SPOILERS__Saint_Attunement_Skins.zip",
 "requirements": "dressmyslugcat,moreslugcats",
 "tags": "Cosmetics",
-"order": 1689
+"order": 1691
 });
 
 Mods.push({
@@ -21913,7 +21939,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spearslug.zip",
 "requirements": "slime-cubed.slugbase,improved-input-config",
 "tags": "Custom Slugcat,Game Mechanics,Campaigns",
-"order": 1690
+"order": 1692
 });
 
 Mods.push({
@@ -21927,7 +21953,7 @@ Mods.push({
 "video": "https://www.youtube.com/watch?v=FFM2nBUKB2M",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1691
+"order": 1693
 });
 
 Mods.push({
@@ -21939,7 +21965,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Twisting_Snake_Lizard.zip",
 "requirements": "lizardcustomizer",
 "tags": "Creatures",
-"order": 1692
+"order": 1694
 });
 
 Mods.push({
@@ -21952,7 +21978,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ScugLander.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1693
+"order": 1695
 });
 
 Mods.push({
@@ -21965,7 +21991,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CRS_Mod_Text_Decryption.zip",
 "requirements": "crs",
 "tags": "",
-"order": 1694
+"order": 1696
 });
 
 Mods.push({
@@ -21978,7 +22004,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nabe0s_slugcat_oc_pack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1695
+"order": 1697
 });
 
 Mods.push({
@@ -21991,7 +22017,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Train_Lizards_Reworked.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 1696
+"order": 1698
 });
 
 Mods.push({
@@ -22004,7 +22030,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_BudGerminationWIP.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,nutils,fisobs,regionkit",
 "tags": "Campaigns,Custom Slugcat,Game Mechanics,Creatures",
-"order": 1697
+"order": 1699
 });
 
 Mods.push({
@@ -22017,7 +22043,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Witch_Inv.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1698
+"order": 1700
 });
 
 Mods.push({
@@ -22030,7 +22056,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/OSHA_Compliant_Shelters_Fixed.zip",
 "requirements": "",
 "tags": "Creatures,Game Mechanics,Items,Accessibility",
-"order": 1699
+"order": 1701
 });
 
 Mods.push({
@@ -22043,7 +22069,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/QuirrelcatWIP.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats",
 "tags": "Custom Slugcat,Campaigns",
-"order": 1700
+"order": 1702
 });
 
 Mods.push({
@@ -22056,7 +22082,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/UTurn_Timer_Assist.zip",
 "requirements": "",
 "tags": "",
-"order": 1701
+"order": 1703
 });
 
 Mods.push({
@@ -22069,7 +22095,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rainforest_WIP.zip",
 "requirements": "regionkit,moreslugcats,crs",
 "tags": "Regions",
-"order": 1702
+"order": 1704
 });
 
 Mods.push({
@@ -22082,7 +22108,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nighty.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1703
+"order": 1705
 });
 
 Mods.push({
@@ -22095,7 +22121,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mini_Leviathan.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 1704
+"order": 1706
 });
 
 Mods.push({
@@ -22108,7 +22134,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Exploding_Bees.zip",
 "requirements": "",
 "tags": "",
-"order": 1705
+"order": 1707
 });
 
 Mods.push({
@@ -22121,7 +22147,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Midnight_Meadows.zip",
 "requirements": "pom,crs,regionkit",
 "tags": "",
-"order": 1706
+"order": 1708
 });
 
 Mods.push({
@@ -22134,7 +22160,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/0afaea450/dw3x9j4s-5bbnqtvg-fg9f7mem-rhgbvsqe",
 "requirements": "crs,regionkit,fisobs",
 "tags": "Regions",
-"order": 1707
+"order": 1709
 });
 
 Mods.push({
@@ -22147,7 +22173,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/pansears_lil_scug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1708
+"order": 1710
 });
 
 Mods.push({
@@ -22155,12 +22181,12 @@ Mods.push({
 "id": "reclaimingentropy",
 "workshop_id": "3215860805",
 "author": "Parageist, Jennifer",
-"desc": "WORK IN PROGRESS! - CURRENTLY ONLY FIVE OUT OF THE 11 REGIONS ARE PLAYABLE! (Sunlit Alleyways, Withstanding Factory, Pipegrave, Aquifer Tunnels, and Smokestack Treetop)<br>Long after the reign of random gods, new life breaks through the snow and the cycle continues.<br>VERSION HISTORY:<br>-v0.1 (4/7/24) - Added WT (Withstanding Factory). I still need to fix the music bugs and make proper region art but besides that it should be fully playable!<br>-v0.2 (4/10/24) - Added SO (Sunlit Alleyways) and a placeholder scug that spawns there named The Matriarch. WARNING: I added the safari unlock for both WT and SO but after collecting it and going to the safari tab the game freezes, so try to avoid collecting those for now!!! The proper region art for SO isn't finished yet either.<br>-v0.3 (4/15/24) - Added PY (Pipegrave), fixed a few errors with previous regions. Dev team has gotten a lot bigger since last time!<br>-v0.4 (5/26/2024) - Fixed some issues, added AQ and TK, along with some new songs by NinjaKittens and LolaTheLoach.<br>NEXT ON TO-DO LIST:<br>-Finish region art and threat themes for the regions so far<br>-Finish WD and RB<br>ROADMAP:<br>-Sunlit Alleyways (future SU) - 99% complete<br>-Withstanding Factory (future HI) - 99% complete<br>-The Undergrowth (future UG) - 20% complete<br>-Smokestack Treetop (future CC) - 99% complete<br>-Gloomy Marshland (future GW) - 30% complete<br>-Pipegrave (future VS) - 99% complete<br>-Mountains Abound (future CL) - 50% complete<br>-Nascent Woods (future LF) - 40% complete<br>-Aquifer Tunnels (future SB) - 99% complete<br>-Rusted Basin (future SL) - 90% complete<br>-Fading Moonlight (future MS) - 60% complete<br>Custom slugcat and campaign? Maybe, I have some concepts planned but I don't have much coding knowledge.<br>Custom creatures? Same with the custom story, it's currently just a maybe.<br>CREDITS:<br>-Main Concepts and project lead by Parageist<br>-Mod Setup Help by Jennifer<br>-Original Mod Description by Jennifer<br>-Mountains Abound Ledditting Help by Jennifer<br>-Main Level Design/ledditting by Parageist<br>-Writing by Parageist<br>-GM level design/ledditting by Foto and Parageist<br>-WD level design/ledditting by Echo, Webber and Parageist<br>-FU level design/ledditting by Wynne and Parageist<br>-Playtesting, additional concepts and help by vividyon, webber, FiveFrozenLakes, everyone else on the team lol, along with everyone on steam who pointed out bugs/issues :)<br>-Music Hollow Stream, Final Assembly, Rememberance, and Starfall (currently unnused) by Ninjakittens. SO and PY threat themes by LolaTheLoach.<br>-TK vista background and SO region art by aprilWORSTmonth.<br>And thank you to all the wonderful people in the Rain World server, such as Bro, Willurd, Cappin, Atom, Slugged, and many others who helped me fix my myriad of bugs and questions!<br>",
+"desc": "WORK IN PROGRESS! - CURRENTLY ONLY SIX OUT OF THE 11 REGIONS ARE PLAYABLE! (Sunlit Alleyways, Withstanding Factory, Pipegrave, Aquifer Tunnels, Smokestack Treetop, and Nascent Woods.)<br>Long after the reign of random gods, new life breaks through the snow and the cycle continues.<br>VERSION HISTORY:<br>-v0.1 (4/7/24) - Added WT (Withstanding Factory). I still need to fix the music bugs and make proper region art but besides that it should be fully playable!<br>-v0.2 (4/10/24) - Added SO (Sunlit Alleyways) and a placeholder scug that spawns there named The Matriarch. WARNING: I added the safari unlock for both WT and SO but after collecting it and going to the safari tab the game freezes, so try to avoid collecting those for now!!! The proper region art for SO isn't finished yet either.<br>-v0.3 (4/15/24) - Added PY (Pipegrave), fixed a few errors with previous regions. Dev team has gotten a lot bigger since last time!<br>-v0.4 (5/26/2024) - Fixed some issues, added AQ and TK, along with some new songs by NinjaKittens and LolaTheLoach.<br>-V0.5 (7/4/24) Added WD, along with some new art and music.<br>NEXT ON TO-DO LIST:<br>-Finish region art and threat themes for the regions so far<br>-Finish GM and FU<br>ROADMAP:<br>-Sunlit Alleyways (future SU) - 100% complete<br>-Withstanding Factory (future HI) - 99% complete<br>-The Undergrowth (future UG) - 20% complete<br>-Smokestack Treetop (future CC) - 99% complete<br>-Gloomy Marshland (future GW) - 90% complete<br>-Pipegrave (future VS) - 99% complete<br>-Mountains Abound (future CL) - 50% complete<br>-Nascent Woods (future LF) - 99% complete<br>-Aquifer Tunnels (future SB) - 99% complete<br>-Rusted Basin (future SL) - 90% complete<br>-Fading Moonlight (future MS) - 60% complete<br>Custom slugcat and campaign? Maybe, I have some concepts planned but I don't have much coding knowledge.<br>Custom creatures? Same with the custom story, it's currently just a maybe.<br>CREDITS:<br>-Main Concepts and project lead by Parageist<br>-Mod Setup Help by Jennifer<br>-Original Mod Description by Jennifer<br>-Mountains Abound Ledditting Help by Jennifer<br>-Main Level Design/ledditting by Parageist<br>-Writing by Parageist<br>-GM level design/ledditting by Foto and Parageist<br>-WD level design/ledditting help by Para, Echo, April, and Webber<br>-FU level design/ledditting by Wynne and Parageist<br>-Playtesting, additional concepts and help by vividyon, webber, FiveFrozenLakes, everyone else on the team lol, along with everyone on steam who pointed out bugs/issues :)<br>-Music Hollow Stream, Final Assembly, Rememberance, Oak Monoliths, Urban Reclamation, and Starfall (currently unnused) by Ninjakittens. SO, TK, and PY threat themes by LolaTheLoach.<br>-TK vista background and SO region art by aprilWORSTmonth.<br>-Coding by steellesstoaster7838<br>-Matriarch Menu Select art by battysoda<br>And thank you to all the wonderful people in the Rain World server, such as Bro, Willurd, Cappin, Atom, Slugged, and many others who helped me fix my myriad of bugs and questions!<br>",
 "thumb": "previews/3215860805.png",
 "url": "https://ln5.sync.com/dl/cd729eb70/debubjpe-72zr82pf-5u628p5w-nrf8uy53",
 "requirements": "crs,regionkit,pom",
 "tags": "Regions",
-"order": 1709
+"order": 1711
 });
 
 Mods.push({
@@ -22173,7 +22199,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ourple_saint.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1710
+"order": 1712
 });
 
 Mods.push({
@@ -22186,7 +22212,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SAPatry_Community_slugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1711
+"order": 1713
 });
 
 Mods.push({
@@ -22199,7 +22225,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pride_cats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1712
+"order": 1714
 });
 
 Mods.push({
@@ -22212,7 +22238,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/wordtea_slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1713
+"order": 1715
 });
 
 Mods.push({
@@ -22225,7 +22251,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/lyercat.zip",
 "requirements": "dressmyslugcat,moreslugcats",
 "tags": "Cosmetics",
-"order": 1714
+"order": 1716
 });
 
 Mods.push({
@@ -22238,7 +22264,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Its_a_Fez.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1715
+"order": 1717
 });
 
 Mods.push({
@@ -22251,7 +22277,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Thorn_Bug.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 1716
+"order": 1718
 });
 
 Mods.push({
@@ -22265,7 +22291,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCqQj_6rdLGqayYAXxYqanvg",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1717
+"order": 1719
 });
 
 Mods.push({
@@ -22278,7 +22304,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_World__Mimicry.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 1718
+"order": 1720
 });
 
 Mods.push({
@@ -22291,7 +22317,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ScarfMod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics,Scarfs",
-"order": 1719
+"order": 1721
 });
 
 Mods.push({
@@ -22304,7 +22330,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/King_Clawthorne_WIP.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1720
+"order": 1722
 });
 
 Mods.push({
@@ -22317,7 +22343,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Wis_Hypercore_Pack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1721
+"order": 1723
 });
 
 Mods.push({
@@ -22330,7 +22356,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/baldi.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1722
+"order": 1724
 });
 
 Mods.push({
@@ -22343,7 +22369,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Iterator_Room_Randomizer.zip",
 "requirements": "",
 "tags": "",
-"order": 1723
+"order": 1725
 });
 
 Mods.push({
@@ -22355,7 +22381,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scrimbo_Clockwork_Quimboig.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1724
+"order": 1726
 });
 
 Mods.push({
@@ -22368,7 +22394,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Penitant_arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 1725
+"order": 1727
 });
 
 Mods.push({
@@ -22381,7 +22407,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dark_Pipework.zip",
 "requirements": "crs",
 "tags": "region",
-"order": 1726
+"order": 1728
 });
 
 Mods.push({
@@ -22394,7 +22420,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/chinmey_canpoy.zip",
 "requirements": "",
 "tags": "",
-"order": 1727
+"order": 1729
 });
 
 Mods.push({
@@ -22407,7 +22433,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mimicstarfish.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 1728
+"order": 1730
 });
 
 Mods.push({
@@ -22420,7 +22446,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Eepys_Scugs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1729
+"order": 1731
 });
 
 Mods.push({
@@ -22434,7 +22460,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCGgQGjdWKRB83YZfbTv_GUA",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1730
+"order": 1732
 });
 
 Mods.push({
@@ -22447,7 +22473,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/1315e0fd0/gftzcx6d-ydcq2krx-pi3cn5ha-9cfbkyvc",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 1731
+"order": 1733
 });
 
 Mods.push({
@@ -22460,7 +22486,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Guppys_DMS_Skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1732
+"order": 1734
 });
 
 Mods.push({
@@ -22473,7 +22499,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/shrimp_ass_lizard.zip",
 "requirements": "lizardcustomizer,simplespawnswapper",
 "tags": "Creatures",
-"order": 1733
+"order": 1735
 });
 
 Mods.push({
@@ -22486,7 +22512,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shaded_Spiders.zip",
 "requirements": "",
 "tags": "Regions,Creatures",
-"order": 1734
+"order": 1736
 });
 
 Mods.push({
@@ -22499,7 +22525,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Chimney_Leg.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1735
+"order": 1737
 });
 
 Mods.push({
@@ -22511,7 +22537,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Urban_Reservoir_SCRAPPED_REGION_MOD.zip",
 "requirements": "regionkit,iteratorKit",
 "tags": "",
-"order": 1736
+"order": 1738
 });
 
 Mods.push({
@@ -22519,12 +22545,12 @@ Mods.push({
 "id": "Fluff.Scugs",
 "workshop_id": "3222712190",
 "author": "Lapis",
-"desc": "DMS Mod for some fluffy slugcats",
+"desc": "DMS Mod for some fluffy slugcats<br><br>FLUFFY SLUG UPDATE WHATTTT",
 "thumb": "previews/3222712190.png",
 "url": "https://andrew.fm/rainworld/raindb/FluffySlugsDMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1737
+"order": 1739
 });
 
 Mods.push({
@@ -22537,7 +22563,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Corroded_Passage.zip",
 "requirements": "moreslugcats,crs,regionkit",
 "tags": "Regions",
-"order": 1738
+"order": 1740
 });
 
 Mods.push({
@@ -22550,7 +22576,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Unwanted_Publisher.zip",
 "requirements": "",
 "tags": "",
-"order": 1739
+"order": 1741
 });
 
 Mods.push({
@@ -22563,7 +22589,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Niko_Hat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1740
+"order": 1742
 });
 
 Mods.push({
@@ -22571,11 +22597,11 @@ Mods.push({
 "id": "zevdragon.inv",
 "workshop_id": "3223818152",
 "author": "zevdragon",
-"desc": "Fixes inv's ability to create imnvfinite eggs",
+"desc": "This mod fixes Inv's ability to create infinite eggs. You will NEVER have to worry about running out of eggs again.",
 "url": "https://andrew.fm/rainworld/raindb/Inv_Fix.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "",
-"order": 1741
+"order": 1743
 });
 
 Mods.push({
@@ -22588,7 +22614,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Random_Arenas.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 1742
+"order": 1744
 });
 
 Mods.push({
@@ -22601,7 +22627,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Greens_suffering_arena.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 1743
+"order": 1745
 });
 
 Mods.push({
@@ -22614,7 +22640,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/FIRE_IN_THE_HOLE.zip",
 "requirements": "",
 "tags": "",
-"order": 1744
+"order": 1746
 });
 
 Mods.push({
@@ -22626,7 +22652,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Less_Slugcats_Expansion.zip",
 "requirements": "rwremix,moreslugcats,slime-cubed.slugbase",
 "tags": "Campaigns,Custom Slugcat",
-"order": 1745
+"order": 1747
 });
 
 Mods.push({
@@ -22638,7 +22664,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Underground_City.zip",
 "requirements": "regionkit",
 "tags": "Regions",
-"order": 1746
+"order": 1748
 });
 
 Mods.push({
@@ -22651,7 +22677,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NoriCatCG.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1747
+"order": 1749
 });
 
 Mods.push({
@@ -22664,7 +22690,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Flems_Arenas.zip",
 "requirements": "",
 "tags": "",
-"order": 1748
+"order": 1750
 });
 
 Mods.push({
@@ -22677,7 +22703,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Forgotten.zip",
 "requirements": "regionkit",
 "tags": "",
-"order": 1749
+"order": 1751
 });
 
 Mods.push({
@@ -22690,7 +22716,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/STUPIS_DUPIS_new_stegion_mod.zip",
 "requirements": "",
 "tags": "",
-"order": 1750
+"order": 1752
 });
 
 Mods.push({
@@ -22703,7 +22729,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pup_Magnet.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1751
+"order": 1753
 });
 
 Mods.push({
@@ -22716,7 +22742,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slag_Pits_old_region_mod.zip",
 "requirements": "regionkit",
 "tags": "",
-"order": 1752
+"order": 1754
 });
 
 Mods.push({
@@ -22729,7 +22755,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/AmericanTrashcans_SlugDragons.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1753
+"order": 1755
 });
 
 Mods.push({
@@ -22742,7 +22768,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/b0dd8d880/3qpgtze9-sd33xiex-frrzk5ut-26h8jeze",
 "requirements": "regionkit,crs",
 "tags": "Regions",
-"order": 1754
+"order": 1756
 });
 
 Mods.push({
@@ -22755,7 +22781,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cookie_Cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1755
+"order": 1757
 });
 
 Mods.push({
@@ -22767,7 +22793,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Train_Fix.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "Accessibility,Game Mechanics",
-"order": 1756
+"order": 1758
 });
 
 Mods.push({
@@ -22780,7 +22806,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Scug_Behind_the_Slaughter.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1757
+"order": 1759
 });
 
 Mods.push({
@@ -22793,7 +22819,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Altered_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1758
+"order": 1760
 });
 
 Mods.push({
@@ -22806,7 +22832,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cutscene_Jester_Hat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1759
+"order": 1761
 });
 
 Mods.push({
@@ -22814,12 +22840,12 @@ Mods.push({
 "id": "citadel",
 "workshop_id": "3229249922",
 "author": "gamerguy35",
-"desc": "Adds a small new region that connects to Industrial Complex and Shaded Citadel.<br><br>It includes:<br> - 25 new rooms (47 screens)<br> - Connections to Industrial Complex and Shaded Citadel (HI_D01 and SH_A21)<br> - Support for all downpour slugcats, except for Saint<br> - Region art made by me<br><br>This is my first region mod for Rain World. As such, it isn’t very unique and it may be a bit rough around the edges, but you can check it out if you want!<br>",
+"desc": "Adds a small new region that connects to Industrial Complex and Shaded Citadel.<br><br>It includes:<br>25 new rooms (47 screens)<br>Connections to Industrial Complex and Shaded Citadel (HI_D01 and SH_A21)<br>Support for all downpour slugcats, except for Saint<br>Region art made by me<br><br>This is my first region mod for Rain World. As such, it isn't very original and it may be a bit rough around the edges, but you can check it out if you want!<br><br>Wiki page: https://rainworldmods.miraheze.org/wiki/Citadel<br>Showcase video by Lolight2: https://www.youtube.com/watch?v=0YOlA3dHBSw<br>",
 "thumb": "previews/3229249922.png",
 "url": "https://andrew.fm/rainworld/raindb/Citadel.zip",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 1760
+"order": 1762
 });
 
 Mods.push({
@@ -22832,7 +22858,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Femur_breaker_leviathan.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1761
+"order": 1763
 });
 
 Mods.push({
@@ -22845,7 +22871,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Hollow_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1762
+"order": 1764
 });
 
 Mods.push({
@@ -22858,7 +22884,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Chaotic_cats_DMC_mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1763
+"order": 1765
 });
 
 Mods.push({
@@ -22870,7 +22896,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Less_Slugcats_Expansion.zip",
 "requirements": "rwremix,moreslugcats,slime-cubed.slugbase,trainfix",
 "tags": "Campaigns,Custom Slugcat",
-"order": 1764
+"order": 1766
 });
 
 Mods.push({
@@ -22883,7 +22909,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fortnite_SkyeCat_Costume__DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1765
+"order": 1767
 });
 
 Mods.push({
@@ -22896,7 +22922,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mod_Requests_Volume_1.zip",
 "requirements": "",
 "tags": "",
-"order": 1766
+"order": 1768
 });
 
 Mods.push({
@@ -22904,11 +22930,11 @@ Mods.push({
 "id": "betterravioli",
 "workshop_id": "3232040850",
 "author": "zevdragon",
-"desc": "This mod makes ravioli invincible. It can survive bombs, spears, lizard bites, and more. You will never have to worry about dying as ravioli again. Note that it can still technically die from anything that removes it from the world, such as dens, pole plants, and falling, but that's actually a grill issue.<br><br>Highly recommended that you use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3156341466]OP Ravioli[/url] alongside this mod for the full ravioli experience.<br><br>Since this mod makes ravioli COMPLETELY immortal, it may cause bugs. I haven't tested it much outside of throwing hands with scavengers in arena mode. Use at your own risk.",
+"desc": "Makes Ravioli the strongest scug. It can breathe underwater infinitely, eat meat at the same efficiency as the carnivorous scugs, hold two spears, and survive spear throws from scugs and scavs alike. You will NEVER have to worry about ravioli being pathetic ever again.",
 "url": "https://andrew.fm/rainworld/raindb/Better_Ravioli.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "Accessibility,Game Mechanics",
-"order": 1767
+"order": 1769
 });
 
 Mods.push({
@@ -22921,7 +22947,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/e0ec7fd70/974q2wz4-d69jh9y6-zjc92yvw-g24taqzb",
 "requirements": "crs,regionkit,myr.moss_fields",
 "tags": "Regions",
-"order": 1768
+"order": 1770
 });
 
 Mods.push({
@@ -22933,7 +22959,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Spawn_Resetter.zip",
 "requirements": "devtools",
 "tags": "Tools",
-"order": 1769
+"order": 1771
 });
 
 Mods.push({
@@ -22946,7 +22972,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CrystalSlug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1770
+"order": 1772
 });
 
 Mods.push({
@@ -22959,7 +22985,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Murder_Drones_Slugcats_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1771
+"order": 1773
+});
+
+Mods.push({
+"name": "The Mother",
+"id": "AutumnFox.Mother",
+"workshop_id": "3232847719",
+"author": "AutumnFox",
+"desc": "A prototype fur th' chosen people. Move along not chosen people.<br><br>Use arctic fox skin in DMS (Foxcat)<br><br>Fair warning.. This does nae have a campaign yet an' is very very difficult",
+"thumb": "previews/3232847719.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Mother.zip",
+"requirements": "slime-cubed.slugbase",
+"tags": "Custom Slugcat",
+"order": 1774
 });
 
 Mods.push({
@@ -22972,7 +23011,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/catboy_Fifteen_Crosses.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1772
+"order": 1775
 });
 
 Mods.push({
@@ -22985,7 +23024,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/slugpup_communication_mark_DMS.zip",
 "requirements": "",
 "tags": "Cosmetics,Dependency,Tools",
-"order": 1773
+"order": 1776
 });
 
 Mods.push({
@@ -22998,7 +23037,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/eggs_fucked_up_batfly.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1774
+"order": 1777
 });
 
 Mods.push({
@@ -23011,7 +23050,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Scavenger_Tweaks.zip",
 "requirements": "moreslugcats",
 "tags": "Creatures",
-"order": 1775
+"order": 1778
 });
 
 Mods.push({
@@ -23024,7 +23063,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Aquino_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1776
+"order": 1779
 });
 
 Mods.push({
@@ -23037,7 +23076,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Immolator_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1777
+"order": 1780
 });
 
 Mods.push({
@@ -23050,7 +23089,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cyn.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1778
+"order": 1781
 });
 
 Mods.push({
@@ -23063,7 +23102,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Wanderer_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1779
+"order": 1782
 });
 
 Mods.push({
@@ -23075,7 +23114,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Various_Lizors.zip",
 "requirements": "lizardcustomizer,spitanything",
 "tags": "",
-"order": 1780
+"order": 1783
 });
 
 Mods.push({
@@ -23087,7 +23126,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Shaved_Saint_DMS.zip",
 "requirements": "",
 "tags": "",
-"order": 1781
+"order": 1784
 });
 
 Mods.push({
@@ -23100,7 +23139,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Xenos_Sluggies.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1782
+"order": 1785
 });
 
 Mods.push({
@@ -23113,7 +23152,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Skulk_Slug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1783
+"order": 1786
 });
 
 Mods.push({
@@ -23126,7 +23165,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Noicat.zip",
 "requirements": "",
 "tags": "Cosmetics,Dependency,Tools",
-"order": 1784
+"order": 1787
 });
 
 Mods.push({
@@ -23139,7 +23178,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bombcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1785
+"order": 1788
 });
 
 Mods.push({
@@ -23152,7 +23191,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DOOM_1_Threat_music.zip",
 "requirements": "crs",
 "tags": "",
-"order": 1786
+"order": 1789
 });
 
 Mods.push({
@@ -23165,7 +23204,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_DLL_Swallow_Sound.zip",
 "requirements": "",
 "tags": "",
-"order": 1787
+"order": 1790
 });
 
 Mods.push({
@@ -23178,7 +23217,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Unknown_Token_Fix.zip",
 "requirements": "",
 "tags": "Dependency",
-"order": 1788
+"order": 1791
 });
 
 Mods.push({
@@ -23190,7 +23229,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Train_Fix.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "Accessibility,Game Mechanics",
-"order": 1789
+"order": 1792
 });
 
 Mods.push({
@@ -23203,7 +23242,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/TurtleCat_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1790
+"order": 1793
 });
 
 Mods.push({
@@ -23216,7 +23255,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Audio_Fix.zip",
 "requirements": "",
 "tags": "",
-"order": 1791
+"order": 1794
 });
 
 Mods.push({
@@ -23228,7 +23267,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cordyceps_TAS.zip",
 "requirements": "",
 "tags": "Game Mechanics,Tools",
-"order": 1792
+"order": 1795
 });
 
 Mods.push({
@@ -23241,7 +23280,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Murderer.zip",
 "requirements": "slime-cubed.slugbase,fisobs",
 "tags": "Items,Cosmetics,Custom Slugcat",
-"order": 1793
+"order": 1796
 });
 
 Mods.push({
@@ -23254,7 +23293,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Arty_the_slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1794
+"order": 1797
 });
 
 Mods.push({
@@ -23267,7 +23306,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/orange_AVA_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1795
+"order": 1798
 });
 
 Mods.push({
@@ -23280,7 +23319,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_More_Pole_Plants.zip",
 "requirements": "",
 "tags": "",
-"order": 1796
+"order": 1799
 });
 
 Mods.push({
@@ -23294,7 +23333,7 @@ Mods.push({
 "video": "https://youtube.com/@NasaVoid122?si=jtecN7ZtFhZTI-Tx",
 "requirements": "",
 "tags": "",
-"order": 1797
+"order": 1800
 });
 
 Mods.push({
@@ -23307,7 +23346,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Clown_skin_Dress_My_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1798
+"order": 1801
 });
 
 Mods.push({
@@ -23320,7 +23359,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Seeker.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1799
+"order": 1802
 });
 
 Mods.push({
@@ -23334,7 +23373,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCEj5fLCy6y0BPzfXh2SaLeQ",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1800
+"order": 1803
 });
 
 Mods.push({
@@ -23347,7 +23386,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/FNF_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1801
+"order": 1804
 });
 
 Mods.push({
@@ -23360,7 +23399,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Inscryption_Scrybe_Slugs_DMS_skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1802
+"order": 1805
 });
 
 Mods.push({
@@ -23374,7 +23413,7 @@ Mods.push({
 "video": "https://youtube.com/@NasaVoid122?si=kYMEQxTua2Q6fhyU",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 1803
+"order": 1806
 });
 
 Mods.push({
@@ -23387,7 +23426,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dark_Meadows.zip",
 "requirements": "moreslugcats,nacu.lunacy",
 "tags": "Custom Region",
-"order": 1804
+"order": 1807
 });
 
 Mods.push({
@@ -23400,7 +23439,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Echo_Saint_tail.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1805
+"order": 1808
 });
 
 Mods.push({
@@ -23412,7 +23451,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Alar_DMS_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1806
+"order": 1809
 });
 
 Mods.push({
@@ -23425,7 +23464,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Segas_Charcuterie_Board.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1807
+"order": 1810
 });
 
 Mods.push({
@@ -23437,7 +23476,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Linguinni.zip",
 "requirements": "",
 "tags": "",
-"order": 1808
+"order": 1811
 });
 
 Mods.push({
@@ -23450,7 +23489,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dodgeball_Rocks.zip",
 "requirements": "",
 "tags": "",
-"order": 1809
+"order": 1812
 });
 
 Mods.push({
@@ -23463,7 +23502,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Metal_Rocks.zip",
 "requirements": "",
 "tags": "",
-"order": 1810
+"order": 1813
 });
 
 Mods.push({
@@ -23476,7 +23515,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugclothes.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1811
+"order": 1814
 });
 
 Mods.push({
@@ -23489,7 +23528,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/RWCJ_The_Emperor.zip",
 "requirements": "slime-cubed.slugbase,moreslugcats,regionkit,crs,fisobs",
 "tags": "",
-"order": 1812
+"order": 1815
 });
 
 Mods.push({
@@ -23502,7 +23541,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cold_Snap.zip",
 "requirements": "slime-cubed.slugbase,fisobs,regionkit,iteratorKit,lizardcustomizer",
 "tags": "Custom Slugcat,Campaigns",
-"order": 1813
+"order": 1816
 });
 
 Mods.push({
@@ -23515,7 +23554,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/AmbiScug.zip",
 "requirements": "",
 "tags": "",
-"order": 1814
+"order": 1817
 });
 
 Mods.push({
@@ -23528,7 +23567,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ultrakill_spear_parry.zip",
 "requirements": "",
 "tags": "",
-"order": 1815
+"order": 1818
 });
 
 Mods.push({
@@ -23541,7 +23580,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Wingcat_Variations.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1816
+"order": 1819
 });
 
 Mods.push({
@@ -23554,7 +23593,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BetterDecals.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1817
+"order": 1820
 });
 
 Mods.push({
@@ -23567,7 +23606,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SlugStalkers.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1818
+"order": 1821
 });
 
 Mods.push({
@@ -23580,7 +23619,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ULTRAKILL_Explosions.zip",
 "requirements": "",
 "tags": "",
-"order": 1819
+"order": 1822
 });
 
 Mods.push({
@@ -23593,7 +23632,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nicos_Goobers.zip",
 "requirements": "dressmyslugcat,moreslugcats",
 "tags": "Cosmetics",
-"order": 1820
+"order": 1823
 });
 
 Mods.push({
@@ -23606,7 +23645,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hunter_Can_Maul.zip",
 "requirements": "",
 "tags": "",
-"order": 1821
+"order": 1824
 });
 
 Mods.push({
@@ -23619,7 +23658,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slughosts.zip",
 "requirements": "",
 "tags": "",
-"order": 1822
+"order": 1825
 });
 
 Mods.push({
@@ -23632,7 +23671,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Hierophant__DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1823
+"order": 1826
 });
 
 Mods.push({
@@ -23645,7 +23684,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Emmets_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1824
+"order": 1827
 });
 
 Mods.push({
@@ -23658,7 +23697,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Extended_Collectibles_Tracker.zip",
 "requirements": "rwremix",
 "tags": "Accessibility",
-"order": 1825
+"order": 1828
 });
 
 Mods.push({
@@ -23670,7 +23709,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dweeb_Deerscug.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1826
+"order": 1829
 });
 
 Mods.push({
@@ -23683,7 +23722,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_bloom_in_SLAI.zip",
 "requirements": "",
 "tags": "",
-"order": 1827
+"order": 1830
 });
 
 Mods.push({
@@ -23696,7 +23735,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bitter_Aerie_for_normal_slugcats.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1828
+"order": 1831
 });
 
 Mods.push({
@@ -23709,7 +23748,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Deep_Pipeline.zip",
 "requirements": "pom,crs,regionkit",
 "tags": "",
-"order": 1829
+"order": 1832
 });
 
 Mods.push({
@@ -23722,7 +23761,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Nekovos_Custom_Arenas.zip",
 "requirements": "regionkit,moreslugcats",
 "tags": "Arena",
-"order": 1830
+"order": 1833
 });
 
 Mods.push({
@@ -23734,7 +23773,7 @@ Mods.push({
 "thumb": "previews/3246412493.png",
 "url": "https://andrew.fm/rainworld/raindb/Grapple_Saint.zip",
 "tags": "",
-"order": 1831
+"order": 1834
 });
 
 Mods.push({
@@ -23746,7 +23785,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Train_Fix.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "Accessibility,Game Mechanics",
-"order": 1832
+"order": 1835
 });
 
 Mods.push({
@@ -23759,7 +23798,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_Timoxa.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1833
+"order": 1836
 });
 
 Mods.push({
@@ -23772,7 +23811,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/TimoxaGALA.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1834
+"order": 1837
 });
 
 Mods.push({
@@ -23784,7 +23823,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kacey_DMS_Skin.zip",
 "requirements": "",
 "tags": "",
-"order": 1835
+"order": 1838
 });
 
 Mods.push({
@@ -23796,7 +23835,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kiara_DMS_Skin.zip",
 "requirements": "",
 "tags": "",
-"order": 1836
+"order": 1839
 });
 
 Mods.push({
@@ -23809,7 +23848,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Saint_AntiFreeze.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1837
+"order": 1840
 });
 
 Mods.push({
@@ -23821,7 +23860,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ThisModDoesNothing.zip",
 "requirements": "",
 "tags": "",
-"order": 1838
+"order": 1841
 });
 
 Mods.push({
@@ -23834,7 +23873,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/metropolis_for_normal_slugs.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1839
+"order": 1842
 });
 
 Mods.push({
@@ -23847,7 +23886,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/schugass.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1840
+"order": 1843
 });
 
 Mods.push({
@@ -23859,7 +23898,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Inv_Overhaul.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "",
-"order": 1841
+"order": 1844
 });
 
 Mods.push({
@@ -23871,7 +23910,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Discover_Map_In_Pipes.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 1842
+"order": 1845
 });
 
 Mods.push({
@@ -23884,7 +23923,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/526b13950/ayrn9dkb-hynpj293-q784q52y-jmvmvv7q",
 "requirements": "",
 "tags": "",
-"order": 1843
+"order": 1846
 });
 
 Mods.push({
@@ -23897,7 +23936,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gabriels_Skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1844
+"order": 1847
 });
 
 Mods.push({
@@ -23910,7 +23949,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Floater.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1845
+"order": 1848
 });
 
 Mods.push({
@@ -23923,7 +23962,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Snowdrop.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1846
+"order": 1849
 });
 
 Mods.push({
@@ -23936,7 +23975,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Add_Distant_Ghost_To_World.zip",
 "requirements": "",
 "tags": "",
-"order": 1847
+"order": 1850
 });
 
 Mods.push({
@@ -23949,7 +23988,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ALPHA_Nameless_Nightcat_Mod.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "",
-"order": 1848
+"order": 1851
 });
 
 Mods.push({
@@ -23962,7 +24001,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Hothead_cosmetic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1849
+"order": 1852
 });
 
 Mods.push({
@@ -23974,7 +24013,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Text_Prompt_Fix.zip",
 "requirements": "",
 "tags": "Accessibility",
-"order": 1850
+"order": 1853
 });
 
 Mods.push({
@@ -23987,7 +24026,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dress_My_Slugcat_Wanderer.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1851
+"order": 1854
 });
 
 Mods.push({
@@ -24000,7 +24039,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kokoboids.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1852
+"order": 1855
 });
 
 Mods.push({
@@ -24013,7 +24052,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dots_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1853
+"order": 1856
 });
 
 Mods.push({
@@ -24026,7 +24065,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Quiet_Gates.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1854
+"order": 1857
 });
 
 Mods.push({
@@ -24039,7 +24078,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCFUa0pt2n1-8PznXKU4vCGQ",
 "requirements": "moreslugcats,rwremix,crs",
 "tags": "Cosmetics",
-"order": 1855
+"order": 1858
 });
 
 Mods.push({
@@ -24051,7 +24090,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Debug__BodyChunk_Visualizer.zip",
 "requirements": "",
 "tags": "Debug",
-"order": 1856
+"order": 1859
 });
 
 Mods.push({
@@ -24064,7 +24103,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mini_leviathans_replace_Aquacentis_in_SL_and_MS.zip",
 "requirements": "moreslugcats,lb-fgf-m4r-ik.mini-levi",
 "tags": "",
-"order": 1857
+"order": 1860
 });
 
 Mods.push({
@@ -24077,7 +24116,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Goblins_Elemental_Lizards.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper",
 "tags": "Creatures",
-"order": 1858
+"order": 1861
 });
 
 Mods.push({
@@ -24090,7 +24129,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Echo_Room_Randomizer.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1859
+"order": 1862
 });
 
 Mods.push({
@@ -24103,7 +24142,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Wawaroni_Slugzza_aka_Slugcat_Pizza.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1860
+"order": 1863
 });
 
 Mods.push({
@@ -24116,7 +24155,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Dragon.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1861
+"order": 1864
 });
 
 Mods.push({
@@ -24129,7 +24168,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/No_Egg.zip",
 "requirements": "",
 "tags": "",
-"order": 1862
+"order": 1865
 });
 
 Mods.push({
@@ -24142,7 +24181,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hunters_Slugcats_WIP.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1863
+"order": 1866
 });
 
 Mods.push({
@@ -24155,7 +24194,7 @@ Mods.push({
 "video": "https://www.youtube.com/@abrupt94",
 "requirements": "",
 "tags": "",
-"order": 1864
+"order": 1867
 });
 
 Mods.push({
@@ -24168,7 +24207,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/heart_eyes_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1865
+"order": 1868
 });
 
 Mods.push({
@@ -24181,7 +24220,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sumys_challenge_pack.zip",
 "requirements": "expedition,moreslugcats,millionschallenges,cutchallenges",
 "tags": "",
-"order": 1866
+"order": 1869
 });
 
 Mods.push({
@@ -24194,7 +24233,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SFOTH_Deities_Scug_Pack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1867
+"order": 1870
 });
 
 Mods.push({
@@ -24207,7 +24246,7 @@ Mods.push({
 "url": "https://ln5.sync.com/dl/ecdc197d0/ushzqzq6-9kxwv5c4-bzb82d7d-3scuzvd2",
 "requirements": "crs,regionkit,pom,moreslugcats",
 "tags": "Regions",
-"order": 1868
+"order": 1871
 });
 
 Mods.push({
@@ -24219,7 +24258,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hickory_Lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 1869
+"order": 1872
 });
 
 Mods.push({
@@ -24232,7 +24271,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rambley_Indigo_Park__DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1870
+"order": 1873
 });
 
 Mods.push({
@@ -24245,7 +24284,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slivers_Slugcats__DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1871
+"order": 1874
 });
 
 Mods.push({
@@ -24258,7 +24297,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_SparkyWIP.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat",
 "tags": "Custom Slugcat",
-"order": 1872
+"order": 1875
 });
 
 Mods.push({
@@ -24271,7 +24310,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Fake_Achievements.zip",
 "requirements": "",
 "tags": "Dependency,Tools",
-"order": 1873
+"order": 1876
 });
 
 Mods.push({
@@ -24284,7 +24323,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Legacy_arenas.zip",
 "requirements": "",
 "tags": "Arenas",
-"order": 1874
+"order": 1877
 });
 
 Mods.push({
@@ -24297,7 +24336,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Orchid_Lizard_old.zip",
 "requirements": "",
 "tags": "",
-"order": 1875
+"order": 1878
 });
 
 Mods.push({
@@ -24310,20 +24349,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Quiet_Shelters.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1876
+"order": 1879
 });
 
 Mods.push({
-"name": "BackroundValley",
+"name": "Backrounded Valley",
 "id": "lapis_BackroundValley",
 "workshop_id": "3255109101",
 "author": "Lapis",
-"desc": "Hello! I appreciate everyone who played my mod before this update!<br><br>I have been working in my free time for the past few weeks (I think) to add a few rooms.<br><br>Originally, my mod was just more of Five Pebble's metropolis.<br><br>I uh... expanded a bit. I don't want to give any spoilers for those who are interested in discovering it for themselves.<br><br>One spoiler I do want to give is that this mod is still very unfinished and the part I added is a one-way path to a dead end.<br>So do be warned that once you descend, you cannot return.<br><br>As previously stated, this mod was just for some practice and may not hold up to the high quality and skill others can create here on the workshop! Despite this, I worked hard and want to share this learning experience with the rest of you!<br>This mod may continue to be expanded upon, but for the time being it will remain in this state.<br><br>Thank you to everyone who has/will play my mod! I appreciate all of your input in my continued modding journey.<br><br>This mod includes 80~ rooms, and one gate. The other gate is planned to be added to the dead end, but for now, I have not decided on where it will lead.<br><br>The thumbnail was created using Paint 3D, Adobe Photo-Shop, and Procreate!",
+"desc": "Hello! I appreciate everyone who played my mod before this update!<br><br>I have been working in my free time for the past few weeks (I think) to add a few rooms.<br><br>Originally, my mod was just more of Five Pebble's metropolis.<br><br>I uh... expanded a bit. I don't want to give any spoilers for those who are interested in discovering it for themselves.<br><br>One spoiler I do want to give is that this mod is still very unfinished and the part I added is a one-way path to a dead end. (JUST UPDATED IT!! IT IS NO LONGER A DEAD END!!! Well... it still is for now. I just need to figure out pipeyards secrets)<br>So do be warned that once you descend, you cannot return. (you can't its still one way lol)<br><br>As previously stated, this mod was just for some practice and may not hold up to the high quality and skill others can create here on the workshop! Despite this, I worked hard and want to share this learning experience with the rest of you!<br>This mod may continue to be expanded upon, but for the time being it will remain in this state.<br><br>Thank you to everyone who has/will play my mod! I appreciate all of your input in my continued modding journey.<br><br>This mod includes 80~ rooms, and one gate. The other gate is planned to be added to the dead end, but for now, I have not decided on where it will lead.<br><br>The thumbnail was created using Paint 3D, Adobe Photo-Shop, and Procreate!<br><br>Hey... uh so I have been informed that the normal Metatropolis room only works properly if below MSC in the load order so keep that in mind until i get it sorted out lol (thanks bro)",
 "thumb": "previews/3255109101.png",
-"url": "https://andrew.fm/rainworld/raindb/BackroundValley.zip",
+"url": "https://andrew.fm/rainworld/raindb/Backrounded_Valley.zip",
 "requirements": "",
 "tags": "",
-"order": 1877
+"order": 1880
 });
 
 Mods.push({
@@ -24336,7 +24375,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Artificers_Arsenal.zip",
 "requirements": "fisobs,Dino.DinoLib",
 "tags": "Game Mechanics,Items",
-"order": 1878
+"order": 1881
 });
 
 Mods.push({
@@ -24349,7 +24388,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Better_chieftain_battle_arena.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1879
+"order": 1882
 });
 
 Mods.push({
@@ -24362,7 +24401,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/SENIOR_SIG_AND_FIVE_PEBBLES_LONG_LEGS_YOOO.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1880
+"order": 1883
 });
 
 Mods.push({
@@ -24375,7 +24414,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/INeedTherapys_Lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 1881
+"order": 1884
 });
 
 Mods.push({
@@ -24388,7 +24427,7 @@ Mods.push({
 "video": "https://www.youtube.com/@abrupt94",
 "requirements": "",
 "tags": "",
-"order": 1882
+"order": 1885
 });
 
 Mods.push({
@@ -24400,7 +24439,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Turqoise_Lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 1883
+"order": 1886
 });
 
 Mods.push({
@@ -24413,7 +24452,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_Templates_And_Techniques.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1884
+"order": 1887
 });
 
 Mods.push({
@@ -24426,7 +24465,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Hollow_Knight__DMS_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1885
+"order": 1888
 });
 
 Mods.push({
@@ -24439,7 +24478,7 @@ Mods.push({
 "video": "https://www.youtube.com/@abrupt94",
 "requirements": "",
 "tags": "",
-"order": 1886
+"order": 1889
 });
 
 Mods.push({
@@ -24452,7 +24491,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rottmnt__DMS_Skins.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1887
+"order": 1890
 });
 
 Mods.push({
@@ -24465,7 +24504,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mentally_Ill_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1888
+"order": 1891
 });
 
 Mods.push({
@@ -24478,7 +24517,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Inv_Intro.zip",
 "requirements": "moreslugcats",
 "tags": "Cosmetics",
-"order": 1889
+"order": 1892
 });
 
 Mods.push({
@@ -24491,7 +24530,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lizard_Eggs.zip",
 "requirements": "",
 "tags": "Items",
-"order": 1890
+"order": 1893
 });
 
 Mods.push({
@@ -24504,7 +24543,7 @@ Mods.push({
 "video": "https://www.youtube.com/@abrupt94",
 "requirements": "",
 "tags": "",
-"order": 1891
+"order": 1894
 });
 
 Mods.push({
@@ -24517,7 +24556,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Car_Cosmetics.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1892
+"order": 1895
 });
 
 Mods.push({
@@ -24529,7 +24568,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Train_Fix.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "Accessibility,Game Mechanics",
-"order": 1893
+"order": 1896
 });
 
 Mods.push({
@@ -24542,7 +24581,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Dragoncat_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1894
+"order": 1897
 });
 
 Mods.push({
@@ -24555,7 +24594,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Push_To_Meow_Now_supports_modcats.zip",
 "requirements": "improved-input-config",
 "tags": "meow meow,meow,Cosmetics,Game Mechanics",
-"order": 1895
+"order": 1898
 });
 
 Mods.push({
@@ -24568,7 +24607,7 @@ Mods.push({
 "video": "https://www.youtube.com/@abrupt94",
 "requirements": "",
 "tags": "",
-"order": 1896
+"order": 1899
 });
 
 Mods.push({
@@ -24580,7 +24619,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Leech_Lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 1897
+"order": 1900
 });
 
 Mods.push({
@@ -24593,7 +24632,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Tailor.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1898
+"order": 1901
 });
 
 Mods.push({
@@ -24606,7 +24645,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_World_but_every_batfly_is_a_Miros_Vulture.zip",
 "requirements": "",
 "tags": "",
-"order": 1899
+"order": 1902
 });
 
 Mods.push({
@@ -24619,7 +24658,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_Dating_Sim_Plus.zip",
 "requirements": "moreslugcats",
 "tags": "Cosmetics",
-"order": 1900
+"order": 1903
 });
 
 Mods.push({
@@ -24627,12 +24666,12 @@ Mods.push({
 "id": "ShinyKelp.ExpeditionsExpanded",
 "workshop_id": "3258311387",
 "author": "Shiny Kelp",
-"desc": "[h3]QUICK NOTES[/h3]<br><br>-With this mod enabled, challenge filters will be remembered when you exit the game, and hidden challenges will respect those filters! (Neither of those is a thing in vanilla) So, don't be afraid to filter out and remove any challenge that isn't up your alley!<br><br>-Some of these challenges may require you to have additional mods installed, or otherwise they won't be physically possible, at least not for all slugcat campaigns.<br><br>Also, special thanks to TheVileOne for helping with ExpeditionRegionSupport compatibility!<br><br>[h2] ==== IMPLEMENTED CHALLENGES ==== [/h2]<br><br>[b][u]Gourmet challenge[/u][/b]<br>-Eat [x] different edibles (3-12)<br>NOTES: Meat and large centipedes don't count.<br><br>[b][u]'Sandwich' challenge[/u][/b]<br>-Eat [x] mushrooms in one cycle (3-15)<br><br>[b][u]Flash challenge[/u][/b]<br>-Kill [x] amount of [y] creature while it's blinded (1-8, lizards/scavengers/dropwigs/vultures)<br><br>[b][u]Lap challenge[/u][/b]<br>-Enter [x] region twice in one cycle (any non-modded region with more than two gates)<br>NOTES: Exterior and Subterranean only appear at high difficulty.<br><br>It can support modded regions, but you have to add them manually.<br>Go to your rain world installation -> RainWorld_Data/StreamingAssets/ExpeditionsExpanded. (If last one doesn't exist, create it)<br>Create a txt file called 'LapChallenge.txt'. In the file, write the modded regions as follows:<br>region_acronym,,region_name<br>region_acronym,,region_name<br><br>For example:<br>BL,,Badlands<br>OA,,Aqueducts<br><br>[b][u]Heist challenge[/u][/b]<br>-Steal a pearl from a toll in [x] different regions without paying, killing scavs, or chieftain (1-2).<br>NOTES: You must not have ANY chieftain progress for it to count. Your scav reputation must be bad.<br>You're allowed to kill scavs outside the toll room.<br>2 heists only required at max difficulty.<br><br>[b][u]Apex Expert challenge[/u][/b]<br>-Kill [x] amount of [y] creature without dying. (2-6) (Red lizard / red centipede / daddylonglegs / miros vulture)<br><br>[b][u]Sea Offering challenge[/u][/b]<br>-Feed [x] critter alive to a leviathan (lanternmouse/eggbug/yeek)<br>NOTES: For the feed to count, the player must have thrown the creature recently.<br>Yeeks only required for slugcats who can find them, on high difficulty.<br><br><br><br>[h2] ==== PLANNED CHALLENGES ====[/h2]<br><br>Sneak challenge:<br>-kill [x] amount of creatures inside of a hazer cloud<br><br>Generosity challenge:<br>-Give a vulture mask to [x] elite scavengers who do not have one (2-8)<br>REQUIREMENTS: Shiny Shield Mask (maskless elites chance)<br><br>Sandwich pal challenge:<br>-Give [x] mushrooms to the same scavenger in one cycle (2-4)<br><br>Comradery challenge:<br>-Save a scavenger from danger [x] amount of times (1-5)<br><br>Pesticide challenge:<br>-Kill [y] insect creature type with a sporecloud (Spider/Dropwig/Centiwing/Aquapede )<br><br>Beekeeper challenge:<br>-Store [x] beehives in shelter (1-6)<br><br>Motherhood challenge:<br>-Become mother of [x] small noodleflies at the same time (2-8)<br><br>Gatekeeper challenge:<br>-Cross [x] amount of gates with [y] karma requirement or above in one cycle (2-4 gates, 3-4 karma)<br><br>Demasker Master challenge:<br>-Demask [x] vultures in the same region, without killing them (2-7)<br>NOTES: Vultures are allowed to die to other sources.<br><br>Waterproof challenge:<br>-Stay [x] seconds underwater in [y] region (32-38 seconds, any region with water)<br><br>Overcharge Challenge:<br>-Kill [x] centipedes with an electric spear (2-5) (small ones don't count)<br>NOTES: Only the killing blow is needed. The centipede can be weakened with regular spears.<br><br>Friends For All challenge:<br>-Tame [x] different species of lizards (3-11)<br><br>True Pin challenge:<br>-Pin [x] ALIVE creatures to any surface (ffs why could you do it with dead ones in the first place)<br><br>Deathless score challenge:<br>-Get global score without dying<br><br>Flytrap challenge:<br>-Feed a live vulture to a pole plant<br>NOTES: For the feed to count, the player must have recently hurt the vulture.<br><br>Fishtank challenge:<br>-Bring [x] unique hazers to the same body of water, alive (2-6).<br><br>Airstrike challenge:<br>-Throw a bomb downwards while flying to kill a creature.<br>NOTES: For 'flying' to count, slugcat must not touch the ground for at least 5 seconds.<br><br>Sky Offering challenge:<br>-Feed [x] critter alive to a vulture (eggbug/lanternmouse/jetfish)<br>NOTES: Any vulture counts, even miros.<br><br>Rotten Offering challenge:<br>-Feed [x] critter alive to a longlegs (eggbug/lmouse/cicada/yeek/jetfish)<br>NOTES: Any longlegs variant counts.<br>Jetfish might be impossible (too heavy to carry) for certain slugcats.<br><br>Apex Master challenge:<br>-Kill [x] creature (motherlonglegs, leviathan, stowaway, train lizard)<br>REQUIREMENTS: Access to said creatures, access to singularity bomb<br><br>Ranger challenge:<br>-Kill [x] amount of different creatures in one cycle (3-20)<br><br>Chef challenge:<br>-Kill [x] critter by throwing it into a zapper (eggbug/mouse/snail)<br><br>Dragon King challenge:<br>-Kill [x] types of lizards without dying (4-12)<br><br>Centipede King challenge:<br>-Kill [x] types of centipedes without dying (3-5)<br><br>Sea Collector challenge:<br>-Bring 4 aquatic critter species alive to the same body of water (snail, jetfish, hazer, jellyfish)<br><br><br>Do you have any suggestions? Feedback on any of these challenge? Feel free to share it below!<br><br>Also, for interested modders, developing new challenges is made easy with Expeditions Expanded! I have a guide on how to do so in the GitHub source code:<br>https://github.com/ShinyKelp/ExpeditionsExpanded",
+"desc": "[h3]QUICK NOTES[/h3]<br><br>-With this mod enabled, challenge filters will be remembered when you exit the game, and hidden challenges will respect those filters! (Neither of those is a thing in vanilla) So, don't be afraid to filter out and remove any challenge that isn't up your alley!<br><br>-Some of these challenges may require you to have additional mods installed, or otherwise they won't be physically possible, at least not for all slugcat campaigns.<br><br>Also, special thanks to TheVileOne for helping with ExpeditionRegionSupport compatibility!<br><br>[h3] ABOUT MODDED REGION SUPPORT [/h3]<br><br>Depending on the region, they might automatically get added to the list of available regions for the challenge, or they might not. If you want to ensure that they are available, you can do so manually per individual challenge:<br>Go to your rain world installation -> RainWorld_Data/StreamingAssets/ExpeditionsExpanded. (If last one doesn't exist, create it).<br>Create a txt file called with the name of the challenge. For the Lap challenge, for example, it would be 'LapChallenge.txt'.<br>In the file, write the modded regions as follows:<br>region_acronym<br>region_acronym<br>etc<br><br>For example:<br>BL<br>OA<br><br>That would whitelist Badlands and Aqueducts, and they would be added to the list of potential lap challenge regions.<br><br>Likewise, you can also [u]blacklist[/u] modded regions if you want or need to.<br>The process is the same, but simply add a '~' character to the name of the txt file. So instead of 'LapChallenges.txt', it would be '~LapChallenges.txt'.<br>All the regions specified in that file will never be added, even vanilla regions.<br><br>[h2] ==== IMPLEMENTED CHALLENGES ==== [/h2]<br><br>[b][u]Gourmet challenge[/u][/b]<br>-Eat [x] different edibles (3-12)<br>NOTES: Meat and large centipedes don't count.<br><br>[b][u]'Sandwich' challenge[/u][/b]<br>-Eat [x] mushrooms in one cycle (3-15)<br><br>[b][u]Flash challenge[/u][/b]<br>-Kill [x] amount of [y] creature while it's blinded (1-8, lizards/scavengers/dropwigs/vultures)<br><br>[b][u]Lap challenge[/u][/b]<br>-Enter [x] region twice in one cycle (any non-modded region with more than two gates)<br>NOTES: Exterior and Subterranean only appear at high difficulty.<br>If you have modded regions, you might have to blacklist them manually.<br><br>[b][u]Heist challenge[/u][/b]<br>-Steal a pearl from a toll in [x] different regions without paying, killing scavs, or chieftain (1-2).<br>NOTES: You must not have ANY chieftain progress for it to count. Your scav reputation must be bad.<br>You're allowed to kill scavs outside the toll room.<br>2 heists only required at max difficulty.<br><br>[b][u]Apex Expert challenge[/u][/b]<br>-Kill [x] amount of [y] creature without dying. (2-6) (Red lizard / red centipede / daddylonglegs / miros vulture)<br><br>[b][u]Sea Offering challenge[/u][/b]<br>-Feed [x] critters alive to a leviathan (1-3)<br>NOTES: For the feed to count, the player must have thrown the creature recently.<br>Critters: Cicadas, Jetfish, Eggbug, Yeek, Lantern mouse<br><br>[b][u]Generosity challenge[/u][/b]<br>-Give a vulture mask to [x] elite scavengers who do not have one (2-8)<br>REQUIREMENTS: Shiny Shield Mask (maskless elites chance)<br><br>[b][u]Gatekeeper challenge[/u][/b]<br>-Cross [x] amount of gates with [y] karma requirement or above in one cycle (2-4 gates, 3-5 karma)<br><br>[b][u]Waterproof challenge[/u][/b]<br>-Stay [x] seconds underwater in [y] region (32-38 seconds, any region with water)<br>NOTES: If you have modded regions without water, you might need to blacklist them manually (see method above)<br><br>[b][u]Deathless score challenge[/u][/b]<br>-Get global score without dying<br><br>[b][u]Friends For All challenge[/u][/b]<br>-Tame [x] different species of lizards (2-12)<br><br>[b][u]Fishtank challenge[/u][/b]<br>-Bring [x] unique hazers to the same body of water in [y] region, alive (2-8).<br>NOTES: If you have modded regions without water, you might need to blacklist them manually (see method above)<br><br>[b][u]Rotten Offering challenge[/u][/b]<br>-Feed [x] critters alive to longlegs (1-3)<br>NOTES: Any longleg works.<br>Critters: Cicadas, Jetfish, Eggbug, Yeek, Lantern mouse<br><br>[b][u]Apex Master challenge[/u][/b]<br>-Kill [x] creature (hunterlonglegs, train lizard, scavenger king)<br>REQUIREMENTS: Access to said creatures (Apex Up Your Spawns, Simple Spawn Swap, Enemy Randomizer, etc)<br><br>[b][u]Cycle Ranger challenge[/u][/b]<br>-Kill [x] amount of different creatures in one cycle (3-20)<br><br>[b][u]Global Ranger challenge[/u][/b]<br>-Kill [x] amount of different creatures (3-36)<br><br>[h2] ==== PLANNED CHALLENGES ====[/h2]<br><br>Sneak challenge:<br>-kill [x] amount of creatures inside of a hazer cloud<br><br>Sandwich pal challenge:<br>-Give [x] mushrooms to the same scavenger in one cycle (2-4)<br><br>Comradery challenge:<br>-Save a scavenger from danger [x] amount of times (1-5)<br><br>Pesticide challenge:<br>-Kill [y] insect creature type with a sporecloud (Spider/Dropwig/Centiwing/Aquapede )<br><br>Beekeeper challenge:<br>-Store [x] beehives in shelter (1-6)<br><br>Motherhood challenge:<br>-Become mother of [x] small noodleflies at the same time (2-8)<br><br>Demasker Master challenge:<br>-Demask [x] vultures in the same region, without killing them (2-7)<br>NOTES: Vultures are allowed to die to other sources.<br><br>Overcharge Challenge:<br>-Kill [x] centipedes with an electric spear (2-5) (small ones don't count)<br>NOTES: Only the killing blow is needed. The centipede can be weakened with regular spears.<br><br>True Pin challenge:<br>-Pin [x] ALIVE creatures to any surface (ffs why could you do it with dead ones in the first place)<br><br>Flytrap challenge:<br>-Feed a live vulture to a pole plant<br>NOTES: For the feed to count, the player must have recently hurt the vulture.<br><br>Airstrike challenge:<br>-Throw a bomb downwards while flying to kill a creature.<br>NOTES: For 'flying' to count, slugcat must not touch the ground for at least 5 seconds.<br><br>Sky Offering challenge:<br>-Feed [x] critter alive to a vulture (eggbug/lanternmouse/jetfish)<br>NOTES: Any vulture counts, even miros.<br><br>Chef challenge:<br>-Kill [x] critter by throwing it into a zapper (eggbug/mouse/snail)<br><br>Dragon King challenge:<br>-Kill [x] types of lizards without dying (4-12)<br><br>Centipede King challenge:<br>-Kill [x] types of centipedes without dying (3-5)<br><br>Sea Collector challenge:<br>-Bring 4 aquatic critter species alive to the same body of water (snail, jetfish, hazer, jellyfish)<br><br><br>Do you have any suggestions? Feedback on any of these challenge? Feel free to share it below!<br><br>Also, for interested modders, developing new challenges is made easy with Expeditions Expanded! I have a guide on how to do so in the GitHub source code:<br>https://github.com/ShinyKelp/ExpeditionsExpanded",
 "thumb": "previews/3258311387.png",
 "url": "https://andrew.fm/rainworld/raindb/Expedition_Challenges_Expanded.zip",
 "requirements": "",
 "tags": "",
-"order": 1901
+"order": 1904
 });
 
 Mods.push({
@@ -24644,7 +24683,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Azure_Lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 1902
+"order": 1905
 });
 
 Mods.push({
@@ -24656,7 +24695,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pain_World_Done_For.zip",
 "requirements": "rwremix,moreslugcats,slime-cubed.slugbase,trainfix",
 "tags": "Campaigns,Custom Slugcat",
-"order": 1903
+"order": 1906
 });
 
 Mods.push({
@@ -24669,7 +24708,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bubble_Weavers.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 1904
+"order": 1907
 });
 
 Mods.push({
@@ -24682,7 +24721,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rainworld_The_Nurse_HEAVY_WIP.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1905
+"order": 1908
 });
 
 Mods.push({
@@ -24695,7 +24734,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mizl_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1906
+"order": 1909
 });
 
 Mods.push({
@@ -24708,7 +24747,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_The_Nurse.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1907
+"order": 1910
 });
 
 Mods.push({
@@ -24721,7 +24760,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ScrybeOverText.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1908
+"order": 1911
 });
 
 Mods.push({
@@ -24734,7 +24773,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Impossible.zip",
 "requirements": "moreslugcats,slime-cubed.slugbase,dressmyslugcat",
 "tags": "Campaigns,Custom Slugcats",
-"order": 1909
+"order": 1912
 });
 
 Mods.push({
@@ -24747,7 +24786,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Alba_Sprites.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1910
+"order": 1913
 });
 
 Mods.push({
@@ -24760,7 +24799,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Angels_Halo.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1911
+"order": 1914
 });
 
 Mods.push({
@@ -24773,7 +24812,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/EveryRedLizard.zip",
 "requirements": "simplespawnswapper",
 "tags": "",
-"order": 1912
+"order": 1915
 });
 
 Mods.push({
@@ -24786,7 +24825,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Binscuits_Arenas.zip",
 "requirements": "",
 "tags": "Arena",
-"order": 1913
+"order": 1916
 });
 
 Mods.push({
@@ -24799,7 +24838,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slugmas.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1914
+"order": 1917
 });
 
 Mods.push({
@@ -24812,7 +24851,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cloudburst_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1915
+"order": 1918
 });
 
 Mods.push({
@@ -24825,7 +24864,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cloudburst_Lizards.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper,moreslugcats",
 "tags": "Creatures",
-"order": 1916
+"order": 1919
 });
 
 Mods.push({
@@ -24838,7 +24877,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pause_Controller_Switcher.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "",
-"order": 1917
+"order": 1920
 });
 
 Mods.push({
@@ -24846,12 +24885,12 @@ Mods.push({
 "id": "Slugrobe",
 "workshop_id": "3260784358",
 "author": "Freedude45",
-"desc": "Adds two greyscale robes for your slucats to wear.  Now featuring shorter variants intended for slug pup use!  When using the default tail I like setting the tail to length 3 wideness 0.3 and roundness 1.5.  I also like mixing the heads from cut scene slugcats with my robes.",
+"desc": "Adds two greyscale robes for your slucats to wear.There are shorter variants intended for slug pup use.  There is now a torn variant of the arms hips and tail!	When using the default tail I like setting the tail to length 3 wideness 0.3 and roundness 1.5.  When useing the torn tail set the Wideness to max.  When useing the torn hips I like to change or darken the color of the legs to maintain detail.",
 "thumb": "previews/3260784358.png",
 "url": "https://andrew.fm/rainworld/raindb/Slug_Robe.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1918
+"order": 1921
 });
 
 Mods.push({
@@ -24863,7 +24902,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Formidable_Realities_WIP.zip",
 "requirements": "moreslugcats",
 "tags": "Cosmetics,Campaigns,Creatures",
-"order": 1919
+"order": 1922
 });
 
 Mods.push({
@@ -24876,7 +24915,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Slingshot_from_PHIGHTING.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1920
+"order": 1923
 });
 
 Mods.push({
@@ -24889,7 +24928,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_Sphynx_Slugcat_Pride_Sweaters.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1921
+"order": 1924
 });
 
 Mods.push({
@@ -24902,7 +24941,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/funger_slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1922
+"order": 1925
 });
 
 Mods.push({
@@ -24915,7 +24954,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lineage_Visualizer.zip",
 "requirements": "",
 "tags": "Tools",
-"order": 1923
+"order": 1926
 });
 
 Mods.push({
@@ -24928,7 +24967,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMS_Garn_47_Pack.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1924
+"order": 1927
 });
 
 Mods.push({
@@ -24941,7 +24980,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/EveryRedCenti.zip",
 "requirements": "simplespawnswapper",
 "tags": "",
-"order": 1925
+"order": 1928
 });
 
 Mods.push({
@@ -24954,7 +24993,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Artist.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1926
+"order": 1929
 });
 
 Mods.push({
@@ -24967,7 +25006,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Flyska_slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1927
+"order": 1930
 });
 
 Mods.push({
@@ -24979,7 +25018,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Infinite_Batflies.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1928
+"order": 1931
 });
 
 Mods.push({
@@ -24992,7 +25031,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pastrug__DMS_skin.zip",
 "requirements": "",
 "tags": "",
-"order": 1929
+"order": 1932
 });
 
 Mods.push({
@@ -25005,7 +25044,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/uuuuuurrh.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1930
+"order": 1933
 });
 
 Mods.push({
@@ -25018,7 +25057,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sea_Lizards_WIP.zip",
 "requirements": "lizardcustomizer",
 "tags": "Lizards",
-"order": 1931
+"order": 1934
 });
 
 Mods.push({
@@ -25031,7 +25070,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Storms_Fixes_and_Tweaks.zip",
 "requirements": "rwremix",
 "tags": "Game Mechanics",
-"order": 1932
+"order": 1935
 });
 
 Mods.push({
@@ -25044,7 +25083,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Caras_geniales_para_vanilla_Dummys_cool_vanilla_faces.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1933
+"order": 1936
 });
 
 Mods.push({
@@ -25052,12 +25091,12 @@ Mods.push({
 "id": "NCR.theunbound",
 "workshop_id": "3262661679",
 "author": "NeonCityRain",
-"desc": "'I was never supposed to be here.'<br>A slugcat with Cyan-lizard-like abilities and a unique overseer friend struggles to survive in a world already built to take down someone like him.<br>Jump a second time in the air... and a third time after long-jumping! His rings change colour depending on its recharge.<br><br>A custom slugcat originally uploaded for 1.9.06 and released for it, updated.<br>Timeline-wise, Unbound is set between Artificer and Hunter post-Moon collapse. Some rooms have been fully level edited to reflect this.<br>Downpour is not necessary, but is heavily recommended to fully enjoy exploring.<br>No ending (yet), changes to Iterator dialogue, much of which will be changed in a future update.<br><br>I am not taking criticism; I made this for fun. Thank you.<br><br><br><br>[h1]Compatibilities[/h1]<br>Fake Achievements- planned<br>Push to Meow- planned<br><br>[h1]Incompatibilities and Dependencies[/h1]<br>No known incompatibilities. If you find one, please let me know- I wish to make this mod as compatible as possible!<br>Slugbase is the only dependency, world files and item information was edited and coded in by hand.<br><br>[h1]Links[/h1]<br>Error Reporting Thread: https://steamcommunity.com/workshop/filedetails/discussion/3262661679/4343239957177356958/<br>Github: https://github.com/neoncityrain/NCRUnbound<br>Wiki: https://rainworldmods.miraheze.org/wiki/Unbound<br>Discord Server: https://discord.gg/EmPJh7s2dY<br>Artfight profile: https://artfight.net/character/4449687.the-unbound<br><br>[h1]Credits[/h1]<br>[b]Ice Fox of Camelot / Pix:[/b] music<br>[b]Agriocnemis / Ymir:[/b] helping code, keeping me from spontaneously combusting over math, and quality testing dialogue<br>[b]Pink:[/b] Design, reference, and optional included dress my slugcat skin<br>Special thanks also goes to [b]Scuglat[/b], who encouraged me to revisit this mod.<br><br>[img]https://64.media.tumblr.com/832e7c268608a3eb3485dcfa160016fe/54c107dad43f1e23-16/s640x960/32b1bd5cc88c3a60ab840c360d0b96ff20b95a68.png[/img]",
+"desc": "'I was never supposed to be here.'<br>A slugcat with Cyan-lizard-like abilities and a unique overseer friend struggles to survive in a world already built to take down someone like him.<br>Jump a second time in the air... and a third time after long-jumping! His rings change colour depending on its recharge.<br><br>A custom slugcat originally uploaded for 1.9.06 and released for it, updated.<br>Timeline-wise, Unbound is set between Artificer and Hunter post-Moon collapse. Some rooms have been fully level edited to reflect this.<br>Downpour is not necessary, but is heavily recommended to fully enjoy exploring.<br>No ending (yet), changes to Iterator dialogue, much of which will be changed in a future update.<br><br>I am not taking criticism; I made this for fun. Thank you.<br><br><br><br>[h1]Compatibilities[/h1]<br>Fake Achievements- planned<br>Push to Meow- planned<br><br>[h1]Incompatibilities and Dependencies[/h1]<br>No known incompatibilities. If you find one, please let me know- I wish to make this mod as compatible as possible!<br>Slugbase is the only dependency, world files and item information was edited and coded in by hand.<br><br>[h1]Links[/h1]<br>Github: https://github.com/neoncityrain/NCRUnbound<br>Wiki: https://rainworldmods.miraheze.org/wiki/Unbound<br>Discord Server: https://discord.gg/EmPJh7s2dY<br>Artfight profile: https://artfight.net/character/4449687.the-unbound<br><br>[h1]Credits[/h1]<br>[b]Ice Fox of Camelot / Pix:[/b] music<br>[b]Agriocnemis / Ymir:[/b] helping code, keeping me from spontaneously combusting over math, and quality testing dialogue<br>[b]Pink:[/b] Design, reference, and optional included dress my slugcat skin<br>[b]Scuglat / CritterHeart[/b]: Encouraging me to revisit this mod, optional included dress my slugcat skin<br><br>[img]https://64.media.tumblr.com/832e7c268608a3eb3485dcfa160016fe/54c107dad43f1e23-16/s640x960/32b1bd5cc88c3a60ab840c360d0b96ff20b95a68.png[/img]",
 "thumb": "previews/3262661679.png",
 "url": "https://andrew.fm/rainworld/raindb/The_Unbound_Slugcat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns,Custom Slugcat",
-"order": 1934
+"order": 1937
 });
 
 Mods.push({
@@ -25069,7 +25108,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Forsaken_Ruins.zip",
 "requirements": "",
 "tags": "",
-"order": 1935
+"order": 1938
 });
 
 Mods.push({
@@ -25082,7 +25121,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Everyone_gets_Rivulet_Timer.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1936
+"order": 1939
 });
 
 Mods.push({
@@ -25095,7 +25134,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Ambidextrous_cosmetic.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1937
+"order": 1940
 });
 
 Mods.push({
@@ -25108,7 +25147,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Electric_Lizard.zip",
 "requirements": "fisobs",
 "tags": "Creatures",
-"order": 1938
+"order": 1941
 });
 
 Mods.push({
@@ -25121,7 +25160,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Yeek_Mauling_Fix.zip",
 "requirements": "moreslugcats",
 "tags": "",
-"order": 1939
+"order": 1942
 });
 
 Mods.push({
@@ -25134,7 +25173,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Push_to_WAA_hessis_sounds_with_andreweathan.zip",
 "requirements": "pushtomeow",
 "tags": "",
-"order": 1940
+"order": 1943
 });
 
 Mods.push({
@@ -25147,7 +25186,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_Wolrd_R47_Hell_Level_of_Missions.zip",
 "requirements": "expedition,moreslugcats",
 "tags": "",
-"order": 1941
+"order": 1944
 });
 
 Mods.push({
@@ -25160,7 +25199,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/fizzys_ear_tufts.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1942
+"order": 1945
 });
 
 Mods.push({
@@ -25172,7 +25211,20 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Train_Fix.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "Accessibility,Game Mechanics",
-"order": 1943
+"order": 1946
+});
+
+Mods.push({
+"name": "Jukebox Anywhere",
+"id": "olaycolay.jukeboxanywhere",
+"workshop_id": "3264144524",
+"author": "OlayColay",
+"desc": "Use the Expedition Jukebox during gameplay! This was an idea originally suggested by Niaveterror815 on the Vinki server, but I think it's something we've all been wanting!<br><br>[h3]Features:[/h3][list]<br>[*]Play songs from the jukebox anywhere during gameplay<br>[*]Optionally turn off the Expedition requirements for unlocking songs<br>[*]Optionally add modded songs to the jukebox (does not include treat themes)<br>[/list]<br><br>[h3]Recommended Mods:[/h3][list]<br>[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3237307999&searchtext=audio+fixe]Audio Fix[/url]: For getting rid of weird sound issues<br>[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2924356705&searchtext=music+announcements]Music Announcements[/url]: See what songs are triggered by the game so that it's easy to find them later!<br>[/list]<br><br>[h3]Known Bugs and Incompatible Mods:[/h3][list]<br>[*][strike][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2977508597&searchtext=merge+fix]Merge Fix[/url]: (Yes, for real lol) Nothing major - for some reason it converts all of the modded song names to lowercase in the Jukebox[/strike] Fixed by 'Clean Song Names' option!<br>[*]Crashing when skipping through modded songs fast sometimes<br>[/list]<br><br>[h2]If you find any bugs or want to suggest features, please let us know on [url=https://discord.gg/hqpBUTrNzh]The Vinki discord server[/url], or [b]@OlayColay[/b] on the [url=https://discord.gg/rainworld]Rain World server[/url]![/h2]<br><br>Thank you to Beep for the thumbnail, and MaxDubstep for the gen alpha attention grabber screenshot!<br>",
+"thumb": "previews/3264144524.png",
+"url": "https://andrew.fm/rainworld/raindb/Jukebox_Anywhere.zip",
+"requirements": "expedition",
+"tags": "Game Mechanics,Tools",
+"order": 1947
 });
 
 Mods.push({
@@ -25185,7 +25237,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_World_But_if_you_die_you_get_doxxed.zip",
 "requirements": "",
 "tags": "why on earth would you download this",
-"order": 1944
+"order": 1948
 });
 
 Mods.push({
@@ -25198,7 +25250,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cirnos_Slugcat_Mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1945
+"order": 1949
 });
 
 Mods.push({
@@ -25211,7 +25263,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/AltInvMeow.zip",
 "requirements": "3257541402",
 "tags": "Cosmetics",
-"order": 1946
+"order": 1950
 });
 
 Mods.push({
@@ -25223,7 +25275,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Voidsea_Fix.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "",
-"order": 1947
+"order": 1951
 });
 
 Mods.push({
@@ -25231,12 +25283,12 @@ Mods.push({
 "id": "neckro.comewithme",
 "workshop_id": "3264872287",
 "author": "Neckrotik",
-"desc": "Ever wanted to carry your tamed lizard around like a wittle baby?<br><br>Ever wanted to bring a green lizard into submerged superstructure for some reason?<br><br>Tired of your dimwit adopted child's trash pathfinding?<br><br>Well then this mod is for you!<br><br>This neat mod allows you to carry around your scaly baby like a weightless sack of potatoes!<br><br>It stuns them and prevents them from drowning so you can carry them around everywhere!<br><br>So now you don't have to worry about leaving them behind!<br><br>Notes:<br><br>There is an option to set the grabability for the tamed lizards.<br><br>There are options for grabbing wild lizards and other people's tamed lizards.<br><br>There is an option to tame wild lizards by grabbing them, so you can go around 'catching' lizards >:3",
+"desc": "Ever wanted to carry your tamed lizard around like a wittle baby?<br><br>Ever wanted to bring a green lizard into submerged superstructure for some reason?<br><br>Tired of your dimwit adopted child's trash pathfinding?<br><br>Well then this mod is for you!<br><br>This neat mod allows you to carry around your scaly baby like a weightless sack of potatoes!<br><br>It stuns them and prevents them from drowning so you can carry them around everywhere!<br><br>So now you don't have to worry about leaving them behind!<br><br>Notes:<br><br>!INCOMPATIBLE WITH RIDEABLE LIZARDS!<br><br>There are options for:<br>-Grabbing other players' tamed lizards<br>-Grabbing wild lizards<br>-Taming wild lizards on grabbing (so you can go around 'catching' lizards >:3)<br>-Preventing mauling while carrying lizards (normal dragging does not apply)<br>-Preventing SlugNPCs (Slugpups) from grabbing lizards",
 "thumb": "previews/3264872287.png",
 "url": "https://andrew.fm/rainworld/raindb/Come_With_Me.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1948
+"order": 1952
 });
 
 Mods.push({
@@ -25249,7 +25301,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Unofficial_Lizard_Expansion.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper",
 "tags": "",
-"order": 1949
+"order": 1953
 });
 
 Mods.push({
@@ -25262,7 +25314,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Gilded_Sanctuary.zip",
 "requirements": "crs,regionkit",
 "tags": "Regions",
-"order": 1950
+"order": 1954
 });
 
 Mods.push({
@@ -25275,7 +25327,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Arid_Barrens.zip",
 "requirements": "crs,regionkit,rwremix",
 "tags": "Regions",
-"order": 1951
+"order": 1955
 });
 
 Mods.push({
@@ -25288,7 +25340,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Yo_me.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1952
+"order": 1956
 });
 
 Mods.push({
@@ -25301,7 +25353,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pride_Flag_Rainbows.zip",
 "requirements": "",
 "tags": "",
-"order": 1953
+"order": 1957
 });
 
 Mods.push({
@@ -25314,7 +25366,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ketralines_Rain_World_OCs.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1954
+"order": 1958
 });
 
 Mods.push({
@@ -25327,7 +25379,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Old_World.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper",
 "tags": "",
-"order": 1955
+"order": 1959
 });
 
 Mods.push({
@@ -25340,7 +25392,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Emilys_Fixes_and_Tweaks.zip",
 "requirements": "",
 "tags": "Game Mechanics",
-"order": 1956
+"order": 1960
 });
 
 Mods.push({
@@ -25353,7 +25405,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Goblins_Elemental_Lizard_Spawns.zip",
 "requirements": "ElementLizard",
 "tags": "Creatures",
-"order": 1957
+"order": 1961
 });
 
 Mods.push({
@@ -25361,12 +25413,12 @@ Mods.push({
 "id": "hurricane",
 "workshop_id": "3266657589",
 "author": "zevdragon",
-"desc": "[i]'An ultra hard difficulty mode. Less shelters, stricter requirements, and much fiercer creatures and environments.'[/i]<br><br>This is a port of the Hurricane Mod by Mikronaut from version 1.01 of Rain World, in the form of a new playable campaign featuring more dangerous creatures and regions. Works with Expedition, Safari Mode, Jolly Coop, and more. This mod also has an option to allow Red Lizards to be overgrown in all campaigns.<br><br>This mod was designed for use in the base-game only, so it may break if used with certain other mods. Let me know if anything doesn't work correctly, or is inaccurate to the original mod, in the [url=https://steamcommunity.com/workshop/filedetails/discussion/3266657589/4333106230735438405/]Bug Reports[/url] section (unless the bug is related to Lizard Customizer). Lizard Customizer breaks lizards in several different ways and is not supported by this mod.<br><br>You need [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3263984364]Train Fix[/url] and the Downpour DLC for this mod to work as intended.<br><br>[h3]Known Incompatibilities:[/h3]<br>Lizard Customizer",
+"desc": "An ultra hard difficulty mode. Less shelters, stricter requirements, and much fiercer creatures and environments.",
 "thumb": "previews/3266657589.png",
 "url": "https://andrew.fm/rainworld/raindb/Hurricane_Mod.zip",
 "requirements": "rwremix,moreslugcats,slime-cubed.slugbase,trainfix",
 "tags": "Campaigns,Custom Slugcat",
-"order": 1958
+"order": 1962
 });
 
 Mods.push({
@@ -25379,7 +25431,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Druid_dress_my_slugcat_mod.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1959
+"order": 1963
 });
 
 Mods.push({
@@ -25392,7 +25444,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Melody_DMS_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1960
+"order": 1964
 });
 
 Mods.push({
@@ -25405,7 +25457,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Tempest.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1961
+"order": 1965
 });
 
 Mods.push({
@@ -25417,7 +25469,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/OEcent.zip",
 "requirements": "",
 "tags": "",
-"order": 1962
+"order": 1966
 });
 
 Mods.push({
@@ -25429,7 +25481,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NeuroWorm.zip",
 "requirements": "",
 "tags": "",
-"order": 1963
+"order": 1967
 });
 
 Mods.push({
@@ -25441,7 +25493,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ordovician_critters.zip",
 "requirements": "",
 "tags": "",
-"order": 1964
+"order": 1968
 });
 
 Mods.push({
@@ -25454,7 +25506,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Brighter_Filtration_System.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1965
+"order": 1969
 });
 
 Mods.push({
@@ -25467,7 +25519,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Sound_Shuffler.zip",
 "requirements": "",
 "tags": "I'm going mad",
-"order": 1966
+"order": 1970
 });
 
 Mods.push({
@@ -25479,7 +25531,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rubicon_Eel_Lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 1967
+"order": 1971
 });
 
 Mods.push({
@@ -25492,7 +25544,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Squire_DMS_skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1968
+"order": 1972
 });
 
 Mods.push({
@@ -25505,7 +25557,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/BuffyOverflows_Slugcat.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1969
+"order": 1973
 });
 
 Mods.push({
@@ -25517,7 +25569,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Void_Dipped_Lizards.zip",
 "requirements": "",
 "tags": "",
-"order": 1970
+"order": 1974
 });
 
 Mods.push({
@@ -25530,7 +25582,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Crispy_Saint_Meow.zip",
 "requirements": "pushtomeow",
 "tags": "mrow,Cosmetics,Game Mechanics",
-"order": 1971
+"order": 1975
 });
 
 Mods.push({
@@ -25544,7 +25596,7 @@ Mods.push({
 "video": "https://www.youtube.com/@-wolfy",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1972
+"order": 1976
 });
 
 Mods.push({
@@ -25557,7 +25609,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Tuft.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1973
+"order": 1977
 });
 
 Mods.push({
@@ -25570,7 +25622,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/MissingCat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1974
+"order": 1978
 });
 
 Mods.push({
@@ -25583,7 +25635,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cutscene_Debug_Tools.zip",
 "requirements": "devtools",
 "tags": "Tools",
-"order": 1975
+"order": 1979
 });
 
 Mods.push({
@@ -25595,7 +25647,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Tamik.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1976
+"order": 1980
 });
 
 Mods.push({
@@ -25608,7 +25660,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Train_centipede.zip",
 "requirements": "fisobs,lb-fgf-m4r-ik.custom-centis,simplespawnswapper",
 "tags": "Creatures",
-"order": 1977
+"order": 1981
 });
 
 Mods.push({
@@ -25616,12 +25668,12 @@ Mods.push({
 "id": "presstopup",
 "workshop_id": "3270131462",
 "author": "Quansly",
-"desc": "Spawn Pup with just one button!<br>The spawn button can be changed in the regular control settings.<br><br>[u]Note for people using a gamepad:[/u]<br>I didn’t bind the buttons for the gamepad because I don’t know what would be better due to the lack of a gamepad name, so don’t be alarmed if pup doesn’t spawn.<br><br>This is my first and simplest mod that I have ever created. He is a kind of experiment for me. Therefore, do not hesitate to post your suggestions in the comments or in a special discussion.<br><br>[h3]1.0.3[/h3]<br>[b][strike]Now when you reach your limit of pups, they will be eaten by the void.[/strike]<br>Added the ability to delete extra pups when the limit has reached its limit, and now you can spam spawn pups simply by enabling the desired function in the Remix settings.[/b]<br><br>[h3]1.0.2[/h3]<br>[b]The ability to limit the number of pups has been added, and this restriction can also be disabled. The number of pups and the limit can be disabled in the Remix settings.[/b]<br><br>[h3]1.0.1[/h3]<br>[b]Added Pups multiplier per button press. Can be adjusted in the Remix menu from 1 to 8.[/b]",
+"desc": "Spawn Pup with just one button!<br>The spawn button can be changed in the regular control settings.<br><br>[u]Note for people using a gamepad:[/u]<br>I didn’t bind the buttons for the gamepad because I don’t know what would be better due to the lack of a gamepad name, so don’t be alarmed if pup doesn’t spawn.<br><br>This is my first and simplest mod that I have ever created. He is a kind of experiment for me. Therefore, do not hesitate to post your suggestions in the comments or in a special discussion.<br><br>[h3]1.1.0.1[/h3]<br>[b]Added loggers and... that's all.[/b]<br><br>[h3]1.1.0 The not small update![/h3]<br>[b]Now the void will not eat pups that were not spawned by this mod.<br>If you've played story mode with this mod (seriously?), then good news for you! Now, at the end of the cycle, all pups will be eaten by the void![/b]<br><br>[h3]1.0.3[/h3]<br>[b][strike]Now when you reach your limit of pups, they will be eaten by the void.[/strike]<br>Added the ability to delete extra pups when the limit has reached its limit, and now you can spam spawn pups simply by enabling the desired function in the Remix settings.[/b]<br><br>[h3]1.0.2[/h3]<br>[b]The ability to limit the number of pups has been added, and this restriction can also be disabled. The number of pups and the limit can be disabled in the Remix settings.[/b]<br><br>[h3]1.0.1[/h3]<br>[b]Added Pups multiplier per button press. Can be adjusted in the Remix menu from 1 to 8.[/b]",
 "thumb": "previews/3270131462.png",
 "url": "https://andrew.fm/rainworld/raindb/Press_P_to_spawn_pup.zip",
 "requirements": "moreslugcats,improved-input-config",
 "tags": "Creatures",
-"order": 1978
+"order": 1982
 });
 
 Mods.push({
@@ -25634,7 +25686,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_BeyondDMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1979
+"order": 1983
 });
 
 Mods.push({
@@ -25647,7 +25699,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Loopcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1980
+"order": 1984
 });
 
 Mods.push({
@@ -25660,7 +25712,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Jalapeños_Skin.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1981
+"order": 1985
 });
 
 Mods.push({
@@ -25673,7 +25725,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Adaptable.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Custom Slugcat",
-"order": 1982
+"order": 1986
 });
 
 Mods.push({
@@ -25686,7 +25738,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/You_should_ascend_yourself_NOW.zip",
 "requirements": "moreslugcats",
 "tags": "Cosmetics",
-"order": 1983
+"order": 1987
 });
 
 Mods.push({
@@ -25699,7 +25751,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Rain_Drones_Skinpack_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1984
+"order": 1988
 });
 
 Mods.push({
@@ -25712,7 +25764,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/FOOTBALL_IS_BACK_BABY.zip",
 "requirements": "",
 "tags": "",
-"order": 1985
+"order": 1989
 });
 
 Mods.push({
@@ -25725,7 +25777,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/CERTIFIABLE_GOOBER_Maggie.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1986
+"order": 1990
 });
 
 Mods.push({
@@ -25738,7 +25790,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Snoutmaster.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1987
+"order": 1991
 });
 
 Mods.push({
@@ -25751,7 +25803,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/DMSNINE_SOLS_羿.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1988
+"order": 1992
 });
 
 Mods.push({
@@ -25764,7 +25816,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ruby_and_Sapphire.zip",
 "requirements": "lizardcustomizer",
 "tags": "Creatures",
-"order": 1989
+"order": 1993
 });
 
 Mods.push({
@@ -25776,7 +25828,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Skink_Lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 1990
+"order": 1994
 });
 
 Mods.push({
@@ -25789,7 +25841,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Pickelcat_mod.zip",
 "requirements": "",
 "tags": "Cosmetics",
-"order": 1991
+"order": 1995
 });
 
 Mods.push({
@@ -25802,7 +25854,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/OC_SpidermanArda_dms.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1992
+"order": 1996
 });
 
 Mods.push({
@@ -25810,12 +25862,12 @@ Mods.push({
 "id": "morelizard",
 "workshop_id": "3272244658",
 "author": "sNif145",
-"desc": "Please I need a artist to draw me a interesting thumbnail. PING ME IN LIZARD CUSTOMIZER DISCORD!!<br><br><br>Adds More Fresh Vanilla lizards, Recomnend to use when playing a a story again as it will offer new challange.<br><br>Change:<br>Now:<br> -1 new lizard<br> -fix some reputaion and buff some lizards<br><br>Past:<br> -1 new zard<br> -rip fish<br> -ulrakiller<br>",
+"desc": "This mod not gonna be updated anymore i guess, if there someone that make a BIGGER SANDBOX PANEL this mod may recieve more update,<br>other update mostly just be reputaion fiz or smth. pls atleast make this mod have 2 star rating<br><br>Adds More Fresh Vanilla lizards, Recomnend to use when playing a a story again as it will offer new challange.<br><br>Change:<br>Now:<br> -remove the lizard becasue it dont fit and it broke the sandbox panel<br> <br><br>Past:<br> -1 new lizard",
 "thumb": "previews/3272244658.png",
 "url": "https://andrew.fm/rainworld/raindb/More_Lizard.zip",
 "requirements": "lizardcustomizer,simplespawnswapper",
 "tags": "Campaigns,Creatures",
-"order": 1993
+"order": 1997
 });
 
 Mods.push({
@@ -25828,7 +25880,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Archaic_Facility.zip",
 "requirements": "moreslugcats,rwremix,crs,regionkit,myr.moss_fields,coral.caves,bry.bubbleweavers,drainmites,lb-fgf-m4r-ik.noodle-eater",
 "tags": "Regions",
-"order": 1994
+"order": 1998
 });
 
 Mods.push({
@@ -25841,7 +25893,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Histoire.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1995
+"order": 1999
 });
 
 Mods.push({
@@ -25854,7 +25906,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Mosquitoes.zip",
 "requirements": "",
 "tags": "Creatures",
-"order": 1996
+"order": 2000
 });
 
 Mods.push({
@@ -25862,12 +25914,12 @@ Mods.push({
 "id": "Averyswagshit",
 "workshop_id": "3273464322",
 "author": "Avery",
-"desc": "13 Arenas based off of regions that dont exist yet and some other shite.<br><br>NOW WITH CREATURES<br><br>I WILL continue to make more arenas in the future<br><br>Lore doc explaining each region the arenas are based off of will be coming eventually",
+"desc": "15 Arenas based off of regions that    dont exist     yet and some other shite.<br><br>I WILL continue to make more arenas in the future<br><br>Lore doc explaining each region the arenas are based off of will be coming eventually",
 "thumb": "previews/3273464322.png",
 "url": "https://andrew.fm/rainworld/raindb/Averys_Swag_Ass_Arena_Pack.zip",
 "requirements": "",
 "tags": "",
-"order": 1997
+"order": 2001
 });
 
 Mods.push({
@@ -25880,7 +25932,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Car_garn47_Head__Face.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1998
+"order": 2002
 });
 
 Mods.push({
@@ -25893,7 +25945,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Kinito.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 1999
+"order": 2003
 });
 
 Mods.push({
@@ -25905,7 +25957,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Energetic_Lizard.zip",
 "requirements": "",
 "tags": "",
-"order": 2000
+"order": 2004
 });
 
 Mods.push({
@@ -25918,7 +25970,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Beacongami84173s_The_Beacon_DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 2001
+"order": 2005
 });
 
 Mods.push({
@@ -25931,7 +25983,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/TREPANG2_Slugcats.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 2002
+"order": 2006
 });
 
 Mods.push({
@@ -25943,7 +25995,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Centifly.zip",
 "requirements": "",
 "tags": "",
-"order": 2003
+"order": 2007
 });
 
 Mods.push({
@@ -25956,7 +26008,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Cutscene_Slugcats_Alt_eyes_for_everyone.zip",
 "requirements": "dressmyslugcat,auroscug.cutscenecats",
 "tags": "Cosmetics",
-"order": 2004
+"order": 2008
 });
 
 Mods.push({
@@ -25969,7 +26021,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/enot_normal_meow.zip",
 "requirements": "pushtomeow",
 "tags": "Cosmetics",
-"order": 2005
+"order": 2009
 });
 
 Mods.push({
@@ -25981,7 +26033,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/End_of_the_Marked.zip",
 "requirements": "",
 "tags": "",
-"order": 2006
+"order": 2010
 });
 
 Mods.push({
@@ -25994,7 +26046,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Final_Frontier.zip",
 "requirements": "slime-cubed.slugbase",
 "tags": "Campaigns,Regions,Custom Slugcat",
-"order": 2007
+"order": 2011
 });
 
 Mods.push({
@@ -26007,7 +26059,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Ghost_Trick_Cat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 2008
+"order": 2012
 });
 
 Mods.push({
@@ -26020,7 +26072,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/lobmaster_lobss_design_of_spearmaster_dms.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 2009
+"order": 2013
 });
 
 Mods.push({
@@ -26033,7 +26085,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Bastardverse_DMS_3.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 2010
+"order": 2014
 });
 
 Mods.push({
@@ -26047,7 +26099,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCE5xOrEkVP_Q2SZUMQ4Lm1g",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 2011
+"order": 2015
 });
 
 Mods.push({
@@ -26060,7 +26112,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Auto_Destruct_Mod_fixed.zip",
 "requirements": "",
 "tags": "",
-"order": 2012
+"order": 2016
 });
 
 Mods.push({
@@ -26074,7 +26126,7 @@ Mods.push({
 "video": "https://www.youtube.com/channel/UCyRR3FB7FsPhJjsRc43k8bw",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 2013
+"order": 2017
 });
 
 Mods.push({
@@ -26087,7 +26139,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/My_Rain_World_AU_Map_Replacement.zip",
 "requirements": "rwremix,moreslugcats",
 "tags": "Cosmetics",
-"order": 2014
+"order": 2018
 });
 
 Mods.push({
@@ -26099,7 +26151,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Carboniferous_world.zip",
 "requirements": "",
 "tags": "",
-"order": 2015
+"order": 2019
 });
 
 Mods.push({
@@ -26107,12 +26159,12 @@ Mods.push({
 "id": "errantmasses",
 "workshop_id": "3277264888",
 "author": "jrextodamax",
-"desc": "A small-ish creature mod meant to add more hostility to rain world's ecosystem, aswell as more biodiversity and interesting creature interactions.<br>This adds 6 new Lizards, and 4 new Centipedes.",
+"desc": "This mod is meant to add more hostility to rain world's ecosystem.",
 "thumb": "previews/3277264888.png",
 "url": "https://andrew.fm/rainworld/raindb/Errant_Masses.zip",
 "requirements": "lizardcustomizer,spitanything,simplespawnswapper,lb-fgf-m4r-ik.custom-centis,fisobs",
 "tags": "",
-"order": 2016
+"order": 2020
 });
 
 Mods.push({
@@ -26125,7 +26177,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/NCRs_Rainbower_Scavengers.zip",
 "requirements": "",
 "tags": "",
-"order": 2017
+"order": 2021
 });
 
 Mods.push({
@@ -26138,7 +26190,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/The_Carrion__DMS.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 2018
+"order": 2022
 });
 
 Mods.push({
@@ -26151,7 +26203,7 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Lantern_Slugcat.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 2019
+"order": 2023
 });
 
 Mods.push({
@@ -26164,7 +26216,33 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Moi_and_Noi_in_the_rainy_worl_REMASTERED_3.zip",
 "requirements": "dressmyslugcat",
 "tags": "Cosmetics",
-"order": 2020
+"order": 2024
+});
+
+Mods.push({
+"name": "Black Mage (Final Fantasy)",
+"id": "black.mage",
+"workshop_id": "3277792127",
+"author": "KaijuPvppy",
+"desc": "Black Mage from Final Fantasy Series if you squint<br><br>I wanted to try making my own little guy to fuck around with and I really enjoy the old black mage designs, so I wanted to bring them to Rain World. They're a little janky and look a bit off because I 1.) started this at 2 am and finished at 4:51 am and 2.) don't know how to draw or do pixel art, so all things considered they could have looked much much worse.",
+"thumb": "previews/3277792127.png",
+"url": "https://andrew.fm/rainworld/raindb/Black_Mage_Final_Fantasy.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2025
+});
+
+Mods.push({
+"name": "The Backrooms",
+"id": "znery.backrooms",
+"workshop_id": "3278042505",
+"author": "znery",
+"desc": "It's a maze, it's a mess, it's coming for you and it's gonna get you. <br>It's The Backrooms<br><br>Awesome review by Lolight2!!! Tysm!!<br><br>connects to all 15 regions survivor has access to<br>look for rooms that has gate entrances and  'sus'  out the one into the backrooms  'among'  them<br><br>v1.1 <br>theres now a scary creature <br>configurable in the settings<br><br>current plans:<br>others levels of the backrooms",
+"thumb": "previews/3278042505.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Backrooms.zip",
+"requirements": "bro.mergefix",
+"tags": "Regions",
+"order": 2026
 });
 
 Mods.push({
@@ -26177,6 +26255,632 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/Objection_Cat.zip",
 "requirements": "pushtomeow",
 "tags": "",
-"order": 2021
+"order": 2027
+});
+
+Mods.push({
+"name": "killing and murder expeditions",
+"id": "soaricarus.killingandmurder",
+"workshop_id": "3279126872",
+"author": "soaricarus",
+"desc": "killing and murder expeditions. includes a whole heap of killing and murder expeditions. lots of lizard, vulture, and in general creature murder, as well as a scavenger massacre expedition.<br>also includes some misc expeditions!<br>use whatever boosts, these are meant to be fun!<br>OPEN EXPEDITION, SELECT A SLUGCAT, GO TO PROGRESSION AND THEN THERE SHOULD BE A 'CUSTOM' WHERE THE PROGRESSION BUTTON WAS. this should show the custom expeditions!<br><br><br>EXPEDITION LIST<br>survivor:<br>- 100 neuron delivery<br>- fetch quest: hoard a bunch of items. i made sure one mission was possible in one region alone, so you didn't have to run around everywhere. but it's still tedious<br>- good riddance: kill 15 jetfish, kill 10 snails<br>monk:<br>- 1000 neuron delivery<br>hunter:<br>- dragonslayer: kill 25 cyan lizards, kill 20 black lizards, kill 20 blue lizards, kill 20 green lizards, kill 20 yellow lizards, kill 20 pink lizards, kill 20 salamanders, kill 20 white lizards, kill 10 red lizards, kill 10 eels, kill 5 caramel lizards, kill 3 strawberry lizards<br>- catastropede: gain saint passage, kill 20 red centipedes, kill 30 big centipedes, kill 20 small centipedes, kill 10 centiwings, kill 1 aquapede<br>gourmand: <br>- fish stew: kill 5 jet fish, kill 2 pole mimics, kill 2 monster kelp, kill 2 salamanders<br>artificer:<br>- scavanger massacre: get 1000 kill points, kill 500 scavengers, kill 20 elite scavengers<br>- tumor removal: kill 7 daddy long legs<br>- poaching: 250 kill points, kill 19 king vultures, kill 27 vultures, kill 20 miros birds<br>spearmaster: <br>- bird hunting: kill 25 vultures, kill 15 king vultures<br>rivulet:<br>- violence%: gain outlaw passage, kill 1 of every* creature<br>- pest control: kill 30 lantern mice<br><br>extra 'challenge' expeditions:<br>- beached: kill 1 leviathan<br>- what?: kill 1 guardian",
+"thumb": "previews/3279126872.png",
+"url": "https://andrew.fm/rainworld/raindb/killing_and_murder_expeditions.zip",
+"requirements": "expedition,moreslugcats",
+"tags": "Game Modes",
+"order": 2028
+});
+
+Mods.push({
+"name": "Hickory Lizard NEW VERSION",
+"id": "hickory_liz",
+"workshop_id": "3279180248",
+"author": "Sniffledorf",
+"desc": "a funky lizard for my upcoming mod<br><br>https://discord.gg/9xzduKWS  here is my discord<br><br>The Hickory Lizard is a buffed up version of a pink lizard with some deadly abilities you can test yourself ",
+"thumb": "previews/3279180248.png",
+"url": "https://andrew.fm/rainworld/raindb/Hickory_Lizard_NEW_VERSION.zip",
+"requirements": "lizardcustomizer",
+"tags": "",
+"order": 2029
+});
+
+Mods.push({
+"name": "Five *Pebbles*",
+"id": "fivepebblles",
+"workshop_id": "3279307666",
+"author": "Maillman",
+"desc": "Adds five colored rocks/pebbles that each have unique effects. The brighter the pebbles' color, the more potent it becomes.<br><br>This is my first dive into experimenting with Fisobs, and I'm quite pleased with the results. This allows a chance that normal rocks will be replaced with one of five colored rocks each with their unique effects and abilities. I'd recommend experimenting with each pebble and find out what they do.<br>Although, if you really are curious what each pebble does, here you go:<br>Blue Pebble: [spoiler]Teleports the thrower![/spoiler]<br>Yellow Pebble: [spoiler]Glows for a time![/spoiler]<br>Orange Pebble: [spoiler]Increases usage of other pebbles![/spoiler]<br>Green Pebble: [spoiler]Creates poisonous gas![/spoiler]<br>Red Pebble: [spoiler]Blows up on impact![/spoiler]<br><br>(Note: this mod is still being worked on, but I felt comfortable enough to release it.)",
+"thumb": "previews/3279307666.png",
+"url": "https://andrew.fm/rainworld/raindb/Five_Pebbles.zip",
+"requirements": "fisobs",
+"tags": "Items",
+"order": 2030
+});
+
+Mods.push({
+"name": "Cutscene Pups+",
+"id": "cutscene.slugpups",
+"workshop_id": "3279322190",
+"author": "mourning.glory",
+"desc": "ALL CREDITS FOR THE ORIGINAL CUTSCENE SLUGCATS MOD GO TO AURO<br><br>cutscene slugcat skins for the tundra, rotund, and aquatic pup. there might be some residual hunter pup files idk.<br><br>RECOMMENDED  TAIL SETTINGS:<br><br>aquaticpup: length 5, wideness 1.1, roundness 0.1<br>tundrapup: (USE SAINT TAIL) length 5, wideness 1.5, roundness 0.2<br>rotundpup: length 4, wideness 2.0, wideness 0.2<br><br>more skins soon? not just of pups? who knows!<br><br>ermm.. PLAY DESICCATION!!!!!!!!!!!!!!!!!",
+"thumb": "previews/3279322190.png",
+"url": "https://andrew.fm/rainworld/raindb/Cutscene_Pups.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2031
+});
+
+Mods.push({
+"name": "Monk Skinny Jeans",
+"id": "hobart.monkskinnyjeans",
+"workshop_id": "3279336520",
+"author": "hobart",
+"desc": "for best effect, set hips to none in DMS while in use. only for monk. sorry.",
+"thumb": "previews/3279336520.png",
+"url": "https://andrew.fm/rainworld/raindb/Monk_Skinny_Jeans.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2032
+});
+
+Mods.push({
+"name": "The penitent slug (DMS skin)",
+"id": "Upsilum.Thepenitentslug",
+"workshop_id": "3279523892",
+"author": "Upsilum",
+"desc": "Penitent one skin from Blasphemous 1<br><br>(disable tail and face)",
+"thumb": "previews/3279523892.png",
+"url": "https://andrew.fm/rainworld/raindb/The_penitent_slug_DMS_skin.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2033
+});
+
+Mods.push({
+"name": "Expansive Depths",
+"id": "lapis_oceanregion",
+"workshop_id": "3279837780",
+"author": "Lapis",
+"desc": "Hello there!<br><br>I made another region! :)<br><br>Do be warned though, this is a work in progress! I originally was going to have the first connection be to pipeyard but uh... that didn't work as expected (damn you pipeyard!) I at least wanted to have SOME sort of gate leading out of backgrounded valleys. This region is nowhere close to done! There are still many things planned:<br><br>3 Gates: 1 done(BV)<br><br>Tons more rooms: Maybe only 45~<br><br>For now though, I have learned many things about region making and plan to improve my skills further!<br><br>Thank you all for playing my mods!",
+"thumb": "previews/3279837780.png",
+"url": "https://andrew.fm/rainworld/raindb/Expansive_Depths.zip",
+"requirements": "",
+"tags": "",
+"order": 2034
+});
+
+Mods.push({
+"name": "Train Fix",
+"id": "zevdragon.trainfix",
+"workshop_id": "3279994262",
+"author": "zevdragon",
+"desc": "Train Fix restores Train Lizards from Downpour to their former glory, giving them all of their abilities and buffed stats that were present in the Hurricane Mod. The ones you see in Downpour are practically a different lizard, but apparently no one noticed for all this time.<br><br>This mod also fixes Train Lizards creating white particles every time they bite, which wasn't there in the original mod and can even cause crashes due to their complete lack of a bite cooldown.",
+"thumb": "previews/3279994262.png",
+"url": "https://andrew.fm/rainworld/raindb/Train_Fix.zip",
+"requirements": "rwremix,moreslugcats",
+"tags": "Accessibility,Game Mechanics",
+"order": 2035
+});
+
+Mods.push({
+"name": "(DMS) ellis l4d2 hat for scug",
+"id": "scugellishat",
+"workshop_id": "3280175682",
+"author": "maxiharda5",
+"desc": "i ever told you about that time Keith tried to deep fry a turkey? 3rd degree burns over 90 percent of his body-<br>anyway this was my first (LAZY) mod<br>idk if it works for other scugs honestly<br>probably could do the clothes too later but im lazy",
+"thumb": "previews/3280175682.png",
+"url": "https://andrew.fm/rainworld/raindb/DMS_ellis_l4d2_hat_for_scug.zip",
+"video": "https://www.youtube.com/channel/UCLzXQU8kMxxZzvfOEwtBwmA",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2036
+});
+
+Mods.push({
+"name": "Adult Pups",
+"id": "Antoneeee.AdultPup",
+"workshop_id": "3280186689",
+"author": "Antoneeee",
+"desc": "Adds the chance for Adult Slugcats to spawn<br><br>The DMS skin I use is Cutscene Slugcats.",
+"thumb": "previews/3280186689.png",
+"url": "https://andrew.fm/rainworld/raindb/Adult_Pups.zip",
+"requirements": "Antoneeee.PupBase",
+"tags": "Custom Slugcat",
+"order": 2037
+});
+
+Mods.push({
+"name": "PupBase",
+"id": "Antoneeee.PupBase",
+"workshop_id": "3280187008",
+"author": "Antoneeee",
+"desc": "A framework for adding new types of Slugpups. It allows modders that use this to easily distinguish which pup is which, and allows users to modify how common each type of pup will be, as well as view its general stats in the remix menu. This mod takes heavy inspiration from Pups+.<br><br>If you wish to make mods using this, you have my full permission. I'll try to help, but [b]I highly recommend that you have prior experience in modding before using this mod.[/b]<br><br>[h3]Links:[/h3]<br>Here's an example mod that shows part of what this mod is capable of: https://steamcommunity.com/sharedfiles/filedetails/?id=3280186689<br>Here's the github page: https://github.com/kleiner-sentry/PupBase<br><br>[h3]Compatibility:[/h3]<br>Dress My Slugcat - Yes<br>Dev Console - Yes<br>Pearlcat - Yes - Is excluded from generation<br>Beast Master Pups Extra - Sort-of. Using this during the Campaign will cause your pups food/stats to be inaccurate. <br>Pups+ - Yes<br>Genetic Pups - No - moving Genetic slugpups over Pupbase should work.<br><br><br>[h2]Bugs![/h2]<br>Please please please let me know of any bugs!<br>If you do run into any bugs, go to [b]Program Files (x86)/Steam/steamapps/common/Rain World[/b] and post your [b]ExceptionLog.txt[/b]<br>Alternatively, you can go to [b]Program Files (x86)/Steam/steamapps/common/Rain World/BepInEx[/b] and post your [b]LogOutput.log[/b]<br>Please be as descriptive as possible, and try and see if it's re-occurring.<br><br><br>Special thanks to Alphappy for helping me out a ton.<br><br>Pro-tip: setting  a type's spawn weight to 0 disables that type from spawning!",
+"thumb": "previews/3280187008.png",
+"url": "https://andrew.fm/rainworld/raindb/PupBase.zip",
+"requirements": "moreslugcats",
+"tags": "Game Mechanics,Custom Slugcat",
+"order": 2038
+});
+
+Mods.push({
+"name": "No Yeek Friendly Fire",
+"id": "nomoreyeeks",
+"workshop_id": "3280271967",
+"author": "zevdragon",
+"desc": "Scavengers now ignore Yeeks instead of killing them on sight, just like they did before that awful update that broke everything. Why are they even like this in vanilla?",
+"url": "https://andrew.fm/rainworld/raindb/No_Yeek_Friendly_Fire.zip",
+"requirements": "rwremix,moreslugcats",
+"tags": "Accessibility,Game Mechanics",
+"order": 2039
+});
+
+Mods.push({
+"name": "Slugcat Inspired Lizards",
+"id": "slugcatlizards",
+"workshop_id": "3280449213",
+"author": "Abrupt94",
+"desc": "Adds lizard versions of the scugs",
+"url": "https://andrew.fm/rainworld/raindb/Slugcat_Inspired_Lizards.zip",
+"requirements": "",
+"tags": "",
+"order": 2040
+});
+
+Mods.push({
+"name": "Skull Crawler Lizards",
+"id": "skullcrawlerlizard",
+"workshop_id": "3280457439",
+"author": "Abrupt94",
+"desc": "two versions: a smol one and a big one<br>they work together<br>they have tung<br>they can climb<br>smol ones are faster but the big ones have a lot more health",
+"url": "https://andrew.fm/rainworld/raindb/Skull_Crawler_Lizards.zip",
+"requirements": "",
+"tags": "",
+"order": 2041
+});
+
+Mods.push({
+"name": "Mari (SANABI)",
+"id": "Mari",
+"workshop_id": "3280537495",
+"author": "gtfrtggytd",
+"desc": "Be From SANABI   ....质量还是不太好...做来练的......",
+"thumb": "previews/3280537495.png",
+"url": "https://andrew.fm/rainworld/raindb/Mari_SANABI.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2042
+});
+
+Mods.push({
+"name": "Rain World Alpha SFX",
+"id": "dissonified.rwalphasfx",
+"workshop_id": "3280650284",
+"author": "Dissonified",
+"desc": "Changes some of the noises to their Alpha Counterparts, and a few custom sounds have been made by me to accommdate for missing sounds.<br><br>All Modified Sounds<br>- Grabbing<br>- Throwing<br>- Death<br>- Shortcuts<br>- Spears<br>- Jumping<br>- Etc<br>All Custom Sounds (by me, not from the alpha)<br>- King Vulture/Vulture sfx<br>- Explosions<br><br><br>If I update this mod again, it will include custom sounds for all the creatures that don't have them.<br>Hope you enjoy!<br>",
+"thumb": "previews/3280650284.png",
+"url": "https://andrew.fm/rainworld/raindb/Rain_World_Alpha_SFX.zip",
+"requirements": "",
+"tags": "Cosmetics",
+"order": 2043
+});
+
+Mods.push({
+"name": "FatherSpider",
+"id": "FatherSpider",
+"workshop_id": "3280659701",
+"author": "Unknown",
+"desc": "Guardian of the arachnids, husband of the mother, destroyer of other vertebrates.",
+"url": "https://andrew.fm/rainworld/raindb/FatherSpider.zip",
+"requirements": "",
+"tags": "",
+"order": 2044
+});
+
+Mods.push({
+"name": "Arrowtongue",
+"id": "Arrowtongue",
+"workshop_id": "3280662314",
+"author": "Unknown",
+"desc": "A highly dangerous liquivore, they are completely blind and use sonar to see. Based on the alien of the same name from Wayne Barlowes Expedition. He is not invuln but is extremely fast and has a extremely lethal sharp tongue.",
+"url": "https://andrew.fm/rainworld/raindb/Arrowtongue.zip",
+"requirements": "",
+"tags": "",
+"order": 2045
+});
+
+Mods.push({
+"name": "Rose (ENTRY SCUGS)",
+"id": "rose.entryscugs",
+"workshop_id": "3280745795",
+"author": "Eevee_lol24",
+"desc": "Rose from the hit roblos gaem Entry Point but SCUGIFYED!!!!1!!11!11!1<br><br>(Use #FFFFFF For proppercolors)<br><br>-- THE HEAD IS CURRENTLY SORTA BUGGED CUS I MESSED SOMETHING UP SO JUST BE BALD FOR NOW --<br><br>(I made this months ago and just recently decided to upload it to the workshop so it wouldnt be a waste of space in my mods.)",
+"thumb": "previews/3280745795.png",
+"url": "https://andrew.fm/rainworld/raindb/Rose_ENTRY_SCUGS.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2046
+});
+
+Mods.push({
+"name": "[DMS] A Hat in Time skinpack",
+"id": "hat.",
+"workshop_id": "3281039979",
+"author": "sodaaa",
+"desc": "includes hat kid, bow kid and mustache girl from the hit game a hat in time",
+"thumb": "previews/3281039979.png",
+"url": "https://andrew.fm/rainworld/raindb/DMS_A_Hat_in_Time_skinpack.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2047
+});
+
+Mods.push({
+"name": "Neptune",
+"id": "Neptune",
+"workshop_id": "3281319282",
+"author": "gtfrtggytd",
+"desc": "入库了 也可爱捏 所以做了 其他角色的话得看我玩到再说了 没钱弄整个系列只能先来个一发癫了 虽然整到其他的可能间隔会有点点点点点久 哎呀没钱啊哎呀没钱(史书在另外一个模组里)",
+"thumb": "previews/3281319282.png",
+"url": "https://andrew.fm/rainworld/raindb/Neptune.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2048
+});
+
+Mods.push({
+"name": "Better Artillery",
+"id": "betterartillery",
+"workshop_id": "3281502653",
+"author": "zevdragon",
+"desc": "The long-awaited sequel to Better Ravioli.<br><br>This mod allows artillery to hold two spears, allows it to craft multiple items at the same time, removes the food requirement when crafting, and makes it completely immune to all spears thrown.<br><br>I highly recommend setting the explosion capacity for artillery to the max in Downpour's remix menu, and using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3055157079]Rocketficer[/url] alongside this mod for the best artillery experience.",
+"url": "https://andrew.fm/rainworld/raindb/Better_Artillery.zip",
+"requirements": "rwremix,moreslugcats",
+"tags": "Accessibility,Game Mechanics",
+"order": 2049
+});
+
+Mods.push({
+"name": "Petscop 'That's a Dead Kid' over Death Sfx",
+"id": "dissonified.paul",
+"workshop_id": "3282609155",
+"author": "Dissonified",
+"desc": "made in like 7 minutes <br><br>Replaces<br>- Death Sfx<br>with Paul from Petscop saying 'That's a Dead Kid'",
+"thumb": "previews/3282609155.png",
+"url": "https://andrew.fm/rainworld/raindb/Petscop_Thats_a_Dead_Kid_over_Death_Sfx.zip",
+"requirements": "",
+"tags": "Cosmetics",
+"order": 2050
+});
+
+Mods.push({
+"name": "The pole mimic mimic(DMS)",
+"id": "IceCreams.polemimiccat",
+"workshop_id": "3282658605",
+"author": "Ice Cream",
+"desc": "A species of scug that evolved to mimic Pole Plants in order to stay alive(spoilers, it doesn't work very well)<br>I didn't just make an OC just because I thought the name was funi I definitly didn't (I did)<br>Recommended Tail size is, lenght 9, wideness 0.4, roundness 1.5<br>this scug uses the default eyes (you can use other scug eyes from other mods if you like) and its 'leaves' are white by  default so you can color them however you like<br>credits to Lolight2 for the video!<br>also I've been thinking about turning polecat into an actual mod(I have 0 knowledge on coding sadly) so if you're intrested let me know  :)",
+"thumb": "previews/3282658605.png",
+"url": "https://andrew.fm/rainworld/raindb/The_pole_mimic_mimicDMS.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2051
+});
+
+Mods.push({
+"name": "Chasing Feather",
+"id": "chasing_feather",
+"workshop_id": "3283027728",
+"author": "衣服",
+"desc": "逐羽，一只在冰天雪地生活的蛞蝓猫逐羽.它有少量羽毛可以短暂在空中滑翔（按住跳跃按钮）,背上的羽毛是来储存长矛的,还有更快的速度和咬合能力,来自未名逐羽的辖区，在风雪中踏上寻找母亲的道路,初始业力是三级,谢谢各位的帮助,特别感谢异教 如果有bug请留言<br>暂时不能飞升因为是圣徒的地图，还没做完所以没有结局<br>新增了睡眠cg和飞升结局<br><br>Chasing Feather, a slug cat in the ice and snow<br>It has a small number of feathers that can glide through the air briefly<br>The feathers on the back are used to store the spear<br>It will also be faster and bite harder<br>From the jurisdiction of the unnamed chasing feather, he embarked on the road to find his mother in the wind and snow<br>Start with the best effort to be level three<br>Xie said: Take the body as a virtue<br>Special thanks to Buddhism<br>He also asked the emperor to leave his opinion",
+"thumb": "previews/3283027728.png",
+"url": "https://andrew.fm/rainworld/raindb/Chasing_Feather.zip",
+"requirements": "slime-cubed.slugbase,moreslugcats",
+"tags": "Custom Slugcat,Campaigns",
+"order": 2052
+});
+
+Mods.push({
+"name": "Chillet",
+"id": "ChilletDMSDragon",
+"workshop_id": "3283501706",
+"author": "NightTheSpaceDerg",
+"desc": "Chill Ferret entered the Rainworld!!!<br><br>Sprites by NightTheSpaceDragon (me)<br>Beautiful drawing by https://www.youtube.com/@bluesheepredanimationskind7690<br><br>Tail settings:<br>Asymetry<br>Length: 6<br>Width: 2<br>Roundness: 0.2",
+"thumb": "previews/3283501706.png",
+"url": "https://andrew.fm/rainworld/raindb/Chillet.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2053
+});
+
+Mods.push({
+"name": "Nightskirts",
+"id": "Qaint.NightSkirts",
+"workshop_id": "3284312713",
+"author": "TheQuaintSaint",
+"desc": "Turns out if you go to the SU_Properties file and then change 2 numbers you can remove the sun from rainworld as a whole. So what are you waiting for?? enjoy the beautiful dark blue skies of a world without vitamin D",
+"thumb": "previews/3284312713.png",
+"url": "https://andrew.fm/rainworld/raindb/Nightskirts.zip",
+"requirements": "regionkit,crs",
+"tags": "Regions",
+"order": 2054
+});
+
+Mods.push({
+"name": "Lystr0 Slugcat",
+"id": "lystr0.slugcat",
+"workshop_id": "3284925154",
+"author": "Lystr0saur",
+"desc": "Can you feel your heart burning? Can you feel the struggle within? The fear within me is far beyond anything your soul can make. You cannot kill me in a way that matters.",
+"thumb": "previews/3284925154.png",
+"url": "https://andrew.fm/rainworld/raindb/Lystr0_Slugcat.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2055
+});
+
+Mods.push({
+"name": "The Drake DMS",
+"id": "bombyxsocskinithinkidk",
+"workshop_id": "3285113109",
+"author": "Bombyx_Silkmoth",
+"desc": "DMS Skins for a sily goober dragon scug <br><br> Also an angry Iterator, dunno how she got here (I used Iterator Walk sprites by ris as a base)",
+"thumb": "previews/3285113109.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Drake_DMS.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2056
+});
+
+Mods.push({
+"name": "(WIP)Skyscraper",
+"id": "Skyscraper",
+"workshop_id": "3285115069",
+"author": "Author",
+"desc": "A random region close to metropolis(only acessable with warp menu)",
+"url": "https://andrew.fm/rainworld/raindb/WIPSkyscraper.zip",
+"requirements": "regionkit",
+"tags": "Regions",
+"order": 2057
+});
+
+Mods.push({
+"name": "Listen here you goobie snoobert",
+"id": "goobie.snoobert",
+"workshop_id": "3285136417",
+"author": "echoify",
+"desc": "silly mod made for a friend! it's a surprise on what it does :D",
+"url": "https://andrew.fm/rainworld/raindb/Listen_here_you_goobie_snoobert.zip",
+"requirements": "simplespawnswapper,moreslugcats",
+"tags": "",
+"order": 2058
+});
+
+Mods.push({
+"name": "Kinetic scug",
+"id": "l.lplaysgames2.Jumper",
+"workshop_id": "3285173726",
+"author": "l.lplaysgames",
+"desc": "hes pretty fast, this will be my final update for a bit while i try and make some art for it.",
+"thumb": "previews/3285173726.png",
+"url": "https://andrew.fm/rainworld/raindb/Kinetic_scug.zip",
+"requirements": "slime-cubed.slugbase",
+"tags": "Custom Slugcat",
+"order": 2059
+});
+
+Mods.push({
+"name": "my custom levels",
+"id": "my custom levels",
+"workshop_id": "3285263378",
+"author": "Unknown",
+"desc": "my first arena maps i made <br>some of them have custom spawns<br><br>stormy ship was inspired by stormy coast(a great region mod)<br>",
+"url": "https://andrew.fm/rainworld/raindb/my_custom_levels.zip",
+"requirements": "",
+"tags": "",
+"order": 2060
+});
+
+Mods.push({
+"name": "(WIP)aridshore",
+"id": "aridshore",
+"workshop_id": "3285664653",
+"author": "Author",
+"desc": "A opposite to shoreline(only acessable with warp menu)",
+"url": "https://andrew.fm/rainworld/raindb/WIParidshore.zip",
+"requirements": "regionkit",
+"tags": "Regions",
+"order": 2061
+});
+
+Mods.push({
+"name": "Frozen Waters",
+"id": "icemod",
+"workshop_id": "3286174396",
+"author": "Mattomo",
+"desc": "READ INSTRUCTIONS IF YOU WANT TO USE THE REMIX MENU!!!<br><br>You know what I always wanted in Saint's campaign? Some ice. But there were no mods on the workshop so I decided I'd try to make it myself. It's not the best thing, but it's my first mod so hopefully y'all won't judge me too hard lol. I spent a good week making this mod, as I started with zero experience. I have so many people to thank, but I'll leave that for the credits section down below. So, I'm sure you're wondering 'What does this mod do exactly?'. Well, it adds a layer of ice to all bodies of water exposed to OPEN SKY. If there's a roof, there will be no ice. I'll list all of the specifics out for you.<br><br>Layers of ice added to:<br>-Frigid Coast/Shoreline (13 rooms! As well as 1 room made easier...)<br>-Glacial Wasteland/Garbage Wastes (7 rooms)<br>-Desolate Fields/Farm Arrays (3 rooms)<br>-Silent Construct (2 rooms)<br>-Icy Monument/Industrial Complex (1 room)<br>-Submerged Superstructure (1 room)<br>(Willing to do more if requested)<br><br>So there you go, that's all there is to it. The 'main attraction' in this mod is Shoreline, and the mod was originally going to just be Shoreline. But I thought, why not give some love to the other places too, right? But if for any reason you don't like a region having the ice, you can remove it! Configuration in modern gaming is just so sweet isn't it?<br><br>Here are the instructions for the Remix Menu. Please follow them CAREFULLY:<br>1) Enable mod and restart.<br>2) Open the remix menu and enable/disable the desired regions then press apply.<br>3) Open the remix menu back up and press and hold the confirm button until fully white (there is no sound).<br>4) Press exit and restart your game.<br><br>Alright, that should be it. I feel like I had a lot more to say when I was making this mod but now I can't think of anything else so I'll just shut up and let you get on with your business lol. Enjoy yourself some Frozen Waters!<br><br>Credit to several people from the Official Rain World Discord Server, as well as the Rain World Modding Discord Server for helping me along the way as I learned what I was doing.<br><br>Remix Menu: Coded by Mills888. Thanks to them for making me a functional Remix Menu, as I have no coding knowledge.<br><br>Ice Prop: Thanks to Solar and his repo for allowing me to use the Coral Caves ice prop (Also thanks to Fishnoid for making Coral Caves and said prop).",
+"thumb": "previews/3286174396.png",
+"url": "https://andrew.fm/rainworld/raindb/Frozen_Waters.zip",
+"requirements": "moreslugcats,crs,regionkit",
+"tags": "",
+"order": 2062
+});
+
+Mods.push({
+"name": "Blindfold(DMS)",
+"id": "blindfold.blindfoldslugofalltime",
+"workshop_id": "3286558835",
+"author": "Willa",
+"desc": "COOL BLINDFOLD!<br>look like gojo",
+"thumb": "previews/3286558835.png",
+"url": "https://andrew.fm/rainworld/raindb/BlindfoldDMS.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2063
+});
+
+Mods.push({
+"name": "Mach Slugcat",
+"id": "slugmach",
+"workshop_id": "3286632038",
+"author": "ItsZeroThree",
+"desc": "I made this for a discord server. (and it was made within a day) Don't yell at me if it isn't high quality!<br>Turns a slugcat into Mach from Regretevator. Have fun!",
+"thumb": "previews/3286632038.png",
+"url": "https://andrew.fm/rainworld/raindb/Mach_Slugcat.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2064
+});
+
+Mods.push({
+"name": "PupAi",
+"id": "Antoneeee.PupAi",
+"workshop_id": "3286796282",
+"author": "Antoneeee",
+"desc": "A small mod that modifies pup pathfinding. Its primary goal is to improve stability/make pathing more capable.<br><br>dont expect much lol. but from my testing, ive been able to reduce shuffling, improve navigation in tunnels, and allow it to jump over small gaps.<br><br>Fact: anytime your pup starts freaking out or shaking all over the place, that means it's technically 'stuck'... even when it's not.",
+"thumb": "previews/3286796282.png",
+"url": "https://andrew.fm/rainworld/raindb/PupAi.zip",
+"requirements": "moreslugcats",
+"tags": "Game Mechanics",
+"order": 2065
+});
+
+Mods.push({
+"name": "[dsm] Sebastian Solace",
+"id": "skylan.SEBBY",
+"workshop_id": "3286848992",
+"author": "Skylan",
+"desc": "become one with the fish<br><br>mod that adds sebastian solace from pressure to dress my slugcat",
+"thumb": "previews/3286848992.png",
+"url": "https://andrew.fm/rainworld/raindb/dsm_Sebastian_Solace.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2066
+});
+
+Mods.push({
+"name": "Dawn Of The Red (Coming SOON)",
+"id": "dawnofthered",
+"workshop_id": "3286898563",
+"author": "BlueTail & BensoneWhite",
+"desc": "ATTENTION!: THIS DOES NOT CURRENTLY WORK!!! This mod is currently being UNDER CONSTRUCTION. The Development is in progress is subject to change!<br>Me and Bensone have finally decided to migrate this mod to become it's own campaign and will include regions and creatures & our very own slug, dubbed as 'Outpatient', by programming code. Because of this, this mod will require Downpour (and Maybe The Watcher) to function properly! This mod's current state is meant to act as a place-holder and should not be treated as complete!<br><br>Planned Lore: After thousands of years since the fall of the ancient civilization, a strange viral outbreak has plagued Rain World. Not much is known of the origin of this viral disease which causes a biological alternations of infected creatures, causing increased aggression, restlessness, seizures, bigger and stronger appearence and pretty much untamable. The infected region affects the visual appearance, and the whole enviroment is plagued by a mysterious red taint. Infected are bigger and more dangerous.<br><br>Planned features: On-screen camera will have a red tint similar to when hunter becomes sick, but will be much more intense and permanent. Hallucinations. Custom Items. If outpatient becomes bitten by a infected creature, the player will begin to hallucinate and have violent seizures similar to hunter, failure to get treatment results in death. Custom regions. Outpatient by default will have positive reputatation with Scavengers, who will by default be friendly and attempt to follow you around and defend you from threats. Treatment will only be possible by trading with scavengers, so being nice to scavengers is imperative. Successful trading will have a 'Medicine' Scavenger treat and cure the disease.<br><br>Our very own slug, The Outpatient.<br><br><br>Infected Variants are hostile to all creatures and especially other infected<br><br>The following Creatures included are/will be:<br><br>Rack Lizard (Red x Black) <br>Rain Lizard (Red x Train) <br>Reen Lizard (Red x Green) <br>Rue Lizard (Red x Blue) <br>Rhite Lizard (Red x White) <br>Rellow Lizard (Red x Yellow) <br>Ryan Lizard (Red x Cyan) (Credit to Shiny Kelp) <br>Relamander (Red x Salamander) <br>Reramel Lizard (Red x Caramel) <br>Rink Lizard (Red x Pink) <br>Reel Lizard (Red x Eel) <br>Roop Lizard (Red x Strawberry)<br>Rantern Mice (Infected Mouse)<br>Rulture (Infected Vulture)<br>Rong Legs (Infected Rot)<br>Riros (Infected Miros)<br>Reek (Infected Yeek)<br>Roodle (Infected Noodlefly)<br>Ravager (Infected Scavenger)<br>Rail (Infected Snail)<br>Red Spider (Infected Spider)<br>Ratfly (Infected Batfly)<br>Relp (Infected kelp)<br>Role (Infected Pole)<br>Rentipede (Infected Red Centipede)<br>Redcada (Infected Squid)<br>Reviathan (Infected Leviathan)<br>Rup (Infected Slug pup)<br><br><br>PS. Because of the mod's current development, this means it can or will lose it's support of Lizard customizer as we are discussing whether or not should the lizards be made by code, or keep it how it is. We are also currently developing a discord for this and hope to see you soon and support the development of this up-coming mod!<br><br><br>Credits: Slug made by Alga https://steamcommunity.com/profiles/76561198856632963",
+"thumb": "previews/3286898563.png",
+"url": "https://andrew.fm/rainworld/raindb/Dawn_Of_The_Red_Coming_SOON.zip",
+"requirements": "spitanything,simplespawnswapper,fisobs",
+"tags": "Lizards",
+"order": 2067
+});
+
+Mods.push({
+"name": "subterranean expanded",
+"id": "rwslugcatondiscord_subtexpanded",
+"workshop_id": "3286927929",
+"author": "Unknown",
+"desc": "expands subt cause that was definitely needed, adds 22 rooms<br>if there are any problems or you have any questions contact me on discord through dms @rwslugcat<br>make sure subt hasnt been loaded before",
+"thumb": "previews/3286927929.png",
+"url": "https://andrew.fm/rainworld/raindb/subterranean_expanded.zip",
+"requirements": "moreslugcats,crs,regionkit",
+"tags": "",
+"order": 2068
+});
+
+Mods.push({
+"name": "Chill Reds",
+"id": "chillreds",
+"workshop_id": "3287137840",
+"author": "zevdragon",
+"desc": "This mod gives Red Lizards the default lizard rivalry relationship with each other, making them no longer kill other reds on sight. This used to be their vanilla behavior before v1.5, and can be observed in mods for previous versions of the game.<br><br>Does not require Rain World Remix or More Slugcats.",
+"url": "https://andrew.fm/rainworld/raindb/Chill_Reds.zip",
+"requirements": "",
+"tags": "",
+"order": 2069
+});
+
+Mods.push({
+"name": "My love scarf!",
+"id": "MyLoveScarf",
+"workshop_id": "3287362156",
+"author": "Karnellon",
+"desc": "All characters should have #ffffffff color on their heads. Originally, this is a mod I made to use by myself.",
+"thumb": "previews/3287362156.png",
+"url": "https://andrew.fm/rainworld/raindb/My_love_scarf.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2070
+});
+
+Mods.push({
+"name": "Cloudy Sky Islands",
+"id": "skier_islands",
+"workshop_id": "3287400866",
+"author": "Vali",
+"desc": "this mod makes Sky Islands and some other areas close to it cloudier, but remember just a visual change! So pebbles will still rain all over your scugs anyways<br><br>also for some reason this messes up the fern trees sometimes, no idea why tho",
+"thumb": "previews/3287400866.png",
+"url": "https://andrew.fm/rainworld/raindb/Cloudy_Sky_Islands.zip",
+"requirements": "",
+"tags": "Cosmetics",
+"order": 2071
+});
+
+Mods.push({
+"name": "Hunter's Scar Portrait",
+"id": "wipple.hunterscarportrait",
+"workshop_id": "3287429022",
+"author": "Wipple",
+"desc": "This mod edit Hunter's portrait, showing a more marked scar. <br> <br>Edit by Wipple",
+"thumb": "previews/3287429022.png",
+"url": "https://andrew.fm/rainworld/raindb/Hunters_Scar_Portrait.zip",
+"requirements": "rwremix,moreslugcats",
+"tags": "Cosmetics",
+"order": 2072
+});
+
+Mods.push({
+"name": "Hunter Color Consistency",
+"id": "wipple.huntercolorconsistency",
+"workshop_id": "3287446715",
+"author": "Wipple",
+"desc": "This mod edit Hunter's arena portrait and spleeping screen, trying to maintain consistency in their colors. <br> <br> Edit by Wipple",
+"thumb": "previews/3287446715.png",
+"url": "https://andrew.fm/rainworld/raindb/Hunter_Color_Consistency.zip",
+"requirements": "rwremix,moreslugcats",
+"tags": "Cosmetics",
+"order": 2073
+});
+
+Mods.push({
+"name": "Frostbite",
+"id": "shrimb.frostbite",
+"workshop_id": "3288406859",
+"author": "Shrimb",
+"desc": "[h1]Rain World : Frostbite[/h1]<br><br>Exploring the gaps of the timeline and their secrets through the Hermit, the Sacrifice, and the Executioner... and perhaps one more, who prefers to stay hidden.<br><br>[h2]Mod Description:[/h2]<br><br>This mod adds [b]The Sacrifice[/b], [b]The Executioner[/b], and [b]The Hermit[/b], and a fourth slugcat, [b]The Nocturnal[/b], will soon be added as well.<br><br>The Sacrifice is fully finished and implemented. The Executioner and The Hermit have mechanics, but no implemented story yet. Their stories will be added in later updates.<br><br>[h2]More Information:[/h2]<br><br>[b]Recommended mods/settings to use alongside this one (for co-op):[/b]<br>[list]<br>[*]“Individual food bars” by Sprobgik, to allow the Sacrifice’s starvation mechanic separately of other players.<br>[*]Turning off the ‘all players must be in shelter’ requirement in jolly co-op. Sacrifice does not leave behind a body on death, so they cannot be carried to the shelter.<br>[/list]<br><br>[b]Known Incompatibilities:[/b]<br>[list]<br>[*]Parasitic Slugcat<br>[*]The slugcats in this mod inherit from Saint and Rivulet worldstates, which [i]may[/i] cause issues if you play their campaigns with [i]Jolly Co-Op[/i] enabled. If you're encountering errors, try disabling Jolly Co-op, especially in singleplayer.<br>[*]Dress My Slugcat does work with Frostbite, but it makes Executioner's body sprite render in front of his armor, which looks silly. Full compatibility planned for a later update!<br>[/list]<br><br>Please leave bug reports and suggestions in the discussions below.<br>Join the [url=https://discord.gg/MEArRqfqzx]Frostbite Discord server[/url] for more updates and information!",
+"thumb": "previews/3288406859.png",
+"url": "https://andrew.fm/rainworld/raindb/Frostbite.zip",
+"requirements": "slime-cubed.slugbase,moreslugcats,fisobs,crs",
+"tags": "",
+"order": 2074
+});
+
+Mods.push({
+"name": "AFTONSPARV",
+"id": "wayward.alien",
+"workshop_id": "3288506771",
+"author": "Wayward",
+"desc": "Ikea alien DMS skin!!!<br><br>Set all colors to white",
+"thumb": "previews/3288506771.png",
+"url": "https://andrew.fm/rainworld/raindb/AFTONSPARV.zip",
+"requirements": "dressmyslugcat",
+"tags": "Cosmetics",
+"order": 2075
+});
+
+Mods.push({
+"name": "(Pedro's Custom Lizards",
+"id": "pedroscustomlizards",
+"workshop_id": "3288534936",
+"author": "PedroSlugcat",
+"desc": "NEW LIZORS are falsemole,centilizard,snake,flylizard(inspired by another mod),junglelizard and mudlizard",
+"url": "https://andrew.fm/rainworld/raindb/Pedros_Custom_Lizards.zip",
+"requirements": "lizardcustomizer",
+"tags": "Creatures",
+"order": 2076
 });
 
