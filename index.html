@@ -268,7 +268,10 @@
                 return;
 
             document.getElementById('infobox_title').innerHTML = modinfo['name'];
-            document.getElementById('infobox_workshopurl').href = "https://steamcommunity.com/sharedfiles/filedetails/?id=" + modinfo['workshop_id'];
+            if (!('workshop_id' in modinfo) || modinfo['workshop_id'] === "")
+                document.getElementById('infobox_workshopurl').href = modinfo['url'];
+            else
+                document.getElementById('infobox_workshopurl').href = "https://steamcommunity.com/sharedfiles/filedetails/?id=" + modinfo['workshop_id'];
             document.getElementById('infobox_directurl').href = modinfo['url'];
             document.getElementById('infobox_desc').innerHTML = formatSteamTags(modinfo['desc']);
 
