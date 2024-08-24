@@ -10,7 +10,7 @@
         function toggle(section) {
             if (section == "mods") {
                 shuffleArray(Mods);
-                generateHTML("1.9", Mods, "", "v1.9 Mods");
+                generateHTML("1.9", Mods, "", "v1.9 Mods", 51);
             }
 
             for (var i=0; i<sections.length; i+=1) {
@@ -208,7 +208,7 @@
             <div id="mods" style="display:block;">
                 <div id="1.9_title"></div>
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
-                <b>Show:</b> <a onclick="generateHTML('1.9', Mods, '', 'v1.9 Mods')" href="#main">All</a> | <a onclick="generateHTML('1.9', Mods, 'new', 'v1.9 Mods (Newest)')" href="#main">Newest</a>
+                <b>Show:</b> <a onclick="generateHTML('1.9', Mods, '', 'v1.9 Mods', 51)" href="#main">All</a> | <a onclick="generateHTML('1.9', Mods, 'new', 'v1.9 Mods (Newest)', 51)" href="#main">Newest</a>
                 <div id="1.9_gallery"></div>
             </div>
 
@@ -235,12 +235,13 @@
         var tagFilterValue = "";
         var generateLastHTML = null;
         var generateLastHTMLArgs = [];
+        var reachedEndOfScroll = false;
         function doSearch(searchString) {
             let newSearch = searchString.toLowerCase().trim();
             if(search != newSearch) {
                 search = newSearch;
                 if(generateLastHTML != null)
-                    generateLastHTML(...generateLastHTMLArgs);
+                    generateLastHTML(generateLastHTMLArgs[0], generateLastHTMLArgs[1], generateLastHTMLArgs[2], generateLastHTMLArgs[3], 51);
             }
         }
         
@@ -255,6 +256,16 @@
             document.getElementById('infobox').style['display'] = 'none';
           }
         });
+
+        window.addEventListener("scroll", loadOnScroll);
+
+        function loadOnScroll() {
+            const endOfPage = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 400;
+            if (endOfPage && !reachedEndOfScroll) {
+                if(generateLastHTML != null)
+                    generateLastHTML(generateLastHTMLArgs[0], generateLastHTMLArgs[1], generateLastHTMLArgs[2], generateLastHTMLArgs[3], generateLastHTMLArgs[4] + 51);
+            }
+        }
 
         function showInfoboxWithModInfo(workshop_id) {
             var modinfo = null;
@@ -418,10 +429,10 @@
         function filterChanged() {
             tagFilterValue = document.getElementById("tag_filter").value
             if(generateLastHTML != null)
-                generateLastHTML(...generateLastHTMLArgs);
+                generateLastHTML(generateLastHTMLArgs[0], generateLastHTMLArgs[1], generateLastHTMLArgs[2], generateLastHTMLArgs[3], 51);
         }
 
-        function generateHTML(div_id, input_array, filter, title) {
+        function generateHTML(div_id, input_array, filter, title, max_items) {
             generateLastHTML = generateHTML;
             generateLastHTMLArgs = arguments;
         
@@ -436,8 +447,8 @@
             if (filter == "new")
                 mods_array = sortByKey(JSON.parse(JSON.stringify(input_array)), "order").reverse();
             document.getElementById(div_id+"_gallery").innerHTML = "";
+            reachedEndOfScroll = true;
             for (var i=0; i<mods_array.length; i++) {
-            
                 var useAuthorExt = "";
                 var useAuthor = "";
                 if ("author" in mods_array[i])
@@ -470,7 +481,7 @@
                 if (count % 3 == 0) {
                     appendStr += '<div class="row">';
                 }
-                appendStr += '<div class="col-sm-4 portfolio-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><div class="portfolio-box-image">';
+                appendStr += '<div class="col-sm-4 portfolio-box wow" style="visibility: visible;"><div class="portfolio-box-image">';
                 var useThumb = "previews/default.png"
                 if ("thumb" in mods_array[i])
                     useThumb = mods_array[i]["thumb"];
@@ -515,6 +526,11 @@
                     appendStr += "</div>";
                 }
                 count += 1
+
+                if (count > max_items) {
+                    reachedEndOfScroll = false;
+                    break;
+                }
             }
             
             if(count == 0) {
