@@ -448,6 +448,13 @@
                 mods_array = sortByKey(JSON.parse(JSON.stringify(input_array)), "order").reverse();
             document.getElementById(div_id+"_gallery").innerHTML = "";
             reachedEndOfScroll = true;
+            /*for (var i=0; i<mods_array.length; i++) {
+                for(var j=0; j<mods_array.length; j++) {
+                    if (i !== j && mods_array[i]["id"] === mods_array[j]["id"]) {
+                        console.log("DUPLICATE ID: " + mods_array[i]["id"])
+                    }
+                }
+            }*/
             for (var i=0; i<mods_array.length; i++) {
                 var useAuthorExt = "";
                 var useAuthor = "";
