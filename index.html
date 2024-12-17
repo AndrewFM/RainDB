@@ -254,6 +254,9 @@
         document.addEventListener('click', function(e){   
           if (!document.getElementById('infobox').contains(e.target)){
             document.getElementById('infobox').style['display'] = 'none';
+            if (!e.target.parentElement.onclick?.toString().includes("showInfoboxWithModInfo(") && 
+                !e.target.onclick?.toString().includes("showInfoboxWithModInfo(")
+            ) window.location.hash = ""
           }
         });
 
@@ -277,8 +280,9 @@
             }
             if (modinfo === null)
                 return;
-
+            // let urlWithoutHash = window.location.origin + window.location.pathname;
             document.getElementById('infobox_title').innerHTML = modinfo['name'];
+            document.getElementById('infobox_title').href = "#" + modinfo['workshop_id']
             if (!('workshop_id' in modinfo) || modinfo['workshop_id'] === "")
                 document.getElementById('infobox_workshopurl').href = modinfo['url'];
             else
@@ -330,6 +334,7 @@
                 document.getElementById('infobox_dependency_warning').style['display'] = 'none';
 
             setTimeout(()=>{document.getElementById('infobox').style['display'] = 'block';}, 100);
+            window.location.hash = "#" + workshop_id
         }
 
         function stripSteamTags(text) {
@@ -493,7 +498,7 @@
                 if ("thumb" in mods_array[i])
                     useThumb = mods_array[i]["thumb"];
                 appendStr += '<img src="' + useThumb + '?raw=true" alt="" data-ax2x="' + useThumb + '?raw=true" style="width:360px;height:203px;cursor: pointer;" onclick="showInfoboxWithModInfo(\'' + mods_array[i]["workshop_id"] + '\')"></div>';
-                appendStr += '<h3 style="margin-top:8px"><a style="cursor: pointer" onclick="showInfoboxWithModInfo(\'' + mods_array[i]["workshop_id"] + '\')" style="margin-left: 0px; margin-top: -1px;" target="_blank"><b>' + mods_array[i]["name"] + '</b></a>';
+                appendStr += '<h3 style="margin-top:8px"><a style="cursor: pointer" onclick="showInfoboxWithModInfo(\'' + mods_array[i]["workshop_id"] + '\'); return false;" style="margin-left: 0px; margin-top: -1px;" target="_blank" href=#' + mods_array[i]["workshop_id"] + '><b>' + mods_array[i]["name"] + '</b></a>';
                 
                 // Icons
                 if ("video" in mods_array[i])
@@ -559,6 +564,10 @@
         }
 
         toggle("mods");
+
+        if (window.location.hash != "") {
+            showInfoboxWithModInfo(window.location.hash.slice(1))
+        }
     </script>
 
     <!-- Footer -->
