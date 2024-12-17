@@ -256,7 +256,8 @@
             document.getElementById('infobox').style['display'] = 'none';
             if (!e.target.parentElement.onclick?.toString().includes("showInfoboxWithModInfo(") && 
                 !e.target.onclick?.toString().includes("showInfoboxWithModInfo(")
-            ) window.location.hash = ""
+            ) history.replaceState(null, document.title, window.location.pathname + window.location.search);
+
           }
         });
 
