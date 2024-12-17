@@ -257,9 +257,19 @@
             if (!e.target.parentElement.onclick?.toString().includes("showInfoboxWithModInfo(") && 
                 !e.target.onclick?.toString().includes("showInfoboxWithModInfo(")
             ) history.replaceState(null, document.title, window.location.pathname + window.location.search);
-
           }
         });
+
+        document.addEventListener('keydown', function(e) {
+            if (!document.getElementById('infobox').contains(e.target)){
+            document.getElementById('infobox').style['display'] = 'none';
+            if (!e.target.parentElement.onclick?.toString().includes("showInfoboxWithModInfo(") && 
+                !e.target.onclick?.toString().includes("showInfoboxWithModInfo(")
+            ) history.replaceState(null, document.title, window.location.pathname + window.location.search);
+          }
+        });
+        
+
 
         window.addEventListener("scroll", loadOnScroll);
 
