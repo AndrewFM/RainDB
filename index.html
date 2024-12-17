@@ -261,8 +261,8 @@
           }
         });
 
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Escape') {
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
                 if (!document.getElementById('infobox').contains(e.target)) {
                         document.getElementById('infobox').style['display'] = 'none';
                     if (!e.target.parentElement.onclick?.toString().includes("showInfoboxWithModInfo(") && 
