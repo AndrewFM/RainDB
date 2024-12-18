@@ -129,6 +129,14 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    <!-- OpenGraph meta tags -->
+    <meta property="og:title" content="RainDB" />
+    <meta property="og:description" content="The Rain World mods database.
+Explore or search for mods, dependencies, files, or links to the Steam Workshop."/>
+    <meta property="og:type" content="website" />
+    <!-- <meta property="og:image" content="/RainDB/assets/img/gallery/andrewfm2.png" /> -->
+
 </head>
 
 <body>
@@ -261,8 +269,8 @@
           }
         });
 
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Escape') {
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
                 if (!document.getElementById('infobox').contains(e.target)) {
                         document.getElementById('infobox').style['display'] = 'none';
                     if (!e.target.parentElement.onclick?.toString().includes("showInfoboxWithModInfo(") && 
