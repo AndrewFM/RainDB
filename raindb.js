@@ -13101,14 +13101,14 @@ Mods.push({
 });
 
 Mods.push({
-"name": "Perlina",
+"name": "Pearlcat",
 "id": "pearlcat",
 "workshop_id": "3013739512",
-"author": "forthbridge, Geahgeah, Sidera",
+"author": "forthfora, Geahgeah, Sidera",
 "desc": "[h1][b]¡Una erudita enigmática de una tierra lejana, dotada de la extraordinaria habilidad de emplear perlas![/b][/h1]<br><br>[h3]Pearlcat tiene interacciones especiales con los siguientes mods:[/h3]<br>[b][list]<br>    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3388224007]Rain Meadow[/url] - ¡completo soporte multijugador online!<br>    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2944727862]Improved Input Config[/url] - soporte para todas las combinaciones de teclas únicas de Pearlcat.<br>    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3232063592]Chasing Wind[/url] - interacciones y diálogos únicos<br>[/list][/b]<br>[h3][u]Este mod NO requiere de More Slugcats (DLC). Sin embargo, es altamente recomendable.[/u][/h3]<br><br>[h3]CRÉDITOS:[/h3]<br>[b][list]<br>    [*]Geahgeah - Arte y diseño<br>    [*]Sidera - Diálogos y efectos de sonido<br>    [*]Noir - Código de la bufanda y las orejas<br>    [*]Linnnnnna - Traducción al chino<br>    [*]zbiotr - Traducción al español<br>    [*]Kimi - Trabajo artístico adicional<br>[/list][/b]<br>[h3]PLAYTESTERS:[/h3]<br>[b][list]<br>    [*] TurtleMan27<br>    [*] Balagaga<br>    [*] Elliot<br>    [*] Efi<br>    [*] WillowWisp<br>    [*] Lolight2<br>    [*] mayhemmm<br>[/list][/b]<br>[h3]Descarga directa: https://github.com/forthfora/pearlcat/releases[/h3]",
 "thumb": "previews/3013739512.png",
 "url": "https://ln5.sync.com/dl/920f37520#7mim74vj-5vv3y5vz-xupuq87x-pgi2gdcg",
-"video": "https://www.youtube.com/@forthbridge",
+"video": "https://www.youtube.com/watch?v=4Ias65PlQNQ",
 "requirements": "slime-cubed.slugbase",
 "version": "1.4.4",
 "created": 1690972365,
