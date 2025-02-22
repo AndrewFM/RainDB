@@ -84,7 +84,7 @@ Mods.push({
 "id": "regionkit",
 "workshop_id": "2920439476",
 "author": "RegionKit team",
-"desc": "All-in-one custom region dependency pack.<br>Source code and detailed descriptions are hosted here: https://github.com/Rain-World-Modding/RegionKit<br>Reporting bugs<br>If you have a problem to report, please do it via github issues, Rain World discord server, or leave a post on discussions under this workshop item. Try to first look if anyone has already reported similar problem, attach logs and other materials if relevant!<br>Common issue and ways to fix<br>If the game crashes without logs, try manually deleting BepInEx folder and re-verifying game files.<br><br><br>RegionKit 3.15 -<br><br>new features:<br>* HSLSnow and RGBElectricDeath effects by Cactus<br>* EffectColorButterfly insect by Alduris<br>* Remix menu by Forthbridge, which lets you enable or disable some controversial features<br>* SlipperyZone object by Bro<br>* some new BackgroundBuilder features by Bro, finally supporting the Metropolis background<br>",
+"desc": "All-in-one custom region dependency pack.<br>Source code and detailed descriptions are hosted here: https://github.com/Rain-World-Modding/RegionKit<br>Reporting bugs<br>If you have a problem to report, please do it via github issues, Rain World discord server, or leave a post on discussions under this workshop item. Try to first look if anyone has already reported similar problem, attach logs and other materials if relevant!<br>Common issue and ways to fix<br>If the game crashes without logs, try manually deleting BepInEx folder and re-verifying game files.<br><br><br>RegionKit 3.15 -<br><br>new features:<br>* HSLSnow and RGBElectricDeath effects by Cactus<br>* EffectColorButterfly insect by Alduris<br>* Remix menu by Forthfora, which lets you enable or disable some controversial features<br>* SlipperyZone object by Bro<br>* some new BackgroundBuilder features by Bro, finally supporting the Metropolis background<br>",
 "thumb": "previews/2920439476.png",
 "url": "https://andrew.fm/rainworld/raindb/RegionKit.zip",
 "requirements": "pom",
@@ -658,7 +658,7 @@ Mods.push({
 "id": "kadw.rainworldscds",
 "workshop_id": "2923504146",
 "author": "KADW",
-"desc": "WARNING: Downpour spoilers under the cut! What could this mod possibly be for...?<br><br>..........................................<br><br>..........................................<br><br>..........................................<br><br>..........................................<br><br>..........................................<br><br>Rain World Slugcat Dating Sim<br><br>by forthbridge and KADW<br><br>Version 1.1<br><br>Makes it easier to access the official dating sim that comes with More Slugcats. (Yes, it's real.)<br><br>Default controls: Press D to open it up. From the sim, press the pause button to return to the main menu. These controls can be configured in the settings.<br><br>Mod concept and thumbnail art by badgerotter. Forthbridge made the version 1.1 update, so thanks to them for the input config and the fact that it no longer breaks the newest version of Rain World (currently v1.9.07)!<br><br>Source code, and mod folder for non-Steam players, available at https://github.com/kadw108/rainworldscds<br><br>If you run into errors, you can message KADW#4425 on Discord. Include the consoleLog.txt and possible exceptionLog.txt file in your Rain World folder. Thanks!",
+"desc": "WARNING: Downpour spoilers under the cut! What could this mod possibly be for...?<br><br>..........................................<br><br>..........................................<br><br>..........................................<br><br>..........................................<br><br>..........................................<br><br>Rain World Slugcat Dating Sim<br><br>by forthfora and KADW<br><br>Version 1.1<br><br>Makes it easier to access the official dating sim that comes with More Slugcats. (Yes, it's real.)<br><br>Default controls: Press D to open it up. From the sim, press the pause button to return to the main menu. These controls can be configured in the settings.<br><br>Mod concept and thumbnail art by badgerotter. Forthfora made the version 1.1 update, so thanks to them for the input config and the fact that it no longer breaks the newest version of Rain World (currently v1.9.07)!<br><br>Source code, and mod folder for non-Steam players, available at https://github.com/kadw108/rainworldscds<br><br>If you run into errors, you can message KADW#4425 on Discord. Include the consoleLog.txt and possible exceptionLog.txt file in your Rain World folder. Thanks!",
 "thumb": "previews/2923504146.png",
 "url": "https://andrew.fm/rainworld/raindb/Rain_World_SCDS.zip",
 "requirements": "moreslugcats",
@@ -1332,9 +1332,9 @@ Mods.push({
 "thumb": "previews/2928752589.png",
 "url": "https://andrew.fm/rainworld/raindb/SBCameraScroll.zip",
 "requirements": "",
-"version": "2.9.5",
+"version": "2.9.8",
 "created": 1675588876,
-"modified": 1738957367,
+"modified": 1739603009,
 "tags": "Game Mechanics,Accessibility",
 "order": 84
 });
@@ -1408,13 +1408,13 @@ Mods.push({
 "id": "NoirCatto.Sainot",
 "workshop_id": "2929191704",
 "author": "NoirCatto",
-"desc": "Gives Saint some self-defense options<br><br>- Re-adds the ability to throw spears<br>- Adds Rambo mode (optional, toggleable in Remix - enabled by default):<br>> Boosts Saint's stats a bit, gives him a customizable bandana and a Bomb Belt,<br>> Bomb Belt allows Sain't carrying additional bombs without using hands,<br>> Option to begin the cycle with Bomb Belt resupplied<br><br>Huuuuge thanks to Henpemaz for the help with this mod + for the arts! <3",
+"desc": "Gives Saint some self-defense options<br><br>1. Re-adds the ability to throw spears<br>2. Adds Rambo mode (on by default, configurable through Remix options interace):<br>   - Boosts Saint's stats a bit, gives him a bandana and a Bomb Belt,<br>   - Bomb Belt allows Sain't carrying additional bombs without using hands,<br>   - Option to begin the cycle with Bomb Belt resupplied (disabled by default)<br><br>Huuuuge thanks to Henpemaz for the help with this mod + for the arts! <3",
 "thumb": "previews/2929191704.png",
 "url": "https://andrew.fm/rainworld/raindb/Saint.zip",
 "requirements": "moreslugcats",
-"version": "2.0.1",
+"version": "2.0.2",
 "created": 1675647037,
-"modified": 1736190080,
+"modified": 1740211571,
 "tags": "Campaigns",
 "order": 89
 });
@@ -1647,8 +1647,8 @@ Mods.push({
 "name": "Slugcat Eyebrow Raise",
 "id": "slugcateyebrowraise",
 "workshop_id": "2930800455",
-"author": "Slugcat Eyebrow Raise<br>by forthbridge<br> <br>vaLE - Thumbnail<br>Henpemaz - Camera Zoom",
-"desc": "[h1]Default Keybind is [u]Left Alt[/u] (Keyboard), or [u]Left Bumper[/u] (Controller)[/h1]<br> <br>[h1]Check the Remix Menu Config to modify these and much more![/h1]<br><br>[b]The camera zoom feature is incompatible with SBCameraScroll, if you want to use these mods together please disable it in the options![/b]<br><br>[b][u]Source: https://github.com/forthbridge/slugcat-eyebrow-raise[/u]<br><br>[h1]Credits[/h1]<br>[list]<br>    [*]vaLE - Workshop Thumbnail<br>    [*]My Sister - Illustrations<br>    [*]Henpemaz - Camera Zoom Code<br>    [*]badgerotter - Playtesting<br>[/list]",
+"author": "Slugcat Eyebrow Raise<br>by forthfora<br> <br>vaLE - Thumbnail<br>Henpemaz - Camera Zoom",
+"desc": "[h1]Default Keybind is [u]Left Alt[/u] (Keyboard), or [u]Left Bumper[/u] (Controller)[/h1]<br> <br>[h1]Check the Remix Menu Config to modify these and much more![/h1]<br><br>[b]The camera zoom feature is incompatible with SBCameraScroll, if you want to use these mods together please disable it in the options![/b]<br><br>[b][u]Source: https://github.com/forthfora/slugcat-eyebrow-raise[/u]<br><br>[h1]Credits[/h1]<br>[list]<br>    [*]vaLE - Workshop Thumbnail<br>    [*]My Sister - Illustrations<br>    [*]Henpemaz - Camera Zoom Code<br>    [*]badgerotter - Playtesting<br>[/list]",
 "thumb": "previews/2930800455.png",
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_Eyebrow_Raise.zip",
 "requirements": "",
@@ -1668,9 +1668,9 @@ Mods.push({
 "thumb": "previews/2930814260.png",
 "url": "https://andrew.fm/rainworld/raindb/Lunacy.zip",
 "requirements": "pom,fisobs",
-"version": "1.63",
+"version": "1.65",
 "created": 1675961452,
-"modified": 1739015790,
+"modified": 1740236159,
 "tags": "Game Mechanics,Dependency,Tools",
 "order": 105
 });
@@ -2381,8 +2381,8 @@ Mods.push({
 "name": "Inv Sound Effects",
 "id": "invsoundeffects",
 "workshop_id": "2936381561",
-"author": "forthbridge",
-"desc": "[h1]Adds Inv's death and impact sounds to all campaigns![/h1]<br> <br>[b](Check the Remix config to toggle them individually, impact is off by default)[/b]<br><br>[b][u]Source: https://github.com/forthbridge/inv-sound-effects[/u][/b]",
+"author": "forthfora",
+"desc": "[h1]Adds Inv's death and impact sounds to all campaigns![/h1]<br> <br>[b](Check the Remix config to toggle them individually, impact is off by default)[/b]<br><br>[b][u]Source: https://github.com/forthfora/inv-sound-effects[/u][/b]",
 "thumb": "previews/2936381561.png",
 "url": "https://andrew.fm/rainworld/raindb/Inv_Sound_Effects.zip",
 "requirements": "moreslugcats",
@@ -2493,8 +2493,8 @@ Mods.push({
 "name": "Random Title Screen",
 "id": "randomtitlescreen",
 "workshop_id": "2937203094",
-"author": "forthbridge",
-"desc": "[h1][u]Beware of spoilers! Ending scenes are in rotation by default![/u][/h1]<br><br>[h1]Randomizes the background illustration whenever the menu changes, and includes pretty much every scene ingame![/h1]<br> <br>[h1]Fully configurable through the Remix menu - toggle the illustrations that you want in rotation![/h1]<br><br>[b]Affects all menus, compatible with Downpour, and works without Downpour or Remix enabled![b]<br><br>[b][u]Background illustrations may persist after uninstalling, please enable Remix and use the Backgrounds Menu under Options to change them back to the ones you want![/u][b]<br><br>[b][u]Source: https://github.com/forthbridge/random-title-screen[/u]",
+"author": "forthfora",
+"desc": "[h1][u]Beware of spoilers! Ending scenes are in rotation by default![/u][/h1]<br><br>[h1]Randomizes the background illustration whenever the menu changes, and includes pretty much every scene ingame![/h1]<br> <br>[h1]Fully configurable through the Remix menu - toggle the illustrations that you want in rotation![/h1]<br><br>[b]Affects all menus, compatible with Downpour, and works without Downpour or Remix enabled![b]<br><br>[b][u]Background illustrations may persist after uninstalling, please enable Remix and use the Backgrounds Menu under Options to change them back to the ones you want![/u][b]<br><br>[b][u]Source: https://github.com/forthfora/random-title-screen[/u]",
 "thumb": "previews/2937203094.png",
 "url": "https://andrew.fm/rainworld/raindb/Random_Title_Screen.zip",
 "requirements": "",
@@ -2589,7 +2589,7 @@ Mods.push({
 "id": "thefriend",
 "workshop_id": "2937471209",
 "author": "MusicalMiracle",
-"desc": "[b]This is in beta. Custom campaign content has not been fully added, and creatures are a work in progress.[/b]<br><br>Face the winter storm as three new custom slugcats: the Friend, the Stalker (mainly known as Noir), and the Poacher! Set between the Rivulet and the Saint. These campaigns occur at the same time.<br><br>Friend is the first new character this mod adds. This heavy slugcat, with their developed limbs, is exceptional at crawling, climbing, jumping and even throwing. However, they're clumsy at walking, so avoid standing up!<br><br>Poacher is the second new character of this mod. Their adversaries are far stronger and heavier than this slugcat, who is just a pup, so they must use their intellect and equipment to survive encounters rather than brute force.<br><br>Noir is currently the final character from Solace. Adopted from the mod Noircatto due to code similarity and friendship, he is most mobile on all fours, much like Friend. He can flip and dash around enemies, shredding them with his unique melee attacks. And, to get their attention, he can bait them with a unique vocalization...<br><br>Solace now adds quite a cast of characters, each with their own stories, personalities, and gameplay. As you learn to thrive in the encroaching blizzards, how much of a menace will you become?<br><br>This mod currently adds 3 custom creatures, a custom world state, and significantly decreased food in all regions except for Undergrowth. The custom world state and creatures are a heavy work in progress, and are nowhere near a completed state. However, it seems stable enough to play, so I want people to be able to explore! The three characters this mod adds should now be able to ascend, so players may beat the game as them if they wish.<br><br>[u]KNOWN ISSUES:[/u]<br>- Pebbles can talk to the characters without them having the Mark of Communication (and treats them like rivulet)<br>- Many regions do not have custom spawns<br><br>[u]PLANNED:[/u]<br>- More regions with custom spawns (currently only outskirts and shaded citadel have them)<br>- Edited saint rooms so the two characters can traverse them<br>- More Poacher crafting results<br>- Custom intro and ending cutscenes<br>- More custom LTTM and Pebbles Dialogue<br>- For Saint, Friend, and Poacher, a new subregion of Subterranean that connects it to Outer Expanse<br>- A new region which [spoiler]combines Silent Construct and the Rot (aka, Pebbles will be at the height of his rotting)[/spoiler]<br><br>[u]KNOWN INCOMPATIBILITIES:[/u]<br>Drainage System+ (drainage system doesnt get replaced in solace campaigns, makes ds lag out in solace campaigns)<br>Rebind Everything (makes Poacher unable to craft)<br>Simplified Moveset (makes Noircatto's wallclimbing break - will be fixed next update)<br>The BudGermination (prevents the game from loading)<br><br>[u]ATTRIBUTIONS:[/u]<br>A huge thank-you to Slime-Cubed, o645, Deathpits, Vigaro, Spinch, Fish, Bebe, forthbridge, Dual Iron, Emerald Galaxy, and the rest of Rain World's modding community! Without you guys, creating this would not have been possible. These people helped me with understanding the code, getting the characters working, making their movement unique, adding the new creatures, and getting famine code to function as intended.<br><br>Ruffles, who made Solace's first showcase video back in the very beginning of its development, and helped get the word out!<br>The new trailer on this mod's page was created by Noir, with music by Intikus. <br><br>[u]IN-GAME TRANSLATIONS:[/u]<br>English, by me? (this mod is written in english by default...)<br>(BROKEN/UNFINISHED) Russian, by MaxBogomol#0212, on Discord<br><br>[u]FEEDBACK:[/u]<br>Please report any bugs you find! If you experience a crash, please contact me on Discord with your exceptionLog.<br><br>[u]MIRROR DOWNLOAD:[/u]<br>https://github.com/UraniumCarrot/TheFriend-Source-Code-/releases/latest",
+"desc": "[b]This is in beta. Custom campaign content has not been fully added, and creatures are a work in progress.[/b]<br><br>Face the winter storm as three new custom slugcats: the Friend, the Stalker (mainly known as Noir), and the Poacher! Set between the Rivulet and the Saint. These campaigns occur at the same time.<br><br>Friend is the first new character this mod adds. This heavy slugcat, with their developed limbs, is exceptional at crawling, climbing, jumping and even throwing. However, they're clumsy at walking, so avoid standing up!<br><br>Poacher is the second new character of this mod. Their adversaries are far stronger and heavier than this slugcat, who is just a pup, so they must use their intellect and equipment to survive encounters rather than brute force.<br><br>Noir is currently the final character from Solace. Adopted from the mod Noircatto due to code similarity and friendship, he is most mobile on all fours, much like Friend. He can flip and dash around enemies, shredding them with his unique melee attacks. And, to get their attention, he can bait them with a unique vocalization...<br><br>Solace now adds quite a cast of characters, each with their own stories, personalities, and gameplay. As you learn to thrive in the encroaching blizzards, how much of a menace will you become?<br><br>This mod currently adds 3 custom creatures, a custom world state, and significantly decreased food in all regions except for Undergrowth. The custom world state and creatures are a heavy work in progress, and are nowhere near a completed state. However, it seems stable enough to play, so I want people to be able to explore! The three characters this mod adds should now be able to ascend, so players may beat the game as them if they wish.<br><br>[u]KNOWN ISSUES:[/u]<br>- Pebbles can talk to the characters without them having the Mark of Communication (and treats them like rivulet)<br>- Many regions do not have custom spawns<br><br>[u]PLANNED:[/u]<br>- More regions with custom spawns (currently only outskirts and shaded citadel have them)<br>- Edited saint rooms so the two characters can traverse them<br>- More Poacher crafting results<br>- Custom intro and ending cutscenes<br>- More custom LTTM and Pebbles Dialogue<br>- For Saint, Friend, and Poacher, a new subregion of Subterranean that connects it to Outer Expanse<br>- A new region which [spoiler]combines Silent Construct and the Rot (aka, Pebbles will be at the height of his rotting)[/spoiler]<br><br>[u]KNOWN INCOMPATIBILITIES:[/u]<br>Drainage System+ (drainage system doesnt get replaced in solace campaigns, makes ds lag out in solace campaigns)<br>Rebind Everything (makes Poacher unable to craft)<br>Simplified Moveset (makes Noircatto's wallclimbing break - will be fixed next update)<br>The BudGermination (prevents the game from loading)<br><br>[u]ATTRIBUTIONS:[/u]<br>A huge thank-you to Slime-Cubed, o645, Deathpits, Vigaro, Spinch, Fish, Bebe, forthfora, Dual Iron, Emerald Galaxy, and the rest of Rain World's modding community! Without you guys, creating this would not have been possible. These people helped me with understanding the code, getting the characters working, making their movement unique, adding the new creatures, and getting famine code to function as intended.<br><br>Ruffles, who made Solace's first showcase video back in the very beginning of its development, and helped get the word out!<br>The new trailer on this mod's page was created by Noir, with music by Intikus. <br><br>[u]IN-GAME TRANSLATIONS:[/u]<br>English, by me? (this mod is written in english by default...)<br>(BROKEN/UNFINISHED) Russian, by MaxBogomol#0212, on Discord<br><br>[u]FEEDBACK:[/u]<br>Please report any bugs you find! If you experience a crash, please contact me on Discord with your exceptionLog.<br><br>[u]MIRROR DOWNLOAD:[/u]<br>https://github.com/UraniumCarrot/TheFriend-Source-Code-/releases/latest",
 "thumb": "previews/2937471209.png",
 "url": "https://andrew.fm/rainworld/raindb/BETA_Solace.zip",
 "requirements": "slime-cubed.slugbase,fisobs,moreslugcats",
@@ -2668,8 +2668,8 @@ Mods.push({
 "name": "Slugcat Stats Config",
 "id": "slugcatstatsconfig",
 "workshop_id": "2938168725",
-"author": "forthbridge",
-"desc": "[h1]Provides a Remix config for overriding most of slugcat's basic stats![/h1]<br><br>[b]These include food requirements, run speed, lung capacity, weight and a few more![/b]<br><br>[b]Unfortunately, certain stats, such as roll speed and slide distance, are hardcoded in the player script - these are beyond the scope of this mod.[/b]<br><br>[b][u]Does not seem to affect SlugBase characters for the most part.[/u][b]<br><br>[u][b]Source: https://github.com/forthbridge/slugcat-stats-config[/b][/u]",
+"author": "forthfora",
+"desc": "[h1]Provides a Remix config for overriding most of slugcat's basic stats![/h1]<br><br>[b]These include food requirements, run speed, lung capacity, weight and a few more![/b]<br><br>[b]Unfortunately, certain stats, such as roll speed and slide distance, are hardcoded in the player script - these are beyond the scope of this mod.[/b]<br><br>[b][u]Does not seem to affect SlugBase characters for the most part.[/u][b]<br><br>[u][b]Source: https://github.com/forthfora/slugcat-stats-config[/b][/u]",
 "thumb": "previews/2938168725.png",
 "url": "https://andrew.fm/rainworld/raindb/Slugcat_Stats_Config.zip",
 "requirements": "",
@@ -2701,13 +2701,13 @@ Mods.push({
 "id": "Arenapackage",
 "workshop_id": "2938673424",
 "author": "Bronsej",
-"desc": "Arena pack mod with 25 arena maps.<br><br>All of arenas were made before 1.9 version of the game but with small testing maps seem to work and most likely will work and I've been making with a bit of time breaks and some early ones are visibly with less quality, generally maps could look better.<br><br>I can eventually try fixing or changing some stuff if there will be need to do so.<br><br>Enjoy",
+"desc": "Arena pack mod with 25 arenas.",
 "thumb": "previews/2938673424.png",
 "url": "https://andrew.fm/rainworld/raindb/Arena_Map_Pack.zip",
 "requirements": "",
-"version": "1.5",
+"version": "1.6",
 "created": 1677329746,
-"modified": 1687635158,
+"modified": 1740061816,
 "tags": "Arenas",
 "order": 170
 });
@@ -2812,8 +2812,8 @@ Mods.push({
 "name": "Faster Gates",
 "id": "fastergates",
 "workshop_id": "2939831468",
-"author": "forthbridge",
-"desc": "[h1]Provides a Remix config menu for both gate opening speed and the amount of time needed to wait for gates to start opening![/h1]<br><br>[b][u]Only affects the animation itself![/u]<br><br>The time a gate takes to finish opening is still limited by how long it takes to load the destination region, however this usually takes less than a second.[/b]<br><br>[u][b]Source: https://github.com/forthbridge/faster-gates[/b][/u]",
+"author": "forthfora",
+"desc": "[h1]Provides a Remix config menu for both gate opening speed and the amount of time needed to wait for gates to start opening![/h1]<br><br>[b][u]Only affects the animation itself![/u]<br><br>The time a gate takes to finish opening is still limited by how long it takes to load the destination region, however this usually takes less than a second.[/b]<br><br>[u][b]Source: https://github.com/forthfora/faster-gates[/b][/u]",
 "thumb": "previews/2939831468.png",
 "url": "https://andrew.fm/rainworld/raindb/Faster_Gates.zip",
 "requirements": "",
@@ -2876,8 +2876,8 @@ Mods.push({
 "name": "Rebind Dev Tools",
 "id": "rebinddevtools",
 "workshop_id": "2940372957",
-"author": "forthbridge",
-"desc": "[h1]Provides a Remix config to rebind all of the default Dev Tools keybinds![/h1]<br><br>[h1]Also provides config for whether Dev Tools should be enabled by default or not, and allows the setting to persist between cycles![/h1]<br><br>[b]Does not actually require Dev Tools to be enabled, though the mod will do very little without it.Only the 'Speed Up Start Game' rebind will have any effect.[/b]<br><br>[b][u]Source: https://github.com/forthbridge/rebind-dev-tools[/u][/b]",
+"author": "forthfora",
+"desc": "[h1]Provides a Remix config to rebind all of the default Dev Tools keybinds![/h1]<br><br>[h1]Also provides config for whether Dev Tools should be enabled by default or not, and allows the setting to persist between cycles![/h1]<br><br>[b]Does not actually require Dev Tools to be enabled, though the mod will do very little without it.Only the 'Speed Up Start Game' rebind will have any effect.[/b]<br><br>[b][u]Source: https://github.com/forthfora/rebind-dev-tools[/u][/b]",
 "thumb": "previews/2940372957.png",
 "url": "https://andrew.fm/rainworld/raindb/Rebind_Dev_Tools.zip",
 "requirements": "",
@@ -3067,8 +3067,8 @@ Mods.push({
 "name": "Rebind Spearmaster",
 "id": "rebindspearmaster",
 "workshop_id": "2942014028",
-"author": "forthbridge",
-"desc": "[h1]Rebind Everything is out! Support for this mod has been dropped:<br>If it breaks with any updates, it won't be fixed![/h1]<br><br>[h1][u]Instead, please check out Rebind Everything here:<br>https://steamcommunity.com/sharedfiles/filedetails/?id=2954686369[/u][/h1]<br><br>[h1]Provides a Remix config to rebind Spearmaster's spear extraction![/h1]<br><br>[b][u]Source: https://github.com/forthbridge/rebind-spearmaster[/u][/b]",
+"author": "forthfora",
+"desc": "[h1]Rebind Everything is out! Support for this mod has been dropped:<br>If it breaks with any updates, it won't be fixed![/h1]<br><br>[h1][u]Instead, please check out Rebind Everything here:<br>https://steamcommunity.com/sharedfiles/filedetails/?id=2954686369[/u][/h1]<br><br>[h1]Provides a Remix config to rebind Spearmaster's spear extraction![/h1]<br><br>[b][u]Source: https://github.com/forthfora/rebind-spearmaster[/u][/b]",
 "thumb": "previews/2942014028.png",
 "url": "https://andrew.fm/rainworld/raindb/Rebind_Spearmaster.zip",
 "requirements": "moreslugcats",
@@ -3147,7 +3147,7 @@ Mods.push({
 "name": "Miros Birds Honks",
 "id": "untitledmirosmod",
 "workshop_id": "2942624484",
-"author": "GreenShpiel (mod idea), forthbridge (title idea that I stole, pls don't sue .-. )",
+"author": "GreenShpiel (mod idea), forthfora (title idea that I stole, pls don't sue .-. )",
 "desc": "Replaces miros birds sounds with goose honks from Untitled Goose Game by a mod request in discussions<br><br>[h1] Notes [/h1]<br>[list]<br>[*]Also replaces miros birds grabbing and walking noises (although it's barely noticeable)<br>[*]Miros Birds may still honk even after dying, [b] nothing can stop them honking. [/b]<br>[*]Does not change the appearance of the miros birds as requested in the mod idea. <br>Vigaro might make a better version than this one.<br>[/list]",
 "thumb": "previews/2942624484.png",
 "url": "https://andrew.fm/rainworld/raindb/Miros_Birds_Honks.zip",
@@ -3179,8 +3179,8 @@ Mods.push({
 "name": "Force Shelter Failures",
 "id": "forceshelterfailures",
 "workshop_id": "2942852779",
-"author": "forthbridge & badgerotter (thumbnail)",
-"desc": "[h1]Provides a Remix config for Shelter Failure (Precycle) chance![/h1]<br><br>[h1]Disable them, make them occur every cycle, or anything in-between![/h1]<br><br>[b]Potential Incompatibilities:[/b]<br>[list]<br>    [*]Slugsomnia from Emerald's Tweaks<br>[/list]<br><br>[b](thumbnail and idea by badgerotter)[/b]<br>[b][u]Source: https://github.com/forthbridge/force-shelter-failures[/u][/b]",
+"author": "forthfora & badgerotter (thumbnail)",
+"desc": "[h1]Provides a Remix config for Shelter Failure (Precycle) chance![/h1]<br><br>[h1]Disable them, make them occur every cycle, or anything in-between![/h1]<br><br>[b]Potential Incompatibilities:[/b]<br>[list]<br>    [*]Slugsomnia from Emerald's Tweaks<br>[/list]<br><br>[b](thumbnail and idea by badgerotter)[/b]<br>[b][u]Source: https://github.com/forthfora/force-shelter-failures[/u][/b]",
 "thumb": "previews/2942852779.png",
 "url": "https://andrew.fm/rainworld/raindb/Force_Shelter_Failures.zip",
 "requirements": "moreslugcats",
@@ -3244,8 +3244,8 @@ Mods.push({
 "name": "Rainbow Needles",
 "id": "rainbowneedles",
 "workshop_id": "2943128091",
-"author": "forthbridge",
-"desc": "[h1]Makes Spearmaster's needles and tail speckles a fully animated rainbow![/h1]<br><br>[h1]Configurable via Remix, from the parts affected to the rainbow cycle speed![/h1]<br><br>[b]Thank you to [u]Silvar#9999[/u] for playtesting, and suggesting the rainbow cycles![b]<br><br>[b][u]Source: https://github.com/forthbridge/rainbow-needles[/u][/b]",
+"author": "forthfora",
+"desc": "[h1]Makes Spearmaster's needles and tail speckles a fully animated rainbow![/h1]<br><br>[h1]Configurable via Remix, from the parts affected to the rainbow cycle speed![/h1]<br><br>[b]Thank you to [u]Silvar#9999[/u] for playtesting, and suggesting the rainbow cycles![b]<br><br>[b][u]Source: https://github.com/forthfora/rainbow-needles[/u][/b]",
 "thumb": "previews/2943128091.png",
 "url": "https://andrew.fm/rainworld/raindb/Rainbow_Needles.zip",
 "requirements": "moreslugcats",
@@ -3676,8 +3676,8 @@ Mods.push({
 "name": "Throw Fix",
 "id": "throwfix",
 "workshop_id": "2947728219",
-"author": "forthbridge",
-"desc": "[h1]Prevents thrown objects changing direction mid-air when turning![/h1]<br><br>[b](Despite being called a fix, this behavior is actually intended)[/b]<br><br>[b](thumbnail by badgerotter)[b]<br>[b][u]Source: https://github.com/forthbridge/throw-fix[/u][/b]",
+"author": "forthfora",
+"desc": "[h1]Prevents thrown objects changing direction mid-air when turning![/h1]<br><br>[b](Despite being called a fix, this behavior is actually intended)[/b]<br><br>[b](thumbnail by badgerotter)[b]<br>[b][u]Source: https://github.com/forthfora/throw-fix[/u][/b]",
 "thumb": "previews/2947728219.png",
 "url": "https://andrew.fm/rainworld/raindb/Throw_Fix.zip",
 "requirements": "",
@@ -4013,13 +4013,13 @@ Mods.push({
 "id": "ShinyKelp.ApexUpYourSpawns",
 "workshop_id": "2949807731",
 "author": "Shiny Kelp",
-"desc": "Do you think that the vanilla game is just a taaaad too easy? Or do you wanna replicate Inv's hellish campaign with other slugcats? Apex Up Your Spawns is just for you!<br><br>Increase the number of whatever predators you'd like!<br>Swap creatures for their stronger variants!<br>Replace harmless critters with not-so-harmless beasts!<br>And more!<br><br>All fully customizable and configurable!<br><br>As of version 1.4.3, it now supports multiple modded creatures, and additional options will show up exclusively for them!<br><br>Currently supported creature mods:<br><br>From mod campaigns:<br>-Solace (Snow Spider, Mother Lizard, Young Lizard)<br>-Hailstorm (Cyanwing, Icy Blue Lizard, Freezer Lizard, Baby Aquapede, Chillipede)<br>-Pitch Black (Little Longlegs, Night Terror)<br>-The Vanguard (Toxic Spider)<br><br>Fisobs:<br>-More DLLs<br>-Explosive DLL<br>-Sporantula<br>-Scutigera<br>-Red Horror Centipede<br>-Water Spitter<br>-Fat Firefly<br>-Rainbow Longlegs<br>-Surface Swimmer<br>-Bouncing Ball<br>-Outspectors<br>-Spear Snails<br>-Bombardier Vulture<br>-Mimic Starfish<br>-Scroungers<br>-Drain Mites<br>-Fat Noodlefly (Moss Fields)<br>-Hoverfly<br>-Noodle Eater<br>-Mini Leviathan<br>-ThornBug<br>-Electric Lizard<br>-Hunter Seeker (Scorched District)<br>-Polliwog (Coral Caves)<br>-Silver Lizard (Undersea)<br>-[apoiler] Echo Leviathan [/spoiler] (Guilded Sanctuary)<br>-Blizzor (Forsaken Factory)<br>-Mole Salamander (Forsaken Factory)<br><br>Lizard Customiser:<br>-Lizard Variants<br>-Sludge Lizard<br>-The Lizard Mod<br>-Epic Lizards<br>-Jade Lizard<br>-Yellow Crazy Lizard<br>-Cherrybomb Lizard<br><br>Other:<br>-Angry Inspectors (Inspectors vs Longlegs)<br>-Scavenger Tweaks (Chieftain scavenger spawns)<br>-Stronger Albino Kings (Albino Vulture spawns)<br><br>NOTE: ONCE GENERATED, SPAWN MODIFICATIONS ARE *PERMANENT*.<br>If you wish to reset your spawns back to vanilla, you'll have to enable the option to randomize spawns every cycle and turn every config to zero, then hibernate in whichever region you want to reset.<br><br>Source: https://github.com/ShinyKelp/ApexUpYourSpawns",
+"desc": "Do you think that the vanilla game is just a taaaad too easy? Or do you wanna replicate Inv's hellish campaign with other slugcats? Apex Up Your Spawns is just for you!<br><br>Increase the number of whatever predators you'd like!<br>Swap creatures for their stronger variants!<br>Replace harmless critters with not-so-harmless beasts!<br>And more!<br><br>All fully customizable and configurable!<br><br>As of version 1.4.3, it now supports multiple modded creatures, and additional options will show up exclusively for them!<br><br>Currently supported creature mods:<br><br>From mod campaigns:<br>-Solace (Snow Spider, Mother Lizard, Young Lizard)<br>-Hailstorm (Cyanwing, Icy Blue Lizard, Freezer Lizard, Baby Aquapede, Chillipede)<br>-Pitch Black (Little Longlegs, Night Terror)<br>-The Vanguard (Toxic Spider)<br><br>Fisobs:<br>-More DLLs<br>-Explosive DLL<br>-Sporantula<br>-Scutigera<br>-Red Horror Centipede<br>-Water Spitter<br>-Fat Firefly<br>-Rainbow Longlegs<br>-Surface Swimmer<br>-Bouncing Ball<br>-Outspectors<br>-Spear Snails<br>-Bombardier Vulture<br>-Mimic Starfish<br>-Scroungers<br>-Drain Mites<br>-Fat Noodlefly (Moss Fields)<br>-Hoverfly<br>-Noodle Eater<br>-Mini Leviathan<br>-ThornBug<br>-Electric Lizard<br>-Hunter Seeker (Scorched District)<br>-Polliwog (Coral Caves)<br>-Silver Lizard (Undersea)<br>-[spoiler] Echo Leviathan [/spoiler] (Gilded Sanctuary)<br>-Blizzor (Forsaken Factory)<br>-Mole Salamander (Forsaken Station)<br><br>Lizard Customiser:<br>-Lizard Variants<br>-Sludge Lizard<br>-The Lizard Mod<br>-Epic Lizards<br>-Jade Lizard<br>-Yellow Crazy Lizard<br>-Cherrybomb Lizard<br><br>Other:<br>-Angry Inspectors (Inspectors vs Longlegs)<br>-Scavenger Tweaks (Chieftain scavenger spawns)<br>-Stronger Albino Kings (Albino Vulture spawns)<br><br>NOTE: ONCE GENERATED, SPAWN MODIFICATIONS ARE *PERMANENT*.<br>If you wish to reset your spawns back to vanilla, you'll have to enable the option to randomize spawns every cycle and turn every config to zero, then hibernate in whichever region you want to reset.<br><br>Source: https://github.com/ShinyKelp/ApexUpYourSpawns",
 "thumb": "previews/2949807731.png",
 "url": "https://andrew.fm/rainworld/raindb/Apex_Up_Your_Spawns.zip",
 "requirements": "moreslugcats",
-"version": "1.4.3.1",
+"version": "1.4.3.2",
 "created": 1679336404,
-"modified": 1727003919,
+"modified": 1739295928,
 "tags": "Creatures",
 "order": 252
 });
@@ -4554,8 +4554,8 @@ Mods.push({
 "name": "Artificer, Don't Swallow!",
 "id": "artificerdontswallow",
 "workshop_id": "2951493798",
-"author": "forthbridge & NightCatGamer (idea & thumbnail)",
-"desc": "[h1]Allows Artificer to craft items without having to swallow them first![/h1]<br><br>[b][u]To swallow an item, instead hold up and grab at the same time.[/u][/b]<br><br>[b]Also provides an option to disable swallowed items being automatically crafted![/b]<br><br>[b](thumbnail and idea by NightCatGamer)[/b]<br>[b][u]Source: https://github.com/forthbridge/artificer-dont-swallow[/u][/b]<br>",
+"author": "forthfora & NightCatGamer (idea & thumbnail)",
+"desc": "[h1]Allows Artificer to craft items without having to swallow them first![/h1]<br><br>[b][u]To swallow an item, instead hold up and grab at the same time.[/u][/b]<br><br>[b]Also provides an option to disable swallowed items being automatically crafted![/b]<br><br>[b](thumbnail and idea by NightCatGamer)[/b]<br>[b][u]Source: https://github.com/forthfora/artificer-dont-swallow[/u][/b]<br>",
 "thumb": "previews/2951493798.png",
 "url": "https://andrew.fm/rainworld/raindb/Artificer_Dont_Swallow.zip",
 "requirements": "",
@@ -4929,7 +4929,7 @@ Mods.push({
 "requirements": "",
 "version": "1.0.1",
 "created": 1679873279,
-"modified": 1710311783,
+"modified": 1739750735,
 "tags": "",
 "order": 309
 });
@@ -5034,7 +5034,7 @@ Mods.push({
 "name": "Change Player 1 in Expedition",
 "id": "ShinyKelp.ExpPlayer1Change",
 "workshop_id": "2953406287",
-"author": "Shiny Kelp & forthbridge (help with IL coding)",
+"author": "Shiny Kelp & forthfora (help with IL coding)",
 "desc": "In Expedition's jolly coop menu, it lets you change player 1's character like in main story coops. Also lets you select any perk for any slugcat.",
 "thumb": "previews/2953406287.png",
 "url": "https://andrew.fm/rainworld/raindb/Change_Player_1_in_Expedition.zip",
@@ -5402,8 +5402,8 @@ Mods.push({
 "name": "Rebind Everything",
 "id": "rebindeverything",
 "workshop_id": "2954686369",
-"author": "forthbridge",
-"desc": "[h1]Provides options for rebinding all Slugcat abilities, via Improved Input Config![/h1]<br><br>[h1]Instead of through the Remix config menu, configure this mod via the normal Input Settings under Options![/h1]<br><br>[b]Provides options to rebind all of the following:[/b]<br>[list]<br>    [*]Back Spears<br>    [*]Back Slugs<br>    [*]Artificer's Jump<br>    [*]Artificer's Parry<br>    [*]Gourmand & Artificer's Crafting<br>    [*]Spearmaster's Spear Extraction<br>    [*]Saint's Ascension<br>    [*]Aiming Saint's Ascension<br>    [*]Grappling (Tongue & Grapple Worm)<br>[/list]<br><br>[b]For any inputs left unbound, the default behavior is used![b]<br><br>[u][b]Improved Input Config may show a warning if multiple bindings share the same key, but otherwise the rebinds should still work perfectly fine in this case![/b][/u]<br><br>[b](main thumbnail by my sister, alternate art by Scavenger#8664)[/b]<br>[b][u]Source: https://github.com/forthbridge/rebind-everything[/u][/b]",
+"author": "forthfora",
+"desc": "[h1]Provides options for rebinding all Slugcat abilities, via Improved Input Config![/h1]<br><br>[h1]Instead of through the Remix config menu, configure this mod via the normal Input Settings under Options![/h1]<br><br>[b]Provides options to rebind all of the following:[/b]<br>[list]<br>    [*]Back Spears<br>    [*]Back Slugs<br>    [*]Artificer's Jump<br>    [*]Artificer's Parry<br>    [*]Gourmand & Artificer's Crafting<br>    [*]Spearmaster's Spear Extraction<br>    [*]Saint's Ascension<br>    [*]Aiming Saint's Ascension<br>    [*]Grappling (Tongue & Grapple Worm)<br>[/list]<br><br>[b]For any inputs left unbound, the default behavior is used![b]<br><br>[u][b]Improved Input Config may show a warning if multiple bindings share the same key, but otherwise the rebinds should still work perfectly fine in this case![/b][/u]<br><br>[b](main thumbnail by my sister, alternate art by Scavenger#8664)[/b]<br>[b][u]Source: https://github.com/forthfora/rebind-everything[/u][/b]",
 "thumb": "previews/2954686369.png",
 "url": "https://andrew.fm/rainworld/raindb/Rebind_Everything.zip",
 "requirements": "improved-input-config",
@@ -5433,8 +5433,8 @@ Mods.push({
 "name": "Fast Roll Button",
 "id": "fastrollbutton",
 "workshop_id": "2954863557",
-"author": "forthbridge",
-"desc": "[h1]Provides a per-player configurable keybind to force the necessary analog inputs to fast roll![/h1]<br><br>[b][u]Fast rolling is a movement tech, normally only possible with analog inputs via a controller or virtual controller<br><br>With this mod, you can perform it on keyboard too, with the press of a button![/u][/b]<br><br>To perform a fast roll, hold the fast roll button [u]instead[/u] of down when beginning a roll!<br><br>When chaining fast rolls, will require you to hold down briefly to begin the roll - any Y input during the roll will override the fast roll input!<br><br>[b](thumbnail by Kimi, display code from Input Display by Slime_Cubed)[/b]<br>[b][u]Source: https://github.com/forthbridge/fast-roll-button[/u][/b]",
+"author": "forthfora",
+"desc": "[h1]Provides a per-player configurable keybind to force the necessary analog inputs to fast roll![/h1]<br><br>[b][u]Fast rolling is a movement tech, normally only possible with analog inputs via a controller or virtual controller<br><br>With this mod, you can perform it on keyboard too, with the press of a button![/u][/b]<br><br>To perform a fast roll, hold the fast roll button [u]instead[/u] of down when beginning a roll!<br><br>When chaining fast rolls, will require you to hold down briefly to begin the roll - any Y input during the roll will override the fast roll input!<br><br>[b](thumbnail by Kimi, display code from Input Display by Slime_Cubed)[/b]<br>[b][u]Source: https://github.com/forthfora/fast-roll-button[/u][/b]",
 "thumb": "previews/2954863557.png",
 "url": "https://andrew.fm/rainworld/raindb/Fast_Roll_Button.zip",
 "requirements": "",
@@ -6405,7 +6405,7 @@ Mods.push({
 "name": "Speedrun Timer Tweaks",
 "id": "speedruntimerfix",
 "workshop_id": "2960580529",
-"author": "forthbridge",
+"author": "forthfora",
 "desc": "[h1]Allows further customization of the in-game timer![/h1]<br><br>[b]Previously, this mod improved the functionality of the timer as well - this has been integrated into the base game.[/b]<br>[b]It should retain its original functionality with 1.9.07b, if you want to stay on the old version.[/b]<br><br>[h1]Features:[/h1]<br>[b][list]<br>    [*]Option to toggle display of milliseconds<br>    [*]Option to display survived (completed) and death (lost) time separately on the select screen<br><br>    [*]Option to change the in-game timer's color and position<br>    [*]Option to prevent the in-game timer from fading<br>    [*]Option to display the timer on the sleep screen<br><br>    [*]Options to display both the old 1.9.07b timer, and internal totTime for RNG manipulation<br>[/list][/b]<br>[b](thumbnail by Kimi)[/b]<br>[u][b]Source: https://github.com/forthfora/speedrun-timer-fix[/b][/u]",
 "thumb": "previews/2960580529.png",
 "url": "https://andrew.fm/rainworld/raindb/Speedrun_Timer_Tweaks.zip",
@@ -6758,13 +6758,13 @@ Mods.push({
 "id": "rainfancycats",
 "workshop_id": "2962456735",
 "author": "raintailed",
-"desc": "A bunch of custom sprites made by myself. Have fun! Feel free to edit these sprites and release your own versions. <br><br>Notes about Explorer/Splora's sprites:<br>    - leg sprites are a recolored version of Miimow-styled leg sprites<br>    - new tail sprite is for DMS' asymmetric feature<br><br>For the tail sprites, you may have to tweak the tail size for best results.<br><br>Update 1.2: shifted upwards some of the head sprites so it doesn't look weird<br>Update 1.3: added fluffy gradient tail and some special spearmaster tail spots<br><br>Update 1.5: <br>    - adjusted shading colors<br>    - new arm sprites (regular, beans, and fluffy versions)<br>    - renamed SploraUniqueSprites set to OldSploraPublic<br>    - FluffElbows, FluffHips, FluffyTailOld, and RHFluff are now part of OldFluff sprite set<br>    - added NewFluff and NewSploraPublic sprite sets<br>    - artificer faces! including one that I ripped straight from the MSC atlases lol<br><br>Update 1.6:<br>    - Egg Mark<br>    - Three-eyed face<br>    - alternate four-eyed sprites (and artificer versions)",
+"desc": "A bunch of custom sprites made by myself. Have fun! Feel free to edit these sprites and release your own versions. <br><br>Notes about Explorer/Splora's sprites:<br>    - leg sprites are a recolored version of Miimow-styled leg sprites<br>    - new tail sprite is for DMS' asymmetric feature<br><br>For the tail sprites, you may have to tweak the tail size for best results.",
 "thumb": "previews/2962456735.png",
 "url": "https://andrew.fm/rainworld/raindb/Rains_Fancy_Cats.zip",
 "requirements": "dressmyslugcat",
 "version": "1.2",
 "created": 1681529369,
-"modified": 1726484580,
+"modified": 1739735419,
 "tags": "Cosmetics",
 "order": 424
 });
@@ -6790,7 +6790,7 @@ Mods.push({
 "id": "maxi-mol.projectionscreenwindows",
 "workshop_id": "2962555373",
 "author": "Maxi Mol",
-"desc": "Project any program on a in-game ProjectionScreen. You'll need a second monitor to display the window which will be captured. This plugin starts a background process which is basically Snipping Tool at 30 FPS. Also download Five Pebbles Pong, because this plugin is programmed as an add-on game.<br><br>This may not work on all PC's. If you don't get any output, check if you have .NET Runtime 6.0.15 installed: https://dotnet.microsoft.com/en-us/download/dotnet/6.0 <br><br>Five Pebbles Pong: https://steamcommunity.com/sharedfiles/filedetails/?id=2942659714<br>Source code is here: https://github.com/woutkolkman/projectionscreenwindows<br>If you want an actual video player, check out forthbridge's five-pebbles-bad-apple!: https://github.com/forthbridge/five-pebbles-bad-apple<br><br>Known bugs:<br>- Flashing 'ghost' window in bottom left corner, fixing this would require rewriting relatively complex parts of the plugin.",
+"desc": "Project any program on a in-game ProjectionScreen. You'll need a second monitor to display the window which will be captured. This plugin starts a background process which is basically Snipping Tool at 30 FPS. Also download Five Pebbles Pong, because this plugin is programmed as an add-on game.<br><br>This may not work on all PC's. If you don't get any output, check if you have .NET Runtime 6.0.15 installed: https://dotnet.microsoft.com/en-us/download/dotnet/6.0 <br><br>Five Pebbles Pong: https://steamcommunity.com/sharedfiles/filedetails/?id=2942659714<br>Source code is here: https://github.com/woutkolkman/projectionscreenwindows<br>If you want an actual video player, check out forthfora's five-pebbles-bad-apple!: https://github.com/forthfora/five-pebbles-bad-apple<br><br>Known bugs:<br>- Flashing 'ghost' window in bottom left corner, fixing this would require rewriting relatively complex parts of the plugin.",
 "thumb": "previews/2962555373.png",
 "url": "https://andrew.fm/rainworld/raindb/ProjectionScreenWindows.zip",
 "requirements": "maxi-mol.fivepebblespong",
@@ -9001,8 +9001,8 @@ Mods.push({
 "name": "Pebbles Reads Pearls",
 "id": "pebblesreadspearls",
 "workshop_id": "2980038894",
-"author": "forthbridge & Sidera",
-"desc": "[h1]Allows Rivulet Pebbles to read pearls, with unique dialogue![/h1]<br><br>[b][u]Drop a pearl in Pebbles' chamber when he is not talking to have him read it.[/u][/b]<br><br><br>[b][u]Source: https://github.com/forthbridge/pebbles-reads-pearls[/u][/b]",
+"author": "forthfora & Sidera",
+"desc": "[h1]Allows Rivulet Pebbles to read pearls, with unique dialogue![/h1]<br><br>[b][u]Drop a pearl in Pebbles' chamber when he is not talking to have him read it.[/u][/b]<br><br><br>[b][u]Source: https://github.com/forthfora/pebbles-reads-pearls[/u][/b]",
 "thumb": "previews/2980038894.png",
 "url": "https://andrew.fm/rainworld/raindb/Pebbles_Reads_Pearls.zip",
 "requirements": "moreslugcats",
@@ -10625,22 +10625,6 @@ Mods.push({
 });
 
 Mods.push({
-"name": "Kills Add Time",
-"id": "Aureuix.KillTime",
-"workshop_id": "2992844340",
-"author": "Aureuix",
-"desc": "Every kill adds 10 seconds to the rain timer.<br><br>DM me on discord (@aureuix) for small code mod commissions!",
-"thumb": "previews/2992844340.png",
-"url": "https://andrew.fm/rainworld/raindb/Kills_Add_Time.zip",
-"requirements": "",
-"version": "",
-"created": 1687406255,
-"modified": 1687406255,
-"tags": "",
-"order": 666
-});
-
-Mods.push({
 "name": "KohgaCat",
 "id": "KohgaCat",
 "workshop_id": "2993047331",
@@ -10653,7 +10637,7 @@ Mods.push({
 "created": 1687448842,
 "modified": 1687448842,
 "tags": "Cosmetics",
-"order": 667
+"order": 666
 });
 
 Mods.push({
@@ -10669,7 +10653,7 @@ Mods.push({
 "created": 1687454925,
 "modified": 1687454925,
 "tags": "Game Mechanics",
-"order": 668
+"order": 667
 });
 
 Mods.push({
@@ -10685,7 +10669,7 @@ Mods.push({
 "created": 1687455678,
 "modified": 1707551609,
 "tags": "Cosmetics",
-"order": 669
+"order": 668
 });
 
 Mods.push({
@@ -10701,7 +10685,7 @@ Mods.push({
 "created": 1687464809,
 "modified": 1693314525,
 "tags": "Cosmetics",
-"order": 670
+"order": 669
 });
 
 Mods.push({
@@ -10717,7 +10701,7 @@ Mods.push({
 "created": 1687467075,
 "modified": 1692585665,
 "tags": "Cosmetics",
-"order": 671
+"order": 670
 });
 
 Mods.push({
@@ -10733,7 +10717,7 @@ Mods.push({
 "created": 1687475664,
 "modified": 1687477475,
 "tags": "Regions",
-"order": 672
+"order": 671
 });
 
 Mods.push({
@@ -10749,7 +10733,7 @@ Mods.push({
 "created": 1687482904,
 "modified": 1713034086,
 "tags": "Creatures,Lizard,Halloween",
-"order": 673
+"order": 672
 });
 
 Mods.push({
@@ -10765,7 +10749,7 @@ Mods.push({
 "created": 1687485171,
 "modified": 1687485171,
 "tags": "Cosmetics",
-"order": 674
+"order": 673
 });
 
 Mods.push({
@@ -10781,7 +10765,7 @@ Mods.push({
 "created": 1687489449,
 "modified": 1687489449,
 "tags": "",
-"order": 675
+"order": 674
 });
 
 Mods.push({
@@ -10797,7 +10781,7 @@ Mods.push({
 "created": 1687500225,
 "modified": 1687928339,
 "tags": "Cosmetics",
-"order": 676
+"order": 675
 });
 
 Mods.push({
@@ -10813,7 +10797,7 @@ Mods.push({
 "created": 1687506449,
 "modified": 1687506449,
 "tags": "Cosmetics",
-"order": 677
+"order": 676
 });
 
 Mods.push({
@@ -10829,7 +10813,7 @@ Mods.push({
 "created": 1687576336,
 "modified": 1687576336,
 "tags": "Cosmetics",
-"order": 678
+"order": 677
 });
 
 Mods.push({
@@ -10844,7 +10828,7 @@ Mods.push({
 "created": 1687587612,
 "modified": 1687587612,
 "tags": "",
-"order": 679
+"order": 678
 });
 
 Mods.push({
@@ -10860,7 +10844,7 @@ Mods.push({
 "created": 1687653537,
 "modified": 1687653537,
 "tags": "Cosmetics",
-"order": 680
+"order": 679
 });
 
 Mods.push({
@@ -10876,7 +10860,7 @@ Mods.push({
 "created": 1687661844,
 "modified": 1687750336,
 "tags": "Cosmetics",
-"order": 681
+"order": 680
 });
 
 Mods.push({
@@ -10892,7 +10876,7 @@ Mods.push({
 "created": 1687668919,
 "modified": 1687668919,
 "tags": "Cosmetics",
-"order": 682
+"order": 681
 });
 
 Mods.push({
@@ -10908,7 +10892,7 @@ Mods.push({
 "created": 1687703059,
 "modified": 1687703059,
 "tags": "",
-"order": 683
+"order": 682
 });
 
 Mods.push({
@@ -10924,7 +10908,7 @@ Mods.push({
 "created": 1687735527,
 "modified": 1687737635,
 "tags": "Creatures,Lizard Customizer,Tools,Dependency",
-"order": 684
+"order": 683
 });
 
 Mods.push({
@@ -10940,7 +10924,7 @@ Mods.push({
 "created": 1687805696,
 "modified": 1689525616,
 "tags": "Cosmetics",
-"order": 685
+"order": 684
 });
 
 Mods.push({
@@ -10956,7 +10940,7 @@ Mods.push({
 "created": 1687820363,
 "modified": 1705700278,
 "tags": "Cosmetics",
-"order": 686
+"order": 685
 });
 
 Mods.push({
@@ -10972,7 +10956,7 @@ Mods.push({
 "created": 1687854100,
 "modified": 1712308566,
 "tags": "Cosmetics",
-"order": 687
+"order": 686
 });
 
 Mods.push({
@@ -10988,7 +10972,7 @@ Mods.push({
 "created": 1687875292,
 "modified": 1691068326,
 "tags": "Cosmetics",
-"order": 688
+"order": 687
 });
 
 Mods.push({
@@ -11004,7 +10988,7 @@ Mods.push({
 "created": 1687914852,
 "modified": 1698288353,
 "tags": "Cosmetics",
-"order": 689
+"order": 688
 });
 
 Mods.push({
@@ -11020,7 +11004,7 @@ Mods.push({
 "created": 1687933930,
 "modified": 1687933930,
 "tags": "Cosmetics",
-"order": 690
+"order": 689
 });
 
 Mods.push({
@@ -11035,7 +11019,7 @@ Mods.push({
 "created": 1687955874,
 "modified": 1734351438,
 "tags": "",
-"order": 691
+"order": 690
 });
 
 Mods.push({
@@ -11051,7 +11035,7 @@ Mods.push({
 "created": 1687989848,
 "modified": 1687989848,
 "tags": "",
-"order": 692
+"order": 691
 });
 
 Mods.push({
@@ -11066,7 +11050,7 @@ Mods.push({
 "created": 1688014195,
 "modified": 1688014195,
 "tags": "",
-"order": 693
+"order": 692
 });
 
 Mods.push({
@@ -11082,7 +11066,7 @@ Mods.push({
 "created": 1688022613,
 "modified": 1715071862,
 "tags": "Regions",
-"order": 694
+"order": 693
 });
 
 Mods.push({
@@ -11098,7 +11082,7 @@ Mods.push({
 "created": 1688044313,
 "modified": 1688044313,
 "tags": "",
-"order": 695
+"order": 694
 });
 
 Mods.push({
@@ -11114,7 +11098,7 @@ Mods.push({
 "created": 1688065509,
 "modified": 1688304935,
 "tags": "Cosmetics",
-"order": 696
+"order": 695
 });
 
 Mods.push({
@@ -11130,7 +11114,7 @@ Mods.push({
 "created": 1688087160,
 "modified": 1688161053,
 "tags": "Cosmetics",
-"order": 697
+"order": 696
 });
 
 Mods.push({
@@ -11146,7 +11130,7 @@ Mods.push({
 "created": 1688091778,
 "modified": 1688106021,
 "tags": "Cosmetics",
-"order": 698
+"order": 697
 });
 
 Mods.push({
@@ -11162,7 +11146,7 @@ Mods.push({
 "created": 1688266958,
 "modified": 1688266958,
 "tags": "Cosmetics",
-"order": 699
+"order": 698
 });
 
 Mods.push({
@@ -11178,7 +11162,7 @@ Mods.push({
 "created": 1688273029,
 "modified": 1688273029,
 "tags": "",
-"order": 700
+"order": 699
 });
 
 Mods.push({
@@ -11194,7 +11178,7 @@ Mods.push({
 "created": 1688394990,
 "modified": 1688394990,
 "tags": "Cosmetics",
-"order": 701
+"order": 700
 });
 
 Mods.push({
@@ -11209,7 +11193,7 @@ Mods.push({
 "created": 1688404742,
 "modified": 1688404742,
 "tags": "",
-"order": 702
+"order": 701
 });
 
 Mods.push({
@@ -11225,7 +11209,7 @@ Mods.push({
 "created": 1688413490,
 "modified": 1688413490,
 "tags": "Cosmetics",
-"order": 703
+"order": 702
 });
 
 Mods.push({
@@ -11241,7 +11225,7 @@ Mods.push({
 "created": 1688430711,
 "modified": 1689244630,
 "tags": "",
-"order": 704
+"order": 703
 });
 
 Mods.push({
@@ -11256,7 +11240,7 @@ Mods.push({
 "created": 1688440496,
 "modified": 1694386151,
 "tags": "",
-"order": 705
+"order": 704
 });
 
 Mods.push({
@@ -11272,7 +11256,7 @@ Mods.push({
 "created": 1688467472,
 "modified": 1688467472,
 "tags": "",
-"order": 706
+"order": 705
 });
 
 Mods.push({
@@ -11288,7 +11272,7 @@ Mods.push({
 "created": 1688479944,
 "modified": 1688488867,
 "tags": "Cosmetics",
-"order": 707
+"order": 706
 });
 
 Mods.push({
@@ -11304,7 +11288,7 @@ Mods.push({
 "created": 1688502898,
 "modified": 1711559834,
 "tags": "",
-"order": 708
+"order": 707
 });
 
 Mods.push({
@@ -11320,7 +11304,7 @@ Mods.push({
 "created": 1688504924,
 "modified": 1688550917,
 "tags": "Cosmetics",
-"order": 709
+"order": 708
 });
 
 Mods.push({
@@ -11336,7 +11320,7 @@ Mods.push({
 "created": 1688516453,
 "modified": 1688662426,
 "tags": "Cosmetics",
-"order": 710
+"order": 709
 });
 
 Mods.push({
@@ -11352,7 +11336,7 @@ Mods.push({
 "created": 1688520780,
 "modified": 1692584813,
 "tags": "Cosmetics",
-"order": 711
+"order": 710
 });
 
 Mods.push({
@@ -11368,7 +11352,7 @@ Mods.push({
 "created": 1688520948,
 "modified": 1688520948,
 "tags": "",
-"order": 712
+"order": 711
 });
 
 Mods.push({
@@ -11384,7 +11368,7 @@ Mods.push({
 "created": 1688523410,
 "modified": 1688777106,
 "tags": "Regions",
-"order": 713
+"order": 712
 });
 
 Mods.push({
@@ -11400,7 +11384,7 @@ Mods.push({
 "created": 1688599911,
 "modified": 1690527262,
 "tags": "",
-"order": 714
+"order": 713
 });
 
 Mods.push({
@@ -11416,7 +11400,7 @@ Mods.push({
 "created": 1688601138,
 "modified": 1688601138,
 "tags": "",
-"order": 715
+"order": 714
 });
 
 Mods.push({
@@ -11432,7 +11416,7 @@ Mods.push({
 "created": 1688615559,
 "modified": 1710820992,
 "tags": "Game Mechanics",
-"order": 716
+"order": 715
 });
 
 Mods.push({
@@ -11448,7 +11432,7 @@ Mods.push({
 "created": 1688689748,
 "modified": 1692782587,
 "tags": "Cosmetics",
-"order": 717
+"order": 716
 });
 
 Mods.push({
@@ -11464,7 +11448,7 @@ Mods.push({
 "created": 1688718768,
 "modified": 1688731371,
 "tags": "",
-"order": 718
+"order": 717
 });
 
 Mods.push({
@@ -11481,7 +11465,7 @@ Mods.push({
 "created": 1688744302,
 "modified": 1723721672,
 "tags": "",
-"order": 719
+"order": 718
 });
 
 Mods.push({
@@ -11497,7 +11481,7 @@ Mods.push({
 "created": 1688748945,
 "modified": 1737222550,
 "tags": "Regions",
-"order": 720
+"order": 719
 });
 
 Mods.push({
@@ -11513,7 +11497,7 @@ Mods.push({
 "created": 1688749246,
 "modified": 1691452029,
 "tags": "",
-"order": 721
+"order": 720
 });
 
 Mods.push({
@@ -11530,7 +11514,7 @@ Mods.push({
 "created": 1688753853,
 "modified": 1693661659,
 "tags": "",
-"order": 722
+"order": 721
 });
 
 Mods.push({
@@ -11546,7 +11530,7 @@ Mods.push({
 "created": 1688753991,
 "modified": 1689205275,
 "tags": "",
-"order": 723
+"order": 722
 });
 
 Mods.push({
@@ -11562,7 +11546,7 @@ Mods.push({
 "created": 1688767414,
 "modified": 1689257583,
 "tags": "Creatures",
-"order": 724
+"order": 723
 });
 
 Mods.push({
@@ -11578,7 +11562,7 @@ Mods.push({
 "created": 1688780148,
 "modified": 1697043766,
 "tags": "Cosmetics",
-"order": 725
+"order": 724
 });
 
 Mods.push({
@@ -11594,7 +11578,7 @@ Mods.push({
 "created": 1688854789,
 "modified": 1712445786,
 "tags": "Campaigns,Game Mechanics,Items,Cosmetics",
-"order": 726
+"order": 725
 });
 
 Mods.push({
@@ -11610,7 +11594,7 @@ Mods.push({
 "created": 1688907526,
 "modified": 1688907526,
 "tags": "Cosmetics",
-"order": 727
+"order": 726
 });
 
 Mods.push({
@@ -11626,7 +11610,7 @@ Mods.push({
 "created": 1688930095,
 "modified": 1688930095,
 "tags": "Cosmetics",
-"order": 728
+"order": 727
 });
 
 Mods.push({
@@ -11642,7 +11626,7 @@ Mods.push({
 "created": 1688938141,
 "modified": 1723830957,
 "tags": "Arenas",
-"order": 729
+"order": 728
 });
 
 Mods.push({
@@ -11658,7 +11642,7 @@ Mods.push({
 "created": 1689022849,
 "modified": 1689025430,
 "tags": "",
-"order": 730
+"order": 729
 });
 
 Mods.push({
@@ -11674,7 +11658,7 @@ Mods.push({
 "created": 1689034329,
 "modified": 1708583176,
 "tags": "Cosmetics",
-"order": 731
+"order": 730
 });
 
 Mods.push({
@@ -11690,7 +11674,7 @@ Mods.push({
 "created": 1689088357,
 "modified": 1690318137,
 "tags": "Creatures",
-"order": 732
+"order": 731
 });
 
 Mods.push({
@@ -11706,7 +11690,7 @@ Mods.push({
 "created": 1689108053,
 "modified": 1689390897,
 "tags": "Regions,Campaigns,Game Mechanics",
-"order": 733
+"order": 732
 });
 
 Mods.push({
@@ -11722,7 +11706,7 @@ Mods.push({
 "created": 1689219994,
 "modified": 1689219994,
 "tags": "Cosmetics",
-"order": 734
+"order": 733
 });
 
 Mods.push({
@@ -11738,7 +11722,7 @@ Mods.push({
 "created": 1689230828,
 "modified": 1689230828,
 "tags": "Cosmetics",
-"order": 735
+"order": 734
 });
 
 Mods.push({
@@ -11754,7 +11738,7 @@ Mods.push({
 "created": 1689265340,
 "modified": 1689611643,
 "tags": "Cosmetics",
-"order": 736
+"order": 735
 });
 
 Mods.push({
@@ -11770,7 +11754,7 @@ Mods.push({
 "created": 1689267158,
 "modified": 1689267158,
 "tags": "Cosmetics",
-"order": 737
+"order": 736
 });
 
 Mods.push({
@@ -11786,7 +11770,7 @@ Mods.push({
 "created": 1689268795,
 "modified": 1691814897,
 "tags": "Cosmetics",
-"order": 738
+"order": 737
 });
 
 Mods.push({
@@ -11802,7 +11786,7 @@ Mods.push({
 "created": 1689290292,
 "modified": 1689290292,
 "tags": "",
-"order": 739
+"order": 738
 });
 
 Mods.push({
@@ -11818,7 +11802,7 @@ Mods.push({
 "created": 1689290361,
 "modified": 1689290361,
 "tags": "",
-"order": 740
+"order": 739
 });
 
 Mods.push({
@@ -11834,7 +11818,7 @@ Mods.push({
 "created": 1689290385,
 "modified": 1689290385,
 "tags": "",
-"order": 741
+"order": 740
 });
 
 Mods.push({
@@ -11850,7 +11834,7 @@ Mods.push({
 "created": 1689290406,
 "modified": 1689290406,
 "tags": "",
-"order": 742
+"order": 741
 });
 
 Mods.push({
@@ -11865,7 +11849,7 @@ Mods.push({
 "created": 1689290489,
 "modified": 1690754888,
 "tags": "Regions",
-"order": 743
+"order": 742
 });
 
 Mods.push({
@@ -11881,7 +11865,7 @@ Mods.push({
 "created": 1689290567,
 "modified": 1689290567,
 "tags": "",
-"order": 744
+"order": 743
 });
 
 Mods.push({
@@ -11897,7 +11881,7 @@ Mods.push({
 "created": 1689342942,
 "modified": 1689344138,
 "tags": "Cosmetics,Accessiblity",
-"order": 745
+"order": 744
 });
 
 Mods.push({
@@ -11914,7 +11898,7 @@ Mods.push({
 "created": 1689356769,
 "modified": 1689356769,
 "tags": "Cosmetics",
-"order": 746
+"order": 745
 });
 
 Mods.push({
@@ -11930,7 +11914,7 @@ Mods.push({
 "created": 1689386257,
 "modified": 1696479442,
 "tags": "Cosmetics",
-"order": 747
+"order": 746
 });
 
 Mods.push({
@@ -11946,7 +11930,7 @@ Mods.push({
 "created": 1689392485,
 "modified": 1689392485,
 "tags": "",
-"order": 748
+"order": 747
 });
 
 Mods.push({
@@ -11962,7 +11946,7 @@ Mods.push({
 "created": 1689454894,
 "modified": 1689454894,
 "tags": "Cosmetics",
-"order": 749
+"order": 748
 });
 
 Mods.push({
@@ -11978,7 +11962,7 @@ Mods.push({
 "created": 1689462209,
 "modified": 1689506732,
 "tags": "",
-"order": 750
+"order": 749
 });
 
 Mods.push({
@@ -11994,7 +11978,7 @@ Mods.push({
 "created": 1689465821,
 "modified": 1689465821,
 "tags": "",
-"order": 751
+"order": 750
 });
 
 Mods.push({
@@ -12010,7 +11994,7 @@ Mods.push({
 "created": 1689470197,
 "modified": 1689470197,
 "tags": "Cosmetics",
-"order": 752
+"order": 751
 });
 
 Mods.push({
@@ -12026,7 +12010,7 @@ Mods.push({
 "created": 1689492212,
 "modified": 1693891930,
 "tags": "Campaigns",
-"order": 753
+"order": 752
 });
 
 Mods.push({
@@ -12042,7 +12026,7 @@ Mods.push({
 "created": 1689501210,
 "modified": 1689501210,
 "tags": "Cosmetics",
-"order": 754
+"order": 753
 });
 
 Mods.push({
@@ -12058,7 +12042,7 @@ Mods.push({
 "created": 1689513524,
 "modified": 1689513524,
 "tags": "Game Mechanics",
-"order": 755
+"order": 754
 });
 
 Mods.push({
@@ -12074,7 +12058,7 @@ Mods.push({
 "created": 1689533802,
 "modified": 1699645415,
 "tags": "",
-"order": 756
+"order": 755
 });
 
 Mods.push({
@@ -12090,7 +12074,7 @@ Mods.push({
 "created": 1689551613,
 "modified": 1689551613,
 "tags": "Cosmetics",
-"order": 757
+"order": 756
 });
 
 Mods.push({
@@ -12106,7 +12090,7 @@ Mods.push({
 "created": 1689558328,
 "modified": 1689558328,
 "tags": "Cosmetics",
-"order": 758
+"order": 757
 });
 
 Mods.push({
@@ -12122,7 +12106,7 @@ Mods.push({
 "created": 1689627701,
 "modified": 1689627701,
 "tags": "Cosmetics",
-"order": 759
+"order": 758
 });
 
 Mods.push({
@@ -12138,7 +12122,7 @@ Mods.push({
 "created": 1689676899,
 "modified": 1720599864,
 "tags": "Game Mechanics",
-"order": 760
+"order": 759
 });
 
 Mods.push({
@@ -12154,7 +12138,7 @@ Mods.push({
 "created": 1689677756,
 "modified": 1690984507,
 "tags": "Cosmetics",
-"order": 761
+"order": 760
 });
 
 Mods.push({
@@ -12170,7 +12154,7 @@ Mods.push({
 "created": 1689678482,
 "modified": 1689678482,
 "tags": "",
-"order": 762
+"order": 761
 });
 
 Mods.push({
@@ -12186,7 +12170,7 @@ Mods.push({
 "created": 1689708378,
 "modified": 1689708378,
 "tags": "Cosmetics",
-"order": 763
+"order": 762
 });
 
 Mods.push({
@@ -12202,7 +12186,7 @@ Mods.push({
 "created": 1689751521,
 "modified": 1712504455,
 "tags": "Cosmetics",
-"order": 764
+"order": 763
 });
 
 Mods.push({
@@ -12218,7 +12202,7 @@ Mods.push({
 "created": 1689764699,
 "modified": 1689764699,
 "tags": "Cosmetics",
-"order": 765
+"order": 764
 });
 
 Mods.push({
@@ -12234,7 +12218,7 @@ Mods.push({
 "created": 1689786075,
 "modified": 1689786075,
 "tags": "",
-"order": 766
+"order": 765
 });
 
 Mods.push({
@@ -12250,7 +12234,7 @@ Mods.push({
 "created": 1689789533,
 "modified": 1689789533,
 "tags": "Cosmetics",
-"order": 767
+"order": 766
 });
 
 Mods.push({
@@ -12266,7 +12250,7 @@ Mods.push({
 "created": 1689796558,
 "modified": 1692805754,
 "tags": "Cosmetics",
-"order": 768
+"order": 767
 });
 
 Mods.push({
@@ -12282,7 +12266,7 @@ Mods.push({
 "created": 1689802955,
 "modified": 1689802955,
 "tags": "Cosmetics",
-"order": 769
+"order": 768
 });
 
 Mods.push({
@@ -12298,7 +12282,7 @@ Mods.push({
 "created": 1689833296,
 "modified": 1689833296,
 "tags": "Cosmetics",
-"order": 770
+"order": 769
 });
 
 Mods.push({
@@ -12314,7 +12298,7 @@ Mods.push({
 "created": 1689835809,
 "modified": 1693310451,
 "tags": "Cosmetics",
-"order": 771
+"order": 770
 });
 
 Mods.push({
@@ -12330,7 +12314,7 @@ Mods.push({
 "created": 1689861868,
 "modified": 1690946301,
 "tags": "Cosmetics",
-"order": 772
+"order": 771
 });
 
 Mods.push({
@@ -12346,7 +12330,7 @@ Mods.push({
 "created": 1689875391,
 "modified": 1689875391,
 "tags": "Cosmetics",
-"order": 773
+"order": 772
 });
 
 Mods.push({
@@ -12362,7 +12346,7 @@ Mods.push({
 "created": 1689897677,
 "modified": 1689988317,
 "tags": "Regions",
-"order": 774
+"order": 773
 });
 
 Mods.push({
@@ -12378,7 +12362,7 @@ Mods.push({
 "created": 1689933930,
 "modified": 1689933930,
 "tags": "Cosmetics",
-"order": 775
+"order": 774
 });
 
 Mods.push({
@@ -12394,7 +12378,7 @@ Mods.push({
 "created": 1689949012,
 "modified": 1689949012,
 "tags": "",
-"order": 776
+"order": 775
 });
 
 Mods.push({
@@ -12410,7 +12394,7 @@ Mods.push({
 "created": 1690000424,
 "modified": 1690000424,
 "tags": "Cosmetics",
-"order": 777
+"order": 776
 });
 
 Mods.push({
@@ -12426,7 +12410,7 @@ Mods.push({
 "created": 1690041695,
 "modified": 1690041695,
 "tags": "",
-"order": 778
+"order": 777
 });
 
 Mods.push({
@@ -12441,7 +12425,7 @@ Mods.push({
 "created": 1690046817,
 "modified": 1690046817,
 "tags": "",
-"order": 779
+"order": 778
 });
 
 Mods.push({
@@ -12457,7 +12441,7 @@ Mods.push({
 "created": 1690075721,
 "modified": 1690557579,
 "tags": "Cosmetics",
-"order": 780
+"order": 779
 });
 
 Mods.push({
@@ -12473,7 +12457,7 @@ Mods.push({
 "created": 1690081744,
 "modified": 1693022301,
 "tags": "Cosmetics",
-"order": 781
+"order": 780
 });
 
 Mods.push({
@@ -12489,7 +12473,7 @@ Mods.push({
 "created": 1690103120,
 "modified": 1690161324,
 "tags": "Game Mechanics",
-"order": 782
+"order": 781
 });
 
 Mods.push({
@@ -12505,7 +12489,7 @@ Mods.push({
 "created": 1690138595,
 "modified": 1712953344,
 "tags": "",
-"order": 783
+"order": 782
 });
 
 Mods.push({
@@ -12521,23 +12505,7 @@ Mods.push({
 "created": 1690143820,
 "modified": 1733055313,
 "tags": "Tools",
-"order": 784
-});
-
-Mods.push({
-"name": "The Vigilante",
-"id": "Aureuix.VIGI",
-"workshop_id": "3008903666",
-"author": "Aureuix",
-"desc": "Adds a campaign about a slug with a gun! <br>spritework by wolfycatt<br><br>This mod is currently in open alpha to find issues with the gun firing system. Please report bugs to the Modding Academy server or just by dming Aureuix on discord. (must be in modding academy server or i wont accept your dm)<br><br>Known issues:<br>- gun doesn't have gravity<br>- starting cutscene doesnt always work (this is an issue with the game itself, not the mod. i have no clue how to fix it so i just havent)<br><br><br>!! THIS MOD DOES NOT WORK IN COOP AND HAS NO CURRENT PLANS TO BE ABLE TO !!<br><br>coop support MAY be added in the future when all other content is done",
-"thumb": "previews/3008903666.png",
-"url": "https://andrew.fm/rainworld/raindb/The_Vigilante.zip",
-"requirements": "moreslugcats,fisobs,slime-cubed.slugbase,dressmyslugcat",
-"version": "",
-"created": 1690149399,
-"modified": 1690149399,
-"tags": "",
-"order": 785
+"order": 783
 });
 
 Mods.push({
@@ -12553,7 +12521,7 @@ Mods.push({
 "created": 1690155216,
 "modified": 1692238845,
 "tags": "Cosmetics",
-"order": 786
+"order": 784
 });
 
 Mods.push({
@@ -12569,7 +12537,7 @@ Mods.push({
 "created": 1690232761,
 "modified": 1690232761,
 "tags": "Cosmetics",
-"order": 787
+"order": 785
 });
 
 Mods.push({
@@ -12585,7 +12553,7 @@ Mods.push({
 "created": 1690239242,
 "modified": 1690239242,
 "tags": "Cosmetics",
-"order": 788
+"order": 786
 });
 
 Mods.push({
@@ -12601,7 +12569,7 @@ Mods.push({
 "created": 1690239275,
 "modified": 1694272277,
 "tags": "Cosmetics",
-"order": 789
+"order": 787
 });
 
 Mods.push({
@@ -12617,7 +12585,7 @@ Mods.push({
 "created": 1690246130,
 "modified": 1696873559,
 "tags": "Cosmetics",
-"order": 790
+"order": 788
 });
 
 Mods.push({
@@ -12633,7 +12601,7 @@ Mods.push({
 "created": 1690258568,
 "modified": 1690258568,
 "tags": "Cosmetics",
-"order": 791
+"order": 789
 });
 
 Mods.push({
@@ -12649,7 +12617,7 @@ Mods.push({
 "created": 1690269614,
 "modified": 1690269614,
 "tags": "Cosmetics",
-"order": 792
+"order": 790
 });
 
 Mods.push({
@@ -12665,7 +12633,7 @@ Mods.push({
 "created": 1690291307,
 "modified": 1690354230,
 "tags": "Cosmetics",
-"order": 793
+"order": 791
 });
 
 Mods.push({
@@ -12681,7 +12649,7 @@ Mods.push({
 "created": 1690317601,
 "modified": 1690317601,
 "tags": "",
-"order": 794
+"order": 792
 });
 
 Mods.push({
@@ -12697,7 +12665,7 @@ Mods.push({
 "created": 1690339551,
 "modified": 1690339551,
 "tags": "Cosmetics",
-"order": 795
+"order": 793
 });
 
 Mods.push({
@@ -12713,7 +12681,7 @@ Mods.push({
 "created": 1690407520,
 "modified": 1690409231,
 "tags": "Campaigns",
-"order": 796
+"order": 794
 });
 
 Mods.push({
@@ -12729,7 +12697,7 @@ Mods.push({
 "created": 1690421657,
 "modified": 1690421657,
 "tags": "Cosmetics",
-"order": 797
+"order": 795
 });
 
 Mods.push({
@@ -12745,7 +12713,7 @@ Mods.push({
 "created": 1690441219,
 "modified": 1729281214,
 "tags": "Game Mechanics,Accessibility",
-"order": 798
+"order": 796
 });
 
 Mods.push({
@@ -12761,7 +12729,7 @@ Mods.push({
 "created": 1690481747,
 "modified": 1690753265,
 "tags": "Cosmetics",
-"order": 799
+"order": 797
 });
 
 Mods.push({
@@ -12777,7 +12745,7 @@ Mods.push({
 "created": 1690488765,
 "modified": 1690564009,
 "tags": "Cosmetics",
-"order": 800
+"order": 798
 });
 
 Mods.push({
@@ -12793,7 +12761,7 @@ Mods.push({
 "created": 1690495208,
 "modified": 1692079024,
 "tags": "",
-"order": 801
+"order": 799
 });
 
 Mods.push({
@@ -12809,7 +12777,7 @@ Mods.push({
 "created": 1690511096,
 "modified": 1710952897,
 "tags": "Items,Game Mechanics",
-"order": 802
+"order": 800
 });
 
 Mods.push({
@@ -12825,7 +12793,7 @@ Mods.push({
 "created": 1690548938,
 "modified": 1691604481,
 "tags": "",
-"order": 803
+"order": 801
 });
 
 Mods.push({
@@ -12841,7 +12809,7 @@ Mods.push({
 "created": 1690555352,
 "modified": 1690555352,
 "tags": "",
-"order": 804
+"order": 802
 });
 
 Mods.push({
@@ -12857,7 +12825,7 @@ Mods.push({
 "created": 1690567100,
 "modified": 1690567100,
 "tags": "Cosmetics",
-"order": 805
+"order": 803
 });
 
 Mods.push({
@@ -12873,7 +12841,7 @@ Mods.push({
 "created": 1690569726,
 "modified": 1692314155,
 "tags": "",
-"order": 806
+"order": 804
 });
 
 Mods.push({
@@ -12889,7 +12857,7 @@ Mods.push({
 "created": 1690584839,
 "modified": 1737592110,
 "tags": "Cosmetics",
-"order": 807
+"order": 805
 });
 
 Mods.push({
@@ -12905,7 +12873,7 @@ Mods.push({
 "created": 1690599011,
 "modified": 1690599011,
 "tags": "Cosmetics",
-"order": 808
+"order": 806
 });
 
 Mods.push({
@@ -12921,7 +12889,7 @@ Mods.push({
 "created": 1690604198,
 "modified": 1690604198,
 "tags": "Cosmetics",
-"order": 809
+"order": 807
 });
 
 Mods.push({
@@ -12937,7 +12905,7 @@ Mods.push({
 "created": 1690627822,
 "modified": 1690627822,
 "tags": "",
-"order": 810
+"order": 808
 });
 
 Mods.push({
@@ -12953,7 +12921,7 @@ Mods.push({
 "created": 1690649365,
 "modified": 1690740835,
 "tags": "",
-"order": 811
+"order": 809
 });
 
 Mods.push({
@@ -12969,7 +12937,7 @@ Mods.push({
 "created": 1690753761,
 "modified": 1690844133,
 "tags": "",
-"order": 812
+"order": 810
 });
 
 Mods.push({
@@ -12985,7 +12953,7 @@ Mods.push({
 "created": 1690765677,
 "modified": 1716814152,
 "tags": "Game Mechanics,Items",
-"order": 813
+"order": 811
 });
 
 Mods.push({
@@ -13001,7 +12969,7 @@ Mods.push({
 "created": 1690795129,
 "modified": 1690799689,
 "tags": "Cosmetics",
-"order": 814
+"order": 812
 });
 
 Mods.push({
@@ -13017,7 +12985,7 @@ Mods.push({
 "created": 1690833824,
 "modified": 1737923653,
 "tags": "Accessibility,Tools",
-"order": 815
+"order": 813
 });
 
 Mods.push({
@@ -13033,7 +13001,7 @@ Mods.push({
 "created": 1690848712,
 "modified": 1690848712,
 "tags": "",
-"order": 816
+"order": 814
 });
 
 Mods.push({
@@ -13049,7 +13017,7 @@ Mods.push({
 "created": 1690856028,
 "modified": 1690856028,
 "tags": "Cosmetics",
-"order": 817
+"order": 815
 });
 
 Mods.push({
@@ -13065,7 +13033,7 @@ Mods.push({
 "created": 1690893474,
 "modified": 1737153271,
 "tags": "Cosmetics",
-"order": 818
+"order": 816
 });
 
 Mods.push({
@@ -13081,7 +13049,7 @@ Mods.push({
 "created": 1690952315,
 "modified": 1691629527,
 "tags": "Cosmetics",
-"order": 819
+"order": 817
 });
 
 Mods.push({
@@ -13097,24 +13065,24 @@ Mods.push({
 "created": 1690964316,
 "modified": 1724213441,
 "tags": "Campaigns",
-"order": 820
+"order": 818
 });
 
 Mods.push({
-"name": "Perlina",
+"name": "Pearlcat",
 "id": "pearlcat",
 "workshop_id": "3013739512",
-"author": "forthbridge, Geahgeah, Sidera",
-"desc": "[h1][b]¡Una erudita enigmática de una tierra lejana, dotada de la extraordinaria habilidad de emplear perlas![/b][/h1]<br><br>[h3]Pearlcat tiene interacciones especiales con los siguientes mods:[/h3]<br>[b][list]<br>    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3388224007]Rain Meadow[/url] - ¡completo soporte multijugador online!<br>    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2944727862]Improved Input Config[/url] - soporte para todas las combinaciones de teclas únicas de Pearlcat.<br>    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3232063592]Chasing Wind[/url] - interacciones y diálogos únicos<br>[/list][/b]<br>[h3][u]Este mod NO requiere de More Slugcats (DLC). Sin embargo, es altamente recomendable.[/u][/h3]<br><br>[h3]CRÉDITOS:[/h3]<br>[b][list]<br>    [*]Geahgeah - Arte y diseño<br>    [*]Sidera - Diálogos y efectos de sonido<br>    [*]Noir - Código de la bufanda y las orejas<br>    [*]Linnnnnna - Traducción al chino<br>    [*]zbiotr - Traducción al español<br>    [*]Kimi - Trabajo artístico adicional<br>[/list][/b]<br>[h3]PLAYTESTERS:[/h3]<br>[b][list]<br>    [*] TurtleMan27<br>    [*] Balagaga<br>    [*] Elliot<br>    [*] Efi<br>    [*] WillowWisp<br>    [*] Lolight2<br>    [*] mayhemmm<br>[/list][/b]<br>[h3]Descarga directa: https://github.com/forthfora/pearlcat/releases[/h3]",
+"author": "forthfora, Geahgeah, Sidera",
+"desc": "[h1][b]¡Una erudita enigmática de una tierra lejana, dotada de la extraordinaria habilidad de emplear perlas![/b][/h1]<br><br>[h3]Perlina tiene interacciones especiales con los siguientes mods:[/h3]<br>[b][list]<br>    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3388224007]Rain Meadow[/url] - ¡soporte completo para el modo multijugador en línea!<br>    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2944727862]Improved Input Config[/url] - soporte para todos los botones personalizados de Perlina.<br>    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3232063592]Chasing Wind[/url] - interacciones y diálogos únicos.<br>[/list][/b]<br>[h3][u]Este mod NO requiere de More Slugcats (DLC). Sin embargo, es altamente recomendable.[/u][/h3]<br><br>[h3]CRÉDITOS:[/h3]<br>[b][list]<br>    [*]Geahgeah - Arte y diseño<br>    [*]Sidera - Diálogos y efectos de sonido<br>    [*]Noir - Código de la bufanda y las orejas<br>    [*]Linnnnnna - Traducción al chino<br>    [*]zbiotr - Traducción al español<br>    [*]Kimi - Trabajo artístico adicional<br>[/list][/b]<br>[h3]PLAYTESTERS:[/h3]<br>[b][list]<br>    [*] TurtleMan27<br>    [*] Balagaga<br>    [*] Elliot<br>    [*] Efi<br>    [*] WillowWisp<br>    [*] Lolight2<br>    [*] mayhemmm<br>[/list][/b]<br>[h3]Descarga directa: https://github.com/forthfora/pearlcat/releases[/h3]",
 "thumb": "previews/3013739512.png",
 "url": "https://ln5.sync.com/dl/920f37520#7mim74vj-5vv3y5vz-xupuq87x-pgi2gdcg",
-"video": "https://www.youtube.com/@forthbridge",
+"video": "https://www.youtube.com/watch?v=4Ias65PlQNQ",
 "requirements": "slime-cubed.slugbase",
-"version": "1.4.4",
+"version": "1.4.7",
 "created": 1690972365,
-"modified": 1738676125,
+"modified": 1739692726,
 "tags": "Campaigns,Game Mechanics,Translations,Custom Slugcat",
-"order": 821
+"order": 819
 });
 
 Mods.push({
@@ -13130,7 +13098,7 @@ Mods.push({
 "created": 1690991040,
 "modified": 1694617434,
 "tags": "Arenas",
-"order": 822
+"order": 820
 });
 
 Mods.push({
@@ -13146,7 +13114,7 @@ Mods.push({
 "created": 1691013482,
 "modified": 1695149877,
 "tags": "Cosmetics",
-"order": 823
+"order": 821
 });
 
 Mods.push({
@@ -13162,7 +13130,7 @@ Mods.push({
 "created": 1691029736,
 "modified": 1691029736,
 "tags": "Cosmetics",
-"order": 824
+"order": 822
 });
 
 Mods.push({
@@ -13178,7 +13146,7 @@ Mods.push({
 "created": 1691056417,
 "modified": 1694419659,
 "tags": "Cosmetics",
-"order": 825
+"order": 823
 });
 
 Mods.push({
@@ -13194,7 +13162,7 @@ Mods.push({
 "created": 1691126626,
 "modified": 1691126626,
 "tags": "Cosmetics",
-"order": 826
+"order": 824
 });
 
 Mods.push({
@@ -13210,7 +13178,7 @@ Mods.push({
 "created": 1691155943,
 "modified": 1691160082,
 "tags": "",
-"order": 827
+"order": 825
 });
 
 Mods.push({
@@ -13225,7 +13193,7 @@ Mods.push({
 "created": 1691156550,
 "modified": 1691409822,
 "tags": "",
-"order": 828
+"order": 826
 });
 
 Mods.push({
@@ -13241,7 +13209,7 @@ Mods.push({
 "created": 1691174059,
 "modified": 1724491817,
 "tags": "Regions",
-"order": 829
+"order": 827
 });
 
 Mods.push({
@@ -13257,7 +13225,7 @@ Mods.push({
 "created": 1691174094,
 "modified": 1724493804,
 "tags": "Regions",
-"order": 830
+"order": 828
 });
 
 Mods.push({
@@ -13273,7 +13241,7 @@ Mods.push({
 "created": 1691185859,
 "modified": 1694234826,
 "tags": "Campaigns",
-"order": 831
+"order": 829
 });
 
 Mods.push({
@@ -13289,7 +13257,7 @@ Mods.push({
 "created": 1691196036,
 "modified": 1699672570,
 "tags": "Cosmetics",
-"order": 832
+"order": 830
 });
 
 Mods.push({
@@ -13305,7 +13273,7 @@ Mods.push({
 "created": 1691245304,
 "modified": 1693596747,
 "tags": "Cosmetics",
-"order": 833
+"order": 831
 });
 
 Mods.push({
@@ -13321,7 +13289,7 @@ Mods.push({
 "created": 1691270146,
 "modified": 1720150005,
 "tags": "",
-"order": 834
+"order": 832
 });
 
 Mods.push({
@@ -13337,7 +13305,7 @@ Mods.push({
 "created": 1691287322,
 "modified": 1691287322,
 "tags": "Cosmetics",
-"order": 835
+"order": 833
 });
 
 Mods.push({
@@ -13353,7 +13321,7 @@ Mods.push({
 "created": 1691366487,
 "modified": 1692389737,
 "tags": "Game Mechanics",
-"order": 836
+"order": 834
 });
 
 Mods.push({
@@ -13369,7 +13337,7 @@ Mods.push({
 "created": 1691381338,
 "modified": 1727057592,
 "tags": "Game Mechanics",
-"order": 837
+"order": 835
 });
 
 Mods.push({
@@ -13385,7 +13353,7 @@ Mods.push({
 "created": 1691387502,
 "modified": 1691387502,
 "tags": "Cosmetics",
-"order": 838
+"order": 836
 });
 
 Mods.push({
@@ -13400,7 +13368,7 @@ Mods.push({
 "created": 1691419867,
 "modified": 1691419867,
 "tags": "Regions",
-"order": 839
+"order": 837
 });
 
 Mods.push({
@@ -13417,7 +13385,7 @@ Mods.push({
 "created": 1691432335,
 "modified": 1733696159,
 "tags": "Regions",
-"order": 840
+"order": 838
 });
 
 Mods.push({
@@ -13432,7 +13400,7 @@ Mods.push({
 "created": 1691453029,
 "modified": 1691453029,
 "tags": "",
-"order": 841
+"order": 839
 });
 
 Mods.push({
@@ -13448,7 +13416,7 @@ Mods.push({
 "created": 1691475786,
 "modified": 1691604295,
 "tags": "Cosmetics",
-"order": 842
+"order": 840
 });
 
 Mods.push({
@@ -13464,7 +13432,7 @@ Mods.push({
 "created": 1691481535,
 "modified": 1691481535,
 "tags": "",
-"order": 843
+"order": 841
 });
 
 Mods.push({
@@ -13480,7 +13448,7 @@ Mods.push({
 "created": 1691490595,
 "modified": 1691490595,
 "tags": "Cosmetics",
-"order": 844
+"order": 842
 });
 
 Mods.push({
@@ -13496,7 +13464,7 @@ Mods.push({
 "created": 1691496360,
 "modified": 1737197905,
 "tags": "",
-"order": 845
+"order": 843
 });
 
 Mods.push({
@@ -13512,7 +13480,7 @@ Mods.push({
 "created": 1691527934,
 "modified": 1691527934,
 "tags": "",
-"order": 846
+"order": 844
 });
 
 Mods.push({
@@ -13527,7 +13495,7 @@ Mods.push({
 "created": 1691560347,
 "modified": 1691676412,
 "tags": "Regions,Game Mechanics,Game Modes",
-"order": 847
+"order": 845
 });
 
 Mods.push({
@@ -13543,7 +13511,7 @@ Mods.push({
 "created": 1691594404,
 "modified": 1691594404,
 "tags": "Cosmetics",
-"order": 848
+"order": 846
 });
 
 Mods.push({
@@ -13559,7 +13527,7 @@ Mods.push({
 "created": 1691617235,
 "modified": 1691621215,
 "tags": "",
-"order": 849
+"order": 847
 });
 
 Mods.push({
@@ -13575,7 +13543,7 @@ Mods.push({
 "created": 1691624427,
 "modified": 1727392047,
 "tags": "Game Mechanics",
-"order": 850
+"order": 848
 });
 
 Mods.push({
@@ -13591,7 +13559,7 @@ Mods.push({
 "created": 1691634579,
 "modified": 1691634579,
 "tags": "Cosmetics",
-"order": 851
+"order": 849
 });
 
 Mods.push({
@@ -13607,7 +13575,7 @@ Mods.push({
 "created": 1691636311,
 "modified": 1691636311,
 "tags": "Cosmetics",
-"order": 852
+"order": 850
 });
 
 Mods.push({
@@ -13623,7 +13591,7 @@ Mods.push({
 "created": 1691644432,
 "modified": 1691772358,
 "tags": "Creatures",
-"order": 853
+"order": 851
 });
 
 Mods.push({
@@ -13638,7 +13606,7 @@ Mods.push({
 "created": 1691681182,
 "modified": 1691700802,
 "tags": "",
-"order": 854
+"order": 852
 });
 
 Mods.push({
@@ -13655,7 +13623,7 @@ Mods.push({
 "created": 1691725394,
 "modified": 1691725394,
 "tags": "Cosmetics",
-"order": 855
+"order": 853
 });
 
 Mods.push({
@@ -13671,7 +13639,7 @@ Mods.push({
 "created": 1691774788,
 "modified": 1692098751,
 "tags": "Cosmetics",
-"order": 856
+"order": 854
 });
 
 Mods.push({
@@ -13687,7 +13655,7 @@ Mods.push({
 "created": 1691788628,
 "modified": 1691788628,
 "tags": "",
-"order": 857
+"order": 855
 });
 
 Mods.push({
@@ -13702,7 +13670,7 @@ Mods.push({
 "created": 1691809734,
 "modified": 1691809734,
 "tags": "Arena",
-"order": 858
+"order": 856
 });
 
 Mods.push({
@@ -13718,7 +13686,7 @@ Mods.push({
 "created": 1691826701,
 "modified": 1699846219,
 "tags": "Creatures",
-"order": 859
+"order": 857
 });
 
 Mods.push({
@@ -13734,7 +13702,7 @@ Mods.push({
 "created": 1691837338,
 "modified": 1691837338,
 "tags": "Cosmetics",
-"order": 860
+"order": 858
 });
 
 Mods.push({
@@ -13750,7 +13718,7 @@ Mods.push({
 "created": 1691844421,
 "modified": 1691844421,
 "tags": "Cosmetics",
-"order": 861
+"order": 859
 });
 
 Mods.push({
@@ -13766,7 +13734,7 @@ Mods.push({
 "created": 1691857540,
 "modified": 1691857540,
 "tags": "Cosmetics",
-"order": 862
+"order": 860
 });
 
 Mods.push({
@@ -13782,7 +13750,7 @@ Mods.push({
 "created": 1691875726,
 "modified": 1691875726,
 "tags": "Cosmetics",
-"order": 863
+"order": 861
 });
 
 Mods.push({
@@ -13798,7 +13766,7 @@ Mods.push({
 "created": 1691896851,
 "modified": 1691896851,
 "tags": "Cosmetics",
-"order": 864
+"order": 862
 });
 
 Mods.push({
@@ -13814,7 +13782,7 @@ Mods.push({
 "created": 1691930658,
 "modified": 1691930658,
 "tags": "Cosmetics",
-"order": 865
+"order": 863
 });
 
 Mods.push({
@@ -13830,7 +13798,7 @@ Mods.push({
 "created": 1691956896,
 "modified": 1724447095,
 "tags": "Regions",
-"order": 866
+"order": 864
 });
 
 Mods.push({
@@ -13846,7 +13814,7 @@ Mods.push({
 "created": 1691971067,
 "modified": 1692229039,
 "tags": "Creatures",
-"order": 867
+"order": 865
 });
 
 Mods.push({
@@ -13862,7 +13830,7 @@ Mods.push({
 "created": 1692010697,
 "modified": 1692010697,
 "tags": "Cosmetics",
-"order": 868
+"order": 866
 });
 
 Mods.push({
@@ -13878,7 +13846,7 @@ Mods.push({
 "created": 1692015325,
 "modified": 1692015325,
 "tags": "Cosmetics",
-"order": 869
+"order": 867
 });
 
 Mods.push({
@@ -13894,7 +13862,7 @@ Mods.push({
 "created": 1692050505,
 "modified": 1692050505,
 "tags": "Cosmetics",
-"order": 870
+"order": 868
 });
 
 Mods.push({
@@ -13910,7 +13878,7 @@ Mods.push({
 "created": 1692062250,
 "modified": 1710726375,
 "tags": "Cosmetics",
-"order": 871
+"order": 869
 });
 
 Mods.push({
@@ -13926,7 +13894,7 @@ Mods.push({
 "created": 1692150175,
 "modified": 1692150175,
 "tags": "Game Mechanics",
-"order": 872
+"order": 870
 });
 
 Mods.push({
@@ -13942,7 +13910,7 @@ Mods.push({
 "created": 1692167031,
 "modified": 1692167031,
 "tags": "",
-"order": 873
+"order": 871
 });
 
 Mods.push({
@@ -13958,7 +13926,7 @@ Mods.push({
 "created": 1692178629,
 "modified": 1693452328,
 "tags": "Campaigns",
-"order": 874
+"order": 872
 });
 
 Mods.push({
@@ -13974,7 +13942,7 @@ Mods.push({
 "created": 1692241364,
 "modified": 1692241364,
 "tags": "Cosmetics",
-"order": 875
+"order": 873
 });
 
 Mods.push({
@@ -13990,7 +13958,7 @@ Mods.push({
 "created": 1692252583,
 "modified": 1692252583,
 "tags": "",
-"order": 876
+"order": 874
 });
 
 Mods.push({
@@ -14006,7 +13974,7 @@ Mods.push({
 "created": 1692253657,
 "modified": 1694316344,
 "tags": "Cosmetics",
-"order": 877
+"order": 875
 });
 
 Mods.push({
@@ -14022,7 +13990,7 @@ Mods.push({
 "created": 1692256974,
 "modified": 1692259042,
 "tags": "",
-"order": 878
+"order": 876
 });
 
 Mods.push({
@@ -14038,7 +14006,7 @@ Mods.push({
 "created": 1692263403,
 "modified": 1692263403,
 "tags": "Cosmetics",
-"order": 879
+"order": 877
 });
 
 Mods.push({
@@ -14053,7 +14021,7 @@ Mods.push({
 "created": 1692278961,
 "modified": 1692403414,
 "tags": "Creatures,Game Modes,Campaigns,Game Mechanics",
-"order": 880
+"order": 878
 });
 
 Mods.push({
@@ -14068,7 +14036,7 @@ Mods.push({
 "created": 1692340054,
 "modified": 1700781560,
 "tags": "",
-"order": 881
+"order": 879
 });
 
 Mods.push({
@@ -14084,7 +14052,7 @@ Mods.push({
 "created": 1692340289,
 "modified": 1692340289,
 "tags": "",
-"order": 882
+"order": 880
 });
 
 Mods.push({
@@ -14100,7 +14068,7 @@ Mods.push({
 "created": 1692402230,
 "modified": 1730331640,
 "tags": "Regions",
-"order": 883
+"order": 881
 });
 
 Mods.push({
@@ -14116,7 +14084,7 @@ Mods.push({
 "created": 1692405112,
 "modified": 1706987749,
 "tags": "Lizards",
-"order": 884
+"order": 882
 });
 
 Mods.push({
@@ -14131,7 +14099,7 @@ Mods.push({
 "created": 1692407507,
 "modified": 1692407507,
 "tags": "Cosmetics",
-"order": 885
+"order": 883
 });
 
 Mods.push({
@@ -14146,7 +14114,7 @@ Mods.push({
 "created": 1692408533,
 "modified": 1692408533,
 "tags": "Cosmetics",
-"order": 886
+"order": 884
 });
 
 Mods.push({
@@ -14161,7 +14129,7 @@ Mods.push({
 "created": 1692408552,
 "modified": 1692408552,
 "tags": "",
-"order": 887
+"order": 885
 });
 
 Mods.push({
@@ -14177,7 +14145,7 @@ Mods.push({
 "created": 1692415162,
 "modified": 1692415162,
 "tags": "",
-"order": 888
+"order": 886
 });
 
 Mods.push({
@@ -14193,7 +14161,7 @@ Mods.push({
 "created": 1692422027,
 "modified": 1703559836,
 "tags": "Cosmetics",
-"order": 889
+"order": 887
 });
 
 Mods.push({
@@ -14209,7 +14177,7 @@ Mods.push({
 "created": 1692454982,
 "modified": 1692454982,
 "tags": "Cosmetics",
-"order": 890
+"order": 888
 });
 
 Mods.push({
@@ -14224,7 +14192,7 @@ Mods.push({
 "created": 1692463506,
 "modified": 1692826577,
 "tags": "Regions",
-"order": 891
+"order": 889
 });
 
 Mods.push({
@@ -14240,7 +14208,7 @@ Mods.push({
 "created": 1692465615,
 "modified": 1692465615,
 "tags": "Cosmetics",
-"order": 892
+"order": 890
 });
 
 Mods.push({
@@ -14256,7 +14224,7 @@ Mods.push({
 "created": 1692470714,
 "modified": 1692470714,
 "tags": "",
-"order": 893
+"order": 891
 });
 
 Mods.push({
@@ -14272,7 +14240,7 @@ Mods.push({
 "created": 1692470841,
 "modified": 1692470841,
 "tags": "Cosmetics",
-"order": 894
+"order": 892
 });
 
 Mods.push({
@@ -14288,7 +14256,7 @@ Mods.push({
 "created": 1692504868,
 "modified": 1706985631,
 "tags": "Lizards",
-"order": 895
+"order": 893
 });
 
 Mods.push({
@@ -14304,7 +14272,7 @@ Mods.push({
 "created": 1692520438,
 "modified": 1696654487,
 "tags": "Slugcat",
-"order": 896
+"order": 894
 });
 
 Mods.push({
@@ -14320,7 +14288,7 @@ Mods.push({
 "created": 1692555539,
 "modified": 1737595965,
 "tags": "Cosmetics",
-"order": 897
+"order": 895
 });
 
 Mods.push({
@@ -14335,7 +14303,7 @@ Mods.push({
 "created": 1692556789,
 "modified": 1692556789,
 "tags": "Cosmetics",
-"order": 898
+"order": 896
 });
 
 Mods.push({
@@ -14351,7 +14319,7 @@ Mods.push({
 "created": 1692567744,
 "modified": 1692569624,
 "tags": "Cosmetics",
-"order": 899
+"order": 897
 });
 
 Mods.push({
@@ -14367,7 +14335,7 @@ Mods.push({
 "created": 1692637470,
 "modified": 1694745686,
 "tags": "Campaigns",
-"order": 900
+"order": 898
 });
 
 Mods.push({
@@ -14383,7 +14351,7 @@ Mods.push({
 "created": 1692658408,
 "modified": 1692658408,
 "tags": "Cosmetics",
-"order": 901
+"order": 899
 });
 
 Mods.push({
@@ -14399,7 +14367,7 @@ Mods.push({
 "created": 1692663501,
 "modified": 1693271899,
 "tags": "Creatures,Lizards",
-"order": 902
+"order": 900
 });
 
 Mods.push({
@@ -14415,7 +14383,7 @@ Mods.push({
 "created": 1692743355,
 "modified": 1705556711,
 "tags": "",
-"order": 903
+"order": 901
 });
 
 Mods.push({
@@ -14431,7 +14399,7 @@ Mods.push({
 "created": 1692792086,
 "modified": 1707630305,
 "tags": "",
-"order": 904
+"order": 902
 });
 
 Mods.push({
@@ -14447,7 +14415,7 @@ Mods.push({
 "created": 1692811808,
 "modified": 1712304035,
 "tags": "Custom Slugcat,Campaigns",
-"order": 905
+"order": 903
 });
 
 Mods.push({
@@ -14463,7 +14431,7 @@ Mods.push({
 "created": 1692836093,
 "modified": 1711757756,
 "tags": "Cosmetics,Tools",
-"order": 906
+"order": 904
 });
 
 Mods.push({
@@ -14480,7 +14448,7 @@ Mods.push({
 "created": 1692845845,
 "modified": 1692937649,
 "tags": "Cosmetics",
-"order": 907
+"order": 905
 });
 
 Mods.push({
@@ -14496,7 +14464,7 @@ Mods.push({
 "created": 1692894020,
 "modified": 1693065420,
 "tags": "",
-"order": 908
+"order": 906
 });
 
 Mods.push({
@@ -14512,7 +14480,7 @@ Mods.push({
 "created": 1692894368,
 "modified": 1692894368,
 "tags": "Cosmetics",
-"order": 909
+"order": 907
 });
 
 Mods.push({
@@ -14528,7 +14496,7 @@ Mods.push({
 "created": 1692916614,
 "modified": 1692916614,
 "tags": "",
-"order": 910
+"order": 908
 });
 
 Mods.push({
@@ -14544,7 +14512,7 @@ Mods.push({
 "created": 1692980096,
 "modified": 1693165056,
 "tags": "Cosmetics",
-"order": 911
+"order": 909
 });
 
 Mods.push({
@@ -14560,7 +14528,7 @@ Mods.push({
 "created": 1693009331,
 "modified": 1703963745,
 "tags": "Game Mechanics,Items",
-"order": 912
+"order": 910
 });
 
 Mods.push({
@@ -14576,7 +14544,7 @@ Mods.push({
 "created": 1693030276,
 "modified": 1694495851,
 "tags": "",
-"order": 913
+"order": 911
 });
 
 Mods.push({
@@ -14592,7 +14560,7 @@ Mods.push({
 "created": 1693064105,
 "modified": 1693107894,
 "tags": "",
-"order": 914
+"order": 912
 });
 
 Mods.push({
@@ -14608,7 +14576,7 @@ Mods.push({
 "created": 1693078084,
 "modified": 1722349576,
 "tags": "Cosmetics",
-"order": 915
+"order": 913
 });
 
 Mods.push({
@@ -14624,7 +14592,7 @@ Mods.push({
 "created": 1693088580,
 "modified": 1701190169,
 "tags": "Cosmetics",
-"order": 916
+"order": 914
 });
 
 Mods.push({
@@ -14640,7 +14608,7 @@ Mods.push({
 "created": 1693160459,
 "modified": 1735473087,
 "tags": "Regions",
-"order": 917
+"order": 915
 });
 
 Mods.push({
@@ -14656,7 +14624,7 @@ Mods.push({
 "created": 1693162224,
 "modified": 1693162224,
 "tags": "Cosmetics",
-"order": 918
+"order": 916
 });
 
 Mods.push({
@@ -14672,7 +14640,7 @@ Mods.push({
 "created": 1693163417,
 "modified": 1733455269,
 "tags": "Game Mechanics,Accessibility",
-"order": 919
+"order": 917
 });
 
 Mods.push({
@@ -14688,7 +14656,7 @@ Mods.push({
 "created": 1693195102,
 "modified": 1693195102,
 "tags": "Cosmetics",
-"order": 920
+"order": 918
 });
 
 Mods.push({
@@ -14704,7 +14672,7 @@ Mods.push({
 "created": 1693224582,
 "modified": 1693224582,
 "tags": "Cosmetics",
-"order": 921
+"order": 919
 });
 
 Mods.push({
@@ -14720,7 +14688,7 @@ Mods.push({
 "created": 1693268476,
 "modified": 1693268476,
 "tags": "Cosmetics",
-"order": 922
+"order": 920
 });
 
 Mods.push({
@@ -14736,7 +14704,7 @@ Mods.push({
 "created": 1693300541,
 "modified": 1693300541,
 "tags": "Cosmetics",
-"order": 923
+"order": 921
 });
 
 Mods.push({
@@ -14752,7 +14720,7 @@ Mods.push({
 "created": 1693312559,
 "modified": 1693324672,
 "tags": "Cosmetics",
-"order": 924
+"order": 922
 });
 
 Mods.push({
@@ -14768,7 +14736,7 @@ Mods.push({
 "created": 1693323344,
 "modified": 1693323344,
 "tags": "",
-"order": 925
+"order": 923
 });
 
 Mods.push({
@@ -14783,7 +14751,7 @@ Mods.push({
 "created": 1693391386,
 "modified": 1706286681,
 "tags": "Lizards",
-"order": 926
+"order": 924
 });
 
 Mods.push({
@@ -14799,7 +14767,7 @@ Mods.push({
 "created": 1693429631,
 "modified": 1694894564,
 "tags": "Cosmetics",
-"order": 927
+"order": 925
 });
 
 Mods.push({
@@ -14815,7 +14783,7 @@ Mods.push({
 "created": 1693449425,
 "modified": 1693595806,
 "tags": "Cosmetics",
-"order": 928
+"order": 926
 });
 
 Mods.push({
@@ -14831,7 +14799,7 @@ Mods.push({
 "created": 1693500451,
 "modified": 1693500451,
 "tags": "Cosmetics",
-"order": 929
+"order": 927
 });
 
 Mods.push({
@@ -14847,7 +14815,7 @@ Mods.push({
 "created": 1693546413,
 "modified": 1693585212,
 "tags": "Cosmetics",
-"order": 930
+"order": 928
 });
 
 Mods.push({
@@ -14862,7 +14830,7 @@ Mods.push({
 "created": 1693583183,
 "modified": 1693583183,
 "tags": "",
-"order": 931
+"order": 929
 });
 
 Mods.push({
@@ -14878,7 +14846,7 @@ Mods.push({
 "created": 1693606773,
 "modified": 1695810068,
 "tags": "Game Modes",
-"order": 932
+"order": 930
 });
 
 Mods.push({
@@ -14894,7 +14862,7 @@ Mods.push({
 "created": 1693619339,
 "modified": 1716522968,
 "tags": "Game Mechanics",
-"order": 933
+"order": 931
 });
 
 Mods.push({
@@ -14910,7 +14878,7 @@ Mods.push({
 "created": 1693639743,
 "modified": 1693639743,
 "tags": "",
-"order": 934
+"order": 932
 });
 
 Mods.push({
@@ -14926,7 +14894,7 @@ Mods.push({
 "created": 1693688493,
 "modified": 1693688493,
 "tags": "",
-"order": 935
+"order": 933
 });
 
 Mods.push({
@@ -14942,7 +14910,7 @@ Mods.push({
 "created": 1693703401,
 "modified": 1693703401,
 "tags": "",
-"order": 936
+"order": 934
 });
 
 Mods.push({
@@ -14958,7 +14926,7 @@ Mods.push({
 "created": 1693705435,
 "modified": 1693705435,
 "tags": "Quality of Life",
-"order": 937
+"order": 935
 });
 
 Mods.push({
@@ -14974,7 +14942,7 @@ Mods.push({
 "created": 1693712254,
 "modified": 1693712254,
 "tags": "Cosmetics",
-"order": 938
+"order": 936
 });
 
 Mods.push({
@@ -14990,7 +14958,7 @@ Mods.push({
 "created": 1693732171,
 "modified": 1694454240,
 "tags": "Cosmetics",
-"order": 939
+"order": 937
 });
 
 Mods.push({
@@ -15006,7 +14974,7 @@ Mods.push({
 "created": 1693735718,
 "modified": 1697403707,
 "tags": "Cosmetics",
-"order": 940
+"order": 938
 });
 
 Mods.push({
@@ -15022,7 +14990,7 @@ Mods.push({
 "created": 1693758723,
 "modified": 1720724000,
 "tags": "Cosmetics",
-"order": 941
+"order": 939
 });
 
 Mods.push({
@@ -15037,7 +15005,7 @@ Mods.push({
 "created": 1693765569,
 "modified": 1693765569,
 "tags": "",
-"order": 942
+"order": 940
 });
 
 Mods.push({
@@ -15052,7 +15020,7 @@ Mods.push({
 "created": 1693766892,
 "modified": 1693766892,
 "tags": "",
-"order": 943
+"order": 941
 });
 
 Mods.push({
@@ -15068,7 +15036,7 @@ Mods.push({
 "created": 1693812303,
 "modified": 1695626980,
 "tags": "Cosmetics",
-"order": 944
+"order": 942
 });
 
 Mods.push({
@@ -15084,7 +15052,7 @@ Mods.push({
 "created": 1693842916,
 "modified": 1693976008,
 "tags": "",
-"order": 945
+"order": 943
 });
 
 Mods.push({
@@ -15100,7 +15068,7 @@ Mods.push({
 "created": 1693872420,
 "modified": 1710876385,
 "tags": "Campaigns,Custom Slugcat",
-"order": 946
+"order": 944
 });
 
 Mods.push({
@@ -15116,7 +15084,7 @@ Mods.push({
 "created": 1693895384,
 "modified": 1693895384,
 "tags": "Cosmetics",
-"order": 947
+"order": 945
 });
 
 Mods.push({
@@ -15132,7 +15100,7 @@ Mods.push({
 "created": 1693915688,
 "modified": 1693915688,
 "tags": "Cosmetics",
-"order": 948
+"order": 946
 });
 
 Mods.push({
@@ -15148,7 +15116,7 @@ Mods.push({
 "created": 1693929143,
 "modified": 1693974058,
 "tags": "Cosmetics",
-"order": 949
+"order": 947
 });
 
 Mods.push({
@@ -15164,7 +15132,7 @@ Mods.push({
 "created": 1693963288,
 "modified": 1693963288,
 "tags": "",
-"order": 950
+"order": 948
 });
 
 Mods.push({
@@ -15180,7 +15148,7 @@ Mods.push({
 "created": 1693966792,
 "modified": 1717624130,
 "tags": "Game Mechanics",
-"order": 951
+"order": 949
 });
 
 Mods.push({
@@ -15196,7 +15164,7 @@ Mods.push({
 "created": 1693974384,
 "modified": 1694408424,
 "tags": "Cosmetics",
-"order": 952
+"order": 950
 });
 
 Mods.push({
@@ -15212,7 +15180,7 @@ Mods.push({
 "created": 1694042965,
 "modified": 1694452085,
 "tags": "Cosmetics",
-"order": 953
+"order": 951
 });
 
 Mods.push({
@@ -15228,7 +15196,7 @@ Mods.push({
 "created": 1694102626,
 "modified": 1694102626,
 "tags": "Cosmetics",
-"order": 954
+"order": 952
 });
 
 Mods.push({
@@ -15244,7 +15212,7 @@ Mods.push({
 "created": 1694120088,
 "modified": 1694452485,
 "tags": "Cosmetics",
-"order": 955
+"order": 953
 });
 
 Mods.push({
@@ -15260,7 +15228,7 @@ Mods.push({
 "created": 1694173310,
 "modified": 1694173310,
 "tags": "Cosmetics",
-"order": 956
+"order": 954
 });
 
 Mods.push({
@@ -15276,7 +15244,7 @@ Mods.push({
 "created": 1694214761,
 "modified": 1712549949,
 "tags": "Regions,Campaigns,Creatures,Game Mechanics,Game Modes,Custom Slugcat",
-"order": 957
+"order": 955
 });
 
 Mods.push({
@@ -15292,7 +15260,7 @@ Mods.push({
 "created": 1694231935,
 "modified": 1694231935,
 "tags": "",
-"order": 958
+"order": 956
 });
 
 Mods.push({
@@ -15308,7 +15276,7 @@ Mods.push({
 "created": 1694271359,
 "modified": 1694271359,
 "tags": "Cosmetics",
-"order": 959
+"order": 957
 });
 
 Mods.push({
@@ -15324,7 +15292,7 @@ Mods.push({
 "created": 1694286861,
 "modified": 1694290325,
 "tags": "Cosmetics",
-"order": 960
+"order": 958
 });
 
 Mods.push({
@@ -15341,7 +15309,7 @@ Mods.push({
 "created": 1694300362,
 "modified": 1694300362,
 "tags": "",
-"order": 961
+"order": 959
 });
 
 Mods.push({
@@ -15358,7 +15326,7 @@ Mods.push({
 "created": 1694300812,
 "modified": 1694300812,
 "tags": "",
-"order": 962
+"order": 960
 });
 
 Mods.push({
@@ -15374,7 +15342,7 @@ Mods.push({
 "created": 1694312747,
 "modified": 1694312747,
 "tags": "Cosmetics",
-"order": 963
+"order": 961
 });
 
 Mods.push({
@@ -15390,7 +15358,7 @@ Mods.push({
 "created": 1694313934,
 "modified": 1694313934,
 "tags": "Cosmetics",
-"order": 964
+"order": 962
 });
 
 Mods.push({
@@ -15406,7 +15374,7 @@ Mods.push({
 "created": 1694318601,
 "modified": 1712258898,
 "tags": "Game Mechanics",
-"order": 965
+"order": 963
 });
 
 Mods.push({
@@ -15422,7 +15390,7 @@ Mods.push({
 "created": 1694323699,
 "modified": 1694323699,
 "tags": "Cosmetics",
-"order": 966
+"order": 964
 });
 
 Mods.push({
@@ -15438,7 +15406,7 @@ Mods.push({
 "created": 1694328218,
 "modified": 1727001732,
 "tags": "Campaigns",
-"order": 967
+"order": 965
 });
 
 Mods.push({
@@ -15454,7 +15422,7 @@ Mods.push({
 "created": 1694339927,
 "modified": 1695005304,
 "tags": "",
-"order": 968
+"order": 966
 });
 
 Mods.push({
@@ -15470,7 +15438,7 @@ Mods.push({
 "created": 1694351795,
 "modified": 1697659673,
 "tags": "Regions",
-"order": 969
+"order": 967
 });
 
 Mods.push({
@@ -15486,7 +15454,7 @@ Mods.push({
 "created": 1694358920,
 "modified": 1694358920,
 "tags": "Cosmetics",
-"order": 970
+"order": 968
 });
 
 Mods.push({
@@ -15502,7 +15470,7 @@ Mods.push({
 "created": 1694363553,
 "modified": 1706018017,
 "tags": "",
-"order": 971
+"order": 969
 });
 
 Mods.push({
@@ -15519,7 +15487,7 @@ Mods.push({
 "created": 1694372469,
 "modified": 1694372469,
 "tags": "",
-"order": 972
+"order": 970
 });
 
 Mods.push({
@@ -15534,7 +15502,7 @@ Mods.push({
 "created": 1694382211,
 "modified": 1694382211,
 "tags": "",
-"order": 973
+"order": 971
 });
 
 Mods.push({
@@ -15551,7 +15519,7 @@ Mods.push({
 "created": 1694385071,
 "modified": 1694385071,
 "tags": "Cosmetics",
-"order": 974
+"order": 972
 });
 
 Mods.push({
@@ -15567,7 +15535,7 @@ Mods.push({
 "created": 1694394036,
 "modified": 1694394036,
 "tags": "Cosmetics",
-"order": 975
+"order": 973
 });
 
 Mods.push({
@@ -15584,7 +15552,7 @@ Mods.push({
 "created": 1694416979,
 "modified": 1724060526,
 "tags": "Arenas,Regions,Creatures,Game Mechanics",
-"order": 976
+"order": 974
 });
 
 Mods.push({
@@ -15600,7 +15568,7 @@ Mods.push({
 "created": 1694444444,
 "modified": 1694444444,
 "tags": "Cosmetics",
-"order": 977
+"order": 975
 });
 
 Mods.push({
@@ -15616,7 +15584,7 @@ Mods.push({
 "created": 1694463532,
 "modified": 1699086064,
 "tags": "",
-"order": 978
+"order": 976
 });
 
 Mods.push({
@@ -15632,7 +15600,7 @@ Mods.push({
 "created": 1694522084,
 "modified": 1708251348,
 "tags": "Cosmetics",
-"order": 979
+"order": 977
 });
 
 Mods.push({
@@ -15648,7 +15616,7 @@ Mods.push({
 "created": 1694612790,
 "modified": 1694612790,
 "tags": "Cosmetics",
-"order": 980
+"order": 978
 });
 
 Mods.push({
@@ -15663,7 +15631,7 @@ Mods.push({
 "created": 1694629230,
 "modified": 1694629230,
 "tags": "",
-"order": 981
+"order": 979
 });
 
 Mods.push({
@@ -15679,7 +15647,7 @@ Mods.push({
 "created": 1694642264,
 "modified": 1736635328,
 "tags": "Cosmetics",
-"order": 982
+"order": 980
 });
 
 Mods.push({
@@ -15695,7 +15663,7 @@ Mods.push({
 "created": 1694661848,
 "modified": 1703960386,
 "tags": "Game Mechanics,Items",
-"order": 983
+"order": 981
 });
 
 Mods.push({
@@ -15711,7 +15679,7 @@ Mods.push({
 "created": 1694675882,
 "modified": 1714041902,
 "tags": "",
-"order": 984
+"order": 982
 });
 
 Mods.push({
@@ -15727,7 +15695,7 @@ Mods.push({
 "created": 1694700025,
 "modified": 1694700025,
 "tags": "Cosmetics",
-"order": 985
+"order": 983
 });
 
 Mods.push({
@@ -15743,7 +15711,7 @@ Mods.push({
 "created": 1694700047,
 "modified": 1694700047,
 "tags": "Cosmetics",
-"order": 986
+"order": 984
 });
 
 Mods.push({
@@ -15759,7 +15727,7 @@ Mods.push({
 "created": 1694709328,
 "modified": 1694709328,
 "tags": "",
-"order": 987
+"order": 985
 });
 
 Mods.push({
@@ -15775,7 +15743,7 @@ Mods.push({
 "created": 1694740443,
 "modified": 1694740443,
 "tags": "Cosmetics",
-"order": 988
+"order": 986
 });
 
 Mods.push({
@@ -15783,15 +15751,15 @@ Mods.push({
 "id": "henpemaz_lapmod",
 "workshop_id": "3035795206",
 "author": "Henpemaz",
-"desc": "Lap Mod, a speedrun/movement practice tool! Practice that one room over and over, tap map when exiting to go to the next room.",
+"desc": "Lap Mod, a speedrun/movement practice tool! Practice and time that one room over and over<br><br>Thank you shrub for the 1.9 updates!",
 "thumb": "previews/3035795206.png",
 "url": "https://andrew.fm/rainworld/raindb/Lap_Mod.zip",
 "requirements": "",
-"version": "0.1.0",
+"version": "0.1.3",
 "created": 1694744131,
-"modified": 1694744131,
+"modified": 1740153755,
 "tags": "",
-"order": 989
+"order": 987
 });
 
 Mods.push({
@@ -15807,7 +15775,7 @@ Mods.push({
 "created": 1694745480,
 "modified": 1694745480,
 "tags": "Debug",
-"order": 990
+"order": 988
 });
 
 Mods.push({
@@ -15823,7 +15791,7 @@ Mods.push({
 "created": 1694745677,
 "modified": 1694745677,
 "tags": "HUD,Debug,Info",
-"order": 991
+"order": 989
 });
 
 Mods.push({
@@ -15839,7 +15807,7 @@ Mods.push({
 "created": 1694745899,
 "modified": 1694745899,
 "tags": "HUD,Quality of Life,Info",
-"order": 992
+"order": 990
 });
 
 Mods.push({
@@ -15855,7 +15823,7 @@ Mods.push({
 "created": 1694746070,
 "modified": 1694746070,
 "tags": "Gameplay,Assist",
-"order": 993
+"order": 991
 });
 
 Mods.push({
@@ -15871,7 +15839,7 @@ Mods.push({
 "created": 1694827059,
 "modified": 1723661738,
 "tags": "dependencies",
-"order": 994
+"order": 992
 });
 
 Mods.push({
@@ -15887,7 +15855,7 @@ Mods.push({
 "created": 1694838894,
 "modified": 1703467200,
 "tags": "Cosmetics",
-"order": 995
+"order": 993
 });
 
 Mods.push({
@@ -15903,7 +15871,7 @@ Mods.push({
 "created": 1694850555,
 "modified": 1712308522,
 "tags": "Cosmetics",
-"order": 996
+"order": 994
 });
 
 Mods.push({
@@ -15920,7 +15888,7 @@ Mods.push({
 "created": 1694899907,
 "modified": 1697862350,
 "tags": "Cosmetics",
-"order": 997
+"order": 995
 });
 
 Mods.push({
@@ -15936,7 +15904,7 @@ Mods.push({
 "created": 1694901325,
 "modified": 1716517002,
 "tags": "Game Mechanics,Items",
-"order": 998
+"order": 996
 });
 
 Mods.push({
@@ -15952,7 +15920,7 @@ Mods.push({
 "created": 1694977825,
 "modified": 1695001488,
 "tags": "Cosmetics",
-"order": 999
+"order": 997
 });
 
 Mods.push({
@@ -15967,7 +15935,7 @@ Mods.push({
 "created": 1694977906,
 "modified": 1694977906,
 "tags": "",
-"order": 1000
+"order": 998
 });
 
 Mods.push({
@@ -15983,7 +15951,7 @@ Mods.push({
 "created": 1695008409,
 "modified": 1695337704,
 "tags": "Cosmetics",
-"order": 1001
+"order": 999
 });
 
 Mods.push({
@@ -15999,7 +15967,7 @@ Mods.push({
 "created": 1695067001,
 "modified": 1709052766,
 "tags": "Arenas",
-"order": 1002
+"order": 1000
 });
 
 Mods.push({
@@ -16015,7 +15983,7 @@ Mods.push({
 "created": 1695070170,
 "modified": 1706629306,
 "tags": "Regions",
-"order": 1003
+"order": 1001
 });
 
 Mods.push({
@@ -16031,7 +15999,7 @@ Mods.push({
 "created": 1695078591,
 "modified": 1710953131,
 "tags": "",
-"order": 1004
+"order": 1002
 });
 
 Mods.push({
@@ -16047,7 +16015,7 @@ Mods.push({
 "created": 1695176489,
 "modified": 1695176489,
 "tags": "Cosmetics",
-"order": 1005
+"order": 1003
 });
 
 Mods.push({
@@ -16063,7 +16031,7 @@ Mods.push({
 "created": 1695208485,
 "modified": 1695209829,
 "tags": "Accessibility,mechanics",
-"order": 1006
+"order": 1004
 });
 
 Mods.push({
@@ -16079,7 +16047,7 @@ Mods.push({
 "created": 1695242385,
 "modified": 1695291674,
 "tags": "Cosmetics",
-"order": 1007
+"order": 1005
 });
 
 Mods.push({
@@ -16095,7 +16063,7 @@ Mods.push({
 "created": 1695336834,
 "modified": 1716756998,
 "tags": "Game Mechanics,Items",
-"order": 1008
+"order": 1006
 });
 
 Mods.push({
@@ -16111,7 +16079,7 @@ Mods.push({
 "created": 1695338581,
 "modified": 1731805463,
 "tags": "",
-"order": 1009
+"order": 1007
 });
 
 Mods.push({
@@ -16126,7 +16094,7 @@ Mods.push({
 "created": 1695360434,
 "modified": 1706966956,
 "tags": "Regions,Accessibility",
-"order": 1010
+"order": 1008
 });
 
 Mods.push({
@@ -16142,7 +16110,7 @@ Mods.push({
 "created": 1695381772,
 "modified": 1695381772,
 "tags": "",
-"order": 1011
+"order": 1009
 });
 
 Mods.push({
@@ -16158,7 +16126,7 @@ Mods.push({
 "created": 1695430944,
 "modified": 1695430944,
 "tags": "Cosmetics",
-"order": 1012
+"order": 1010
 });
 
 Mods.push({
@@ -16174,7 +16142,7 @@ Mods.push({
 "created": 1695433786,
 "modified": 1711303918,
 "tags": "",
-"order": 1013
+"order": 1011
 });
 
 Mods.push({
@@ -16190,7 +16158,7 @@ Mods.push({
 "created": 1695473462,
 "modified": 1710871591,
 "tags": "",
-"order": 1014
+"order": 1012
 });
 
 Mods.push({
@@ -16206,7 +16174,7 @@ Mods.push({
 "created": 1695476647,
 "modified": 1695515861,
 "tags": "Cosmetics",
-"order": 1015
+"order": 1013
 });
 
 Mods.push({
@@ -16221,7 +16189,7 @@ Mods.push({
 "created": 1695483425,
 "modified": 1695483425,
 "tags": "",
-"order": 1016
+"order": 1014
 });
 
 Mods.push({
@@ -16237,7 +16205,7 @@ Mods.push({
 "created": 1695503712,
 "modified": 1695503712,
 "tags": "Cosmetics",
-"order": 1017
+"order": 1015
 });
 
 Mods.push({
@@ -16252,7 +16220,7 @@ Mods.push({
 "created": 1695536298,
 "modified": 1695536298,
 "tags": "Cosmetics",
-"order": 1018
+"order": 1016
 });
 
 Mods.push({
@@ -16268,7 +16236,7 @@ Mods.push({
 "created": 1695537131,
 "modified": 1713065394,
 "tags": "Creatures,Tools",
-"order": 1019
+"order": 1017
 });
 
 Mods.push({
@@ -16284,7 +16252,7 @@ Mods.push({
 "created": 1695540638,
 "modified": 1730406440,
 "tags": "Cosmetics",
-"order": 1020
+"order": 1018
 });
 
 Mods.push({
@@ -16300,7 +16268,7 @@ Mods.push({
 "created": 1695542222,
 "modified": 1704355220,
 "tags": "Game Mechanics,Items",
-"order": 1021
+"order": 1019
 });
 
 Mods.push({
@@ -16316,7 +16284,7 @@ Mods.push({
 "created": 1695568217,
 "modified": 1695584731,
 "tags": "Cosmetics",
-"order": 1022
+"order": 1020
 });
 
 Mods.push({
@@ -16332,7 +16300,7 @@ Mods.push({
 "created": 1695569899,
 "modified": 1710967447,
 "tags": "",
-"order": 1023
+"order": 1021
 });
 
 Mods.push({
@@ -16347,7 +16315,7 @@ Mods.push({
 "created": 1695575272,
 "modified": 1696078209,
 "tags": "",
-"order": 1024
+"order": 1022
 });
 
 Mods.push({
@@ -16364,7 +16332,7 @@ Mods.push({
 "created": 1695592406,
 "modified": 1695592406,
 "tags": "Cosmetics",
-"order": 1025
+"order": 1023
 });
 
 Mods.push({
@@ -16380,7 +16348,7 @@ Mods.push({
 "created": 1695600958,
 "modified": 1695600958,
 "tags": "Cosmetics",
-"order": 1026
+"order": 1024
 });
 
 Mods.push({
@@ -16396,7 +16364,7 @@ Mods.push({
 "created": 1695605574,
 "modified": 1698556952,
 "tags": "Items",
-"order": 1027
+"order": 1025
 });
 
 Mods.push({
@@ -16413,7 +16381,7 @@ Mods.push({
 "created": 1695623267,
 "modified": 1695623267,
 "tags": "",
-"order": 1028
+"order": 1026
 });
 
 Mods.push({
@@ -16429,7 +16397,7 @@ Mods.push({
 "created": 1695642174,
 "modified": 1695642174,
 "tags": "Cosmetics",
-"order": 1029
+"order": 1027
 });
 
 Mods.push({
@@ -16445,7 +16413,7 @@ Mods.push({
 "created": 1695721545,
 "modified": 1695721545,
 "tags": "Arena",
-"order": 1030
+"order": 1028
 });
 
 Mods.push({
@@ -16461,7 +16429,7 @@ Mods.push({
 "created": 1695746659,
 "modified": 1700846271,
 "tags": "",
-"order": 1031
+"order": 1029
 });
 
 Mods.push({
@@ -16477,7 +16445,7 @@ Mods.push({
 "created": 1695775042,
 "modified": 1695775042,
 "tags": "Cosmetics",
-"order": 1032
+"order": 1030
 });
 
 Mods.push({
@@ -16493,7 +16461,7 @@ Mods.push({
 "created": 1695788502,
 "modified": 1695788502,
 "tags": "Cosmetics",
-"order": 1033
+"order": 1031
 });
 
 Mods.push({
@@ -16509,7 +16477,7 @@ Mods.push({
 "created": 1695788675,
 "modified": 1695788675,
 "tags": "Cosmetics",
-"order": 1034
+"order": 1032
 });
 
 Mods.push({
@@ -16525,7 +16493,7 @@ Mods.push({
 "created": 1695804456,
 "modified": 1695804456,
 "tags": "Cosmetics",
-"order": 1035
+"order": 1033
 });
 
 Mods.push({
@@ -16541,7 +16509,7 @@ Mods.push({
 "created": 1695843000,
 "modified": 1695843000,
 "tags": "",
-"order": 1036
+"order": 1034
 });
 
 Mods.push({
@@ -16556,7 +16524,7 @@ Mods.push({
 "created": 1695864264,
 "modified": 1695864264,
 "tags": "Cosmetics",
-"order": 1037
+"order": 1035
 });
 
 Mods.push({
@@ -16572,7 +16540,7 @@ Mods.push({
 "created": 1695873643,
 "modified": 1724519478,
 "tags": "Regions",
-"order": 1038
+"order": 1036
 });
 
 Mods.push({
@@ -16588,7 +16556,7 @@ Mods.push({
 "created": 1695915833,
 "modified": 1695915833,
 "tags": "",
-"order": 1039
+"order": 1037
 });
 
 Mods.push({
@@ -16604,7 +16572,7 @@ Mods.push({
 "created": 1695951383,
 "modified": 1695951383,
 "tags": "Cosmetics",
-"order": 1040
+"order": 1038
 });
 
 Mods.push({
@@ -16621,7 +16589,7 @@ Mods.push({
 "created": 1695951492,
 "modified": 1695951492,
 "tags": "",
-"order": 1041
+"order": 1039
 });
 
 Mods.push({
@@ -16637,23 +16605,7 @@ Mods.push({
 "created": 1695959531,
 "modified": 1695959531,
 "tags": "Cosmetics",
-"order": 1042
-});
-
-Mods.push({
-"name": "The Adventurer (WIP)",
-"id": "adventurer",
-"workshop_id": "3043034759",
-"author": "Starshooter81",
-"desc": "Caution!<br>This mod was not made with compatibility in mind. Any region added by this mod may be incompatible with any other region mod.<br><br>The Adventurer is a mod that adds 2 new slugs and some regions. The Adventurer is faster than the average slug but is slower than Riv and has Hunter backspear.<br>And The Marine has high lung capacity and can maul. Explore the lands of the iterator 8 Leaves Under Gold Rain whose chamber cant be reached due to an <br>experiment gone wrong. Currently this mod is unfinished the mod will include a retaining wall and a entrance to Outer Expanse.<br><br>Thanks to croken85 for the Fanged Terrors mod and Monngo(she/they) for the Spear Snail mod.<br>",
-"thumb": "previews/3043034759.png",
-"url": "https://ln5.sync.com/dl/057d76880/k6n8p26h-nygrz5ja-ecwyjvn5-6a7zf6pp",
-"requirements": "slime-cubed.slugbase,regionkit,moreslugcats,crs",
-"version": "0.1.0",
-"created": 1695993955,
-"modified": 1704029845,
-"tags": "Regions,Campaigns,Custom Slugcat",
-"order": 1043
+"order": 1040
 });
 
 Mods.push({
@@ -16669,7 +16621,7 @@ Mods.push({
 "created": 1696003002,
 "modified": 1696003002,
 "tags": "Cosmetics",
-"order": 1044
+"order": 1041
 });
 
 Mods.push({
@@ -16685,7 +16637,7 @@ Mods.push({
 "created": 1696037472,
 "modified": 1696037472,
 "tags": "Cosmetics",
-"order": 1045
+"order": 1042
 });
 
 Mods.push({
@@ -16701,7 +16653,7 @@ Mods.push({
 "created": 1696044675,
 "modified": 1696044675,
 "tags": "Cosmetics",
-"order": 1046
+"order": 1043
 });
 
 Mods.push({
@@ -16717,7 +16669,7 @@ Mods.push({
 "created": 1696046391,
 "modified": 1696046391,
 "tags": "Cosmetics",
-"order": 1047
+"order": 1044
 });
 
 Mods.push({
@@ -16733,7 +16685,7 @@ Mods.push({
 "created": 1696116273,
 "modified": 1696164685,
 "tags": "Creatures",
-"order": 1048
+"order": 1045
 });
 
 Mods.push({
@@ -16749,7 +16701,7 @@ Mods.push({
 "created": 1696210130,
 "modified": 1696210130,
 "tags": "Cosmetics",
-"order": 1049
+"order": 1046
 });
 
 Mods.push({
@@ -16765,7 +16717,7 @@ Mods.push({
 "created": 1696222539,
 "modified": 1696222539,
 "tags": "Cosmetics",
-"order": 1050
+"order": 1047
 });
 
 Mods.push({
@@ -16781,7 +16733,7 @@ Mods.push({
 "created": 1696268074,
 "modified": 1696271743,
 "tags": "",
-"order": 1051
+"order": 1048
 });
 
 Mods.push({
@@ -16797,7 +16749,7 @@ Mods.push({
 "created": 1696272222,
 "modified": 1696631833,
 "tags": "Cosmetics",
-"order": 1052
+"order": 1049
 });
 
 Mods.push({
@@ -16813,7 +16765,7 @@ Mods.push({
 "created": 1696275907,
 "modified": 1696275907,
 "tags": "Cosmetics",
-"order": 1053
+"order": 1050
 });
 
 Mods.push({
@@ -16829,7 +16781,7 @@ Mods.push({
 "created": 1696388298,
 "modified": 1706966971,
 "tags": "",
-"order": 1054
+"order": 1051
 });
 
 Mods.push({
@@ -16845,7 +16797,7 @@ Mods.push({
 "created": 1696448573,
 "modified": 1696520872,
 "tags": "Arenas",
-"order": 1055
+"order": 1052
 });
 
 Mods.push({
@@ -16861,7 +16813,7 @@ Mods.push({
 "created": 1696457841,
 "modified": 1696740398,
 "tags": "Game Mechanics,Game Modes",
-"order": 1056
+"order": 1053
 });
 
 Mods.push({
@@ -16877,7 +16829,7 @@ Mods.push({
 "created": 1696504097,
 "modified": 1697347731,
 "tags": "Cosmetics",
-"order": 1057
+"order": 1054
 });
 
 Mods.push({
@@ -16893,7 +16845,7 @@ Mods.push({
 "created": 1696593197,
 "modified": 1696593197,
 "tags": "Cosmetics",
-"order": 1058
+"order": 1055
 });
 
 Mods.push({
@@ -16909,7 +16861,7 @@ Mods.push({
 "created": 1696605405,
 "modified": 1705835394,
 "tags": "Regions",
-"order": 1059
+"order": 1056
 });
 
 Mods.push({
@@ -16925,7 +16877,7 @@ Mods.push({
 "created": 1696633044,
 "modified": 1702789940,
 "tags": "",
-"order": 1060
+"order": 1057
 });
 
 Mods.push({
@@ -16941,7 +16893,7 @@ Mods.push({
 "created": 1696638677,
 "modified": 1696878924,
 "tags": "Cosmetics",
-"order": 1061
+"order": 1058
 });
 
 Mods.push({
@@ -16957,7 +16909,7 @@ Mods.push({
 "created": 1696677667,
 "modified": 1696677667,
 "tags": "Custom Slugcat",
-"order": 1062
+"order": 1059
 });
 
 Mods.push({
@@ -16973,7 +16925,7 @@ Mods.push({
 "created": 1696761401,
 "modified": 1696761401,
 "tags": "Cosmetics",
-"order": 1063
+"order": 1060
 });
 
 Mods.push({
@@ -16989,7 +16941,7 @@ Mods.push({
 "created": 1696767698,
 "modified": 1696767698,
 "tags": "",
-"order": 1064
+"order": 1061
 });
 
 Mods.push({
@@ -17005,7 +16957,7 @@ Mods.push({
 "created": 1696790468,
 "modified": 1709585266,
 "tags": "Cosmetics",
-"order": 1065
+"order": 1062
 });
 
 Mods.push({
@@ -17021,7 +16973,7 @@ Mods.push({
 "created": 1696793257,
 "modified": 1696793257,
 "tags": "Cosmetics",
-"order": 1066
+"order": 1063
 });
 
 Mods.push({
@@ -17037,7 +16989,7 @@ Mods.push({
 "created": 1696796370,
 "modified": 1698114368,
 "tags": "Cosmetics",
-"order": 1067
+"order": 1064
 });
 
 Mods.push({
@@ -17053,7 +17005,7 @@ Mods.push({
 "created": 1696877767,
 "modified": 1696877767,
 "tags": "Cosmetics",
-"order": 1068
+"order": 1065
 });
 
 Mods.push({
@@ -17069,7 +17021,7 @@ Mods.push({
 "created": 1696885172,
 "modified": 1696885172,
 "tags": "",
-"order": 1069
+"order": 1066
 });
 
 Mods.push({
@@ -17085,7 +17037,7 @@ Mods.push({
 "created": 1696894714,
 "modified": 1696894714,
 "tags": "Cosmetics,Regions",
-"order": 1070
+"order": 1067
 });
 
 Mods.push({
@@ -17101,7 +17053,7 @@ Mods.push({
 "created": 1696985878,
 "modified": 1719137955,
 "tags": "Creatures",
-"order": 1071
+"order": 1068
 });
 
 Mods.push({
@@ -17117,7 +17069,7 @@ Mods.push({
 "created": 1697031677,
 "modified": 1697031677,
 "tags": "Game Mechanics",
-"order": 1072
+"order": 1069
 });
 
 Mods.push({
@@ -17133,7 +17085,7 @@ Mods.push({
 "created": 1697042051,
 "modified": 1697042051,
 "tags": "Cosmetics,Halloween",
-"order": 1073
+"order": 1070
 });
 
 Mods.push({
@@ -17149,7 +17101,7 @@ Mods.push({
 "created": 1697056210,
 "modified": 1697056210,
 "tags": "Arena",
-"order": 1074
+"order": 1071
 });
 
 Mods.push({
@@ -17165,7 +17117,7 @@ Mods.push({
 "created": 1697061841,
 "modified": 1697061841,
 "tags": "Cosmetics",
-"order": 1075
+"order": 1072
 });
 
 Mods.push({
@@ -17180,7 +17132,7 @@ Mods.push({
 "created": 1697065462,
 "modified": 1697065462,
 "tags": "",
-"order": 1076
+"order": 1073
 });
 
 Mods.push({
@@ -17196,7 +17148,7 @@ Mods.push({
 "created": 1697066419,
 "modified": 1697832863,
 "tags": "Creatures",
-"order": 1077
+"order": 1074
 });
 
 Mods.push({
@@ -17212,7 +17164,7 @@ Mods.push({
 "created": 1697141708,
 "modified": 1697141708,
 "tags": "Regions",
-"order": 1078
+"order": 1075
 });
 
 Mods.push({
@@ -17228,7 +17180,7 @@ Mods.push({
 "created": 1697157079,
 "modified": 1697326494,
 "tags": "Cosmetics",
-"order": 1079
+"order": 1076
 });
 
 Mods.push({
@@ -17244,7 +17196,7 @@ Mods.push({
 "created": 1697239931,
 "modified": 1710800916,
 "tags": "Game Mechanics",
-"order": 1080
+"order": 1077
 });
 
 Mods.push({
@@ -17260,7 +17212,7 @@ Mods.push({
 "created": 1697247630,
 "modified": 1697247630,
 "tags": "Cosmetics",
-"order": 1081
+"order": 1078
 });
 
 Mods.push({
@@ -17276,7 +17228,7 @@ Mods.push({
 "created": 1697266222,
 "modified": 1697605672,
 "tags": "Arenas",
-"order": 1082
+"order": 1079
 });
 
 Mods.push({
@@ -17292,7 +17244,7 @@ Mods.push({
 "created": 1697278831,
 "modified": 1724757534,
 "tags": "",
-"order": 1083
+"order": 1080
 });
 
 Mods.push({
@@ -17308,7 +17260,7 @@ Mods.push({
 "created": 1697344997,
 "modified": 1697621749,
 "tags": "Regions",
-"order": 1084
+"order": 1081
 });
 
 Mods.push({
@@ -17324,7 +17276,7 @@ Mods.push({
 "created": 1697418475,
 "modified": 1697514657,
 "tags": "Cosmetics",
-"order": 1085
+"order": 1082
 });
 
 Mods.push({
@@ -17340,7 +17292,7 @@ Mods.push({
 "created": 1697425984,
 "modified": 1697425984,
 "tags": "Cosmetics",
-"order": 1086
+"order": 1083
 });
 
 Mods.push({
@@ -17356,7 +17308,7 @@ Mods.push({
 "created": 1697468955,
 "modified": 1697468955,
 "tags": "",
-"order": 1087
+"order": 1084
 });
 
 Mods.push({
@@ -17372,7 +17324,7 @@ Mods.push({
 "created": 1697475410,
 "modified": 1697475410,
 "tags": "Cosmetics",
-"order": 1088
+"order": 1085
 });
 
 Mods.push({
@@ -17388,7 +17340,7 @@ Mods.push({
 "created": 1697483419,
 "modified": 1697483419,
 "tags": "Cosmetics",
-"order": 1089
+"order": 1086
 });
 
 Mods.push({
@@ -17404,7 +17356,7 @@ Mods.push({
 "created": 1697501184,
 "modified": 1697544206,
 "tags": "Custom Slugcat",
-"order": 1090
+"order": 1087
 });
 
 Mods.push({
@@ -17420,7 +17372,7 @@ Mods.push({
 "created": 1697567324,
 "modified": 1707071391,
 "tags": "Creatures,Game Mechanics",
-"order": 1091
+"order": 1088
 });
 
 Mods.push({
@@ -17436,7 +17388,7 @@ Mods.push({
 "created": 1697570027,
 "modified": 1697570027,
 "tags": "Cosmetics",
-"order": 1092
+"order": 1089
 });
 
 Mods.push({
@@ -17452,7 +17404,7 @@ Mods.push({
 "created": 1697573260,
 "modified": 1697573260,
 "tags": "Cosmetics",
-"order": 1093
+"order": 1090
 });
 
 Mods.push({
@@ -17468,7 +17420,7 @@ Mods.push({
 "created": 1697657191,
 "modified": 1697657191,
 "tags": "Cosmetics",
-"order": 1094
+"order": 1091
 });
 
 Mods.push({
@@ -17484,7 +17436,7 @@ Mods.push({
 "created": 1697685394,
 "modified": 1697685394,
 "tags": "",
-"order": 1095
+"order": 1092
 });
 
 Mods.push({
@@ -17500,7 +17452,7 @@ Mods.push({
 "created": 1697759323,
 "modified": 1697759323,
 "tags": "Cosmetics",
-"order": 1096
+"order": 1093
 });
 
 Mods.push({
@@ -17516,7 +17468,7 @@ Mods.push({
 "created": 1697765599,
 "modified": 1699474219,
 "tags": "Custom Slugcat",
-"order": 1097
+"order": 1094
 });
 
 Mods.push({
@@ -17532,7 +17484,7 @@ Mods.push({
 "created": 1697767459,
 "modified": 1697767459,
 "tags": "Cosmetics",
-"order": 1098
+"order": 1095
 });
 
 Mods.push({
@@ -17549,7 +17501,7 @@ Mods.push({
 "created": 1697770196,
 "modified": 1697770196,
 "tags": "Game Mechanics",
-"order": 1099
+"order": 1096
 });
 
 Mods.push({
@@ -17565,7 +17517,7 @@ Mods.push({
 "created": 1697777249,
 "modified": 1698532979,
 "tags": "Arenas",
-"order": 1100
+"order": 1097
 });
 
 Mods.push({
@@ -17581,7 +17533,7 @@ Mods.push({
 "created": 1697781536,
 "modified": 1697781536,
 "tags": "Cosmetics",
-"order": 1101
+"order": 1098
 });
 
 Mods.push({
@@ -17597,7 +17549,7 @@ Mods.push({
 "created": 1697831707,
 "modified": 1697886438,
 "tags": "",
-"order": 1102
+"order": 1099
 });
 
 Mods.push({
@@ -17613,7 +17565,7 @@ Mods.push({
 "created": 1697867857,
 "modified": 1697867857,
 "tags": "Tools",
-"order": 1103
+"order": 1100
 });
 
 Mods.push({
@@ -17629,7 +17581,7 @@ Mods.push({
 "created": 1697875636,
 "modified": 1697875636,
 "tags": "Cosmetics",
-"order": 1104
+"order": 1101
 });
 
 Mods.push({
@@ -17645,7 +17597,7 @@ Mods.push({
 "created": 1697897555,
 "modified": 1698516055,
 "tags": "",
-"order": 1105
+"order": 1102
 });
 
 Mods.push({
@@ -17661,7 +17613,7 @@ Mods.push({
 "created": 1697961039,
 "modified": 1698397989,
 "tags": "",
-"order": 1106
+"order": 1103
 });
 
 Mods.push({
@@ -17677,7 +17629,7 @@ Mods.push({
 "created": 1697972290,
 "modified": 1697972290,
 "tags": "Cosmetics",
-"order": 1107
+"order": 1104
 });
 
 Mods.push({
@@ -17693,7 +17645,7 @@ Mods.push({
 "created": 1698003999,
 "modified": 1698003999,
 "tags": "Cosmetics",
-"order": 1108
+"order": 1105
 });
 
 Mods.push({
@@ -17708,7 +17660,7 @@ Mods.push({
 "created": 1698004971,
 "modified": 1699740928,
 "tags": "Game Mechanics",
-"order": 1109
+"order": 1106
 });
 
 Mods.push({
@@ -17725,7 +17677,7 @@ Mods.push({
 "created": 1698066018,
 "modified": 1721570030,
 "tags": "Regions",
-"order": 1110
+"order": 1107
 });
 
 Mods.push({
@@ -17741,7 +17693,7 @@ Mods.push({
 "created": 1698105165,
 "modified": 1699650573,
 "tags": "Cosmetics",
-"order": 1111
+"order": 1108
 });
 
 Mods.push({
@@ -17757,7 +17709,7 @@ Mods.push({
 "created": 1698112039,
 "modified": 1698112039,
 "tags": "",
-"order": 1112
+"order": 1109
 });
 
 Mods.push({
@@ -17773,7 +17725,7 @@ Mods.push({
 "created": 1698194809,
 "modified": 1698194809,
 "tags": "",
-"order": 1113
+"order": 1110
 });
 
 Mods.push({
@@ -17788,7 +17740,7 @@ Mods.push({
 "created": 1698202780,
 "modified": 1698202780,
 "tags": "Cosmetics",
-"order": 1114
+"order": 1111
 });
 
 Mods.push({
@@ -17804,7 +17756,7 @@ Mods.push({
 "created": 1698209991,
 "modified": 1698209991,
 "tags": "Cosmetics",
-"order": 1115
+"order": 1112
 });
 
 Mods.push({
@@ -17820,7 +17772,7 @@ Mods.push({
 "created": 1698283994,
 "modified": 1698283994,
 "tags": "Cosmetics",
-"order": 1116
+"order": 1113
 });
 
 Mods.push({
@@ -17836,7 +17788,7 @@ Mods.push({
 "created": 1698335712,
 "modified": 1698335712,
 "tags": "Cosmetics",
-"order": 1117
+"order": 1114
 });
 
 Mods.push({
@@ -17852,7 +17804,7 @@ Mods.push({
 "created": 1698377838,
 "modified": 1698377838,
 "tags": "",
-"order": 1118
+"order": 1115
 });
 
 Mods.push({
@@ -17868,7 +17820,7 @@ Mods.push({
 "created": 1698380984,
 "modified": 1698535357,
 "tags": "Cosmetics",
-"order": 1119
+"order": 1116
 });
 
 Mods.push({
@@ -17884,7 +17836,7 @@ Mods.push({
 "created": 1698464281,
 "modified": 1698464281,
 "tags": "",
-"order": 1120
+"order": 1117
 });
 
 Mods.push({
@@ -17900,7 +17852,7 @@ Mods.push({
 "created": 1698498459,
 "modified": 1708144585,
 "tags": "",
-"order": 1121
+"order": 1118
 });
 
 Mods.push({
@@ -17916,7 +17868,7 @@ Mods.push({
 "created": 1698502847,
 "modified": 1700523999,
 "tags": "Cosmetics",
-"order": 1122
+"order": 1119
 });
 
 Mods.push({
@@ -17932,7 +17884,7 @@ Mods.push({
 "created": 1698524804,
 "modified": 1698524804,
 "tags": "Cosmetics",
-"order": 1123
+"order": 1120
 });
 
 Mods.push({
@@ -17948,7 +17900,7 @@ Mods.push({
 "created": 1698526227,
 "modified": 1710711649,
 "tags": "Cosmetics",
-"order": 1124
+"order": 1121
 });
 
 Mods.push({
@@ -17964,7 +17916,7 @@ Mods.push({
 "created": 1698528207,
 "modified": 1698528207,
 "tags": "Cosmetics",
-"order": 1125
+"order": 1122
 });
 
 Mods.push({
@@ -17980,7 +17932,7 @@ Mods.push({
 "created": 1698530632,
 "modified": 1711204622,
 "tags": "Creatures,Items",
-"order": 1126
+"order": 1123
 });
 
 Mods.push({
@@ -17996,7 +17948,7 @@ Mods.push({
 "created": 1698540617,
 "modified": 1721327061,
 "tags": "Cosmetics",
-"order": 1127
+"order": 1124
 });
 
 Mods.push({
@@ -18012,7 +17964,7 @@ Mods.push({
 "created": 1698541932,
 "modified": 1728366178,
 "tags": "",
-"order": 1128
+"order": 1125
 });
 
 Mods.push({
@@ -18028,7 +17980,7 @@ Mods.push({
 "created": 1698543184,
 "modified": 1715299039,
 "tags": "Custom Slugcat,Game Mechanics",
-"order": 1129
+"order": 1126
 });
 
 Mods.push({
@@ -18043,7 +17995,7 @@ Mods.push({
 "created": 1698553928,
 "modified": 1698553928,
 "tags": "",
-"order": 1130
+"order": 1127
 });
 
 Mods.push({
@@ -18059,7 +18011,7 @@ Mods.push({
 "created": 1698560146,
 "modified": 1710808934,
 "tags": "",
-"order": 1131
+"order": 1128
 });
 
 Mods.push({
@@ -18075,7 +18027,7 @@ Mods.push({
 "created": 1698591372,
 "modified": 1724703777,
 "tags": "Creatures,Game Machanics",
-"order": 1132
+"order": 1129
 });
 
 Mods.push({
@@ -18092,7 +18044,7 @@ Mods.push({
 "created": 1698624640,
 "modified": 1711476902,
 "tags": "Content",
-"order": 1133
+"order": 1130
 });
 
 Mods.push({
@@ -18108,7 +18060,7 @@ Mods.push({
 "created": 1698672410,
 "modified": 1707865711,
 "tags": "Dependency",
-"order": 1134
+"order": 1131
 });
 
 Mods.push({
@@ -18124,7 +18076,7 @@ Mods.push({
 "created": 1698689060,
 "modified": 1698689060,
 "tags": "Cosmetics",
-"order": 1135
+"order": 1132
 });
 
 Mods.push({
@@ -18140,7 +18092,7 @@ Mods.push({
 "created": 1698763486,
 "modified": 1698774853,
 "tags": "Cosmetics",
-"order": 1136
+"order": 1133
 });
 
 Mods.push({
@@ -18156,7 +18108,7 @@ Mods.push({
 "created": 1698801790,
 "modified": 1724008592,
 "tags": "Arenas,Regions,Items",
-"order": 1137
+"order": 1134
 });
 
 Mods.push({
@@ -18172,7 +18124,7 @@ Mods.push({
 "created": 1698801806,
 "modified": 1698801806,
 "tags": "Creatures",
-"order": 1138
+"order": 1135
 });
 
 Mods.push({
@@ -18188,7 +18140,7 @@ Mods.push({
 "created": 1698802024,
 "modified": 1698887793,
 "tags": "",
-"order": 1139
+"order": 1136
 });
 
 Mods.push({
@@ -18204,7 +18156,7 @@ Mods.push({
 "created": 1698872296,
 "modified": 1698872296,
 "tags": "Cosmetics",
-"order": 1140
+"order": 1137
 });
 
 Mods.push({
@@ -18220,7 +18172,7 @@ Mods.push({
 "created": 1698874097,
 "modified": 1699044400,
 "tags": "Custom Slugcat",
-"order": 1141
+"order": 1138
 });
 
 Mods.push({
@@ -18235,7 +18187,7 @@ Mods.push({
 "created": 1698940460,
 "modified": 1698940460,
 "tags": "",
-"order": 1142
+"order": 1139
 });
 
 Mods.push({
@@ -18250,7 +18202,7 @@ Mods.push({
 "created": 1698995378,
 "modified": 1698995378,
 "tags": "Cosmetics",
-"order": 1143
+"order": 1140
 });
 
 Mods.push({
@@ -18266,7 +18218,7 @@ Mods.push({
 "created": 1699079273,
 "modified": 1707144660,
 "tags": "",
-"order": 1144
+"order": 1141
 });
 
 Mods.push({
@@ -18282,7 +18234,7 @@ Mods.push({
 "created": 1699134164,
 "modified": 1699134164,
 "tags": "Cosmetics",
-"order": 1145
+"order": 1142
 });
 
 Mods.push({
@@ -18298,7 +18250,7 @@ Mods.push({
 "created": 1699167841,
 "modified": 1699167841,
 "tags": "",
-"order": 1146
+"order": 1143
 });
 
 Mods.push({
@@ -18314,7 +18266,7 @@ Mods.push({
 "created": 1699169824,
 "modified": 1699169824,
 "tags": "Cosmetics",
-"order": 1147
+"order": 1144
 });
 
 Mods.push({
@@ -18330,7 +18282,7 @@ Mods.push({
 "created": 1699172666,
 "modified": 1736064273,
 "tags": "Iterators",
-"order": 1148
+"order": 1145
 });
 
 Mods.push({
@@ -18344,9 +18296,9 @@ Mods.push({
 "requirements": "",
 "version": "1.0",
 "created": 1699174463,
-"modified": 1738750247,
+"modified": 1739173462,
 "tags": "Translations",
-"order": 1149
+"order": 1146
 });
 
 Mods.push({
@@ -18362,7 +18314,7 @@ Mods.push({
 "created": 1699206175,
 "modified": 1699479884,
 "tags": "Cosmetics",
-"order": 1150
+"order": 1147
 });
 
 Mods.push({
@@ -18378,7 +18330,7 @@ Mods.push({
 "created": 1699236924,
 "modified": 1700269188,
 "tags": "region",
-"order": 1151
+"order": 1148
 });
 
 Mods.push({
@@ -18394,7 +18346,7 @@ Mods.push({
 "created": 1699263533,
 "modified": 1699263533,
 "tags": "Cosmetics",
-"order": 1152
+"order": 1149
 });
 
 Mods.push({
@@ -18410,7 +18362,7 @@ Mods.push({
 "created": 1699309174,
 "modified": 1701523245,
 "tags": "",
-"order": 1153
+"order": 1150
 });
 
 Mods.push({
@@ -18426,7 +18378,7 @@ Mods.push({
 "created": 1699317868,
 "modified": 1699317868,
 "tags": "Cosmetics",
-"order": 1154
+"order": 1151
 });
 
 Mods.push({
@@ -18442,7 +18394,7 @@ Mods.push({
 "created": 1699363436,
 "modified": 1704574150,
 "tags": "Campaigns,Custom Slugcat",
-"order": 1155
+"order": 1152
 });
 
 Mods.push({
@@ -18458,7 +18410,7 @@ Mods.push({
 "created": 1699396124,
 "modified": 1699396124,
 "tags": "Custom Slugcat",
-"order": 1156
+"order": 1153
 });
 
 Mods.push({
@@ -18474,7 +18426,7 @@ Mods.push({
 "created": 1699399506,
 "modified": 1699399506,
 "tags": "",
-"order": 1157
+"order": 1154
 });
 
 Mods.push({
@@ -18490,7 +18442,7 @@ Mods.push({
 "created": 1699406503,
 "modified": 1701639264,
 "tags": "Regions",
-"order": 1158
+"order": 1155
 });
 
 Mods.push({
@@ -18506,7 +18458,7 @@ Mods.push({
 "created": 1699495069,
 "modified": 1699495069,
 "tags": "Cosmetics",
-"order": 1159
+"order": 1156
 });
 
 Mods.push({
@@ -18522,7 +18474,7 @@ Mods.push({
 "created": 1699520390,
 "modified": 1699779511,
 "tags": "Custom Slugcat,Custom Region",
-"order": 1160
+"order": 1157
 });
 
 Mods.push({
@@ -18538,7 +18490,7 @@ Mods.push({
 "created": 1699520426,
 "modified": 1699520426,
 "tags": "Custom Iterator",
-"order": 1161
+"order": 1158
 });
 
 Mods.push({
@@ -18554,7 +18506,7 @@ Mods.push({
 "created": 1699520630,
 "modified": 1699520630,
 "tags": "Custom Region",
-"order": 1162
+"order": 1159
 });
 
 Mods.push({
@@ -18570,7 +18522,7 @@ Mods.push({
 "created": 1699556692,
 "modified": 1699556692,
 "tags": "Arenas",
-"order": 1163
+"order": 1160
 });
 
 Mods.push({
@@ -18586,7 +18538,7 @@ Mods.push({
 "created": 1699605398,
 "modified": 1699609271,
 "tags": "Cosmetics",
-"order": 1164
+"order": 1161
 });
 
 Mods.push({
@@ -18602,7 +18554,7 @@ Mods.push({
 "created": 1699640356,
 "modified": 1699640356,
 "tags": "Cosmetics",
-"order": 1165
+"order": 1162
 });
 
 Mods.push({
@@ -18618,7 +18570,7 @@ Mods.push({
 "created": 1699650903,
 "modified": 1699920902,
 "tags": "Creatures",
-"order": 1166
+"order": 1163
 });
 
 Mods.push({
@@ -18634,7 +18586,7 @@ Mods.push({
 "created": 1699739166,
 "modified": 1711430738,
 "tags": "Game Mechanics,Accessibility",
-"order": 1167
+"order": 1164
 });
 
 Mods.push({
@@ -18650,7 +18602,7 @@ Mods.push({
 "created": 1699749071,
 "modified": 1705807045,
 "tags": "Creatures",
-"order": 1168
+"order": 1165
 });
 
 Mods.push({
@@ -18666,7 +18618,7 @@ Mods.push({
 "created": 1699775861,
 "modified": 1701070281,
 "tags": "",
-"order": 1169
+"order": 1166
 });
 
 Mods.push({
@@ -18683,7 +18635,7 @@ Mods.push({
 "created": 1699799814,
 "modified": 1703791266,
 "tags": "",
-"order": 1170
+"order": 1167
 });
 
 Mods.push({
@@ -18699,7 +18651,7 @@ Mods.push({
 "created": 1699817840,
 "modified": 1701160175,
 "tags": "Cosmetics",
-"order": 1171
+"order": 1168
 });
 
 Mods.push({
@@ -18715,7 +18667,7 @@ Mods.push({
 "created": 1699819104,
 "modified": 1704155240,
 "tags": "Custom Slugcat",
-"order": 1172
+"order": 1169
 });
 
 Mods.push({
@@ -18730,7 +18682,7 @@ Mods.push({
 "created": 1699821150,
 "modified": 1699821722,
 "tags": "",
-"order": 1173
+"order": 1170
 });
 
 Mods.push({
@@ -18746,7 +18698,7 @@ Mods.push({
 "created": 1699827010,
 "modified": 1699827010,
 "tags": "Cosmetics",
-"order": 1174
+"order": 1171
 });
 
 Mods.push({
@@ -18762,7 +18714,7 @@ Mods.push({
 "created": 1699831538,
 "modified": 1718478247,
 "tags": "Regions",
-"order": 1175
+"order": 1172
 });
 
 Mods.push({
@@ -18776,9 +18728,9 @@ Mods.push({
 "requirements": "moreslugcats",
 "version": "1.0.2",
 "created": 1699909036,
-"modified": 1711833811,
+"modified": 1740005357,
 "tags": "",
-"order": 1176
+"order": 1173
 });
 
 Mods.push({
@@ -18794,7 +18746,7 @@ Mods.push({
 "created": 1699921986,
 "modified": 1711133695,
 "tags": "Cosmetics",
-"order": 1177
+"order": 1174
 });
 
 Mods.push({
@@ -18810,7 +18762,7 @@ Mods.push({
 "created": 1699932828,
 "modified": 1699944425,
 "tags": "Cosmetics",
-"order": 1178
+"order": 1175
 });
 
 Mods.push({
@@ -18826,7 +18778,7 @@ Mods.push({
 "created": 1699991567,
 "modified": 1720352012,
 "tags": "",
-"order": 1179
+"order": 1176
 });
 
 Mods.push({
@@ -18842,7 +18794,7 @@ Mods.push({
 "created": 1700013845,
 "modified": 1700013845,
 "tags": "Regions",
-"order": 1180
+"order": 1177
 });
 
 Mods.push({
@@ -18858,7 +18810,7 @@ Mods.push({
 "created": 1700050605,
 "modified": 1700050605,
 "tags": "",
-"order": 1181
+"order": 1178
 });
 
 Mods.push({
@@ -18874,7 +18826,7 @@ Mods.push({
 "created": 1700102346,
 "modified": 1720352029,
 "tags": "",
-"order": 1182
+"order": 1179
 });
 
 Mods.push({
@@ -18890,7 +18842,7 @@ Mods.push({
 "created": 1700106055,
 "modified": 1712328407,
 "tags": "Cosmetics",
-"order": 1183
+"order": 1180
 });
 
 Mods.push({
@@ -18906,7 +18858,7 @@ Mods.push({
 "created": 1700107089,
 "modified": 1700147154,
 "tags": "Cosmetics",
-"order": 1184
+"order": 1181
 });
 
 Mods.push({
@@ -18923,7 +18875,7 @@ Mods.push({
 "created": 1700107284,
 "modified": 1718691813,
 "tags": "Tools",
-"order": 1185
+"order": 1182
 });
 
 Mods.push({
@@ -18939,7 +18891,7 @@ Mods.push({
 "created": 1700129762,
 "modified": 1700635338,
 "tags": "Cosmetics",
-"order": 1186
+"order": 1183
 });
 
 Mods.push({
@@ -18955,7 +18907,7 @@ Mods.push({
 "created": 1700132514,
 "modified": 1700132514,
 "tags": "Cosmetics",
-"order": 1187
+"order": 1184
 });
 
 Mods.push({
@@ -18971,7 +18923,7 @@ Mods.push({
 "created": 1700166001,
 "modified": 1701122629,
 "tags": "Creatures",
-"order": 1188
+"order": 1185
 });
 
 Mods.push({
@@ -18987,7 +18939,7 @@ Mods.push({
 "created": 1700166217,
 "modified": 1700166404,
 "tags": "Creatures",
-"order": 1189
+"order": 1186
 });
 
 Mods.push({
@@ -19003,7 +18955,7 @@ Mods.push({
 "created": 1700169954,
 "modified": 1700169954,
 "tags": "Cosmetics",
-"order": 1190
+"order": 1187
 });
 
 Mods.push({
@@ -19019,7 +18971,7 @@ Mods.push({
 "created": 1700190557,
 "modified": 1700190557,
 "tags": "Cosmetics",
-"order": 1191
+"order": 1188
 });
 
 Mods.push({
@@ -19035,7 +18987,7 @@ Mods.push({
 "created": 1700225871,
 "modified": 1700225871,
 "tags": "Cosmetics",
-"order": 1192
+"order": 1189
 });
 
 Mods.push({
@@ -19051,7 +19003,7 @@ Mods.push({
 "created": 1700330187,
 "modified": 1700330187,
 "tags": "Cosmetics",
-"order": 1193
+"order": 1190
 });
 
 Mods.push({
@@ -19067,7 +19019,7 @@ Mods.push({
 "created": 1700378554,
 "modified": 1700378554,
 "tags": "Cosmetics",
-"order": 1194
+"order": 1191
 });
 
 Mods.push({
@@ -19083,7 +19035,7 @@ Mods.push({
 "created": 1700379396,
 "modified": 1737185151,
 "tags": "Regions",
-"order": 1195
+"order": 1192
 });
 
 Mods.push({
@@ -19099,7 +19051,7 @@ Mods.push({
 "created": 1700379430,
 "modified": 1737182242,
 "tags": "Game Mechanics",
-"order": 1196
+"order": 1193
 });
 
 Mods.push({
@@ -19115,7 +19067,7 @@ Mods.push({
 "created": 1700410959,
 "modified": 1720351971,
 "tags": "",
-"order": 1197
+"order": 1194
 });
 
 Mods.push({
@@ -19131,7 +19083,7 @@ Mods.push({
 "created": 1700444321,
 "modified": 1700449415,
 "tags": "Creatures",
-"order": 1198
+"order": 1195
 });
 
 Mods.push({
@@ -19147,7 +19099,7 @@ Mods.push({
 "created": 1700444661,
 "modified": 1700559488,
 "tags": "Lizards",
-"order": 1199
+"order": 1196
 });
 
 Mods.push({
@@ -19163,7 +19115,7 @@ Mods.push({
 "created": 1700453496,
 "modified": 1708287093,
 "tags": "Regions",
-"order": 1200
+"order": 1197
 });
 
 Mods.push({
@@ -19179,7 +19131,7 @@ Mods.push({
 "created": 1700457788,
 "modified": 1700457788,
 "tags": "Game Mechanics",
-"order": 1201
+"order": 1198
 });
 
 Mods.push({
@@ -19195,7 +19147,7 @@ Mods.push({
 "created": 1700490923,
 "modified": 1715249165,
 "tags": "",
-"order": 1202
+"order": 1199
 });
 
 Mods.push({
@@ -19211,7 +19163,7 @@ Mods.push({
 "created": 1700495767,
 "modified": 1700586042,
 "tags": "Regions",
-"order": 1203
+"order": 1200
 });
 
 Mods.push({
@@ -19227,7 +19179,7 @@ Mods.push({
 "created": 1700513932,
 "modified": 1700513932,
 "tags": "Cosmetics",
-"order": 1204
+"order": 1201
 });
 
 Mods.push({
@@ -19243,7 +19195,7 @@ Mods.push({
 "created": 1700592303,
 "modified": 1700592303,
 "tags": "Cosmetics",
-"order": 1205
+"order": 1202
 });
 
 Mods.push({
@@ -19259,7 +19211,7 @@ Mods.push({
 "created": 1700595948,
 "modified": 1700595948,
 "tags": "Cosmetics",
-"order": 1206
+"order": 1203
 });
 
 Mods.push({
@@ -19275,7 +19227,7 @@ Mods.push({
 "created": 1700597520,
 "modified": 1700597520,
 "tags": "Creatures",
-"order": 1207
+"order": 1204
 });
 
 Mods.push({
@@ -19291,7 +19243,7 @@ Mods.push({
 "created": 1700612459,
 "modified": 1700612459,
 "tags": "Cosmetics",
-"order": 1208
+"order": 1205
 });
 
 Mods.push({
@@ -19307,7 +19259,7 @@ Mods.push({
 "created": 1700644954,
 "modified": 1700644954,
 "tags": "",
-"order": 1209
+"order": 1206
 });
 
 Mods.push({
@@ -19323,7 +19275,7 @@ Mods.push({
 "created": 1700669692,
 "modified": 1701967297,
 "tags": "Cosmetics",
-"order": 1210
+"order": 1207
 });
 
 Mods.push({
@@ -19339,7 +19291,7 @@ Mods.push({
 "created": 1700677256,
 "modified": 1700677256,
 "tags": "Cosmetics",
-"order": 1211
+"order": 1208
 });
 
 Mods.push({
@@ -19355,7 +19307,7 @@ Mods.push({
 "created": 1700693365,
 "modified": 1700693365,
 "tags": "",
-"order": 1212
+"order": 1209
 });
 
 Mods.push({
@@ -19371,7 +19323,7 @@ Mods.push({
 "created": 1700850513,
 "modified": 1700850513,
 "tags": "Cosmetics",
-"order": 1213
+"order": 1210
 });
 
 Mods.push({
@@ -19387,7 +19339,7 @@ Mods.push({
 "created": 1700855616,
 "modified": 1700855616,
 "tags": "Cosmetics",
-"order": 1214
+"order": 1211
 });
 
 Mods.push({
@@ -19403,7 +19355,7 @@ Mods.push({
 "created": 1700883110,
 "modified": 1700883110,
 "tags": "Cosmetics",
-"order": 1215
+"order": 1212
 });
 
 Mods.push({
@@ -19419,7 +19371,7 @@ Mods.push({
 "created": 1700885110,
 "modified": 1700885110,
 "tags": "",
-"order": 1216
+"order": 1213
 });
 
 Mods.push({
@@ -19435,7 +19387,7 @@ Mods.push({
 "created": 1700892162,
 "modified": 1700892162,
 "tags": "",
-"order": 1217
+"order": 1214
 });
 
 Mods.push({
@@ -19443,15 +19395,15 @@ Mods.push({
 "id": "dovah.rainworldzero",
 "workshop_id": "3094712202",
 "author": "DovahCourts",
-"desc": "Entropy Zero but make it Rain World<br><br><br><br>Entropy Zero Uprising made by Employee8 & Filipad<br>Entropy Zero made by the breadmen<br><br>",
+"desc": "Entropy Zero but make it Rain World<br><br><br>Entropy Zero Uprising made by Employee8 & Filipad<br>Entropy Zero made by the breadmen",
 "thumb": "previews/3094712202.png",
 "url": "https://andrew.fm/rainworld/raindb/Rain_World_Zero.zip",
 "requirements": "dressmyslugcat",
 "version": "1.0.0",
 "created": 1700895039,
-"modified": 1729839646,
+"modified": 1739996813,
 "tags": "Cosmetics",
-"order": 1218
+"order": 1215
 });
 
 Mods.push({
@@ -19467,7 +19419,7 @@ Mods.push({
 "created": 1700913725,
 "modified": 1700913725,
 "tags": "Cosmetics",
-"order": 1219
+"order": 1216
 });
 
 Mods.push({
@@ -19483,7 +19435,7 @@ Mods.push({
 "created": 1700926031,
 "modified": 1733047337,
 "tags": "",
-"order": 1220
+"order": 1217
 });
 
 Mods.push({
@@ -19499,7 +19451,7 @@ Mods.push({
 "created": 1700931923,
 "modified": 1700931923,
 "tags": "",
-"order": 1221
+"order": 1218
 });
 
 Mods.push({
@@ -19515,7 +19467,7 @@ Mods.push({
 "created": 1700935700,
 "modified": 1700935700,
 "tags": "Cosmetics",
-"order": 1222
+"order": 1219
 });
 
 Mods.push({
@@ -19531,7 +19483,7 @@ Mods.push({
 "created": 1700945006,
 "modified": 1733934717,
 "tags": "Cosmetics",
-"order": 1223
+"order": 1220
 });
 
 Mods.push({
@@ -19548,7 +19500,7 @@ Mods.push({
 "created": 1701013463,
 "modified": 1701013463,
 "tags": "",
-"order": 1224
+"order": 1221
 });
 
 Mods.push({
@@ -19564,7 +19516,7 @@ Mods.push({
 "created": 1701026506,
 "modified": 1701548811,
 "tags": "Cosmetics",
-"order": 1225
+"order": 1222
 });
 
 Mods.push({
@@ -19579,7 +19531,7 @@ Mods.push({
 "created": 1701040004,
 "modified": 1706577174,
 "tags": "Passages,Passage,Game Mechanics,Dependency",
-"order": 1226
+"order": 1223
 });
 
 Mods.push({
@@ -19595,7 +19547,7 @@ Mods.push({
 "created": 1701109885,
 "modified": 1701109885,
 "tags": "Cosmetics",
-"order": 1227
+"order": 1224
 });
 
 Mods.push({
@@ -19611,7 +19563,7 @@ Mods.push({
 "created": 1701116505,
 "modified": 1701116505,
 "tags": "Cosmetics",
-"order": 1228
+"order": 1225
 });
 
 Mods.push({
@@ -19627,7 +19579,7 @@ Mods.push({
 "created": 1701123726,
 "modified": 1701123726,
 "tags": "Cosmetics",
-"order": 1229
+"order": 1226
 });
 
 Mods.push({
@@ -19643,7 +19595,7 @@ Mods.push({
 "created": 1701214812,
 "modified": 1722564434,
 "tags": "Cosmetics",
-"order": 1230
+"order": 1227
 });
 
 Mods.push({
@@ -19659,7 +19611,7 @@ Mods.push({
 "created": 1701234749,
 "modified": 1701234749,
 "tags": "Cosmetics",
-"order": 1231
+"order": 1228
 });
 
 Mods.push({
@@ -19675,7 +19627,7 @@ Mods.push({
 "created": 1701271772,
 "modified": 1701438503,
 "tags": "Cosmetics",
-"order": 1232
+"order": 1229
 });
 
 Mods.push({
@@ -19692,7 +19644,7 @@ Mods.push({
 "created": 1701288952,
 "modified": 1701288952,
 "tags": "Cosmetics",
-"order": 1233
+"order": 1230
 });
 
 Mods.push({
@@ -19708,7 +19660,7 @@ Mods.push({
 "created": 1701295375,
 "modified": 1701387440,
 "tags": "",
-"order": 1234
+"order": 1231
 });
 
 Mods.push({
@@ -19724,7 +19676,7 @@ Mods.push({
 "created": 1701310969,
 "modified": 1701310969,
 "tags": "Cosmetics",
-"order": 1235
+"order": 1232
 });
 
 Mods.push({
@@ -19732,15 +19684,15 @@ Mods.push({
 "id": "purpl_lightbulb",
 "workshop_id": "3100483776",
 "author": "Purpl",
-"desc": "kidnap ligthbulb AND paitnbruzh from inanimzate inzanity and force them into rain world!! annfd maybe zome otherz... :evil:!!!!<br><br>alzo become lightbulb'z furzona and turn into an otter /zilly<br><br>DO RADICAL ZICK COOL EPIC BACKFLIPZ WITH PAINTBRUZH'Z HAIR WHILE THEY BACKFLIP!!!!!! (i cant be bothered to fix it)<br><br>zkinz include!!:<br>paintbruzh from I.I. (Inanimate Insanity)<br>lightbulb from I.I. (Inanimate Insanity)<br>otterbulb (furry ver. of Inanimate Insanity lightbulb)<br>razor from Objectified (ZOMEWHAT finizhed..)<br>cirno from Touhou<br><br>there WILL BE BUGZ!!!! NO WAY!! thiz iz my firzt ever mod zo um ya expect the little bug critterz the little zpiderz the creepy crawliez.. IDK.. ALZO there might be like cuztom cutzcenbez becauze i waz too much of a touhou fan and changed all of them to be touhou related zo um MY BAD ZORRY ABOUT THAT..",
+"desc": "kidnap ligthbulb AND paitnbruzh from inanimzate inzanity and force them into rain world!! annfd maybe zome otherz... :evil:!!!!<br><br>alzo become lightbulb'z furzona and turn into an otter /zilly<br><br>DO RADICAL ZICK COOL EPIC BACKFLIPZ WITH PAINTBRUZH'Z HAIR WHILE THEY BACKFLIP!!!!!! (i cant be bothered to fix it)<br><br>zkinz include!!:<br>paintbruzh from I.I. (Inanimate Insanity)<br>lightbulb from I.I. (Inanimate Insanity)<br>otterbulb (furry ver. of Inanimate Insanity lightbulb)<br>razor from Objectified (ZOMEWHAT finizhed..)<br>cirno from Touhou<br>Kel (headspace and realworld, including tanktop versions) from OMORI<br>flandre-rivulet (personal :3) from Rain World & Touhou<br><br>..AT THIZ POINT ITZ TURNING INTO A COLLECTION OF ZKINZ<br><br>there WILL BE BUGZ!!!! NO WAY!! thiz iz my firzt ever mod zo um ya expect the little bug critterz the little zpiderz the creepy crawliez.. IDK.. ALZO there might be like cuztom cutzcenbez becauze i waz too much of a touhou fan and changed all of them to be touhou related zo um MY BAD ZORRY ABOUT THAT..",
 "thumb": "previews/3100483776.png",
 "url": "https://andrew.fm/rainworld/raindb/LIGHTBULB_AND_PAINTBRUZH_DUO_TAG_TEAM_REAL.zip",
 "requirements": "dressmyslugcat",
 "version": "1.0.0",
 "created": 1701330718,
-"modified": 1723368498,
+"modified": 1739947298,
 "tags": "Cosmetics",
-"order": 1236
+"order": 1233
 });
 
 Mods.push({
@@ -19756,7 +19708,7 @@ Mods.push({
 "created": 1701441209,
 "modified": 1701699053,
 "tags": "Cosmetics",
-"order": 1237
+"order": 1234
 });
 
 Mods.push({
@@ -19772,7 +19724,7 @@ Mods.push({
 "created": 1701443076,
 "modified": 1727782012,
 "tags": "",
-"order": 1238
+"order": 1235
 });
 
 Mods.push({
@@ -19788,7 +19740,7 @@ Mods.push({
 "created": 1701462729,
 "modified": 1701627374,
 "tags": "Custom Slugcat",
-"order": 1239
+"order": 1236
 });
 
 Mods.push({
@@ -19804,7 +19756,7 @@ Mods.push({
 "created": 1701485761,
 "modified": 1703608494,
 "tags": "Custom Slugcat",
-"order": 1240
+"order": 1237
 });
 
 Mods.push({
@@ -19820,7 +19772,7 @@ Mods.push({
 "created": 1701533489,
 "modified": 1701533489,
 "tags": "Cosmetics",
-"order": 1241
+"order": 1238
 });
 
 Mods.push({
@@ -19836,7 +19788,7 @@ Mods.push({
 "created": 1701534172,
 "modified": 1701534172,
 "tags": "Cosmetics",
-"order": 1242
+"order": 1239
 });
 
 Mods.push({
@@ -19853,7 +19805,7 @@ Mods.push({
 "created": 1701536725,
 "modified": 1701536725,
 "tags": "Cosmetics",
-"order": 1243
+"order": 1240
 });
 
 Mods.push({
@@ -19870,7 +19822,7 @@ Mods.push({
 "created": 1701542110,
 "modified": 1729511737,
 "tags": "Regions",
-"order": 1244
+"order": 1241
 });
 
 Mods.push({
@@ -19886,7 +19838,7 @@ Mods.push({
 "created": 1701572082,
 "modified": 1701572082,
 "tags": "",
-"order": 1245
+"order": 1242
 });
 
 Mods.push({
@@ -19902,7 +19854,7 @@ Mods.push({
 "created": 1701584455,
 "modified": 1737520176,
 "tags": "Cosmetics",
-"order": 1246
+"order": 1243
 });
 
 Mods.push({
@@ -19918,7 +19870,7 @@ Mods.push({
 "created": 1701608010,
 "modified": 1701608010,
 "tags": "Cosmetics",
-"order": 1247
+"order": 1244
 });
 
 Mods.push({
@@ -19933,7 +19885,7 @@ Mods.push({
 "created": 1701616769,
 "modified": 1701953201,
 "tags": "",
-"order": 1248
+"order": 1245
 });
 
 Mods.push({
@@ -19949,7 +19901,7 @@ Mods.push({
 "created": 1701619629,
 "modified": 1712751949,
 "tags": "Creatures,Lizards",
-"order": 1249
+"order": 1246
 });
 
 Mods.push({
@@ -19965,7 +19917,7 @@ Mods.push({
 "created": 1701628422,
 "modified": 1731181804,
 "tags": "Game Modes",
-"order": 1250
+"order": 1247
 });
 
 Mods.push({
@@ -19980,7 +19932,7 @@ Mods.push({
 "created": 1701635175,
 "modified": 1701635175,
 "tags": "",
-"order": 1251
+"order": 1248
 });
 
 Mods.push({
@@ -19988,15 +19940,15 @@ Mods.push({
 "id": "verde.remainarenas",
 "workshop_id": "3104579957",
 "author": "VerdeBlue",
-"desc": "Ports all Challenge-exclusive and dummied-out arenas to the Competitive and Sandbox menus. [b]Beware of region spoilers![/b]<br><br>Some arenas have wildlife spawns added or altered. Quite some have so little floor that they might only work competitively if you're playing Spearmaster. More wildlife spawns (and fixes to Water Tower) are on the way!<br><br>[table]<br>    [tr][th]Arena Name[/th][th]Former Code[/th][th]Region[/th][/tr]<br>    [tr][th]Hub Area[/th][td]Hub[/td][td]Rain World Alpha[/td][/tr]<br>    [tr][th]Barrel Drain[/th][td]Barrels[/td][td]The Gutter[/td][/tr]<br>    [tr][th]Canal Pit[/th][td]Charger (what?)[/td][td]Farm Arrays[/td][/tr]<br>    [tr][th]Clamber[/th][td]Multi_Clamber[/td][td]Metropolis[/td][/tr]<br>    [tr][th]Cortex[/th][td]Chal_Ai[/td][td]Looks to the Moon (Neural Terminus)[/td][/tr]<br>    [tr][th]Crumble[/th][td]Multi_Crumble[/td][td]Metropolis[/td][/tr]<br>    [tr][th]Cultivation[/th][td]Multi_Barrens[/td][td]Farm Arrays[/td][/tr]<br>    [tr][th]Dark Vents[/th][td]Dark Water[/td][td]Submerged Superstructure (Vents)[/td][/tr]<br>    [tr][th]Drainage Pond[/th][td]Multi_Drainage[/td][td]Drainage System[/td][/tr]<br>    [tr][th]Girder Yard[/th][td]Girders[/td][td]Past Garbage Wastes (aka Acerbic Station)[/td][/tr]<br>    [tr][th]Outer Gorge[/th][td]Multi_Outofindustrial[/td][td]Rivulet Garbage Wastes[/td][/tr]<br>    [tr][th]Pipe Maze[/th][td]Passages[/td][td]Looks to the Moon[/td][/tr]<br>    [tr][th]Popcorn Range[/th][td]Chapopcorn[/td][td]Subterranean[/td][/tr]<br>    [tr][th]Power Flux[/th][td]Powerflux[/td][td]Five Pebbles (Recursive Transform Array)[/td][/tr]<br>    [tr][th]Steps[/th][td]Chasteps[/td][td]Metropolis (12th Council Pillar, the House of Braids)[/td][/tr]<br>    [tr][th]Water Tower[/th][td]Water House[/td][td]Waterfront Facility[/td][/tr]<br>    [tr][th]Artery[/th][td]Aorta[/td][td]N/A[/td][/tr]<br>    [tr][th]Backwater[/th][td]Basin[/td][td]N/A[/td][/tr]<br>    [tr][th]Buried Baths[/th][td]Baths[/td][td]Depths[/td][/tr]<br>    [tr][th]Chute[/th][td]Chutes[/td][td]N/A[/td][/tr]<br>    [tr][th]Deep Duct[/th][td]Duct[/td][td]Drainage System[/td][/tr]<br>    [tr][th]Griller[/th][td]Grill[/td][td]Looks to the Moon (Abstract Convergence Manifold)[/td][/tr]<br>    [tr][th]Minefield Coils[/th][td]Mines[/td][td]N/A[/td][/tr]<br>    [tr][th]Station Worms[/th][td]Substation[/td][td]N/A[/td][/tr]<br>    [tr][th]Topple[/th][td]Multi_Topple[/td][td]Metropolis[/td][/tr]<br>    [tr][th]Corrosion Climb[/th][td]Multi_Corrosive[/td][td]Past Garbage Wastes (aka Acerbic Station)[/td][/tr]<br>    [tr][th]Ecosystem[/th][td]Multi_Microsystem[/td][td]Farm Arrays[/td][/tr]<br>    [tr][th]Frozen Wastes[/th][td]Multi_Frozenwastes[/td][td]Silent Construct[/td][/tr]<br>    [tr][th]Gauntlet[/th][td]Multi_Gauntlet[/td][td]Sky Islands[/td][/tr]<br>    [tr][th]Heck Region[/th][td]Multi_Hr[/td][td]Rubicon[/td][/tr]<br>    [tr][th]Long Skybridge[/th][td]Multi_Longori[/td][td]Metropolis[/td][/tr]<br>    [tr][th]Structure Lab[/th][td]Multi_Ss_D02[/td][td]Memory Conflux[/td][/tr]<br>    [tr][th]Towering Aerie[/th][td]Multi_Tripletowers[/td][td]Bitter Aerie[/td][/tr]<br>    [tr][th]Underway[/th][td]Multi_Underhang[/td][td]Underhang[/td][/tr]<br>    [tr][th]Little Moon[/th][td]Multi_Sl_Ai[/td][td]Shoreline (Looks to the Moon)[/td][/tr]<br>    [tr][th]Subway[/th][td]Multi_Godofeyes[/td][td]Metropolis (The Floor)[/td][/tr]<br>[/table]",
+"desc": "Ports all Challenge-exclusive and dummied-out arenas to the Competitive and Sandbox menus. [b]Beware of region spoilers![/b]<br><br>Some arenas have wildlife spawns added or altered. Quite some have so little floor that they might only work competitively if you're playing Spearmaster. More wildlife spawns (and fixes to Water Tower) are on the way!",
 "thumb": "previews/3104579957.png",
 "url": "https://andrew.fm/rainworld/raindb/Challenge_Arenas_and_Betas.zip",
 "requirements": "moreslugcats",
-"version": "0.1.1",
+"version": "0.1.2",
 "created": 1701644589,
-"modified": 1713868908,
+"modified": 1739336639,
 "tags": "Arenas",
-"order": 1252
+"order": 1249
 });
 
 Mods.push({
@@ -20012,7 +19964,7 @@ Mods.push({
 "created": 1701644715,
 "modified": 1721665347,
 "tags": "Cosmetics",
-"order": 1253
+"order": 1250
 });
 
 Mods.push({
@@ -20028,7 +19980,7 @@ Mods.push({
 "created": 1701829476,
 "modified": 1701829476,
 "tags": "Cosmetics",
-"order": 1254
+"order": 1251
 });
 
 Mods.push({
@@ -20044,7 +19996,7 @@ Mods.push({
 "created": 1701856214,
 "modified": 1712308474,
 "tags": "Cosmetics",
-"order": 1255
+"order": 1252
 });
 
 Mods.push({
@@ -20060,7 +20012,7 @@ Mods.push({
 "created": 1701916968,
 "modified": 1704216091,
 "tags": "Custom Slugcat",
-"order": 1256
+"order": 1253
 });
 
 Mods.push({
@@ -20076,7 +20028,7 @@ Mods.push({
 "created": 1701951863,
 "modified": 1720866502,
 "tags": "Cosmetics",
-"order": 1257
+"order": 1254
 });
 
 Mods.push({
@@ -20092,7 +20044,7 @@ Mods.push({
 "created": 1701980383,
 "modified": 1701980383,
 "tags": "Cosmetics",
-"order": 1258
+"order": 1255
 });
 
 Mods.push({
@@ -20107,7 +20059,7 @@ Mods.push({
 "created": 1702016842,
 "modified": 1702016842,
 "tags": "Accessibility,Tools",
-"order": 1259
+"order": 1256
 });
 
 Mods.push({
@@ -20123,7 +20075,7 @@ Mods.push({
 "created": 1702150589,
 "modified": 1712308429,
 "tags": "Cosmetics",
-"order": 1260
+"order": 1257
 });
 
 Mods.push({
@@ -20140,7 +20092,7 @@ Mods.push({
 "created": 1702164533,
 "modified": 1702164533,
 "tags": "",
-"order": 1261
+"order": 1258
 });
 
 Mods.push({
@@ -20156,7 +20108,7 @@ Mods.push({
 "created": 1702167944,
 "modified": 1716735132,
 "tags": "Game Mechanics",
-"order": 1262
+"order": 1259
 });
 
 Mods.push({
@@ -20172,7 +20124,7 @@ Mods.push({
 "created": 1702223154,
 "modified": 1702223154,
 "tags": "Game Modes",
-"order": 1263
+"order": 1260
 });
 
 Mods.push({
@@ -20188,7 +20140,7 @@ Mods.push({
 "created": 1702231969,
 "modified": 1702231969,
 "tags": "Cosmetics",
-"order": 1264
+"order": 1261
 });
 
 Mods.push({
@@ -20203,7 +20155,7 @@ Mods.push({
 "created": 1702262951,
 "modified": 1702262951,
 "tags": "Custom Slugcat",
-"order": 1265
+"order": 1262
 });
 
 Mods.push({
@@ -20219,7 +20171,7 @@ Mods.push({
 "created": 1702264152,
 "modified": 1702264152,
 "tags": "Cosmetics",
-"order": 1266
+"order": 1263
 });
 
 Mods.push({
@@ -20235,7 +20187,7 @@ Mods.push({
 "created": 1702282405,
 "modified": 1702282405,
 "tags": "Cosmetics",
-"order": 1267
+"order": 1264
 });
 
 Mods.push({
@@ -20251,7 +20203,7 @@ Mods.push({
 "created": 1702284935,
 "modified": 1737276032,
 "tags": "Arenas,Custom Slugcat",
-"order": 1268
+"order": 1265
 });
 
 Mods.push({
@@ -20268,7 +20220,7 @@ Mods.push({
 "created": 1702293182,
 "modified": 1709816433,
 "tags": "Accessibility,Tools",
-"order": 1269
+"order": 1266
 });
 
 Mods.push({
@@ -20284,7 +20236,7 @@ Mods.push({
 "created": 1702408923,
 "modified": 1734315999,
 "tags": "Game Mechanics",
-"order": 1270
+"order": 1267
 });
 
 Mods.push({
@@ -20300,7 +20252,7 @@ Mods.push({
 "created": 1702412800,
 "modified": 1702412800,
 "tags": "Cosmetics",
-"order": 1271
+"order": 1268
 });
 
 Mods.push({
@@ -20315,7 +20267,7 @@ Mods.push({
 "created": 1702425886,
 "modified": 1703534899,
 "tags": "Game Mechanics",
-"order": 1272
+"order": 1269
 });
 
 Mods.push({
@@ -20331,7 +20283,7 @@ Mods.push({
 "created": 1702425906,
 "modified": 1716757086,
 "tags": "Game Mechanics,Items",
-"order": 1273
+"order": 1270
 });
 
 Mods.push({
@@ -20347,7 +20299,7 @@ Mods.push({
 "created": 1702494844,
 "modified": 1734979922,
 "tags": "Custom Slugcat",
-"order": 1274
+"order": 1271
 });
 
 Mods.push({
@@ -20363,7 +20315,7 @@ Mods.push({
 "created": 1702520507,
 "modified": 1702520507,
 "tags": "Cosmetics",
-"order": 1275
+"order": 1272
 });
 
 Mods.push({
@@ -20380,7 +20332,7 @@ Mods.push({
 "created": 1702614485,
 "modified": 1702767959,
 "tags": "Cosmetics",
-"order": 1276
+"order": 1273
 });
 
 Mods.push({
@@ -20396,7 +20348,7 @@ Mods.push({
 "created": 1702675889,
 "modified": 1702675889,
 "tags": "",
-"order": 1277
+"order": 1274
 });
 
 Mods.push({
@@ -20412,7 +20364,7 @@ Mods.push({
 "created": 1702680483,
 "modified": 1702680483,
 "tags": "",
-"order": 1278
+"order": 1275
 });
 
 Mods.push({
@@ -20428,7 +20380,7 @@ Mods.push({
 "created": 1702760275,
 "modified": 1702760275,
 "tags": "",
-"order": 1279
+"order": 1276
 });
 
 Mods.push({
@@ -20444,7 +20396,7 @@ Mods.push({
 "created": 1702799537,
 "modified": 1702799537,
 "tags": "Game Mechanics",
-"order": 1280
+"order": 1277
 });
 
 Mods.push({
@@ -20460,7 +20412,7 @@ Mods.push({
 "created": 1702836759,
 "modified": 1702836759,
 "tags": "Cosmetics",
-"order": 1281
+"order": 1278
 });
 
 Mods.push({
@@ -20475,7 +20427,7 @@ Mods.push({
 "created": 1702837004,
 "modified": 1733274244,
 "tags": "",
-"order": 1282
+"order": 1279
 });
 
 Mods.push({
@@ -20491,7 +20443,7 @@ Mods.push({
 "created": 1702845802,
 "modified": 1708823513,
 "tags": "Custom Slugcat",
-"order": 1283
+"order": 1280
 });
 
 Mods.push({
@@ -20507,7 +20459,7 @@ Mods.push({
 "created": 1702917746,
 "modified": 1712308364,
 "tags": "Cosmetics",
-"order": 1284
+"order": 1281
 });
 
 Mods.push({
@@ -20523,7 +20475,7 @@ Mods.push({
 "created": 1702943543,
 "modified": 1702943543,
 "tags": "Cosmetics",
-"order": 1285
+"order": 1282
 });
 
 Mods.push({
@@ -20539,7 +20491,7 @@ Mods.push({
 "created": 1703014832,
 "modified": 1703014832,
 "tags": "Cosmetics",
-"order": 1286
+"order": 1283
 });
 
 Mods.push({
@@ -20555,7 +20507,7 @@ Mods.push({
 "created": 1703042743,
 "modified": 1703042743,
 "tags": "Cosmetics",
-"order": 1287
+"order": 1284
 });
 
 Mods.push({
@@ -20570,7 +20522,7 @@ Mods.push({
 "created": 1703043521,
 "modified": 1703043521,
 "tags": "Dress My Slugcat,DMS,Menu,UI",
-"order": 1288
+"order": 1285
 });
 
 Mods.push({
@@ -20586,7 +20538,7 @@ Mods.push({
 "created": 1703084156,
 "modified": 1709948161,
 "tags": "",
-"order": 1289
+"order": 1286
 });
 
 Mods.push({
@@ -20601,7 +20553,7 @@ Mods.push({
 "created": 1703103907,
 "modified": 1703103907,
 "tags": "",
-"order": 1290
+"order": 1287
 });
 
 Mods.push({
@@ -20617,7 +20569,7 @@ Mods.push({
 "created": 1703145362,
 "modified": 1703145362,
 "tags": "Cosmetics",
-"order": 1291
+"order": 1288
 });
 
 Mods.push({
@@ -20633,7 +20585,7 @@ Mods.push({
 "created": 1703180044,
 "modified": 1710871477,
 "tags": "Creatures",
-"order": 1292
+"order": 1289
 });
 
 Mods.push({
@@ -20649,7 +20601,7 @@ Mods.push({
 "created": 1703260233,
 "modified": 1712899748,
 "tags": "Custom Slugcat",
-"order": 1293
+"order": 1290
 });
 
 Mods.push({
@@ -20664,7 +20616,7 @@ Mods.push({
 "created": 1703286219,
 "modified": 1703286219,
 "tags": "Cosmetics",
-"order": 1294
+"order": 1291
 });
 
 Mods.push({
@@ -20680,7 +20632,7 @@ Mods.push({
 "created": 1703330056,
 "modified": 1703330056,
 "tags": "Cosmetics",
-"order": 1295
+"order": 1292
 });
 
 Mods.push({
@@ -20696,7 +20648,7 @@ Mods.push({
 "created": 1703381017,
 "modified": 1703381017,
 "tags": "Cosmetics",
-"order": 1296
+"order": 1293
 });
 
 Mods.push({
@@ -20712,7 +20664,7 @@ Mods.push({
 "created": 1703391214,
 "modified": 1703391214,
 "tags": "Cosmetics",
-"order": 1297
+"order": 1294
 });
 
 Mods.push({
@@ -20728,7 +20680,7 @@ Mods.push({
 "created": 1703463407,
 "modified": 1710786639,
 "tags": "Creatures",
-"order": 1298
+"order": 1295
 });
 
 Mods.push({
@@ -20744,7 +20696,7 @@ Mods.push({
 "created": 1703479363,
 "modified": 1703479363,
 "tags": "Cosmetics",
-"order": 1299
+"order": 1296
 });
 
 Mods.push({
@@ -20761,7 +20713,7 @@ Mods.push({
 "created": 1703520459,
 "modified": 1703526507,
 "tags": "",
-"order": 1300
+"order": 1297
 });
 
 Mods.push({
@@ -20777,7 +20729,7 @@ Mods.push({
 "created": 1703550525,
 "modified": 1703550525,
 "tags": "",
-"order": 1301
+"order": 1298
 });
 
 Mods.push({
@@ -20794,7 +20746,7 @@ Mods.push({
 "created": 1703551893,
 "modified": 1723224487,
 "tags": "Cosmetics",
-"order": 1302
+"order": 1299
 });
 
 Mods.push({
@@ -20810,7 +20762,7 @@ Mods.push({
 "created": 1703567136,
 "modified": 1703567136,
 "tags": "Cosmetics",
-"order": 1303
+"order": 1300
 });
 
 Mods.push({
@@ -20826,7 +20778,7 @@ Mods.push({
 "created": 1703567185,
 "modified": 1703567185,
 "tags": "Cosmetics",
-"order": 1304
+"order": 1301
 });
 
 Mods.push({
@@ -20842,7 +20794,7 @@ Mods.push({
 "created": 1703575831,
 "modified": 1737419415,
 "tags": "Creatures,Accessibility",
-"order": 1305
+"order": 1302
 });
 
 Mods.push({
@@ -20857,7 +20809,7 @@ Mods.push({
 "created": 1703634787,
 "modified": 1703634787,
 "tags": "Tools",
-"order": 1306
+"order": 1303
 });
 
 Mods.push({
@@ -20873,7 +20825,7 @@ Mods.push({
 "created": 1703638281,
 "modified": 1715460170,
 "tags": "Accessibility",
-"order": 1307
+"order": 1304
 });
 
 Mods.push({
@@ -20889,7 +20841,7 @@ Mods.push({
 "created": 1703645718,
 "modified": 1703645718,
 "tags": "Cosmetics",
-"order": 1308
+"order": 1305
 });
 
 Mods.push({
@@ -20905,7 +20857,7 @@ Mods.push({
 "created": 1703691311,
 "modified": 1709317191,
 "tags": "Custom Slugcat,Campaigns",
-"order": 1309
+"order": 1306
 });
 
 Mods.push({
@@ -20921,7 +20873,7 @@ Mods.push({
 "created": 1703745256,
 "modified": 1703745256,
 "tags": "Cosmetics",
-"order": 1310
+"order": 1307
 });
 
 Mods.push({
@@ -20937,7 +20889,7 @@ Mods.push({
 "created": 1703763722,
 "modified": 1703763722,
 "tags": "Game Mechanics",
-"order": 1311
+"order": 1308
 });
 
 Mods.push({
@@ -20953,7 +20905,7 @@ Mods.push({
 "created": 1703851719,
 "modified": 1711657958,
 "tags": "Translations",
-"order": 1312
+"order": 1309
 });
 
 Mods.push({
@@ -20969,7 +20921,7 @@ Mods.push({
 "created": 1703862347,
 "modified": 1703862516,
 "tags": "Tools",
-"order": 1313
+"order": 1310
 });
 
 Mods.push({
@@ -20985,7 +20937,7 @@ Mods.push({
 "created": 1703867103,
 "modified": 1703867103,
 "tags": "",
-"order": 1314
+"order": 1311
 });
 
 Mods.push({
@@ -21001,7 +20953,7 @@ Mods.push({
 "created": 1703869016,
 "modified": 1730026484,
 "tags": "Creatures,Vultures",
-"order": 1315
+"order": 1312
 });
 
 Mods.push({
@@ -21017,7 +20969,7 @@ Mods.push({
 "created": 1703884608,
 "modified": 1703884608,
 "tags": "Cosmetics",
-"order": 1316
+"order": 1313
 });
 
 Mods.push({
@@ -21033,7 +20985,7 @@ Mods.push({
 "created": 1703894328,
 "modified": 1703894328,
 "tags": "Cosmetics",
-"order": 1317
+"order": 1314
 });
 
 Mods.push({
@@ -21041,15 +20993,15 @@ Mods.push({
 "id": "spearhit.betterchitrans",
 "workshop_id": "3126217128",
 "author": "矛击汉化组",
-"desc": "[WARNING] Do not swap languages. In the current game version 1.9.15b, swapping to English the back to Chinese results in a crash!! This mod now includes a makeshift fix for the crash. <br><br>Overhauls of the Chinese translation, brought to you by the same members listed in Chinese Translation Assistance credits. For specific contribution please refer to the author page in the mod's remix menu. <br><br>Features: <br>1. Overhaul of Vanilla Rain World, Remix, Downpour DLC texts<br>2. Chinese Region Titles (with remix menu to turn on/off)<br>3. Inv campaign languages + Dating Sim translation<br>4. Translation of Developer Commentary<br><br>[Contact information]<br>1. You can contact @solorace in the Rain World main discord. I only check messages sparingly though;<br>2. Alternatively, you can send an email to maojitranslation@outlook.com. I check my other emails every day any way, so I can definitely see your message. <br>3. You can also leave a comment here, but I don't recommend this, because it's difficult to establish a conversation. <br>4. Please be polite when contacting us with problems/questions/suggestions, and give a description/reasoning. We are doing this in our limited free time, if you lack basic respect in your language, you will be blocked and the problem will be not be resolved. <br><br>[ChangeLog 0.1.5.1.7fix]<br>1. Fix error of Dev name in lf_a03-white, lc_mallentrance-white, sl_roof03<br>2. Improve translation of some dev commentary. Special thanks to community member for suggestions.",
+"desc": "[WARNING] Do not swap languages. In the current game version 1.9.15b, swapping to English the back to Chinese results in a crash!! This mod now includes a makeshift fix for the crash. <br><br>Overhauls of the Chinese translation, brought to you by the same members listed in Chinese Translation Assistance credits. For specific contribution please refer to the author page in the mod's remix menu. <br><br>Features: <br>1. Overhaul of Vanilla Rain World, Remix, Downpour DLC texts<br>2. Chinese Region Titles (with remix menu to turn on/off)<br>3. Inv campaign languages + Dating Sim translation<br>4. Translation of Developer Commentary<br><br>[Contact information]<br>1. You can contact @solorace in the Rain World main discord. I only check messages sparingly though;<br>2. Alternatively, you can send an email to maojitranslation@outlook.com. I check my other emails every day any way, so I can definitely see your message. <br>3. You can also leave a comment here, but I don't recommend this, because it's difficult to establish a conversation. <br>4. Please be polite when contacting us with problems/questions/suggestions, and give a description/reasoning. We are doing this in our limited free time, if you lack basic respect in your language, you will be blocked and the problem will be not be resolved. <br><br>[ChangeLog 0.1.5.1.8fix]<br>All changes related to dev commentary. Big thank you goes out to community member Qye for reviewing the translation. <br>1. Fix Dev name from Nyamui (doc provided to us by James before DLC launch) to Minkimaro (what's in the game)<br>2. Added back omitted texts while copying from worksheet. <br>3. Other translation improvements to improve readability.",
 "thumb": "previews/3126217128.png",
 "url": "https://andrew.fm/rainworld/raindb/Better_Chinese_Translation.zip",
 "requirements": "",
 "version": "1.0.0",
 "created": 1703898698,
-"modified": 1737901134,
+"modified": 1739190179,
 "tags": "Translations",
-"order": 1318
+"order": 1315
 });
 
 Mods.push({
@@ -21066,7 +21018,7 @@ Mods.push({
 "created": 1703906659,
 "modified": 1708051995,
 "tags": "Custom Slugcat",
-"order": 1319
+"order": 1316
 });
 
 Mods.push({
@@ -21082,7 +21034,7 @@ Mods.push({
 "created": 1703912509,
 "modified": 1720351994,
 "tags": "",
-"order": 1320
+"order": 1317
 });
 
 Mods.push({
@@ -21097,7 +21049,7 @@ Mods.push({
 "created": 1703915208,
 "modified": 1703915208,
 "tags": "Cosmetics",
-"order": 1321
+"order": 1318
 });
 
 Mods.push({
@@ -21113,7 +21065,7 @@ Mods.push({
 "created": 1703932136,
 "modified": 1703932136,
 "tags": "Tools",
-"order": 1322
+"order": 1319
 });
 
 Mods.push({
@@ -21129,7 +21081,7 @@ Mods.push({
 "created": 1703967380,
 "modified": 1706983025,
 "tags": "",
-"order": 1323
+"order": 1320
 });
 
 Mods.push({
@@ -21145,7 +21097,7 @@ Mods.push({
 "created": 1703979606,
 "modified": 1705029869,
 "tags": "Cosmetics",
-"order": 1324
+"order": 1321
 });
 
 Mods.push({
@@ -21160,7 +21112,7 @@ Mods.push({
 "created": 1703983878,
 "modified": 1703983878,
 "tags": "",
-"order": 1325
+"order": 1322
 });
 
 Mods.push({
@@ -21176,7 +21128,7 @@ Mods.push({
 "created": 1703984813,
 "modified": 1714178933,
 "tags": "Items,Cosmetics",
-"order": 1326
+"order": 1323
 });
 
 Mods.push({
@@ -21192,7 +21144,7 @@ Mods.push({
 "created": 1704036074,
 "modified": 1704036074,
 "tags": "Cosmetics",
-"order": 1327
+"order": 1324
 });
 
 Mods.push({
@@ -21208,7 +21160,7 @@ Mods.push({
 "created": 1704048053,
 "modified": 1704048053,
 "tags": "Cosmetics",
-"order": 1328
+"order": 1325
 });
 
 Mods.push({
@@ -21224,7 +21176,7 @@ Mods.push({
 "created": 1704057976,
 "modified": 1704341640,
 "tags": "",
-"order": 1329
+"order": 1326
 });
 
 Mods.push({
@@ -21240,7 +21192,7 @@ Mods.push({
 "created": 1704119234,
 "modified": 1704119234,
 "tags": "Arenas",
-"order": 1330
+"order": 1327
 });
 
 Mods.push({
@@ -21256,7 +21208,7 @@ Mods.push({
 "created": 1704138348,
 "modified": 1704266441,
 "tags": "",
-"order": 1331
+"order": 1328
 });
 
 Mods.push({
@@ -21272,7 +21224,7 @@ Mods.push({
 "created": 1704172246,
 "modified": 1708827283,
 "tags": "",
-"order": 1332
+"order": 1329
 });
 
 Mods.push({
@@ -21288,7 +21240,7 @@ Mods.push({
 "created": 1704234711,
 "modified": 1704234711,
 "tags": "Cosmetics",
-"order": 1333
+"order": 1330
 });
 
 Mods.push({
@@ -21304,7 +21256,7 @@ Mods.push({
 "created": 1704322716,
 "modified": 1704322716,
 "tags": "Cosmetics",
-"order": 1334
+"order": 1331
 });
 
 Mods.push({
@@ -21320,7 +21272,7 @@ Mods.push({
 "created": 1704377887,
 "modified": 1735665287,
 "tags": "",
-"order": 1335
+"order": 1332
 });
 
 Mods.push({
@@ -21336,7 +21288,7 @@ Mods.push({
 "created": 1704381324,
 "modified": 1704381324,
 "tags": "",
-"order": 1336
+"order": 1333
 });
 
 Mods.push({
@@ -21352,7 +21304,7 @@ Mods.push({
 "created": 1704382668,
 "modified": 1704382668,
 "tags": "Cosmetics",
-"order": 1337
+"order": 1334
 });
 
 Mods.push({
@@ -21368,7 +21320,7 @@ Mods.push({
 "created": 1704411589,
 "modified": 1704411589,
 "tags": "Cosmetics",
-"order": 1338
+"order": 1335
 });
 
 Mods.push({
@@ -21383,7 +21335,7 @@ Mods.push({
 "created": 1704467311,
 "modified": 1704494673,
 "tags": "",
-"order": 1339
+"order": 1336
 });
 
 Mods.push({
@@ -21399,7 +21351,7 @@ Mods.push({
 "created": 1704468685,
 "modified": 1704674736,
 "tags": "Arenas",
-"order": 1340
+"order": 1337
 });
 
 Mods.push({
@@ -21415,7 +21367,7 @@ Mods.push({
 "created": 1704482881,
 "modified": 1704482881,
 "tags": "Cosmetics",
-"order": 1341
+"order": 1338
 });
 
 Mods.push({
@@ -21431,7 +21383,7 @@ Mods.push({
 "created": 1704507037,
 "modified": 1710798238,
 "tags": "Cosmetics",
-"order": 1342
+"order": 1339
 });
 
 Mods.push({
@@ -21447,7 +21399,7 @@ Mods.push({
 "created": 1704509403,
 "modified": 1704509403,
 "tags": "Cosmetics",
-"order": 1343
+"order": 1340
 });
 
 Mods.push({
@@ -21463,7 +21415,7 @@ Mods.push({
 "created": 1704547172,
 "modified": 1704547172,
 "tags": "Cosmetics",
-"order": 1344
+"order": 1341
 });
 
 Mods.push({
@@ -21479,7 +21431,7 @@ Mods.push({
 "created": 1704565955,
 "modified": 1704565955,
 "tags": "",
-"order": 1345
+"order": 1342
 });
 
 Mods.push({
@@ -21495,7 +21447,7 @@ Mods.push({
 "created": 1704573243,
 "modified": 1704573243,
 "tags": "",
-"order": 1346
+"order": 1343
 });
 
 Mods.push({
@@ -21511,7 +21463,7 @@ Mods.push({
 "created": 1704573678,
 "modified": 1704573678,
 "tags": "",
-"order": 1347
+"order": 1344
 });
 
 Mods.push({
@@ -21527,7 +21479,7 @@ Mods.push({
 "created": 1704586416,
 "modified": 1704586416,
 "tags": "",
-"order": 1348
+"order": 1345
 });
 
 Mods.push({
@@ -21543,7 +21495,7 @@ Mods.push({
 "created": 1704678684,
 "modified": 1704678684,
 "tags": "Cosmetics",
-"order": 1349
+"order": 1346
 });
 
 Mods.push({
@@ -21560,7 +21512,7 @@ Mods.push({
 "created": 1704689129,
 "modified": 1704689129,
 "tags": "",
-"order": 1350
+"order": 1347
 });
 
 Mods.push({
@@ -21576,7 +21528,7 @@ Mods.push({
 "created": 1704725080,
 "modified": 1723626494,
 "tags": "",
-"order": 1351
+"order": 1348
 });
 
 Mods.push({
@@ -21592,7 +21544,7 @@ Mods.push({
 "created": 1704754504,
 "modified": 1704754504,
 "tags": "",
-"order": 1352
+"order": 1349
 });
 
 Mods.push({
@@ -21608,7 +21560,7 @@ Mods.push({
 "created": 1704766853,
 "modified": 1704766853,
 "tags": "Cosmetics",
-"order": 1353
+"order": 1350
 });
 
 Mods.push({
@@ -21624,7 +21576,7 @@ Mods.push({
 "created": 1704829561,
 "modified": 1704829561,
 "tags": "",
-"order": 1354
+"order": 1351
 });
 
 Mods.push({
@@ -21641,7 +21593,7 @@ Mods.push({
 "created": 1704843251,
 "modified": 1704843251,
 "tags": "Cosmetics",
-"order": 1355
+"order": 1352
 });
 
 Mods.push({
@@ -21657,7 +21609,7 @@ Mods.push({
 "created": 1704867200,
 "modified": 1704926523,
 "tags": "",
-"order": 1356
+"order": 1353
 });
 
 Mods.push({
@@ -21673,7 +21625,7 @@ Mods.push({
 "created": 1704897787,
 "modified": 1704897787,
 "tags": "",
-"order": 1357
+"order": 1354
 });
 
 Mods.push({
@@ -21689,7 +21641,7 @@ Mods.push({
 "created": 1704897832,
 "modified": 1737841459,
 "tags": "Cosmetics",
-"order": 1358
+"order": 1355
 });
 
 Mods.push({
@@ -21705,7 +21657,7 @@ Mods.push({
 "created": 1704900686,
 "modified": 1704900686,
 "tags": "Cosmetics",
-"order": 1359
+"order": 1356
 });
 
 Mods.push({
@@ -21721,7 +21673,7 @@ Mods.push({
 "created": 1704995571,
 "modified": 1704995571,
 "tags": "",
-"order": 1360
+"order": 1357
 });
 
 Mods.push({
@@ -21737,7 +21689,7 @@ Mods.push({
 "created": 1705024957,
 "modified": 1705024957,
 "tags": "Cosmetics",
-"order": 1361
+"order": 1358
 });
 
 Mods.push({
@@ -21753,7 +21705,7 @@ Mods.push({
 "created": 1705089066,
 "modified": 1705089066,
 "tags": "Cosmetics",
-"order": 1362
+"order": 1359
 });
 
 Mods.push({
@@ -21769,7 +21721,7 @@ Mods.push({
 "created": 1705090165,
 "modified": 1705090165,
 "tags": "Cosmetics",
-"order": 1363
+"order": 1360
 });
 
 Mods.push({
@@ -21785,7 +21737,7 @@ Mods.push({
 "created": 1705092846,
 "modified": 1711832283,
 "tags": "Creatures,Game Mechanics",
-"order": 1364
+"order": 1361
 });
 
 Mods.push({
@@ -21801,7 +21753,7 @@ Mods.push({
 "created": 1705120235,
 "modified": 1705120235,
 "tags": "Debug",
-"order": 1365
+"order": 1362
 });
 
 Mods.push({
@@ -21816,7 +21768,7 @@ Mods.push({
 "created": 1705124881,
 "modified": 1711304703,
 "tags": "Logger,Logging,utility,BepInEx",
-"order": 1366
+"order": 1363
 });
 
 Mods.push({
@@ -21832,7 +21784,7 @@ Mods.push({
 "created": 1705139583,
 "modified": 1721758068,
 "tags": "Campaigns,Custom Slugcat",
-"order": 1367
+"order": 1364
 });
 
 Mods.push({
@@ -21848,7 +21800,7 @@ Mods.push({
 "created": 1705147034,
 "modified": 1716125474,
 "tags": "Game Mechanics",
-"order": 1368
+"order": 1365
 });
 
 Mods.push({
@@ -21864,7 +21816,7 @@ Mods.push({
 "created": 1705189910,
 "modified": 1705189910,
 "tags": "Cosmetics",
-"order": 1369
+"order": 1366
 });
 
 Mods.push({
@@ -21880,7 +21832,7 @@ Mods.push({
 "created": 1705198775,
 "modified": 1705198775,
 "tags": "Cosmetics",
-"order": 1370
+"order": 1367
 });
 
 Mods.push({
@@ -21896,7 +21848,7 @@ Mods.push({
 "created": 1705199397,
 "modified": 1737659975,
 "tags": "Custom Slugcat",
-"order": 1371
+"order": 1368
 });
 
 Mods.push({
@@ -21912,7 +21864,7 @@ Mods.push({
 "created": 1705205738,
 "modified": 1720067485,
 "tags": "Cosmetics",
-"order": 1372
+"order": 1369
 });
 
 Mods.push({
@@ -21928,7 +21880,7 @@ Mods.push({
 "created": 1705222364,
 "modified": 1714761671,
 "tags": "Cosmetics",
-"order": 1373
+"order": 1370
 });
 
 Mods.push({
@@ -21944,7 +21896,7 @@ Mods.push({
 "created": 1705243961,
 "modified": 1705243961,
 "tags": "",
-"order": 1374
+"order": 1371
 });
 
 Mods.push({
@@ -21961,7 +21913,7 @@ Mods.push({
 "created": 1705250478,
 "modified": 1715065706,
 "tags": "Regions,Campaigns,Creatures,Game Mechanics,Items,Custom Slugcat",
-"order": 1375
+"order": 1372
 });
 
 Mods.push({
@@ -21977,7 +21929,7 @@ Mods.push({
 "created": 1705255153,
 "modified": 1705255153,
 "tags": "",
-"order": 1376
+"order": 1373
 });
 
 Mods.push({
@@ -21992,7 +21944,7 @@ Mods.push({
 "created": 1705255401,
 "modified": 1705255401,
 "tags": "",
-"order": 1377
+"order": 1374
 });
 
 Mods.push({
@@ -22008,7 +21960,7 @@ Mods.push({
 "created": 1705276070,
 "modified": 1705276070,
 "tags": "Cosmetics",
-"order": 1378
+"order": 1375
 });
 
 Mods.push({
@@ -22024,7 +21976,7 @@ Mods.push({
 "created": 1705353495,
 "modified": 1710802328,
 "tags": "Cosmetics",
-"order": 1379
+"order": 1376
 });
 
 Mods.push({
@@ -22039,7 +21991,7 @@ Mods.push({
 "created": 1705355567,
 "modified": 1705355567,
 "tags": "",
-"order": 1380
+"order": 1377
 });
 
 Mods.push({
@@ -22055,7 +22007,7 @@ Mods.push({
 "created": 1705357611,
 "modified": 1705357611,
 "tags": "Cosmetics",
-"order": 1381
+"order": 1378
 });
 
 Mods.push({
@@ -22071,7 +22023,7 @@ Mods.push({
 "created": 1705360495,
 "modified": 1705904657,
 "tags": "Cosmetics",
-"order": 1382
+"order": 1379
 });
 
 Mods.push({
@@ -22087,7 +22039,7 @@ Mods.push({
 "created": 1705381619,
 "modified": 1705381619,
 "tags": "Game Mechanics",
-"order": 1383
+"order": 1380
 });
 
 Mods.push({
@@ -22103,7 +22055,7 @@ Mods.push({
 "created": 1705449559,
 "modified": 1705449559,
 "tags": "Cosmetics",
-"order": 1384
+"order": 1381
 });
 
 Mods.push({
@@ -22119,7 +22071,7 @@ Mods.push({
 "created": 1705450174,
 "modified": 1710797252,
 "tags": "",
-"order": 1385
+"order": 1382
 });
 
 Mods.push({
@@ -22135,7 +22087,7 @@ Mods.push({
 "created": 1705454211,
 "modified": 1722395329,
 "tags": "",
-"order": 1386
+"order": 1383
 });
 
 Mods.push({
@@ -22151,7 +22103,7 @@ Mods.push({
 "created": 1705514038,
 "modified": 1705514038,
 "tags": "Cosmetics",
-"order": 1387
+"order": 1384
 });
 
 Mods.push({
@@ -22167,7 +22119,7 @@ Mods.push({
 "created": 1705555488,
 "modified": 1705822280,
 "tags": "Accessibility,Tools",
-"order": 1388
+"order": 1385
 });
 
 Mods.push({
@@ -22183,7 +22135,7 @@ Mods.push({
 "created": 1705558095,
 "modified": 1715056261,
 "tags": "Items",
-"order": 1389
+"order": 1386
 });
 
 Mods.push({
@@ -22199,7 +22151,7 @@ Mods.push({
 "created": 1705571177,
 "modified": 1706582268,
 "tags": "Tools,Game Mechanics",
-"order": 1390
+"order": 1387
 });
 
 Mods.push({
@@ -22216,7 +22168,7 @@ Mods.push({
 "created": 1705598732,
 "modified": 1705598732,
 "tags": "Cosmetics",
-"order": 1391
+"order": 1388
 });
 
 Mods.push({
@@ -22232,7 +22184,7 @@ Mods.push({
 "created": 1705627232,
 "modified": 1705694337,
 "tags": "Cosmetics",
-"order": 1392
+"order": 1389
 });
 
 Mods.push({
@@ -22249,7 +22201,7 @@ Mods.push({
 "created": 1705631304,
 "modified": 1705631304,
 "tags": "Cosmetics",
-"order": 1393
+"order": 1390
 });
 
 Mods.push({
@@ -22265,7 +22217,7 @@ Mods.push({
 "created": 1705643186,
 "modified": 1728864141,
 "tags": "Cosmetics",
-"order": 1394
+"order": 1391
 });
 
 Mods.push({
@@ -22281,7 +22233,7 @@ Mods.push({
 "created": 1705663126,
 "modified": 1705667721,
 "tags": "Cosmetics",
-"order": 1395
+"order": 1392
 });
 
 Mods.push({
@@ -22297,7 +22249,7 @@ Mods.push({
 "created": 1705727690,
 "modified": 1705727690,
 "tags": "Cosmetics",
-"order": 1396
+"order": 1393
 });
 
 Mods.push({
@@ -22313,7 +22265,7 @@ Mods.push({
 "created": 1705814869,
 "modified": 1705814869,
 "tags": "",
-"order": 1397
+"order": 1394
 });
 
 Mods.push({
@@ -22329,7 +22281,7 @@ Mods.push({
 "created": 1705831533,
 "modified": 1711290624,
 "tags": "",
-"order": 1398
+"order": 1395
 });
 
 Mods.push({
@@ -22345,7 +22297,7 @@ Mods.push({
 "created": 1705837673,
 "modified": 1711092849,
 "tags": "",
-"order": 1399
+"order": 1396
 });
 
 Mods.push({
@@ -22361,7 +22313,7 @@ Mods.push({
 "created": 1705874711,
 "modified": 1705874711,
 "tags": "Cosmetics",
-"order": 1400
+"order": 1397
 });
 
 Mods.push({
@@ -22377,7 +22329,7 @@ Mods.push({
 "created": 1705888014,
 "modified": 1705888014,
 "tags": "Cosmetics",
-"order": 1401
+"order": 1398
 });
 
 Mods.push({
@@ -22393,7 +22345,7 @@ Mods.push({
 "created": 1705894853,
 "modified": 1705894853,
 "tags": "",
-"order": 1402
+"order": 1399
 });
 
 Mods.push({
@@ -22409,7 +22361,7 @@ Mods.push({
 "created": 1705905008,
 "modified": 1705905008,
 "tags": "Cosmetics",
-"order": 1403
+"order": 1400
 });
 
 Mods.push({
@@ -22425,7 +22377,7 @@ Mods.push({
 "created": 1705955536,
 "modified": 1705955536,
 "tags": "Custom Slugcat,Campaigns",
-"order": 1404
+"order": 1401
 });
 
 Mods.push({
@@ -22441,7 +22393,7 @@ Mods.push({
 "created": 1705985208,
 "modified": 1705985208,
 "tags": "Cosmetics",
-"order": 1405
+"order": 1402
 });
 
 Mods.push({
@@ -22457,7 +22409,7 @@ Mods.push({
 "created": 1706021681,
 "modified": 1706021681,
 "tags": "Cosmetics",
-"order": 1406
+"order": 1403
 });
 
 Mods.push({
@@ -22473,7 +22425,7 @@ Mods.push({
 "created": 1706030894,
 "modified": 1706323593,
 "tags": "Cosmetics",
-"order": 1407
+"order": 1404
 });
 
 Mods.push({
@@ -22489,7 +22441,7 @@ Mods.push({
 "created": 1706080410,
 "modified": 1706080410,
 "tags": "Cosmetics",
-"order": 1408
+"order": 1405
 });
 
 Mods.push({
@@ -22505,7 +22457,7 @@ Mods.push({
 "created": 1706100572,
 "modified": 1706100572,
 "tags": "Arenas",
-"order": 1409
+"order": 1406
 });
 
 Mods.push({
@@ -22521,23 +22473,23 @@ Mods.push({
 "created": 1706124997,
 "modified": 1706124997,
 "tags": "",
-"order": 1410
+"order": 1407
 });
 
 Mods.push({
-"name": "Random Slugcat Costumes (V3)",
+"name": "Random Slugcat Costumes",
 "id": "pencil.randomitemsimade",
 "workshop_id": "3146746539",
 "author": "Pencil",
-"desc": "Be prepered. V4 will release soon.™<br>(Legally required to say that 'soon.' is not actually my trademark.)<br><br>- Fixed the ID of the mod to make it have less possible annoyances (randomitemsimade ➡ pencil.randomitemsimade) (also caused mod re-post.)<br>- Updated Boxcat's design (to not look like a specific youtuber i dislike.)<br>- extras got added yipee (I made the mod before the extras and mark updates.)<br>- go to the files. (mod ID 3146746539)<br><br>-------------------------------------------------------------------------------------------------------------------------<br>you KNOW what mod you need and if you don't uhm,, my bad it's dress your slugcat i think",
+"desc": "Sorry for the wait.<br><br>And kind of lame ''huge'' update.<br><br>I just got burnt out on rain world as a whole...<br><br>But I'm back now, at least for a little bit.<br><br>Added:<br>+ Fluffy sprites for everyone*!<br>+ Future Boxcat..?<br><br>*Not transparency effects. You may or may not know why.<br>-------------------------------------------------------------------------------------------------------------------------<br>you KNOW what mod you need and if you don't uhm,, my bad it's dress your slugcat i think",
 "thumb": "previews/3146746539.png",
-"url": "https://andrew.fm/rainworld/raindb/Random_Slugcat_Costumes_V3.zip",
+"url": "https://andrew.fm/rainworld/raindb/Random_Slugcat_Costumes.zip",
 "requirements": "dressmyslugcat",
 "version": "V3",
 "created": 1706154480,
-"modified": 1706154480,
+"modified": 1739905922,
 "tags": "",
-"order": 1411
+"order": 1408
 });
 
 Mods.push({
@@ -22553,7 +22505,7 @@ Mods.push({
 "created": 1706155710,
 "modified": 1706155710,
 "tags": "",
-"order": 1412
+"order": 1409
 });
 
 Mods.push({
@@ -22569,7 +22521,7 @@ Mods.push({
 "created": 1706215882,
 "modified": 1706262901,
 "tags": "",
-"order": 1413
+"order": 1410
 });
 
 Mods.push({
@@ -22585,7 +22537,7 @@ Mods.push({
 "created": 1706226829,
 "modified": 1706226829,
 "tags": "Creatures",
-"order": 1414
+"order": 1411
 });
 
 Mods.push({
@@ -22601,7 +22553,7 @@ Mods.push({
 "created": 1706228769,
 "modified": 1708481922,
 "tags": "Cosmetics",
-"order": 1415
+"order": 1412
 });
 
 Mods.push({
@@ -22617,7 +22569,7 @@ Mods.push({
 "created": 1706241567,
 "modified": 1706241567,
 "tags": "Cosmetics",
-"order": 1416
+"order": 1413
 });
 
 Mods.push({
@@ -22632,7 +22584,7 @@ Mods.push({
 "created": 1706283782,
 "modified": 1707065087,
 "tags": "",
-"order": 1417
+"order": 1414
 });
 
 Mods.push({
@@ -22648,7 +22600,7 @@ Mods.push({
 "created": 1706309769,
 "modified": 1735411092,
 "tags": "Regions",
-"order": 1418
+"order": 1415
 });
 
 Mods.push({
@@ -22664,7 +22616,7 @@ Mods.push({
 "created": 1706324301,
 "modified": 1706326231,
 "tags": "Cosmetics",
-"order": 1419
+"order": 1416
 });
 
 Mods.push({
@@ -22680,7 +22632,7 @@ Mods.push({
 "created": 1706405276,
 "modified": 1706405276,
 "tags": "Cosmetics",
-"order": 1420
+"order": 1417
 });
 
 Mods.push({
@@ -22697,7 +22649,7 @@ Mods.push({
 "created": 1706464170,
 "modified": 1720135626,
 "tags": "Cosmetics",
-"order": 1421
+"order": 1418
 });
 
 Mods.push({
@@ -22713,7 +22665,7 @@ Mods.push({
 "created": 1706478235,
 "modified": 1706478235,
 "tags": "Cosmetics",
-"order": 1422
+"order": 1419
 });
 
 Mods.push({
@@ -22729,7 +22681,7 @@ Mods.push({
 "created": 1706488257,
 "modified": 1711853103,
 "tags": "Cosmetics",
-"order": 1423
+"order": 1420
 });
 
 Mods.push({
@@ -22744,7 +22696,7 @@ Mods.push({
 "created": 1706499865,
 "modified": 1706499865,
 "tags": "",
-"order": 1424
+"order": 1421
 });
 
 Mods.push({
@@ -22760,7 +22712,7 @@ Mods.push({
 "created": 1706508618,
 "modified": 1706508618,
 "tags": "Cosmetics",
-"order": 1425
+"order": 1422
 });
 
 Mods.push({
@@ -22776,7 +22728,7 @@ Mods.push({
 "created": 1706510247,
 "modified": 1706510247,
 "tags": "Cosmetics",
-"order": 1426
+"order": 1423
 });
 
 Mods.push({
@@ -22791,7 +22743,7 @@ Mods.push({
 "created": 1706521981,
 "modified": 1706521981,
 "tags": "",
-"order": 1427
+"order": 1424
 });
 
 Mods.push({
@@ -22807,7 +22759,7 @@ Mods.push({
 "created": 1706546070,
 "modified": 1706546070,
 "tags": "Cosmetics",
-"order": 1428
+"order": 1425
 });
 
 Mods.push({
@@ -22823,7 +22775,7 @@ Mods.push({
 "created": 1706581778,
 "modified": 1712268595,
 "tags": "Cosmetics",
-"order": 1429
+"order": 1426
 });
 
 Mods.push({
@@ -22839,7 +22791,7 @@ Mods.push({
 "created": 1706605504,
 "modified": 1736493911,
 "tags": "Cosmetics",
-"order": 1430
+"order": 1427
 });
 
 Mods.push({
@@ -22855,7 +22807,7 @@ Mods.push({
 "created": 1706640207,
 "modified": 1736120619,
 "tags": "",
-"order": 1431
+"order": 1428
 });
 
 Mods.push({
@@ -22870,7 +22822,7 @@ Mods.push({
 "created": 1706665376,
 "modified": 1706665376,
 "tags": "Creatures,Game Modes,Campaigns,Game Mechanics",
-"order": 1432
+"order": 1429
 });
 
 Mods.push({
@@ -22886,7 +22838,7 @@ Mods.push({
 "created": 1706714032,
 "modified": 1707323329,
 "tags": "Cosmetics",
-"order": 1433
+"order": 1430
 });
 
 Mods.push({
@@ -22902,7 +22854,7 @@ Mods.push({
 "created": 1706717336,
 "modified": 1706717336,
 "tags": "Cosmetics",
-"order": 1434
+"order": 1431
 });
 
 Mods.push({
@@ -22918,7 +22870,7 @@ Mods.push({
 "created": 1706723206,
 "modified": 1706788158,
 "tags": "Cosmetics",
-"order": 1435
+"order": 1432
 });
 
 Mods.push({
@@ -22934,7 +22886,7 @@ Mods.push({
 "created": 1706779611,
 "modified": 1706779611,
 "tags": "Cosmetics",
-"order": 1436
+"order": 1433
 });
 
 Mods.push({
@@ -22950,7 +22902,7 @@ Mods.push({
 "created": 1706780450,
 "modified": 1706780450,
 "tags": "Cosmetics",
-"order": 1437
+"order": 1434
 });
 
 Mods.push({
@@ -22966,7 +22918,7 @@ Mods.push({
 "created": 1706806345,
 "modified": 1708270605,
 "tags": "Cosmetics",
-"order": 1438
+"order": 1435
 });
 
 Mods.push({
@@ -22982,7 +22934,7 @@ Mods.push({
 "created": 1706836205,
 "modified": 1706836205,
 "tags": "Cosmetics",
-"order": 1439
+"order": 1436
 });
 
 Mods.push({
@@ -22998,7 +22950,7 @@ Mods.push({
 "created": 1706904965,
 "modified": 1712048794,
 "tags": "Cosmetics",
-"order": 1440
+"order": 1437
 });
 
 Mods.push({
@@ -23014,7 +22966,7 @@ Mods.push({
 "created": 1706964152,
 "modified": 1707004131,
 "tags": "",
-"order": 1441
+"order": 1438
 });
 
 Mods.push({
@@ -23030,7 +22982,7 @@ Mods.push({
 "created": 1707058442,
 "modified": 1737287665,
 "tags": "Creatures,Game Mechanics,Items,Cosmetics,Dependency",
-"order": 1442
+"order": 1439
 });
 
 Mods.push({
@@ -23046,7 +22998,7 @@ Mods.push({
 "created": 1707079742,
 "modified": 1707079742,
 "tags": "Cosmetics",
-"order": 1443
+"order": 1440
 });
 
 Mods.push({
@@ -23062,7 +23014,7 @@ Mods.push({
 "created": 1707091853,
 "modified": 1708800355,
 "tags": "Arenas",
-"order": 1444
+"order": 1441
 });
 
 Mods.push({
@@ -23078,7 +23030,7 @@ Mods.push({
 "created": 1707099879,
 "modified": 1715379862,
 "tags": "Creatures",
-"order": 1445
+"order": 1442
 });
 
 Mods.push({
@@ -23094,7 +23046,7 @@ Mods.push({
 "created": 1707126351,
 "modified": 1707298768,
 "tags": "Game Mechanics",
-"order": 1446
+"order": 1443
 });
 
 Mods.push({
@@ -23110,7 +23062,7 @@ Mods.push({
 "created": 1707134881,
 "modified": 1707213786,
 "tags": "Cosmetics",
-"order": 1447
+"order": 1444
 });
 
 Mods.push({
@@ -23126,7 +23078,7 @@ Mods.push({
 "created": 1707171574,
 "modified": 1707287458,
 "tags": "Game Mechanics",
-"order": 1448
+"order": 1445
 });
 
 Mods.push({
@@ -23142,7 +23094,7 @@ Mods.push({
 "created": 1707252140,
 "modified": 1707260710,
 "tags": "Cosmetics",
-"order": 1449
+"order": 1446
 });
 
 Mods.push({
@@ -23158,7 +23110,7 @@ Mods.push({
 "created": 1707293909,
 "modified": 1707381672,
 "tags": "Cosmetics",
-"order": 1450
+"order": 1447
 });
 
 Mods.push({
@@ -23174,7 +23126,7 @@ Mods.push({
 "created": 1707309121,
 "modified": 1712092612,
 "tags": "Translations",
-"order": 1451
+"order": 1448
 });
 
 Mods.push({
@@ -23190,7 +23142,7 @@ Mods.push({
 "created": 1707333202,
 "modified": 1712423753,
 "tags": "Cosmetics",
-"order": 1452
+"order": 1449
 });
 
 Mods.push({
@@ -23207,7 +23159,7 @@ Mods.push({
 "created": 1707353979,
 "modified": 1722919865,
 "tags": "Creatures,Game Mechanics,Game Modes",
-"order": 1453
+"order": 1450
 });
 
 Mods.push({
@@ -23223,7 +23175,7 @@ Mods.push({
 "created": 1707375564,
 "modified": 1707375564,
 "tags": "Game Mechanics",
-"order": 1454
+"order": 1451
 });
 
 Mods.push({
@@ -23239,7 +23191,7 @@ Mods.push({
 "created": 1707379705,
 "modified": 1707379705,
 "tags": "Cosmetics",
-"order": 1455
+"order": 1452
 });
 
 Mods.push({
@@ -23255,7 +23207,7 @@ Mods.push({
 "created": 1707411019,
 "modified": 1707411019,
 "tags": "Regions",
-"order": 1456
+"order": 1453
 });
 
 Mods.push({
@@ -23271,7 +23223,7 @@ Mods.push({
 "created": 1707435274,
 "modified": 1707519231,
 "tags": "Game Mechanics",
-"order": 1457
+"order": 1454
 });
 
 Mods.push({
@@ -23287,7 +23239,7 @@ Mods.push({
 "created": 1707447395,
 "modified": 1707447395,
 "tags": "Game Mechanics",
-"order": 1458
+"order": 1455
 });
 
 Mods.push({
@@ -23303,7 +23255,7 @@ Mods.push({
 "created": 1707538338,
 "modified": 1707631342,
 "tags": "Debug",
-"order": 1459
+"order": 1456
 });
 
 Mods.push({
@@ -23320,7 +23272,7 @@ Mods.push({
 "created": 1707568974,
 "modified": 1707820012,
 "tags": "Regions",
-"order": 1460
+"order": 1457
 });
 
 Mods.push({
@@ -23335,7 +23287,7 @@ Mods.push({
 "created": 1707595532,
 "modified": 1708190612,
 "tags": "Custom Slugcat",
-"order": 1461
+"order": 1458
 });
 
 Mods.push({
@@ -23351,7 +23303,7 @@ Mods.push({
 "created": 1707634817,
 "modified": 1707634817,
 "tags": "Cosmetics",
-"order": 1462
+"order": 1459
 });
 
 Mods.push({
@@ -23367,7 +23319,7 @@ Mods.push({
 "created": 1707636547,
 "modified": 1707636547,
 "tags": "Cosmetics",
-"order": 1463
+"order": 1460
 });
 
 Mods.push({
@@ -23383,7 +23335,7 @@ Mods.push({
 "created": 1707654260,
 "modified": 1712145170,
 "tags": "",
-"order": 1464
+"order": 1461
 });
 
 Mods.push({
@@ -23399,7 +23351,7 @@ Mods.push({
 "created": 1707654473,
 "modified": 1716550591,
 "tags": "Cosmetics",
-"order": 1465
+"order": 1462
 });
 
 Mods.push({
@@ -23415,7 +23367,7 @@ Mods.push({
 "created": 1707690415,
 "modified": 1738777266,
 "tags": "Creatures",
-"order": 1466
+"order": 1463
 });
 
 Mods.push({
@@ -23431,7 +23383,7 @@ Mods.push({
 "created": 1707690759,
 "modified": 1707690759,
 "tags": "Cosmetics",
-"order": 1467
+"order": 1464
 });
 
 Mods.push({
@@ -23447,7 +23399,7 @@ Mods.push({
 "created": 1707751878,
 "modified": 1707921966,
 "tags": "Cosmetics",
-"order": 1468
+"order": 1465
 });
 
 Mods.push({
@@ -23463,7 +23415,7 @@ Mods.push({
 "created": 1707757603,
 "modified": 1707757603,
 "tags": "",
-"order": 1469
+"order": 1466
 });
 
 Mods.push({
@@ -23480,7 +23432,7 @@ Mods.push({
 "created": 1707767260,
 "modified": 1707767260,
 "tags": "",
-"order": 1470
+"order": 1467
 });
 
 Mods.push({
@@ -23497,7 +23449,7 @@ Mods.push({
 "created": 1707767798,
 "modified": 1707767798,
 "tags": "",
-"order": 1471
+"order": 1468
 });
 
 Mods.push({
@@ -23513,7 +23465,7 @@ Mods.push({
 "created": 1707768022,
 "modified": 1723717204,
 "tags": "",
-"order": 1472
+"order": 1469
 });
 
 Mods.push({
@@ -23530,7 +23482,7 @@ Mods.push({
 "created": 1707768449,
 "modified": 1707768449,
 "tags": "",
-"order": 1473
+"order": 1470
 });
 
 Mods.push({
@@ -23547,7 +23499,7 @@ Mods.push({
 "created": 1707768600,
 "modified": 1707768600,
 "tags": "",
-"order": 1474
+"order": 1471
 });
 
 Mods.push({
@@ -23564,7 +23516,7 @@ Mods.push({
 "created": 1707768854,
 "modified": 1707768854,
 "tags": "",
-"order": 1475
+"order": 1472
 });
 
 Mods.push({
@@ -23580,7 +23532,7 @@ Mods.push({
 "created": 1707791449,
 "modified": 1723532669,
 "tags": "Regions",
-"order": 1476
+"order": 1473
 });
 
 Mods.push({
@@ -23596,7 +23548,7 @@ Mods.push({
 "created": 1707895175,
 "modified": 1708208100,
 "tags": "Cosmetics",
-"order": 1477
+"order": 1474
 });
 
 Mods.push({
@@ -23612,7 +23564,7 @@ Mods.push({
 "created": 1707923614,
 "modified": 1721512684,
 "tags": "Cosmetics",
-"order": 1478
+"order": 1475
 });
 
 Mods.push({
@@ -23628,7 +23580,7 @@ Mods.push({
 "created": 1707931306,
 "modified": 1707931306,
 "tags": "",
-"order": 1479
+"order": 1476
 });
 
 Mods.push({
@@ -23644,7 +23596,7 @@ Mods.push({
 "created": 1707933426,
 "modified": 1707933426,
 "tags": "",
-"order": 1480
+"order": 1477
 });
 
 Mods.push({
@@ -23660,7 +23612,7 @@ Mods.push({
 "created": 1707993544,
 "modified": 1707993544,
 "tags": "Cosmetics",
-"order": 1481
+"order": 1478
 });
 
 Mods.push({
@@ -23675,7 +23627,7 @@ Mods.push({
 "created": 1708040635,
 "modified": 1737182186,
 "tags": "Game Mechanics,Regions",
-"order": 1482
+"order": 1479
 });
 
 Mods.push({
@@ -23690,7 +23642,7 @@ Mods.push({
 "created": 1708088995,
 "modified": 1708088995,
 "tags": "",
-"order": 1483
+"order": 1480
 });
 
 Mods.push({
@@ -23706,7 +23658,7 @@ Mods.push({
 "created": 1708112852,
 "modified": 1708112852,
 "tags": "",
-"order": 1484
+"order": 1481
 });
 
 Mods.push({
@@ -23723,7 +23675,7 @@ Mods.push({
 "created": 1708113432,
 "modified": 1708113432,
 "tags": "Campaigns,Cosmetics,Custom Slugcat",
-"order": 1485
+"order": 1482
 });
 
 Mods.push({
@@ -23739,7 +23691,7 @@ Mods.push({
 "created": 1708118830,
 "modified": 1708118830,
 "tags": "Accessibility",
-"order": 1486
+"order": 1483
 });
 
 Mods.push({
@@ -23754,7 +23706,7 @@ Mods.push({
 "created": 1708123804,
 "modified": 1708123804,
 "tags": "",
-"order": 1487
+"order": 1484
 });
 
 Mods.push({
@@ -23770,7 +23722,7 @@ Mods.push({
 "created": 1708150672,
 "modified": 1710988362,
 "tags": "Translations",
-"order": 1488
+"order": 1485
 });
 
 Mods.push({
@@ -23787,7 +23739,7 @@ Mods.push({
 "created": 1708189429,
 "modified": 1718450008,
 "tags": "Regions",
-"order": 1489
+"order": 1486
 });
 
 Mods.push({
@@ -23803,7 +23755,7 @@ Mods.push({
 "created": 1708190618,
 "modified": 1730499036,
 "tags": "Creatures,Dependency",
-"order": 1490
+"order": 1487
 });
 
 Mods.push({
@@ -23819,7 +23771,7 @@ Mods.push({
 "created": 1708195330,
 "modified": 1708195330,
 "tags": "Cosmetics",
-"order": 1491
+"order": 1488
 });
 
 Mods.push({
@@ -23835,7 +23787,7 @@ Mods.push({
 "created": 1708226868,
 "modified": 1715376078,
 "tags": "",
-"order": 1492
+"order": 1489
 });
 
 Mods.push({
@@ -23852,7 +23804,7 @@ Mods.push({
 "created": 1708235032,
 "modified": 1710218983,
 "tags": "Cosmetics",
-"order": 1493
+"order": 1490
 });
 
 Mods.push({
@@ -23867,7 +23819,7 @@ Mods.push({
 "created": 1708262787,
 "modified": 1708262787,
 "tags": "",
-"order": 1494
+"order": 1491
 });
 
 Mods.push({
@@ -23883,7 +23835,7 @@ Mods.push({
 "created": 1708277824,
 "modified": 1708277824,
 "tags": "Cosmetics",
-"order": 1495
+"order": 1492
 });
 
 Mods.push({
@@ -23891,15 +23843,15 @@ Mods.push({
 "id": "zb.ultrakillarena",
 "workshop_id": "3163571306",
 "author": "ZatchyBeeps",
-"desc": "This changes all arena music to ULTRAKILL music, including the Cyber Grind ones. The songs are from their streamable versions, not the in-game versions<br><br><br><br>The Cyber Grind by meganeko<br>UltraChurch and Tenebre Rosso Sangue by KEYGENCHURCH<br>HATEFUL by HEALTH<br>Everything else by Heaven Pierce Her<br><br><br><br>This mod uses CRS (Custom Region Support) to prioritize it's load and prevent some musics to get added on the list. It is recommend that you have it (altho you most likely do so already lol), but it is not necessary. You can ignore the prompt of steam and click on 'Subscribe to only this one' to do so<br>None of the original song files are replaced!<br>Check out the threat music mod for them on the campaign/expedition: https://steamcommunity.com/sharedfiles/filedetails/?id=3132567783<br><br><br>I'll do a proper, original thumbnail later lol",
+"desc": "This changes all arena music to ULTRAKILL music, including the Cyber Grind ones. The songs are from their streamable versions, not the in-game versions<br>Have in mind that some songs from the entire ost were skipped since they were just sounds, did not added that much of an 'arena' experience or their more intense version was added instead (like in the case of the newest soundtracks)<br><br><br><br>The Cyber Grind by meganeko<br>UltraChurch and Tenebre Rosso Sangue by KEYGENCHURCH<br>HATEFUL by HEALTH<br>Everything else by Heaven Pierce Her<br><br><br><br>This mod uses CRS (Custom Region Support) to prioritize it's load and prevent some musics to get added on the list. It is recommend that you have it (altho you most likely do so already lol), but it is not necessary. You can ignore the prompt of steam and click on 'Subscribe to only this one' to do so<br>None of the original song files are replaced!<br>Check out the threat music mod for them on the campaign/expedition: https://steamcommunity.com/sharedfiles/filedetails/?id=3132567783<br><br><br>Theoretically for Rain Meadow, this mod could be client sided as it only modifies mpmusic and adds its own music files. If you find any issues let me know and I'll remove this<br><br><br>I'll do a proper, original thumbnail later lol",
 "thumb": "previews/3163571306.png",
 "url": "https://ln5.sync.com/dl/1eb0d1640/bujv6yvc-5dsn9hrk-dxej5rxf-p6q4xrxm",
 "requirements": "",
-"version": "1.0.1",
+"version": "1.0.2",
 "created": 1708280839,
-"modified": 1710798692,
+"modified": 1739239851,
 "tags": "Cosmetics",
-"order": 1496
+"order": 1493
 });
 
 Mods.push({
@@ -23914,7 +23866,7 @@ Mods.push({
 "created": 1708281180,
 "modified": 1708281180,
 "tags": "",
-"order": 1497
+"order": 1494
 });
 
 Mods.push({
@@ -23930,7 +23882,7 @@ Mods.push({
 "created": 1708284960,
 "modified": 1708284960,
 "tags": "Cosmetics",
-"order": 1498
+"order": 1495
 });
 
 Mods.push({
@@ -23946,7 +23898,7 @@ Mods.push({
 "created": 1708291377,
 "modified": 1708291377,
 "tags": "Cosmetics",
-"order": 1499
+"order": 1496
 });
 
 Mods.push({
@@ -23962,7 +23914,7 @@ Mods.push({
 "created": 1708296269,
 "modified": 1708296269,
 "tags": "Game Mechanics",
-"order": 1500
+"order": 1497
 });
 
 Mods.push({
@@ -23977,7 +23929,7 @@ Mods.push({
 "created": 1708327397,
 "modified": 1731384580,
 "tags": "Debug",
-"order": 1501
+"order": 1498
 });
 
 Mods.push({
@@ -23993,7 +23945,7 @@ Mods.push({
 "created": 1708360124,
 "modified": 1708360124,
 "tags": "Cosmetics",
-"order": 1502
+"order": 1499
 });
 
 Mods.push({
@@ -24009,7 +23961,7 @@ Mods.push({
 "created": 1708368327,
 "modified": 1708368327,
 "tags": "Cosmetics",
-"order": 1503
+"order": 1500
 });
 
 Mods.push({
@@ -24025,7 +23977,7 @@ Mods.push({
 "created": 1708444709,
 "modified": 1708444709,
 "tags": "Creatures",
-"order": 1504
+"order": 1501
 });
 
 Mods.push({
@@ -24040,7 +23992,7 @@ Mods.push({
 "created": 1708526396,
 "modified": 1708526396,
 "tags": "",
-"order": 1505
+"order": 1502
 });
 
 Mods.push({
@@ -24056,7 +24008,7 @@ Mods.push({
 "created": 1708538950,
 "modified": 1712562014,
 "tags": "Creatures",
-"order": 1506
+"order": 1503
 });
 
 Mods.push({
@@ -24072,7 +24024,7 @@ Mods.push({
 "created": 1708546228,
 "modified": 1708546228,
 "tags": "Cosmetics",
-"order": 1507
+"order": 1504
 });
 
 Mods.push({
@@ -24088,7 +24040,7 @@ Mods.push({
 "created": 1708557522,
 "modified": 1708670879,
 "tags": "",
-"order": 1508
+"order": 1505
 });
 
 Mods.push({
@@ -24104,7 +24056,7 @@ Mods.push({
 "created": 1708561650,
 "modified": 1708779374,
 "tags": "Creatures",
-"order": 1509
+"order": 1506
 });
 
 Mods.push({
@@ -24120,7 +24072,7 @@ Mods.push({
 "created": 1708574421,
 "modified": 1708574421,
 "tags": "Game Mechanics",
-"order": 1510
+"order": 1507
 });
 
 Mods.push({
@@ -24137,7 +24089,7 @@ Mods.push({
 "created": 1708603207,
 "modified": 1708603207,
 "tags": "Cosmetics",
-"order": 1511
+"order": 1508
 });
 
 Mods.push({
@@ -24154,7 +24106,7 @@ Mods.push({
 "created": 1708623691,
 "modified": 1708623691,
 "tags": "Cosmetics",
-"order": 1512
+"order": 1509
 });
 
 Mods.push({
@@ -24170,7 +24122,7 @@ Mods.push({
 "created": 1708630317,
 "modified": 1708630317,
 "tags": "Cosmetics",
-"order": 1513
+"order": 1510
 });
 
 Mods.push({
@@ -24186,7 +24138,7 @@ Mods.push({
 "created": 1708630549,
 "modified": 1708725864,
 "tags": "",
-"order": 1514
+"order": 1511
 });
 
 Mods.push({
@@ -24201,7 +24153,7 @@ Mods.push({
 "created": 1708638408,
 "modified": 1708638408,
 "tags": "Arenas",
-"order": 1515
+"order": 1512
 });
 
 Mods.push({
@@ -24217,7 +24169,7 @@ Mods.push({
 "created": 1708679406,
 "modified": 1708679406,
 "tags": "Cosmetics",
-"order": 1516
+"order": 1513
 });
 
 Mods.push({
@@ -24233,7 +24185,7 @@ Mods.push({
 "created": 1708691255,
 "modified": 1724442413,
 "tags": "",
-"order": 1517
+"order": 1514
 });
 
 Mods.push({
@@ -24249,7 +24201,7 @@ Mods.push({
 "created": 1708700692,
 "modified": 1721916401,
 "tags": "",
-"order": 1518
+"order": 1515
 });
 
 Mods.push({
@@ -24265,7 +24217,7 @@ Mods.push({
 "created": 1708701255,
 "modified": 1708701255,
 "tags": "",
-"order": 1519
+"order": 1516
 });
 
 Mods.push({
@@ -24280,7 +24232,7 @@ Mods.push({
 "created": 1708720724,
 "modified": 1708720724,
 "tags": "",
-"order": 1520
+"order": 1517
 });
 
 Mods.push({
@@ -24295,7 +24247,7 @@ Mods.push({
 "created": 1708734146,
 "modified": 1708734146,
 "tags": "Regions",
-"order": 1521
+"order": 1518
 });
 
 Mods.push({
@@ -24310,7 +24262,7 @@ Mods.push({
 "created": 1708737093,
 "modified": 1708737093,
 "tags": "Cosmetics",
-"order": 1522
+"order": 1519
 });
 
 Mods.push({
@@ -24325,7 +24277,7 @@ Mods.push({
 "created": 1708750937,
 "modified": 1708750937,
 "tags": "Content",
-"order": 1523
+"order": 1520
 });
 
 Mods.push({
@@ -24341,7 +24293,7 @@ Mods.push({
 "created": 1708805260,
 "modified": 1708805260,
 "tags": "Accessibility,Tools",
-"order": 1524
+"order": 1521
 });
 
 Mods.push({
@@ -24357,7 +24309,7 @@ Mods.push({
 "created": 1708814373,
 "modified": 1710802071,
 "tags": "",
-"order": 1525
+"order": 1522
 });
 
 Mods.push({
@@ -24373,7 +24325,7 @@ Mods.push({
 "created": 1708836753,
 "modified": 1708836753,
 "tags": "Cosmetics",
-"order": 1526
+"order": 1523
 });
 
 Mods.push({
@@ -24389,7 +24341,7 @@ Mods.push({
 "created": 1708839220,
 "modified": 1716516222,
 "tags": "Cosmetics",
-"order": 1527
+"order": 1524
 });
 
 Mods.push({
@@ -24405,7 +24357,7 @@ Mods.push({
 "created": 1708845812,
 "modified": 1708845812,
 "tags": "",
-"order": 1528
+"order": 1525
 });
 
 Mods.push({
@@ -24421,7 +24373,7 @@ Mods.push({
 "created": 1708851748,
 "modified": 1708851748,
 "tags": "",
-"order": 1529
+"order": 1526
 });
 
 Mods.push({
@@ -24437,7 +24389,7 @@ Mods.push({
 "created": 1708878156,
 "modified": 1708878156,
 "tags": "Cosmetics",
-"order": 1530
+"order": 1527
 });
 
 Mods.push({
@@ -24453,7 +24405,7 @@ Mods.push({
 "created": 1708880217,
 "modified": 1708968292,
 "tags": "Lizards,Creatures",
-"order": 1531
+"order": 1528
 });
 
 Mods.push({
@@ -24469,7 +24421,7 @@ Mods.push({
 "created": 1708884784,
 "modified": 1708888815,
 "tags": "Debug",
-"order": 1532
+"order": 1529
 });
 
 Mods.push({
@@ -24485,7 +24437,7 @@ Mods.push({
 "created": 1708888773,
 "modified": 1710021606,
 "tags": "",
-"order": 1533
+"order": 1530
 });
 
 Mods.push({
@@ -24501,7 +24453,7 @@ Mods.push({
 "created": 1708892697,
 "modified": 1708892697,
 "tags": "Cosmetics",
-"order": 1534
+"order": 1531
 });
 
 Mods.push({
@@ -24517,7 +24469,7 @@ Mods.push({
 "created": 1708927086,
 "modified": 1713147817,
 "tags": "Cosmetics",
-"order": 1535
+"order": 1532
 });
 
 Mods.push({
@@ -24533,7 +24485,7 @@ Mods.push({
 "created": 1709011400,
 "modified": 1709011400,
 "tags": "Creatures",
-"order": 1536
+"order": 1533
 });
 
 Mods.push({
@@ -24549,7 +24501,7 @@ Mods.push({
 "created": 1709015392,
 "modified": 1709015392,
 "tags": "",
-"order": 1537
+"order": 1534
 });
 
 Mods.push({
@@ -24564,7 +24516,7 @@ Mods.push({
 "created": 1709053378,
 "modified": 1709842428,
 "tags": "",
-"order": 1538
+"order": 1535
 });
 
 Mods.push({
@@ -24580,7 +24532,7 @@ Mods.push({
 "created": 1709130566,
 "modified": 1709130566,
 "tags": "",
-"order": 1539
+"order": 1536
 });
 
 Mods.push({
@@ -24596,7 +24548,7 @@ Mods.push({
 "created": 1709132430,
 "modified": 1709132430,
 "tags": "Cosmetics",
-"order": 1540
+"order": 1537
 });
 
 Mods.push({
@@ -24612,7 +24564,7 @@ Mods.push({
 "created": 1709148045,
 "modified": 1709665659,
 "tags": "",
-"order": 1541
+"order": 1538
 });
 
 Mods.push({
@@ -24628,7 +24580,7 @@ Mods.push({
 "created": 1709244322,
 "modified": 1709244322,
 "tags": "Cosmetics",
-"order": 1542
+"order": 1539
 });
 
 Mods.push({
@@ -24644,7 +24596,7 @@ Mods.push({
 "created": 1709278539,
 "modified": 1709278539,
 "tags": "Cosmetics",
-"order": 1543
+"order": 1540
 });
 
 Mods.push({
@@ -24660,7 +24612,7 @@ Mods.push({
 "created": 1709299548,
 "modified": 1709299548,
 "tags": "Cosmetics",
-"order": 1544
+"order": 1541
 });
 
 Mods.push({
@@ -24676,7 +24628,7 @@ Mods.push({
 "created": 1709316445,
 "modified": 1709316445,
 "tags": "",
-"order": 1545
+"order": 1542
 });
 
 Mods.push({
@@ -24692,7 +24644,7 @@ Mods.push({
 "created": 1709354783,
 "modified": 1712526409,
 "tags": "Creatures,Items",
-"order": 1546
+"order": 1543
 });
 
 Mods.push({
@@ -24708,7 +24660,7 @@ Mods.push({
 "created": 1709403979,
 "modified": 1709403979,
 "tags": "",
-"order": 1547
+"order": 1544
 });
 
 Mods.push({
@@ -24724,7 +24676,7 @@ Mods.push({
 "created": 1709428114,
 "modified": 1709428114,
 "tags": "Dependency",
-"order": 1548
+"order": 1545
 });
 
 Mods.push({
@@ -24740,7 +24692,7 @@ Mods.push({
 "created": 1709431052,
 "modified": 1709533615,
 "tags": "Code,Reload,Hot Reload,Live Reload",
-"order": 1549
+"order": 1546
 });
 
 Mods.push({
@@ -24756,7 +24708,7 @@ Mods.push({
 "created": 1709464057,
 "modified": 1710155606,
 "tags": "",
-"order": 1550
+"order": 1547
 });
 
 Mods.push({
@@ -24772,7 +24724,7 @@ Mods.push({
 "created": 1709487850,
 "modified": 1710623996,
 "tags": "",
-"order": 1551
+"order": 1548
 });
 
 Mods.push({
@@ -24788,7 +24740,7 @@ Mods.push({
 "created": 1709581167,
 "modified": 1709581167,
 "tags": "Cosmetics",
-"order": 1552
+"order": 1549
 });
 
 Mods.push({
@@ -24804,7 +24756,7 @@ Mods.push({
 "created": 1709587485,
 "modified": 1713143604,
 "tags": "Creatures",
-"order": 1553
+"order": 1550
 });
 
 Mods.push({
@@ -24820,7 +24772,7 @@ Mods.push({
 "created": 1709595914,
 "modified": 1709595914,
 "tags": "",
-"order": 1554
+"order": 1551
 });
 
 Mods.push({
@@ -24836,7 +24788,7 @@ Mods.push({
 "created": 1709674440,
 "modified": 1709747589,
 "tags": "Cosmetics",
-"order": 1555
+"order": 1552
 });
 
 Mods.push({
@@ -24852,7 +24804,7 @@ Mods.push({
 "created": 1709691337,
 "modified": 1709691337,
 "tags": "",
-"order": 1556
+"order": 1553
 });
 
 Mods.push({
@@ -24868,7 +24820,7 @@ Mods.push({
 "created": 1709741011,
 "modified": 1709741011,
 "tags": "",
-"order": 1557
+"order": 1554
 });
 
 Mods.push({
@@ -24884,7 +24836,7 @@ Mods.push({
 "created": 1709820518,
 "modified": 1709820518,
 "tags": "",
-"order": 1558
+"order": 1555
 });
 
 Mods.push({
@@ -24900,7 +24852,7 @@ Mods.push({
 "created": 1709851597,
 "modified": 1709851597,
 "tags": "Cosmetics",
-"order": 1559
+"order": 1556
 });
 
 Mods.push({
@@ -24916,7 +24868,7 @@ Mods.push({
 "created": 1709949053,
 "modified": 1720274444,
 "tags": "",
-"order": 1560
+"order": 1557
 });
 
 Mods.push({
@@ -24924,7 +24876,7 @@ Mods.push({
 "id": "asdfscug",
 "workshop_id": "3175762351",
 "author": "JeffTheJingleBob & IdkBoutIt",
-"desc": "[h3] Alan, are you a asdfscug?<br>What? No.<br>yah me neither you guys want to go murder?<br><br>Have [i] you [/i] ever wanted to dress up as an asdfscug? No? oh... ok... [/h3]<br><br>[h2] [b] Credits: [/b] [/h2]<br>asdfmovie by TomSka: https://www.youtube.com/playlist?list=PL3A5849BDE0581B19 <br>DMS by Vigaro, forthbridge, Frithuritaks, WillowWispy, and Teno Al Mehri [b] [i] (also it's required)[/i][/b]: https://steamcommunity.com/workshop/filedetails/?id=2948971756<br><br>[h2] [b] Try out the 'You're Dead' mod: [/b] [/h2]<br>https://steamcommunity.com/sharedfiles/filedetails/?id=3118547211<br>[h2] [b] And it's expansion too: [/b] [/h2]<br>https://steamcommunity.com/sharedfiles/filedetails/?id=3175760486<br><br>In the mod's files there is a .zip with an incomplete asdf(mine)scug (suggested by imel.john). I decided to scrap this because I found it difficult to work with. If anyone wants to go through it, fix it up, and upload it to steam workshop go ahead, just credit TomSka as the creator of asdfmovie, and me as the sprite artist (assuming you're editing the version I made, if what you make is completely original you don't need to credit me).<br><br>[h3] Please note that I'm not a professional, but if you have any problems please let me know as this is the best way to improve these mods. [/h3]",
+"desc": "[h3] Alan, are you a asdfscug?<br>What? No.<br>yah me neither you guys want to go murder?<br><br>Have [i] you [/i] ever wanted to dress up as an asdfscug? No? oh... ok... [/h3]<br><br>[h2] [b] Credits: [/b] [/h2]<br>asdfmovie by TomSka: https://www.youtube.com/playlist?list=PL3A5849BDE0581B19 <br>DMS by Vigaro, forthfora, Frithuritaks, WillowWispy, and Teno Al Mehri [b] [i] (also it's required)[/i][/b]: https://steamcommunity.com/workshop/filedetails/?id=2948971756<br><br>[h2] [b] Try out the 'You're Dead' mod: [/b] [/h2]<br>https://steamcommunity.com/sharedfiles/filedetails/?id=3118547211<br>[h2] [b] And it's expansion too: [/b] [/h2]<br>https://steamcommunity.com/sharedfiles/filedetails/?id=3175760486<br><br>In the mod's files there is a .zip with an incomplete asdf(mine)scug (suggested by imel.john). I decided to scrap this because I found it difficult to work with. If anyone wants to go through it, fix it up, and upload it to steam workshop go ahead, just credit TomSka as the creator of asdfmovie, and me as the sprite artist (assuming you're editing the version I made, if what you make is completely original you don't need to credit me).<br><br>[h3] Please note that I'm not a professional, but if you have any problems please let me know as this is the best way to improve these mods. [/h3]",
 "thumb": "previews/3175762351.png",
 "url": "https://andrew.fm/rainworld/raindb/asdfscug.zip",
 "requirements": "dressmyslugcat",
@@ -24932,7 +24884,7 @@ Mods.push({
 "created": 1709949246,
 "modified": 1720273470,
 "tags": "Cosmetics",
-"order": 1561
+"order": 1558
 });
 
 Mods.push({
@@ -24948,7 +24900,7 @@ Mods.push({
 "created": 1709949798,
 "modified": 1709950439,
 "tags": "Cosmetics",
-"order": 1562
+"order": 1559
 });
 
 Mods.push({
@@ -24964,7 +24916,7 @@ Mods.push({
 "created": 1709951485,
 "modified": 1709951485,
 "tags": "Cosmetics",
-"order": 1563
+"order": 1560
 });
 
 Mods.push({
@@ -24980,7 +24932,7 @@ Mods.push({
 "created": 1709967894,
 "modified": 1709967894,
 "tags": "",
-"order": 1564
+"order": 1561
 });
 
 Mods.push({
@@ -24996,7 +24948,7 @@ Mods.push({
 "created": 1709989712,
 "modified": 1709989712,
 "tags": "Cosmetics",
-"order": 1565
+"order": 1562
 });
 
 Mods.push({
@@ -25012,7 +24964,7 @@ Mods.push({
 "created": 1709999566,
 "modified": 1709999566,
 "tags": "Regions",
-"order": 1566
+"order": 1563
 });
 
 Mods.push({
@@ -25028,7 +24980,7 @@ Mods.push({
 "created": 1710001283,
 "modified": 1731283389,
 "tags": "",
-"order": 1567
+"order": 1564
 });
 
 Mods.push({
@@ -25043,7 +24995,7 @@ Mods.push({
 "created": 1710067833,
 "modified": 1710067833,
 "tags": "",
-"order": 1568
+"order": 1565
 });
 
 Mods.push({
@@ -25058,7 +25010,7 @@ Mods.push({
 "created": 1710123525,
 "modified": 1710123525,
 "tags": "",
-"order": 1569
+"order": 1566
 });
 
 Mods.push({
@@ -25073,7 +25025,7 @@ Mods.push({
 "created": 1710128749,
 "modified": 1717203814,
 "tags": "Expedition,Gameplay,CRS,Custom",
-"order": 1570
+"order": 1567
 });
 
 Mods.push({
@@ -25089,7 +25041,7 @@ Mods.push({
 "created": 1710132448,
 "modified": 1710132448,
 "tags": "Creatures",
-"order": 1571
+"order": 1568
 });
 
 Mods.push({
@@ -25105,7 +25057,7 @@ Mods.push({
 "created": 1710226060,
 "modified": 1714370288,
 "tags": "Cosmetics",
-"order": 1572
+"order": 1569
 });
 
 Mods.push({
@@ -25121,7 +25073,7 @@ Mods.push({
 "created": 1710247029,
 "modified": 1710247029,
 "tags": "",
-"order": 1573
+"order": 1570
 });
 
 Mods.push({
@@ -25137,7 +25089,7 @@ Mods.push({
 "created": 1710247870,
 "modified": 1710247870,
 "tags": "Game Mechanics",
-"order": 1574
+"order": 1571
 });
 
 Mods.push({
@@ -25153,7 +25105,7 @@ Mods.push({
 "created": 1710256408,
 "modified": 1736052492,
 "tags": "Cosmetics",
-"order": 1575
+"order": 1572
 });
 
 Mods.push({
@@ -25169,7 +25121,7 @@ Mods.push({
 "created": 1710370048,
 "modified": 1731728166,
 "tags": "Arenas",
-"order": 1576
+"order": 1573
 });
 
 Mods.push({
@@ -25184,7 +25136,7 @@ Mods.push({
 "created": 1710373415,
 "modified": 1715553241,
 "tags": "Cosmetics",
-"order": 1577
+"order": 1574
 });
 
 Mods.push({
@@ -25200,7 +25152,7 @@ Mods.push({
 "created": 1710374742,
 "modified": 1724209474,
 "tags": "",
-"order": 1578
+"order": 1575
 });
 
 Mods.push({
@@ -25216,7 +25168,7 @@ Mods.push({
 "created": 1710417331,
 "modified": 1710417331,
 "tags": "Game Mechanics,Accessibility,Tools",
-"order": 1579
+"order": 1576
 });
 
 Mods.push({
@@ -25231,7 +25183,7 @@ Mods.push({
 "created": 1710474582,
 "modified": 1710474582,
 "tags": "Cosmetics",
-"order": 1580
+"order": 1577
 });
 
 Mods.push({
@@ -25246,7 +25198,7 @@ Mods.push({
 "created": 1710483298,
 "modified": 1710483298,
 "tags": "",
-"order": 1581
+"order": 1578
 });
 
 Mods.push({
@@ -25262,7 +25214,7 @@ Mods.push({
 "created": 1710510088,
 "modified": 1727340501,
 "tags": "Arenas",
-"order": 1582
+"order": 1579
 });
 
 Mods.push({
@@ -25277,7 +25229,7 @@ Mods.push({
 "created": 1710541575,
 "modified": 1710541575,
 "tags": "Cosmetics",
-"order": 1583
+"order": 1580
 });
 
 Mods.push({
@@ -25285,15 +25237,15 @@ Mods.push({
 "id": "Quaeledy.hunterexpansion",
 "workshop_id": "3186608452",
 "author": "Quaeledy",
-"desc": "[h1]Introduce [/h1]<br>Added six perform dreams and a new ending (including two branches) for the Hunter. Created the basic behavior of NSH and few rooms in his superstructure. Added NSH's transcription in [Collection].<br>This mod I inscribe to my friends. It does not represent any official settings or plot. I made it because my friends hope to see NSH in the game. I hope you like this mod.<br>Regions and rooms are not something I am good at or want to create, please do not have too many expectations in this area. (Quaeledy)<br>(Tips of the conditions for achieving the new ending：<br>1.[spoiler]Let Moon repair the hunter's aquamarine pearl.[/spoiler] <br>2.[spoiler]Use the repaired pearl, open and pass through the SB-OE gate.[/spoiler] <br>3.[spoiler]Next, determine the branch for the new ending based on the remaining number of cycles. If the remaining cycles is ≥ 15, obtain a good ending branch; Otherwise, a bad ending branch will be obtained.[/spoiler] )<br><br><br>[h1]Credits [/h1]<br>[h3]Code: [/h3]<br>Quaeledy (vast majority of code)<br>Harvie ([spoiler]the green light effect on the fixed pearl[/spoiler], a bug fix)<br>[h3]Rooms: [/h3]<br>Quaeledy<br>[h3]Art: [/h3]<br>Flunaky-Azu (most scenes)<br>Quaeledy (refinement of NSH landscape)<br>[h3]Sound Effects: [/h3]<br>Flunaky-Azu<br>[h3]Text: [/h3]<br>Icy (the first draft of the vast majority of texts)<br>Quaeledy (most text modifications, initial draft of a few texts)<br>Flunaky-Azu (modifications to a small portion of the text, initial draft of a few texts)<br>[h3]Translation: [/h3]<br>Exodus (English)<br>[h3]Proofreading: [/h3]<br>Jun (proofreading of English text)<br>Miaomiao (proofreading of English text)<br>玲兰  (proofreading of Chinese text)<br>[h3]Other:[/h3]<br>Finally, special thanks to Harvie and Pkuyo for their help. Thanks to those who participated in the testing, they are: Fei; MoseYanyun; 静夜; closer; Fi; xue_wan; Nineteen reincarnations; 羸偶; PURE; ELNINO。<br><br><br>[h1]Known issues: [/h1]<br>1.This mod conflicts with Desication. Leaving NSH's room will cause the game to crash. <br>2. In [Collection], if you unlock all collections in MSC settings and click on the broadcast of NSH region that was not collected in the game, it will cause the game to crash. (This seems to be an issue from CRS)<br>3. When using the Warp Menu to teleport to the SB-OE karma gate, attempting to teleport to the gate in the OE region before attempting to teleport to the gate in the SB region will cause the game to report an error and fail to teleport.<br>4. This mod also considers Lancer's hunter as the Hunter. <br>5. Gates Scanner will cause [spoiler]a pearl in a performance of this mod to move to the wrong position[/spoiler], but this is not very important.<br>6. When viewing the map of NSH region in the [Region] menu, the slugcat avatar will display incorrectly.<br>7. When both Guardian and Palette Creator are enabled simultaneously, an error will be reported, but it will not affect the game process.<br>8. Sometimes, when you have played for too long, the game may crash when playing the new ending scenes. Afterwards, you can reopen the game and continue playing normally, although you may miss the scenes of the new ending.<br>9. The reason is not yet clear, however, Slugcats whose OE has collapsed may not be able to trigger the road to NSH. It may be related to mod conflicts.<br><br><br>[h1]Bug Fix: [/h1]<br>1. Some translation errors have been corrected.<br>2. Fixed the issue where swallowing a pearl in the second dream caused the game to crash.<br>3. Fixed the issue where players who were killed by NSH would be killed by NSH if they entered any save again.<br>4. Fixed some issues that occurred on Daddy Long Legs.<br>5. Fixed an issue where entering a room containing SuperStructure Fuses but not belonging to any region would cause the game to freeze.<br><br><br>[h1]Notes: [/h1]<br>1. I am considering modifying the English translation first, and after the English modification is completed, I will add translations from other languages. This requires your help, if you are willing (because I am not familiar with other languages). (Good news: Someone is already helping to modify the English translation!)<br>2. Until a reasonable setting is obtained, I will not consider allowing other slugcats to reach NSH temporarily (although you can indeed find that I have done related content when using Warp Menu to reach NSH)<br>3. This mod can be used in both v1.9.07b and v1.9.15 of the game. <br>[b]If you are in version 1.9.15, it is best to re subscribe to this mod and its predecessor mods to ensure updates. Additionally, it is best to disable this module first and then reapply it.[/b] I'm not sure how many bugs it has now. If you encounter a bug, please let me know. [b]Additionally, without exceptionLog.txt (see Bug Reports), I would hardly be able to do anything about the bugs.[/b]<br><br><br>[h1]Updates: [/h1]<br>[h3][2024.6.5] ver 1.0.8[/h3]<br>1. Updated the English translation text.<br>2. Rewrote the method of reading conversations. Now NSH can support custom conversations for mod slugcats, and if you want to see an example, please check the text folder of The Outsider.<br>[h3][2024.10.27] ver 1.1.0[/h3]<br>1. Added a method to go to NSH for Slugcats after Hunter. (only in story mode now)<br>(Condition: [spoiler]Use Hunter to have Moon repair the aquamarine pearl.[/spoiler] )<br>(Tip: For Slugcats whose OE has not collapsed, [spoiler]use the fixed pearl to pass through the SB-OE gate.[/spoiler] For Slugcats whose OE has collapsed, [spoiler]jump off the cliff.[/spoiler])<br>2. Added behavior and dialogue for NSH when Hunter carries Slugpup.<br>3. Enriched NSH's behavior. For example, the behavior of closing eyes after NSH has been ascended has been added.<br>4. Distinguish neurons for NSH, and add Moon's interpretation of NSH neurons.<br>5. Added NSH's interpretation of Moon's neurons, FP's neurons, FlyLure (Batnip), and SporePlant (Beehive).<br>6. Added the reaction of NSH when players eat neurons in front of NSH.<br>7. Allow adding custom mod Pearl dialogues for NSH.<br>8. Added interpretation of the aquamarine pearl in the timeline of other slugcats for Moon.<br>9. Added NSH response to players throwing Singularity Bomb.<br>10. Some bug fixes.<br>(Attention: Some of the new content is translated into English using machine translation, which may result in biased meanings. Subsequent updates will correct this.)<br>[h3][2024.11.6] ver 1.1.0[/h3]<br>1. Expanded the trigger range for Slugcats whose OE has collapsed [spoiler] to jump off cliffs to NSH[/spoiler].<br>2. Attempt to fix the issue where other slugcat dreams cannot be triggered.",
+"desc": "[h1]Introduce [/h1]<br>Added six perform dreams and a new ending (including two branches) for the Hunter. Created the basic behavior of NSH and few rooms in his superstructure. Added NSH's transcription in [Collection].<br>This mod I inscribe to my friends. It does not represent any official settings or plot. I made it because my friends hope to see NSH in the game. I hope you like this mod.<br>Regions and rooms are not something I am good at or want to create, please do not have too many expectations in this area. (Quaeledy)<br>(Tips of the conditions for achieving the new ending：<br>1.[spoiler]Let Moon repair the hunter's aquamarine pearl.[/spoiler] <br>2.[spoiler]Use the repaired pearl, open and pass through the SB-OE gate.[/spoiler] <br>3.[spoiler]Next, determine the branch for the new ending based on the remaining number of cycles. If the remaining cycles is ≥ 15, obtain a good ending branch; Otherwise, a bad ending branch will be obtained.[/spoiler] )<br><br><br>[h1]Credits [/h1]<br>[h3]Code: [/h3]<br>Quaeledy (vast majority of code)<br>Harvie ([spoiler]the green light effect on the fixed pearl[/spoiler], a bug fix)<br>[h3]Rooms: [/h3]<br>Quaeledy<br>[h3]Art: [/h3]<br>Flunaky-Azu (most scenes)<br>Quaeledy (refinement of NSH landscape)<br>[h3]Sound Effects: [/h3]<br>Flunaky-Azu<br>[h3]Text: [/h3]<br>Icy (the first draft of the vast majority of texts)<br>Quaeledy (most text modifications, initial draft of a few texts)<br>Flunaky-Azu (modifications to a small portion of the text, initial draft of a few texts)<br>[h3]Translation: [/h3]<br>Exodus (English)<br>Aspari, Wipple (Spanish)<br>[h3]Proofreading: [/h3]<br>Jun (proofreading of English text)<br>Miaomiao (proofreading of English text)<br>玲兰  (proofreading of Chinese text)<br>[h3]Other:[/h3]<br>Finally, special thanks to Harvie and Pkuyo for their help. Thanks to those who participated in the testing, they are: Fei; MoseYanyun; 静夜; closer; Fi; xue_wan; Nineteen reincarnations; 羸偶; PURE; ELNINO。<br><br><br>[h1]Known issues: [/h1]<br>1.This mod conflicts with Desication. Leaving NSH's room will cause the game to crash. <br>2. In [Collection], if you unlock all collections in MSC settings and click on the broadcast of NSH region that was not collected in the game, it will cause the game to crash. (This seems to be an issue from CRS)<br>3. When using the Warp Menu to teleport to the SB-OE karma gate, attempting to teleport to the gate in the OE region before attempting to teleport to the gate in the SB region will cause the game to report an error and fail to teleport.<br>4. This mod also considers Lancer's hunter as the Hunter. <br>5. Gates Scanner will cause [spoiler]a pearl in a performance of this mod to move to the wrong position[/spoiler], but this is not very important.<br>6. When viewing the map of NSH region in the [Region] menu, the slugcat avatar will display incorrectly.<br>7. When both Guardian and Palette Creator are enabled simultaneously, an error will be reported, but it will not affect the game process.<br>8. Sometimes, when you have played for too long, the game may crash when playing the new ending scenes. Afterwards, you can reopen the game and continue playing normally, although you may miss the scenes of the new ending.<br>9. The reason is not yet clear, however, Slugcats whose OE has collapsed may not be able to trigger the road to NSH. It may be related to mod conflicts.<br><br><br>[h1]Bug Fix: [/h1]<br>1. Some translation errors have been corrected.<br>2. Fixed the issue where swallowing a pearl in the second dream caused the game to crash.<br>3. Fixed the issue where players who were killed by NSH would be killed by NSH if they entered any save again.<br>4. Fixed some issues that occurred on Daddy Long Legs.<br>5. Fixed an issue where entering a room containing SuperStructure Fuses but not belonging to any region would cause the game to freeze.<br><br><br>[h1]Notes: [/h1]<br>1. I am considering modifying the English translation first, and after the English modification is completed, I will add translations from other languages. This requires your help, if you are willing (because I am not familiar with other languages). (Good news: Someone is already helping to modify the English translation!)<br>2. Until a reasonable setting is obtained, I will not consider allowing other slugcats to reach NSH temporarily (although you can indeed find that I have done related content when using Warp Menu to reach NSH)<br>3. This mod can be used in both v1.9.07b and v1.9.15 of the game. <br>[b]If you are in version 1.9.15, it is best to re subscribe to this mod and its predecessor mods to ensure updates. Additionally, it is best to disable this module first and then reapply it.[/b] I'm not sure how many bugs it has now. If you encounter a bug, please let me know. [b]Additionally, without exceptionLog.txt (see Bug Reports), I would hardly be able to do anything about the bugs.[/b]<br><br><br>[h1]Updates: [/h1]<br>[h3][2024.6.5] ver 1.0.8[/h3]<br>1. Updated the English translation text.<br>2. Rewrote the method of reading conversations. Now NSH can support custom conversations for mod slugcats, and if you want to see an example, please check the text folder of The Outsider.<br>[h3][2024.10.27] ver 1.1.0[/h3]<br>1. Added a method to go to NSH for Slugcats after Hunter. (only in story mode now)<br>(Condition: [spoiler]Use Hunter to have Moon repair the aquamarine pearl.[/spoiler] )<br>(Tip: For Slugcats whose OE has not collapsed, [spoiler]use the fixed pearl to pass through the SB-OE gate.[/spoiler] For Slugcats whose OE has collapsed, [spoiler]jump off the cliff.[/spoiler])<br>2. Added behavior and dialogue for NSH when Hunter carries Slugpup.<br>3. Enriched NSH's behavior. For example, the behavior of closing eyes after NSH has been ascended has been added.<br>4. Distinguish neurons for NSH, and add Moon's interpretation of NSH neurons.<br>5. Added NSH's interpretation of Moon's neurons, FP's neurons, FlyLure (Batnip), and SporePlant (Beehive).<br>6. Added the reaction of NSH when players eat neurons in front of NSH.<br>7. Allow adding custom mod Pearl dialogues for NSH.<br>8. Added interpretation of the aquamarine pearl in the timeline of other slugcats for Moon.<br>9. Added NSH response to players throwing Singularity Bomb.<br>10. Some bug fixes.<br>(Attention: Some of the new content is translated into English using machine translation, which may result in biased meanings. Subsequent updates will correct this.)<br>[h3][2024.11.6] ver 1.1.0[/h3]<br>1. Expanded the trigger range for Slugcats whose OE has collapsed [spoiler] to jump off cliffs to NSH[/spoiler].<br>2. Attempt to fix the issue where other slugcat dreams cannot be triggered.<br>[h3][2025.2.14] ver 1.1.1[/h3]<br>1. Added Spanish translation.<br>2. Added custom pearls in the NSH area to the [Collection].<br>3. Some bug fixes.<br>[h3][2025.2.16] ver 1.1.2[/h3]<br>Fixed the issue where Gourmand, Survivor and Monk were unable to [spoiler]use the pearl to open the SB-OE gate when the SB-OE was not opened in Gourmand’s campaign[/spoiler].",
 "thumb": "previews/3186608452.png",
 "url": "https://ln5.sync.com/dl/1f8bfb100/myuwzc2f-nwxwhi37-ek9iya8q-a5k8k8dh",
 "requirements": "emgtx,moreslugcats,crs",
-"version": "1.1.0",
+"version": "1.1.2",
 "created": 1710601835,
-"modified": 1730897809,
+"modified": 1739675615,
 "tags": "Regions,Campaigns",
-"order": 1584
+"order": 1581
 });
 
 Mods.push({
@@ -25309,7 +25261,7 @@ Mods.push({
 "created": 1710611831,
 "modified": 1710611831,
 "tags": "Cosmetics",
-"order": 1585
+"order": 1582
 });
 
 Mods.push({
@@ -25325,7 +25277,7 @@ Mods.push({
 "created": 1710615066,
 "modified": 1710752460,
 "tags": "Cosmetics",
-"order": 1586
+"order": 1583
 });
 
 Mods.push({
@@ -25341,7 +25293,7 @@ Mods.push({
 "created": 1710637569,
 "modified": 1710981913,
 "tags": "Cosmetics",
-"order": 1587
+"order": 1584
 });
 
 Mods.push({
@@ -25357,7 +25309,7 @@ Mods.push({
 "created": 1710659679,
 "modified": 1710659679,
 "tags": "",
-"order": 1588
+"order": 1585
 });
 
 Mods.push({
@@ -25373,7 +25325,7 @@ Mods.push({
 "created": 1710662570,
 "modified": 1710662570,
 "tags": "Cosmetics",
-"order": 1589
+"order": 1586
 });
 
 Mods.push({
@@ -25389,7 +25341,7 @@ Mods.push({
 "created": 1710703476,
 "modified": 1710703476,
 "tags": "Cosmetics",
-"order": 1590
+"order": 1587
 });
 
 Mods.push({
@@ -25405,7 +25357,7 @@ Mods.push({
 "created": 1710712800,
 "modified": 1710712800,
 "tags": "Accessibility",
-"order": 1591
+"order": 1588
 });
 
 Mods.push({
@@ -25421,7 +25373,7 @@ Mods.push({
 "created": 1710728419,
 "modified": 1723771123,
 "tags": "Cosmetics",
-"order": 1592
+"order": 1589
 });
 
 Mods.push({
@@ -25437,7 +25389,7 @@ Mods.push({
 "created": 1710789893,
 "modified": 1737367459,
 "tags": "Cosmetics",
-"order": 1593
+"order": 1590
 });
 
 Mods.push({
@@ -25453,7 +25405,7 @@ Mods.push({
 "created": 1710796495,
 "modified": 1725417414,
 "tags": "Translations",
-"order": 1594
+"order": 1591
 });
 
 Mods.push({
@@ -25469,7 +25421,7 @@ Mods.push({
 "created": 1710853189,
 "modified": 1710853189,
 "tags": "Cosmetics",
-"order": 1595
+"order": 1592
 });
 
 Mods.push({
@@ -25485,7 +25437,7 @@ Mods.push({
 "created": 1710926495,
 "modified": 1710926495,
 "tags": "",
-"order": 1596
+"order": 1593
 });
 
 Mods.push({
@@ -25501,7 +25453,7 @@ Mods.push({
 "created": 1710944668,
 "modified": 1711284170,
 "tags": "Regions",
-"order": 1597
+"order": 1594
 });
 
 Mods.push({
@@ -25517,7 +25469,7 @@ Mods.push({
 "created": 1710960667,
 "modified": 1710960667,
 "tags": "Cosmetics",
-"order": 1598
+"order": 1595
 });
 
 Mods.push({
@@ -25533,7 +25485,7 @@ Mods.push({
 "created": 1710973349,
 "modified": 1710973349,
 "tags": "Cosmetics",
-"order": 1599
+"order": 1596
 });
 
 Mods.push({
@@ -25549,7 +25501,7 @@ Mods.push({
 "created": 1711003885,
 "modified": 1717351035,
 "tags": "",
-"order": 1600
+"order": 1597
 });
 
 Mods.push({
@@ -25565,7 +25517,7 @@ Mods.push({
 "created": 1711033541,
 "modified": 1733836641,
 "tags": "Cosmetics",
-"order": 1601
+"order": 1598
 });
 
 Mods.push({
@@ -25580,7 +25532,7 @@ Mods.push({
 "created": 1711036786,
 "modified": 1711057604,
 "tags": "",
-"order": 1602
+"order": 1599
 });
 
 Mods.push({
@@ -25596,7 +25548,7 @@ Mods.push({
 "created": 1711052162,
 "modified": 1711098502,
 "tags": "Regions,Cosmetics",
-"order": 1603
+"order": 1600
 });
 
 Mods.push({
@@ -25612,7 +25564,7 @@ Mods.push({
 "created": 1711052256,
 "modified": 1711096594,
 "tags": "Regions,Cosmetics",
-"order": 1604
+"order": 1601
 });
 
 Mods.push({
@@ -25628,7 +25580,7 @@ Mods.push({
 "created": 1711060724,
 "modified": 1711060724,
 "tags": "",
-"order": 1605
+"order": 1602
 });
 
 Mods.push({
@@ -25644,7 +25596,7 @@ Mods.push({
 "created": 1711067916,
 "modified": 1720202660,
 "tags": "Cosmetics",
-"order": 1606
+"order": 1603
 });
 
 Mods.push({
@@ -25660,7 +25612,7 @@ Mods.push({
 "created": 1711069896,
 "modified": 1711081834,
 "tags": "",
-"order": 1607
+"order": 1604
 });
 
 Mods.push({
@@ -25676,7 +25628,7 @@ Mods.push({
 "created": 1711070367,
 "modified": 1712098255,
 "tags": "",
-"order": 1608
+"order": 1605
 });
 
 Mods.push({
@@ -25692,7 +25644,7 @@ Mods.push({
 "created": 1711092641,
 "modified": 1711092641,
 "tags": "",
-"order": 1609
+"order": 1606
 });
 
 Mods.push({
@@ -25708,7 +25660,7 @@ Mods.push({
 "created": 1711110914,
 "modified": 1711110914,
 "tags": "",
-"order": 1610
+"order": 1607
 });
 
 Mods.push({
@@ -25724,7 +25676,7 @@ Mods.push({
 "created": 1711157936,
 "modified": 1711157936,
 "tags": "Cosmetics",
-"order": 1611
+"order": 1608
 });
 
 Mods.push({
@@ -25740,7 +25692,7 @@ Mods.push({
 "created": 1711201855,
 "modified": 1711201855,
 "tags": "Creatures,Accessibility",
-"order": 1612
+"order": 1609
 });
 
 Mods.push({
@@ -25756,22 +25708,7 @@ Mods.push({
 "created": 1711212415,
 "modified": 1711212415,
 "tags": "Cosmetics",
-"order": 1613
-});
-
-Mods.push({
-"name": "SCAV ARENA",
-"id": "SCAV ARENA",
-"workshop_id": "3198167224",
-"author": "Unknown",
-"desc": "No Description.",
-"url": "https://andrew.fm/rainworld/raindb/SCAV_ARENA.zip",
-"requirements": "",
-"version": "",
-"created": 1711239577,
-"modified": 1711239577,
-"tags": "",
-"order": 1614
+"order": 1610
 });
 
 Mods.push({
@@ -25786,7 +25723,7 @@ Mods.push({
 "created": 1711240020,
 "modified": 1711240020,
 "tags": "",
-"order": 1615
+"order": 1611
 });
 
 Mods.push({
@@ -25802,7 +25739,7 @@ Mods.push({
 "created": 1711260111,
 "modified": 1711260111,
 "tags": "Cosmetics",
-"order": 1616
+"order": 1612
 });
 
 Mods.push({
@@ -25818,7 +25755,7 @@ Mods.push({
 "created": 1711277542,
 "modified": 1714521913,
 "tags": "Cosmetics",
-"order": 1617
+"order": 1613
 });
 
 Mods.push({
@@ -25834,7 +25771,7 @@ Mods.push({
 "created": 1711307533,
 "modified": 1711326021,
 "tags": "Cosmetics",
-"order": 1618
+"order": 1614
 });
 
 Mods.push({
@@ -25850,7 +25787,7 @@ Mods.push({
 "created": 1711317074,
 "modified": 1711317074,
 "tags": "Cosmetics",
-"order": 1619
+"order": 1615
 });
 
 Mods.push({
@@ -25866,7 +25803,7 @@ Mods.push({
 "created": 1711328150,
 "modified": 1711328150,
 "tags": "",
-"order": 1620
+"order": 1616
 });
 
 Mods.push({
@@ -25882,7 +25819,7 @@ Mods.push({
 "created": 1711386245,
 "modified": 1712351989,
 "tags": "Cosmetics",
-"order": 1621
+"order": 1617
 });
 
 Mods.push({
@@ -25898,7 +25835,7 @@ Mods.push({
 "created": 1711403863,
 "modified": 1715994257,
 "tags": "Creatures",
-"order": 1622
+"order": 1618
 });
 
 Mods.push({
@@ -25914,7 +25851,7 @@ Mods.push({
 "created": 1711471115,
 "modified": 1714690605,
 "tags": "Custom Slugcat",
-"order": 1623
+"order": 1619
 });
 
 Mods.push({
@@ -25930,7 +25867,7 @@ Mods.push({
 "created": 1711515119,
 "modified": 1712106794,
 "tags": "",
-"order": 1624
+"order": 1620
 });
 
 Mods.push({
@@ -25946,7 +25883,7 @@ Mods.push({
 "created": 1711546805,
 "modified": 1711546805,
 "tags": "",
-"order": 1625
+"order": 1621
 });
 
 Mods.push({
@@ -25954,15 +25891,15 @@ Mods.push({
 "id": "ap.qwertzremix",
 "workshop_id": "3202883391",
 "author": "Qwertz, ZatchyBeeps, ammarPC",
-"desc": "This mod changes some soundtracks of the game to the remix version.<br>---------------------------------------------------------------------<br>Changed soundtracks:<br>Sundown (Main menu soundtrack)<br>Pictures of the Past<br>Outskirts threat theme<br>Shoreline threat theme<br>Chimney Canopy threat theme<br>Sky Islands threat theme<br>Rubicon threat theme<br>Digital Sundown (Moondown)<br>Reflection of the Moon<br>Random Fate<br>Random Gods<br>Deep Ghosts<br>Deep Light<br>The Cycle<br>Reclaiming Entropy<br>Hibernation screen soundtrack (Sleep Screen Loop)<br>---------------------------------------------------------------------<br>All music made by Qwertz<br>Shoreline Threat Remix link: https://www.youtube.com/watch?v=vTDtYVg6_Rs<br>Kayava Remix link: https://www.youtube.com/watch?v=eIlimp3_D5g<br>Chimney Canopy Remix link: https://www.youtube.com/watch?v=e3Elf8R8kGk<br>Sundown Remix: https://www.youtube.com/watch?v=BMNBsOgJ0fU<br>Outskirts Remix: https://www.youtube.com/watch?v=EBvDR5b7Vlw<br>---------------------------------------------------------------------<br>Use Custom Region Support with this mod!",
+"desc": "This mod changes some of the music in the game to a remixed version. All music made by Qwertz.",
 "thumb": "previews/3202883391.png",
 "url": "https://andrew.fm/rainworld/raindb/Qwertz_Remix.zip",
 "requirements": "crs,moreslugcats",
-"version": "1.4.8",
+"version": "1.4.9",
 "created": 1711549136,
-"modified": 1730068170,
+"modified": 1740061929,
 "tags": "Cosmetics",
-"order": 1626
+"order": 1622
 });
 
 Mods.push({
@@ -25978,7 +25915,7 @@ Mods.push({
 "created": 1711560882,
 "modified": 1725297114,
 "tags": "",
-"order": 1627
+"order": 1623
 });
 
 Mods.push({
@@ -25993,7 +25930,7 @@ Mods.push({
 "created": 1711564440,
 "modified": 1711564440,
 "tags": "Regions,Campaigns,Game Mechanics",
-"order": 1628
+"order": 1624
 });
 
 Mods.push({
@@ -26009,7 +25946,7 @@ Mods.push({
 "created": 1711618942,
 "modified": 1711618942,
 "tags": "Cosmetics",
-"order": 1629
+"order": 1625
 });
 
 Mods.push({
@@ -26025,7 +25962,7 @@ Mods.push({
 "created": 1711663584,
 "modified": 1719072818,
 "tags": "Regions",
-"order": 1630
+"order": 1626
 });
 
 Mods.push({
@@ -26041,7 +25978,7 @@ Mods.push({
 "created": 1711705527,
 "modified": 1716956039,
 "tags": "Cosmetics",
-"order": 1631
+"order": 1627
 });
 
 Mods.push({
@@ -26057,7 +25994,7 @@ Mods.push({
 "created": 1711764060,
 "modified": 1711764060,
 "tags": "Cosmetics",
-"order": 1632
+"order": 1628
 });
 
 Mods.push({
@@ -26073,7 +26010,7 @@ Mods.push({
 "created": 1711786098,
 "modified": 1716638129,
 "tags": "",
-"order": 1633
+"order": 1629
 });
 
 Mods.push({
@@ -26089,7 +26026,7 @@ Mods.push({
 "created": 1711788708,
 "modified": 1713981738,
 "tags": "Cosmetics",
-"order": 1634
+"order": 1630
 });
 
 Mods.push({
@@ -26105,7 +26042,7 @@ Mods.push({
 "created": 1711792459,
 "modified": 1712048835,
 "tags": "Cosmetics",
-"order": 1635
+"order": 1631
 });
 
 Mods.push({
@@ -26121,7 +26058,7 @@ Mods.push({
 "created": 1711849345,
 "modified": 1716813172,
 "tags": "Game Mechanics,Items",
-"order": 1636
+"order": 1632
 });
 
 Mods.push({
@@ -26136,7 +26073,7 @@ Mods.push({
 "created": 1711877419,
 "modified": 1711877419,
 "tags": "",
-"order": 1637
+"order": 1633
 });
 
 Mods.push({
@@ -26151,7 +26088,7 @@ Mods.push({
 "created": 1711925300,
 "modified": 1711925300,
 "tags": "Saving,Backups,utility,Backwards Compatibility,Tools",
-"order": 1638
+"order": 1634
 });
 
 Mods.push({
@@ -26167,7 +26104,7 @@ Mods.push({
 "created": 1711960079,
 "modified": 1711960486,
 "tags": "",
-"order": 1639
+"order": 1635
 });
 
 Mods.push({
@@ -26183,7 +26120,7 @@ Mods.push({
 "created": 1711968696,
 "modified": 1713558171,
 "tags": "Creatures",
-"order": 1640
+"order": 1636
 });
 
 Mods.push({
@@ -26199,7 +26136,7 @@ Mods.push({
 "created": 1711975217,
 "modified": 1713163602,
 "tags": "",
-"order": 1641
+"order": 1637
 });
 
 Mods.push({
@@ -26215,7 +26152,7 @@ Mods.push({
 "created": 1711984965,
 "modified": 1711984965,
 "tags": "Game Mechanics",
-"order": 1642
+"order": 1638
 });
 
 Mods.push({
@@ -26231,7 +26168,7 @@ Mods.push({
 "created": 1711984990,
 "modified": 1711984990,
 "tags": "Creatures",
-"order": 1643
+"order": 1639
 });
 
 Mods.push({
@@ -26247,7 +26184,7 @@ Mods.push({
 "created": 1712002337,
 "modified": 1712535552,
 "tags": "Cosmetics",
-"order": 1644
+"order": 1640
 });
 
 Mods.push({
@@ -26263,7 +26200,7 @@ Mods.push({
 "created": 1712002391,
 "modified": 1712002391,
 "tags": "",
-"order": 1645
+"order": 1641
 });
 
 Mods.push({
@@ -26279,7 +26216,7 @@ Mods.push({
 "created": 1712011656,
 "modified": 1712011656,
 "tags": "Cosmetics",
-"order": 1646
+"order": 1642
 });
 
 Mods.push({
@@ -26295,7 +26232,7 @@ Mods.push({
 "created": 1712022697,
 "modified": 1712022697,
 "tags": "Cosmetics",
-"order": 1647
+"order": 1643
 });
 
 Mods.push({
@@ -26311,7 +26248,7 @@ Mods.push({
 "created": 1712049205,
 "modified": 1712049205,
 "tags": "Cosmetics",
-"order": 1648
+"order": 1644
 });
 
 Mods.push({
@@ -26327,7 +26264,7 @@ Mods.push({
 "created": 1712087083,
 "modified": 1712087083,
 "tags": "",
-"order": 1649
+"order": 1645
 });
 
 Mods.push({
@@ -26343,7 +26280,7 @@ Mods.push({
 "created": 1712088510,
 "modified": 1712088510,
 "tags": "Game Mechanics",
-"order": 1650
+"order": 1646
 });
 
 Mods.push({
@@ -26359,7 +26296,7 @@ Mods.push({
 "created": 1712128264,
 "modified": 1712570428,
 "tags": "",
-"order": 1651
+"order": 1647
 });
 
 Mods.push({
@@ -26375,7 +26312,7 @@ Mods.push({
 "created": 1712168186,
 "modified": 1718575967,
 "tags": "Creatures",
-"order": 1652
+"order": 1648
 });
 
 Mods.push({
@@ -26391,7 +26328,7 @@ Mods.push({
 "created": 1712173680,
 "modified": 1721590474,
 "tags": "Cosmetics",
-"order": 1653
+"order": 1649
 });
 
 Mods.push({
@@ -26407,7 +26344,7 @@ Mods.push({
 "created": 1712187924,
 "modified": 1714823348,
 "tags": "",
-"order": 1654
+"order": 1650
 });
 
 Mods.push({
@@ -26423,7 +26360,7 @@ Mods.push({
 "created": 1712215600,
 "modified": 1712215600,
 "tags": "Cosmetics",
-"order": 1655
+"order": 1651
 });
 
 Mods.push({
@@ -26439,7 +26376,7 @@ Mods.push({
 "created": 1712253377,
 "modified": 1717817753,
 "tags": "Cosmetics",
-"order": 1656
+"order": 1652
 });
 
 Mods.push({
@@ -26455,7 +26392,7 @@ Mods.push({
 "created": 1712257623,
 "modified": 1714894729,
 "tags": "Custom Slugcat,Game Mechanics,Campaigns",
-"order": 1657
+"order": 1653
 });
 
 Mods.push({
@@ -26472,7 +26409,7 @@ Mods.push({
 "created": 1712263107,
 "modified": 1712276921,
 "tags": "Cosmetics",
-"order": 1658
+"order": 1654
 });
 
 Mods.push({
@@ -26487,7 +26424,7 @@ Mods.push({
 "created": 1712266528,
 "modified": 1712266528,
 "tags": "Creatures",
-"order": 1659
+"order": 1655
 });
 
 Mods.push({
@@ -26503,7 +26440,7 @@ Mods.push({
 "created": 1712277876,
 "modified": 1712277876,
 "tags": "Cosmetics",
-"order": 1660
+"order": 1656
 });
 
 Mods.push({
@@ -26519,7 +26456,7 @@ Mods.push({
 "created": 1712328232,
 "modified": 1712328232,
 "tags": "",
-"order": 1661
+"order": 1657
 });
 
 Mods.push({
@@ -26535,7 +26472,7 @@ Mods.push({
 "created": 1712333695,
 "modified": 1712333695,
 "tags": "Cosmetics",
-"order": 1662
+"order": 1658
 });
 
 Mods.push({
@@ -26551,7 +26488,7 @@ Mods.push({
 "created": 1712337733,
 "modified": 1713375731,
 "tags": "Creatures",
-"order": 1663
+"order": 1659
 });
 
 Mods.push({
@@ -26567,7 +26504,7 @@ Mods.push({
 "created": 1712349778,
 "modified": 1724162450,
 "tags": "Campaigns,Custom Slugcat,Game Mechanics,Creatures",
-"order": 1664
+"order": 1660
 });
 
 Mods.push({
@@ -26583,7 +26520,7 @@ Mods.push({
 "created": 1712369955,
 "modified": 1712369955,
 "tags": "Cosmetics",
-"order": 1665
+"order": 1661
 });
 
 Mods.push({
@@ -26599,7 +26536,7 @@ Mods.push({
 "created": 1712372232,
 "modified": 1712472120,
 "tags": "Creatures,Game Mechanics,Items,Accessibility",
-"order": 1666
+"order": 1662
 });
 
 Mods.push({
@@ -26615,7 +26552,7 @@ Mods.push({
 "created": 1712383197,
 "modified": 1723891560,
 "tags": "Custom Slugcat,Campaigns",
-"order": 1667
+"order": 1663
 });
 
 Mods.push({
@@ -26631,7 +26568,7 @@ Mods.push({
 "created": 1712405625,
 "modified": 1712600936,
 "tags": "",
-"order": 1668
+"order": 1664
 });
 
 Mods.push({
@@ -26647,7 +26584,7 @@ Mods.push({
 "created": 1712418168,
 "modified": 1718772316,
 "tags": "Regions",
-"order": 1669
+"order": 1665
 });
 
 Mods.push({
@@ -26663,7 +26600,7 @@ Mods.push({
 "created": 1712432084,
 "modified": 1712482720,
 "tags": "Cosmetics",
-"order": 1670
+"order": 1666
 });
 
 Mods.push({
@@ -26679,7 +26616,7 @@ Mods.push({
 "created": 1712437900,
 "modified": 1717786653,
 "tags": "",
-"order": 1671
+"order": 1667
 });
 
 Mods.push({
@@ -26695,7 +26632,7 @@ Mods.push({
 "created": 1712467012,
 "modified": 1724542153,
 "tags": "",
-"order": 1672
+"order": 1668
 });
 
 Mods.push({
@@ -26711,7 +26648,7 @@ Mods.push({
 "created": 1712504859,
 "modified": 1729444045,
 "tags": "Regions",
-"order": 1673
+"order": 1669
 });
 
 Mods.push({
@@ -26727,7 +26664,7 @@ Mods.push({
 "created": 1712526920,
 "modified": 1712526920,
 "tags": "Cosmetics",
-"order": 1674
+"order": 1670
 });
 
 Mods.push({
@@ -26735,15 +26672,15 @@ Mods.push({
 "id": "reclaimingentropy",
 "workshop_id": "3215860805",
 "author": "Parageist, Jennifer",
-"desc": "WORK IN PROGRESS! - CURRENTLY ONLY Nine OUT OF THE 11 REGIONS ARE PLAYABLE! (Sunlit Alleyways, Withstanding Factory, Pipegrave, Aquifer Tunnels, Smokestack Treetop, Nascent Woods, Gloomy Marshland, The Undergrowth, and Rusted Basin)<br><br>Long after the reign of random gods, new life breaks through the snow and the cycle continues.<br><br>VERSION HISTORY:<br>-v0.1 (4/7/24) - Added WT (Withstanding Factory). I still need to fix the music bugs and make proper region art but besides that it should be fully playable!<br>-v0.2 (4/10/24) - Added SO (Sunlit Alleyways) and a placeholder scug that spawns there named The Matriarch. WARNING: I added the safari unlock for both WT and SO but after collecting it and going to the safari tab the game freezes, so try to avoid collecting those for now!!! The proper region art for SO isn't finished yet either.<br>-v0.3 (4/15/24) - Added PY (Pipegrave), fixed a few errors with previous regions. Dev team has gotten a lot bigger since last time!<br>-v0.4 (5/26/24) Fixed some issues, added AQ and TK, along with some new songs by NinjaKittens and LolaTheLoach.<br>-V0.5 (7/4/24) Added WD (Nascent Woods), along with some new art and music.<br>-v0.6 (8/3/24) Added GM (Gloomy Marshland), FU (The Undergrowth), RB (Rusted Basin), along with some new art/music.<br>-v0.7 (12/12/24) Added proper region art for WT, PY, AQ, TK, WD, GM, and RB, threat themes for WT and WD, along with some bonus art, music, and little fixes/changes. WIP abilities for the Matriarch and their children have also been added to experiment with! ***MAKE SURE YOU HAVE DRESS MY SLUGCAT DISABLED, FISOBS AND SLUGPUP SAFARI ENABLED!!!***<br><br>NEXT ON TO-DO LIST:<br>-Finish MO, FD, and the campaign/mechanics, which won't happen for quite some time. This is the home stretch though!<br><br>ROADMAP:<br>-Sunlit Alleyways (future SU) - 100% complete<br>-Withstanding Factory (future HI) - 100% complete<br>-THE Undergrowth (future UG) - 100% complete<br>-Smokestack Treetop (future CC) - 100% complete<br>-Gloomy Marshland (future GW) - 100% complete<br>-Pipegrave (future VS) - 100% complete<br>-Mountains Abound (future CL) - 20% complete<br>-Nascent Woods (future LF) - 100% complete<br>-Aquifer Tunnels (future SB) - 100% complete<br>-Rusted Basin (future SL) - 100% complete<br>-Fading Moonlight (future MS) - 50% complete<br>-Campaign and mechanics - 40?% complete<br>-Custom creatures and items? - maybe :)<br><br>CREDITS:<br>-Main Concepts and project lead by Parageist<br>-Mod Setup Help by Jennifer<br>-Original Mod Description by Jennifer<br>-Main Level Design/ledditting by Parageist <br>-Additional level editting and devtooling by Foto, Wynne, Webber, April, Jennifer, and Echo (see roomcredits.txt for specifics)<br>-Writing by Parageist<br>-Playtesting by vividyon, kyrfuffle, webber, Tryn, April, inspectnerd, BLU<br>-Additional concepts and help by everyone else on the team lol, along with everyone on steam who pointed out bugs/issues :)<br>-Music 'Hollow Stream', 'Final Assembly', 'Rememberance', 'Urban Reclamation', 'Oak Monoliths', 'Starfall' (currently unnused), 'Calciferous', 'Echoes', and GM threat theme by Ninjakittens. 'Arboreal', 'Splinters', 'Hypoxia', 'Scarred Ground', and 'Rebirth' by Sidera. SO, TK, PY, and RB threat themes by LolaTheLoach. WD threat theme by MojiEmoji. WT threat theme by BLU.<br>-TK vista background and SO region art by aprilWORSTmonth<br>-WD, GM, RB, and PY region art by Sako L Patatas<br>-Coding by steellesstoaster7838<br>-Matriarch Menu Select art by battysoda<br>-Matriarch Sleep Screen and Intro Roll art by kyrfuffle<br>-Matriarch Wiki and Expedition Icon by kyrfuffle<br>-Crustaceanarch, deadpebs, scav loss, and dating sim decals/bonus art by kyrfuffle<br>-buff matriarch decal/bonus art by NIKORYUS<br>-Spanish translation by MojiEmoji and Sako<br>-Alternate RB Moon chamber design by April<br><br>And thank you to all the wonderful people in the Rain World server, such as Bro, Willurd, Cappin, Atom, Slugged, and many others who helped me fix my myriad of bugs and questions!<br>TYSM ALEX THE GROUNDHOG AND LOLIGHT2 FOR MAKING VIDEOS ABOUT OUR MOD :D<br><br>FREE PALESTINE, FUCK THE RICH",
+"desc": "WORK IN PROGRESS! - CURRENTLY ONLY Nine OUT OF THE 11 REGIONS ARE PLAYABLE! (Sunlit Alleyways, Withstanding Factory, Pipegrave, Aquifer Tunnels, Smokestack Treetop, Nascent Woods, Gloomy Marshland, The Undergrowth, and Rusted Basin)<br><br>Long after the reign of random gods, new life breaks through the snow and the cycle continues.<br><br>VERSION HISTORY:<br>-v0.1 (4/7/24) - Added WT (Withstanding Factory). I still need to fix the music bugs and make proper region art but besides that it should be fully playable!<br>-v0.2 (4/10/24) - Added SO (Sunlit Alleyways) and a placeholder scug that spawns there named The Matriarch. WARNING: I added the safari unlock for both WT and SO but after collecting it and going to the safari tab the game freezes, so try to avoid collecting those for now!!! The proper region art for SO isn't finished yet either.<br>-v0.3 (4/15/24) - Added PY (Pipegrave), fixed a few errors with previous regions. Dev team has gotten a lot bigger since last time!<br>-v0.4 (5/26/24) Fixed some issues, added AQ and TK, along with some new songs by NinjaKittens and LolaTheLoach.<br>-V0.5 (7/4/24) Added WD (Nascent Woods), along with some new art and music.<br>-v0.6 (8/3/24) Added GM (Gloomy Marshland), FU (The Undergrowth), RB (Rusted Basin), along with some new art/music.<br>-v0.7 (12/12/24) Added proper region art for WT, PY, AQ, TK, WD, GM, and RB, threat themes for WT and WD, along with some bonus art, music, and little fixes/changes. WIP abilities for the Matriarch and their children have also been added to experiment with!<br><br>NEXT ON TO-DO LIST:<br>-Finish MO, FD, and the campaign/mechanics, which won't happen for quite some time. This is the home stretch though!<br><br>ROADMAP:<br>-Sunlit Alleyways (future SU) - 100% complete<br>-Withstanding Factory (future HI) - 100% complete<br>-THE Undergrowth (future UG) - 100% complete<br>-Smokestack Treetop (future CC) - 100% complete<br>-Gloomy Marshland (future GW) - 100% complete<br>-Pipegrave (future VS) - 100% complete<br>-Mountains Abound (future CL) - 20% complete<br>-Nascent Woods (future LF) - 100% complete<br>-Aquifer Tunnels (future SB) - 100% complete<br>-Rusted Basin (future SL) - 100% complete<br>-Fading Moonlight (future MS) - 50% complete<br>-Campaign and mechanics - 40?% complete<br>-Custom creatures and items? - maybe :)<br><br>CREDITS:<br>-Main Concepts and project lead by Parageist<br>-Mod Setup Help by Jennifer<br>-Original Mod Description by Jennifer<br>-Main Level Design/ledditting by Parageist <br>-Additional level editting and devtooling by Foto, Wynne, Webber, April, Jennifer, and Echo (see roomcredits.txt for specifics)<br>-Writing by Parageist<br>-Playtesting by vividyon, kyrfuffle, webber, Tryn, April, inspectnerd, BLU<br>-Additional concepts and help by everyone else on the team lol, along with everyone on steam who pointed out bugs/issues :)<br>-Music 'Hollow Stream', 'Final Assembly', 'Rememberance', 'Urban Reclamation', 'Oak Monoliths', 'Starfall' (currently unnused), 'Calciferous', 'Echoes', and GM threat theme by Ninjakittens. 'Arboreal', 'Splinters', 'Hypoxia', 'Scarred Ground', and 'Rebirth' by Sidera. SO, TK, PY, and RB threat themes by LolaTheLoach. WD threat theme by MojiEmoji. WT threat theme by BLU.<br>-TK vista background and SO region art by aprilWORSTmonth<br>-WD, GM, RB, and PY region art by Sako L Patatas<br>-Coding by steellesstoaster7838<br>-Matriarch Menu Select art by battysoda<br>-Matriarch Sleep Screen and Intro Roll art by kyrfuffle<br>-Matriarch Wiki and Expedition Icon by kyrfuffle<br>-Crustaceanarch, deadpebs, scav loss, and dating sim decals/bonus art by kyrfuffle<br>-buff matriarch decal/bonus art by NIKORYUS<br>-Spanish translation by MojiEmoji and Sako<br>-Alternate RB Moon chamber design by April<br><br>And thank you to all the wonderful people in the Rain World server, such as Bro, Willurd, Cappin, Atom, Slugged, and many others who helped me fix my myriad of bugs and questions!<br>TYSM ALEX THE GROUNDHOG AND LOLIGHT2 FOR MAKING VIDEOS ABOUT OUR MOD :D<br><br>FREE PALESTINE, FUCK THE RICH",
 "thumb": "previews/3215860805.png",
 "url": "https://ln5.sync.com/dl/cd729eb70/debubjpe-72zr82pf-5u628p5w-nrf8uy53",
-"requirements": "crs,regionkit,pom,slime-cubed.slugbase,moreslugcats",
+"requirements": "crs,regionkit,pom,slime-cubed.slugbase,moreslugcats,fisobs",
 "version": "0.7",
 "created": 1712528160,
-"modified": 1734049791,
+"modified": 1739500989,
 "tags": "Regions",
-"order": 1675
+"order": 1671
 });
 
 Mods.push({
@@ -26759,7 +26696,7 @@ Mods.push({
 "created": 1712543455,
 "modified": 1712543455,
 "tags": "Cosmetics",
-"order": 1676
+"order": 1672
 });
 
 Mods.push({
@@ -26775,7 +26712,7 @@ Mods.push({
 "created": 1712576664,
 "modified": 1712576664,
 "tags": "Cosmetics",
-"order": 1677
+"order": 1673
 });
 
 Mods.push({
@@ -26791,7 +26728,7 @@ Mods.push({
 "created": 1712578287,
 "modified": 1713010239,
 "tags": "Cosmetics",
-"order": 1678
+"order": 1674
 });
 
 Mods.push({
@@ -26807,7 +26744,7 @@ Mods.push({
 "created": 1712579435,
 "modified": 1712579435,
 "tags": "Cosmetics",
-"order": 1679
+"order": 1675
 });
 
 Mods.push({
@@ -26823,7 +26760,7 @@ Mods.push({
 "created": 1712621193,
 "modified": 1712621193,
 "tags": "Cosmetics",
-"order": 1680
+"order": 1676
 });
 
 Mods.push({
@@ -26839,7 +26776,7 @@ Mods.push({
 "created": 1712626839,
 "modified": 1712626839,
 "tags": "Cosmetics",
-"order": 1681
+"order": 1677
 });
 
 Mods.push({
@@ -26856,7 +26793,7 @@ Mods.push({
 "created": 1712707896,
 "modified": 1714234545,
 "tags": "Custom Slugcat",
-"order": 1682
+"order": 1678
 });
 
 Mods.push({
@@ -26872,7 +26809,7 @@ Mods.push({
 "created": 1712765390,
 "modified": 1712765390,
 "tags": "Creatures",
-"order": 1683
+"order": 1679
 });
 
 Mods.push({
@@ -26888,7 +26825,7 @@ Mods.push({
 "created": 1712802049,
 "modified": 1712952672,
 "tags": "Cosmetics,Scarfs",
-"order": 1684
+"order": 1680
 });
 
 Mods.push({
@@ -26904,7 +26841,7 @@ Mods.push({
 "created": 1712836377,
 "modified": 1712836377,
 "tags": "Cosmetics",
-"order": 1685
+"order": 1681
 });
 
 Mods.push({
@@ -26920,7 +26857,7 @@ Mods.push({
 "created": 1712853317,
 "modified": 1712853317,
 "tags": "Cosmetics",
-"order": 1686
+"order": 1682
 });
 
 Mods.push({
@@ -26936,7 +26873,7 @@ Mods.push({
 "created": 1712866850,
 "modified": 1712866850,
 "tags": "Cosmetics",
-"order": 1687
+"order": 1683
 });
 
 Mods.push({
@@ -26952,7 +26889,7 @@ Mods.push({
 "created": 1712885190,
 "modified": 1716440079,
 "tags": "",
-"order": 1688
+"order": 1684
 });
 
 Mods.push({
@@ -26967,7 +26904,7 @@ Mods.push({
 "created": 1712900205,
 "modified": 1712900205,
 "tags": "Cosmetics",
-"order": 1689
+"order": 1685
 });
 
 Mods.push({
@@ -26983,7 +26920,7 @@ Mods.push({
 "created": 1712901786,
 "modified": 1714538803,
 "tags": "",
-"order": 1690
+"order": 1686
 });
 
 Mods.push({
@@ -26999,7 +26936,7 @@ Mods.push({
 "created": 1712930977,
 "modified": 1712930977,
 "tags": "region",
-"order": 1691
+"order": 1687
 });
 
 Mods.push({
@@ -27015,7 +26952,7 @@ Mods.push({
 "created": 1712937256,
 "modified": 1712937256,
 "tags": "",
-"order": 1692
+"order": 1688
 });
 
 Mods.push({
@@ -27031,7 +26968,7 @@ Mods.push({
 "created": 1712963304,
 "modified": 1736281419,
 "tags": "Creatures",
-"order": 1693
+"order": 1689
 });
 
 Mods.push({
@@ -27047,7 +26984,7 @@ Mods.push({
 "created": 1712963632,
 "modified": 1712963632,
 "tags": "Cosmetics",
-"order": 1694
+"order": 1690
 });
 
 Mods.push({
@@ -27064,7 +27001,7 @@ Mods.push({
 "created": 1712991887,
 "modified": 1712991887,
 "tags": "Cosmetics",
-"order": 1695
+"order": 1691
 });
 
 Mods.push({
@@ -27080,7 +27017,7 @@ Mods.push({
 "created": 1713040697,
 "modified": 1729003669,
 "tags": "Regions",
-"order": 1696
+"order": 1692
 });
 
 Mods.push({
@@ -27096,7 +27033,7 @@ Mods.push({
 "created": 1713043278,
 "modified": 1713108960,
 "tags": "Cosmetics",
-"order": 1697
+"order": 1693
 });
 
 Mods.push({
@@ -27112,7 +27049,7 @@ Mods.push({
 "created": 1713044306,
 "modified": 1713044306,
 "tags": "Creatures",
-"order": 1698
+"order": 1694
 });
 
 Mods.push({
@@ -27128,7 +27065,7 @@ Mods.push({
 "created": 1713052548,
 "modified": 1729719306,
 "tags": "Creatures,Game Mechanics,Items,Cosmetics,Dependency",
-"order": 1699
+"order": 1695
 });
 
 Mods.push({
@@ -27144,7 +27081,7 @@ Mods.push({
 "created": 1713065894,
 "modified": 1713065894,
 "tags": "Regions,Creatures",
-"order": 1700
+"order": 1696
 });
 
 Mods.push({
@@ -27160,7 +27097,7 @@ Mods.push({
 "created": 1713076676,
 "modified": 1713118376,
 "tags": "",
-"order": 1701
+"order": 1697
 });
 
 Mods.push({
@@ -27175,7 +27112,7 @@ Mods.push({
 "created": 1713118449,
 "modified": 1713118449,
 "tags": "",
-"order": 1702
+"order": 1698
 });
 
 Mods.push({
@@ -27191,7 +27128,7 @@ Mods.push({
 "created": 1713125625,
 "modified": 1720364837,
 "tags": "Cosmetics",
-"order": 1703
+"order": 1699
 });
 
 Mods.push({
@@ -27207,7 +27144,7 @@ Mods.push({
 "created": 1713141277,
 "modified": 1726559561,
 "tags": "Regions",
-"order": 1704
+"order": 1700
 });
 
 Mods.push({
@@ -27223,7 +27160,7 @@ Mods.push({
 "created": 1713216279,
 "modified": 1713216279,
 "tags": "",
-"order": 1705
+"order": 1701
 });
 
 Mods.push({
@@ -27239,7 +27176,7 @@ Mods.push({
 "created": 1713236829,
 "modified": 1713236829,
 "tags": "Cosmetics",
-"order": 1706
+"order": 1702
 });
 
 Mods.push({
@@ -27254,7 +27191,7 @@ Mods.push({
 "created": 1713237465,
 "modified": 1736655367,
 "tags": "",
-"order": 1707
+"order": 1703
 });
 
 Mods.push({
@@ -27270,7 +27207,7 @@ Mods.push({
 "created": 1713296406,
 "modified": 1713298646,
 "tags": "Arenas",
-"order": 1708
+"order": 1704
 });
 
 Mods.push({
@@ -27286,7 +27223,7 @@ Mods.push({
 "created": 1713350688,
 "modified": 1713353302,
 "tags": "Arenas",
-"order": 1709
+"order": 1705
 });
 
 Mods.push({
@@ -27302,7 +27239,7 @@ Mods.push({
 "created": 1713354468,
 "modified": 1713354468,
 "tags": "",
-"order": 1710
+"order": 1706
 });
 
 Mods.push({
@@ -27317,7 +27254,7 @@ Mods.push({
 "created": 1713396664,
 "modified": 1713396664,
 "tags": "Regions",
-"order": 1711
+"order": 1707
 });
 
 Mods.push({
@@ -27333,7 +27270,7 @@ Mods.push({
 "created": 1713401819,
 "modified": 1713412143,
 "tags": "Cosmetics",
-"order": 1712
+"order": 1708
 });
 
 Mods.push({
@@ -27349,7 +27286,7 @@ Mods.push({
 "created": 1713431158,
 "modified": 1713431158,
 "tags": "",
-"order": 1713
+"order": 1709
 });
 
 Mods.push({
@@ -27365,7 +27302,7 @@ Mods.push({
 "created": 1713431196,
 "modified": 1713431196,
 "tags": "",
-"order": 1714
+"order": 1710
 });
 
 Mods.push({
@@ -27381,7 +27318,7 @@ Mods.push({
 "created": 1713468965,
 "modified": 1713468965,
 "tags": "",
-"order": 1715
+"order": 1711
 });
 
 Mods.push({
@@ -27397,7 +27334,7 @@ Mods.push({
 "created": 1713494475,
 "modified": 1713494475,
 "tags": "",
-"order": 1716
+"order": 1712
 });
 
 Mods.push({
@@ -27413,7 +27350,7 @@ Mods.push({
 "created": 1713500756,
 "modified": 1713500756,
 "tags": "",
-"order": 1717
+"order": 1713
 });
 
 Mods.push({
@@ -27429,7 +27366,7 @@ Mods.push({
 "created": 1713501278,
 "modified": 1716166137,
 "tags": "Cosmetics",
-"order": 1718
+"order": 1714
 });
 
 Mods.push({
@@ -27445,7 +27382,7 @@ Mods.push({
 "created": 1713540422,
 "modified": 1716045119,
 "tags": "Regions",
-"order": 1719
+"order": 1715
 });
 
 Mods.push({
@@ -27461,7 +27398,7 @@ Mods.push({
 "created": 1713556998,
 "modified": 1713556998,
 "tags": "Cosmetics",
-"order": 1720
+"order": 1716
 });
 
 Mods.push({
@@ -27477,7 +27414,7 @@ Mods.push({
 "created": 1713628086,
 "modified": 1713633887,
 "tags": "Cosmetics",
-"order": 1721
+"order": 1717
 });
 
 Mods.push({
@@ -27493,7 +27430,7 @@ Mods.push({
 "created": 1713643387,
 "modified": 1713643387,
 "tags": "Cosmetics",
-"order": 1722
+"order": 1718
 });
 
 Mods.push({
@@ -27509,7 +27446,7 @@ Mods.push({
 "created": 1713674639,
 "modified": 1713739941,
 "tags": "Cosmetics",
-"order": 1723
+"order": 1719
 });
 
 Mods.push({
@@ -27525,7 +27462,7 @@ Mods.push({
 "created": 1713754479,
 "modified": 1733878360,
 "tags": "Regions",
-"order": 1724
+"order": 1720
 });
 
 Mods.push({
@@ -27541,7 +27478,7 @@ Mods.push({
 "created": 1713802861,
 "modified": 1713802861,
 "tags": "Cosmetics",
-"order": 1725
+"order": 1721
 });
 
 Mods.push({
@@ -27557,7 +27494,7 @@ Mods.push({
 "created": 1713813854,
 "modified": 1713813854,
 "tags": "Cosmetics",
-"order": 1726
+"order": 1722
 });
 
 Mods.push({
@@ -27573,7 +27510,7 @@ Mods.push({
 "created": 1713815307,
 "modified": 1713967837,
 "tags": "Cosmetics",
-"order": 1727
+"order": 1723
 });
 
 Mods.push({
@@ -27589,7 +27526,7 @@ Mods.push({
 "created": 1713972564,
 "modified": 1713972564,
 "tags": "Cosmetics",
-"order": 1728
+"order": 1724
 });
 
 Mods.push({
@@ -27605,7 +27542,7 @@ Mods.push({
 "created": 1714004522,
 "modified": 1714004522,
 "tags": "",
-"order": 1729
+"order": 1725
 });
 
 Mods.push({
@@ -27620,7 +27557,7 @@ Mods.push({
 "created": 1714068086,
 "modified": 1720392772,
 "tags": "Accessibility,Game Mechanics",
-"order": 1730
+"order": 1726
 });
 
 Mods.push({
@@ -27636,7 +27573,7 @@ Mods.push({
 "created": 1714070307,
 "modified": 1737205673,
 "tags": "Regions",
-"order": 1731
+"order": 1727
 });
 
 Mods.push({
@@ -27651,7 +27588,7 @@ Mods.push({
 "created": 1714078419,
 "modified": 1714080083,
 "tags": "Tools",
-"order": 1732
+"order": 1728
 });
 
 Mods.push({
@@ -27667,7 +27604,7 @@ Mods.push({
 "created": 1714092523,
 "modified": 1729390055,
 "tags": "Cosmetics",
-"order": 1733
+"order": 1729
 });
 
 Mods.push({
@@ -27683,7 +27620,7 @@ Mods.push({
 "created": 1714133103,
 "modified": 1727539156,
 "tags": "Cosmetics",
-"order": 1734
+"order": 1730
 });
 
 Mods.push({
@@ -27699,7 +27636,7 @@ Mods.push({
 "created": 1714159014,
 "modified": 1714159014,
 "tags": "Custom Slugcat",
-"order": 1735
+"order": 1731
 });
 
 Mods.push({
@@ -27715,7 +27652,7 @@ Mods.push({
 "created": 1714239677,
 "modified": 1714239677,
 "tags": "Cosmetics",
-"order": 1736
+"order": 1732
 });
 
 Mods.push({
@@ -27731,7 +27668,7 @@ Mods.push({
 "created": 1714240090,
 "modified": 1714240090,
 "tags": "Cosmetics,Dependency,Tools",
-"order": 1737
+"order": 1733
 });
 
 Mods.push({
@@ -27747,7 +27684,7 @@ Mods.push({
 "created": 1714291746,
 "modified": 1714291746,
 "tags": "Cosmetics",
-"order": 1738
+"order": 1734
 });
 
 Mods.push({
@@ -27763,7 +27700,7 @@ Mods.push({
 "created": 1714308981,
 "modified": 1714308981,
 "tags": "Creatures",
-"order": 1739
+"order": 1735
 });
 
 Mods.push({
@@ -27779,7 +27716,7 @@ Mods.push({
 "created": 1714309825,
 "modified": 1714314392,
 "tags": "Cosmetics",
-"order": 1740
+"order": 1736
 });
 
 Mods.push({
@@ -27795,7 +27732,7 @@ Mods.push({
 "created": 1714314120,
 "modified": 1714319227,
 "tags": "Cosmetics",
-"order": 1741
+"order": 1737
 });
 
 Mods.push({
@@ -27811,7 +27748,7 @@ Mods.push({
 "created": 1714339546,
 "modified": 1714339546,
 "tags": "Cosmetics",
-"order": 1742
+"order": 1738
 });
 
 Mods.push({
@@ -27827,7 +27764,7 @@ Mods.push({
 "created": 1714341268,
 "modified": 1714341268,
 "tags": "Cosmetics",
-"order": 1743
+"order": 1739
 });
 
 Mods.push({
@@ -27842,7 +27779,7 @@ Mods.push({
 "created": 1714342146,
 "modified": 1714342146,
 "tags": "",
-"order": 1744
+"order": 1740
 });
 
 Mods.push({
@@ -27857,7 +27794,7 @@ Mods.push({
 "created": 1714356588,
 "modified": 1714356588,
 "tags": "",
-"order": 1745
+"order": 1741
 });
 
 Mods.push({
@@ -27873,7 +27810,7 @@ Mods.push({
 "created": 1714440437,
 "modified": 1724116319,
 "tags": "Cosmetics",
-"order": 1746
+"order": 1742
 });
 
 Mods.push({
@@ -27889,7 +27826,7 @@ Mods.push({
 "created": 1714442434,
 "modified": 1714442434,
 "tags": "Cosmetics",
-"order": 1747
+"order": 1743
 });
 
 Mods.push({
@@ -27905,7 +27842,7 @@ Mods.push({
 "created": 1714495367,
 "modified": 1715197900,
 "tags": "Cosmetics,Dependency,Tools",
-"order": 1748
+"order": 1744
 });
 
 Mods.push({
@@ -27921,7 +27858,7 @@ Mods.push({
 "created": 1714503795,
 "modified": 1714503795,
 "tags": "Cosmetics",
-"order": 1749
+"order": 1745
 });
 
 Mods.push({
@@ -27937,7 +27874,7 @@ Mods.push({
 "created": 1714506418,
 "modified": 1714506418,
 "tags": "",
-"order": 1750
+"order": 1746
 });
 
 Mods.push({
@@ -27953,7 +27890,7 @@ Mods.push({
 "created": 1714517204,
 "modified": 1714517204,
 "tags": "",
-"order": 1751
+"order": 1747
 });
 
 Mods.push({
@@ -27969,7 +27906,7 @@ Mods.push({
 "created": 1714566870,
 "modified": 1714566870,
 "tags": "Dependency",
-"order": 1752
+"order": 1748
 });
 
 Mods.push({
@@ -27985,7 +27922,7 @@ Mods.push({
 "created": 1714598772,
 "modified": 1714598772,
 "tags": "Cosmetics",
-"order": 1753
+"order": 1749
 });
 
 Mods.push({
@@ -28001,7 +27938,7 @@ Mods.push({
 "created": 1714619543,
 "modified": 1714690795,
 "tags": "",
-"order": 1754
+"order": 1750
 });
 
 Mods.push({
@@ -28016,7 +27953,7 @@ Mods.push({
 "created": 1714620253,
 "modified": 1715635194,
 "tags": "Game Mechanics,Tools",
-"order": 1755
+"order": 1751
 });
 
 Mods.push({
@@ -28032,7 +27969,7 @@ Mods.push({
 "created": 1714624249,
 "modified": 1722997689,
 "tags": "Items,Cosmetics,Custom Slugcat",
-"order": 1756
+"order": 1752
 });
 
 Mods.push({
@@ -28048,7 +27985,7 @@ Mods.push({
 "created": 1714627060,
 "modified": 1714627060,
 "tags": "Cosmetics",
-"order": 1757
+"order": 1753
 });
 
 Mods.push({
@@ -28064,7 +28001,7 @@ Mods.push({
 "created": 1714639099,
 "modified": 1714639099,
 "tags": "Cosmetics",
-"order": 1758
+"order": 1754
 });
 
 Mods.push({
@@ -28080,7 +28017,7 @@ Mods.push({
 "created": 1714677150,
 "modified": 1714677150,
 "tags": "",
-"order": 1759
+"order": 1755
 });
 
 Mods.push({
@@ -28097,7 +28034,7 @@ Mods.push({
 "created": 1714684820,
 "modified": 1737934101,
 "tags": "",
-"order": 1760
+"order": 1756
 });
 
 Mods.push({
@@ -28113,7 +28050,7 @@ Mods.push({
 "created": 1714694111,
 "modified": 1714887774,
 "tags": "Cosmetics",
-"order": 1761
+"order": 1757
 });
 
 Mods.push({
@@ -28129,7 +28066,7 @@ Mods.push({
 "created": 1714759097,
 "modified": 1716929650,
 "tags": "Cosmetics",
-"order": 1762
+"order": 1758
 });
 
 Mods.push({
@@ -28146,7 +28083,7 @@ Mods.push({
 "created": 1714760261,
 "modified": 1714760261,
 "tags": "Cosmetics",
-"order": 1763
+"order": 1759
 });
 
 Mods.push({
@@ -28162,7 +28099,7 @@ Mods.push({
 "created": 1714773359,
 "modified": 1715565024,
 "tags": "Cosmetics",
-"order": 1764
+"order": 1760
 });
 
 Mods.push({
@@ -28178,7 +28115,7 @@ Mods.push({
 "created": 1714795770,
 "modified": 1714795770,
 "tags": "Cosmetics",
-"order": 1765
+"order": 1761
 });
 
 Mods.push({
@@ -28195,7 +28132,7 @@ Mods.push({
 "created": 1714871354,
 "modified": 1737934049,
 "tags": "Regions",
-"order": 1766
+"order": 1762
 });
 
 Mods.push({
@@ -28211,7 +28148,7 @@ Mods.push({
 "created": 1714897387,
 "modified": 1714897387,
 "tags": "Custom Region",
-"order": 1767
+"order": 1763
 });
 
 Mods.push({
@@ -28227,7 +28164,7 @@ Mods.push({
 "created": 1714907153,
 "modified": 1714907153,
 "tags": "Cosmetics",
-"order": 1768
+"order": 1764
 });
 
 Mods.push({
@@ -28242,7 +28179,7 @@ Mods.push({
 "created": 1714930193,
 "modified": 1714930193,
 "tags": "Cosmetics",
-"order": 1769
+"order": 1765
 });
 
 Mods.push({
@@ -28258,7 +28195,7 @@ Mods.push({
 "created": 1714955519,
 "modified": 1715908314,
 "tags": "Cosmetics",
-"order": 1770
+"order": 1766
 });
 
 Mods.push({
@@ -28273,7 +28210,7 @@ Mods.push({
 "created": 1714978141,
 "modified": 1715055338,
 "tags": "",
-"order": 1771
+"order": 1767
 });
 
 Mods.push({
@@ -28289,7 +28226,7 @@ Mods.push({
 "created": 1715034210,
 "modified": 1715034210,
 "tags": "",
-"order": 1772
+"order": 1768
 });
 
 Mods.push({
@@ -28305,7 +28242,7 @@ Mods.push({
 "created": 1715034268,
 "modified": 1715034268,
 "tags": "",
-"order": 1773
+"order": 1769
 });
 
 Mods.push({
@@ -28321,7 +28258,7 @@ Mods.push({
 "created": 1715034367,
 "modified": 1715034367,
 "tags": "Cosmetics",
-"order": 1774
+"order": 1770
 });
 
 Mods.push({
@@ -28337,7 +28274,7 @@ Mods.push({
 "created": 1715040998,
 "modified": 1715040998,
 "tags": "",
-"order": 1775
+"order": 1771
 });
 
 Mods.push({
@@ -28353,7 +28290,7 @@ Mods.push({
 "created": 1715047160,
 "modified": 1715047160,
 "tags": "Custom Slugcat,Campaigns",
-"order": 1776
+"order": 1772
 });
 
 Mods.push({
@@ -28369,7 +28306,7 @@ Mods.push({
 "created": 1715096415,
 "modified": 1715096415,
 "tags": "",
-"order": 1777
+"order": 1773
 });
 
 Mods.push({
@@ -28385,7 +28322,7 @@ Mods.push({
 "created": 1715107522,
 "modified": 1716758240,
 "tags": "Cosmetics",
-"order": 1778
+"order": 1774
 });
 
 Mods.push({
@@ -28401,7 +28338,7 @@ Mods.push({
 "created": 1715112613,
 "modified": 1736439743,
 "tags": "Cosmetics",
-"order": 1779
+"order": 1775
 });
 
 Mods.push({
@@ -28417,7 +28354,7 @@ Mods.push({
 "created": 1715130730,
 "modified": 1715130730,
 "tags": "Cosmetics",
-"order": 1780
+"order": 1776
 });
 
 Mods.push({
@@ -28433,7 +28370,7 @@ Mods.push({
 "created": 1715198853,
 "modified": 1715198853,
 "tags": "",
-"order": 1781
+"order": 1777
 });
 
 Mods.push({
@@ -28449,7 +28386,7 @@ Mods.push({
 "created": 1715216973,
 "modified": 1715216973,
 "tags": "Cosmetics",
-"order": 1782
+"order": 1778
 });
 
 Mods.push({
@@ -28465,7 +28402,7 @@ Mods.push({
 "created": 1715259348,
 "modified": 1715543614,
 "tags": "",
-"order": 1783
+"order": 1779
 });
 
 Mods.push({
@@ -28481,7 +28418,7 @@ Mods.push({
 "created": 1715398700,
 "modified": 1722043827,
 "tags": "",
-"order": 1784
+"order": 1780
 });
 
 Mods.push({
@@ -28497,7 +28434,7 @@ Mods.push({
 "created": 1715400864,
 "modified": 1723916306,
 "tags": "Cosmetics",
-"order": 1785
+"order": 1781
 });
 
 Mods.push({
@@ -28513,7 +28450,7 @@ Mods.push({
 "created": 1715458557,
 "modified": 1717235163,
 "tags": "Cosmetics",
-"order": 1786
+"order": 1782
 });
 
 Mods.push({
@@ -28529,7 +28466,7 @@ Mods.push({
 "created": 1715463453,
 "modified": 1716321967,
 "tags": "Accessibility",
-"order": 1787
+"order": 1783
 });
 
 Mods.push({
@@ -28544,7 +28481,7 @@ Mods.push({
 "created": 1715515361,
 "modified": 1715515361,
 "tags": "Cosmetics",
-"order": 1788
+"order": 1784
 });
 
 Mods.push({
@@ -28560,7 +28497,7 @@ Mods.push({
 "created": 1715523476,
 "modified": 1716081482,
 "tags": "",
-"order": 1789
+"order": 1785
 });
 
 Mods.push({
@@ -28576,7 +28513,7 @@ Mods.push({
 "created": 1715544430,
 "modified": 1715544430,
 "tags": "",
-"order": 1790
+"order": 1786
 });
 
 Mods.push({
@@ -28592,7 +28529,7 @@ Mods.push({
 "created": 1715562237,
 "modified": 1723924401,
 "tags": "",
-"order": 1791
+"order": 1787
 });
 
 Mods.push({
@@ -28608,7 +28545,7 @@ Mods.push({
 "created": 1715607415,
 "modified": 1715607415,
 "tags": "Arena",
-"order": 1792
+"order": 1788
 });
 
 Mods.push({
@@ -28623,7 +28560,7 @@ Mods.push({
 "created": 1715687685,
 "modified": 1735727358,
 "tags": "",
-"order": 1793
+"order": 1789
 });
 
 Mods.push({
@@ -28639,7 +28576,7 @@ Mods.push({
 "created": 1715785802,
 "modified": 1715785802,
 "tags": "Cosmetics",
-"order": 1794
+"order": 1790
 });
 
 Mods.push({
@@ -28655,7 +28592,7 @@ Mods.push({
 "created": 1715785912,
 "modified": 1715785912,
 "tags": "Cosmetics",
-"order": 1795
+"order": 1791
 });
 
 Mods.push({
@@ -28670,7 +28607,7 @@ Mods.push({
 "created": 1715798048,
 "modified": 1715798048,
 "tags": "",
-"order": 1796
+"order": 1792
 });
 
 Mods.push({
@@ -28685,7 +28622,7 @@ Mods.push({
 "created": 1715798203,
 "modified": 1715798203,
 "tags": "",
-"order": 1797
+"order": 1793
 });
 
 Mods.push({
@@ -28701,7 +28638,7 @@ Mods.push({
 "created": 1715801875,
 "modified": 1715801875,
 "tags": "Game Mechanics",
-"order": 1798
+"order": 1794
 });
 
 Mods.push({
@@ -28716,7 +28653,7 @@ Mods.push({
 "created": 1715909130,
 "modified": 1715909130,
 "tags": "",
-"order": 1799
+"order": 1795
 });
 
 Mods.push({
@@ -28732,7 +28669,7 @@ Mods.push({
 "created": 1715916346,
 "modified": 1716409296,
 "tags": "",
-"order": 1800
+"order": 1796
 });
 
 Mods.push({
@@ -28748,7 +28685,7 @@ Mods.push({
 "created": 1715961364,
 "modified": 1715961364,
 "tags": "Cosmetics",
-"order": 1801
+"order": 1797
 });
 
 Mods.push({
@@ -28763,7 +28700,7 @@ Mods.push({
 "created": 1715965612,
 "modified": 1736719371,
 "tags": "",
-"order": 1802
+"order": 1798
 });
 
 Mods.push({
@@ -28779,7 +28716,7 @@ Mods.push({
 "created": 1716009985,
 "modified": 1716470165,
 "tags": "",
-"order": 1803
+"order": 1799
 });
 
 Mods.push({
@@ -28795,7 +28732,7 @@ Mods.push({
 "created": 1716068715,
 "modified": 1716068715,
 "tags": "Cosmetics",
-"order": 1804
+"order": 1800
 });
 
 Mods.push({
@@ -28811,7 +28748,7 @@ Mods.push({
 "created": 1716075431,
 "modified": 1737804201,
 "tags": "Custom Slugcat",
-"order": 1805
+"order": 1801
 });
 
 Mods.push({
@@ -28827,7 +28764,7 @@ Mods.push({
 "created": 1716140743,
 "modified": 1716140743,
 "tags": "Cosmetics",
-"order": 1806
+"order": 1802
 });
 
 Mods.push({
@@ -28843,7 +28780,7 @@ Mods.push({
 "created": 1716151056,
 "modified": 1728280858,
 "tags": "",
-"order": 1807
+"order": 1803
 });
 
 Mods.push({
@@ -28859,7 +28796,7 @@ Mods.push({
 "created": 1716151707,
 "modified": 1733624287,
 "tags": "",
-"order": 1808
+"order": 1804
 });
 
 Mods.push({
@@ -28875,7 +28812,7 @@ Mods.push({
 "created": 1716152963,
 "modified": 1716152963,
 "tags": "Cosmetics",
-"order": 1809
+"order": 1805
 });
 
 Mods.push({
@@ -28891,7 +28828,7 @@ Mods.push({
 "created": 1716198156,
 "modified": 1716210983,
 "tags": "Cosmetics",
-"order": 1810
+"order": 1806
 });
 
 Mods.push({
@@ -28907,7 +28844,7 @@ Mods.push({
 "created": 1716284297,
 "modified": 1716680283,
 "tags": "Cosmetics",
-"order": 1811
+"order": 1807
 });
 
 Mods.push({
@@ -28923,7 +28860,7 @@ Mods.push({
 "created": 1716322494,
 "modified": 1716322494,
 "tags": "Cosmetics",
-"order": 1812
+"order": 1808
 });
 
 Mods.push({
@@ -28939,7 +28876,7 @@ Mods.push({
 "created": 1716372484,
 "modified": 1716564416,
 "tags": "Cosmetics",
-"order": 1813
+"order": 1809
 });
 
 Mods.push({
@@ -28955,7 +28892,7 @@ Mods.push({
 "created": 1716384396,
 "modified": 1716384396,
 "tags": "Cosmetics",
-"order": 1814
+"order": 1810
 });
 
 Mods.push({
@@ -28970,7 +28907,7 @@ Mods.push({
 "created": 1716391684,
 "modified": 1716391684,
 "tags": "Debug",
-"order": 1815
+"order": 1811
 });
 
 Mods.push({
@@ -28986,7 +28923,7 @@ Mods.push({
 "created": 1716416173,
 "modified": 1716416173,
 "tags": "",
-"order": 1816
+"order": 1812
 });
 
 Mods.push({
@@ -29002,7 +28939,7 @@ Mods.push({
 "created": 1716427620,
 "modified": 1736718464,
 "tags": "Creatures",
-"order": 1817
+"order": 1813
 });
 
 Mods.push({
@@ -29018,7 +28955,7 @@ Mods.push({
 "created": 1716443807,
 "modified": 1716443807,
 "tags": "Game Mechanics",
-"order": 1818
+"order": 1814
 });
 
 Mods.push({
@@ -29034,7 +28971,7 @@ Mods.push({
 "created": 1716450384,
 "modified": 1716450384,
 "tags": "Cosmetics",
-"order": 1819
+"order": 1815
 });
 
 Mods.push({
@@ -29050,7 +28987,7 @@ Mods.push({
 "created": 1716480082,
 "modified": 1729136067,
 "tags": "Custom Slugcat",
-"order": 1820
+"order": 1816
 });
 
 Mods.push({
@@ -29066,7 +29003,7 @@ Mods.push({
 "created": 1716494480,
 "modified": 1716494480,
 "tags": "",
-"order": 1821
+"order": 1817
 });
 
 Mods.push({
@@ -29082,7 +29019,7 @@ Mods.push({
 "created": 1716530345,
 "modified": 1716530345,
 "tags": "Cosmetics",
-"order": 1822
+"order": 1818
 });
 
 Mods.push({
@@ -29098,7 +29035,7 @@ Mods.push({
 "created": 1716566537,
 "modified": 1716566537,
 "tags": "",
-"order": 1823
+"order": 1819
 });
 
 Mods.push({
@@ -29114,7 +29051,7 @@ Mods.push({
 "created": 1716568264,
 "modified": 1716568264,
 "tags": "Cosmetics",
-"order": 1824
+"order": 1820
 });
 
 Mods.push({
@@ -29130,7 +29067,7 @@ Mods.push({
 "created": 1716575772,
 "modified": 1716575772,
 "tags": "",
-"order": 1825
+"order": 1821
 });
 
 Mods.push({
@@ -29146,7 +29083,7 @@ Mods.push({
 "created": 1716585055,
 "modified": 1716585055,
 "tags": "Cosmetics",
-"order": 1826
+"order": 1822
 });
 
 Mods.push({
@@ -29162,7 +29099,7 @@ Mods.push({
 "created": 1716651496,
 "modified": 1716810556,
 "tags": "Regions",
-"order": 1827
+"order": 1823
 });
 
 Mods.push({
@@ -29177,7 +29114,7 @@ Mods.push({
 "created": 1716667090,
 "modified": 1716667090,
 "tags": "",
-"order": 1828
+"order": 1824
 });
 
 Mods.push({
@@ -29193,7 +29130,7 @@ Mods.push({
 "created": 1716688713,
 "modified": 1716688713,
 "tags": "Cosmetics",
-"order": 1829
+"order": 1825
 });
 
 Mods.push({
@@ -29209,7 +29146,7 @@ Mods.push({
 "created": 1716706938,
 "modified": 1716706938,
 "tags": "Cosmetics",
-"order": 1830
+"order": 1826
 });
 
 Mods.push({
@@ -29225,7 +29162,7 @@ Mods.push({
 "created": 1716738137,
 "modified": 1718333210,
 "tags": "Custom Slugcat",
-"order": 1831
+"order": 1827
 });
 
 Mods.push({
@@ -29241,7 +29178,7 @@ Mods.push({
 "created": 1716742020,
 "modified": 1717076526,
 "tags": "Dependency,Tools",
-"order": 1832
+"order": 1828
 });
 
 Mods.push({
@@ -29257,7 +29194,7 @@ Mods.push({
 "created": 1716745116,
 "modified": 1716745116,
 "tags": "Arenas",
-"order": 1833
+"order": 1829
 });
 
 Mods.push({
@@ -29273,7 +29210,7 @@ Mods.push({
 "created": 1716745545,
 "modified": 1716745545,
 "tags": "",
-"order": 1834
+"order": 1830
 });
 
 Mods.push({
@@ -29289,7 +29226,7 @@ Mods.push({
 "created": 1716747349,
 "modified": 1716747349,
 "tags": "Cosmetics",
-"order": 1835
+"order": 1831
 });
 
 Mods.push({
@@ -29305,7 +29242,7 @@ Mods.push({
 "created": 1716749242,
 "modified": 1725326027,
 "tags": "",
-"order": 1836
+"order": 1832
 });
 
 Mods.push({
@@ -29321,7 +29258,7 @@ Mods.push({
 "created": 1716757228,
 "modified": 1723160909,
 "tags": "Game Mechanics,Items",
-"order": 1837
+"order": 1833
 });
 
 Mods.push({
@@ -29337,7 +29274,7 @@ Mods.push({
 "created": 1716760918,
 "modified": 1716762825,
 "tags": "",
-"order": 1838
+"order": 1834
 });
 
 Mods.push({
@@ -29353,7 +29290,7 @@ Mods.push({
 "created": 1716763400,
 "modified": 1716763400,
 "tags": "Cosmetics",
-"order": 1839
+"order": 1835
 });
 
 Mods.push({
@@ -29369,7 +29306,7 @@ Mods.push({
 "created": 1716814832,
 "modified": 1716814832,
 "tags": "",
-"order": 1840
+"order": 1836
 });
 
 Mods.push({
@@ -29385,7 +29322,7 @@ Mods.push({
 "created": 1716825120,
 "modified": 1716825120,
 "tags": "",
-"order": 1841
+"order": 1837
 });
 
 Mods.push({
@@ -29400,7 +29337,7 @@ Mods.push({
 "created": 1716834744,
 "modified": 1716834744,
 "tags": "",
-"order": 1842
+"order": 1838
 });
 
 Mods.push({
@@ -29416,7 +29353,7 @@ Mods.push({
 "created": 1716846178,
 "modified": 1716846178,
 "tags": "Cosmetics",
-"order": 1843
+"order": 1839
 });
 
 Mods.push({
@@ -29432,7 +29369,7 @@ Mods.push({
 "created": 1716859499,
 "modified": 1716859499,
 "tags": "Cosmetics",
-"order": 1844
+"order": 1840
 });
 
 Mods.push({
@@ -29448,7 +29385,7 @@ Mods.push({
 "created": 1716911596,
 "modified": 1716911596,
 "tags": "",
-"order": 1845
+"order": 1841
 });
 
 Mods.push({
@@ -29464,7 +29401,7 @@ Mods.push({
 "created": 1716947991,
 "modified": 1716947991,
 "tags": "Cosmetics",
-"order": 1846
+"order": 1842
 });
 
 Mods.push({
@@ -29480,7 +29417,7 @@ Mods.push({
 "created": 1716982664,
 "modified": 1716982664,
 "tags": "Cosmetics",
-"order": 1847
+"order": 1843
 });
 
 Mods.push({
@@ -29496,7 +29433,7 @@ Mods.push({
 "created": 1716990012,
 "modified": 1716990012,
 "tags": "Cosmetics",
-"order": 1848
+"order": 1844
 });
 
 Mods.push({
@@ -29512,7 +29449,7 @@ Mods.push({
 "created": 1716992030,
 "modified": 1737557674,
 "tags": "Items",
-"order": 1849
+"order": 1845
 });
 
 Mods.push({
@@ -29528,7 +29465,7 @@ Mods.push({
 "created": 1716996060,
 "modified": 1716996060,
 "tags": "",
-"order": 1850
+"order": 1846
 });
 
 Mods.push({
@@ -29544,7 +29481,7 @@ Mods.push({
 "created": 1717022921,
 "modified": 1717022921,
 "tags": "Cosmetics",
-"order": 1851
+"order": 1847
 });
 
 Mods.push({
@@ -29560,7 +29497,7 @@ Mods.push({
 "created": 1717075945,
 "modified": 1718255977,
 "tags": "Cosmetics",
-"order": 1852
+"order": 1848
 });
 
 Mods.push({
@@ -29576,7 +29513,7 @@ Mods.push({
 "created": 1717078405,
 "modified": 1725986764,
 "tags": "meow meow,meow,Cosmetics,Game Mechanics",
-"order": 1853
+"order": 1849
 });
 
 Mods.push({
@@ -29592,7 +29529,7 @@ Mods.push({
 "created": 1717085878,
 "modified": 1717085878,
 "tags": "",
-"order": 1854
+"order": 1850
 });
 
 Mods.push({
@@ -29607,7 +29544,7 @@ Mods.push({
 "created": 1717100115,
 "modified": 1717100115,
 "tags": "",
-"order": 1855
+"order": 1851
 });
 
 Mods.push({
@@ -29623,7 +29560,7 @@ Mods.push({
 "created": 1717122755,
 "modified": 1717256658,
 "tags": "Cosmetics",
-"order": 1856
+"order": 1852
 });
 
 Mods.push({
@@ -29639,7 +29576,7 @@ Mods.push({
 "created": 1717153892,
 "modified": 1717153892,
 "tags": "",
-"order": 1857
+"order": 1853
 });
 
 Mods.push({
@@ -29655,7 +29592,7 @@ Mods.push({
 "created": 1717158708,
 "modified": 1717158708,
 "tags": "Cosmetics",
-"order": 1858
+"order": 1854
 });
 
 Mods.push({
@@ -29671,7 +29608,7 @@ Mods.push({
 "created": 1717174481,
 "modified": 1725389603,
 "tags": "",
-"order": 1859
+"order": 1855
 });
 
 Mods.push({
@@ -29686,7 +29623,7 @@ Mods.push({
 "created": 1717184997,
 "modified": 1717184997,
 "tags": "",
-"order": 1860
+"order": 1856
 });
 
 Mods.push({
@@ -29701,7 +29638,7 @@ Mods.push({
 "created": 1717185131,
 "modified": 1717254627,
 "tags": "Campaigns,Custom Slugcat",
-"order": 1861
+"order": 1857
 });
 
 Mods.push({
@@ -29717,7 +29654,7 @@ Mods.push({
 "created": 1717196203,
 "modified": 1732170527,
 "tags": "Creatures",
-"order": 1862
+"order": 1858
 });
 
 Mods.push({
@@ -29733,7 +29670,7 @@ Mods.push({
 "created": 1717200258,
 "modified": 1717200258,
 "tags": "Custom Slugcat",
-"order": 1863
+"order": 1859
 });
 
 Mods.push({
@@ -29749,7 +29686,7 @@ Mods.push({
 "created": 1717208889,
 "modified": 1717208889,
 "tags": "Cosmetics",
-"order": 1864
+"order": 1860
 });
 
 Mods.push({
@@ -29765,7 +29702,7 @@ Mods.push({
 "created": 1717262210,
 "modified": 1717262210,
 "tags": "Cosmetics",
-"order": 1865
+"order": 1861
 });
 
 Mods.push({
@@ -29781,7 +29718,7 @@ Mods.push({
 "created": 1717277503,
 "modified": 1719109020,
 "tags": "Game Mechanics",
-"order": 1866
+"order": 1862
 });
 
 Mods.push({
@@ -29797,7 +29734,7 @@ Mods.push({
 "created": 1717362971,
 "modified": 1717362971,
 "tags": "Campaigns,Custom Slugcats",
-"order": 1867
+"order": 1863
 });
 
 Mods.push({
@@ -29813,7 +29750,7 @@ Mods.push({
 "created": 1717371343,
 "modified": 1719794997,
 "tags": "Cosmetics",
-"order": 1868
+"order": 1864
 });
 
 Mods.push({
@@ -29829,7 +29766,7 @@ Mods.push({
 "created": 1717376696,
 "modified": 1717376696,
 "tags": "Cosmetics",
-"order": 1869
+"order": 1865
 });
 
 Mods.push({
@@ -29845,7 +29782,7 @@ Mods.push({
 "created": 1717384939,
 "modified": 1717384939,
 "tags": "",
-"order": 1870
+"order": 1866
 });
 
 Mods.push({
@@ -29861,7 +29798,7 @@ Mods.push({
 "created": 1717424151,
 "modified": 1717424151,
 "tags": "Arena",
-"order": 1871
+"order": 1867
 });
 
 Mods.push({
@@ -29877,7 +29814,7 @@ Mods.push({
 "created": 1717450637,
 "modified": 1717450637,
 "tags": "Cosmetics",
-"order": 1872
+"order": 1868
 });
 
 Mods.push({
@@ -29893,7 +29830,7 @@ Mods.push({
 "created": 1717452283,
 "modified": 1718969031,
 "tags": "Cosmetics",
-"order": 1873
+"order": 1869
 });
 
 Mods.push({
@@ -29909,7 +29846,7 @@ Mods.push({
 "created": 1717458465,
 "modified": 1717891741,
 "tags": "Cosmetics",
-"order": 1874
+"order": 1870
 });
 
 Mods.push({
@@ -29925,7 +29862,7 @@ Mods.push({
 "created": 1717458911,
 "modified": 1733001763,
 "tags": "Creatures",
-"order": 1875
+"order": 1871
 });
 
 Mods.push({
@@ -29941,7 +29878,7 @@ Mods.push({
 "created": 1717464331,
 "modified": 1717464331,
 "tags": "",
-"order": 1876
+"order": 1872
 });
 
 Mods.push({
@@ -29955,9 +29892,9 @@ Mods.push({
 "requirements": "dressmyslugcat",
 "version": "1.3.0",
 "created": 1717464691,
-"modified": 1720942381,
+"modified": 1739867509,
 "tags": "Cosmetics",
-"order": 1877
+"order": 1873
 });
 
 Mods.push({
@@ -29972,7 +29909,7 @@ Mods.push({
 "created": 1717470535,
 "modified": 1717558268,
 "tags": "Cosmetics,Campaigns,Creatures",
-"order": 1878
+"order": 1874
 });
 
 Mods.push({
@@ -29988,7 +29925,7 @@ Mods.push({
 "created": 1717537432,
 "modified": 1717537432,
 "tags": "Cosmetics",
-"order": 1879
+"order": 1875
 });
 
 Mods.push({
@@ -30004,7 +29941,7 @@ Mods.push({
 "created": 1717570532,
 "modified": 1717570532,
 "tags": "Cosmetics",
-"order": 1880
+"order": 1876
 });
 
 Mods.push({
@@ -30020,7 +29957,7 @@ Mods.push({
 "created": 1717581563,
 "modified": 1721744196,
 "tags": "Cosmetics",
-"order": 1881
+"order": 1877
 });
 
 Mods.push({
@@ -30036,7 +29973,7 @@ Mods.push({
 "created": 1717594171,
 "modified": 1717594171,
 "tags": "Tools",
-"order": 1882
+"order": 1878
 });
 
 Mods.push({
@@ -30052,7 +29989,7 @@ Mods.push({
 "created": 1717598252,
 "modified": 1717598252,
 "tags": "Cosmetics",
-"order": 1883
+"order": 1879
 });
 
 Mods.push({
@@ -30068,7 +30005,7 @@ Mods.push({
 "created": 1717601342,
 "modified": 1717601342,
 "tags": "",
-"order": 1884
+"order": 1880
 });
 
 Mods.push({
@@ -30084,7 +30021,7 @@ Mods.push({
 "created": 1717610193,
 "modified": 1718545466,
 "tags": "Cosmetics",
-"order": 1885
+"order": 1881
 });
 
 Mods.push({
@@ -30100,7 +30037,7 @@ Mods.push({
 "created": 1717622712,
 "modified": 1718042228,
 "tags": "Cosmetics",
-"order": 1886
+"order": 1882
 });
 
 Mods.push({
@@ -30115,7 +30052,7 @@ Mods.push({
 "created": 1717623782,
 "modified": 1717644009,
 "tags": "Game Mechanics",
-"order": 1887
+"order": 1883
 });
 
 Mods.push({
@@ -30131,7 +30068,7 @@ Mods.push({
 "created": 1717641375,
 "modified": 1717641375,
 "tags": "",
-"order": 1888
+"order": 1884
 });
 
 Mods.push({
@@ -30147,7 +30084,7 @@ Mods.push({
 "created": 1717649417,
 "modified": 1717649417,
 "tags": "Cosmetics",
-"order": 1889
+"order": 1885
 });
 
 Mods.push({
@@ -30163,7 +30100,7 @@ Mods.push({
 "created": 1717697035,
 "modified": 1717697035,
 "tags": "Lizards",
-"order": 1890
+"order": 1886
 });
 
 Mods.push({
@@ -30175,11 +30112,11 @@ Mods.push({
 "thumb": "previews/3262550300.png",
 "url": "https://andrew.fm/rainworld/raindb/Storms_Fixes_and_Tweaks.zip",
 "requirements": "rwremix",
-"version": "1.1.2",
+"version": "1.1.3",
 "created": 1717709112,
-"modified": 1737690557,
+"modified": 1739744012,
 "tags": "Game Mechanics",
-"order": 1891
+"order": 1887
 });
 
 Mods.push({
@@ -30195,7 +30132,7 @@ Mods.push({
 "created": 1717722596,
 "modified": 1720040677,
 "tags": "Cosmetics",
-"order": 1892
+"order": 1888
 });
 
 Mods.push({
@@ -30203,15 +30140,15 @@ Mods.push({
 "id": "NCR.theunbound",
 "workshop_id": "3262661679",
 "author": "NeonCityRain",
-"desc": "'I was never supposed to be here.'<br>A slugcat with Cyan-lizard-like abilities and a unique overseer friend struggles to survive in a world already built to take down someone like him.<br>Jump a second time in the air... and a third time after long-jumping! His rings change colour depending on its recharge.<br>[h2][u]Please submit a report to the Bug Report thread if this mod is not working![/u][/h2]<br><br>A custom slugcat originally uploaded for 1.9.06 and released for it, updated.<br>Timeline-wise, Unbound is set between Artificer and Hunter post-Moon collapse. Some rooms have been fully level edited to reflect this.<br>Downpour is not necessary, but is heavily recommended in order to fully enjoy exploring.<br>No ending (yet), changes to Iterator dialogue.<br>Utilizing the remix menu is heavily recommended, especially if you find his campaign too difficult.<br>This mod is still a work in progress.<br><br>[img]https://64.media.tumblr.com/d53fe5fc024f1bbbf369107d5bb34bdf/ac3f582a1a3515e0-0f/s640x960/740f1cf36fb61745b4b04320b4b69eff0913ecbd.png[/img]<br><br>[h1]Compatibilities[/h1]<br>[b]Dress My Slugcat[/b]- He has special slots for jumprings. Most graphics will be disabled if DMS is enabled. Note that the graphic may flicker.<br>[b]Random Buffs[/b]- If missing his tail, his cyan jumps are limited. However, NO graphics are enabled when Random Buffs is enabled (regardless of remix settings), as it completely breaks otherwise.<br>[b]Expedition[/b]- Sometimes, he starts in different locations than usual.<br>[b]Push to Meow[/b]- Has custom meows!<br><br>Fake Achievements- planning to expand for it<br><br>[h1]Incompatibilities and Dependencies[/h1]<br>Using Simplified Moveset to wall-climb may cause Unbound to launch rapidly. It's funny, so I may keep it in or make it a future remix toggle.<br>No known incompatibilities. If you find one, please let me know- I wish to make this mod as compatible as possible!<br>People in modding servers insisted I add Regionkit and CRS as dependencies. They DO help, so they will stay dependencies.<br><br>[h1]Known Issues[/h1]<br>- Sometimes the game gets weird if you DON'T have More Slugcats enabled. I want to fix this, so please report any errors if you do not own the DLC!<br>- Sometimes this mod will ping your antivirus. I don't have a clue why. If you are concerned, the Github is below and includes all the code and some extra things (such as WIPs and removed content). But I have like ten dollars to my name so I don't think I could afford to make trojans and have no interest in learning how to, tbh<br>- If you have jumprings [b]ON[/b], DMS sometimes just won't operate properly. I really don't know why. If you're having issues with Unbound and Dress My Slugcat, try turning jumprings off.<br>- Hitting Pebbles with a spear will make him endlessly try to kill the player and causes a softlock.<br><br>[h1]Links[/h1]<br>Github: https://github.com/neoncityrain/NCRUnbound<br>Wiki: https://rainworldmods.miraheze.org/wiki/Unbound<br>Discord Server: https://discord.gg/EmPJh7s2dY<br>Artfight profile: https://artfight.net/character/4449687.the-unbound<br><br>[h1]The Gays (Team)[/h1]<br>[b]NeonCityRain:[/b] Artwork, character design, coding, room design<br>[b]Pink:[/b] Artwork, design, playtesting, optional included DMS skin, emotional support<br><br>[h1]Credits[/h1]<br>[b]Ice Fox of Camelot / Pix:[/b] Playtesting, music that I swear will be used eventually, owns a slugcat in the code<br>[b]Agriocnemis / Ymir:[/b] minor code help, keeping me from spontaneously combusting over math, quality testing dialogue, upcoming update things ;3c<br>[b]Scuglat / CritterHeart[/b]: Encouraging me to revisit this mod, optional included dress my slugcat skin, sleep screen art (index 2, not yet fully implimented)<br>[b]Wolfycatt:[/b] Sleep screen art (index 1)<br>[b]Mattomo:[/b] Pebbles dialogue rewrite<br>[b]Atom:[/b] Room in code<br><br>Playtesters:<br>Enderwolf513 (which you can sometimes see live on Twitch, complete with me bickering with him the entire time: https://www.twitch.tv/enderwolf513), ElektraSkittles, WhippieKippy, Beleth<br><br>And a huge thank you to everyone who was and is kind enough to cheer me on!<br><br>[img]https://64.media.tumblr.com/d0060c076bcb73c7d129dab475e72afb/6b7804842b48728a-13/s400x600/bfd40704f6eaf1f3dcf1252c02952100ec4c7e70.png[/img]<br><br>[h1]Latest Changelog[/h1]<br>- Unlocked Reverb, as they've come up more than once when trying to help others code<br><br>[img]https://64.media.tumblr.com/832e7c268608a3eb3485dcfa160016fe/54c107dad43f1e23-16/s640x960/32b1bd5cc88c3a60ab840c360d0b96ff20b95a68.png[/img]<br><br>[h1]Before You Comment[/h1]<br>- Criticism is not okay due to most people not knowing the difference between criticism, errors, and just plain being a jerk. I also am not in a good mental place for it. Pointing out mistakes, issues, or glitches is helpful, but please don't talk about how much you hate XYZ.<br>- If you find an error, glitch, ect, please use the [url=https://steamcommunity.com/workshop/filedetails/discussion/3262661679/4343239957177356958/]Bug Report Discussion[/url]. It has instructions on how to explain your issues.<br>- I am one transgender, physically disabled, and mentally ill man who makes no money off of this. I make this for fun and don't put my content behind paywalls. Be respectful. If you want to support me, my ko-fi is here: https://ko-fi.com/neoncityrain<br>- Unbound is also transgender, his pronouns are 'he' or 'they'! 'It' or neopronouns are also okay, he'd be a little surprised but not upset! He is one of my most near and dear characters who was not originally made for Rain World.<br>[img]https://64.media.tumblr.com/9cd104f61eaedfa6e9b089c487b411d3/18ef9f4507a7cc67-fc/s2048x3072/0f91795d00e57566535a72d14809630afbec4955.png[/img]",
+"desc": "'I was never supposed to be here.'<br>A slugcat with Cyan-lizard-like abilities and a unique overseer friend struggles to survive in a world already built to take down someone like him.<br>Jump a second time in the air... and a third time after long-jumping! His rings change colour depending on its recharge.<br>[h2][u]Please submit a report to the Bug Report thread if this mod is not working![/u][/h2]<br><br>A custom slugcat originally uploaded for 1.9.06 and released for it, updated.<br>Timeline-wise, Unbound is set between Artificer and Hunter post-Moon collapse. Some rooms have been fully level edited to reflect this.<br>Downpour is not necessary, but is heavily recommended in order to fully enjoy exploring.<br>No ending (yet), changes to Iterator dialogue.<br>Utilizing the remix menu is heavily recommended, especially if you find his campaign too difficult.<br>This mod is still a work in progress.<br><br>[img]https://64.media.tumblr.com/d53fe5fc024f1bbbf369107d5bb34bdf/ac3f582a1a3515e0-0f/s640x960/740f1cf36fb61745b4b04320b4b69eff0913ecbd.png[/img]<br><br>[h1]Compatibilities[/h1]<br>[b]Dress My Slugcat[/b]- He has special slots for jumprings. Most graphics will be disabled if DMS is enabled. Note that the graphic may flicker.<br>[b]Random Buffs[/b]- If missing his tail, his cyan jumps are limited. However, NO graphics are enabled when Random Buffs is enabled (regardless of remix settings), as it completely breaks otherwise.<br>[b]Expedition[/b]- Sometimes, he starts in different locations than usual.<br>[b]Push to Meow[/b]- Has custom meows!<br><br>Fake Achievements- planning to expand for it. someday?<br><br>[h1]Incompatibilities and Dependencies[/h1]<br>Using Simplified Moveset to wall-climb may cause Unbound to launch rapidly. It's funny, so I may keep it in or make it a future remix toggle.<br>No known incompatibilities. If you find one, please let me know- I wish to make this mod as compatible as possible!<br>People in modding servers insisted I add Regionkit and CRS as dependencies. They DO help, so they will stay dependencies.<br><br>[h1]Known Issues[/h1]<br>- Sometimes the game gets weird if you DON'T have More Slugcats enabled. I want to fix this, so please report any errors if you do not own the DLC!<br>- Sometimes this mod will ping your antivirus. This is because it finds files (used for atlases), checks if other mods are enabled (for compatibility, such as removing graphics so Random Buffs can work), and tracks keystrokes (used for Unbound's jump). If you are concerned, [url=https://www.virustotal.com/gui/file/11f34ca9df115b530bc9f31d1039dfb49181afa8408fc332baf4d75d6400c5f8/behavior]here is the VirusTotal log[/url]. If you are STILL concerned, check the Github. You can read his code any time.<br>- Hitting Pebbles with a spear will make him endlessly try to kill the player and causes a softlock.<br><br>[h1]Links[/h1]<br>Github: https://github.com/neoncityrain/NCRUnbound<br>Wiki: https://rainworldmods.miraheze.org/wiki/Unbound<br>Discord Server: https://discord.gg/EmPJh7s2dY<br>Artfight profile: https://artfight.net/character/4449687.the-unbound<br><br>[h1]The Gays (Team)[/h1]<br>[b]NeonCityRain:[/b] Artwork, character design, coding, room design<br>[b]Pink:[/b] Artwork, design, playtesting, optional included DMS skin, emotional support<br><br>[h1]Credits[/h1]<br>[b]Ice Fox of Camelot / Pix:[/b] Playtesting, music that I swear will be used eventually, owns a slugcat in the code<br>[b]Agriocnemis / Ymir:[/b] minor code help, keeping me from spontaneously combusting over math, quality testing dialogue, intro art (wip)<br>[b]Scuglat / CritterHeart[/b]: Encouraging me to revisit this mod, optional included dress my slugcat skin, sleep screen art (index 2, not yet fully implimented)<br>[b]Wolfycatt:[/b] Sleep screen art (index 1)<br>[b]Mattomo:[/b] Pebbles dialogue rewrite<br>[b]Atom:[/b] Room in code (Babel)<br><br>Playtesters:<br>Enderwolf513 (which you can sometimes see live on Twitch, complete with me bickering with him the entire time: https://www.twitch.tv/enderwolf513), ElektraSkittles, WhippieKippy, Beleth<br><br>And a huge thank you to everyone who was and is kind enough to cheer me on!<br><br>[img]https://64.media.tumblr.com/d0060c076bcb73c7d129dab475e72afb/6b7804842b48728a-13/s400x600/bfd40704f6eaf1f3dcf1252c02952100ec4c7e70.png[/img]<br><br>[h1]Latest Changelog[/h1]<br>- New Unbound select screen that's actually secretly months old<br>- Fixed Unbound being able to eat Dandelion Peaches. Sorry, NOT intentional :')<br>- Removed some code that'd cause occasional crashes in other slugcat campaigns, since Unbound REALLY still wanted to check if Gamma was in his shelter when playing Visalt. And for why<br>- Everyone say thank you to Youtubers Bemiscript and Dextech for re-inspiring me to work on Unbound, btw, thank you for playing my silly mod and chattering about him!<br><br>[h1]Before You Comment[/h1]<br>- Criticism is not okay due to most people not knowing the difference between criticism, errors, and just plain being a jerk. I also am not in a good mental place for it. Pointing out mistakes, issues, or glitches is helpful, but please don't talk about how much you hate XYZ.<br>- If you find an error, glitch, ect, please use the [url=https://steamcommunity.com/workshop/filedetails/discussion/3262661679/4343239957177356958/]Bug Report Discussion[/url]. It has instructions on how to explain your issues.<br>- I am one transgender, physically disabled, and mentally ill man who makes no money off of this. I make this for fun and don't put my content behind paywalls. Be respectful. If you want to support me, my ko-fi is here: https://ko-fi.com/neoncityrain<br>- Unbound is also transgender, his pronouns are 'he' or 'they'! 'It' or neopronouns are also okay, he'd be a little surprised but not upset! He is one of my most near and dear characters who was not originally made for Rain World.<br>[img]https://64.media.tumblr.com/9cd104f61eaedfa6e9b089c487b411d3/18ef9f4507a7cc67-fc/s2048x3072/0f91795d00e57566535a72d14809630afbec4955.png[/img]",
 "thumb": "previews/3262661679.png",
 "url": "https://ln5.sync.com/dl/f32be68f0/g7d2uygy-p7yx9jw9-tft7jpy3-x3qwxwqn",
 "requirements": "slime-cubed.slugbase,crs,regionkit",
 "version": "2.3.5",
 "created": 1717726968,
-"modified": 1737838562,
+"modified": 1739185904,
 "tags": "Campaigns,Custom Slugcat",
-"order": 1893
+"order": 1889
 });
 
 Mods.push({
@@ -30226,7 +30163,7 @@ Mods.push({
 "created": 1717731489,
 "modified": 1717731489,
 "tags": "",
-"order": 1894
+"order": 1890
 });
 
 Mods.push({
@@ -30242,7 +30179,7 @@ Mods.push({
 "created": 1717733009,
 "modified": 1717733009,
 "tags": "",
-"order": 1895
+"order": 1891
 });
 
 Mods.push({
@@ -30258,7 +30195,7 @@ Mods.push({
 "created": 1717761840,
 "modified": 1717761840,
 "tags": "Cosmetics",
-"order": 1896
+"order": 1892
 });
 
 Mods.push({
@@ -30274,7 +30211,7 @@ Mods.push({
 "created": 1717771073,
 "modified": 1717771073,
 "tags": "Creatures",
-"order": 1897
+"order": 1893
 });
 
 Mods.push({
@@ -30290,7 +30227,7 @@ Mods.push({
 "created": 1717789327,
 "modified": 1717789327,
 "tags": "",
-"order": 1898
+"order": 1894
 });
 
 Mods.push({
@@ -30306,7 +30243,7 @@ Mods.push({
 "created": 1717790395,
 "modified": 1717790395,
 "tags": "",
-"order": 1899
+"order": 1895
 });
 
 Mods.push({
@@ -30322,7 +30259,7 @@ Mods.push({
 "created": 1717819327,
 "modified": 1717819327,
 "tags": "",
-"order": 1900
+"order": 1896
 });
 
 Mods.push({
@@ -30338,7 +30275,7 @@ Mods.push({
 "created": 1717827908,
 "modified": 1717827908,
 "tags": "Cosmetics",
-"order": 1901
+"order": 1897
 });
 
 Mods.push({
@@ -30354,7 +30291,7 @@ Mods.push({
 "created": 1717911468,
 "modified": 1736112811,
 "tags": "Game Mechanics,Tools",
-"order": 1902
+"order": 1898
 });
 
 Mods.push({
@@ -30370,7 +30307,7 @@ Mods.push({
 "created": 1717914024,
 "modified": 1717914024,
 "tags": "why on earth would you download this",
-"order": 1903
+"order": 1899
 });
 
 Mods.push({
@@ -30386,7 +30323,7 @@ Mods.push({
 "created": 1717930773,
 "modified": 1719022956,
 "tags": "Cosmetics",
-"order": 1904
+"order": 1900
 });
 
 Mods.push({
@@ -30402,7 +30339,7 @@ Mods.push({
 "created": 1717937602,
 "modified": 1736471477,
 "tags": "",
-"order": 1905
+"order": 1901
 });
 
 Mods.push({
@@ -30417,7 +30354,7 @@ Mods.push({
 "created": 1717973211,
 "modified": 1723874960,
 "tags": "",
-"order": 1906
+"order": 1902
 });
 
 Mods.push({
@@ -30433,7 +30370,7 @@ Mods.push({
 "created": 1717992534,
 "modified": 1720826788,
 "tags": "Game Mechanics",
-"order": 1907
+"order": 1903
 });
 
 Mods.push({
@@ -30449,7 +30386,7 @@ Mods.push({
 "created": 1718029040,
 "modified": 1718088186,
 "tags": "",
-"order": 1908
+"order": 1904
 });
 
 Mods.push({
@@ -30465,7 +30402,7 @@ Mods.push({
 "created": 1718056024,
 "modified": 1724008156,
 "tags": "Regions",
-"order": 1909
+"order": 1905
 });
 
 Mods.push({
@@ -30481,7 +30418,7 @@ Mods.push({
 "created": 1718058462,
 "modified": 1724763483,
 "tags": "Regions",
-"order": 1910
+"order": 1906
 });
 
 Mods.push({
@@ -30497,7 +30434,7 @@ Mods.push({
 "created": 1718109393,
 "modified": 1718109393,
 "tags": "Cosmetics",
-"order": 1911
+"order": 1907
 });
 
 Mods.push({
@@ -30513,7 +30450,7 @@ Mods.push({
 "created": 1718133913,
 "modified": 1718737552,
 "tags": "",
-"order": 1912
+"order": 1908
 });
 
 Mods.push({
@@ -30529,7 +30466,7 @@ Mods.push({
 "created": 1718144808,
 "modified": 1718144808,
 "tags": "Cosmetics",
-"order": 1913
+"order": 1909
 });
 
 Mods.push({
@@ -30545,7 +30482,7 @@ Mods.push({
 "created": 1718148967,
 "modified": 1719079087,
 "tags": "",
-"order": 1914
+"order": 1910
 });
 
 Mods.push({
@@ -30561,7 +30498,7 @@ Mods.push({
 "created": 1718165332,
 "modified": 1718381252,
 "tags": "Game Mechanics",
-"order": 1915
+"order": 1911
 });
 
 Mods.push({
@@ -30577,7 +30514,7 @@ Mods.push({
 "created": 1718222555,
 "modified": 1718222555,
 "tags": "Cosmetics",
-"order": 1916
+"order": 1912
 });
 
 Mods.push({
@@ -30593,7 +30530,7 @@ Mods.push({
 "created": 1718228185,
 "modified": 1723575555,
 "tags": "Creatures",
-"order": 1917
+"order": 1913
 });
 
 Mods.push({
@@ -30609,7 +30546,7 @@ Mods.push({
 "created": 1718230902,
 "modified": 1737175069,
 "tags": "Campaigns,Custom Slugcat",
-"order": 1918
+"order": 1914
 });
 
 Mods.push({
@@ -30625,7 +30562,7 @@ Mods.push({
 "created": 1718235967,
 "modified": 1718235967,
 "tags": "Cosmetics",
-"order": 1919
+"order": 1915
 });
 
 Mods.push({
@@ -30641,7 +30578,7 @@ Mods.push({
 "created": 1718322830,
 "modified": 1718322830,
 "tags": "Cosmetics",
-"order": 1920
+"order": 1916
 });
 
 Mods.push({
@@ -30657,7 +30594,7 @@ Mods.push({
 "created": 1718325168,
 "modified": 1718325168,
 "tags": "Custom Slugcat",
-"order": 1921
+"order": 1917
 });
 
 Mods.push({
@@ -30672,7 +30609,7 @@ Mods.push({
 "created": 1718330981,
 "modified": 1718330981,
 "tags": "",
-"order": 1922
+"order": 1918
 });
 
 Mods.push({
@@ -30687,7 +30624,7 @@ Mods.push({
 "created": 1718417764,
 "modified": 1718417764,
 "tags": "",
-"order": 1923
+"order": 1919
 });
 
 Mods.push({
@@ -30702,7 +30639,7 @@ Mods.push({
 "created": 1718430790,
 "modified": 1718430790,
 "tags": "",
-"order": 1924
+"order": 1920
 });
 
 Mods.push({
@@ -30718,7 +30655,7 @@ Mods.push({
 "created": 1718497471,
 "modified": 1718497471,
 "tags": "Cosmetics",
-"order": 1925
+"order": 1921
 });
 
 Mods.push({
@@ -30734,7 +30671,7 @@ Mods.push({
 "created": 1718513110,
 "modified": 1718513110,
 "tags": "I'm going mad",
-"order": 1926
+"order": 1922
 });
 
 Mods.push({
@@ -30749,7 +30686,7 @@ Mods.push({
 "created": 1718539269,
 "modified": 1718539269,
 "tags": "",
-"order": 1927
+"order": 1923
 });
 
 Mods.push({
@@ -30765,7 +30702,7 @@ Mods.push({
 "created": 1718548722,
 "modified": 1718548722,
 "tags": "Cosmetics",
-"order": 1928
+"order": 1924
 });
 
 Mods.push({
@@ -30781,7 +30718,7 @@ Mods.push({
 "created": 1718555642,
 "modified": 1718574763,
 "tags": "Custom Slugcat",
-"order": 1929
+"order": 1925
 });
 
 Mods.push({
@@ -30796,7 +30733,7 @@ Mods.push({
 "created": 1718564196,
 "modified": 1718564196,
 "tags": "",
-"order": 1930
+"order": 1926
 });
 
 Mods.push({
@@ -30812,7 +30749,7 @@ Mods.push({
 "created": 1718567967,
 "modified": 1718567967,
 "tags": "mrow,Cosmetics,Game Mechanics",
-"order": 1931
+"order": 1927
 });
 
 Mods.push({
@@ -30829,7 +30766,7 @@ Mods.push({
 "created": 1718568535,
 "modified": 1718568535,
 "tags": "Cosmetics",
-"order": 1932
+"order": 1928
 });
 
 Mods.push({
@@ -30845,7 +30782,7 @@ Mods.push({
 "created": 1718574918,
 "modified": 1718574918,
 "tags": "Custom Slugcat",
-"order": 1933
+"order": 1929
 });
 
 Mods.push({
@@ -30861,7 +30798,7 @@ Mods.push({
 "created": 1718579001,
 "modified": 1718579001,
 "tags": "Cosmetics",
-"order": 1934
+"order": 1930
 });
 
 Mods.push({
@@ -30877,7 +30814,7 @@ Mods.push({
 "created": 1718581620,
 "modified": 1718669268,
 "tags": "Tools",
-"order": 1935
+"order": 1931
 });
 
 Mods.push({
@@ -30892,7 +30829,7 @@ Mods.push({
 "created": 1718617133,
 "modified": 1718617133,
 "tags": "Cosmetics",
-"order": 1936
+"order": 1932
 });
 
 Mods.push({
@@ -30908,7 +30845,7 @@ Mods.push({
 "created": 1718631740,
 "modified": 1718800429,
 "tags": "Creatures",
-"order": 1937
+"order": 1933
 });
 
 Mods.push({
@@ -30924,7 +30861,7 @@ Mods.push({
 "created": 1718686618,
 "modified": 1725000893,
 "tags": "Creatures",
-"order": 1938
+"order": 1934
 });
 
 Mods.push({
@@ -30940,7 +30877,7 @@ Mods.push({
 "created": 1718693169,
 "modified": 1718902071,
 "tags": "Cosmetics",
-"order": 1939
+"order": 1935
 });
 
 Mods.push({
@@ -30956,7 +30893,7 @@ Mods.push({
 "created": 1718699028,
 "modified": 1718699028,
 "tags": "Cosmetics",
-"order": 1940
+"order": 1936
 });
 
 Mods.push({
@@ -30972,7 +30909,7 @@ Mods.push({
 "created": 1718702721,
 "modified": 1718739103,
 "tags": "Cosmetics",
-"order": 1941
+"order": 1937
 });
 
 Mods.push({
@@ -30988,7 +30925,7 @@ Mods.push({
 "created": 1718742815,
 "modified": 1732152101,
 "tags": "Custom Slugcat",
-"order": 1942
+"order": 1938
 });
 
 Mods.push({
@@ -31004,7 +30941,7 @@ Mods.push({
 "created": 1718771052,
 "modified": 1718771052,
 "tags": "Cosmetics",
-"order": 1943
+"order": 1939
 });
 
 Mods.push({
@@ -31020,7 +30957,7 @@ Mods.push({
 "created": 1718774177,
 "modified": 1718774177,
 "tags": "Cosmetics",
-"order": 1944
+"order": 1940
 });
 
 Mods.push({
@@ -31036,7 +30973,7 @@ Mods.push({
 "created": 1718815991,
 "modified": 1718815991,
 "tags": "",
-"order": 1945
+"order": 1941
 });
 
 Mods.push({
@@ -31052,7 +30989,7 @@ Mods.push({
 "created": 1718846223,
 "modified": 1718846223,
 "tags": "Cosmetics",
-"order": 1946
+"order": 1942
 });
 
 Mods.push({
@@ -31068,7 +31005,7 @@ Mods.push({
 "created": 1718853894,
 "modified": 1736719602,
 "tags": "Cosmetics",
-"order": 1947
+"order": 1943
 });
 
 Mods.push({
@@ -31084,7 +31021,7 @@ Mods.push({
 "created": 1718868789,
 "modified": 1718868789,
 "tags": "Cosmetics",
-"order": 1948
+"order": 1944
 });
 
 Mods.push({
@@ -31100,7 +31037,7 @@ Mods.push({
 "created": 1718888534,
 "modified": 1718888534,
 "tags": "Creatures",
-"order": 1949
+"order": 1945
 });
 
 Mods.push({
@@ -31115,7 +31052,7 @@ Mods.push({
 "created": 1718893555,
 "modified": 1718893555,
 "tags": "",
-"order": 1950
+"order": 1946
 });
 
 Mods.push({
@@ -31131,7 +31068,7 @@ Mods.push({
 "created": 1718898676,
 "modified": 1718908568,
 "tags": "Cosmetics",
-"order": 1951
+"order": 1947
 });
 
 Mods.push({
@@ -31147,7 +31084,7 @@ Mods.push({
 "created": 1718974080,
 "modified": 1718974080,
 "tags": "Cosmetics",
-"order": 1952
+"order": 1948
 });
 
 Mods.push({
@@ -31163,7 +31100,7 @@ Mods.push({
 "created": 1718981252,
 "modified": 1719843665,
 "tags": "Campaigns,Creatures",
-"order": 1953
+"order": 1949
 });
 
 Mods.push({
@@ -31179,7 +31116,7 @@ Mods.push({
 "created": 1718986097,
 "modified": 1737215035,
 "tags": "Regions",
-"order": 1954
+"order": 1950
 });
 
 Mods.push({
@@ -31195,7 +31132,7 @@ Mods.push({
 "created": 1718989392,
 "modified": 1718989392,
 "tags": "Cosmetics",
-"order": 1955
+"order": 1951
 });
 
 Mods.push({
@@ -31211,7 +31148,7 @@ Mods.push({
 "created": 1719110794,
 "modified": 1719543722,
 "tags": "Creatures",
-"order": 1956
+"order": 1952
 });
 
 Mods.push({
@@ -31227,7 +31164,7 @@ Mods.push({
 "created": 1719115355,
 "modified": 1720491902,
 "tags": "",
-"order": 1957
+"order": 1953
 });
 
 Mods.push({
@@ -31243,7 +31180,7 @@ Mods.push({
 "created": 1719150307,
 "modified": 1719150307,
 "tags": "Cosmetics",
-"order": 1958
+"order": 1954
 });
 
 Mods.push({
@@ -31259,7 +31196,7 @@ Mods.push({
 "created": 1719213425,
 "modified": 1719213425,
 "tags": "Cosmetics",
-"order": 1959
+"order": 1955
 });
 
 Mods.push({
@@ -31275,7 +31212,7 @@ Mods.push({
 "created": 1719236146,
 "modified": 1719236146,
 "tags": "Cosmetics",
-"order": 1960
+"order": 1956
 });
 
 Mods.push({
@@ -31290,7 +31227,7 @@ Mods.push({
 "created": 1719242024,
 "modified": 1719242024,
 "tags": "",
-"order": 1961
+"order": 1957
 });
 
 Mods.push({
@@ -31306,7 +31243,7 @@ Mods.push({
 "created": 1719252671,
 "modified": 1719252671,
 "tags": "Cosmetics",
-"order": 1962
+"order": 1958
 });
 
 Mods.push({
@@ -31322,7 +31259,7 @@ Mods.push({
 "created": 1719255733,
 "modified": 1719259407,
 "tags": "Cosmetics",
-"order": 1963
+"order": 1959
 });
 
 Mods.push({
@@ -31337,7 +31274,7 @@ Mods.push({
 "created": 1719322134,
 "modified": 1719322134,
 "tags": "",
-"order": 1964
+"order": 1960
 });
 
 Mods.push({
@@ -31353,7 +31290,7 @@ Mods.push({
 "created": 1719327447,
 "modified": 1719327447,
 "tags": "Cosmetics",
-"order": 1965
+"order": 1961
 });
 
 Mods.push({
@@ -31369,7 +31306,7 @@ Mods.push({
 "created": 1719331887,
 "modified": 1720051356,
 "tags": "Cosmetics",
-"order": 1966
+"order": 1962
 });
 
 Mods.push({
@@ -31385,7 +31322,7 @@ Mods.push({
 "created": 1719338026,
 "modified": 1725895916,
 "tags": "Cosmetics",
-"order": 1967
+"order": 1963
 });
 
 Mods.push({
@@ -31400,7 +31337,7 @@ Mods.push({
 "created": 1719351107,
 "modified": 1719351107,
 "tags": "",
-"order": 1968
+"order": 1964
 });
 
 Mods.push({
@@ -31416,7 +31353,7 @@ Mods.push({
 "created": 1719355149,
 "modified": 1719355983,
 "tags": "Campaigns,Regions,Custom Slugcat",
-"order": 1969
+"order": 1965
 });
 
 Mods.push({
@@ -31432,7 +31369,7 @@ Mods.push({
 "created": 1719375530,
 "modified": 1719375530,
 "tags": "Cosmetics",
-"order": 1970
+"order": 1966
 });
 
 Mods.push({
@@ -31448,7 +31385,7 @@ Mods.push({
 "created": 1719410853,
 "modified": 1719410853,
 "tags": "Cosmetics",
-"order": 1971
+"order": 1967
 });
 
 Mods.push({
@@ -31464,7 +31401,7 @@ Mods.push({
 "created": 1719446894,
 "modified": 1719446894,
 "tags": "Cosmetics",
-"order": 1972
+"order": 1968
 });
 
 Mods.push({
@@ -31481,7 +31418,7 @@ Mods.push({
 "created": 1719488338,
 "modified": 1719488338,
 "tags": "Cosmetics",
-"order": 1973
+"order": 1969
 });
 
 Mods.push({
@@ -31497,7 +31434,7 @@ Mods.push({
 "created": 1719493346,
 "modified": 1719493346,
 "tags": "",
-"order": 1974
+"order": 1970
 });
 
 Mods.push({
@@ -31514,7 +31451,7 @@ Mods.push({
 "created": 1719509622,
 "modified": 1719509622,
 "tags": "Cosmetics",
-"order": 1975
+"order": 1971
 });
 
 Mods.push({
@@ -31530,7 +31467,7 @@ Mods.push({
 "created": 1719517481,
 "modified": 1719517481,
 "tags": "Cosmetics",
-"order": 1976
+"order": 1972
 });
 
 Mods.push({
@@ -31546,7 +31483,7 @@ Mods.push({
 "created": 1719542237,
 "modified": 1719542237,
 "tags": "Cosmetics",
-"order": 1977
+"order": 1973
 });
 
 Mods.push({
@@ -31561,7 +31498,7 @@ Mods.push({
 "created": 1719571944,
 "modified": 1719571944,
 "tags": "",
-"order": 1978
+"order": 1974
 });
 
 Mods.push({
@@ -31577,7 +31514,7 @@ Mods.push({
 "created": 1719592067,
 "modified": 1719972484,
 "tags": "",
-"order": 1979
+"order": 1975
 });
 
 Mods.push({
@@ -31593,7 +31530,7 @@ Mods.push({
 "created": 1719601798,
 "modified": 1719601798,
 "tags": "",
-"order": 1980
+"order": 1976
 });
 
 Mods.push({
@@ -31609,7 +31546,7 @@ Mods.push({
 "created": 1719616344,
 "modified": 1719616344,
 "tags": "Cosmetics",
-"order": 1981
+"order": 1977
 });
 
 Mods.push({
@@ -31625,7 +31562,7 @@ Mods.push({
 "created": 1719617481,
 "modified": 1719617481,
 "tags": "Cosmetics",
-"order": 1982
+"order": 1978
 });
 
 Mods.push({
@@ -31641,7 +31578,7 @@ Mods.push({
 "created": 1719635017,
 "modified": 1719770182,
 "tags": "Cosmetics",
-"order": 1983
+"order": 1979
 });
 
 Mods.push({
@@ -31657,7 +31594,7 @@ Mods.push({
 "created": 1719654612,
 "modified": 1719654612,
 "tags": "Cosmetics",
-"order": 1984
+"order": 1980
 });
 
 Mods.push({
@@ -31665,15 +31602,15 @@ Mods.push({
 "id": "znery.backrooms",
 "workshop_id": "3278042505",
 "author": "znery",
-"desc": "It's a maze, it's a mess, it's coming for you and it's gonna get you. <br>It's The Backrooms<br><br>Awesome review by Lolight2!!! Tysm!!<br><br>connects to all 15 regions survivor has access to<br>gates entrances are [spoiler] next to all the vanilla gate entrances [/spoiler]<br><br>v1.1 <br>theres now a scary creature [spoiler] its just a train lizard at the moment [/spoiler]<br>configurable in the settings<br><br>v1.2<br>warps players into the region when they are out of bounds!!<br>eating mushrooms has a chance to give players noclip!<br>all configurable in settings!<br><br>v1.2.1<br>option to warp all players when everyone is out of bounds/anyone is out of bounds<br><br>current plans: (maybe<br>option to toggle gates connecting to the region<br>custom creature<br>others levels of the backrooms",
+"desc": "It's a maze, it's a mess, it's coming for you and it's gonna get you. <br>It's The Backrooms<br><br>Awesome review by Lolight2!!! Tysm!!<br><br>connects to all 15 regions survivor has access to<br>gates entrances are [spoiler] next to all the vanilla gate entrances [/spoiler]<br><br>v1.1 <br>theres now a scary creature [spoiler] its just a train lizard at the moment [/spoiler]<br>configurable in the settings<br><br>v1.2<br>warps players into the region when they are out of bounds!!<br>eating mushrooms has a chance to give players noclip!<br>all configurable in settings!<br><br>v1.2.1<br>option to warp all players when everyone is out of bounds/anyone is out of bounds<br><br>v1.2.2<br>toggleable hud bar showing the warping progress<br><br>current plans: (maybe<br>option to toggle gates connecting to the region<br>custom creature<br>others levels of the backrooms",
 "thumb": "previews/3278042505.png",
 "url": "https://andrew.fm/rainworld/raindb/The_Backrooms.zip",
 "requirements": "bro.mergefix,regionkit,warp",
-"version": "1.2.1",
+"version": "1.2.2",
 "created": 1719677547,
-"modified": 1737892090,
+"modified": 1739186736,
 "tags": "Regions",
-"order": 1985
+"order": 1981
 });
 
 Mods.push({
@@ -31689,7 +31626,7 @@ Mods.push({
 "created": 1719740807,
 "modified": 1719740807,
 "tags": "",
-"order": 1986
+"order": 1982
 });
 
 Mods.push({
@@ -31705,7 +31642,7 @@ Mods.push({
 "created": 1719781857,
 "modified": 1719781857,
 "tags": "Game Modes",
-"order": 1987
+"order": 1983
 });
 
 Mods.push({
@@ -31721,7 +31658,7 @@ Mods.push({
 "created": 1719787491,
 "modified": 1719787491,
 "tags": "",
-"order": 1988
+"order": 1984
 });
 
 Mods.push({
@@ -31737,7 +31674,7 @@ Mods.push({
 "created": 1719804459,
 "modified": 1719901167,
 "tags": "Items",
-"order": 1989
+"order": 1985
 });
 
 Mods.push({
@@ -31753,7 +31690,7 @@ Mods.push({
 "created": 1719806553,
 "modified": 1719806553,
 "tags": "Cosmetics",
-"order": 1990
+"order": 1986
 });
 
 Mods.push({
@@ -31769,7 +31706,7 @@ Mods.push({
 "created": 1719808945,
 "modified": 1722402014,
 "tags": "Cosmetics",
-"order": 1991
+"order": 1987
 });
 
 Mods.push({
@@ -31785,7 +31722,7 @@ Mods.push({
 "created": 1719817534,
 "modified": 1719821911,
 "tags": "Custom Slugcat",
-"order": 1992
+"order": 1988
 });
 
 Mods.push({
@@ -31801,7 +31738,7 @@ Mods.push({
 "created": 1719836440,
 "modified": 1719838992,
 "tags": "Cosmetics",
-"order": 1993
+"order": 1989
 });
 
 Mods.push({
@@ -31817,7 +31754,7 @@ Mods.push({
 "created": 1719866537,
 "modified": 1725388841,
 "tags": "",
-"order": 1994
+"order": 1990
 });
 
 Mods.push({
@@ -31833,7 +31770,7 @@ Mods.push({
 "created": 1719887301,
 "modified": 1737174972,
 "tags": "Accessibility,Game Mechanics",
-"order": 1995
+"order": 1991
 });
 
 Mods.push({
@@ -31850,7 +31787,7 @@ Mods.push({
 "created": 1719914731,
 "modified": 1719914731,
 "tags": "Cosmetics",
-"order": 1996
+"order": 1992
 });
 
 Mods.push({
@@ -31866,7 +31803,7 @@ Mods.push({
 "created": 1719916243,
 "modified": 1721255495,
 "tags": "Custom Slugcat",
-"order": 1997
+"order": 1993
 });
 
 Mods.push({
@@ -31882,7 +31819,7 @@ Mods.push({
 "created": 1719916285,
 "modified": 1734620535,
 "tags": "Game Mechanics,Custom Slugcat",
-"order": 1998
+"order": 1994
 });
 
 Mods.push({
@@ -31897,7 +31834,7 @@ Mods.push({
 "created": 1719926104,
 "modified": 1719926104,
 "tags": "Accessibility,Game Mechanics",
-"order": 1999
+"order": 1995
 });
 
 Mods.push({
@@ -31912,7 +31849,7 @@ Mods.push({
 "created": 1719942084,
 "modified": 1719942084,
 "tags": "",
-"order": 2000
+"order": 1996
 });
 
 Mods.push({
@@ -31927,7 +31864,7 @@ Mods.push({
 "created": 1719942928,
 "modified": 1719942928,
 "tags": "",
-"order": 2001
+"order": 1997
 });
 
 Mods.push({
@@ -31943,7 +31880,7 @@ Mods.push({
 "created": 1719950667,
 "modified": 1719950667,
 "tags": "Cosmetics",
-"order": 2002
+"order": 1998
 });
 
 Mods.push({
@@ -31959,7 +31896,7 @@ Mods.push({
 "created": 1719963319,
 "modified": 1719963319,
 "tags": "Cosmetics",
-"order": 2003
+"order": 1999
 });
 
 Mods.push({
@@ -31974,7 +31911,7 @@ Mods.push({
 "created": 1719964685,
 "modified": 1719964685,
 "tags": "",
-"order": 2004
+"order": 2000
 });
 
 Mods.push({
@@ -31989,7 +31926,7 @@ Mods.push({
 "created": 1719965077,
 "modified": 1719965077,
 "tags": "",
-"order": 2005
+"order": 2001
 });
 
 Mods.push({
@@ -32005,7 +31942,7 @@ Mods.push({
 "created": 1719977448,
 "modified": 1719977448,
 "tags": "Cosmetics",
-"order": 2006
+"order": 2002
 });
 
 Mods.push({
@@ -32021,7 +31958,7 @@ Mods.push({
 "created": 1720015914,
 "modified": 1720015914,
 "tags": "Cosmetics",
-"order": 2007
+"order": 2003
 });
 
 Mods.push({
@@ -32037,7 +31974,7 @@ Mods.push({
 "created": 1720041238,
 "modified": 1720041238,
 "tags": "Cosmetics",
-"order": 2008
+"order": 2004
 });
 
 Mods.push({
@@ -32052,7 +31989,7 @@ Mods.push({
 "created": 1720066062,
 "modified": 1720132597,
 "tags": "Accessibility,Game Mechanics",
-"order": 2009
+"order": 2005
 });
 
 Mods.push({
@@ -32068,7 +32005,7 @@ Mods.push({
 "created": 1720202223,
 "modified": 1720202223,
 "tags": "Cosmetics",
-"order": 2010
+"order": 2006
 });
 
 Mods.push({
@@ -32084,7 +32021,7 @@ Mods.push({
 "created": 1720207333,
 "modified": 1720207333,
 "tags": "Cosmetics",
-"order": 2011
+"order": 2007
 });
 
 Mods.push({
@@ -32100,7 +32037,7 @@ Mods.push({
 "created": 1720254126,
 "modified": 1720500556,
 "tags": "Custom Slugcat,Campaigns",
-"order": 2012
+"order": 2008
 });
 
 Mods.push({
@@ -32116,7 +32053,7 @@ Mods.push({
 "created": 1720299318,
 "modified": 1720299318,
 "tags": "Cosmetics",
-"order": 2013
+"order": 2009
 });
 
 Mods.push({
@@ -32132,7 +32069,7 @@ Mods.push({
 "created": 1720381648,
 "modified": 1720382785,
 "tags": "Regions",
-"order": 2014
+"order": 2010
 });
 
 Mods.push({
@@ -32148,7 +32085,7 @@ Mods.push({
 "created": 1720457160,
 "modified": 1720474365,
 "tags": "Cosmetics",
-"order": 2015
+"order": 2011
 });
 
 Mods.push({
@@ -32164,7 +32101,7 @@ Mods.push({
 "created": 1720476020,
 "modified": 1720476020,
 "tags": "Cosmetics",
-"order": 2016
+"order": 2012
 });
 
 Mods.push({
@@ -32179,7 +32116,7 @@ Mods.push({
 "created": 1720476255,
 "modified": 1721571373,
 "tags": "Regions",
-"order": 2017
+"order": 2013
 });
 
 Mods.push({
@@ -32194,7 +32131,7 @@ Mods.push({
 "created": 1720478857,
 "modified": 1720478857,
 "tags": "",
-"order": 2018
+"order": 2014
 });
 
 Mods.push({
@@ -32210,7 +32147,7 @@ Mods.push({
 "created": 1720483849,
 "modified": 1720722208,
 "tags": "Custom Slugcat",
-"order": 2019
+"order": 2015
 });
 
 Mods.push({
@@ -32225,7 +32162,7 @@ Mods.push({
 "created": 1720497510,
 "modified": 1720497510,
 "tags": "",
-"order": 2020
+"order": 2016
 });
 
 Mods.push({
@@ -32240,7 +32177,7 @@ Mods.push({
 "created": 1720545886,
 "modified": 1720545886,
 "tags": "Regions",
-"order": 2021
+"order": 2017
 });
 
 Mods.push({
@@ -32256,7 +32193,7 @@ Mods.push({
 "created": 1720571049,
 "modified": 1720571049,
 "tags": "Cosmetics",
-"order": 2022
+"order": 2018
 });
 
 Mods.push({
@@ -32272,7 +32209,7 @@ Mods.push({
 "created": 1720615359,
 "modified": 1720615359,
 "tags": "",
-"order": 2023
+"order": 2019
 });
 
 Mods.push({
@@ -32288,7 +32225,7 @@ Mods.push({
 "created": 1720658144,
 "modified": 1720658144,
 "tags": "Cosmetics",
-"order": 2024
+"order": 2020
 });
 
 Mods.push({
@@ -32304,7 +32241,7 @@ Mods.push({
 "created": 1720669340,
 "modified": 1720669340,
 "tags": "Cosmetics",
-"order": 2025
+"order": 2021
 });
 
 Mods.push({
@@ -32320,7 +32257,7 @@ Mods.push({
 "created": 1720695222,
 "modified": 1722163121,
 "tags": "Game Mechanics",
-"order": 2026
+"order": 2022
 });
 
 Mods.push({
@@ -32336,7 +32273,7 @@ Mods.push({
 "created": 1720701713,
 "modified": 1720701713,
 "tags": "Cosmetics",
-"order": 2027
+"order": 2023
 });
 
 Mods.push({
@@ -32352,7 +32289,7 @@ Mods.push({
 "created": 1720706919,
 "modified": 1720706919,
 "tags": "Lizards",
-"order": 2028
+"order": 2024
 });
 
 Mods.push({
@@ -32368,7 +32305,7 @@ Mods.push({
 "created": 1720709775,
 "modified": 1721956820,
 "tags": "Regions",
-"order": 2029
+"order": 2025
 });
 
 Mods.push({
@@ -32383,7 +32320,7 @@ Mods.push({
 "created": 1720730661,
 "modified": 1720886631,
 "tags": "",
-"order": 2030
+"order": 2026
 });
 
 Mods.push({
@@ -32399,7 +32336,7 @@ Mods.push({
 "created": 1720762956,
 "modified": 1720836126,
 "tags": "Cosmetics",
-"order": 2031
+"order": 2027
 });
 
 Mods.push({
@@ -32415,7 +32352,7 @@ Mods.push({
 "created": 1720769284,
 "modified": 1725287309,
 "tags": "Cosmetics",
-"order": 2032
+"order": 2028
 });
 
 Mods.push({
@@ -32431,7 +32368,7 @@ Mods.push({
 "created": 1720773564,
 "modified": 1720773564,
 "tags": "Cosmetics",
-"order": 2033
+"order": 2029
 });
 
 Mods.push({
@@ -32447,7 +32384,7 @@ Mods.push({
 "created": 1720776210,
 "modified": 1720776210,
 "tags": "Cosmetics",
-"order": 2034
+"order": 2030
 });
 
 Mods.push({
@@ -32463,7 +32400,7 @@ Mods.push({
 "created": 1720815381,
 "modified": 1720815381,
 "tags": "Cosmetics",
-"order": 2035
+"order": 2031
 });
 
 Mods.push({
@@ -32479,7 +32416,7 @@ Mods.push({
 "created": 1720884814,
 "modified": 1721802240,
 "tags": "Custom Slugcat,Creatures,Campaigns",
-"order": 2036
+"order": 2032
 });
 
 Mods.push({
@@ -32495,7 +32432,7 @@ Mods.push({
 "created": 1720893149,
 "modified": 1720893149,
 "tags": "Cosmetics",
-"order": 2037
+"order": 2033
 });
 
 Mods.push({
@@ -32510,7 +32447,7 @@ Mods.push({
 "created": 1720895600,
 "modified": 1720895600,
 "tags": "Creatures",
-"order": 2038
+"order": 2034
 });
 
 Mods.push({
@@ -32526,7 +32463,7 @@ Mods.push({
 "created": 1720896924,
 "modified": 1720901044,
 "tags": "Arenas,Game Modes",
-"order": 2039
+"order": 2035
 });
 
 Mods.push({
@@ -32541,7 +32478,7 @@ Mods.push({
 "created": 1720902350,
 "modified": 1720902350,
 "tags": "",
-"order": 2040
+"order": 2036
 });
 
 Mods.push({
@@ -32557,7 +32494,7 @@ Mods.push({
 "created": 1720903121,
 "modified": 1720977079,
 "tags": "Items",
-"order": 2041
+"order": 2037
 });
 
 Mods.push({
@@ -32573,7 +32510,7 @@ Mods.push({
 "created": 1720921139,
 "modified": 1722627203,
 "tags": "Campaigns,Custom Slugcats",
-"order": 2042
+"order": 2038
 });
 
 Mods.push({
@@ -32589,7 +32526,7 @@ Mods.push({
 "created": 1720945292,
 "modified": 1720945292,
 "tags": "",
-"order": 2043
+"order": 2039
 });
 
 Mods.push({
@@ -32605,7 +32542,7 @@ Mods.push({
 "created": 1720959086,
 "modified": 1730811775,
 "tags": "Regions",
-"order": 2044
+"order": 2040
 });
 
 Mods.push({
@@ -32620,7 +32557,7 @@ Mods.push({
 "created": 1721058598,
 "modified": 1721837033,
 "tags": "Creatures",
-"order": 2045
+"order": 2041
 });
 
 Mods.push({
@@ -32636,7 +32573,7 @@ Mods.push({
 "created": 1721060589,
 "modified": 1721060589,
 "tags": "Cosmetics",
-"order": 2046
+"order": 2042
 });
 
 Mods.push({
@@ -32652,7 +32589,7 @@ Mods.push({
 "created": 1721086078,
 "modified": 1721086078,
 "tags": "Cosmetics",
-"order": 2047
+"order": 2043
 });
 
 Mods.push({
@@ -32668,7 +32605,7 @@ Mods.push({
 "created": 1721086091,
 "modified": 1721086091,
 "tags": "Cosmetics",
-"order": 2048
+"order": 2044
 });
 
 Mods.push({
@@ -32684,7 +32621,7 @@ Mods.push({
 "created": 1721086105,
 "modified": 1721086105,
 "tags": "Cosmetics",
-"order": 2049
+"order": 2045
 });
 
 Mods.push({
@@ -32700,7 +32637,7 @@ Mods.push({
 "created": 1721093473,
 "modified": 1732402541,
 "tags": "Cosmetics",
-"order": 2050
+"order": 2046
 });
 
 Mods.push({
@@ -32716,7 +32653,7 @@ Mods.push({
 "created": 1721133608,
 "modified": 1721133608,
 "tags": "Cosmetics",
-"order": 2051
+"order": 2047
 });
 
 Mods.push({
@@ -32732,7 +32669,7 @@ Mods.push({
 "created": 1721153776,
 "modified": 1721153776,
 "tags": "Cosmetics",
-"order": 2052
+"order": 2048
 });
 
 Mods.push({
@@ -32748,7 +32685,7 @@ Mods.push({
 "created": 1721185033,
 "modified": 1721185033,
 "tags": "Cosmetics",
-"order": 2053
+"order": 2049
 });
 
 Mods.push({
@@ -32764,23 +32701,7 @@ Mods.push({
 "created": 1721197460,
 "modified": 1724180947,
 "tags": "Cosmetics",
-"order": 2054
-});
-
-Mods.push({
-"name": "MOULDCAR!!! WOAH",
-"id": "mouldcat.dms",
-"workshop_id": "3291317706",
-"author": "Gleebypop",
-"desc": "now you can play as my favourite idiot baby oc whos full of mould!<br>recommended to set everything to #FFFFFF aka white, tail isnt asymmetrical, feel free to mess around with size options if you want lol :P",
-"thumb": "previews/3291317706.png",
-"url": "https://andrew.fm/rainworld/raindb/MOULDCAR_WOAH.zip",
-"requirements": "dressmyslugcat",
-"version": "1.0.0",
-"created": 1721234686,
-"modified": 1721234686,
-"tags": "Cosmetics",
-"order": 2055
+"order": 2050
 });
 
 Mods.push({
@@ -32796,7 +32717,7 @@ Mods.push({
 "created": 1721247827,
 "modified": 1722659170,
 "tags": "",
-"order": 2056
+"order": 2051
 });
 
 Mods.push({
@@ -32812,7 +32733,7 @@ Mods.push({
 "created": 1721255690,
 "modified": 1721255690,
 "tags": "Cosmetics",
-"order": 2057
+"order": 2052
 });
 
 Mods.push({
@@ -32828,7 +32749,7 @@ Mods.push({
 "created": 1721310567,
 "modified": 1722449413,
 "tags": "Game Modes",
-"order": 2058
+"order": 2053
 });
 
 Mods.push({
@@ -32844,7 +32765,7 @@ Mods.push({
 "created": 1721313986,
 "modified": 1724006593,
 "tags": "Items,Custom Slugcat",
-"order": 2059
+"order": 2054
 });
 
 Mods.push({
@@ -32860,7 +32781,7 @@ Mods.push({
 "created": 1721410399,
 "modified": 1726404810,
 "tags": "Cosmetics",
-"order": 2060
+"order": 2055
 });
 
 Mods.push({
@@ -32876,7 +32797,7 @@ Mods.push({
 "created": 1721416594,
 "modified": 1721416594,
 "tags": "",
-"order": 2061
+"order": 2056
 });
 
 Mods.push({
@@ -32891,7 +32812,7 @@ Mods.push({
 "created": 1721419693,
 "modified": 1721419693,
 "tags": "Regions",
-"order": 2062
+"order": 2057
 });
 
 Mods.push({
@@ -32906,7 +32827,7 @@ Mods.push({
 "created": 1721420128,
 "modified": 1721420128,
 "tags": "Regions",
-"order": 2063
+"order": 2058
 });
 
 Mods.push({
@@ -32922,7 +32843,7 @@ Mods.push({
 "created": 1721421295,
 "modified": 1723910850,
 "tags": "Cosmetics",
-"order": 2064
+"order": 2059
 });
 
 Mods.push({
@@ -32938,7 +32859,7 @@ Mods.push({
 "created": 1721424110,
 "modified": 1721424110,
 "tags": "",
-"order": 2065
+"order": 2060
 });
 
 Mods.push({
@@ -32954,7 +32875,7 @@ Mods.push({
 "created": 1721448812,
 "modified": 1721448812,
 "tags": "Cosmetics",
-"order": 2066
+"order": 2061
 });
 
 Mods.push({
@@ -32970,7 +32891,7 @@ Mods.push({
 "created": 1721463573,
 "modified": 1722739442,
 "tags": "",
-"order": 2067
+"order": 2062
 });
 
 Mods.push({
@@ -32986,7 +32907,7 @@ Mods.push({
 "created": 1721463967,
 "modified": 1729513400,
 "tags": "",
-"order": 2068
+"order": 2063
 });
 
 Mods.push({
@@ -33002,7 +32923,7 @@ Mods.push({
 "created": 1721464623,
 "modified": 1721464623,
 "tags": "Cosmetics",
-"order": 2069
+"order": 2064
 });
 
 Mods.push({
@@ -33018,7 +32939,7 @@ Mods.push({
 "created": 1721488120,
 "modified": 1721488120,
 "tags": "Cosmetics",
-"order": 2070
+"order": 2065
 });
 
 Mods.push({
@@ -33034,7 +32955,7 @@ Mods.push({
 "created": 1721504646,
 "modified": 1721504646,
 "tags": "Cosmetics",
-"order": 2071
+"order": 2066
 });
 
 Mods.push({
@@ -33050,7 +32971,7 @@ Mods.push({
 "created": 1721511152,
 "modified": 1721511152,
 "tags": "Cosmetics",
-"order": 2072
+"order": 2067
 });
 
 Mods.push({
@@ -33066,7 +32987,7 @@ Mods.push({
 "created": 1721529522,
 "modified": 1721529522,
 "tags": "Cosmetics",
-"order": 2073
+"order": 2068
 });
 
 Mods.push({
@@ -33082,7 +33003,7 @@ Mods.push({
 "created": 1721614327,
 "modified": 1725118543,
 "tags": "",
-"order": 2074
+"order": 2069
 });
 
 Mods.push({
@@ -33098,7 +33019,7 @@ Mods.push({
 "created": 1721689460,
 "modified": 1721689460,
 "tags": "Custom Slugcat",
-"order": 2075
+"order": 2070
 });
 
 Mods.push({
@@ -33113,7 +33034,7 @@ Mods.push({
 "created": 1721746969,
 "modified": 1721746969,
 "tags": "",
-"order": 2076
+"order": 2071
 });
 
 Mods.push({
@@ -33129,7 +33050,7 @@ Mods.push({
 "created": 1721760234,
 "modified": 1722993139,
 "tags": "",
-"order": 2077
+"order": 2072
 });
 
 Mods.push({
@@ -33145,7 +33066,7 @@ Mods.push({
 "created": 1721763887,
 "modified": 1721763887,
 "tags": "Cosmetics",
-"order": 2078
+"order": 2073
 });
 
 Mods.push({
@@ -33161,7 +33082,7 @@ Mods.push({
 "created": 1721837661,
 "modified": 1722167314,
 "tags": "Cosmetics",
-"order": 2079
+"order": 2074
 });
 
 Mods.push({
@@ -33177,7 +33098,7 @@ Mods.push({
 "created": 1721873304,
 "modified": 1721873304,
 "tags": "",
-"order": 2080
+"order": 2075
 });
 
 Mods.push({
@@ -33193,7 +33114,7 @@ Mods.push({
 "created": 1721897345,
 "modified": 1722506251,
 "tags": "Cosmetics",
-"order": 2081
+"order": 2076
 });
 
 Mods.push({
@@ -33209,7 +33130,7 @@ Mods.push({
 "created": 1721912715,
 "modified": 1722117675,
 "tags": "Cosmetics",
-"order": 2082
+"order": 2077
 });
 
 Mods.push({
@@ -33225,7 +33146,7 @@ Mods.push({
 "created": 1721926116,
 "modified": 1721926116,
 "tags": "Cosmetics",
-"order": 2083
+"order": 2078
 });
 
 Mods.push({
@@ -33240,7 +33161,7 @@ Mods.push({
 "created": 1721928889,
 "modified": 1722011080,
 "tags": "Creatures",
-"order": 2084
+"order": 2079
 });
 
 Mods.push({
@@ -33256,7 +33177,7 @@ Mods.push({
 "created": 1721943754,
 "modified": 1721943754,
 "tags": "Cosmetics",
-"order": 2085
+"order": 2080
 });
 
 Mods.push({
@@ -33272,7 +33193,7 @@ Mods.push({
 "created": 1721950148,
 "modified": 1721950148,
 "tags": "Cosmetics",
-"order": 2086
+"order": 2081
 });
 
 Mods.push({
@@ -33288,7 +33209,7 @@ Mods.push({
 "created": 1721967509,
 "modified": 1721967509,
 "tags": "Cosmetics",
-"order": 2087
+"order": 2082
 });
 
 Mods.push({
@@ -33304,7 +33225,7 @@ Mods.push({
 "created": 1722020748,
 "modified": 1722020748,
 "tags": "Cosmetics",
-"order": 2088
+"order": 2083
 });
 
 Mods.push({
@@ -33320,7 +33241,7 @@ Mods.push({
 "created": 1722075750,
 "modified": 1722075750,
 "tags": "Cosmetics",
-"order": 2089
+"order": 2084
 });
 
 Mods.push({
@@ -33336,7 +33257,7 @@ Mods.push({
 "created": 1722077130,
 "modified": 1722077130,
 "tags": "Cosmetics",
-"order": 2090
+"order": 2085
 });
 
 Mods.push({
@@ -33352,7 +33273,7 @@ Mods.push({
 "created": 1722083020,
 "modified": 1733278571,
 "tags": "Regions",
-"order": 2091
+"order": 2086
 });
 
 Mods.push({
@@ -33368,7 +33289,7 @@ Mods.push({
 "created": 1722100464,
 "modified": 1722103990,
 "tags": "",
-"order": 2092
+"order": 2087
 });
 
 Mods.push({
@@ -33384,7 +33305,7 @@ Mods.push({
 "created": 1722100694,
 "modified": 1722100694,
 "tags": "Cosmetics",
-"order": 2093
+"order": 2088
 });
 
 Mods.push({
@@ -33400,7 +33321,7 @@ Mods.push({
 "created": 1722105418,
 "modified": 1722105418,
 "tags": "",
-"order": 2094
+"order": 2089
 });
 
 Mods.push({
@@ -33416,7 +33337,7 @@ Mods.push({
 "created": 1722129735,
 "modified": 1722129735,
 "tags": "",
-"order": 2095
+"order": 2090
 });
 
 Mods.push({
@@ -33432,7 +33353,7 @@ Mods.push({
 "created": 1722173052,
 "modified": 1722173052,
 "tags": "Cosmetics",
-"order": 2096
+"order": 2091
 });
 
 Mods.push({
@@ -33448,7 +33369,7 @@ Mods.push({
 "created": 1722185837,
 "modified": 1722459976,
 "tags": "Tools",
-"order": 2097
+"order": 2092
 });
 
 Mods.push({
@@ -33464,7 +33385,7 @@ Mods.push({
 "created": 1722220328,
 "modified": 1722220328,
 "tags": "Cosmetics",
-"order": 2098
+"order": 2093
 });
 
 Mods.push({
@@ -33480,14 +33401,14 @@ Mods.push({
 "created": 1722234599,
 "modified": 1722421622,
 "tags": "Custom Slugcat",
-"order": 2099
+"order": 2094
 });
 
 Mods.push({
 "name": "Falconer Skin",
 "id": "dumbass bird",
 "workshop_id": "3298971319",
-"author": "Vigaro, Frithuritaks, WillowWisp, BensoneWhite, forthbridge, NoirCatto",
+"author": "Vigaro, Frithuritaks, WillowWisp, BensoneWhite, forthfora, NoirCatto",
 "desc": "Dress My Slugcat skin for The Falconer, i plan on making the actual skin part of the full mod so dress my slugcat isnt required. set everything as white, and enjoy",
 "thumb": "previews/3298971319.png",
 "url": "https://andrew.fm/rainworld/raindb/Falconer_Skin.zip",
@@ -33496,7 +33417,7 @@ Mods.push({
 "created": 1722234626,
 "modified": 1722234626,
 "tags": "Cosmetics,Dependency,Tools",
-"order": 2100
+"order": 2095
 });
 
 Mods.push({
@@ -33512,7 +33433,7 @@ Mods.push({
 "created": 1722236314,
 "modified": 1722236314,
 "tags": "Cosmetics,Dependency,Tools",
-"order": 2101
+"order": 2096
 });
 
 Mods.push({
@@ -33528,7 +33449,7 @@ Mods.push({
 "created": 1722239736,
 "modified": 1722239736,
 "tags": "Cosmetics",
-"order": 2102
+"order": 2097
 });
 
 Mods.push({
@@ -33544,7 +33465,7 @@ Mods.push({
 "created": 1722247843,
 "modified": 1722247843,
 "tags": "Cosmetics",
-"order": 2103
+"order": 2098
 });
 
 Mods.push({
@@ -33561,7 +33482,7 @@ Mods.push({
 "created": 1722301423,
 "modified": 1722301423,
 "tags": "Cosmetics",
-"order": 2104
+"order": 2099
 });
 
 Mods.push({
@@ -33577,7 +33498,7 @@ Mods.push({
 "created": 1722301581,
 "modified": 1722714776,
 "tags": "Cosmetics",
-"order": 2105
+"order": 2100
 });
 
 Mods.push({
@@ -33592,7 +33513,7 @@ Mods.push({
 "created": 1722366967,
 "modified": 1722366967,
 "tags": "Regions",
-"order": 2106
+"order": 2101
 });
 
 Mods.push({
@@ -33608,7 +33529,7 @@ Mods.push({
 "created": 1722378830,
 "modified": 1722404370,
 "tags": "Cosmetics",
-"order": 2107
+"order": 2102
 });
 
 Mods.push({
@@ -33624,7 +33545,7 @@ Mods.push({
 "created": 1722472394,
 "modified": 1722472394,
 "tags": "",
-"order": 2108
+"order": 2103
 });
 
 Mods.push({
@@ -33640,7 +33561,7 @@ Mods.push({
 "created": 1722539694,
 "modified": 1722539694,
 "tags": "Cosmetics",
-"order": 2109
+"order": 2104
 });
 
 Mods.push({
@@ -33657,7 +33578,7 @@ Mods.push({
 "created": 1722549915,
 "modified": 1729016366,
 "tags": "Regions",
-"order": 2110
+"order": 2105
 });
 
 Mods.push({
@@ -33673,7 +33594,7 @@ Mods.push({
 "created": 1722551592,
 "modified": 1722551592,
 "tags": "",
-"order": 2111
+"order": 2106
 });
 
 Mods.push({
@@ -33689,7 +33610,7 @@ Mods.push({
 "created": 1722568386,
 "modified": 1725484999,
 "tags": "Cosmetics",
-"order": 2112
+"order": 2107
 });
 
 Mods.push({
@@ -33705,7 +33626,7 @@ Mods.push({
 "created": 1722595568,
 "modified": 1728738773,
 "tags": "Game Mechanics,Accessibility",
-"order": 2113
+"order": 2108
 });
 
 Mods.push({
@@ -33720,7 +33641,7 @@ Mods.push({
 "created": 1722628066,
 "modified": 1722628066,
 "tags": "",
-"order": 2114
+"order": 2109
 });
 
 Mods.push({
@@ -33735,7 +33656,7 @@ Mods.push({
 "created": 1722629441,
 "modified": 1723250440,
 "tags": "",
-"order": 2115
+"order": 2110
 });
 
 Mods.push({
@@ -33751,7 +33672,7 @@ Mods.push({
 "created": 1722629500,
 "modified": 1722629500,
 "tags": "Cosmetics",
-"order": 2116
+"order": 2111
 });
 
 Mods.push({
@@ -33767,7 +33688,7 @@ Mods.push({
 "created": 1722633091,
 "modified": 1722633091,
 "tags": "Game Mechanics,Custom Slugcat",
-"order": 2117
+"order": 2112
 });
 
 Mods.push({
@@ -33783,7 +33704,7 @@ Mods.push({
 "created": 1722648849,
 "modified": 1726711747,
 "tags": "Cosmetics",
-"order": 2118
+"order": 2113
 });
 
 Mods.push({
@@ -33799,7 +33720,7 @@ Mods.push({
 "created": 1722657979,
 "modified": 1723059877,
 "tags": "Game Mechanics,Accessibility",
-"order": 2119
+"order": 2114
 });
 
 Mods.push({
@@ -33815,7 +33736,7 @@ Mods.push({
 "created": 1722728751,
 "modified": 1722728751,
 "tags": "Cosmetics",
-"order": 2120
+"order": 2115
 });
 
 Mods.push({
@@ -33832,7 +33753,7 @@ Mods.push({
 "created": 1722736123,
 "modified": 1722736123,
 "tags": "Creatures",
-"order": 2121
+"order": 2116
 });
 
 Mods.push({
@@ -33848,7 +33769,7 @@ Mods.push({
 "created": 1722742318,
 "modified": 1722742318,
 "tags": "",
-"order": 2122
+"order": 2117
 });
 
 Mods.push({
@@ -33863,7 +33784,7 @@ Mods.push({
 "created": 1722897795,
 "modified": 1722897795,
 "tags": "",
-"order": 2123
+"order": 2118
 });
 
 Mods.push({
@@ -33879,7 +33800,7 @@ Mods.push({
 "created": 1722931020,
 "modified": 1722931041,
 "tags": "Game Mechanics",
-"order": 2124
+"order": 2119
 });
 
 Mods.push({
@@ -33895,7 +33816,7 @@ Mods.push({
 "created": 1722961181,
 "modified": 1722961181,
 "tags": "Cosmetics",
-"order": 2125
+"order": 2120
 });
 
 Mods.push({
@@ -33911,7 +33832,7 @@ Mods.push({
 "created": 1722967414,
 "modified": 1722967414,
 "tags": "",
-"order": 2126
+"order": 2121
 });
 
 Mods.push({
@@ -33927,7 +33848,7 @@ Mods.push({
 "created": 1723001817,
 "modified": 1723001817,
 "tags": "Cosmetics",
-"order": 2127
+"order": 2122
 });
 
 Mods.push({
@@ -33943,7 +33864,7 @@ Mods.push({
 "created": 1723017203,
 "modified": 1723017203,
 "tags": "",
-"order": 2128
+"order": 2123
 });
 
 Mods.push({
@@ -33959,7 +33880,7 @@ Mods.push({
 "created": 1723017584,
 "modified": 1723017584,
 "tags": "Cosmetics",
-"order": 2129
+"order": 2124
 });
 
 Mods.push({
@@ -33975,7 +33896,7 @@ Mods.push({
 "created": 1723020716,
 "modified": 1723020716,
 "tags": "Cosmetics",
-"order": 2130
+"order": 2125
 });
 
 Mods.push({
@@ -33991,7 +33912,7 @@ Mods.push({
 "created": 1723072513,
 "modified": 1733695493,
 "tags": "Regions,Creatures,Game Mechanics",
-"order": 2131
+"order": 2126
 });
 
 Mods.push({
@@ -34007,7 +33928,7 @@ Mods.push({
 "created": 1723090758,
 "modified": 1723090758,
 "tags": "Cosmetics",
-"order": 2132
+"order": 2127
 });
 
 Mods.push({
@@ -34023,7 +33944,7 @@ Mods.push({
 "created": 1723167097,
 "modified": 1723167097,
 "tags": "Cosmetics",
-"order": 2133
+"order": 2128
 });
 
 Mods.push({
@@ -34039,7 +33960,7 @@ Mods.push({
 "created": 1723177356,
 "modified": 1723177356,
 "tags": "",
-"order": 2134
+"order": 2129
 });
 
 Mods.push({
@@ -34056,7 +33977,7 @@ Mods.push({
 "created": 1723197379,
 "modified": 1725709305,
 "tags": "",
-"order": 2135
+"order": 2130
 });
 
 Mods.push({
@@ -34072,7 +33993,7 @@ Mods.push({
 "created": 1723207057,
 "modified": 1728344884,
 "tags": "Regions,Campaigns,Game Modes,Custom Slugcat",
-"order": 2136
+"order": 2131
 });
 
 Mods.push({
@@ -34088,7 +34009,7 @@ Mods.push({
 "created": 1723231902,
 "modified": 1723231902,
 "tags": "Cosmetics",
-"order": 2137
+"order": 2132
 });
 
 Mods.push({
@@ -34104,7 +34025,7 @@ Mods.push({
 "created": 1723235319,
 "modified": 1723235319,
 "tags": "Cosmetics",
-"order": 2138
+"order": 2133
 });
 
 Mods.push({
@@ -34120,7 +34041,7 @@ Mods.push({
 "created": 1723257960,
 "modified": 1723257960,
 "tags": "",
-"order": 2139
+"order": 2134
 });
 
 Mods.push({
@@ -34136,7 +34057,7 @@ Mods.push({
 "created": 1723346728,
 "modified": 1723346728,
 "tags": "Cosmetics",
-"order": 2140
+"order": 2135
 });
 
 Mods.push({
@@ -34152,7 +34073,7 @@ Mods.push({
 "created": 1723369396,
 "modified": 1723550389,
 "tags": "Custom Slugcat",
-"order": 2141
+"order": 2136
 });
 
 Mods.push({
@@ -34168,7 +34089,7 @@ Mods.push({
 "created": 1723381248,
 "modified": 1723812911,
 "tags": "Cosmetics",
-"order": 2142
+"order": 2137
 });
 
 Mods.push({
@@ -34184,7 +34105,7 @@ Mods.push({
 "created": 1723394288,
 "modified": 1723394288,
 "tags": "Cosmetics",
-"order": 2143
+"order": 2138
 });
 
 Mods.push({
@@ -34200,7 +34121,7 @@ Mods.push({
 "created": 1723419909,
 "modified": 1723419909,
 "tags": "",
-"order": 2144
+"order": 2139
 });
 
 Mods.push({
@@ -34216,7 +34137,7 @@ Mods.push({
 "created": 1723502018,
 "modified": 1723502018,
 "tags": "Cosmetics",
-"order": 2145
+"order": 2140
 });
 
 Mods.push({
@@ -34232,7 +34153,7 @@ Mods.push({
 "created": 1723508931,
 "modified": 1723685146,
 "tags": "Cosmetics",
-"order": 2146
+"order": 2141
 });
 
 Mods.push({
@@ -34248,7 +34169,7 @@ Mods.push({
 "created": 1723509732,
 "modified": 1723509732,
 "tags": "Cosmetics",
-"order": 2147
+"order": 2142
 });
 
 Mods.push({
@@ -34264,7 +34185,7 @@ Mods.push({
 "created": 1723521323,
 "modified": 1723916189,
 "tags": "Cosmetics",
-"order": 2148
+"order": 2143
 });
 
 Mods.push({
@@ -34280,7 +34201,7 @@ Mods.push({
 "created": 1723523025,
 "modified": 1723523025,
 "tags": "",
-"order": 2149
+"order": 2144
 });
 
 Mods.push({
@@ -34295,7 +34216,7 @@ Mods.push({
 "created": 1723528012,
 "modified": 1723528012,
 "tags": "",
-"order": 2150
+"order": 2145
 });
 
 Mods.push({
@@ -34311,7 +34232,7 @@ Mods.push({
 "created": 1723532744,
 "modified": 1723532744,
 "tags": "Regions",
-"order": 2151
+"order": 2146
 });
 
 Mods.push({
@@ -34327,7 +34248,7 @@ Mods.push({
 "created": 1723539600,
 "modified": 1725048594,
 "tags": "Dependency",
-"order": 2152
+"order": 2147
 });
 
 Mods.push({
@@ -34343,7 +34264,7 @@ Mods.push({
 "created": 1723591743,
 "modified": 1723592498,
 "tags": "Game Mechanics",
-"order": 2153
+"order": 2148
 });
 
 Mods.push({
@@ -34359,7 +34280,7 @@ Mods.push({
 "created": 1723595507,
 "modified": 1723595507,
 "tags": "",
-"order": 2154
+"order": 2149
 });
 
 Mods.push({
@@ -34375,7 +34296,7 @@ Mods.push({
 "created": 1723668150,
 "modified": 1737335998,
 "tags": "Regions,Game Modes",
-"order": 2155
+"order": 2150
 });
 
 Mods.push({
@@ -34391,7 +34312,7 @@ Mods.push({
 "created": 1723688074,
 "modified": 1723743234,
 "tags": "Cosmetics,Accessibility",
-"order": 2156
+"order": 2151
 });
 
 Mods.push({
@@ -34406,7 +34327,7 @@ Mods.push({
 "created": 1723691254,
 "modified": 1723691254,
 "tags": "",
-"order": 2157
+"order": 2152
 });
 
 Mods.push({
@@ -34421,7 +34342,7 @@ Mods.push({
 "created": 1723691279,
 "modified": 1723691279,
 "tags": "",
-"order": 2158
+"order": 2153
 });
 
 Mods.push({
@@ -34437,7 +34358,7 @@ Mods.push({
 "created": 1723724063,
 "modified": 1723724063,
 "tags": "",
-"order": 2159
+"order": 2154
 });
 
 Mods.push({
@@ -34453,7 +34374,7 @@ Mods.push({
 "created": 1723732755,
 "modified": 1723732755,
 "tags": "Cosmetics",
-"order": 2160
+"order": 2155
 });
 
 Mods.push({
@@ -34469,7 +34390,7 @@ Mods.push({
 "created": 1723760025,
 "modified": 1733604753,
 "tags": "Accessibility,Tools",
-"order": 2161
+"order": 2156
 });
 
 Mods.push({
@@ -34485,7 +34406,7 @@ Mods.push({
 "created": 1723763991,
 "modified": 1723763991,
 "tags": "Cosmetics",
-"order": 2162
+"order": 2157
 });
 
 Mods.push({
@@ -34501,7 +34422,7 @@ Mods.push({
 "created": 1723794568,
 "modified": 1723794568,
 "tags": "Music",
-"order": 2163
+"order": 2158
 });
 
 Mods.push({
@@ -34517,7 +34438,7 @@ Mods.push({
 "created": 1723811965,
 "modified": 1723811965,
 "tags": "Cosmetics",
-"order": 2164
+"order": 2159
 });
 
 Mods.push({
@@ -34533,7 +34454,7 @@ Mods.push({
 "created": 1723846563,
 "modified": 1723846563,
 "tags": "Cosmetics",
-"order": 2165
+"order": 2160
 });
 
 Mods.push({
@@ -34549,7 +34470,7 @@ Mods.push({
 "created": 1723852599,
 "modified": 1723852599,
 "tags": "Cosmetics",
-"order": 2166
+"order": 2161
 });
 
 Mods.push({
@@ -34565,7 +34486,7 @@ Mods.push({
 "created": 1723890538,
 "modified": 1724997999,
 "tags": "",
-"order": 2167
+"order": 2162
 });
 
 Mods.push({
@@ -34573,15 +34494,15 @@ Mods.push({
 "id": "nope.sleepyslugcat",
 "workshop_id": "3310861858",
 "author": "Nope",
-"desc": "Let the lil dude sleep ! With a supplement of Zzs<br>When you are in a calm place, take the time to sleep by holding down and relax.<br>Comes with a bunch of options for your Zs color, size and the contents of the Zzs.<br><br>Make sure your slugcat feels safe and that they will not fall into a hole while sleeping !<br><br>## Features<br> *   many colour types (custom, based on slugcat, random, rainbows ✨)<br>  *  colour variation<br>   * custom text (better quality if you only use Zs !)<br>    * size variation<br>    * quantity variation<br>    * quantity regulation<br><br><br>  *  Supports all game modes, most likely<br>  *  Supports multiple players<br><br>## Steam install<br>Visit https://steamcommunity.com/sharedfiles/filedetails/?id=3310861858 and click Subscribe<br><br>## Manual install<br>Download the [zip](https://codeberg.org/catsoft/RainWorldMods/raw/branch/main/SleepySlugcat/SleepySlugcat.zip) and extract the wole zip to Rain World/RainWorld_Data/StreamingAssets/mods/SleepySlugcat/ your Rain World mods folder.<br><br><br>Source code : https://codeberg.org/catsoft/RainWorldMods/src/branch/main/SleepySlugcat",
+"desc": "Let the lil dude sleep ! With a supplement of Zzs<br>When you are in a calm place, take the time to sleep by holding down and relax.<br>Comes with a bunch of options for your Zs color, size and the contents of the Zzs.<br><br>Make sure your slugcat feels safe and that they will not fall into a hole while sleeping !<br><br>## Features<br> *   many colour types (custom, based on slugcat, random, rainbows ✨)<br>  *  colour variation<br>   * custom text (HD !)<br>    * size variation<br>    * quantity variation<br>    * quantity regulation<br><br><br>  *  Supports all game modes, most likely<br>  *  Supports multiple players<br>  * Supports Meadow, but all the clients must have the mod enabled !<br><br>## Steam install<br>Visit https://steamcommunity.com/sharedfiles/filedetails/?id=3310861858 and click Subscribe<br><br>## Manual install<br>Download the [zip](https://codeberg.org/catsoft/RainWorldMods/raw/branch/main/SleepySlugcat/SleepySlugcat.zip) and extract the wole zip to Rain World/RainWorld_Data/StreamingAssets/mods/SleepySlugcat/ your Rain World mods folder.<br><br><br>Source code : https://codeberg.org/catsoft/RainWorldMods/src/branch/main/SleepySlugcat",
 "thumb": "previews/3310861858.png",
 "url": "https://andrew.fm/rainworld/raindb/Sleepy_Slugcat.zip",
 "requirements": "",
-"version": "3.9",
+"version": "4.1.1",
 "created": 1723897544,
-"modified": 1726830933,
+"modified": 1739143276,
 "tags": "",
-"order": 2168
+"order": 2163
 });
 
 Mods.push({
@@ -34597,7 +34518,7 @@ Mods.push({
 "created": 1723926579,
 "modified": 1737760459,
 "tags": "Tools",
-"order": 2169
+"order": 2164
 });
 
 Mods.push({
@@ -34612,7 +34533,7 @@ Mods.push({
 "created": 1723928687,
 "modified": 1723928687,
 "tags": "Game Mechanics",
-"order": 2170
+"order": 2165
 });
 
 Mods.push({
@@ -34628,7 +34549,7 @@ Mods.push({
 "created": 1723929066,
 "modified": 1724892464,
 "tags": "Custom Slugcat",
-"order": 2171
+"order": 2166
 });
 
 Mods.push({
@@ -34644,7 +34565,7 @@ Mods.push({
 "created": 1724001022,
 "modified": 1727555160,
 "tags": "",
-"order": 2172
+"order": 2167
 });
 
 Mods.push({
@@ -34656,11 +34577,11 @@ Mods.push({
 "thumb": "previews/3311812030.png",
 "url": "https://andrew.fm/rainworld/raindb/The_M4rblelous_Entity_Pack.zip",
 "requirements": "fisobs",
-"version": "1.1.6",
+"version": "1.1.7",
 "created": 1724006221,
-"modified": 1738536345,
+"modified": 1739793446,
 "tags": "Creatures,Items,Dependency",
-"order": 2173
+"order": 2168
 });
 
 Mods.push({
@@ -34676,7 +34597,7 @@ Mods.push({
 "created": 1724041340,
 "modified": 1724041340,
 "tags": "Custom Slugcat",
-"order": 2174
+"order": 2169
 });
 
 Mods.push({
@@ -34692,7 +34613,7 @@ Mods.push({
 "created": 1724123128,
 "modified": 1724620987,
 "tags": "",
-"order": 2175
+"order": 2170
 });
 
 Mods.push({
@@ -34708,7 +34629,7 @@ Mods.push({
 "created": 1724149016,
 "modified": 1724149016,
 "tags": "Music",
-"order": 2176
+"order": 2171
 });
 
 Mods.push({
@@ -34724,7 +34645,7 @@ Mods.push({
 "created": 1724150797,
 "modified": 1724150797,
 "tags": "Cosmetics",
-"order": 2177
+"order": 2172
 });
 
 Mods.push({
@@ -34740,7 +34661,7 @@ Mods.push({
 "created": 1724177973,
 "modified": 1724273269,
 "tags": "",
-"order": 2178
+"order": 2173
 });
 
 Mods.push({
@@ -34756,7 +34677,7 @@ Mods.push({
 "created": 1724186769,
 "modified": 1724186769,
 "tags": "Cosmetics",
-"order": 2179
+"order": 2174
 });
 
 Mods.push({
@@ -34772,7 +34693,7 @@ Mods.push({
 "created": 1724201468,
 "modified": 1724201468,
 "tags": "Cosmetics",
-"order": 2180
+"order": 2175
 });
 
 Mods.push({
@@ -34787,7 +34708,7 @@ Mods.push({
 "created": 1724204151,
 "modified": 1724204151,
 "tags": "",
-"order": 2181
+"order": 2176
 });
 
 Mods.push({
@@ -34803,7 +34724,7 @@ Mods.push({
 "created": 1724212967,
 "modified": 1724373372,
 "tags": "Cosmetics",
-"order": 2182
+"order": 2177
 });
 
 Mods.push({
@@ -34819,7 +34740,7 @@ Mods.push({
 "created": 1724223675,
 "modified": 1724501772,
 "tags": "Tools",
-"order": 2183
+"order": 2178
 });
 
 Mods.push({
@@ -34834,7 +34755,7 @@ Mods.push({
 "created": 1724278383,
 "modified": 1724278383,
 "tags": "",
-"order": 2184
+"order": 2179
 });
 
 Mods.push({
@@ -34849,7 +34770,7 @@ Mods.push({
 "created": 1724278411,
 "modified": 1724508209,
 "tags": "Creatures",
-"order": 2185
+"order": 2180
 });
 
 Mods.push({
@@ -34866,7 +34787,7 @@ Mods.push({
 "created": 1724280788,
 "modified": 1736794496,
 "tags": "Regions",
-"order": 2186
+"order": 2181
 });
 
 Mods.push({
@@ -34882,7 +34803,7 @@ Mods.push({
 "created": 1724334507,
 "modified": 1730037250,
 "tags": "",
-"order": 2187
+"order": 2182
 });
 
 Mods.push({
@@ -34898,7 +34819,7 @@ Mods.push({
 "created": 1724365934,
 "modified": 1724365934,
 "tags": "Regions",
-"order": 2188
+"order": 2183
 });
 
 Mods.push({
@@ -34914,7 +34835,7 @@ Mods.push({
 "created": 1724373355,
 "modified": 1724373355,
 "tags": "Game Mechanics",
-"order": 2189
+"order": 2184
 });
 
 Mods.push({
@@ -34930,7 +34851,7 @@ Mods.push({
 "created": 1724448762,
 "modified": 1724448762,
 "tags": "Cosmetics",
-"order": 2190
+"order": 2185
 });
 
 Mods.push({
@@ -34946,7 +34867,7 @@ Mods.push({
 "created": 1724523335,
 "modified": 1725300366,
 "tags": "Cosmetics",
-"order": 2191
+"order": 2186
 });
 
 Mods.push({
@@ -34962,7 +34883,7 @@ Mods.push({
 "created": 1724526859,
 "modified": 1724530443,
 "tags": "Cosmetics",
-"order": 2192
+"order": 2187
 });
 
 Mods.push({
@@ -34978,7 +34899,7 @@ Mods.push({
 "created": 1724532326,
 "modified": 1724628395,
 "tags": "Cosmetics",
-"order": 2193
+"order": 2188
 });
 
 Mods.push({
@@ -34994,7 +34915,7 @@ Mods.push({
 "created": 1724536213,
 "modified": 1732758010,
 "tags": "Regions",
-"order": 2194
+"order": 2189
 });
 
 Mods.push({
@@ -35010,7 +34931,7 @@ Mods.push({
 "created": 1724543655,
 "modified": 1724543655,
 "tags": "",
-"order": 2195
+"order": 2190
 });
 
 Mods.push({
@@ -35025,7 +34946,7 @@ Mods.push({
 "created": 1724597546,
 "modified": 1724597546,
 "tags": "",
-"order": 2196
+"order": 2191
 });
 
 Mods.push({
@@ -35041,7 +34962,7 @@ Mods.push({
 "created": 1724598705,
 "modified": 1728688874,
 "tags": "Game Mechanics,Cosmetics",
-"order": 2197
+"order": 2192
 });
 
 Mods.push({
@@ -35057,7 +34978,7 @@ Mods.push({
 "created": 1724608070,
 "modified": 1724608070,
 "tags": "Cosmetics",
-"order": 2198
+"order": 2193
 });
 
 Mods.push({
@@ -35072,7 +34993,7 @@ Mods.push({
 "created": 1724641573,
 "modified": 1724641573,
 "tags": "",
-"order": 2199
+"order": 2194
 });
 
 Mods.push({
@@ -35088,7 +35009,7 @@ Mods.push({
 "created": 1724650815,
 "modified": 1724661899,
 "tags": "",
-"order": 2200
+"order": 2195
 });
 
 Mods.push({
@@ -35104,7 +35025,7 @@ Mods.push({
 "created": 1724676423,
 "modified": 1724687040,
 "tags": "Cosmetics",
-"order": 2201
+"order": 2196
 });
 
 Mods.push({
@@ -35120,7 +35041,7 @@ Mods.push({
 "created": 1724776197,
 "modified": 1724776197,
 "tags": "",
-"order": 2202
+"order": 2197
 });
 
 Mods.push({
@@ -35136,7 +35057,7 @@ Mods.push({
 "created": 1724802899,
 "modified": 1724802899,
 "tags": "Custom Rock",
-"order": 2203
+"order": 2198
 });
 
 Mods.push({
@@ -35152,7 +35073,7 @@ Mods.push({
 "created": 1724838110,
 "modified": 1724950974,
 "tags": "",
-"order": 2204
+"order": 2199
 });
 
 Mods.push({
@@ -35168,7 +35089,7 @@ Mods.push({
 "created": 1724845363,
 "modified": 1724845363,
 "tags": "Creatures",
-"order": 2205
+"order": 2200
 });
 
 Mods.push({
@@ -35184,7 +35105,7 @@ Mods.push({
 "created": 1724863266,
 "modified": 1731420533,
 "tags": "",
-"order": 2206
+"order": 2201
 });
 
 Mods.push({
@@ -35200,7 +35121,7 @@ Mods.push({
 "created": 1724880424,
 "modified": 1724880424,
 "tags": "Cosmetics",
-"order": 2207
+"order": 2202
 });
 
 Mods.push({
@@ -35216,7 +35137,7 @@ Mods.push({
 "created": 1724933896,
 "modified": 1724933896,
 "tags": "Cosmetics",
-"order": 2208
+"order": 2203
 });
 
 Mods.push({
@@ -35232,7 +35153,7 @@ Mods.push({
 "created": 1724946398,
 "modified": 1724946398,
 "tags": "Cosmetics",
-"order": 2209
+"order": 2204
 });
 
 Mods.push({
@@ -35248,7 +35169,7 @@ Mods.push({
 "created": 1724946427,
 "modified": 1724946427,
 "tags": "Cosmetics",
-"order": 2210
+"order": 2205
 });
 
 Mods.push({
@@ -35263,7 +35184,7 @@ Mods.push({
 "created": 1724950023,
 "modified": 1724950023,
 "tags": "",
-"order": 2211
+"order": 2206
 });
 
 Mods.push({
@@ -35279,7 +35200,7 @@ Mods.push({
 "created": 1724956364,
 "modified": 1724967247,
 "tags": "Cosmetics",
-"order": 2212
+"order": 2207
 });
 
 Mods.push({
@@ -35295,7 +35216,7 @@ Mods.push({
 "created": 1724983810,
 "modified": 1725237601,
 "tags": "",
-"order": 2213
+"order": 2208
 });
 
 Mods.push({
@@ -35311,7 +35232,7 @@ Mods.push({
 "created": 1724988808,
 "modified": 1724994200,
 "tags": "Cosmetics",
-"order": 2214
+"order": 2209
 });
 
 Mods.push({
@@ -35327,7 +35248,7 @@ Mods.push({
 "created": 1725056065,
 "modified": 1735185274,
 "tags": "Cosmetics",
-"order": 2215
+"order": 2210
 });
 
 Mods.push({
@@ -35343,7 +35264,7 @@ Mods.push({
 "created": 1725137671,
 "modified": 1725137671,
 "tags": "Regions",
-"order": 2216
+"order": 2211
 });
 
 Mods.push({
@@ -35359,7 +35280,7 @@ Mods.push({
 "created": 1725163731,
 "modified": 1725163731,
 "tags": "Cosmetics",
-"order": 2217
+"order": 2212
 });
 
 Mods.push({
@@ -35374,7 +35295,7 @@ Mods.push({
 "created": 1725169940,
 "modified": 1730485753,
 "tags": "",
-"order": 2218
+"order": 2213
 });
 
 Mods.push({
@@ -35390,7 +35311,7 @@ Mods.push({
 "created": 1725181979,
 "modified": 1734658637,
 "tags": "Cosmetics",
-"order": 2219
+"order": 2214
 });
 
 Mods.push({
@@ -35405,7 +35326,7 @@ Mods.push({
 "created": 1725182617,
 "modified": 1725182617,
 "tags": "",
-"order": 2220
+"order": 2215
 });
 
 Mods.push({
@@ -35420,7 +35341,7 @@ Mods.push({
 "created": 1725182748,
 "modified": 1725185288,
 "tags": "",
-"order": 2221
+"order": 2216
 });
 
 Mods.push({
@@ -35435,7 +35356,7 @@ Mods.push({
 "created": 1725192394,
 "modified": 1725192394,
 "tags": "",
-"order": 2222
+"order": 2217
 });
 
 Mods.push({
@@ -35450,7 +35371,7 @@ Mods.push({
 "created": 1725193631,
 "modified": 1725193631,
 "tags": "Regions",
-"order": 2223
+"order": 2218
 });
 
 Mods.push({
@@ -35466,7 +35387,7 @@ Mods.push({
 "created": 1725223271,
 "modified": 1725497073,
 "tags": "Cosmetics",
-"order": 2224
+"order": 2219
 });
 
 Mods.push({
@@ -35482,7 +35403,7 @@ Mods.push({
 "created": 1725231026,
 "modified": 1736197622,
 "tags": "Dependency,Game Mechanics",
-"order": 2225
+"order": 2220
 });
 
 Mods.push({
@@ -35498,7 +35419,7 @@ Mods.push({
 "created": 1725235984,
 "modified": 1727788642,
 "tags": "",
-"order": 2226
+"order": 2221
 });
 
 Mods.push({
@@ -35514,7 +35435,7 @@ Mods.push({
 "created": 1725295628,
 "modified": 1725295665,
 "tags": "Regions",
-"order": 2227
+"order": 2222
 });
 
 Mods.push({
@@ -35530,7 +35451,7 @@ Mods.push({
 "created": 1725300262,
 "modified": 1729546110,
 "tags": "Regions",
-"order": 2228
+"order": 2223
 });
 
 Mods.push({
@@ -35546,7 +35467,7 @@ Mods.push({
 "created": 1725300390,
 "modified": 1725300390,
 "tags": "Cosmetics",
-"order": 2229
+"order": 2224
 });
 
 Mods.push({
@@ -35562,7 +35483,7 @@ Mods.push({
 "created": 1725305476,
 "modified": 1737432258,
 "tags": "Game Mechanics,Game Modes",
-"order": 2230
+"order": 2225
 });
 
 Mods.push({
@@ -35578,7 +35499,7 @@ Mods.push({
 "created": 1725305960,
 "modified": 1725874813,
 "tags": "Creatures",
-"order": 2231
+"order": 2226
 });
 
 Mods.push({
@@ -35594,7 +35515,7 @@ Mods.push({
 "created": 1725323661,
 "modified": 1725506199,
 "tags": "Cosmetics",
-"order": 2232
+"order": 2227
 });
 
 Mods.push({
@@ -35610,7 +35531,7 @@ Mods.push({
 "created": 1725326488,
 "modified": 1725662162,
 "tags": "Cosmetics",
-"order": 2233
+"order": 2228
 });
 
 Mods.push({
@@ -35626,7 +35547,7 @@ Mods.push({
 "created": 1725371179,
 "modified": 1725371179,
 "tags": "",
-"order": 2234
+"order": 2229
 });
 
 Mods.push({
@@ -35642,7 +35563,7 @@ Mods.push({
 "created": 1725383989,
 "modified": 1726690610,
 "tags": "Cosmetics",
-"order": 2235
+"order": 2230
 });
 
 Mods.push({
@@ -35658,7 +35579,7 @@ Mods.push({
 "created": 1725389472,
 "modified": 1725389472,
 "tags": "",
-"order": 2236
+"order": 2231
 });
 
 Mods.push({
@@ -35673,7 +35594,7 @@ Mods.push({
 "created": 1725450776,
 "modified": 1725504092,
 "tags": "Creatures",
-"order": 2237
+"order": 2232
 });
 
 Mods.push({
@@ -35689,7 +35610,7 @@ Mods.push({
 "created": 1725466011,
 "modified": 1725466011,
 "tags": "Cosmetics",
-"order": 2238
+"order": 2233
 });
 
 Mods.push({
@@ -35705,7 +35626,7 @@ Mods.push({
 "created": 1725478151,
 "modified": 1726518861,
 "tags": "",
-"order": 2239
+"order": 2234
 });
 
 Mods.push({
@@ -35721,7 +35642,7 @@ Mods.push({
 "created": 1725486134,
 "modified": 1726593968,
 "tags": "Cosmetics",
-"order": 2240
+"order": 2235
 });
 
 Mods.push({
@@ -35738,7 +35659,7 @@ Mods.push({
 "created": 1725504807,
 "modified": 1729298439,
 "tags": "",
-"order": 2241
+"order": 2236
 });
 
 Mods.push({
@@ -35754,7 +35675,7 @@ Mods.push({
 "created": 1725504897,
 "modified": 1725506217,
 "tags": "Cosmetics",
-"order": 2242
+"order": 2237
 });
 
 Mods.push({
@@ -35770,7 +35691,7 @@ Mods.push({
 "created": 1725609962,
 "modified": 1725609962,
 "tags": "mrow,Cosmetics,Game Mechanics",
-"order": 2243
+"order": 2238
 });
 
 Mods.push({
@@ -35786,7 +35707,7 @@ Mods.push({
 "created": 1725615141,
 "modified": 1725615141,
 "tags": "Cosmetics,Game Mechanics",
-"order": 2244
+"order": 2239
 });
 
 Mods.push({
@@ -35802,7 +35723,7 @@ Mods.push({
 "created": 1725658068,
 "modified": 1725658068,
 "tags": "Cosmetics,Game Mechanics",
-"order": 2245
+"order": 2240
 });
 
 Mods.push({
@@ -35818,7 +35739,7 @@ Mods.push({
 "created": 1725661980,
 "modified": 1725661980,
 "tags": "Cosmetics",
-"order": 2246
+"order": 2241
 });
 
 Mods.push({
@@ -35835,7 +35756,7 @@ Mods.push({
 "created": 1725691528,
 "modified": 1731836247,
 "tags": "Cosmetics",
-"order": 2247
+"order": 2242
 });
 
 Mods.push({
@@ -35851,7 +35772,7 @@ Mods.push({
 "created": 1725711814,
 "modified": 1733234478,
 "tags": "Accessibility,Tools",
-"order": 2248
+"order": 2243
 });
 
 Mods.push({
@@ -35867,7 +35788,7 @@ Mods.push({
 "created": 1725745405,
 "modified": 1725745405,
 "tags": "Cosmetics",
-"order": 2249
+"order": 2244
 });
 
 Mods.push({
@@ -35883,7 +35804,7 @@ Mods.push({
 "created": 1725755831,
 "modified": 1725755831,
 "tags": "Cosmetics",
-"order": 2250
+"order": 2245
 });
 
 Mods.push({
@@ -35899,7 +35820,24 @@ Mods.push({
 "created": 1725781533,
 "modified": 1725781533,
 "tags": "Cosmetics",
-"order": 2251
+"order": 2246
+});
+
+Mods.push({
+"name": "The Employee (dms skin)",
+"id": "arvel.lethalslug",
+"workshop_id": "3327391518",
+"author": "Arvelmay",
+"desc": "A lethal company skin for your scugs! The thumbnail is made by Crite on discord.",
+"thumb": "previews/3327391518.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Employee_dms_skin.zip",
+"video": "https://www.youtube.com/@Arvelmay",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1725815340,
+"modified": 1725837533,
+"tags": "Cosmetics",
+"order": 2247
 });
 
 Mods.push({
@@ -35915,7 +35853,7 @@ Mods.push({
 "created": 1725843123,
 "modified": 1737311498,
 "tags": "",
-"order": 2252
+"order": 2248
 });
 
 Mods.push({
@@ -35931,7 +35869,7 @@ Mods.push({
 "created": 1725891504,
 "modified": 1728138546,
 "tags": "Creatures",
-"order": 2253
+"order": 2249
 });
 
 Mods.push({
@@ -35947,7 +35885,7 @@ Mods.push({
 "created": 1726007297,
 "modified": 1726007297,
 "tags": "Cosmetics",
-"order": 2254
+"order": 2250
 });
 
 Mods.push({
@@ -35963,7 +35901,7 @@ Mods.push({
 "created": 1726057640,
 "modified": 1726059696,
 "tags": "Game Mechanics,Accessibility,Scavengers",
-"order": 2255
+"order": 2251
 });
 
 Mods.push({
@@ -35979,7 +35917,7 @@ Mods.push({
 "created": 1726065582,
 "modified": 1727460667,
 "tags": "Cosmetics",
-"order": 2256
+"order": 2252
 });
 
 Mods.push({
@@ -35994,7 +35932,7 @@ Mods.push({
 "created": 1726174312,
 "modified": 1727703221,
 "tags": "",
-"order": 2257
+"order": 2253
 });
 
 Mods.push({
@@ -36010,7 +35948,7 @@ Mods.push({
 "created": 1726195436,
 "modified": 1726195436,
 "tags": "Cosmetics",
-"order": 2258
+"order": 2254
 });
 
 Mods.push({
@@ -36026,7 +35964,7 @@ Mods.push({
 "created": 1726198078,
 "modified": 1726198078,
 "tags": "Game Mechanics",
-"order": 2259
+"order": 2255
 });
 
 Mods.push({
@@ -36042,7 +35980,7 @@ Mods.push({
 "created": 1726239821,
 "modified": 1726239821,
 "tags": "Cosmetics",
-"order": 2260
+"order": 2256
 });
 
 Mods.push({
@@ -36058,7 +35996,7 @@ Mods.push({
 "created": 1726261056,
 "modified": 1726261056,
 "tags": "Game Mechanics,Creatures",
-"order": 2261
+"order": 2257
 });
 
 Mods.push({
@@ -36074,7 +36012,7 @@ Mods.push({
 "created": 1726264522,
 "modified": 1726946035,
 "tags": "Creatures",
-"order": 2262
+"order": 2258
 });
 
 Mods.push({
@@ -36089,7 +36027,7 @@ Mods.push({
 "created": 1726299706,
 "modified": 1732976919,
 "tags": "Cosmetics",
-"order": 2263
+"order": 2259
 });
 
 Mods.push({
@@ -36105,7 +36043,7 @@ Mods.push({
 "created": 1726318039,
 "modified": 1726499830,
 "tags": "Creatures",
-"order": 2264
+"order": 2260
 });
 
 Mods.push({
@@ -36121,7 +36059,7 @@ Mods.push({
 "created": 1726318555,
 "modified": 1726319771,
 "tags": "Cosmetics",
-"order": 2265
+"order": 2261
 });
 
 Mods.push({
@@ -36137,7 +36075,7 @@ Mods.push({
 "created": 1726331618,
 "modified": 1726331618,
 "tags": "Cosmetics",
-"order": 2266
+"order": 2262
 });
 
 Mods.push({
@@ -36153,7 +36091,7 @@ Mods.push({
 "created": 1726334893,
 "modified": 1726334893,
 "tags": "Cosmetics",
-"order": 2267
+"order": 2263
 });
 
 Mods.push({
@@ -36169,7 +36107,7 @@ Mods.push({
 "created": 1726340957,
 "modified": 1726841258,
 "tags": "Cosmetics",
-"order": 2268
+"order": 2264
 });
 
 Mods.push({
@@ -36185,7 +36123,7 @@ Mods.push({
 "created": 1726352667,
 "modified": 1726352667,
 "tags": "Cosmetics",
-"order": 2269
+"order": 2265
 });
 
 Mods.push({
@@ -36201,23 +36139,23 @@ Mods.push({
 "created": 1726396272,
 "modified": 1726396272,
 "tags": "Cosmetics",
-"order": 2270
+"order": 2266
 });
 
 Mods.push({
-"name": "Naitikus (DMS)",
+"name": "Naitikus",
 "id": "NaitikusForReal",
 "workshop_id": "3332407184",
 "author": "Naitikus",
-"desc": "I wanted to make my own character, my own skin...<br>Welp, i guess it's not original but it's good<br><br>Tail:<br>Lenght: 6<br>Widness: 3.7<br>Roundness: 0.6<br><br>Basic/classic skin color for this overcooked toast is 17234f",
+"desc": "I wanted to make my own character, my own skin...<br>Welp, i guess it's not original but it's good",
 "thumb": "previews/3332407184.png",
-"url": "https://andrew.fm/rainworld/raindb/Naitikus_DMS.zip",
+"url": "https://andrew.fm/rainworld/raindb/Naitikus.zip",
 "requirements": "dressmyslugcat",
 "version": "1.0.0",
 "created": 1726515210,
-"modified": 1726515343,
+"modified": 1739477470,
 "tags": "Cosmetics",
-"order": 2271
+"order": 2267
 });
 
 Mods.push({
@@ -36233,7 +36171,7 @@ Mods.push({
 "created": 1726520726,
 "modified": 1726520726,
 "tags": "Cosmetics",
-"order": 2272
+"order": 2268
 });
 
 Mods.push({
@@ -36249,7 +36187,7 @@ Mods.push({
 "created": 1726632328,
 "modified": 1726632328,
 "tags": "Cosmetics",
-"order": 2273
+"order": 2269
 });
 
 Mods.push({
@@ -36265,23 +36203,23 @@ Mods.push({
 "created": 1726651079,
 "modified": 1726651079,
 "tags": "Cosmetics",
-"order": 2274
+"order": 2270
 });
 
 Mods.push({
-"name": "Pup Karma",
+"name": "Pup karma",
 "id": "quansly.pupkarma",
 "workshop_id": "3333225072",
 "author": "Quansly",
-"desc": "Add full-fledged karma to your slugpups, the same as the player's!<br><br>Now you can:<br>[list]<br>[*]Go through the gate with slugs using their karma<br>[*]Give them karma flowers to enhance their karma<br>[*]And also now you can [spoiler]ascend[/spoiler] with them! (Note: I'm looking for an artist to draw custom cutscenes. I'm sorry, Cup, but I'm tired of waiting :( )<br>[/list]<br><br>[h2]Setting up the mod in the Remix menu[/h2]<br>In the Remix menu, you can configure:<br>[list]<br>[*]Should pups use their karma level when passing through the gate?<br>[*]How should karma enhancement be prescribed<br>[*]Should pups leave karma flowers after death?<br>[*]What is the purpose of the karma cap when it appears?<br>[/list]<br><br>[h2]Compatibility[/h2]<br>It is fully compatible with Dev Console, PupAI, Slugpup safari and... RegionKit (suddenly).<br><br>[h2]Incompatibilities[/h2]<br>No incompatibilities were found. If you find them, let me know.<br><br>[h1]How to use the Dev Console to control slugpup karma[/h1]<br>In total, for these purposes, I added two commands 'karma_pups', 'karma_cap_pups' and 'assign_karma_to_slugpup'<br>Pups are accessed through their food meters numbers, in order to access pup, it is enough to start counting their food/karma meters from the bottom up, and then enter the values.<br>[img]https://i.imgur.com/xi4OXyy.png[/img]<br>When using the allPups command, the mod takes ALL existing pups, not just those that have their own food/karma meter.<br>An example of a command to assign karma reinforce to the 3rd pup:<br>[code]karma_pups 3 reinforce[/code]<br>The same access rule applies to the karma_cap_pups command. For example: assignment of 9 karma cap to the 2nd pup<br>[code]karma_cap_pups 2 9[/code]<br><br>[h2]Innovations in last update[/h2]<br>1.4.4<br>-Fixed a bug when the game was crashed at the beginning of the spearmaster campaign, with the simplified passage mode enabled.<br>-Now, if the position of the pups karma flowers has not been saved, then the position of the player's karma flower will be used.<br>-Improved the system of saving slugpups when exiting the game.<br>-Added a new command for the dev console: [code]assign_karma_to_slugpup[/code]<br>Assigns karma to slugpup, as if it naturally appeared in the world. It works on the same principle as the rest of commands.<br>1.4.5<br>-Fixed bugs related to spawning of pups karma flowers.<br>-Balance update: now the slugpups karma flowers will appear only with the standard and complicated distribution of karma reinforce (you can disable it in cheats).<br>-Fixed issues with Big Karma Shrine from RegionKit.<br>1.4.6<br>-The loading of saved data has been changed, now you will not be able to load the old slugpup karma before the 1.4.0 update.<br>-The logic of assigning karma to slugpups has been tweaked.<br>1.4.7<br>-A new feature has been added: now you can simplify or complicate the spawn of echoes using karma slugpups (configurable in the Remix menu)<br>-The slugpups flower appearance code has been tweaked: now, if the slugpup is on its back, the karma flower will appear at the player's death site (if the slugpup itself did not touch the ground, of course)<br>-The order of the buttons in the 'The mode of passing through the karma gate' feature has been changed, the first and last buttons have been swapped to match the style. I advise you to check this feature, as the wrong parameter may have been selected.<br><br>[h3][b][i]In the end, I just want you to have fun playing with my mod.[/i] If you have found a bug, incompatibility, deviation in the behavior of AI slugpups, then write to Bug Reports or my discord (@quansly9034 / Quansly). Also, I do not refuse suggestions for improving this mod or ideas for creating other mods :)[/b][/h3]<br><br>Tags to search:<br>karma pups, pup karma, slugpup karma, karma slugpups",
+"desc": "Add full-fledged karma to your slugpups, the same as the player's!<br><br>[h2]Mod Features:[/h2]<br>[list]<br>[*][b]New HUD part:[/b] pup karma meter. Observe the state of karma of your slugpups.<br><br>[*][b]Karma gates:[/b] use the slugpups karma to pass through the karma gate.<br><br>[*][b]Karma flowers:[/b] the behavior of slugpups when eating karma flowers has been completely changed. The properties of karma flowers also apply to slugpups.<br><br>[*][b]The echoes:[/b] the echoes have also been changed, now they increase the karma of slugpups.<br><br>[*][b]Depths and void sea:[/b] [spoiler]now the guardians allow slugpups with sufficient karma to enter the void sea. Also, slugpups will no longer fall out of the player's hands while in the void sea, which makes it possible to ascend with them. (Note: Rejoice! A new artist has been found for the cutscenes!)[/spoiler]<br><br>[*][b]Compatibility with other mods:[/b] Pup Karma can work with other mods related to slugpups (and not only), the list of compatible mods will expand!<br>[/list]<br><br>[h2]Configurable features:[/h2]<br>[list]<br>[*][b]Karma gate passage influence:[/b] choose how the slugpups karma should influence the passage through the karma gate.<br><br>[*][b]Karma reinforce distribution:[/b] choose exactly how the karma reinforce will be distributed to the player and slugpups after eating the karma flower.<br><br>[*][b]Echoes spawn requirements (untested):[/b] choose exactly how the slugpups karma should affect to the spawn echoes.<br><br>[*][b]Pups spawn karma flowers:[/b] when enabled, slugpups can leave karma flowers after death (enabled by default).<br><br>[*][b]Various features of karma assignment.[/b]<br><br>[*][b]Hide pup karma meter.[/b]<br><br>[*][b]Light up pup karma meter:[/b] lights up pup karma meter when slugpup holding karma flower and want to eat it (enabled by default).<br><br>[*][b]Don't pick up player spawned karma flower:[/b] when enabled, slugpups will not pick up karma flowers left at the player's place of death (enabled by default).<br>[/list]<br><br>[h2]Compatible mods:[/h2]<br>[list]<br>[*][b]Dev Console:[/b] added new coommads to control slugpup karma.<br><br>[*][b]PupAI[/b]<br><br>[*][b]Slugpup Safari[/b]<br><br>[*][b]RegionKit:[/b] the 'Big Karma Shrine' increases the karma of slugpups when passing through it.<br>[/list]<br><br>[h1]How to use the Dev Console to control slugpup karma[/h1]<br>In total, for these purposes, I added two commands [b][u]karma_pups[/u][/b], [b][u]karma_cap_pups[/u][/b] and [b][u]assign_karma_to_slugpup[/u][/b]<br>Pups are accessed through their food meters numbers, in order to access pup, it is enough to start counting their food/karma meters from the bottom up, and then enter the values.<br>[img]https://i.imgur.com/xi4OXyy.png[/img]<br>When using the allPups command, the mod takes ALL existing pups, not just those that have their own food/karma meter.<br>An example of a command to assign karma reinforce to the 3rd pup:<br>[code]karma_pups 3 reinforce[/code]<br>The same access rule applies to the karma_cap_pups command. For example: assignment of 9 karma cap to the 2nd pup<br>[code]karma_cap_pups 2 9[/code]<br><br>[h2]Innovations in last updates:[/h2]<br>[list]<br>[*][b][u]1.4.7[/u][/b]<br>[list]<br>[*]A new feature has been added: now you can simplify or complicate the spawn of echoes using karma slugpups (configurable in the Remix menu)<br><br>[*]The slugpups flower appearance code has been tweaked: now, if the slugpup is on its back, the karma flower will appear at the player's death site (if the slugpup itself did not touch the ground, of course)<br><br>[*]The order of the buttons in the 'The mode of passing through the karma gate' feature has been changed, the first and last buttons have been swapped to match the style. I advise you to check this feature, as the wrong parameter may have been selected.<br>[/list]<br><br>[*][b][u]1.4.8[/u][/b]<br>[list]<br>[*]Added a new feature: if slugpup is holding a karma flower that he wants to eat, then the Pup Karma Meter will be lights up (configurable in the Remix menu, enabled by default).<br><br>[*]Added another feature: slugpup will not be able to pick up karma flowers that appeared at the player's place of death (configurable in the Remix menu).<br><br>[*]Numerous corrections have been made to the code for optimization.<br><br>[*]Bug fixed: when you went to the Moon (or Pebbles) and gave them a pearl or read the broadcast, the pups karma data was erased, thus the game forgot what kind of karma slugpup had.<br>[/list]<br><br>[*][b][u]1.4.8.1[/u][/b]<br>[list]<br>[*]The method of assigning karma has been changed, now there should be no problems with compatibility with the following mods: Dev Console, Beast Master, Pups Everywhere and other mods that spawn slugpup outside the main game.<br><br>[*]Some rearrangements have been made in the Remix menu for more convenient use.<br><br>[*]The 'Don't pick up player spawned karma flower' feature now has a description and is enabled by default.<br><br>[*]Bug fixed: when you dropped the slugpup from your back, it became its own 'backside' player, thereby preventing you from assigning coordinates for the karma flower to your slugcat when it is sitting on its back again.<br>[/list]<br>[/list]<br><br>[h3][b][i]In the end, I just want you to have fun playing with my mod.[/i] If you have found a bug, incompatibility, deviation in the behavior of AI slugpups, then write to Bug Reports or my discord (@quansly9034 / Quansly). Also, I do not refuse suggestions for improving this mod or ideas for creating other mods. Also, don't forget to rate my mod :)[/b][/h3]<br><br>Tags to search:<br>karma pups, pup karma, slugpup karma, karma slugpups",
 "thumb": "previews/3333225072.png",
-"url": "https://andrew.fm/rainworld/raindb/Pup_Karma.zip",
+"url": "https://andrew.fm/rainworld/raindb/Pup_karma.zip",
 "requirements": "moreslugcats",
-"version": "1.4.7",
+"version": "1.4.8.1",
 "created": 1726653939,
-"modified": 1737618651,
+"modified": 1739885826,
 "tags": "Game Mechanics",
-"order": 2275
+"order": 2271
 });
 
 Mods.push({
@@ -36297,7 +36235,7 @@ Mods.push({
 "created": 1726703948,
 "modified": 1726703948,
 "tags": "Cosmetics",
-"order": 2276
+"order": 2272
 });
 
 Mods.push({
@@ -36313,7 +36251,7 @@ Mods.push({
 "created": 1726733421,
 "modified": 1728428638,
 "tags": "Cosmetics",
-"order": 2277
+"order": 2273
 });
 
 Mods.push({
@@ -36329,7 +36267,7 @@ Mods.push({
 "created": 1726760061,
 "modified": 1735873334,
 "tags": "Cosmetics",
-"order": 2278
+"order": 2274
 });
 
 Mods.push({
@@ -36346,7 +36284,7 @@ Mods.push({
 "created": 1726762820,
 "modified": 1734388343,
 "tags": "Regions,Iterators",
-"order": 2279
+"order": 2275
 });
 
 Mods.push({
@@ -36362,7 +36300,7 @@ Mods.push({
 "created": 1726765731,
 "modified": 1726765731,
 "tags": "",
-"order": 2280
+"order": 2276
 });
 
 Mods.push({
@@ -36378,7 +36316,7 @@ Mods.push({
 "created": 1726844477,
 "modified": 1726844477,
 "tags": "",
-"order": 2281
+"order": 2277
 });
 
 Mods.push({
@@ -36394,7 +36332,7 @@ Mods.push({
 "created": 1726878913,
 "modified": 1737666222,
 "tags": "Game Mechanics,Campaigns",
-"order": 2282
+"order": 2278
 });
 
 Mods.push({
@@ -36410,7 +36348,7 @@ Mods.push({
 "created": 1726896111,
 "modified": 1726896111,
 "tags": "",
-"order": 2283
+"order": 2279
 });
 
 Mods.push({
@@ -36426,7 +36364,7 @@ Mods.push({
 "created": 1726938927,
 "modified": 1726938927,
 "tags": "Cosmetics",
-"order": 2284
+"order": 2280
 });
 
 Mods.push({
@@ -36442,7 +36380,7 @@ Mods.push({
 "created": 1726949568,
 "modified": 1726949568,
 "tags": "Cosmetics",
-"order": 2285
+"order": 2281
 });
 
 Mods.push({
@@ -36458,7 +36396,7 @@ Mods.push({
 "created": 1726956027,
 "modified": 1726956027,
 "tags": "Cosmetics",
-"order": 2286
+"order": 2282
 });
 
 Mods.push({
@@ -36474,7 +36412,7 @@ Mods.push({
 "created": 1726960034,
 "modified": 1726960034,
 "tags": "Cosmetics",
-"order": 2287
+"order": 2283
 });
 
 Mods.push({
@@ -36489,7 +36427,7 @@ Mods.push({
 "created": 1727001134,
 "modified": 1727003294,
 "tags": "",
-"order": 2288
+"order": 2284
 });
 
 Mods.push({
@@ -36505,7 +36443,7 @@ Mods.push({
 "created": 1727088969,
 "modified": 1727088969,
 "tags": "Cosmetics",
-"order": 2289
+"order": 2285
 });
 
 Mods.push({
@@ -36521,7 +36459,7 @@ Mods.push({
 "created": 1727091152,
 "modified": 1734175911,
 "tags": "Cosmetics",
-"order": 2290
+"order": 2286
 });
 
 Mods.push({
@@ -36537,7 +36475,7 @@ Mods.push({
 "created": 1727100347,
 "modified": 1730122121,
 "tags": "Creatures",
-"order": 2291
+"order": 2287
 });
 
 Mods.push({
@@ -36553,7 +36491,7 @@ Mods.push({
 "created": 1727151653,
 "modified": 1727151653,
 "tags": "Cosmetics",
-"order": 2292
+"order": 2288
 });
 
 Mods.push({
@@ -36569,7 +36507,7 @@ Mods.push({
 "created": 1727161556,
 "modified": 1728705982,
 "tags": "",
-"order": 2293
+"order": 2289
 });
 
 Mods.push({
@@ -36585,7 +36523,7 @@ Mods.push({
 "created": 1727229035,
 "modified": 1727229035,
 "tags": "Cosmetics",
-"order": 2294
+"order": 2290
 });
 
 Mods.push({
@@ -36597,11 +36535,11 @@ Mods.push({
 "thumb": "previews/3337851216.png",
 "url": "https://ln5.sync.com/dl/f842ba280/rnmh7def-7gxzrxvw-zh9rjdic-v9jhhcqa",
 "requirements": "regionkit,crs,lb-fgf-m4r-ik.modpack,bry.bubbleweavers",
-"version": "1.0",
+"version": "1.1",
 "created": 1727304677,
-"modified": 1736863216,
+"modified": 1739739411,
 "tags": "Regions",
-"order": 2295
+"order": 2291
 });
 
 Mods.push({
@@ -36617,7 +36555,7 @@ Mods.push({
 "created": 1727311678,
 "modified": 1727311678,
 "tags": "Cosmetics",
-"order": 2296
+"order": 2292
 });
 
 Mods.push({
@@ -36632,7 +36570,7 @@ Mods.push({
 "created": 1727317835,
 "modified": 1728488171,
 "tags": "Accessibility,Game Mechanics",
-"order": 2297
+"order": 2293
 });
 
 Mods.push({
@@ -36648,7 +36586,7 @@ Mods.push({
 "created": 1727366464,
 "modified": 1737390135,
 "tags": "Accessibility",
-"order": 2298
+"order": 2294
 });
 
 Mods.push({
@@ -36663,7 +36601,7 @@ Mods.push({
 "created": 1727366739,
 "modified": 1727366739,
 "tags": "Dependency",
-"order": 2299
+"order": 2295
 });
 
 Mods.push({
@@ -36679,7 +36617,7 @@ Mods.push({
 "created": 1727371982,
 "modified": 1730900748,
 "tags": "Arenas,Regions,Campaigns,Creatures,Accessibility",
-"order": 2300
+"order": 2296
 });
 
 Mods.push({
@@ -36695,7 +36633,7 @@ Mods.push({
 "created": 1727383004,
 "modified": 1728493212,
 "tags": "Regions",
-"order": 2301
+"order": 2297
 });
 
 Mods.push({
@@ -36710,7 +36648,7 @@ Mods.push({
 "created": 1727503644,
 "modified": 1727503644,
 "tags": "",
-"order": 2302
+"order": 2298
 });
 
 Mods.push({
@@ -36726,7 +36664,7 @@ Mods.push({
 "created": 1727508642,
 "modified": 1727942013,
 "tags": "Cosmetics",
-"order": 2303
+"order": 2299
 });
 
 Mods.push({
@@ -36742,7 +36680,7 @@ Mods.push({
 "created": 1727555258,
 "modified": 1729924413,
 "tags": "Regions",
-"order": 2304
+"order": 2300
 });
 
 Mods.push({
@@ -36757,7 +36695,7 @@ Mods.push({
 "created": 1727555675,
 "modified": 1727566615,
 "tags": "",
-"order": 2305
+"order": 2301
 });
 
 Mods.push({
@@ -36773,7 +36711,7 @@ Mods.push({
 "created": 1727641371,
 "modified": 1727641371,
 "tags": "Cosmetics",
-"order": 2306
+"order": 2302
 });
 
 Mods.push({
@@ -36789,7 +36727,7 @@ Mods.push({
 "created": 1727720332,
 "modified": 1731346839,
 "tags": "Cosmetics",
-"order": 2307
+"order": 2303
 });
 
 Mods.push({
@@ -36805,7 +36743,7 @@ Mods.push({
 "created": 1727739223,
 "modified": 1728137527,
 "tags": "",
-"order": 2308
+"order": 2304
 });
 
 Mods.push({
@@ -36821,7 +36759,7 @@ Mods.push({
 "created": 1727808679,
 "modified": 1727887685,
 "tags": "Translations",
-"order": 2309
+"order": 2305
 });
 
 Mods.push({
@@ -36837,7 +36775,7 @@ Mods.push({
 "created": 1727842809,
 "modified": 1727842809,
 "tags": "Cosmetics",
-"order": 2310
+"order": 2306
 });
 
 Mods.push({
@@ -36853,7 +36791,7 @@ Mods.push({
 "created": 1727942184,
 "modified": 1728149965,
 "tags": "Cosmetics",
-"order": 2311
+"order": 2307
 });
 
 Mods.push({
@@ -36869,7 +36807,7 @@ Mods.push({
 "created": 1727988344,
 "modified": 1727988344,
 "tags": "Cosmetics",
-"order": 2312
+"order": 2308
 });
 
 Mods.push({
@@ -36885,7 +36823,7 @@ Mods.push({
 "created": 1727996730,
 "modified": 1727996730,
 "tags": "Regions",
-"order": 2313
+"order": 2309
 });
 
 Mods.push({
@@ -36901,7 +36839,7 @@ Mods.push({
 "created": 1727998613,
 "modified": 1727998613,
 "tags": "Cosmetics",
-"order": 2314
+"order": 2310
 });
 
 Mods.push({
@@ -36917,7 +36855,7 @@ Mods.push({
 "created": 1728064798,
 "modified": 1728064798,
 "tags": "Cosmetics",
-"order": 2315
+"order": 2311
 });
 
 Mods.push({
@@ -36933,7 +36871,7 @@ Mods.push({
 "created": 1728068124,
 "modified": 1734653795,
 "tags": "",
-"order": 2316
+"order": 2312
 });
 
 Mods.push({
@@ -36949,7 +36887,7 @@ Mods.push({
 "created": 1728077849,
 "modified": 1728077849,
 "tags": "Cosmetics",
-"order": 2317
+"order": 2313
 });
 
 Mods.push({
@@ -36965,7 +36903,7 @@ Mods.push({
 "created": 1728082999,
 "modified": 1733336645,
 "tags": "Creatures",
-"order": 2318
+"order": 2314
 });
 
 Mods.push({
@@ -36981,7 +36919,7 @@ Mods.push({
 "created": 1728121430,
 "modified": 1728121430,
 "tags": "Game Mechanics,Accessibility",
-"order": 2319
+"order": 2315
 });
 
 Mods.push({
@@ -36997,7 +36935,7 @@ Mods.push({
 "created": 1728132603,
 "modified": 1728296350,
 "tags": "Cosmetics",
-"order": 2320
+"order": 2316
 });
 
 Mods.push({
@@ -37013,7 +36951,7 @@ Mods.push({
 "created": 1728154750,
 "modified": 1729106699,
 "tags": "Custom Slugcat,Campaigns",
-"order": 2321
+"order": 2317
 });
 
 Mods.push({
@@ -37029,7 +36967,7 @@ Mods.push({
 "created": 1728185637,
 "modified": 1734695920,
 "tags": "Creatures",
-"order": 2322
+"order": 2318
 });
 
 Mods.push({
@@ -37045,7 +36983,7 @@ Mods.push({
 "created": 1728191815,
 "modified": 1728191815,
 "tags": "",
-"order": 2323
+"order": 2319
 });
 
 Mods.push({
@@ -37060,7 +36998,7 @@ Mods.push({
 "created": 1728231990,
 "modified": 1728231990,
 "tags": "",
-"order": 2324
+"order": 2320
 });
 
 Mods.push({
@@ -37075,7 +37013,7 @@ Mods.push({
 "created": 1728241401,
 "modified": 1730482093,
 "tags": "Regions",
-"order": 2325
+"order": 2321
 });
 
 Mods.push({
@@ -37091,7 +37029,7 @@ Mods.push({
 "created": 1728249173,
 "modified": 1728249173,
 "tags": "Cosmetics",
-"order": 2326
+"order": 2322
 });
 
 Mods.push({
@@ -37107,7 +37045,7 @@ Mods.push({
 "created": 1728261293,
 "modified": 1734403981,
 "tags": "Cosmetics",
-"order": 2327
+"order": 2323
 });
 
 Mods.push({
@@ -37123,7 +37061,7 @@ Mods.push({
 "created": 1728261665,
 "modified": 1728261665,
 "tags": "",
-"order": 2328
+"order": 2324
 });
 
 Mods.push({
@@ -37139,7 +37077,7 @@ Mods.push({
 "created": 1728262255,
 "modified": 1728266981,
 "tags": "Regions",
-"order": 2329
+"order": 2325
 });
 
 Mods.push({
@@ -37155,7 +37093,7 @@ Mods.push({
 "created": 1728305982,
 "modified": 1728489495,
 "tags": "",
-"order": 2330
+"order": 2326
 });
 
 Mods.push({
@@ -37171,7 +37109,7 @@ Mods.push({
 "created": 1728332678,
 "modified": 1728332678,
 "tags": "Cosmetics",
-"order": 2331
+"order": 2327
 });
 
 Mods.push({
@@ -37187,7 +37125,7 @@ Mods.push({
 "created": 1728332785,
 "modified": 1728332785,
 "tags": "Cosmetics",
-"order": 2332
+"order": 2328
 });
 
 Mods.push({
@@ -37203,7 +37141,7 @@ Mods.push({
 "created": 1728354457,
 "modified": 1728518676,
 "tags": "Cosmetics",
-"order": 2333
+"order": 2329
 });
 
 Mods.push({
@@ -37219,7 +37157,7 @@ Mods.push({
 "created": 1728387670,
 "modified": 1728387670,
 "tags": "Cosmetics,Dependency,Tools",
-"order": 2334
+"order": 2330
 });
 
 Mods.push({
@@ -37235,7 +37173,7 @@ Mods.push({
 "created": 1728400873,
 "modified": 1728400873,
 "tags": "Cosmetics",
-"order": 2335
+"order": 2331
 });
 
 Mods.push({
@@ -37251,7 +37189,7 @@ Mods.push({
 "created": 1728414247,
 "modified": 1730045337,
 "tags": "Creatures",
-"order": 2336
+"order": 2332
 });
 
 Mods.push({
@@ -37266,7 +37204,7 @@ Mods.push({
 "created": 1728439615,
 "modified": 1728439615,
 "tags": "Cosmetic",
-"order": 2337
+"order": 2333
 });
 
 Mods.push({
@@ -37281,7 +37219,7 @@ Mods.push({
 "created": 1728445951,
 "modified": 1728523001,
 "tags": "Custom Region",
-"order": 2338
+"order": 2334
 });
 
 Mods.push({
@@ -37297,7 +37235,7 @@ Mods.push({
 "created": 1728518364,
 "modified": 1731778995,
 "tags": "Cosmetics",
-"order": 2339
+"order": 2335
 });
 
 Mods.push({
@@ -37313,7 +37251,7 @@ Mods.push({
 "created": 1728537802,
 "modified": 1728537802,
 "tags": "Cosmetics",
-"order": 2340
+"order": 2336
 });
 
 Mods.push({
@@ -37329,7 +37267,7 @@ Mods.push({
 "created": 1728554918,
 "modified": 1728554918,
 "tags": "Cosmetics",
-"order": 2341
+"order": 2337
 });
 
 Mods.push({
@@ -37345,7 +37283,7 @@ Mods.push({
 "created": 1728604950,
 "modified": 1728604950,
 "tags": "Cosmetics",
-"order": 2342
+"order": 2338
 });
 
 Mods.push({
@@ -37361,7 +37299,7 @@ Mods.push({
 "created": 1728607685,
 "modified": 1728607685,
 "tags": "Cosmetics",
-"order": 2343
+"order": 2339
 });
 
 Mods.push({
@@ -37377,7 +37315,7 @@ Mods.push({
 "created": 1728617048,
 "modified": 1734060845,
 "tags": "Game Mechanics",
-"order": 2344
+"order": 2340
 });
 
 Mods.push({
@@ -37393,7 +37331,7 @@ Mods.push({
 "created": 1728646563,
 "modified": 1728718795,
 "tags": "Cosmetics",
-"order": 2345
+"order": 2341
 });
 
 Mods.push({
@@ -37409,7 +37347,7 @@ Mods.push({
 "created": 1728749724,
 "modified": 1728749724,
 "tags": "Cosmetics",
-"order": 2346
+"order": 2342
 });
 
 Mods.push({
@@ -37425,7 +37363,7 @@ Mods.push({
 "created": 1728762511,
 "modified": 1728762511,
 "tags": "Cosmetics",
-"order": 2347
+"order": 2343
 });
 
 Mods.push({
@@ -37441,7 +37379,7 @@ Mods.push({
 "created": 1728773065,
 "modified": 1728773065,
 "tags": "Cosmetics",
-"order": 2348
+"order": 2344
 });
 
 Mods.push({
@@ -37457,7 +37395,7 @@ Mods.push({
 "created": 1728785547,
 "modified": 1728785547,
 "tags": "Cosmetics",
-"order": 2349
+"order": 2345
 });
 
 Mods.push({
@@ -37473,7 +37411,7 @@ Mods.push({
 "created": 1728805855,
 "modified": 1728805855,
 "tags": "Cosmetics",
-"order": 2350
+"order": 2346
 });
 
 Mods.push({
@@ -37489,7 +37427,7 @@ Mods.push({
 "created": 1728805931,
 "modified": 1728805931,
 "tags": "",
-"order": 2351
+"order": 2347
 });
 
 Mods.push({
@@ -37505,7 +37443,7 @@ Mods.push({
 "created": 1728821476,
 "modified": 1728821476,
 "tags": "Cosmetics",
-"order": 2352
+"order": 2348
 });
 
 Mods.push({
@@ -37521,7 +37459,7 @@ Mods.push({
 "created": 1728833440,
 "modified": 1728952903,
 "tags": "Cosmetics",
-"order": 2353
+"order": 2349
 });
 
 Mods.push({
@@ -37537,7 +37475,7 @@ Mods.push({
 "created": 1728843807,
 "modified": 1729150609,
 "tags": "Cosmetics",
-"order": 2354
+"order": 2350
 });
 
 Mods.push({
@@ -37553,7 +37491,7 @@ Mods.push({
 "created": 1728851834,
 "modified": 1728856430,
 "tags": "Arenas",
-"order": 2355
+"order": 2351
 });
 
 Mods.push({
@@ -37569,7 +37507,7 @@ Mods.push({
 "created": 1728860485,
 "modified": 1728860485,
 "tags": "Cosmetics",
-"order": 2356
+"order": 2352
 });
 
 Mods.push({
@@ -37585,7 +37523,7 @@ Mods.push({
 "created": 1728868637,
 "modified": 1728868637,
 "tags": "Cosmetics",
-"order": 2357
+"order": 2353
 });
 
 Mods.push({
@@ -37601,7 +37539,7 @@ Mods.push({
 "created": 1728928634,
 "modified": 1731936048,
 "tags": "Cosmetics",
-"order": 2358
+"order": 2354
 });
 
 Mods.push({
@@ -37609,15 +37547,15 @@ Mods.push({
 "id": "Rus_Translations",
 "workshop_id": "3348967878",
 "author": "_Wolf_",
-"desc": "Этот мод добавляет перевод:<br>[list]<br>    [*]Для кастомных регионов<br>    [*]Для кастомных кампаний<br>    [*]Для некоторых модификаций<br>    [*]Также переводит ассеты – названия регионов во вкладке РЕГИОНЫ<br>[/list]<br>Список переведённых модов (Смотрите в файлах мода)<br><br>Также этот мод переводит Random Baff (по умолчанию он выключен, чтобы включить его прочитайте информацию в файлах мода!!!)<br><br>Перевод Rain World Drought перенесён в этот мод.<br><br>Для перевода оригинальной игры используйте этот мод [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3349092128] Ссылка [/url]",
+"desc": "Этот мод добавляет перевод:<br>[list]<br>    [*]Для кастомных регионов<br>    [*]Для кастомных кампаний<br>    [*]Для некоторых модификаций<br>    [*]Также переводит ассеты – названия регионов во вкладке РЕГИОНЫ<br>[/list]<br>Список переведённых модов [url=https://docs.google.com/spreadsheets/d/1BYvU6qEk6gR86X7sJ9dlsp3clYAiLKvODkNncmD4gZY/edit?usp=sharing]  Таблица [/url]<br><br>Также этот мод переводит Random Baff (по умолчанию он выключен, чтобы включить его прочитайте информацию в примечании в списке модов!)<br><br>Для перевода оригинальной игры используйте этот мод [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3349092128] Better Russian Localization [/url]",
 "thumb": "previews/3348967878.png",
 "url": "https://andrew.fm/rainworld/raindb/Russian_Translations_Mods.zip",
 "requirements": "",
 "version": "1.0.0",
 "created": 1728946505,
-"modified": 1738511700,
+"modified": 1739575254,
 "tags": "Translations",
-"order": 2359
+"order": 2355
 });
 
 Mods.push({
@@ -37633,7 +37571,7 @@ Mods.push({
 "created": 1728953452,
 "modified": 1728953452,
 "tags": "Cosmetics",
-"order": 2360
+"order": 2356
 });
 
 Mods.push({
@@ -37649,7 +37587,7 @@ Mods.push({
 "created": 1728954612,
 "modified": 1728954612,
 "tags": "Cosmetics",
-"order": 2361
+"order": 2357
 });
 
 Mods.push({
@@ -37665,7 +37603,7 @@ Mods.push({
 "created": 1728954650,
 "modified": 1729110847,
 "tags": "Game Mechanics",
-"order": 2362
+"order": 2358
 });
 
 Mods.push({
@@ -37681,7 +37619,7 @@ Mods.push({
 "created": 1728972777,
 "modified": 1737311812,
 "tags": "Translations",
-"order": 2363
+"order": 2359
 });
 
 Mods.push({
@@ -37696,7 +37634,7 @@ Mods.push({
 "created": 1729118607,
 "modified": 1731285698,
 "tags": "Regions",
-"order": 2364
+"order": 2360
 });
 
 Mods.push({
@@ -37712,7 +37650,7 @@ Mods.push({
 "created": 1729122658,
 "modified": 1729122658,
 "tags": "",
-"order": 2365
+"order": 2361
 });
 
 Mods.push({
@@ -37728,7 +37666,7 @@ Mods.push({
 "created": 1729129219,
 "modified": 1729129219,
 "tags": "Cosmetics",
-"order": 2366
+"order": 2362
 });
 
 Mods.push({
@@ -37744,7 +37682,7 @@ Mods.push({
 "created": 1729195058,
 "modified": 1729195058,
 "tags": "Cosmetics",
-"order": 2367
+"order": 2363
 });
 
 Mods.push({
@@ -37760,7 +37698,7 @@ Mods.push({
 "created": 1729215553,
 "modified": 1729806773,
 "tags": "Game Mechanics",
-"order": 2368
+"order": 2364
 });
 
 Mods.push({
@@ -37776,7 +37714,7 @@ Mods.push({
 "created": 1729294241,
 "modified": 1738316708,
 "tags": "Cosmetics",
-"order": 2369
+"order": 2365
 });
 
 Mods.push({
@@ -37792,7 +37730,7 @@ Mods.push({
 "created": 1729384353,
 "modified": 1734620563,
 "tags": "Campaigns,Game Mechanics,Custom Slugcat",
-"order": 2370
+"order": 2366
 });
 
 Mods.push({
@@ -37808,7 +37746,7 @@ Mods.push({
 "created": 1729553978,
 "modified": 1729553978,
 "tags": "Cosmetics",
-"order": 2371
+"order": 2367
 });
 
 Mods.push({
@@ -37824,7 +37762,7 @@ Mods.push({
 "created": 1729566823,
 "modified": 1729566823,
 "tags": "Cosmetics",
-"order": 2372
+"order": 2368
 });
 
 Mods.push({
@@ -37840,7 +37778,7 @@ Mods.push({
 "created": 1729646826,
 "modified": 1730914382,
 "tags": "Tools,utility",
-"order": 2373
+"order": 2369
 });
 
 Mods.push({
@@ -37856,7 +37794,7 @@ Mods.push({
 "created": 1729713733,
 "modified": 1729713733,
 "tags": "Cosmetics",
-"order": 2374
+"order": 2370
 });
 
 Mods.push({
@@ -37872,7 +37810,7 @@ Mods.push({
 "created": 1729713756,
 "modified": 1729713756,
 "tags": "Cosmetics",
-"order": 2375
+"order": 2371
 });
 
 Mods.push({
@@ -37888,7 +37826,7 @@ Mods.push({
 "created": 1729769604,
 "modified": 1737017660,
 "tags": "Cosmetics",
-"order": 2376
+"order": 2372
 });
 
 Mods.push({
@@ -37903,7 +37841,7 @@ Mods.push({
 "created": 1729803599,
 "modified": 1734211158,
 "tags": "",
-"order": 2377
+"order": 2373
 });
 
 Mods.push({
@@ -37919,7 +37857,7 @@ Mods.push({
 "created": 1729843870,
 "modified": 1729843870,
 "tags": "Cosmetics",
-"order": 2378
+"order": 2374
 });
 
 Mods.push({
@@ -37935,7 +37873,7 @@ Mods.push({
 "created": 1729874100,
 "modified": 1729874100,
 "tags": "Cosmetics",
-"order": 2379
+"order": 2375
 });
 
 Mods.push({
@@ -37951,7 +37889,7 @@ Mods.push({
 "created": 1729953713,
 "modified": 1729953713,
 "tags": "Cosmetics",
-"order": 2380
+"order": 2376
 });
 
 Mods.push({
@@ -37968,7 +37906,7 @@ Mods.push({
 "created": 1730015643,
 "modified": 1730015643,
 "tags": "Custom Slugcat",
-"order": 2381
+"order": 2377
 });
 
 Mods.push({
@@ -37984,7 +37922,7 @@ Mods.push({
 "created": 1730134892,
 "modified": 1730134892,
 "tags": "Cosmetics",
-"order": 2382
+"order": 2378
 });
 
 Mods.push({
@@ -38000,7 +37938,7 @@ Mods.push({
 "created": 1730220403,
 "modified": 1730299040,
 "tags": "",
-"order": 2383
+"order": 2379
 });
 
 Mods.push({
@@ -38016,7 +37954,7 @@ Mods.push({
 "created": 1730225959,
 "modified": 1730225959,
 "tags": "Cosmetics",
-"order": 2384
+"order": 2380
 });
 
 Mods.push({
@@ -38032,7 +37970,7 @@ Mods.push({
 "created": 1730230681,
 "modified": 1730230681,
 "tags": "Cosmetics",
-"order": 2385
+"order": 2381
 });
 
 Mods.push({
@@ -38048,7 +37986,7 @@ Mods.push({
 "created": 1730250422,
 "modified": 1730368015,
 "tags": "Creatures",
-"order": 2386
+"order": 2382
 });
 
 Mods.push({
@@ -38064,7 +38002,7 @@ Mods.push({
 "created": 1730321025,
 "modified": 1731976393,
 "tags": "Custom Slugcat,Game Modes,Game Mechanics",
-"order": 2387
+"order": 2383
 });
 
 Mods.push({
@@ -38080,7 +38018,7 @@ Mods.push({
 "created": 1730388736,
 "modified": 1731689543,
 "tags": "Regions",
-"order": 2388
+"order": 2384
 });
 
 Mods.push({
@@ -38096,7 +38034,7 @@ Mods.push({
 "created": 1730396497,
 "modified": 1730396497,
 "tags": "Cosmetics",
-"order": 2389
+"order": 2385
 });
 
 Mods.push({
@@ -38111,7 +38049,7 @@ Mods.push({
 "created": 1730410317,
 "modified": 1730674950,
 "tags": "room",
-"order": 2390
+"order": 2386
 });
 
 Mods.push({
@@ -38127,7 +38065,7 @@ Mods.push({
 "created": 1730454672,
 "modified": 1730454672,
 "tags": "Cosmetics",
-"order": 2391
+"order": 2387
 });
 
 Mods.push({
@@ -38135,15 +38073,15 @@ Mods.push({
 "id": "LazyCowboy.SwordMod",
 "workshop_id": "3358392058",
 "author": "LazyCowboy",
-"desc": "Adds sword, like spear but better.<br><br>[h3][b]NOTE: THIS ITEM DOES NOT SPAWN NATURALLY! If you want to be able to obtain swords in your playthrough, use the spawn settings in the config menu for this mod, or spawn it in sandbox, or use the Sword expedition perk.[/b][/h3]<br><br>[h3](Update 1.0.3: Added optional stamina mechanics that can be enabled in the Extras tab. Also made minor improvements to the parry mechanic and the sounds.)[/h3]<br><br>If you couldn't guess by now, this is a bit of a joke mod; but that didn't stop me from wanting to make it decent quality. The sword is an absurdly effective weapon against any creature, but it's not unbeatable. Have fun slicing up every creature in sight, though!<br><br>[h2]Sword Mechanics:[/h2]<br>* Press throw to attack using the sword (this technically throws the sword, holds it in front of your slugcat, then returns it to your hand if it is still empty).<br>* Swinging the sword in mid-air will give you a boost in the direction of your swing, allowing for some fun movement.<br>* Swords can deflect thrown weapons and parry other swords, allowing for some PvP combat.<br>* Dual-wielding is not intended, but it's funny. Dual-wielding swords can be disabled in the config menu.<br>* Using the sword factors in your input directions:<br>    - Swinging upward will flip many creatures over.<br>    - Slicing downward will stun creatures for much longer.<br>    - Stabbing forward has the longest reach and transfers your momentum.<br>* Most arbitrary numbers in my code are modifiable in the config menu, so feel free to modify them to your liking.<br><br>[h2]PVP + EXTRAS:[/h2]<br>* Increase the parry window so players will have more time to react in a fight (but don't make it more than half the swing time).<br>* Decrease the damage and stun modifiers, so that one hit with a sword isn't instant-death.<br>* Increasing the pushback amounts will improve the feel of combat, since it's harder to run straight through someone's defense.<br>* Enabling stamina mechanics discourages button mashing by causing swings to become weaker, shorter, and more parry-able if used repeatedly; and consecutive swings can even cause exhaustion (like Gourmand).<br>    -(Note: Slugcats' in-game stamina meter is increased by actions such as running and especially jumping, so it's possible to become exhausted after only 1 swing if the slugcat is already tired.)<br>* Enabling omnidirectional swings and vertical pushback > 1.5 allow for Hollow-Knight-style pogos and vertical attacks.<br><br>[b]Check out kitsu ||'s Nail Mod texture + sound effects![/b]<br>If any modder wants to use this item for anything, it's ID is 'SwordMod_Sword'.<br><br>[h2]KNOWN ISSUES:[/h2]<br>* The sword frequently doesn't appear in shelters when first loading a save. This can be fixed by immediately exiting to menu and re-entering that slugcat's save.",
+"desc": "Adds sword, like spear but better.<br><br>[b]Partial Rain Meadow support!!! Swords will no longer break the game, and should be mostly functional, but PvP currently does not work. Look out for full support soon![/b]<br><br>[h3][b]NOTE: THIS ITEM DOES NOT SPAWN NATURALLY! If you want to be able to obtain swords in your playthrough, use the spawn settings in the config menu for this mod, or spawn it in sandbox, or use the Sword expedition perk.[/b][/h3]<br><br>[h3](Update 1.0.3: Added optional stamina mechanics that can be enabled in the Extras tab. Also made minor improvements to the parry mechanic and the sounds.)[/h3]<br><br>If you couldn't guess by now, this is a bit of a joke mod; but that didn't stop me from wanting to make it decent quality. The sword is an absurdly effective weapon against any creature, but it's not unbeatable. Have fun slicing up every creature in sight, though!<br><br>[h2]Sword Mechanics:[/h2]<br>* Press throw to attack using the sword (this technically throws the sword, holds it in front of your slugcat, then returns it to your hand if it is still empty).<br>* Swinging the sword in mid-air will give you a boost in the direction of your swing, allowing for some fun movement.<br>* Swords can deflect thrown weapons and parry other swords, allowing for some PvP combat.<br>* Dual-wielding is not intended, but it's funny. Dual-wielding swords can be disabled in the config menu.<br>* Using the sword factors in your input directions:<br>    - Swinging upward will flip many creatures over.<br>    - Slicing downward will stun creatures for much longer.<br>    - Stabbing forward has the longest reach and transfers your momentum.<br>* Most arbitrary numbers in my code are modifiable in the config menu, so feel free to modify them to your liking.<br><br>[h2]PVP + EXTRAS:[/h2]<br>* Increase the parry window so players will have more time to react in a fight (but don't make it more than half the swing time).<br>* Decrease the damage and stun modifiers, so that one hit with a sword isn't instant-death.<br>* Increasing the pushback amounts will improve the feel of combat, since it's harder to run straight through someone's defense.<br>* Enabling stamina mechanics discourages button mashing by causing swings to become weaker, shorter, and more parry-able if used repeatedly; and consecutive swings can even cause exhaustion (like Gourmand).<br>    -(Note: Slugcats' in-game stamina meter is increased by actions such as running and especially jumping, so it's possible to become exhausted after only 1 swing if the slugcat is already tired.)<br>* Enabling omnidirectional swings and vertical pushback > 1.5 allow for Hollow-Knight-style pogos and vertical attacks.<br><br>[b]Check out kitsu ||'s Nail Mod texture + sound effects![/b]<br>If any modder wants to use this item for anything, it's ID is 'SwordMod_Sword'.<br><br>[h2]KNOWN ISSUES:[/h2]<br>* The sword frequently doesn't appear in shelters when first loading a save. This can be fixed by immediately exiting to menu and re-entering that slugcat's save.",
 "thumb": "previews/3358392058.png",
 "url": "https://andrew.fm/rainworld/raindb/Sword_Mod.zip",
 "requirements": "",
-"version": "1.0.3",
+"version": "1.0.4",
 "created": 1730488929,
-"modified": 1733363160,
+"modified": 1739291493,
 "tags": "Items,Game Mechanics",
-"order": 2392
+"order": 2388
 });
 
 Mods.push({
@@ -38159,7 +38097,7 @@ Mods.push({
 "created": 1730490359,
 "modified": 1730490359,
 "tags": "Cosmetics",
-"order": 2393
+"order": 2389
 });
 
 Mods.push({
@@ -38175,7 +38113,7 @@ Mods.push({
 "created": 1730570712,
 "modified": 1730692309,
 "tags": "Dependency,Tools",
-"order": 2394
+"order": 2390
 });
 
 Mods.push({
@@ -38191,7 +38129,7 @@ Mods.push({
 "created": 1730573927,
 "modified": 1730573927,
 "tags": "Cosmetics",
-"order": 2395
+"order": 2391
 });
 
 Mods.push({
@@ -38207,7 +38145,7 @@ Mods.push({
 "created": 1730592287,
 "modified": 1730592287,
 "tags": "Regions",
-"order": 2396
+"order": 2392
 });
 
 Mods.push({
@@ -38223,7 +38161,7 @@ Mods.push({
 "created": 1730593590,
 "modified": 1730593590,
 "tags": "Regions",
-"order": 2397
+"order": 2393
 });
 
 Mods.push({
@@ -38239,7 +38177,7 @@ Mods.push({
 "created": 1730669123,
 "modified": 1730669123,
 "tags": "Regions",
-"order": 2398
+"order": 2394
 });
 
 Mods.push({
@@ -38255,7 +38193,7 @@ Mods.push({
 "created": 1730688701,
 "modified": 1730688701,
 "tags": "Cosmetics",
-"order": 2399
+"order": 2395
 });
 
 Mods.push({
@@ -38271,7 +38209,7 @@ Mods.push({
 "created": 1730734979,
 "modified": 1731456423,
 "tags": "Regions",
-"order": 2400
+"order": 2396
 });
 
 Mods.push({
@@ -38287,7 +38225,7 @@ Mods.push({
 "created": 1730812270,
 "modified": 1733458117,
 "tags": "Cosmetics",
-"order": 2401
+"order": 2397
 });
 
 Mods.push({
@@ -38303,7 +38241,7 @@ Mods.push({
 "created": 1730847110,
 "modified": 1730847110,
 "tags": "Cosmetics",
-"order": 2402
+"order": 2398
 });
 
 Mods.push({
@@ -38318,7 +38256,7 @@ Mods.push({
 "created": 1730849321,
 "modified": 1730849321,
 "tags": "",
-"order": 2403
+"order": 2399
 });
 
 Mods.push({
@@ -38334,7 +38272,7 @@ Mods.push({
 "created": 1730850059,
 "modified": 1734806129,
 "tags": "Regions",
-"order": 2404
+"order": 2400
 });
 
 Mods.push({
@@ -38350,7 +38288,7 @@ Mods.push({
 "created": 1730866065,
 "modified": 1730866065,
 "tags": "Cosmetics",
-"order": 2405
+"order": 2401
 });
 
 Mods.push({
@@ -38366,7 +38304,7 @@ Mods.push({
 "created": 1730932041,
 "modified": 1730932041,
 "tags": "Creatures",
-"order": 2406
+"order": 2402
 });
 
 Mods.push({
@@ -38382,7 +38320,7 @@ Mods.push({
 "created": 1730943057,
 "modified": 1730943057,
 "tags": "Custom Slugcat",
-"order": 2407
+"order": 2403
 });
 
 Mods.push({
@@ -38398,7 +38336,7 @@ Mods.push({
 "created": 1731001081,
 "modified": 1731743939,
 "tags": "Regions",
-"order": 2408
+"order": 2404
 });
 
 Mods.push({
@@ -38414,7 +38352,7 @@ Mods.push({
 "created": 1731005461,
 "modified": 1731743583,
 "tags": "Items,Cosmetics",
-"order": 2409
+"order": 2405
 });
 
 Mods.push({
@@ -38430,7 +38368,7 @@ Mods.push({
 "created": 1731006977,
 "modified": 1731006977,
 "tags": "Cosmetics",
-"order": 2410
+"order": 2406
 });
 
 Mods.push({
@@ -38446,7 +38384,7 @@ Mods.push({
 "created": 1731022881,
 "modified": 1731879275,
 "tags": "",
-"order": 2411
+"order": 2407
 });
 
 Mods.push({
@@ -38462,7 +38400,7 @@ Mods.push({
 "created": 1731076484,
 "modified": 1731076484,
 "tags": "Cosmetics",
-"order": 2412
+"order": 2408
 });
 
 Mods.push({
@@ -38478,7 +38416,7 @@ Mods.push({
 "created": 1731111479,
 "modified": 1731336197,
 "tags": "Cosmetics",
-"order": 2413
+"order": 2409
 });
 
 Mods.push({
@@ -38494,7 +38432,7 @@ Mods.push({
 "created": 1731166360,
 "modified": 1731166360,
 "tags": "Cosmetics",
-"order": 2414
+"order": 2410
 });
 
 Mods.push({
@@ -38510,7 +38448,7 @@ Mods.push({
 "created": 1731174249,
 "modified": 1731174249,
 "tags": "Cosmetics",
-"order": 2415
+"order": 2411
 });
 
 Mods.push({
@@ -38526,7 +38464,7 @@ Mods.push({
 "created": 1731174860,
 "modified": 1731174860,
 "tags": "Cosmetics",
-"order": 2416
+"order": 2412
 });
 
 Mods.push({
@@ -38542,7 +38480,7 @@ Mods.push({
 "created": 1731200436,
 "modified": 1731200436,
 "tags": "",
-"order": 2417
+"order": 2413
 });
 
 Mods.push({
@@ -38558,7 +38496,7 @@ Mods.push({
 "created": 1731206055,
 "modified": 1731206055,
 "tags": "",
-"order": 2418
+"order": 2414
 });
 
 Mods.push({
@@ -38574,7 +38512,7 @@ Mods.push({
 "created": 1731220006,
 "modified": 1731220006,
 "tags": "Cosmetics",
-"order": 2419
+"order": 2415
 });
 
 Mods.push({
@@ -38590,7 +38528,7 @@ Mods.push({
 "created": 1731221393,
 "modified": 1731265621,
 "tags": "",
-"order": 2420
+"order": 2416
 });
 
 Mods.push({
@@ -38606,7 +38544,7 @@ Mods.push({
 "created": 1731233801,
 "modified": 1731935659,
 "tags": "Regions",
-"order": 2421
+"order": 2417
 });
 
 Mods.push({
@@ -38622,7 +38560,7 @@ Mods.push({
 "created": 1731272682,
 "modified": 1731272682,
 "tags": "Cosmetics",
-"order": 2422
+"order": 2418
 });
 
 Mods.push({
@@ -38638,7 +38576,7 @@ Mods.push({
 "created": 1731391452,
 "modified": 1731391452,
 "tags": "Cosmetics",
-"order": 2423
+"order": 2419
 });
 
 Mods.push({
@@ -38654,7 +38592,7 @@ Mods.push({
 "created": 1731409111,
 "modified": 1736323628,
 "tags": "Cosmetics",
-"order": 2424
+"order": 2420
 });
 
 Mods.push({
@@ -38670,7 +38608,7 @@ Mods.push({
 "created": 1731413002,
 "modified": 1733750230,
 "tags": "Regions",
-"order": 2425
+"order": 2421
 });
 
 Mods.push({
@@ -38686,7 +38624,7 @@ Mods.push({
 "created": 1731413397,
 "modified": 1731413397,
 "tags": "Cosmetics",
-"order": 2426
+"order": 2422
 });
 
 Mods.push({
@@ -38702,7 +38640,7 @@ Mods.push({
 "created": 1731433651,
 "modified": 1731433651,
 "tags": "",
-"order": 2427
+"order": 2423
 });
 
 Mods.push({
@@ -38718,7 +38656,7 @@ Mods.push({
 "created": 1731467804,
 "modified": 1731467804,
 "tags": "Cosmetics",
-"order": 2428
+"order": 2424
 });
 
 Mods.push({
@@ -38734,7 +38672,7 @@ Mods.push({
 "created": 1731606437,
 "modified": 1731606437,
 "tags": "",
-"order": 2429
+"order": 2425
 });
 
 Mods.push({
@@ -38750,7 +38688,7 @@ Mods.push({
 "created": 1731607506,
 "modified": 1731607506,
 "tags": "Cosmetics",
-"order": 2430
+"order": 2426
 });
 
 Mods.push({
@@ -38766,7 +38704,7 @@ Mods.push({
 "created": 1731618858,
 "modified": 1731618858,
 "tags": "Cosmetics",
-"order": 2431
+"order": 2427
 });
 
 Mods.push({
@@ -38781,7 +38719,7 @@ Mods.push({
 "created": 1731626271,
 "modified": 1731626271,
 "tags": "",
-"order": 2432
+"order": 2428
 });
 
 Mods.push({
@@ -38796,7 +38734,7 @@ Mods.push({
 "created": 1731626496,
 "modified": 1731626496,
 "tags": "Custom Slugcat",
-"order": 2433
+"order": 2429
 });
 
 Mods.push({
@@ -38812,7 +38750,7 @@ Mods.push({
 "created": 1731636537,
 "modified": 1731882698,
 "tags": "Game Mechanics",
-"order": 2434
+"order": 2430
 });
 
 Mods.push({
@@ -38828,7 +38766,7 @@ Mods.push({
 "created": 1731652182,
 "modified": 1737749507,
 "tags": "Cosmetics",
-"order": 2435
+"order": 2431
 });
 
 Mods.push({
@@ -38844,7 +38782,7 @@ Mods.push({
 "created": 1731727093,
 "modified": 1738979143,
 "tags": "",
-"order": 2436
+"order": 2432
 });
 
 Mods.push({
@@ -38859,7 +38797,7 @@ Mods.push({
 "created": 1731731672,
 "modified": 1738733315,
 "tags": "Accessibility",
-"order": 2437
+"order": 2433
 });
 
 Mods.push({
@@ -38875,7 +38813,7 @@ Mods.push({
 "created": 1731755730,
 "modified": 1733513880,
 "tags": "Tools",
-"order": 2438
+"order": 2434
 });
 
 Mods.push({
@@ -38891,7 +38829,7 @@ Mods.push({
 "created": 1731757956,
 "modified": 1731759885,
 "tags": "",
-"order": 2439
+"order": 2435
 });
 
 Mods.push({
@@ -38907,7 +38845,7 @@ Mods.push({
 "created": 1731760002,
 "modified": 1731760002,
 "tags": "Cosmetics",
-"order": 2440
+"order": 2436
 });
 
 Mods.push({
@@ -38922,7 +38860,7 @@ Mods.push({
 "created": 1731841505,
 "modified": 1734671088,
 "tags": "",
-"order": 2441
+"order": 2437
 });
 
 Mods.push({
@@ -38938,7 +38876,7 @@ Mods.push({
 "created": 1731856120,
 "modified": 1732062178,
 "tags": "Cosmetics",
-"order": 2442
+"order": 2438
 });
 
 Mods.push({
@@ -38954,7 +38892,7 @@ Mods.push({
 "created": 1731858765,
 "modified": 1733510578,
 "tags": "Game Mechanics",
-"order": 2443
+"order": 2439
 });
 
 Mods.push({
@@ -38970,7 +38908,7 @@ Mods.push({
 "created": 1731894232,
 "modified": 1731894232,
 "tags": "",
-"order": 2444
+"order": 2440
 });
 
 Mods.push({
@@ -38986,7 +38924,7 @@ Mods.push({
 "created": 1731963476,
 "modified": 1732595025,
 "tags": "",
-"order": 2445
+"order": 2441
 });
 
 Mods.push({
@@ -39002,7 +38940,7 @@ Mods.push({
 "created": 1732018353,
 "modified": 1732018353,
 "tags": "",
-"order": 2446
+"order": 2442
 });
 
 Mods.push({
@@ -39010,15 +38948,15 @@ Mods.push({
 "id": "ikepike.RivuletCyclesForAllSlugcats",
 "workshop_id": "3368721309",
 "author": "ikepike",
-"desc": "Do you think the cycles of every slugcat is too easy, well with this mod every slugcat will now have rivulet cycles!    <br><br>This mod will: <br>- give every slugcat rivulet cycles (2 minutes and 30 seconds) <br>- a new experience for the player <br>- and suffering  <br><br><br>Source code: https://github.com/Ikepik3/giveSlugcatsRivuletCycles",
+"desc": "Ever felt like the campaigns were easy? WELL WHAT IF WE GAVE YOU THE LOWEST CYCLE?? <br><br> A mod that makes every campaign have the rivulet cycles (which is 2 minutes and 30 seconds (6000 ticks in total!!!! WOW))<br><br>source code: https://github.com/Ikepik3/giveSlugcatsRivuletCycles",
 "thumb": "previews/3368721309.png",
 "url": "https://andrew.fm/rainworld/raindb/Rivulet_cycles_for_all_slugcats.zip",
 "requirements": "",
 "version": "1.0.0",
 "created": 1732043561,
-"modified": 1732190692,
+"modified": 1740047248,
 "tags": "",
-"order": 2447
+"order": 2443
 });
 
 Mods.push({
@@ -39034,7 +38972,7 @@ Mods.push({
 "created": 1732059858,
 "modified": 1732059858,
 "tags": "",
-"order": 2448
+"order": 2444
 });
 
 Mods.push({
@@ -39050,7 +38988,7 @@ Mods.push({
 "created": 1732169304,
 "modified": 1732169304,
 "tags": "",
-"order": 2449
+"order": 2445
 });
 
 Mods.push({
@@ -39066,7 +39004,7 @@ Mods.push({
 "created": 1732293333,
 "modified": 1732293333,
 "tags": "Cosmetics",
-"order": 2450
+"order": 2446
 });
 
 Mods.push({
@@ -39082,7 +39020,7 @@ Mods.push({
 "created": 1732301775,
 "modified": 1732301775,
 "tags": "",
-"order": 2451
+"order": 2447
 });
 
 Mods.push({
@@ -39098,7 +39036,7 @@ Mods.push({
 "created": 1732314382,
 "modified": 1732314382,
 "tags": "Translations",
-"order": 2452
+"order": 2448
 });
 
 Mods.push({
@@ -39114,7 +39052,7 @@ Mods.push({
 "created": 1732315733,
 "modified": 1732315733,
 "tags": "Cosmetics",
-"order": 2453
+"order": 2449
 });
 
 Mods.push({
@@ -39130,7 +39068,7 @@ Mods.push({
 "created": 1732339599,
 "modified": 1732339599,
 "tags": "Cosmetics",
-"order": 2454
+"order": 2450
 });
 
 Mods.push({
@@ -39146,7 +39084,7 @@ Mods.push({
 "created": 1732397360,
 "modified": 1733223289,
 "tags": "Cosmetics",
-"order": 2455
+"order": 2451
 });
 
 Mods.push({
@@ -39154,15 +39092,15 @@ Mods.push({
 "id": "dusty.colorconfig",
 "workshop_id": "3371225357",
 "author": "DustyLem0n",
-"desc": "A QOL mod that adds new sliders and configs in both Story Menu and Jolly-Coop Menu like RGB Sliders and Visuals to show colour value, and functionality in Color Pickers like copy/paste support<br>Up for suggestions! Hope you enjoy it!<br>[h3]Currently adds[/h3]<br>[list]<br>[*][b]Visuals that show color value Toggle[/b] (on by default)<br>[*][b]Remove HSL Sliders Toggle[/b] (Will apply when other sliders are turned on)<br>[*][b]RGB Sliders Toggle[/b] (on by default)<br>[*][b]HSV Sliders Toggle[/b] <br>[*][b]Hexcode Type Boxes Toggle[/b] (on by default, has Copy/Paste support)<br>[*][b]Slugcat Display For Story Menu Toggle[/b] (on by default, suggested by MagicaJaphet)<br><br>[*][b]Copy/Paste support for Color Pickers[/b]<br>[*][b]HSV Color Picker Mode Toggle[/b] (replaces HSL mode with HSV mode)<br>[*][b]Less annoying Color Pickers Toggle[/b] (on by default, prevents hue in HSV/HSL mode to change when saturation and (lightness/value) changes, and prevents the color becoming grey when hue is set to 100%)<br>[*][b]Changes for HSL/HSV mode for Color Pickers Toggle[/b] (Replaces Hue/Sat square picker to Sat/(Lit/Value) square picker and vice versa)<br>[/list]<br>[b]Configurable in the remix menu[/b]<br><br>[h3]Functions[/h3]<br>[list]<br>[*]Hex codes can be copied and pasted by [b]hovering your cursor over the typebox or Color Picker hex[/b] and pressing [b]CTRL + C[/b] to copy, and [b]CTRL + V[/b] to paste. Can be pasted with text copied outside the game and vice versa<br>[/list]<br><br>[h3]Compatibilities/Incompatibilities[/h3]<br>Supports Rain Meadow as a client-sided mod, configs should exist and work in their own story/meadow mode menu and so far there's no instability <br><br>Direct download and a small nifty guide to adding custom textures to slugcat display: https://github.com/Dustylemny/ExtendedColorConfigMod/tree/main<br><br>",
+"desc": "A QOL mod that adds new sliders and configs in both Story Menu and Jolly-Coop Menu like RGB Sliders and Visuals to show colour value, and functionality in Color Pickers like copy/paste support<br>Up for suggestions! Hope you enjoy it!<br>[h3]Currently adds[/h3]<br>[list]<br>[*][b]Visuals that show color value Toggle[/b] (on by default)<br>[*][b]Remove HSL Sliders Toggle[/b] (Will apply when other sliders are turned on)<br>[*][b]RGB Sliders Toggle[/b] (on by default)<br>[*][b]HSV Sliders Toggle[/b] <br>[*][b]Hexcode Type Boxes Toggle[/b] (on by default, has Copy/Paste support)<br>[*][b]Slugcat Display For Story Menu Toggle[/b] (on by default, suggested by MagicaJaphet)<br><br>[*][b]Copy/Paste support for Color Pickers[/b]<br>[*][b]HSV Color Picker Mode Toggle[/b] (replaces HSL mode with HSV mode)<br>[*][b]Less annoying Color Pickers Toggle[/b] (on by default, prevents hue in HSV/HSL mode to change when saturation and (lightness/value) changes, and prevents the color becoming grey when hue is set to 100%)<br>[*][b]Changes for HSL/HSV mode for Color Pickers Toggle[/b] (Replaces Hue/Sat square picker to Sat/(Lit/Value) square picker and vice versa)<br>[/list]<br>[b]Configurable in the remix menu[/b]<br><br>[h3]Functions[/h3]<br>[list]<br>[*]Hex codes can be copied and pasted by [b]hovering your cursor over the typebox or Color Picker hex[/b] and pressing [b]CTRL + C[/b] to copy, and [b]CTRL + V[/b] to paste. Can be pasted with text copied outside the game and vice versa<br>[/list]<br><br>[h3]Compatibilities/Incompatibilities[/h3]<br>Supports Rain Meadow as a client-sided mod, configs should exist and work in their own story/meadow mode menu and so far there's no instability <br><br>Direct download and a small nifty guide to adding custom textures to slugcat display: https://github.com/Dustylemny/ExtendedColorConfigMod/tree/main",
 "thumb": "previews/3371225357.png",
 "url": "https://andrew.fm/rainworld/raindb/Extended_Color_Config.zip",
 "requirements": "",
 "version": "1.0.0",
 "created": 1732447472,
-"modified": 1735534158,
+"modified": 1739866086,
 "tags": "Tools,Accessibility",
-"order": 2456
+"order": 2452
 });
 
 Mods.push({
@@ -39178,7 +39116,7 @@ Mods.push({
 "created": 1732574229,
 "modified": 1732574229,
 "tags": "Cosmetics",
-"order": 2457
+"order": 2453
 });
 
 Mods.push({
@@ -39193,7 +39131,7 @@ Mods.push({
 "created": 1732642603,
 "modified": 1732642603,
 "tags": "",
-"order": 2458
+"order": 2454
 });
 
 Mods.push({
@@ -39208,7 +39146,7 @@ Mods.push({
 "created": 1732719886,
 "modified": 1732983190,
 "tags": "Regions",
-"order": 2459
+"order": 2455
 });
 
 Mods.push({
@@ -39224,7 +39162,7 @@ Mods.push({
 "created": 1732739462,
 "modified": 1738007323,
 "tags": "",
-"order": 2460
+"order": 2456
 });
 
 Mods.push({
@@ -39240,7 +39178,7 @@ Mods.push({
 "created": 1732779403,
 "modified": 1732779403,
 "tags": "Cosmetics",
-"order": 2461
+"order": 2457
 });
 
 Mods.push({
@@ -39256,7 +39194,7 @@ Mods.push({
 "created": 1732863330,
 "modified": 1732863330,
 "tags": "Cosmetics",
-"order": 2462
+"order": 2458
 });
 
 Mods.push({
@@ -39272,7 +39210,7 @@ Mods.push({
 "created": 1732892485,
 "modified": 1732892485,
 "tags": "Cosmetics",
-"order": 2463
+"order": 2459
 });
 
 Mods.push({
@@ -39288,7 +39226,7 @@ Mods.push({
 "created": 1732908206,
 "modified": 1733780472,
 "tags": "region",
-"order": 2464
+"order": 2460
 });
 
 Mods.push({
@@ -39304,7 +39242,7 @@ Mods.push({
 "created": 1732908403,
 "modified": 1732908403,
 "tags": "Regions",
-"order": 2465
+"order": 2461
 });
 
 Mods.push({
@@ -39320,7 +39258,7 @@ Mods.push({
 "created": 1732948502,
 "modified": 1732948502,
 "tags": "",
-"order": 2466
+"order": 2462
 });
 
 Mods.push({
@@ -39336,7 +39274,7 @@ Mods.push({
 "created": 1733028328,
 "modified": 1733028328,
 "tags": "Cosmetics",
-"order": 2467
+"order": 2463
 });
 
 Mods.push({
@@ -39352,7 +39290,7 @@ Mods.push({
 "created": 1733044311,
 "modified": 1733044311,
 "tags": "Arenas",
-"order": 2468
+"order": 2464
 });
 
 Mods.push({
@@ -39368,7 +39306,7 @@ Mods.push({
 "created": 1733051159,
 "modified": 1735117509,
 "tags": "Arenas",
-"order": 2469
+"order": 2465
 });
 
 Mods.push({
@@ -39384,7 +39322,7 @@ Mods.push({
 "created": 1733064251,
 "modified": 1733064251,
 "tags": "",
-"order": 2470
+"order": 2466
 });
 
 Mods.push({
@@ -39401,7 +39339,7 @@ Mods.push({
 "created": 1733071832,
 "modified": 1733071832,
 "tags": "Regions",
-"order": 2471
+"order": 2467
 });
 
 Mods.push({
@@ -39417,7 +39355,7 @@ Mods.push({
 "created": 1733092806,
 "modified": 1733092806,
 "tags": "Cosmetics",
-"order": 2472
+"order": 2468
 });
 
 Mods.push({
@@ -39433,7 +39371,7 @@ Mods.push({
 "created": 1733184873,
 "modified": 1733191154,
 "tags": "Cosmetics",
-"order": 2473
+"order": 2469
 });
 
 Mods.push({
@@ -39449,7 +39387,7 @@ Mods.push({
 "created": 1733184875,
 "modified": 1733184875,
 "tags": "Cosmetics",
-"order": 2474
+"order": 2470
 });
 
 Mods.push({
@@ -39465,7 +39403,7 @@ Mods.push({
 "created": 1733191091,
 "modified": 1733191091,
 "tags": "",
-"order": 2475
+"order": 2471
 });
 
 Mods.push({
@@ -39481,7 +39419,7 @@ Mods.push({
 "created": 1733199755,
 "modified": 1733199755,
 "tags": "Cosmetics",
-"order": 2476
+"order": 2472
 });
 
 Mods.push({
@@ -39497,7 +39435,7 @@ Mods.push({
 "created": 1733203892,
 "modified": 1733203892,
 "tags": "",
-"order": 2477
+"order": 2473
 });
 
 Mods.push({
@@ -39513,7 +39451,7 @@ Mods.push({
 "created": 1733206586,
 "modified": 1733206586,
 "tags": "",
-"order": 2478
+"order": 2474
 });
 
 Mods.push({
@@ -39529,7 +39467,7 @@ Mods.push({
 "created": 1733234776,
 "modified": 1733234776,
 "tags": "Dependency,Accessibility,Tools",
-"order": 2479
+"order": 2475
 });
 
 Mods.push({
@@ -39545,7 +39483,7 @@ Mods.push({
 "created": 1733235007,
 "modified": 1737564140,
 "tags": "Dependency,Accessibility,Tools",
-"order": 2480
+"order": 2476
 });
 
 Mods.push({
@@ -39562,7 +39500,7 @@ Mods.push({
 "created": 1733258809,
 "modified": 1734247622,
 "tags": "Cosmetics",
-"order": 2481
+"order": 2477
 });
 
 Mods.push({
@@ -39578,7 +39516,7 @@ Mods.push({
 "created": 1733261333,
 "modified": 1736199861,
 "tags": "Regions",
-"order": 2482
+"order": 2478
 });
 
 Mods.push({
@@ -39594,7 +39532,7 @@ Mods.push({
 "created": 1733277387,
 "modified": 1733277387,
 "tags": "Cosmetics",
-"order": 2483
+"order": 2479
 });
 
 Mods.push({
@@ -39610,7 +39548,7 @@ Mods.push({
 "created": 1733336612,
 "modified": 1733624110,
 "tags": "",
-"order": 2484
+"order": 2480
 });
 
 Mods.push({
@@ -39626,7 +39564,7 @@ Mods.push({
 "created": 1733364569,
 "modified": 1733364569,
 "tags": "Cosmetics",
-"order": 2485
+"order": 2481
 });
 
 Mods.push({
@@ -39642,7 +39580,7 @@ Mods.push({
 "created": 1733430135,
 "modified": 1733433390,
 "tags": "Cosmetics",
-"order": 2486
+"order": 2482
 });
 
 Mods.push({
@@ -39658,7 +39596,7 @@ Mods.push({
 "created": 1733543272,
 "modified": 1733709497,
 "tags": "",
-"order": 2487
+"order": 2483
 });
 
 Mods.push({
@@ -39674,7 +39612,7 @@ Mods.push({
 "created": 1733543372,
 "modified": 1733543372,
 "tags": "",
-"order": 2488
+"order": 2484
 });
 
 Mods.push({
@@ -39690,7 +39628,7 @@ Mods.push({
 "created": 1733560916,
 "modified": 1733560916,
 "tags": "Cosmetics",
-"order": 2489
+"order": 2485
 });
 
 Mods.push({
@@ -39706,7 +39644,7 @@ Mods.push({
 "created": 1733599723,
 "modified": 1733599723,
 "tags": "Arenas",
-"order": 2490
+"order": 2486
 });
 
 Mods.push({
@@ -39714,15 +39652,15 @@ Mods.push({
 "id": "mxyzptplk.arena",
 "workshop_id": "3380178831",
 "author": "Mxyzptplk",
-"desc": "A pack of arenas I made as an art project and to familiarize myself with the level editor. Contains 6 arenas.<br>No spawns in challenge mode unfortunately, there doesn't seem to be any tools or tutorials on how to make them.",
+"desc": "A pack of arenas I made as an art project and to familiarize myself with the level editor. Contains 7 arenas.",
 "thumb": "previews/3380178831.png",
 "url": "https://andrew.fm/rainworld/raindb/Mxys_Arena_Pack.zip",
 "requirements": "regionkit",
-"version": "1.1.0",
+"version": "1.2.1",
 "created": 1733602793,
-"modified": 1733602793,
+"modified": 1739064591,
 "tags": "Arenas",
-"order": 2491
+"order": 2487
 });
 
 Mods.push({
@@ -39738,7 +39676,7 @@ Mods.push({
 "created": 1733635514,
 "modified": 1734830329,
 "tags": "Cosmetics",
-"order": 2492
+"order": 2488
 });
 
 Mods.push({
@@ -39754,7 +39692,7 @@ Mods.push({
 "created": 1733647579,
 "modified": 1738830150,
 "tags": "Cosmetics",
-"order": 2493
+"order": 2489
 });
 
 Mods.push({
@@ -39770,7 +39708,7 @@ Mods.push({
 "created": 1733666283,
 "modified": 1733666283,
 "tags": "",
-"order": 2494
+"order": 2490
 });
 
 Mods.push({
@@ -39786,7 +39724,7 @@ Mods.push({
 "created": 1733677439,
 "modified": 1733677439,
 "tags": "Cosmetics",
-"order": 2495
+"order": 2491
 });
 
 Mods.push({
@@ -39802,7 +39740,7 @@ Mods.push({
 "created": 1733685352,
 "modified": 1733685352,
 "tags": "Cosmetics",
-"order": 2496
+"order": 2492
 });
 
 Mods.push({
@@ -39818,7 +39756,7 @@ Mods.push({
 "created": 1733688784,
 "modified": 1735251107,
 "tags": "Creatures,Dependency",
-"order": 2497
+"order": 2493
 });
 
 Mods.push({
@@ -39834,7 +39772,7 @@ Mods.push({
 "created": 1733710784,
 "modified": 1733710784,
 "tags": "",
-"order": 2498
+"order": 2494
 });
 
 Mods.push({
@@ -39850,7 +39788,7 @@ Mods.push({
 "created": 1733716414,
 "modified": 1733716414,
 "tags": "Custom Slugcat,Custom Iterator,custom regions,Custom lore,Not orginal au",
-"order": 2499
+"order": 2495
 });
 
 Mods.push({
@@ -39866,7 +39804,7 @@ Mods.push({
 "created": 1733722960,
 "modified": 1733722960,
 "tags": "Game Mechanics",
-"order": 2500
+"order": 2496
 });
 
 Mods.push({
@@ -39874,15 +39812,15 @@ Mods.push({
 "id": "aspari.thecurator",
 "workshop_id": "3381548515",
 "author": "Aspari (Oc and Art by Neramint)",
-"desc": "Commission Slugcat for [url=https://toyhou.se/Neramint] Neramint [/url]. Thanks a lot for your art! <br> <br>Possessing a deadly bite and the swiftness to move quickly through the shadows, you'll step into the world and discover you have always been greater than you have been led to believe. <br> <br>[b] Controls [/b]<br>[list]<br>    [*]Hold Pickup to glide.<br>    [*]Hold Pickup while a nearby enemy is stunned to maul.<br>[/list]<br><br>Your best combat tools are your movement and your mauling. Use it as much as possible!<br> <br>[b] Extra Features [/b]<br>[list]<br>    [*]Meows with the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3257541402] Push to Meow [/url] mod.<br>    [*]Expedition Mission with the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2950073538] Alternate Slugcat Missions [/url] mod.<br>[/list]<br><br>[hr][/hr]<br>[h2] Credits [/h2]<br>[list]<br>    [*]Art and thumbnail by [url=https://toyhou.se/Neramint] Neramint [/url].<br>    [*]Code, Skin and Spanish translation by [url=https://www.tumblr.com/blog/aspari] me [/url].<br>[/list]",
+"desc": "Commission Slugcat for Neramint. Thanks a lot for your art! <br> <br> Possessing a deadly bite and the swiftness to move quickly through the shadows, you'll step into the world and discover you have always been greater than you have been led to believe. <br> <br> Hold Pickup to glide! Your best combat tools are your movement and your mauling. <br> <br> It has a custom expedition and meows too!",
 "thumb": "previews/3381548515.png",
 "url": "https://andrew.fm/rainworld/raindb/The_Curator.zip",
 "requirements": "slime-cubed.slugbase,dressmyslugcat,regionkit",
-"version": "1.0.1",
+"version": "1.1.0",
 "created": 1733769731,
-"modified": 1733780981,
+"modified": 1739748595,
 "tags": "Custom Slugcat,Cosmetics",
-"order": 2501
+"order": 2497
 });
 
 Mods.push({
@@ -39898,7 +39836,7 @@ Mods.push({
 "created": 1733815826,
 "modified": 1733906460,
 "tags": "Cosmetics",
-"order": 2502
+"order": 2498
 });
 
 Mods.push({
@@ -39914,7 +39852,7 @@ Mods.push({
 "created": 1733843221,
 "modified": 1734589838,
 "tags": "Cosmetics",
-"order": 2503
+"order": 2499
 });
 
 Mods.push({
@@ -39930,7 +39868,7 @@ Mods.push({
 "created": 1733844045,
 "modified": 1733844045,
 "tags": "Cosmetics",
-"order": 2504
+"order": 2500
 });
 
 Mods.push({
@@ -39946,7 +39884,7 @@ Mods.push({
 "created": 1733891029,
 "modified": 1733891029,
 "tags": "Game Modes,Lizor Approved",
-"order": 2505
+"order": 2501
 });
 
 Mods.push({
@@ -39962,7 +39900,7 @@ Mods.push({
 "created": 1733903433,
 "modified": 1733936598,
 "tags": "Custom Slugcat",
-"order": 2506
+"order": 2502
 });
 
 Mods.push({
@@ -39978,7 +39916,7 @@ Mods.push({
 "created": 1733919730,
 "modified": 1733919730,
 "tags": "mrow,Cosmetics,Game Mechanics",
-"order": 2507
+"order": 2503
 });
 
 Mods.push({
@@ -39994,7 +39932,7 @@ Mods.push({
 "created": 1733928502,
 "modified": 1733928502,
 "tags": "",
-"order": 2508
+"order": 2504
 });
 
 Mods.push({
@@ -40010,7 +39948,7 @@ Mods.push({
 "created": 1733929805,
 "modified": 1733929805,
 "tags": "uh uh,Cosmetics,Game Mechanics",
-"order": 2509
+"order": 2505
 });
 
 Mods.push({
@@ -40026,7 +39964,7 @@ Mods.push({
 "created": 1733930795,
 "modified": 1733930795,
 "tags": "",
-"order": 2510
+"order": 2506
 });
 
 Mods.push({
@@ -40042,7 +39980,7 @@ Mods.push({
 "created": 1734000389,
 "modified": 1734000389,
 "tags": "Cosmetics",
-"order": 2511
+"order": 2507
 });
 
 Mods.push({
@@ -40058,7 +39996,7 @@ Mods.push({
 "created": 1734074038,
 "modified": 1734074038,
 "tags": "Cosmetics",
-"order": 2512
+"order": 2508
 });
 
 Mods.push({
@@ -40074,7 +40012,7 @@ Mods.push({
 "created": 1734090869,
 "modified": 1734090869,
 "tags": "Cosmetics",
-"order": 2513
+"order": 2509
 });
 
 Mods.push({
@@ -40090,7 +40028,7 @@ Mods.push({
 "created": 1734121807,
 "modified": 1734121807,
 "tags": "",
-"order": 2514
+"order": 2510
 });
 
 Mods.push({
@@ -40106,7 +40044,7 @@ Mods.push({
 "created": 1734152864,
 "modified": 1734152864,
 "tags": "Cosmetics",
-"order": 2515
+"order": 2511
 });
 
 Mods.push({
@@ -40123,7 +40061,7 @@ Mods.push({
 "created": 1734184226,
 "modified": 1738120297,
 "tags": "Cosmetics",
-"order": 2516
+"order": 2512
 });
 
 Mods.push({
@@ -40139,7 +40077,7 @@ Mods.push({
 "created": 1734188294,
 "modified": 1734231575,
 "tags": "",
-"order": 2517
+"order": 2513
 });
 
 Mods.push({
@@ -40155,7 +40093,7 @@ Mods.push({
 "created": 1734201816,
 "modified": 1734201816,
 "tags": "Cosmetics",
-"order": 2518
+"order": 2514
 });
 
 Mods.push({
@@ -40171,7 +40109,7 @@ Mods.push({
 "created": 1734203243,
 "modified": 1734203243,
 "tags": "",
-"order": 2519
+"order": 2515
 });
 
 Mods.push({
@@ -40187,7 +40125,7 @@ Mods.push({
 "created": 1734278891,
 "modified": 1738622042,
 "tags": "Game Mechanics,Game Modes,Random",
-"order": 2520
+"order": 2516
 });
 
 Mods.push({
@@ -40203,7 +40141,7 @@ Mods.push({
 "created": 1734318322,
 "modified": 1734318322,
 "tags": "Cosmetics",
-"order": 2521
+"order": 2517
 });
 
 Mods.push({
@@ -40219,7 +40157,7 @@ Mods.push({
 "created": 1734375162,
 "modified": 1734375162,
 "tags": "Cosmetics,Dependency,Tools",
-"order": 2522
+"order": 2518
 });
 
 Mods.push({
@@ -40235,7 +40173,7 @@ Mods.push({
 "created": 1734394584,
 "modified": 1734496650,
 "tags": "Acessibility",
-"order": 2523
+"order": 2519
 });
 
 Mods.push({
@@ -40252,7 +40190,7 @@ Mods.push({
 "created": 1734397761,
 "modified": 1738785414,
 "tags": "",
-"order": 2524
+"order": 2520
 });
 
 Mods.push({
@@ -40268,7 +40206,7 @@ Mods.push({
 "created": 1734443903,
 "modified": 1734443903,
 "tags": "",
-"order": 2525
+"order": 2521
 });
 
 Mods.push({
@@ -40283,7 +40221,7 @@ Mods.push({
 "created": 1734470235,
 "modified": 1734470235,
 "tags": "Game Modes",
-"order": 2526
+"order": 2522
 });
 
 Mods.push({
@@ -40299,7 +40237,7 @@ Mods.push({
 "created": 1734471622,
 "modified": 1734734219,
 "tags": "Creatures",
-"order": 2527
+"order": 2523
 });
 
 Mods.push({
@@ -40315,7 +40253,23 @@ Mods.push({
 "created": 1734475635,
 "modified": 1734654542,
 "tags": "",
-"order": 2528
+"order": 2524
+});
+
+Mods.push({
+"name": "The Martyr campaign",
+"id": "Gear.Martr",
+"workshop_id": "3386591761",
+"author": "Gear",
+"desc": "not the echocat, rather this individual is true regeneration in rebirth finding ways to survive despite the consequenses.",
+"thumb": "previews/3386591761.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Martyr_campaign.zip",
+"requirements": "slime-cubed.slugbase",
+"version": "1.1.0",
+"created": 1734515665,
+"modified": 1734515665,
+"tags": "",
+"order": 2525
 });
 
 Mods.push({
@@ -40331,7 +40285,7 @@ Mods.push({
 "created": 1734547798,
 "modified": 1734547798,
 "tags": "Cosmetics",
-"order": 2529
+"order": 2526
 });
 
 Mods.push({
@@ -40347,7 +40301,7 @@ Mods.push({
 "created": 1734585040,
 "modified": 1734585040,
 "tags": "Regions",
-"order": 2530
+"order": 2527
 });
 
 Mods.push({
@@ -40363,7 +40317,7 @@ Mods.push({
 "created": 1734704930,
 "modified": 1734704930,
 "tags": "",
-"order": 2531
+"order": 2528
 });
 
 Mods.push({
@@ -40378,7 +40332,7 @@ Mods.push({
 "created": 1734725760,
 "modified": 1734725760,
 "tags": "",
-"order": 2532
+"order": 2529
 });
 
 Mods.push({
@@ -40394,7 +40348,7 @@ Mods.push({
 "created": 1734726840,
 "modified": 1734726840,
 "tags": "Cosmetics",
-"order": 2533
+"order": 2530
 });
 
 Mods.push({
@@ -40402,15 +40356,15 @@ Mods.push({
 "id": "henpemaz_rainmeadow",
 "workshop_id": "3388224007",
 "author": "Henpemaz, Wolfycatt, Intikus, and many more",
-"desc": "A multiplayer engine, custom game mode, and online arena / story experience for Rain World!<br><br>[h2]How it works[/h2]<br><br>[list]<br>  [*]It uses Steam ([b]you must own the game on Steam[/b]) to connect you with others players to play Rain World online! It uses peer-to-peer (P2P) networking topology.<br>  [*]For the best possible experience, [b]disable all non-essential content mods[/b]<br>[/list]<br><br>[h2]Mod support[/h2]<br><br>[list]<br>  [*]Varies by gamemode<br>  [*]Story & Arena support MSC (Downpour) characters, some content is still work-in-progress<br>  [*]Story does not fully support all MSC campaigns (yet)<br>  [*]Content mods (regions, creatures, slugcats) MUST be the same as the host's and MUST be applied in the same order<br><br>[list]<br>  [*]The mod-checker is not foolproof, you can require certain mods by adding them to the `meadow-highimpactmods` textfile in StreamingAssets<br>[/list]<br>[/list]<br><br>The community-maintained mod compatibility spreadsheet can be found [url=https://docs.google.com/spreadsheets/d/1QG1xYPLECkVSMc2vopO-Rw2rSdnn7_fsdlMajhAUOW0/edit?gid=0#gid=0]here[/url]<br><br>[h2]Game Mode Overview[/h2]<br><br>[h3]Meadow[/h3]<br><br>[list]<br>  [*]Exploratory, peaceful gamemode focused on encountering other players and working together to find collectibles and unlock new skins & characters.<br>  [*]Hand-built creature navigations<br>  [*]Custom music by @Intikus!<br>  [*]Custom emoting to communicate by @Wolfycat!<br>  [*]Sound effects to communicate<br>[/list]<br><br>[h3]Story[/h3]<br><br>[list]<br>  [*]Survivor campaign is available by default<br>  [*]Access other campaigns through the 'Experimental Features' remix option<br><br>[list]<br>  [*]Clients can select slugcats other than the current campaign<br>[/list]<br>  [*]Currently-supported campaigns: Survivor, Monk, Hunter, Artificer, Gourmand<br>  [*]Food requirement is determined by the current campaign<br>  [*]Food nourishment is determined by the player's slugcat regardless of current campaign<br><br>[list]<br>  [*]e.g. Hunter in Survivor's campaign can eat meat<br>[/list]<br>  [*]All ingame players, dead or alive, MUST be present at a karma gate to continue<br><br>[list]<br>  [*]Dead players can exit to lobby to allow others to continue<br>[/list]<br>  [*]Do not attempt to grab or piggyback players as it WILL break the game<br>  [*]You may den in separate shelters within the same region<br>[/list]<br><br>[h3]Arena[/h3]<br><br>[list]<br>  [*]Currently offers Competitive (PvP) mode<br>  [*]Dens open when the rain comes or when there's only one scug left standing<br>  [*]Countdown timer ensures all players have a chance to grab weapons before attacking; Prevents some slugcat abilties<br>  [*]Saint by default uses ascendance as the mode of attack. Switch to [b]Sain't[/b] abilities via Remix<br>  [*]All levels are unlocked. Some levels are 'multi_stage'. Some levels do not spawn items due to that levels' pre-baked code.<br>[/list]<br><br>[h3]Communication (Story and Arena only)[/h3]<br><br>[list]<br>  [*]Press 'Enter' to open chat<br>  [*]Press 'J' to show usernames and player icons<br>  [*]Press 'Tab' to open the spectator menu<br>[/list]<br><br>[h3]Moderation (Story and Arena only)[/h3]<br><br>[list]<br>  [*]Host can kick players via the spectator menu; Clients can mute players<br>  [*]Kicking players prevents them from rejoining your current lobby<br><br>[list]<br>  [*]The ban does NOT carry between lobbies<br>[/list]<br>[/list]<br><br>[h2]Modding[/h2]<br><br>Some examples of custom gamemodes using Rain Meadow's multiplayer engine:<br><br>[list]<br>  [*][url=https://github.com/henpemaz/RemixMods/tree/master/Tag]Tag[/url]<br>  [*][url=https://github.com/6fears7/Arena-Online/tree/main]Arena custom game modes documentation & examples[/url]<br>[/list]<br><br>[h2]Credits[/h2]<br><br>[code]<br>Henpemaz - Lead Developer		Wolfycatt(Ana) - Lead Artist		Intikus - Lead Audio Designer<br>Noircatto - Programming, engine		HelloThere - Programming, sound		A1iex - UI Design<br>FranklyGD - Programming, engine		MC41Games - Programming, menus		Silvyger - Programming, arena<br>Vigaro - Programming, menus		BitiLope - Programming, story		Pudgy Turtle - Programming, story<br>ddemile - Programming, modsync		UO - Programming, story, arena		Saddest - Programming, UI, chat<br>notchoc - Programming, story		phanie_ - Illustration			Timbits - Programming, UI, menus<br>Zedreus - Programming, UI, story	Persondotexe - Programming, modsync	<br>[/code]",
+"desc": "A multiplayer engine, custom game mode, and online arena / story experience for Rain World!<br><br>[h2]How it works[/h2]<br><br>[list]<br>  [*]It uses Steam ([b]you must own the game on Steam[/b]) to connect you with others players to play Rain World online! It uses peer-to-peer (P2P) networking topology.<br>  [*]For the best possible experience, [b]disable all non-essential content mods[/b]<br>[/list]<br><br>[h2]Mod support[/h2]<br><br>[list]<br>  [*]Varies by gamemode<br>  [*]Story & Arena support MSC (Downpour) characters, some content is still work-in-progress<br>  [*]Story does not fully support all MSC campaigns (yet)<br>  [*]Content mods (regions, creatures, slugcats) MUST be the same as the host's and MUST be applied in the same order<br><br>[list]<br>  [*]The mod-checker is not foolproof, you can require certain mods by adding them to the `meadow-highimpactmods` textfile in StreamingAssets<br>[/list]<br>[/list]<br><br>The community-maintained mod compatibility spreadsheet can be found [url=https://docs.google.com/spreadsheets/d/1QG1xYPLECkVSMc2vopO-Rw2rSdnn7_fsdlMajhAUOW0/edit?gid=0#gid=0]here[/url]<br><br>[h2]Game Mode Overview[/h2]<br><br>[h3]Meadow[/h3]<br><br>[list]<br>  [*]Exploratory, peaceful gamemode focused on encountering other players and working together to find collectibles and unlock new skins & characters.<br>  [*]Hand-built creature navigations<br>  [*]Custom music by @Intikus!<br>  [*]Custom emoting to communicate by @Wolfycat!<br>  [*]Sound effects to communicate<br>[/list]<br><br>[h3]Story[/h3]<br><br>[list]<br>  [*]Survivor campaign is available by default<br>  [*]Access other campaigns through the 'Experimental Features' remix option<br><br>[list]<br>  [*]Host can only play as the campaign slugcat<br>  [*]Clients can select slugcats other than the current campaign<br>[/list]<br>  [*]Currently-supported campaigns: Survivor, Monk, Hunter, Artificer, Gourmand<br>  [*]Food requirement is determined by the current campaign<br>  [*]Food nourishment is determined by the player's slugcat regardless of current campaign<br><br>[list]<br>  [*]e.g. Hunter in Survivor's campaign can eat meat<br>[/list]<br>  [*]All ingame players, dead or alive, MUST be present at a karma gate to continue<br><br>[list]<br>  [*]Dead players can exit to lobby to allow others to continue<br>[/list]<br>  [*]Do not attempt to grab or piggyback players as it WILL break the game<br>  [*]You may den in separate shelters within the same region<br>[/list]<br><br>[h3]Arena[/h3]<br><br>[list]<br>  [*]Currently offers Competitive (PvP) mode<br>  [*]Dens open when the rain comes or when there's only one scug left standing<br>  [*]Countdown timer ensures all players have a chance to grab weapons before attacking; Prevents some slugcat abilties<br>  [*]Saint by default uses ascendance as the mode of attack. Switch to [b]Sain't[/b] abilities via Remix<br>  [*]All levels are unlocked. Some levels are 'multi_stage'. Some levels do not spawn items due to that levels' pre-baked code.<br>[/list]<br><br>[h3]Communication (Story and Arena only)[/h3]<br><br>[list]<br>  [*]Press 'Enter' to open chat<br>  [*]Press 'J' to show usernames and player icons<br>  [*]Press 'Tab' to open the spectator menu<br>[/list]<br><br>[h3]Moderation (Story and Arena only)[/h3]<br><br>[list]<br>  [*]Host can kick players via the spectator menu; Clients can mute players<br>  [*]Kicking players prevents them from rejoining your current lobby<br><br>[list]<br>  [*]The ban does NOT carry between lobbies<br>[/list]<br>[/list]<br><br>[h2]Modding[/h2]<br><br>Some examples of custom gamemodes using Rain Meadow's multiplayer engine:<br><br>[list]<br>  [*][url=https://github.com/henpemaz/RemixMods/tree/master/Tag]Tag[/url]<br>  [*][url=https://github.com/6fears7/Arena-Online/tree/main]Arena custom game modes documentation & examples[/url]<br>[/list]<br><br>[h2]Credits[/h2]<br><br>[code]<br>Henpemaz - Lead Developer		Wolfycatt(Ana) - Lead Artist		Intikus - Lead Audio Designer<br>Noircatto - Programming, engine		HelloThere - Programming, sound		A1iex - UI Design<br>FranklyGD - Programming, engine		MC41Games - Programming, menus		Silvyger - Programming, arena<br>Vigaro - Programming, menus		BitiLope - Programming, story		Pudgy Turtle - Programming, story<br>ddemile - Programming, modsync		UO - Programming, story, arena		Saddest - Programming, UI, chat<br>notchoc - Programming, story		phanie_ - Illustration			Timbits - Programming, UI, menus<br>Zedreus - Programming, UI, story	Persondotexe - Programming, modsync	 invalidunits - Programming, UI, LAN<br>forthfora - Programming, modsync<br>[/code]",
 "thumb": "previews/3388224007.png",
-"url": "https://andrew.fm/rainworld/raindb/Rain_Meadow.zip",
+"url": "https://ln5.sync.com/dl/d8ac27540#kis7k4jz-zwv3t2r2-wbbvyp9t-hhuyngbg",
 "requirements": "",
-"version": "0.1.1",
+"version": "0.1.2.1",
 "created": 1734739196,
-"modified": 1735405446,
+"modified": 1739480433,
 "tags": "",
-"order": 2534
+"order": 2531
 });
 
 Mods.push({
@@ -40426,7 +40380,7 @@ Mods.push({
 "created": 1734798198,
 "modified": 1738586666,
 "tags": "",
-"order": 2535
+"order": 2532
 });
 
 Mods.push({
@@ -40442,7 +40396,7 @@ Mods.push({
 "created": 1734804936,
 "modified": 1734804936,
 "tags": "Creatures",
-"order": 2536
+"order": 2533
 });
 
 Mods.push({
@@ -40458,7 +40412,7 @@ Mods.push({
 "created": 1734840835,
 "modified": 1734931014,
 "tags": "Cosmetics",
-"order": 2537
+"order": 2534
 });
 
 Mods.push({
@@ -40474,7 +40428,7 @@ Mods.push({
 "created": 1734869775,
 "modified": 1734869775,
 "tags": "Cosmetic,Personal,Work In Progress",
-"order": 2538
+"order": 2535
 });
 
 Mods.push({
@@ -40490,7 +40444,7 @@ Mods.push({
 "created": 1734880303,
 "modified": 1734880303,
 "tags": "Cosmetics,Dependency,Tools",
-"order": 2539
+"order": 2536
 });
 
 Mods.push({
@@ -40506,7 +40460,7 @@ Mods.push({
 "created": 1734882176,
 "modified": 1734883543,
 "tags": "Game Mechanics",
-"order": 2540
+"order": 2537
 });
 
 Mods.push({
@@ -40522,7 +40476,7 @@ Mods.push({
 "created": 1734882319,
 "modified": 1735107924,
 "tags": "Game Mechanics",
-"order": 2541
+"order": 2538
 });
 
 Mods.push({
@@ -40538,7 +40492,7 @@ Mods.push({
 "created": 1734903139,
 "modified": 1734903139,
 "tags": "Game Mechanics,Cosmetics",
-"order": 2542
+"order": 2539
 });
 
 Mods.push({
@@ -40554,7 +40508,7 @@ Mods.push({
 "created": 1734912978,
 "modified": 1734912978,
 "tags": "Cosmetics",
-"order": 2543
+"order": 2540
 });
 
 Mods.push({
@@ -40570,7 +40524,7 @@ Mods.push({
 "created": 1734932968,
 "modified": 1734937058,
 "tags": "Regions",
-"order": 2544
+"order": 2541
 });
 
 Mods.push({
@@ -40586,7 +40540,7 @@ Mods.push({
 "created": 1735021327,
 "modified": 1735021327,
 "tags": "",
-"order": 2545
+"order": 2542
 });
 
 Mods.push({
@@ -40602,7 +40556,7 @@ Mods.push({
 "created": 1735112032,
 "modified": 1735112032,
 "tags": "Cosmetics",
-"order": 2546
+"order": 2543
 });
 
 Mods.push({
@@ -40618,7 +40572,7 @@ Mods.push({
 "created": 1735162401,
 "modified": 1735429540,
 "tags": "Regions,Campaigns,Custom Slugcat",
-"order": 2547
+"order": 2544
 });
 
 Mods.push({
@@ -40634,7 +40588,7 @@ Mods.push({
 "created": 1735180391,
 "modified": 1735180391,
 "tags": "Cosmetics",
-"order": 2548
+"order": 2545
 });
 
 Mods.push({
@@ -40649,7 +40603,7 @@ Mods.push({
 "created": 1735193897,
 "modified": 1735267533,
 "tags": "Game Mechanics",
-"order": 2549
+"order": 2546
 });
 
 Mods.push({
@@ -40665,7 +40619,7 @@ Mods.push({
 "created": 1735255132,
 "modified": 1735610767,
 "tags": "Regions",
-"order": 2550
+"order": 2547
 });
 
 Mods.push({
@@ -40673,15 +40627,15 @@ Mods.push({
 "id": "adventurer",
 "workshop_id": "3393319993",
 "author": "Starshooter81",
-"desc": "This mod isn't meant to be played with other region mods! Other region mods may be incompatible!<br><br>This mod adds 2 new slugcats. The adventurer doesn't have any abilities but can eat like gourmand, has backspear and<br>is slightly faster than the average slug. The other slugcat is the marine who can hold their breath underwater better, can maul and climb up background waterfalls.<br><br>This mod isn't complete and there is more to come.<br>Thanks to croken85 for the Fanged Terrors mod!<br>",
+"desc": "This mod isn't meant to be played with other region mods! Other region mods may be incompatible!This mod adds 2 new slugcats. The adventurer doesn't have any abilities but can eat like gourmand, has backspear andis slightly faster than the average slug. The other slugcat is the marine who can hold their breath underwater better, can maul and climb up background waterfalls.This mod isn't complete and there is more to come.Thanks to croken85 for the Fanged Terrors mod!",
 "thumb": "previews/3393319993.png",
 "url": "https://andrew.fm/rainworld/raindb/The_Adventurer_WIP.zip",
 "requirements": "slime-cubed.slugbase,regionkit,moreslugcats,crs,Croken.fanged-lizard,mosquitoes,lb-fgf-m4r-ik.modpack,com.rainworldgame.shroudedassembly.plugin",
 "version": "0.2.4",
 "created": 1735315491,
-"modified": 1736859904,
+"modified": 1739462644,
 "tags": "Regions,Campaigns,Custom Slugcat",
-"order": 2551
+"order": 2548
 });
 
 Mods.push({
@@ -40697,7 +40651,7 @@ Mods.push({
 "created": 1735348649,
 "modified": 1735348649,
 "tags": "Cosmetics",
-"order": 2552
+"order": 2549
 });
 
 Mods.push({
@@ -40713,7 +40667,7 @@ Mods.push({
 "created": 1735352304,
 "modified": 1735352304,
 "tags": "Cosmetics",
-"order": 2553
+"order": 2550
 });
 
 Mods.push({
@@ -40729,7 +40683,7 @@ Mods.push({
 "created": 1735378860,
 "modified": 1735916628,
 "tags": "Regions",
-"order": 2554
+"order": 2551
 });
 
 Mods.push({
@@ -40745,7 +40699,7 @@ Mods.push({
 "created": 1735379125,
 "modified": 1735763798,
 "tags": "Regions",
-"order": 2555
+"order": 2552
 });
 
 Mods.push({
@@ -40761,7 +40715,7 @@ Mods.push({
 "created": 1735379262,
 "modified": 1736529842,
 "tags": "Campaigns",
-"order": 2556
+"order": 2553
 });
 
 Mods.push({
@@ -40777,7 +40731,7 @@ Mods.push({
 "created": 1735403772,
 "modified": 1735510775,
 "tags": "Cosmetics",
-"order": 2557
+"order": 2554
 });
 
 Mods.push({
@@ -40793,7 +40747,7 @@ Mods.push({
 "created": 1735411871,
 "modified": 1736553893,
 "tags": "Arenas,Game Modes",
-"order": 2558
+"order": 2555
 });
 
 Mods.push({
@@ -40809,7 +40763,7 @@ Mods.push({
 "created": 1735499172,
 "modified": 1735499172,
 "tags": "Cosmetics",
-"order": 2559
+"order": 2556
 });
 
 Mods.push({
@@ -40825,7 +40779,7 @@ Mods.push({
 "created": 1735571221,
 "modified": 1735571221,
 "tags": "Cosmetics",
-"order": 2560
+"order": 2557
 });
 
 Mods.push({
@@ -40841,7 +40795,7 @@ Mods.push({
 "created": 1735595087,
 "modified": 1735595087,
 "tags": "Cosmetics",
-"order": 2561
+"order": 2558
 });
 
 Mods.push({
@@ -40857,7 +40811,7 @@ Mods.push({
 "created": 1735595340,
 "modified": 1735603150,
 "tags": "Custom Slugcat",
-"order": 2562
+"order": 2559
 });
 
 Mods.push({
@@ -40873,7 +40827,7 @@ Mods.push({
 "created": 1735601548,
 "modified": 1735601548,
 "tags": "Cosmetics",
-"order": 2563
+"order": 2560
 });
 
 Mods.push({
@@ -40889,7 +40843,7 @@ Mods.push({
 "created": 1735604482,
 "modified": 1737090056,
 "tags": "Game Mechanics",
-"order": 2564
+"order": 2561
 });
 
 Mods.push({
@@ -40905,7 +40859,7 @@ Mods.push({
 "created": 1735637752,
 "modified": 1735637752,
 "tags": "Accessibility,Creatures,Game Mechanics",
-"order": 2565
+"order": 2562
 });
 
 Mods.push({
@@ -40921,7 +40875,7 @@ Mods.push({
 "created": 1735647339,
 "modified": 1735648253,
 "tags": "Cosmetics",
-"order": 2566
+"order": 2563
 });
 
 Mods.push({
@@ -40932,11 +40886,11 @@ Mods.push({
 "desc": "Removes most food other than batflies, noodleflies, and non-infant centipedes from the world in an attempt to increase the focus on batfly swarm rooms & migration mechanics, force players to explore regions more thoroughly, and in general make acquiring food a more interesting part of gameplay. A possible taste of what a version of RW '5x harder than the release version' might have entailed.<br><br>This mod does not affect MSC regions other than Pipeyard and was made with the vanilla campaigns in mind.",
 "url": "https://andrew.fm/rainworld/raindb/Less_Food.zip",
 "requirements": "",
-"version": "1.1",
+"version": "1.1.01",
 "created": 1735724627,
-"modified": 1739030947,
+"modified": 1739074548,
 "tags": "Game Modes",
-"order": 2567
+"order": 2564
 });
 
 Mods.push({
@@ -40952,7 +40906,7 @@ Mods.push({
 "created": 1735728677,
 "modified": 1735728677,
 "tags": "Cosmetics",
-"order": 2568
+"order": 2565
 });
 
 Mods.push({
@@ -40968,7 +40922,7 @@ Mods.push({
 "created": 1735741603,
 "modified": 1736214181,
 "tags": "",
-"order": 2569
+"order": 2566
 });
 
 Mods.push({
@@ -40982,9 +40936,9 @@ Mods.push({
 "requirements": "fisobs",
 "version": "1.0",
 "created": 1735772015,
-"modified": 1735772015,
+"modified": 1739147979,
 "tags": "",
-"order": 2570
+"order": 2567
 });
 
 Mods.push({
@@ -41000,7 +40954,7 @@ Mods.push({
 "created": 1735792083,
 "modified": 1735792083,
 "tags": "Game Mechanics",
-"order": 2571
+"order": 2568
 });
 
 Mods.push({
@@ -41016,7 +40970,7 @@ Mods.push({
 "created": 1735845154,
 "modified": 1735845154,
 "tags": "Regions",
-"order": 2572
+"order": 2569
 });
 
 Mods.push({
@@ -41032,7 +40986,7 @@ Mods.push({
 "created": 1735887936,
 "modified": 1735887936,
 "tags": "Cosmetics",
-"order": 2573
+"order": 2570
 });
 
 Mods.push({
@@ -41048,7 +41002,7 @@ Mods.push({
 "created": 1735891587,
 "modified": 1735957228,
 "tags": "Regions",
-"order": 2574
+"order": 2571
 });
 
 Mods.push({
@@ -41064,7 +41018,7 @@ Mods.push({
 "created": 1735895232,
 "modified": 1735963667,
 "tags": "Arenas",
-"order": 2575
+"order": 2572
 });
 
 Mods.push({
@@ -41080,7 +41034,7 @@ Mods.push({
 "created": 1735895463,
 "modified": 1735895463,
 "tags": "Cosmetics",
-"order": 2576
+"order": 2573
 });
 
 Mods.push({
@@ -41096,7 +41050,7 @@ Mods.push({
 "created": 1735908832,
 "modified": 1735908832,
 "tags": "Cosmetics",
-"order": 2577
+"order": 2574
 });
 
 Mods.push({
@@ -41112,7 +41066,7 @@ Mods.push({
 "created": 1735927469,
 "modified": 1735927469,
 "tags": "Cosmetics",
-"order": 2578
+"order": 2575
 });
 
 Mods.push({
@@ -41128,7 +41082,7 @@ Mods.push({
 "created": 1736005464,
 "modified": 1736005464,
 "tags": "",
-"order": 2579
+"order": 2576
 });
 
 Mods.push({
@@ -41144,7 +41098,7 @@ Mods.push({
 "created": 1736006630,
 "modified": 1736006630,
 "tags": "Regions",
-"order": 2580
+"order": 2577
 });
 
 Mods.push({
@@ -41160,7 +41114,7 @@ Mods.push({
 "created": 1736019705,
 "modified": 1736019705,
 "tags": "Cosmetics",
-"order": 2581
+"order": 2578
 });
 
 Mods.push({
@@ -41176,7 +41130,7 @@ Mods.push({
 "created": 1736031972,
 "modified": 1736031972,
 "tags": "Cosmetics",
-"order": 2582
+"order": 2579
 });
 
 Mods.push({
@@ -41192,7 +41146,7 @@ Mods.push({
 "created": 1736048309,
 "modified": 1736048309,
 "tags": "Cosmetics",
-"order": 2583
+"order": 2580
 });
 
 Mods.push({
@@ -41208,7 +41162,7 @@ Mods.push({
 "created": 1736059412,
 "modified": 1736062054,
 "tags": "Game Mechanics,Game Modes,Rain Meadow Game Mode",
-"order": 2584
+"order": 2581
 });
 
 Mods.push({
@@ -41224,7 +41178,7 @@ Mods.push({
 "created": 1736084986,
 "modified": 1736084986,
 "tags": "Cosmetics",
-"order": 2585
+"order": 2582
 });
 
 Mods.push({
@@ -41238,9 +41192,9 @@ Mods.push({
 "requirements": "",
 "version": "0.5.1",
 "created": 1736101721,
-"modified": 1738776331,
+"modified": 1740137308,
 "tags": "Translations",
-"order": 2586
+"order": 2583
 });
 
 Mods.push({
@@ -41256,7 +41210,7 @@ Mods.push({
 "created": 1736119133,
 "modified": 1736119133,
 "tags": "Cosmetics",
-"order": 2587
+"order": 2584
 });
 
 Mods.push({
@@ -41272,7 +41226,7 @@ Mods.push({
 "created": 1736127680,
 "modified": 1738522461,
 "tags": "Items,Cosmetics,Dependency,Tools",
-"order": 2588
+"order": 2585
 });
 
 Mods.push({
@@ -41288,7 +41242,7 @@ Mods.push({
 "created": 1736138357,
 "modified": 1736138357,
 "tags": "Cosmetics",
-"order": 2589
+"order": 2586
 });
 
 Mods.push({
@@ -41304,7 +41258,7 @@ Mods.push({
 "created": 1736188232,
 "modified": 1736188232,
 "tags": "Cosmetics",
-"order": 2590
+"order": 2587
 });
 
 Mods.push({
@@ -41312,15 +41266,15 @@ Mods.push({
 "id": "NoirCatto.Bandanas",
 "workshop_id": "3402145492",
 "author": "NoirCatto",
-"desc": "Colorful Bandanas for everyscug!<br><br>Adds cosmetic, floaty bandanas, toggleable and customizable per-player in Remix.<br><br>---------------------------------<br>Compatible with Sain't and Myriad (16 slug mod)",
+"desc": "Colorful Bandanas for everyscug!<br><br>Adds cosmetic, floaty bandanas, toggleable and customizable per-player in Remix.",
 "thumb": "previews/3402145492.png",
 "url": "https://andrew.fm/rainworld/raindb/Bandanas.zip",
 "requirements": "",
-"version": "1.0.2",
+"version": "1.0.1",
 "created": 1736191511,
-"modified": 1736268285,
+"modified": 1739225304,
 "tags": "Cosmetics",
-"order": 2591
+"order": 2588
 });
 
 Mods.push({
@@ -41336,7 +41290,7 @@ Mods.push({
 "created": 1736216019,
 "modified": 1736882057,
 "tags": "",
-"order": 2592
+"order": 2589
 });
 
 Mods.push({
@@ -41352,7 +41306,7 @@ Mods.push({
 "created": 1736287933,
 "modified": 1736287933,
 "tags": "",
-"order": 2593
+"order": 2590
 });
 
 Mods.push({
@@ -41368,7 +41322,7 @@ Mods.push({
 "created": 1736324088,
 "modified": 1736324088,
 "tags": "Cosmetics",
-"order": 2594
+"order": 2591
 });
 
 Mods.push({
@@ -41384,7 +41338,7 @@ Mods.push({
 "created": 1736366270,
 "modified": 1737833627,
 "tags": "Creatures,Game Mechanics",
-"order": 2595
+"order": 2592
 });
 
 Mods.push({
@@ -41400,7 +41354,7 @@ Mods.push({
 "created": 1736366489,
 "modified": 1736366489,
 "tags": "Cosmetics",
-"order": 2596
+"order": 2593
 });
 
 Mods.push({
@@ -41416,7 +41370,7 @@ Mods.push({
 "created": 1736383330,
 "modified": 1736383330,
 "tags": "Cosmetics",
-"order": 2597
+"order": 2594
 });
 
 Mods.push({
@@ -41432,7 +41386,7 @@ Mods.push({
 "created": 1736397503,
 "modified": 1736397503,
 "tags": "Cosmetics",
-"order": 2598
+"order": 2595
 });
 
 Mods.push({
@@ -41448,7 +41402,7 @@ Mods.push({
 "created": 1736427602,
 "modified": 1736431576,
 "tags": "Arenas",
-"order": 2599
+"order": 2596
 });
 
 Mods.push({
@@ -41464,7 +41418,7 @@ Mods.push({
 "created": 1736458337,
 "modified": 1736460878,
 "tags": "Accessibility",
-"order": 2600
+"order": 2597
 });
 
 Mods.push({
@@ -41480,7 +41434,7 @@ Mods.push({
 "created": 1736468427,
 "modified": 1736468427,
 "tags": "Creatures",
-"order": 2601
+"order": 2598
 });
 
 Mods.push({
@@ -41496,7 +41450,7 @@ Mods.push({
 "created": 1736474637,
 "modified": 1736474637,
 "tags": "Cosmetics",
-"order": 2602
+"order": 2599
 });
 
 Mods.push({
@@ -41512,7 +41466,7 @@ Mods.push({
 "created": 1736494130,
 "modified": 1736494130,
 "tags": "Cosmetics",
-"order": 2603
+"order": 2600
 });
 
 Mods.push({
@@ -41528,7 +41482,7 @@ Mods.push({
 "created": 1736536128,
 "modified": 1736536128,
 "tags": "Cosmetics",
-"order": 2604
+"order": 2601
 });
 
 Mods.push({
@@ -41544,7 +41498,7 @@ Mods.push({
 "created": 1736638399,
 "modified": 1736638399,
 "tags": "Cosmetics",
-"order": 2605
+"order": 2602
 });
 
 Mods.push({
@@ -41560,7 +41514,7 @@ Mods.push({
 "created": 1736682189,
 "modified": 1736682189,
 "tags": "Cosmetics",
-"order": 2606
+"order": 2603
 });
 
 Mods.push({
@@ -41576,7 +41530,7 @@ Mods.push({
 "created": 1736697396,
 "modified": 1737662770,
 "tags": "",
-"order": 2607
+"order": 2604
 });
 
 Mods.push({
@@ -41592,7 +41546,7 @@ Mods.push({
 "created": 1736823738,
 "modified": 1736823738,
 "tags": "Creatures",
-"order": 2608
+"order": 2605
 });
 
 Mods.push({
@@ -41608,7 +41562,7 @@ Mods.push({
 "created": 1736827906,
 "modified": 1738005561,
 "tags": "Cosmetics",
-"order": 2609
+"order": 2606
 });
 
 Mods.push({
@@ -41624,7 +41578,7 @@ Mods.push({
 "created": 1736872032,
 "modified": 1737566590,
 "tags": "Custom Slugcat,Campaigns,Regions",
-"order": 2610
+"order": 2607
 });
 
 Mods.push({
@@ -41640,7 +41594,7 @@ Mods.push({
 "created": 1736877995,
 "modified": 1736877995,
 "tags": "Cosmetics",
-"order": 2611
+"order": 2608
 });
 
 Mods.push({
@@ -41652,11 +41606,11 @@ Mods.push({
 "thumb": "previews/3407564266.png",
 "url": "https://andrew.fm/rainworld/raindb/Motion_Sounds.zip",
 "requirements": "",
-"version": "0.4.15",
+"version": "0.4.16",
 "created": 1736882965,
-"modified": 1738060230,
-"tags": "Game Mechanics,Cosmetics",
-"order": 2612
+"modified": 1739457496,
+"tags": "Cosmetics,Game Mechanics",
+"order": 2609
 });
 
 Mods.push({
@@ -41672,7 +41626,7 @@ Mods.push({
 "created": 1736898523,
 "modified": 1736898523,
 "tags": "Cosmetics",
-"order": 2613
+"order": 2610
 });
 
 Mods.push({
@@ -41688,7 +41642,7 @@ Mods.push({
 "created": 1736944517,
 "modified": 1736944517,
 "tags": "",
-"order": 2614
+"order": 2611
 });
 
 Mods.push({
@@ -41704,7 +41658,7 @@ Mods.push({
 "created": 1736997237,
 "modified": 1738252845,
 "tags": "Game Mechanics,Game Modes",
-"order": 2615
+"order": 2612
 });
 
 Mods.push({
@@ -41720,7 +41674,7 @@ Mods.push({
 "created": 1737063726,
 "modified": 1737830003,
 "tags": "Cosmetics",
-"order": 2616
+"order": 2613
 });
 
 Mods.push({
@@ -41736,7 +41690,7 @@ Mods.push({
 "created": 1737073086,
 "modified": 1737163813,
 "tags": "Campaigns,Game Mechanics,Custom Slugcat",
-"order": 2617
+"order": 2614
 });
 
 Mods.push({
@@ -41752,7 +41706,7 @@ Mods.push({
 "created": 1737087591,
 "modified": 1737087591,
 "tags": "Cosmetics",
-"order": 2618
+"order": 2615
 });
 
 Mods.push({
@@ -41768,7 +41722,7 @@ Mods.push({
 "created": 1737127922,
 "modified": 1737145385,
 "tags": "Cosmetics",
-"order": 2619
+"order": 2616
 });
 
 Mods.push({
@@ -41784,7 +41738,7 @@ Mods.push({
 "created": 1737214834,
 "modified": 1737217573,
 "tags": "",
-"order": 2620
+"order": 2617
 });
 
 Mods.push({
@@ -41799,7 +41753,7 @@ Mods.push({
 "created": 1737250196,
 "modified": 1737250196,
 "tags": "Cosmetic",
-"order": 2621
+"order": 2618
 });
 
 Mods.push({
@@ -41815,7 +41769,7 @@ Mods.push({
 "created": 1737261245,
 "modified": 1737261245,
 "tags": "Cosmetics",
-"order": 2622
+"order": 2619
 });
 
 Mods.push({
@@ -41831,7 +41785,7 @@ Mods.push({
 "created": 1737261398,
 "modified": 1737261398,
 "tags": "Cosmetics",
-"order": 2623
+"order": 2620
 });
 
 Mods.push({
@@ -41847,7 +41801,7 @@ Mods.push({
 "created": 1737267242,
 "modified": 1737267242,
 "tags": "Cosmetics",
-"order": 2624
+"order": 2621
 });
 
 Mods.push({
@@ -41863,7 +41817,7 @@ Mods.push({
 "created": 1737278780,
 "modified": 1738006096,
 "tags": "",
-"order": 2625
+"order": 2622
 });
 
 Mods.push({
@@ -41871,15 +41825,15 @@ Mods.push({
 "id": "javadog.iteryap",
 "workshop_id": "3410750279",
 "author": "Javadog",
-"desc": "Allows Iterators to speak when talking to a Slugcat with a mark.<br><br>Works for both Pebbles and Moon with or without More Slugcats and includes [spoiler] custom audio for Saint pebbles [/spoiler]<br><br>Source code: https://github.com/Javadog64/let-them-yap<br><br>If there's any problems please let me know!<br>",
+"desc": "Lets iterators use their voice lines when talking to Slugcat with a mark.",
 "thumb": "previews/3410750279.png",
 "url": "https://andrew.fm/rainworld/raindb/Let_Them_Yap.zip",
 "requirements": "willowwisp.audiofix",
-"version": "1.0.0",
+"version": "1.0.1",
 "created": 1737312546,
-"modified": 1737312546,
+"modified": 1740111189,
 "tags": "Cosmetics",
-"order": 2626
+"order": 2623
 });
 
 Mods.push({
@@ -41895,7 +41849,7 @@ Mods.push({
 "created": 1737353534,
 "modified": 1737353534,
 "tags": "Cosmetics",
-"order": 2627
+"order": 2624
 });
 
 Mods.push({
@@ -41907,11 +41861,11 @@ Mods.push({
 "thumb": "previews/3411675575.png",
 "url": "https://andrew.fm/rainworld/raindb/Saint_Tongues_In_All_Directions__圣徒全向吐舌.zip",
 "requirements": "improved-input-config",
-"version": "0.1.5",
+"version": "0.1.6",
 "created": 1737443249,
-"modified": 1738941781,
+"modified": 1739166815,
 "tags": "Game Mechanics,Accessibility",
-"order": 2628
+"order": 2625
 });
 
 Mods.push({
@@ -41927,7 +41881,7 @@ Mods.push({
 "created": 1737448624,
 "modified": 1737448624,
 "tags": "Cosmetics",
-"order": 2629
+"order": 2626
 });
 
 Mods.push({
@@ -41943,7 +41897,7 @@ Mods.push({
 "created": 1737510860,
 "modified": 1737510860,
 "tags": "Cosmetics",
-"order": 2630
+"order": 2627
 });
 
 Mods.push({
@@ -41959,7 +41913,7 @@ Mods.push({
 "created": 1737555589,
 "modified": 1737555589,
 "tags": "Dependency,Tools",
-"order": 2631
+"order": 2628
 });
 
 Mods.push({
@@ -41975,7 +41929,7 @@ Mods.push({
 "created": 1737560975,
 "modified": 1737560975,
 "tags": "",
-"order": 2632
+"order": 2629
 });
 
 Mods.push({
@@ -41991,7 +41945,7 @@ Mods.push({
 "created": 1737561154,
 "modified": 1737654729,
 "tags": "",
-"order": 2633
+"order": 2630
 });
 
 Mods.push({
@@ -42007,7 +41961,7 @@ Mods.push({
 "created": 1737598959,
 "modified": 1737598959,
 "tags": "Cosmetics",
-"order": 2634
+"order": 2631
 });
 
 Mods.push({
@@ -42023,7 +41977,7 @@ Mods.push({
 "created": 1737599069,
 "modified": 1737599069,
 "tags": "Cosmetics",
-"order": 2635
+"order": 2632
 });
 
 Mods.push({
@@ -42039,7 +41993,7 @@ Mods.push({
 "created": 1737639292,
 "modified": 1738579041,
 "tags": "Custom Slugcat",
-"order": 2636
+"order": 2633
 });
 
 Mods.push({
@@ -42055,7 +42009,7 @@ Mods.push({
 "created": 1737649969,
 "modified": 1737649969,
 "tags": "Cosmetics",
-"order": 2637
+"order": 2634
 });
 
 Mods.push({
@@ -42071,7 +42025,7 @@ Mods.push({
 "created": 1737652414,
 "modified": 1737655814,
 "tags": "Cosmetics",
-"order": 2638
+"order": 2635
 });
 
 Mods.push({
@@ -42087,7 +42041,7 @@ Mods.push({
 "created": 1737654757,
 "modified": 1737654757,
 "tags": "",
-"order": 2639
+"order": 2636
 });
 
 Mods.push({
@@ -42103,7 +42057,7 @@ Mods.push({
 "created": 1737655811,
 "modified": 1737655811,
 "tags": "Cosmetics",
-"order": 2640
+"order": 2637
 });
 
 Mods.push({
@@ -42119,7 +42073,7 @@ Mods.push({
 "created": 1737671900,
 "modified": 1737685013,
 "tags": "Arenas,Regions,Creatures",
-"order": 2641
+"order": 2638
 });
 
 Mods.push({
@@ -42135,7 +42089,7 @@ Mods.push({
 "created": 1737682275,
 "modified": 1737682275,
 "tags": "Cosmetics",
-"order": 2642
+"order": 2639
 });
 
 Mods.push({
@@ -42151,7 +42105,7 @@ Mods.push({
 "created": 1737699918,
 "modified": 1737699918,
 "tags": "",
-"order": 2643
+"order": 2640
 });
 
 Mods.push({
@@ -42167,23 +42121,23 @@ Mods.push({
 "created": 1737710293,
 "modified": 1737710293,
 "tags": "",
-"order": 2644
+"order": 2641
 });
 
 Mods.push({
-"name": "Hot Roots",
+"name": "Searing Rootlet",
 "id": "aaahhtoohot",
 "workshop_id": "3413539281",
 "author": "Myak",
-"desc": "A desert located on a very strange hill... what does it hide?<br>...Nothing. This is my first region, telling a little about my learning journey on how to make good regions. If you don't like linear regions, don't play this region.<br>You can enter this region somewhere in the Outer Expansion, I believe.<br>Also, this region needs: RegionKit, Custom Region Support, POM (I believe) and Lunacy.<br>!!HOT ROOTS INCOMPATIPLE WITHN DELUGE!!",
+"desc": "A desert located on a very strange hill... what does it hide?<br>...Nothing. This is my first region, telling a little about my learning journey on how to make good regions. If you don't like linear regions, don't play this region.<br>You can enter this region somewhere in the Outer Expansion, I believe.<br>Also, this region needs: RegionKit, Custom Region Support, POM (I believe) and Lunacy.<br>!!DON'T PLAY WITH DELUGE!!",
 "thumb": "previews/3413539281.png",
-"url": "https://andrew.fm/rainworld/raindb/Hot_Roots.zip",
+"url": "https://andrew.fm/rainworld/raindb/Searing_Rootlet.zip",
 "requirements": "regionkit",
 "version": "1.0.0",
 "created": 1737727729,
-"modified": 1737974235,
+"modified": 1739151943,
 "tags": "Regions",
-"order": 2645
+"order": 2642
 });
 
 Mods.push({
@@ -42199,7 +42153,7 @@ Mods.push({
 "created": 1737770661,
 "modified": 1737770661,
 "tags": "",
-"order": 2646
+"order": 2643
 });
 
 Mods.push({
@@ -42214,7 +42168,7 @@ Mods.push({
 "created": 1737800792,
 "modified": 1737800792,
 "tags": "Tools",
-"order": 2647
+"order": 2644
 });
 
 Mods.push({
@@ -42230,7 +42184,7 @@ Mods.push({
 "created": 1737821940,
 "modified": 1737821940,
 "tags": "Cosmetics",
-"order": 2648
+"order": 2645
 });
 
 Mods.push({
@@ -42246,7 +42200,7 @@ Mods.push({
 "created": 1737824120,
 "modified": 1737824120,
 "tags": "Cosmetics",
-"order": 2649
+"order": 2646
 });
 
 Mods.push({
@@ -42262,7 +42216,7 @@ Mods.push({
 "created": 1737834859,
 "modified": 1737834859,
 "tags": "Cosmetics",
-"order": 2650
+"order": 2647
 });
 
 Mods.push({
@@ -42278,7 +42232,7 @@ Mods.push({
 "created": 1737835303,
 "modified": 1737835303,
 "tags": "Cosmetics",
-"order": 2651
+"order": 2648
 });
 
 Mods.push({
@@ -42294,7 +42248,7 @@ Mods.push({
 "created": 1737852503,
 "modified": 1737852503,
 "tags": "Regions",
-"order": 2652
+"order": 2649
 });
 
 Mods.push({
@@ -42310,7 +42264,7 @@ Mods.push({
 "created": 1737856531,
 "modified": 1737856531,
 "tags": "Cosmetics",
-"order": 2653
+"order": 2650
 });
 
 Mods.push({
@@ -42326,7 +42280,7 @@ Mods.push({
 "created": 1737857502,
 "modified": 1737857502,
 "tags": "Cosmetics",
-"order": 2654
+"order": 2651
 });
 
 Mods.push({
@@ -42342,7 +42296,7 @@ Mods.push({
 "created": 1738047886,
 "modified": 1738047886,
 "tags": "",
-"order": 2655
+"order": 2652
 });
 
 Mods.push({
@@ -42358,7 +42312,7 @@ Mods.push({
 "created": 1738049795,
 "modified": 1738324358,
 "tags": "Game Mechanics",
-"order": 2656
+"order": 2653
 });
 
 Mods.push({
@@ -42374,7 +42328,7 @@ Mods.push({
 "created": 1738053892,
 "modified": 1738053892,
 "tags": "Cosmetics",
-"order": 2657
+"order": 2654
 });
 
 Mods.push({
@@ -42389,7 +42343,7 @@ Mods.push({
 "created": 1738073850,
 "modified": 1738115009,
 "tags": "Regions",
-"order": 2658
+"order": 2655
 });
 
 Mods.push({
@@ -42405,7 +42359,7 @@ Mods.push({
 "created": 1738077313,
 "modified": 1738077313,
 "tags": "",
-"order": 2659
+"order": 2656
 });
 
 Mods.push({
@@ -42421,7 +42375,7 @@ Mods.push({
 "created": 1738088736,
 "modified": 1738498925,
 "tags": "Cosmetics",
-"order": 2660
+"order": 2657
 });
 
 Mods.push({
@@ -42437,7 +42391,7 @@ Mods.push({
 "created": 1738111300,
 "modified": 1738111300,
 "tags": "Cosmetics",
-"order": 2661
+"order": 2658
 });
 
 Mods.push({
@@ -42453,7 +42407,7 @@ Mods.push({
 "created": 1738119098,
 "modified": 1738119098,
 "tags": "Accessibility,Tools,Rain Meadow mods",
-"order": 2662
+"order": 2659
 });
 
 Mods.push({
@@ -42469,7 +42423,7 @@ Mods.push({
 "created": 1738128890,
 "modified": 1738128890,
 "tags": "Cosmetics",
-"order": 2663
+"order": 2660
 });
 
 Mods.push({
@@ -42484,7 +42438,7 @@ Mods.push({
 "created": 1738132780,
 "modified": 1738132780,
 "tags": "",
-"order": 2664
+"order": 2661
 });
 
 Mods.push({
@@ -42500,7 +42454,7 @@ Mods.push({
 "created": 1738137880,
 "modified": 1738137880,
 "tags": "Cosmetics",
-"order": 2665
+"order": 2662
 });
 
 Mods.push({
@@ -42516,7 +42470,23 @@ Mods.push({
 "created": 1738150690,
 "modified": 1738509289,
 "tags": "Creatures",
-"order": 2666
+"order": 2663
+});
+
+Mods.push({
+"name": "ImGUI API",
+"id": "rwimgui",
+"workshop_id": "3417372413",
+"author": "Rawra",
+"desc": "[h1]Dear ImGUI for Rain World.[/h1]<br><br>[h2]Introduction[/h2]<br>Implements an API for modders to use and interact with Dear ImGUI.<br><br>This mod is [u]NOT[/u] for end-users/players!<br><br>[h2]Instructions[/h2]<br>[url=https://gitlab.com/Rawra/rain-world-imgui-api]Repo[/url]<br>See the GitLab Pages entry on the right side in the Repo for usage.<br><br>[h2]Requirements[/h2]<br>[list]<br>[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3326331909]X64 World: Library Loader[/url] (X64 World is NOT a requirement, only the Library Loader itself)<br>[/list] <br><br>[h2]Compatibility[/h2]<br>Should be compatible with most if not all mods out there. As this mod only interacts with DirectX11 by hooking ::Present directly, avoiding interacting even with the unity engine.<br><br>* May currently crash the game if youre trying to discord screenshare (This issue is being worked on)",
+"thumb": "previews/3417372413.png",
+"url": "https://andrew.fm/rainworld/raindb/ImGUI_API.zip",
+"requirements": "rwremix,000rwx64ll",
+"version": "1.9.15b",
+"created": 1738227722,
+"modified": 1738227858,
+"tags": "Dependency,Accessibility,Tools",
+"order": 2664
 });
 
 Mods.push({
@@ -42532,7 +42502,7 @@ Mods.push({
 "created": 1738229748,
 "modified": 1738230008,
 "tags": "",
-"order": 2667
+"order": 2665
 });
 
 Mods.push({
@@ -42548,7 +42518,7 @@ Mods.push({
 "created": 1738243505,
 "modified": 1738272593,
 "tags": "Cosmetics",
-"order": 2668
+"order": 2666
 });
 
 Mods.push({
@@ -42556,15 +42526,15 @@ Mods.push({
 "id": "Mutant_WalkingCorps",
 "workshop_id": "3417473346",
 "author": "无悔的正义",
-"desc": "Incomplete<br><br>If you are interested in painting for me, please contact me<br>---------------------------------------------------------------------------<br>Note: This module is reported to be related to Pearl cat solace、 Independent satiety, grave eater conflict<br><br>---------------------------------------------------------------------------<br><br><br>The mutation came from a vexed laboratory. In a physical enhancement experiment, the fungus in its body was accidentally activated and its tentacles grew out of the fungus cluster on its head. Nonsense worry implant an old biomass reactor sent by others into its body to maintain the fragile balance of the body<br><br><br>Passive: the tentacle will automatically find food to eat, and a tentacle will grow when it fills the current satiety. It will consume 2 tentacles to revive after being fatally injured, except for electric shock. Immune needle<br><br>Note: full satiety or electric shock by centipede will lead to death!!!<br><br>0 tentacle: physical fitness has been greatly enhanced, backward somersault and rocket jump have been strengthened, and spear throwing speed has been accelerated<br><br>1 tentacle: slightly enhanced physical fitness, slightly enhanced back somersault and rocket jump<br><br>2 tentacle: no attribute bonus<br><br>3 tentacle: weak physical ability, incompetent spear throwing, often falling into vertigo<br><br>4 tentacle: physical strength is greatly weakened, and backward somersault, rocket jump and throwing will enter vertigo, often falling into vertigo<br><br>Operation guide:<br>(first tentacle) long press up+pick to store the items in your hand (including creatures (including players)) to the first tentacle, and press up+pick to take out the items within the picking range;<br>Store items: press up to control items close to yourself<br>Store creatures: when standing, long press to give the creature jump gain, and long press in the air to pull the creature close to itself<br><br>(the second tentacle) will automatically tear and drag the creature or corpse to tear the meat off its body. When all the meat is removed, the creature will die;<br><br>(third tentacle) normal state: press jump in the air to try to enter the climbing mode, use the direction key to control the tentacle to lift itself (if 1 tentacle carries a creature, the climbing mode will lift the creature on 1 tentacle together), press jump again to exit the climbing mode<br>Underwater: press jump to enter the auxiliary swimming mode, and the swimming speed is accelerated<br>0 gravity: it will jump to the direction key when exiting the climbing mode<br><br>(the fourth tentacle) if you have a spear in your hand, press the pick button to attach the tentacle to the spear, and press the button to recall the attached spear. The creatures in the attached spear will be killed in seconds, and the corpses in the spear will be revived (one-time)<br>---------------------------------------------------------------------------<br>Unrepaired issues:<br>Synchronization of the number of multi person tentacles<br>The number of tentacles entering the arena will not be reset<br>Probability black screen after sleep<br>There are occasional problems entering the arena, story mode and adventure mode<br>Eliminate module conflict (player 1 with independent satiety cannot be changed)<br><br>---------------------------------------------------------------------------<br>0.1.251 damage caused by tentacles will generate hatred (you can no longer eat noodles secretly, TWT)<br>Fixed a satiety display error when adjusting the dynamic effect of the touch phone<br>Eased the conflict from independent satiety<br>0.1.25 fixed the problem of multi person online<br>0.1.24 fixed the occasional severe jamming when climbing up the pole<br>Fixed the loss of special effects of food eaten by tentacles<br>0.1.23 initially fixed the problem of multi person online, but there are still some problems<br>Fixed animation errors for resurrected creatures<br>0.1.22 fixed the problem of one tentacle failure after rain Sleep<br>Added tentacle control level<br>Added game start CG: heartfelt thanks @ Tangyuan<br>0.1.21 fixed incorrect resurrection determination<br>0.1.2 translated the module configuration menu<br>Module configuration menu added in 0.1",
+"desc": "Incomplete<br><br>If you are interested in helping with illustrations, please contact me.<br>---------------------------------------------------------------------------<br>Note: This mod is reported to conflict with Pearlcat, Solace, and Gravel-Eater.<br>---------------------------------------------------------------------------<br><br><br>The Mutant originates from the laboratory of No Significant Harassment (NSH). During a physical enhancement experiment, the fungi within its body were accidentally activated, and tentacles grew out from the fungal cluster on its head. NSH implanted an old biomass reactor, given by someone else, into its body to maintain the fragile balance of its physical form. However, it eventually died, and NSH had no choice but to abandon it. Yet, the fungi within it did not give up, struggling to keep the organs functioning and eventually finding an opportunity to revive its host. The Mutant awoke once again. Although its physical form is incomplete and its consciousness scattered, it still remembers its unfinished mission.<br><br><br>Passive: Tentacles automatically seek out food to eat, and filling the current satiety level will grow an additional tentacle. Upon taking fatal damage, it will consume 2 tentacles to revive, except in cases of electric shock. Immune to toxic spikes.<br><br>Caution: Filling the satiety level completely or being electrocuted by a centipede will result in death!!!<br><br>0 Tentacles: Greatly enhanced physical abilities, improved backflip and rocket jump, faster spear-throwing speed, and special spear-throwing effects.<br>1 Tentacle: Slightly enhanced physical abilities, slightly improved backflip and rocket jump.<br>2 Tentacles: No attribute bonuses.<br>3 Tentacles: Weakened physical abilities, inability to throw spears, and frequent dizziness.<br>4 Tentacles: Significantly weakened physical abilities, dizziness during backflips, rocket jumps, and throwing, and frequent dizziness.<br><br>Controls:<br><br>First Tentacle: Long press Up + Pick Up to store items (including creatures, including the player) in the first tentacle. Within the pick-up range, press Up + Pick Up to retrieve the item.<br>Storing items: Press Up to control the item to move closer to yourself.<br>Storing creatures: While standing, long press Up to give creatures a jumping boost. In the air, long press Up to pull creatures closer to yourself.<br><br>Second Tentacle: Automatically tears and drags creatures or corpses, stripping the flesh from them. Once all flesh is removed, the creature dies.<br><br>Third Tentacle: Normal state: Press Jump in the air to attempt climbing mode. Use the directional keys to control the tentacle to lift yourself (if the first tentacle is carrying a creature, climbing mode will also lift the creature on the first tentacle). Press Jump again to exit climbing mode.<br>Underwater: Press Jump to enter assisted swimming mode, increasing swimming speed.<br>Zero gravity: Exiting climbing mode will cause a jump in the direction of the directional key.<br><br>Fourth Tentacle: When holding a spear, long press the Pick Up key to attach the tentacle to the spear. Press Down to recall the attached spear. Spears attached to creatures will instantly kill them, and spears attached to corpses will revive them (one-time use).<br>---------------------------------------------------------------------------<br>Special Operations:<br>(Must first enable Full Tentacle Storage) Long press Up + Pick Up to enter storage mode. Use the left and right keys to change the storage target, press Pick Up to store or retrieve items, and press Jump to exit storage mode.<br>Unresolved Issues:<br>Tentacle count does not reset when entering the Arena.<br>Occasional issues when entering the Arena, Story Mode, and Exploration Mode.<br>Resolving mod conflicts.<br>---------------------------------------------------------------------------<br>Version Updates:<br>0.1.265: Fixed the issue where the first tentacle is not displayed. Added an interesting experimental gameplay.<br>0.1.264: Fixed the issue with the size of the offspring. Added an option to control tentacle feeding with the Pick Up key.<br>0.1.263: Compatible with independent satiety levels.<br>0.1.262: Added experimental gameplay for full tentacle storage.<br>0.1.26: Fixed various crash issues. Added experimental gameplay.<br>0.1.251: Tentacles now generate hostility when dealing damage (can no longer sneakily eat noodles TwT). Fixed satiety display errors caused by adjusting tentacle mobility. Alleviated conflicts from independent satiety levels.<br>0.1.25: Fixed multiplayer issues.<br>0.1.24: Fixed occasional severe lag when climbing poles. Restored special effects of food consumed by tentacles.<br>0.1.23: Initially fixed multiplayer issues, but some problems remain. Fixed animation errors for reviving creatures. Added tentacle control levels. Added an intro cutscene.<br>0.1.21: Fixed incorrect revival judgment. Translated the mod configuration menu.<br>0.1: Added mod configuration menu.",
 "thumb": "previews/3417473346.png",
 "url": "https://andrew.fm/rainworld/raindb/Mutant.zip",
-"requirements": "slime-cubed.slugbase,crs,emgtx",
-"version": "0.1.251",
+"requirements": "slime-cubed.slugbase,crs",
+"version": "0.1.265",
 "created": 1738244035,
-"modified": 1738862351,
+"modified": 1740062363,
 "tags": "Custom Slugcat",
-"order": 2669
+"order": 2667
 });
 
 Mods.push({
@@ -42580,7 +42550,7 @@ Mods.push({
 "created": 1738271683,
 "modified": 1738271683,
 "tags": "Cosmetics",
-"order": 2670
+"order": 2668
 });
 
 Mods.push({
@@ -42596,7 +42566,7 @@ Mods.push({
 "created": 1738307188,
 "modified": 1738309140,
 "tags": "",
-"order": 2671
+"order": 2669
 });
 
 Mods.push({
@@ -42612,7 +42582,7 @@ Mods.push({
 "created": 1738336897,
 "modified": 1738336897,
 "tags": "",
-"order": 2672
+"order": 2670
 });
 
 Mods.push({
@@ -42628,7 +42598,7 @@ Mods.push({
 "created": 1738359550,
 "modified": 1738359550,
 "tags": "Cosmetics",
-"order": 2673
+"order": 2671
 });
 
 Mods.push({
@@ -42643,23 +42613,23 @@ Mods.push({
 "created": 1738385296,
 "modified": 1738386871,
 "tags": "Regions",
-"order": 2674
+"order": 2672
 });
 
 Mods.push({
-"name": "overly ambitious map expansion mod",
+"name": "mo' miles",
 "id": "rwslugcat_exrainworld",
 "workshop_id": "3418712280",
 "author": "Unknown",
-"desc": "self explanitory name, really unfinished but playable enough map expansion mod, EXPECT LOTS OF INCOMPATIBILITIES as i havent contacted anyone about compatibilities yet (also itd be nice if you commented incompatibilities) mod adds slight layout changes in spots, included regions: Outskirts - 6 rooms, Drainage System - 1 room, Five Pebbles - 7 rooms, Chimney Canopy - 6 rooms, The Exterior - 1 room. more content, including other regions not listed, will be added in the future<br><br>downpour untested as this will have a dp addon<br><br>also constructive criticism would be nice<br><br>feel free to contact about compat if i havent contacted you first on discord @rwslugcat",
+"desc": "map expansion mod that i try to add on to as much as i can<br>mod adds slight layout changes in spots<br><br>34 new rooms - 124 new screens<br><br>included regions:<br><br>Outskirts - 7 rooms - 13 screens<br>Drainage System - 1 room - 2 screens<br>Five Pebbles - 7 rooms - 26 screens<br>Chimney Canopy - 10 rooms - 36 screens <br>The Exterior - 1 room - 1 screen<br>Subterranean - 4 rooms - 30 screens<br>Shaded Citadel - 4 rooms - 16 screens<br><br>more content, including other regions not listed, will be added in the future<br><br>screenshots shown above may be outdated<br><br>playable with downpour but a downpour addon to this mod will be made in the future<br><br>added compat with:<br>expanded outskirts https://steamcommunity.com/workshop/filedetails/?id=2967731316<br><br>originally named overly ambitious map expansion mod<br>mo' miles get it cause mo' tiles god im so funny",
 "thumb": "previews/3418712280.png",
-"url": "https://andrew.fm/rainworld/raindb/overly_ambitious_map_expansion_mod.zip",
+"url": "https://andrew.fm/rainworld/raindb/mo_miles.zip",
 "requirements": "crs,regionkit",
 "version": "1",
 "created": 1738410110,
-"modified": 1738410110,
+"modified": 1739953171,
 "tags": "Regions",
-"order": 2675
+"order": 2673
 });
 
 Mods.push({
@@ -42675,7 +42645,7 @@ Mods.push({
 "created": 1738433962,
 "modified": 1738433962,
 "tags": "Cosmetics",
-"order": 2676
+"order": 2674
 });
 
 Mods.push({
@@ -42691,7 +42661,7 @@ Mods.push({
 "created": 1738446064,
 "modified": 1738446841,
 "tags": "Cosmetics",
-"order": 2677
+"order": 2675
 });
 
 Mods.push({
@@ -42707,7 +42677,7 @@ Mods.push({
 "created": 1738447026,
 "modified": 1738489310,
 "tags": "Cosmetics",
-"order": 2678
+"order": 2676
 });
 
 Mods.push({
@@ -42723,7 +42693,7 @@ Mods.push({
 "created": 1738468929,
 "modified": 1738468929,
 "tags": "Cosmetics",
-"order": 2679
+"order": 2677
 });
 
 Mods.push({
@@ -42739,7 +42709,7 @@ Mods.push({
 "created": 1738481343,
 "modified": 1738481343,
 "tags": "Cosmetics",
-"order": 2680
+"order": 2678
 });
 
 Mods.push({
@@ -42755,7 +42725,7 @@ Mods.push({
 "created": 1738514162,
 "modified": 1738514162,
 "tags": "Cosmetics",
-"order": 2681
+"order": 2679
 });
 
 Mods.push({
@@ -42771,7 +42741,7 @@ Mods.push({
 "created": 1738539561,
 "modified": 1738881567,
 "tags": "Items,Game Mechanics,Cosmetic",
-"order": 2682
+"order": 2680
 });
 
 Mods.push({
@@ -42787,7 +42757,7 @@ Mods.push({
 "created": 1738680460,
 "modified": 1738680460,
 "tags": "Custom Slugcat",
-"order": 2683
+"order": 2681
 });
 
 Mods.push({
@@ -42803,7 +42773,7 @@ Mods.push({
 "created": 1738703104,
 "modified": 1738703104,
 "tags": "Items,Cosmetics",
-"order": 2684
+"order": 2682
 });
 
 Mods.push({
@@ -42819,7 +42789,7 @@ Mods.push({
 "created": 1738706284,
 "modified": 1738706284,
 "tags": "Cosmetics",
-"order": 2685
+"order": 2683
 });
 
 Mods.push({
@@ -42834,7 +42804,7 @@ Mods.push({
 "created": 1738708079,
 "modified": 1738708079,
 "tags": "Cosmetics",
-"order": 2686
+"order": 2684
 });
 
 Mods.push({
@@ -42842,15 +42812,15 @@ Mods.push({
 "id": "The expired conspiracy of the spear snail shell",
 "workshop_id": "3421526971",
 "author": "Unknown",
-"desc": "This mod was originally made as a challenge and joke between friends. <br>Later I changed my mind and decided to turn it into a collection of extremely difficult problems and weird bug puzzles. <br>But due to personal reasons, I am afraid I will not have enough time to test and complete it in the future, so I decided to release it early. Sorry.",
+"desc": "No Description.",
 "thumb": "previews/3421526971.png",
 "url": "https://andrew.fm/rainworld/raindb/The_expired_conspiracy_of_the_spear_snail_shell.zip",
 "requirements": "",
 "version": "",
 "created": 1738760644,
-"modified": 1738807328,
+"modified": 1739384086,
 "tags": "",
-"order": 2687
+"order": 2685
 });
 
 Mods.push({
@@ -42866,7 +42836,7 @@ Mods.push({
 "created": 1738779248,
 "modified": 1738779248,
 "tags": "Cosmetics",
-"order": 2688
+"order": 2686
 });
 
 Mods.push({
@@ -42882,7 +42852,7 @@ Mods.push({
 "created": 1738783162,
 "modified": 1738783162,
 "tags": "",
-"order": 2689
+"order": 2687
 });
 
 Mods.push({
@@ -42890,15 +42860,15 @@ Mods.push({
 "id": "outskirtsremake",
 "workshop_id": "3421767082",
 "author": "Solar",
-"desc": "I wanted to remake Outskirts in a modern day style, while staying true to the original. The reason I did this is because well I was bored and wanted to do something else with my level editing skills and it's also my three year modding anniversary. Fun fact the first room I ever made was a Outskirts room. One other reason I did this is because this isn't perfect not by a long shot but it can be improved. Also 4B, Slug King, Community Gallery Region, Deep Pipework, Surrealism, and Corroded Passage, and Sprinkling Drifts isn't compbatible with this mod sorry.",
+"desc": "I wanted to remake Outskirts in a modern day style, while staying true to the original. The reason I did this is because well I was bored and wanted to do something else with my level editing skills and it's also my three year modding anniversary. Fun fact the first room I ever made was a Outskirts room. One other reason I did this is because this isn't perfect not by a long shot but it can be improved. Also 4B, Slug King, Community Gallery Region, Deep Pipework, Surrealism, and Corroded Passage, and Sprinkling Drifts isn't compbatible with this mod sorry.<br><br>Also there is a gallery of the remakes and the originals within the mod files",
 "thumb": "previews/3421767082.png",
 "url": "https://ln5.sync.com/dl/41ccf3b70#whjwu846-sjtmrkmj-mamcavmm-82696u9n",
 "requirements": "regionkit",
 "version": "1.0.0",
 "created": 1738787344,
-"modified": 1738971329,
+"modified": 1739223722,
 "tags": "Regions",
-"order": 2690
+"order": 2688
 });
 
 Mods.push({
@@ -42914,7 +42884,7 @@ Mods.push({
 "created": 1738793144,
 "modified": 1738793144,
 "tags": "Cosmetics",
-"order": 2691
+"order": 2689
 });
 
 Mods.push({
@@ -42930,7 +42900,7 @@ Mods.push({
 "created": 1738803205,
 "modified": 1738803205,
 "tags": "Regions",
-"order": 2692
+"order": 2690
 });
 
 Mods.push({
@@ -42946,7 +42916,7 @@ Mods.push({
 "created": 1738810318,
 "modified": 1738819065,
 "tags": "Cosmetics",
-"order": 2693
+"order": 2691
 });
 
 Mods.push({
@@ -42962,7 +42932,7 @@ Mods.push({
 "created": 1738844441,
 "modified": 1738844441,
 "tags": "",
-"order": 2694
+"order": 2692
 });
 
 Mods.push({
@@ -42977,7 +42947,7 @@ Mods.push({
 "created": 1738881695,
 "modified": 1738886980,
 "tags": "Custom Region,Regions,region",
-"order": 2695
+"order": 2693
 });
 
 Mods.push({
@@ -42993,7 +42963,7 @@ Mods.push({
 "created": 1738883316,
 "modified": 1738883316,
 "tags": "Cosmetics",
-"order": 2696
+"order": 2694
 });
 
 Mods.push({
@@ -43009,7 +42979,7 @@ Mods.push({
 "created": 1738897698,
 "modified": 1738897698,
 "tags": "Cosmetics",
-"order": 2697
+"order": 2695
 });
 
 Mods.push({
@@ -43017,15 +42987,15 @@ Mods.push({
 "id": "mirarge.moarenas",
 "workshop_id": "3422812711",
 "author": "Mirarge, Wolfska213",
-"desc": "[h1][b]MoArenas [/b][/h1]<br><br>[hr][/hr]<br>[h2][b]This mod adds multiple new arenas in various sizes to the game. [/b][/h2][b] Recommended to be used with [u]Rain Meadow[/u] as multiscreen rooms are unplayable in regular arena mode, but not required![/b] (requires all participants to have enabled the mod and in the same order when used with Rain meadow).<br><br>[hr][/hr]<br>[h2]Currently adds:[/h2]<br>[list]<br>[b][u]Regular arenas:[/u][/b]<br>[*] Drains<br>[*] Mossy Pipes<br>[*] Backalley Walkway<br>[*] Gravity Coolant Pump<br>[b][u]Multiscreen arenas:[/u][/b]<br>[*] Underside - (1x2)<br>[*] Multirena - (2x2)<br>[*] Sunken Bastion - (2x2)<br>[/list]",
+"desc": "[h1][b]MoArenas [/b][/h1]<br><br>[hr][/hr]<br>[h2][b]This mod adds multiple new arenas in various sizes to the game. [/b][/h2][b] Recommended to be used with [u]Rain Meadow[/u] as multiscreen rooms are unplayable in regular arena mode, but not required![/b] (requires all participants to have enabled the mod and in the same order when used with Rain meadow).<br><br>[hr][/hr]<br>[h2]Currently adds:[/h2]<br>[list]<br>[b][u]Regular arenas:[/u][/b]<br>[*] Drains<br>[*] Mossy Pipes<br>[*] Backalley Walkway<br>[*] Gravity Coolant Pump<br>[*] Peculiar Construction [b] [new] [/b]<br>[b][u]Multiscreen arenas:[/u][/b]<br>[*] Underside - (1x2)<br>[*] Carriages - (1x2) [b] [new] [/b]<br>[*] Gateway - (1x2) [b] [new] [/b]<br>[*] Multirena - (2x2)<br>[*] Sunken Bastion - (2x2)<br>[*] Hunting Grounds - (2x2) [b] [new] [/b]<br>[/list]",
 "thumb": "previews/3422812711.png",
 "url": "https://andrew.fm/rainworld/raindb/MoArenas.zip",
 "requirements": "rwremix,regionkit,moreslugcats",
-"version": "1.0.0",
+"version": "1.1.0",
 "created": 1738944325,
-"modified": 1738944325,
+"modified": 1739455775,
 "tags": "Arenas",
-"order": 2698
+"order": 2696
 });
 
 Mods.push({
@@ -43033,15 +43003,15 @@ Mods.push({
 "id": "KitTheCatsune.ninesolsdms",
 "workshop_id": "3422935893",
 "author": "KitTheCatsune",
-"desc": "Have you ever wanted to play as a Nine Sols character in Rain World? Well,<br>now you can, as long as it was specifically one of the ones I included in this skinpack!<br>All of your slugcat's colors need to be set to white for the skins to show up correctly!<br><br>These were a little project I wanted to do in my spare time that ended up taking WAYYY more time and effort than I expected, so expect some unpolished sprites and janky animations. I plan to polish them more later, but there's not really a lot that can be done for some stuff, like whatever the heck is going on with Goumang's side profile. 😅<br><br>The pack does contain minor spoilers and will have more, bigger spoilers in the future, so proceed at your own risk if you haven't beaten Nine Sols yet! The pack currently contains both of Ji's forms, Heng, both of Lady Ethereal's main outfits, and Goumang, but I plan to add more later.",
+"desc": "Have you ever wanted to play as a Nine Sols character in Rain World? Well,<br>now you can, as long as it was specifically one of the ones I included in this skinpack!<br>All of your slugcat's colors need to be set to white for the skin to show up correctly.<br><br><br>The skin pack does contain minor-ish spoilers for Nine Sols, and is planned to have more skins with bigger spoilers added later! As of now, the mod contains skins of Heng, Goumang, both of Lady Ethereal's main outfits, both of Ji's forms, and both pre-mutation and mutated Fuxi.<br><br>Huh. Apparently, it censors Fu Xi's name.",
 "thumb": "previews/3422935893.png",
 "url": "https://andrew.fm/rainworld/raindb/Nine_Sols_DMS_Skinpack.zip",
 "requirements": "dressmyslugcat",
-"version": "1.0.0",
+"version": "1.1.0",
 "created": 1738957896,
-"modified": 1738957896,
+"modified": 1739434406,
 "tags": "Cosmetics",
-"order": 2699
+"order": 2697
 });
 
 Mods.push({
@@ -43057,7 +43027,789 @@ Mods.push({
 "created": 1738984045,
 "modified": 1738984045,
 "tags": "Cosmetics",
+"order": 2698
+});
+
+Mods.push({
+"name": "Survival",
+"id": "exist.survival",
+"workshop_id": "3423511568",
+"author": "i exist",
+"desc": "Changes the way you play by making karma gates pose a more consistent challenge. Hibernating at a different shelter than the shelter in which the cycle started will reset your karma to 0, so that gaining karma requires repeated hibernation at the same shelter. Various other changes are made to the world to work with this change.<br>Use with Less Food for maximum difficulty! https://steamcommunity.com/sharedfiles/filedetails/?id=3397609082<br><br>(Intended to be played as Survivor/Monk - mechanical changes may be enabled for all campaigns in the config menu)",
+"thumb": "previews/3423511568.png",
+"url": "https://andrew.fm/rainworld/raindb/Survival.zip",
+"requirements": "",
+"version": "1.0.1",
+"created": 1739031642,
+"modified": 1739444825,
+"tags": "Game Mechanics,Game Modes",
+"order": 2699
+});
+
+Mods.push({
+"name": "rwslugcat asset pack",
+"id": "rwslugcat_assetpack",
+"workshop_id": "3423607923",
+"author": "Unknown",
+"desc": "decals and such so i can use these in different mods without needing the other to be required, uhhh you can use it too sure why not",
+"thumb": "previews/3423607923.png",
+"url": "https://andrew.fm/rainworld/raindb/rwslugcat_asset_pack.zip",
+"requirements": "",
+"version": "1",
+"created": 1739040326,
+"modified": 1739958207,
+"tags": "",
 "order": 2700
+});
+
+Mods.push({
+"name": "The Art Wall",
+"id": "BeretKid.TheArtWall",
+"workshop_id": "3423657967",
+"author": "Beret kid, and everyone who contributed!",
+"desc": "A region filled with peoples art as graffiti!<br><br><br><br><br>Submit your own art here! (does not have to be rain world related):  https://docs.google.com/forms/d/e/1FAIpQLSde33YR11_Scity2_CHg_7Qy4QgXzoK4mEZyDfAGBpTYk2V8A/viewform?usp=dialog<br><br><br><br><br><br>contributors:<br>beretKid(owner)<br>hiddeninfasion<br>deadlyaxo<br>sniffledorf_",
+"thumb": "previews/3423657967.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Art_Wall.zip",
+"requirements": "regionkit",
+"version": "0.0.5",
+"created": 1739045128,
+"modified": 1740091644,
+"tags": "Regions",
+"order": 2701
+});
+
+Mods.push({
+"name": "alice horrorvale DMS skin",
+"id": "alice.horrorvale",
+"workshop_id": "3423712533",
+"author": "boxxgore",
+"desc": "skeleton witch",
+"thumb": "previews/3423712533.png",
+"url": "https://andrew.fm/rainworld/raindb/alice_horrorvale_DMS_skin.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1739050535,
+"modified": 1739050535,
+"tags": "Cosmetics",
+"order": 2702
+});
+
+Mods.push({
+"name": "Player Skin (oc)",
+"id": "player.skin",
+"workshop_id": "3423714258",
+"author": "boxxgore",
+"desc": "hey look its my oc!",
+"thumb": "previews/3423714258.png",
+"url": "https://andrew.fm/rainworld/raindb/Player_Skin_oc.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1739050706,
+"modified": 1739050706,
+"tags": "Cosmetics",
+"order": 2703
+});
+
+Mods.push({
+"name": "kenneth horrorvale DMS skin",
+"id": "kenneth.horrorvale",
+"workshop_id": "3423754333",
+"author": "boxxgore",
+"desc": "ghost",
+"thumb": "previews/3423754333.png",
+"url": "https://andrew.fm/rainworld/raindb/kenneth_horrorvale_DMS_skin.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1739054991,
+"modified": 1739054991,
+"tags": "Cosmetics",
+"order": 2704
+});
+
+Mods.push({
+"name": "Mod Watcher",
+"id": "fargegoty.ModWatcher",
+"workshop_id": "3423829446",
+"author": "farge_goty",
+"desc": "Warns you about potential malicious mods. (Checking mod referenced assemblies, namespaces and for Windows users, scanning mod through Windows Defender)<br><br>Game could load longer because of mod database online updating and mods hash checking<br><br>Planning to make:<br>- Mods whitelist<br>- Potential malicious methods detecting<br><br>Source: https://github.com/FargeGoty/ModWatcher",
+"thumb": "previews/3423829446.png",
+"url": "https://andrew.fm/rainworld/raindb/Mod_Watcher.zip",
+"requirements": "",
+"version": "3.2.2",
+"created": 1739065009,
+"modified": 1739659509,
+"tags": "Dependency",
+"order": 2705
+});
+
+Mods.push({
+"name": "millie horrorvale DMS skin",
+"id": "millie.horrorvale",
+"workshop_id": "3423851620",
+"author": "boxxgore",
+"desc": "centipede.....",
+"thumb": "previews/3423851620.png",
+"url": "https://andrew.fm/rainworld/raindb/millie_horrorvale_DMS_skin.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1739068337,
+"modified": 1739068337,
+"tags": "Cosmetics",
+"order": 2706
+});
+
+Mods.push({
+"name": "Jimmy Mouthwashing",
+"id": "acetoner_jimmy",
+"workshop_id": "3424078511",
+"author": "Brutally_pixelated",
+"desc": "Jimmy from Mouthwashing DMS skin <br>I did it cus I can<br>",
+"thumb": "previews/3424078511.png",
+"url": "https://andrew.fm/rainworld/raindb/Jimmy_Mouthwashing.zip",
+"requirements": "dressmyslugcat",
+"version": "0.0.0.0.0.0.1",
+"created": 1739100106,
+"modified": 1739100106,
+"tags": "Cosmetics",
+"order": 2707
+});
+
+Mods.push({
+"name": "Pups Everywhere",
+"id": "Peroconino.SlugpupsEverywhere",
+"workshop_id": "3424319552",
+"author": "Peroconino",
+"desc": "Have you ever wondered why there are no pups in [b]all campaigns or expeditions[/b]? Well, now there are! This mod adds pups to all campaigns and expeditions with some nice configurable features.Use it as you please, you can have a more Rain World like experience by leaving it with default options, or you can [b]customize it to make spawns lots of pups[/b] in the region xD. Checkout the [b]collection[/b] i've created it can make even funnier to play with.[i]Pinterest artist: Karma_De45.[/i]",
+"thumb": "previews/3424319552.png",
+"url": "https://andrew.fm/rainworld/raindb/Pups_Everywhere.zip",
+"requirements": "rwremix,moreslugcats",
+"version": "1.0.3",
+"created": 1739121169,
+"modified": 1740223943,
+"tags": "",
+"order": 2708
+});
+
+Mods.push({
+"name": "Cookie Slugs",
+"id": "leifling.dmscookies",
+"workshop_id": "3424447010",
+"author": "leifling",
+"desc": "i did not bake with this one. Original COokie Run characters belong to Devsisters. more coming soon<br><br>idk why it reverted my description but<br><br>Featured:<br>Shadow Milk Cookie<br>and uhh that's all<br><br>Planned!!!!!!!!!!!!!!!!!!!!!!:<br>Cream Ferret",
+"thumb": "previews/3424447010.png",
+"url": "https://andrew.fm/rainworld/raindb/Cookie_Slugs.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1739132165,
+"modified": 1739135003,
+"tags": "Cosmetics",
+"order": 2709
+});
+
+Mods.push({
+"name": "Floodcat",
+"id": "slugcatpotatoes.floodcat",
+"workshop_id": "3424583013",
+"author": "SlugcatPotatoes",
+"desc": "Now you can play as They Might Be Giants' hit album Flood but in slugcat form!! <br>I might do cats themed off specific songs or maybe other albums (tmbg or not) who knows. Drop some suggestions! Maybe there could be a whole collection of albumcats..  <br><br>KNOWN ISSUES: <br>Floodcat's mane looks a bit awkward when crouching <br>Belly marking isn't asymmetric",
+"thumb": "previews/3424583013.png",
+"url": "https://andrew.fm/rainworld/raindb/Floodcat.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1739148818,
+"modified": 1739148818,
+"tags": "Cosmetics",
+"order": 2710
+});
+
+Mods.push({
+"name": "LizorsOmg 1.05",
+"id": "LizorsOmg",
+"workshop_id": "3424633064",
+"author": "KNugget",
+"desc": "Adds 21 wacky new lizor types and has a chance (from common to extremely non-existent) to replace lizors.. and they may or may not blind you. Mole, Red, Caramel, and Train lizards are broken and have a seizure, jumping at you if you get too close. You could attempt to find temporary fixes to this in the Lizard Customizer Discord. Do not attempt to spawn Eel Lizards, due to their constant tendency to crash the game with Lizard Customizer on.<br><br>Arena image above is from the 1.0 update, featuring all the 20 lizards present then. You have to find the other ones yourself.<br><br>1.05 - Blossom Lizor!!!!!<br>Has a quarter chance to replace pink lizors.",
+"thumb": "previews/3424633064.png",
+"url": "https://andrew.fm/rainworld/raindb/LizorsOmg_105.zip",
+"requirements": "lizardcustomizer,spitanything,moreslugcats,simplespawnswapper",
+"version": "1.05",
+"created": 1739158037,
+"modified": 1739228707,
+"tags": "",
+"order": 2711
+});
+
+Mods.push({
+"name": "NCRA Penpals",
+"id": "neoncityrain-agriocnemis.NCRApenpals",
+"workshop_id": "3424812267",
+"author": "NeonCityRain, Agriocnemis",
+"desc": "This mod adds The Insomniac, a colourblind slugcat, and The Narcoleptic, who is not very down-to-earth.<br>There is no end cutscene, as ascension is not exactly planned. Ideally, they would have a full custom campaign.<br><br>WARNING: Narcoleptic's campaign can get a tad eyestrain-y.<br>Both are intended to be harsh and difficult.<br><br>This mod has been on hiatus due to lack of interest, so we have decided to go ahead and post it.<br><br>Concept and characters by and co-owned by Agriocnemis and NeonCityRain.<br>Thumbnail by Agriocnemis and Dustbunniess.<br>Coding by NeonCityRain. (Don't look at it, it's a hot mess. Don't say I didn't warn you)<br>Shader by Vigaro.<br>Help with properly coding shader from Bro.<br>Thank you!",
+"thumb": "previews/3424812267.png",
+"url": "https://andrew.fm/rainworld/raindb/NCRA_Penpals.zip",
+"requirements": "slime-cubed.slugbase,crs,moreslugcats",
+"version": "0.0.01",
+"created": 1739191205,
+"modified": 1739192906,
+"tags": "Custom Slugcat",
+"order": 2712
+});
+
+Mods.push({
+"name": "Winters End",
+"id": "SnowBee.Snow",
+"workshop_id": "3424930016",
+"author": "MyztiLeaf",
+"desc": "[b][h1]This mod is intended for experienced players[/h1][/b] <br>A new world Expansion! The lore expansion and disconnection of the main rain world!<br>(Note that it's my first and solo development of this mod please be respectful ^^')<br>I’m not the best when it comes to art and music, so there are still some gaps.<br><br>[h3]Main Features[/h3]<br>[list]<br>    [*]A brand-new slugcat with its own story <br>    [*]Many new creatures<br>    [*]A completely original map, separate from the main Rain World map<br>    [*]An expanded Beecat campaign<br>[/list]<br><br>[h1]Bugs and issues![/h1]<br>Didn't get enough playtesters to find bugs or stuff..<br>If you find some issues or bugs, Feel free to join this server to help me track issues and progress or just enjoy having fun talking!<br>https://discord.gg/QAFXH3AAMw",
+"thumb": "previews/3424930016.png",
+"url": "https://ln5.sync.com/dl/e36c29700#yd4gsg4a-aiukbrwc-rbiz3m49-n56dtf6f",
+"requirements": "pom,regionkit,crs,slime-cubed.slugbase,moreslugcats,fisobs,beeworld",
+"version": "1.0.7",
+"created": 1739205208,
+"modified": 1739710534,
+"tags": "Regions,Campaigns,Creatures,Game Mechanics,Items,Cosmetics,Custom Slugcat",
+"order": 2713
+});
+
+Mods.push({
+"name": "The Bombardier",
+"id": "wc67.bombardier",
+"workshop_id": "3425137015",
+"author": "WorldCreator67",
+"desc": "Adds The Bombardier, a slugcat with the fire of the Voidsea in their blood.<br><br>Abilities:<br>- Can spit up Fire Eggs for 2 Food Pips<br>- Can craft those Fire Eggs with a Spear to make a Fire Spear<br>- Can pull spears from walls<br>- Gourmand diet<br>- Spawns in Far Shore (If Enabled), otherwise spawns in Subterranean<br><br>Massive thanks to Butter Fork/FerociousForkOfTheNorth for all of the art used!<br><br>Planned Features:<br>- Custom Iterator Dialogue<br>- Cosmetic changes<br>- a lot of other stuff man<br><br>Currently Upcoming Features:<br>- Sleep Screen (currently being implimented)<br>- Custom Dialogue<br>- Custom End Art<br>- Literally all of Ornery (bro is just a base JSON file rn)<br><br>Current Bugs:<br>- Far Shore spawn puts you in the ceiling<br>- Bombardier can't spit Fire Eggs while at specifically 2 food pips<br>- Pulling spears out of walls sometimes breaks, not often enough to be a problem though<br>- Bug with art on High Quality (FIXED, will be implemented soon)<br><br>Oh yeah, there's also a Discord Server for stuff, I guess<br>https://discord.gg/hH7gbXyZ ",
+"thumb": "previews/3425137015.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Bombardier.zip",
+"requirements": "slime-cubed.slugbase,moreslugcats",
+"version": "NoCos",
+"created": 1739229539,
+"modified": 1739229539,
+"tags": "Custom Slugcat",
+"order": 2714
+});
+
+Mods.push({
+"name": "RAINWORLD 7",
+"id": "hobart.GRAND",
+"workshop_id": "3425806946",
+"author": "hobart",
+"desc": "...alright, movin' on.<br>[moves arrow to 7. RAINWORLD 7]<br>rain world 7, uh, was that the one i played? oh, let's check it out.<br>[presses start and the infamous title screen loads]<br><br><br><br>sprites ripped directly from mario 7 with love<br>be sure to set everything but the legs and mark to none!!! this dms mod only provides a leg sprite and optional mark sprite",
+"thumb": "previews/3425806946.png",
+"url": "https://andrew.fm/rainworld/raindb/RAINWORLD_7.zip",
+"requirements": "dressmyslugcat",
+"version": "7.7.7",
+"created": 1739330461,
+"modified": 1739330461,
+"tags": "Cosmetics",
+"order": 2715
+});
+
+Mods.push({
+"name": "Lord's Assorted Skin Pack",
+"id": "lord.skins",
+"workshop_id": "3426381890",
+"author": "GayLord",
+"desc": "A collection of different customizable skin parts. Including real cat patterns, monochrome versions, and OCs.<br><br>Currently being worked on and added upon. <br><br>Requests have a chance of being implemented if they spark my interest. (Like other cat pattern suggestions, or specific item suggestions. I.E. 'Can you give snowshoe a different colored eye variant?' or 'Can you make a Bengal cat skin?')<br><br><br><br>These skin sets are free use. Feel free to edit, customize, or use these skins however you'd like. You can upload your own edits to the workshop as well, just @ me so I can see them.",
+"thumb": "previews/3426381890.png",
+"url": "https://andrew.fm/rainworld/raindb/Lords_Assorted_Skin_Pack.zip",
+"video": "https://www.youtube.com/@LordOfTheGays11010",
+"requirements": "dressmyslugcat",
+"version": "1.9.0",
+"created": 1739417500,
+"modified": 1739417500,
+"tags": "Cosmetics",
+"order": 2716
+});
+
+Mods.push({
+"name": "OpLizors 3.0 (REUPLOAD)",
+"id": "oplizardsreupload",
+"workshop_id": "3426674244",
+"author": "Floppa (me, made the lizards) and a bunch of friends (suggestions, playtesting etc.)",
+"desc": "adds some very broken and stupid lizards, i can only wish you good luck when playing this. ah, and remember; do not be a pussy and look into the lizard customizer files before playing it, go in blind without knowing what every lizard does and just deal with it for the best experience. anyways, good luck!",
+"thumb": "previews/3426674244.png",
+"url": "https://andrew.fm/rainworld/raindb/OpLizors_30_REUPLOAD.zip",
+"requirements": "lizardcustomizer,simplespawnswapper,spitanything",
+"version": "3.0",
+"created": 1739465183,
+"modified": 1739465183,
+"tags": " Creatures",
+"order": 2717
+});
+
+Mods.push({
+"name": "Neon's Polecat",
+"id": "ncr.polecat",
+"workshop_id": "3427135680",
+"author": "NeonCityRain",
+"desc": "im joining the war on autism on the side of autism. i order you to look at my trans swag<br>i dont make art ironically. this is a genuine modcat.<br><br>'why is line of sight required' thats how i play. for the true neon experience, also use the 'no map' and 'pipe juke nerf' mods. no, i am not kidding in the slightest, that is how i play when im not modding.<br>'whats this slugcat about' nope! find out yourself. im not writing this description for hours like i do for my other slugcats. YOU play and YOU learn this time<br>'why am i randomly gaining food pips' you auto-eat a certain critter. look at whats happening around you. in the water perhaps.<br>'is there an ending this time' there sure is, have fun. or dont. im not your mother<br>'will this be updated?' probably. i have gripes with the saint worldstate and hes supposed to stick to ceilings too but i dont feel like coding that rn. i did this in two days while on my period lol<br><br>you can give criticism if you give me a five paragraph essay NOT written by ai on the difference between constructive criticism and being a bully. love and light.",
+"thumb": "previews/3427135680.png",
+"url": "https://andrew.fm/rainworld/raindb/Neons_Polecat.zip",
+"requirements": "slime-cubed.slugbase,LineOfSight,moreslugcats",
+"version": "0.1.0",
+"created": 1739538053,
+"modified": 1739544407,
+"tags": "Campaigns,Custom Slugcat",
+"order": 2718
+});
+
+Mods.push({
+"name": "The Diversity",
+"id": "mrlagman.diversity",
+"workshop_id": "3427248508",
+"author": "mrlagman",
+"desc": "Just some OCs of mine coming to life. This mod is a WIP, so don't expect much from it yet<br>Warning: Modify the parameters in the JSON file, the mod doesn't have a menu yet<br>(and probably won't, for easier management)<br>Spoiler Warning!<br>DO NOT try to finish the game in Outer Expanse, it would soft-lock your game!<br>(Though it would still set your den as gourmand ending default (OE_SEXTRA))",
+"url": "https://ln5.sync.com/dl/8586784b0#wyg7s8dk-zhjxfs4m-4jhbisrc-6apevec3",
+"requirements": "moreslugcats,slime-cubed.slugbase",
+"version": "1.0.0",
+"created": 1739551444,
+"modified": 1739551444,
+"tags": "Campaigns,Regions,Custom Slugcat",
+"order": 2719
+});
+
+Mods.push({
+"name": "Caliburn",
+"id": "EFF.SaTBKCaliburn",
+"workshop_id": "3427253031",
+"author": "EFF",
+"desc": "Caliburn from Sonic and The Black Knight as texture for Sword Mod, with SFX from Satbk.",
+"thumb": "previews/3427253031.png",
+"url": "https://andrew.fm/rainworld/raindb/Caliburn.zip",
+"requirements": "LazyCowboy.SwordMod",
+"version": "1.0",
+"created": 1739551480,
+"modified": 1739551480,
+"tags": "Items,Cosmetics",
+"order": 2720
+});
+
+Mods.push({
+"name": "Data Manifold",
+"id": "April.MD",
+"workshop_id": "3427461064",
+"author": "aprilWORSTmonth",
+"desc": "Explore the winding twists and heights of storage flesh and scavengers. This custom region connects to Moss fields.<br>features:<br> -63 rooms and exactly 100 screens!<br> -Custom threat theme made by Snoodle!!<br> -Track made by the awesome Intikus!!!<br> -Custom arena by slithersss!!!!<br> -1 new lore pearl by qtpi!!!!!!<br> -Region art made by aprilWORSTmonth (ME!!!)<br> - Custom Rivulet and Artificer worldstates!! (survivor is recommended for a first play-through<br><br>This region is the part one of a two part expantion, expect more in the future!<br><br> Thank you Hootis and qtpi for help with the palettes.<br> Thank you qtpi for the custom tiles made for the region<br> Thank you to Hootis and qtpi for making a few decals for the region!<br> Thank you to: qtpi, Slithersss, woke 'watcher' Wrayk (full legal name), and ASlightlyOvergrownCactus for making guest rooms!!! <br> Thank you to Snoodle and intikus for making music for the mod!!!",
+"thumb": "previews/3427461064.png",
+"url": "https://ln5.sync.com/dl/dd6db5180#akzt48dj-fcdid2vx-739nrntp-5mazc7ji",
+"requirements": "crs,regionkit,pom,myr.moss_fields,mod.hootis.tranqspears",
+"version": "1.0",
+"created": 1739575898,
+"modified": 1740024258,
+"tags": "Regions",
+"order": 2721
+});
+
+Mods.push({
+"name": "Tusker creature",
+"id": "Tusker",
+"workshop_id": "3427710321",
+"author": "Bababooey",
+"desc": "This mod adds a new creature called the Tusker, a masked and furred predator lying somewhere between a blue lizard and a spider on the food chain.<br>Due to their smaller size and lighter body, Tuskers are commonly preyed upon by most creatures in rainworld. But the mask is not purely for display, they can defend themselves and hunt creatures with the sharp tusks on their face.<br><br>They were endemic to Industrial Complex due to the climate and predators of other regions until the ice age began, where they would then spread and colonize other regions in small packs.<br><br><br><br><br>Locations: Industrial complex(all)<br>Silent Construct, Chimney Canopy, Garbage Wastes, farm arrays, outskirts, Pipeyard (Saint)<br><br>Doesnt need simple spawn swapper they just spawn naturally",
+"thumb": "previews/3427710321.png",
+"url": "https://andrew.fm/rainworld/raindb/Tusker_creature.zip",
+"requirements": "lizardcustomizer",
+"version": "1.0",
+"created": 1739615570,
+"modified": 1739700251,
+"tags": "Creatures",
+"order": 2722
+});
+
+Mods.push({
+"name": "polo face",
+"id": "polo face",
+"workshop_id": "3427836598",
+"author": "Unknown",
+"desc": "So far so good‘s polo, from Incredibox.<br>Incredibox official website: https://www.incredibox.com/",
+"thumb": "previews/3427836598.png",
+"url": "https://andrew.fm/rainworld/raindb/polo_face.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1739629775,
+"modified": 1739629775,
+"tags": "Cosmetics",
+"order": 2723
+});
+
+Mods.push({
+"name": "Howler",
+"id": "Howl",
+"workshop_id": "3427933524",
+"author": "Seyu",
+"desc": "It grows inside of them...<br><br>> Can grab and bite alive animals<br>> Carnivore<br>> Speedy<br>> Depends on the dental power, poor strength<br><br>Small scenes/music included<br><br>",
+"thumb": "previews/3427933524.png",
+"url": "https://andrew.fm/rainworld/raindb/Howler.zip",
+"requirements": "slime-cubed.slugbase,dressmyslugcat",
+"version": "0.1.0",
+"created": 1739638336,
+"modified": 1739638336,
+"tags": "Custom Slugcat",
+"order": 2724
+});
+
+Mods.push({
+"name": "POST VOID(SEA) [DMS SKIN]",
+"id": "frozeninplace.postvoidguy",
+"workshop_id": "3428246657",
+"author": "FROZEN IN PLACE",
+"desc": "Adds the guy from Post Void into Rain World<br><br>Goes Best with Rivulet",
+"thumb": "previews/3428246657.png",
+"url": "https://andrew.fm/rainworld/raindb/POST_VOIDSEA_DMS_SKIN.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1739670360,
+"modified": 1739670360,
+"tags": "Cosmetics",
+"order": 2725
+});
+
+Mods.push({
+"name": "What's This Pearl?",
+"id": "simyon.whatsthispearl",
+"workshop_id": "3428753018",
+"author": "Simyon",
+"desc": "Shows the name of the pearl that you are holding after standing still for a short while and optionally it's ID.<br><br>Why would you need this? I had one unread pearl in a shelter full of pearls. Instead of just going to the wiki and manually finding the one I was missing by color or just letting Moon read them all again, I decided making this mod was easier. Turns out, it wasn't. But hey, we all learn from mistakes.<br>This should also help with the colorblind players, maybe. Probably.<br><br>Should work with custom pearls as long as the extend the base AbstractDataPearl enum.<br><br>Source here: https://github.com/Simyon264/RW-Whats-This-Pearl/",
+"thumb": "previews/3428753018.png",
+"url": "https://andrew.fm/rainworld/raindb/Whats_This_Pearl.zip",
+"requirements": "moreslugcats",
+"version": "1.1",
+"created": 1739728967,
+"modified": 1739728967,
+"tags": "Accessibility",
+"order": 2726
+});
+
+Mods.push({
+"name": "Testing Region",
+"id": "testing-region",
+"workshop_id": "3428862528",
+"author": "zedarel",
+"desc": "A region use for testing. (Can only be accessed through Warp Menu.)<br><br>Includes:<br>- 14 rooms.<br>- Small, Medium, and Large variants.<br>- List of rooms:<br>--- Ladders,<br>--- Large,<br>--- LargePit,<br>--- LargePitHidden,<br>--- LargeWater,<br>--- Pit,<br>--- Shapes,<br>--- Shortcut,<br>--- Simple,<br>--- Slope,<br>--- Small,<br>--- Split,<br>--- SplitPlatform,<br>--- Water.<br><br>Thank you for using this mod!",
+"thumb": "previews/3428862528.png",
+"url": "https://andrew.fm/rainworld/raindb/Testing_Region.zip",
+"requirements": "warp",
+"version": "1.0.0",
+"created": 1739739036,
+"modified": 1739739036,
+"tags": "",
+"order": 2727
+});
+
+Mods.push({
+"name": "DS Intro Song is Pipeworks Intro Song",
+"id": "purrs.dsintrochanger",
+"workshop_id": "3429332542",
+"author": "purrpetualentropy",
+"desc": "Places the Pipeworks intro theme (from White Knuckle) at all Drainage Entrances (Mud Pits has been moved further into DS). Not DS+ compatible (yet).",
+"thumb": "previews/3429332542.png",
+"url": "https://andrew.fm/rainworld/raindb/DS_Intro_Song_is_Pipeworks_Intro_Song.zip",
+"requirements": "",
+"version": "1.0",
+"created": 1739810825,
+"modified": 1739810825,
+"tags": "",
+"order": 2728
+});
+
+Mods.push({
+"name": "Soyjak Mod",
+"id": "Proto.Soyjaks",
+"workshop_id": "3429475702",
+"author": "Proto",
+"desc": "So soy!",
+"thumb": "previews/3429475702.png",
+"url": "https://andrew.fm/rainworld/raindb/Soyjak_Mod.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1739827013,
+"modified": 1739827013,
+"tags": "Cosmetics",
+"order": 2729
+});
+
+Mods.push({
+"name": "Evil Duras Lizard",
+"id": "evilduraslizard",
+"workshop_id": "3429524236",
+"author": "Mr",
+"desc": "this mod adds evil duras lizard to the game <br><br><br>duras channel https://www.youtube.com/@LoDurisLP/videos<br><br>this mod will not be updated it was created in 1 hour so there's flaws ",
+"url": "https://andrew.fm/rainworld/raindb/Evil_Duras_Lizard.zip",
+"video": "https://www.youtube.com/@randomnerdontheinternet-oj4of",
+"requirements": "lizardcustomizer,spitanything,simplespawnswapper,moreslugcats",
+"version": "1.0.0",
+"created": 1739833470,
+"modified": 1739833470,
+"tags": "Creatures",
+"order": 2730
+});
+
+Mods.push({
+"name": "Ferpipe",
+"id": "Ferpipe.slugcat",
+"workshop_id": "3429569046",
+"author": "Rokelio.ferpipe",
+"desc": "skin. Ferpipe",
+"thumb": "previews/3429569046.png",
+"url": "https://andrew.fm/rainworld/raindb/Ferpipe.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1739840925,
+"modified": 1739840925,
+"tags": "Cosmetics",
+"order": 2731
+});
+
+Mods.push({
+"name": "Arondight",
+"id": "EFF.SaTBKArondight",
+"workshop_id": "3429715713",
+"author": "EFF",
+"desc": "Arondight from Sonic and The Black Knight as texture for Sword Mod, with SFX from Satbk.",
+"thumb": "previews/3429715713.png",
+"url": "https://andrew.fm/rainworld/raindb/Arondight.zip",
+"requirements": "LazyCowboy.SwordMod",
+"version": "1.0",
+"created": 1739871906,
+"modified": 1739871906,
+"tags": "Items,Cosmetics",
+"order": 2732
+});
+
+Mods.push({
+"name": "world destroyers",
+"id": "world destroyers",
+"workshop_id": "3429901296",
+"author": "Unknown",
+"desc": "you are free to use this creatures in your region or anything what are you doing <br>death:black lizard with red teeth and eyes. deals INSANE amout of damage in one moment by just looking at the target<br>spitter:lime lizard, cannot bite, shoots explosive spears at speed of light<br>replicant(aslo known as crasher):copies itself(arena will crash faster than it loads)<br>agam:based on real animal, can shoot spearmasters needles.<br>i don't kow how to fix replicants crash ability, just make his delay between spits 99 and spit force 15 in liz customizer, that should help",
+"url": "https://andrew.fm/rainworld/raindb/world_destroyers.zip",
+"requirements": "",
+"version": "",
+"created": 1739897215,
+"modified": 1739975353,
+"tags": "",
+"order": 2733
+});
+
+Mods.push({
+"name": "the druid",
+"id": "druid",
+"workshop_id": "3430250085",
+"author": "greanaxe13",
+"desc": "a cool ambush predator.",
+"thumb": "previews/3430250085.png",
+"url": "https://andrew.fm/rainworld/raindb/the_druid.zip",
+"requirements": "slime-cubed.slugbase",
+"version": "alpha",
+"created": 1739952206,
+"modified": 1739952206,
+"tags": "Custom Slugcat",
+"order": 2734
+});
+
+Mods.push({
+"name": "Cuter pups!",
+"id": "pup.dmstemplate",
+"workshop_id": "3430277592",
+"author": "Mirosbirdbutno",
+"desc": "Adds a skin for pups!!! makes ur pups cuter!<br><br>also has...<br><br>Gradient arms legs and a  tail!<br><br>eyes near nose!<br><br>and some fluff on body<br><br>and cool ears!!!",
+"thumb": "previews/3430277592.png",
+"url": "https://andrew.fm/rainworld/raindb/Cuter_pups.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1739957920,
+"modified": 1739957920,
+"tags": "Cosmetics",
+"order": 2735
+});
+
+Mods.push({
+"name": "Stalkerlizard",
+"id": "Stalkerlizard",
+"workshop_id": "3430479387",
+"author": "Unknown",
+"desc": "A Small, yet extremely dangerous lizard. This thing is a speed demon, able to climb walls, and ceilings. the stalker lizard is a feared beast across the arena (i don't know how to add to campaign) but, it has hollow bones which decrease weight, yet also decreases durability, making it a one shot to most other attacks. (uses lizard customizer)",
+"url": "https://andrew.fm/rainworld/raindb/Stalkerlizard.zip",
+"requirements": "",
+"version": "",
+"created": 1739986230,
+"modified": 1739986230,
+"tags": "",
+"order": 2736
+});
+
+Mods.push({
+"name": "You are dead, not big suprise!",
+"id": "belinko-heavyIsDead",
+"workshop_id": "3430498412",
+"author": "Belinko",
+"desc": "Heavy tf2 constants the fact that you are dead. (Death sound)<br>Thats it, enjoy!",
+"thumb": "previews/3430498412.png",
+"url": "https://andrew.fm/rainworld/raindb/You_are_dead_not_big_suprise.zip",
+"requirements": "",
+"version": "1.0.0",
+"created": 1739988581,
+"modified": 1739988581,
+"tags": "",
+"order": 2737
+});
+
+Mods.push({
+"name": "Auto-backup disabler",
+"id": "nope.no.auto.backup",
+"workshop_id": "3430519749",
+"author": "Nope",
+"desc": "This mod prevents automatic backups from being created. Dynamic configuration in Remix interface.<br>Do not enable if you don't know what you're doing !<br>You risk losing progress !",
+"thumb": "previews/3430519749.png",
+"url": "https://andrew.fm/rainworld/raindb/Autobackup_disabler.zip",
+"requirements": "",
+"version": "2.0",
+"created": 1739991121,
+"modified": 1739999526,
+"tags": "",
+"order": 2738
+});
+
+Mods.push({
+"name": "Mirosbirdsbutno's saint!",
+"id": "Saint.dmstemplate",
+"workshop_id": "3431089678",
+"author": "Mirosbirdbutno",
+"desc": "just a skin for saint!! :O<br><br><br><br>has....<br>hands and legs with gradient!!! :D<br>a fixed face + a bit of blush!<br>u-u face -v-<br>my yt channel is shellish check out the old vids that say... monk spinning for 35 seconds to find me!<br><br>very nice if u ran our of options for skins to use for saint!<br>",
+"thumb": "previews/3431089678.png",
+"url": "https://andrew.fm/rainworld/raindb/Mirosbirdsbutnos_saint.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1740077317,
+"modified": 1740077317,
+"tags": "Cosmetics",
+"order": 2739
+});
+
+Mods.push({
+"name": "half life gordon freeman",
+"id": "gordon.freeman.tes",
+"workshop_id": "3431091115",
+"author": "tes",
+"desc": "rise and shine mr freeman, rish and shine...",
+"thumb": "previews/3431091115.png",
+"url": "https://andrew.fm/rainworld/raindb/half_life_gordon_freeman.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1740077502,
+"modified": 1740077502,
+"tags": "Cosmetics",
+"order": 2740
+});
+
+Mods.push({
+"name": "Chipflake skin for dress my slugcat",
+"id": "AHHHHHHHHHH.dmstemplate",
+"workshop_id": "3431140647",
+"author": "PAIN",
+"desc": "If it's not working make sure that part is set to white",
+"thumb": "previews/3431140647.png",
+"url": "https://andrew.fm/rainworld/raindb/Chipflake_skin_for_dress_my_slugcat.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1740083403,
+"modified": 1740083403,
+"tags": "Cosmetics",
+"order": 2741
+});
+
+Mods.push({
+"name": "Show Players Everywhere",
+"id": "LazyCowboy.ShowPlayersEverywhere",
+"workshop_id": "3431182108",
+"author": "LazyCowboy",
+"desc": "Allows players to be seen on the map, even when they're in other rooms! Intended for use with Rain Meadow, although it can function with Jolly Co-op.<br><br>[h3]Features:[/h3]<br>* Accurate player colors and positions<br>* Purely client-side, so the mod works even if no one else has it in Rain Meadow<br>* Quick visibility of player icons (they appear faster than the map fades in)<br>* Does NOT show you players in other regions, since those other regions use completely separate maps.<br>* A questionably simple yet somewhat inefficient implementation. Oh well, at least no bugs!(*)<br><br>[i]((*)Bugs are a guaranteed part of Rain World mods. That said, I haven't found any yet for this mod. Seems totally stable. It's literally only one hook, so what could go wrong anyway??)[/i]",
+"thumb": "previews/3431182108.png",
+"url": "https://andrew.fm/rainworld/raindb/Show_Players_Everywhere.zip",
+"requirements": "",
+"version": "0.0.1",
+"created": 1740088347,
+"modified": 1740088347,
+"tags": "Accessibility,Rain Meadow mods",
+"order": 2742
+});
+
+Mods.push({
+"name": "Apollo & Opal Skins!",
+"id": "apollopalskins",
+"workshop_id": "3431326285",
+"author": "FXRBIDDENARTIST",
+"desc": "Apollo and Opal, two cats who begrudginlgy become allies as they run from their old life seeking safe place to rest and hide.<br><br>*CREDITS*<br>Skins: FXRBIDDENARTIST on Twitter<br>Thumbnail art: eko_neko_art on Instagram (Apollo) & FXRBIDDENARTIST on Twitter (Opal)<br>Ownership of OCs: FXRBIDDENARTIST & EkoNekoArt",
+"thumb": "previews/3431326285.png",
+"url": "https://andrew.fm/rainworld/raindb/Apollo__Opal_Skins.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1740114394,
+"modified": 1740114394,
+"tags": "Cosmetics",
+"order": 2743
+});
+
+Mods.push({
+"name": "Forsaken Roblox Slugcat Skins",
+"id": "roblox.cats",
+"workshop_id": "3431810308",
+"author": "sleepy_slaqr",
+"desc": "most of the skins here will be referencing the survivors and killers from a game on roblox called [ALPHA] Forsaken!! GO PLAY IT NOW, RAAAAH!! The slugcat names next to the names of the characters are what you are recommended to use in-game when using the skin for the best experience as that character :]<br><br>Planned, but unfinished:<br>Shedletsky (Hunter)<br>007n7 (Hunter/Survivor)<br>Elliot (Monk)<br>TwoTime (Saint)<br>Rochas313 (Survivor)<br>CappyD (Survivor)<br><br>Currently in-game:<br>1x1x1x1 (Spearmaster)<br>c00lkidd (Artificer, Pup)<br>Guest 1337 (Artificer)<br>Chance (Survivor)<br>Builderman (Spearmaster/Artificer)<br>John Doe (Any)<br>Mafioso (Any)<br>Noob (Monk/Survivor)<br>Matt (Artificer)",
+"thumb": "previews/3431810308.png",
+"url": "https://andrew.fm/rainworld/raindb/Forsaken_Roblox_Slugcat_Skins.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1740181973,
+"modified": 1740181973,
+"tags": "Cosmetics",
+"order": 2744
+});
+
+Mods.push({
+"name": "Goragle Cat",
+"id": "Goragle.Cat",
+"workshop_id": "3431956029",
+"author": "Vigaro",
+"desc": "Ever wondered what its like the be a sock, AND A CAT??? no? well either way you can now!",
+"thumb": "previews/3431956029.png",
+"url": "https://andrew.fm/rainworld/raindb/Goragle_Cat.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1740206979,
+"modified": 1740206979,
+"tags": "Cosmetics",
+"order": 2745
+});
+
+Mods.push({
+"name": "Damn Miros Birds",
+"id": "damnmirosbirds",
+"workshop_id": "3432003738",
+"author": "ITeaFox",
+"desc": "Replaces Miros Birds sounds with damn pukeko meme<br><br>(thx AriTo for thumbnail <3)",
+"thumb": "previews/3432003738.png",
+"url": "https://andrew.fm/rainworld/raindb/Damn_Miros_Birds.zip",
+"requirements": "",
+"version": "1.0",
+"created": 1740214902,
+"modified": 1740214902,
+"tags": "",
+"order": 2746
+});
+
+Mods.push({
+"name": "Show Collectibles on Slugcat Select",
+"id": "nope.collectibles.on.char.select",
+"workshop_id": "3432132639",
+"author": "Nope",
+"desc": "This mod makes the tokens (or collectibles) appear on character select menu.<br>This is threaded and should not impact performance, but it can be switched on and off dynamically from the Remix page.<br>This mod requires Rain World Remix to be enabled, and is not compatible with Improved Collectibles Tracker for now :c",
+"thumb": "previews/3432132639.png",
+"url": "https://andrew.fm/rainworld/raindb/Show_Collectibles_on_Slugcat_Select.zip",
+"requirements": "rwremix",
+"version": "0.1.2",
+"created": 1740230557,
+"modified": 1740231528,
+"tags": "",
+"order": 2747
 });
 
 Mods.push({
