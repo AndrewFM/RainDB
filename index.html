@@ -10,7 +10,7 @@
         function toggle(section) {
             if (section == "mods") {
                 shuffleArray(Mods);
-                generateHTML("1.9", Mods, "", "v1.9 Mods", 51);
+                generateHTML("1.9", Mods, "", "Mods", 51);
             }
 
             for (var i=0; i<sections.length; i+=1) {
@@ -216,7 +216,7 @@ Explore or search for mods, dependencies, files, or links to the Steam Workshop.
             <div id="mods" style="display:block;">
                 <div id="1.9_title"></div>
                 <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
-                <b>Show:</b> <a onclick="generateHTML('1.9', Mods, '', 'v1.9 Mods', 51)" href="#main">All</a> | <a onclick="generateHTML('1.9', Mods, 'new', 'v1.9 Mods (Newest)', 51)" href="#main">Newest</a>
+                <b>Show:</b> <a onclick="generateHTML('1.9', Mods, '', 'Mods', 51)" href="#main">All</a> | <a onclick="generateHTML('1.9', Mods, 'new', 'Mods (Newest)', 51)" href="#main">Newest</a>
                 <div id="1.9_gallery"></div>
             </div>
 
@@ -224,7 +224,7 @@ Explore or search for mods, dependencies, files, or links to the Steam Workshop.
             <div id="infobox" style="display:none;">
                 <h3><b><div id="infobox_title"></div></b></h3>
                 <img id="infobox_thumbnail" src="" alt="" style="width:360px;height:203px;" \>
-                <h4><b>Download: </b> [<a href="" id="infobox_workshopurl" target="_blank">Workshop</a>] [<a id="infobox_directurl" href="">Direct</a>]</h4>
+                <h4 id="infobox_downloads"><b>No Downloads</b></h4>
                 <span id="infobox_dependency_warning" style="display:none">(This mod has dependencies! Make sure you also have all of the mods listed below installed)</span>
                 <div id="infobox_dependencies" style="text-align:left; padding:16px;"></div>
                 <hr>
@@ -302,11 +302,18 @@ Explore or search for mods, dependencies, files, or links to the Steam Workshop.
             if (modinfo === null)
                 return;
             document.getElementById('infobox_title').innerHTML = modinfo['name'];
-            if (!('workshop_id' in modinfo) || modinfo['workshop_id'] === "")
-                document.getElementById('infobox_workshopurl').href = modinfo['url'];
-            else
-                document.getElementById('infobox_workshopurl').href = "https://steamcommunity.com/sharedfiles/filedetails/?id=" + modinfo['workshop_id'];
-            document.getElementById('infobox_directurl').href = modinfo['url'];
+            var downloadsHTML = "<b>Download: </b>";
+            if ('workshop_id' in modinfo && modinfo['workshop_id'] !== "")
+                downloadsHTML += " [<a href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=" + modinfo['workshop_id'] + "\" target=\"_blank\">Workshop</a>]";
+            if ('watcher_url' in modinfo) {
+                downloadsHTML += " [<a href=\"" + modinfo['watcher_url'] + "\">v1.10 Watcher Direct</a>]";
+                downloadsHTML += " [<a href=\"" + modinfo['url'] + "\">v1.9 Legacy Direct</a>]";
+            }
+            else {
+                downloadsHTML += " [<a href=\"" + modinfo['url'] + "\">Direct</a>]";
+            }
+
+            document.getElementById('infobox_downloads').innerHTML = downloadsHTML;
             document.getElementById('infobox_desc').innerHTML = formatSteamTags(modinfo['desc']);
 
             var useThumb = "previews/default.png"
