@@ -75,7 +75,7 @@ img { max-width: 100%; }
 /***** General style, all sections *****/
 
 .heading-divider {
-	padding-top:13px;
+	padding-top:3px;
 }
 
 .section-container {
@@ -183,6 +183,13 @@ img { max-width: 100%; }
 
 /***** Top menu *****/
 
+.navbar-fixedt {
+	position: fixed;
+  	right: 0;
+  	left: 0;
+  	z-index: 1030;
+}
+
 .navbar {
 	margin-bottom: 0;
 	background: #444;
@@ -221,7 +228,106 @@ ul.navbar-nav {
 /***** Top content *****/
 
 .inner-bg {
-    padding: 210px 0;
+    padding: 60px 0;
+}
+.inner-bg-home {
+    padding: 120px 0;
+}
+.rdbtitle {
+	font-size: 500%; margin-left: -428px; width: 1615px; text-shadow: 2px 2px #000000;
+}
+.rdbnav {
+	padding-left: 0;
+  	margin-bottom: 0;
+  	list-style: none;
+}
+.rdbnav > li {
+	float: left;
+}
+.rdbnav > li > a {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	color: #ddd;
+}
+.rdbnav > li > a:hover {
+  color: #fff;
+  text-decoration: none;
+  -o-transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;
+}
+.rdbnavbar-nav {
+	float: left;
+    margin: 0;
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+.rdbnavbar-nav > li {
+	float:left;
+}
+.rdbnavbar-nav > li > a {
+	line-height: 20px;
+	color: #ddd;
+}
+
+ul.rdbnavbar-nav {
+	font-size: 15px;
+ 	color: #fff;
+ 	text-transform: uppercase;
+}
+
+#infobox {
+    position: fixed;
+    left: 15vw;
+    top: 10vh;
+    width: 70vw;
+    height: 80vh;
+    border: 4px black solid;
+    color: black;
+    border-radius: 8px;
+    background-color: #fff;
+    text-overflow: auto;
+    overflow: auto;
+}
+
+@media (max-width:1200px) {
+	.rdbtitle {
+		font-size: 450%; margin-left: -478px; width: 1615px; text-shadow: 2px 2px #000000;
+	}
+}
+@media (max-width:990px) {
+	.rdbtitle {
+		font-size: 400%; margin-left: -538px; width: 1615px; text-shadow: 2px 2px #000000;
+	}
+	.rdbnavbar-nav {
+	    margin-left: -130px;
+	}
+}
+@media (max-width:768px) {
+	.rdbtitle {
+		font-size: 300%; font-weight:bold; width: 100%; text-shadow: 2px 2px #000000; margin-left: 0px;
+	}
+	.navbar-fixedt {
+		position: relative;
+	}
+	.rdbnavbar-nav {
+	    margin-left: 0px;
+	}
+	.inner-bg-home {
+	    padding: 60px 0;
+	}
+	.inner-bg {
+	    padding: 0px 0;
+	}
+    #infobox {
+        left: 5vw;
+        top: 5vh;
+        width: 90vw;
+        height: 90vh;
+    }
 }
 
 .top-content .text {
