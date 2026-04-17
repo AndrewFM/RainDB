@@ -40280,23 +40280,6 @@ Mods.push({
 });
 
 Mods.push({
-"name": "The Father cosmetic pack",
-"id": "thefather.awesomesaucemod",
-"workshop_id": "3380535042",
-"author": "RandomFoxThing",
-"desc": "this is just something i made mostly for my characters, but anyone is free to use itcurrent colorable body parts include:the fathers set (besides the mark of communication)the noxious' set (besides his face)Ponds ears, face, and extra gillsand extras for constellationThe color codes to match const, pond, and noxious arepond: B2EDECconstellation: 0D3930noxious:223B29credit to @Robstar105 for making constellation's tail!! thank you!!",
-"thumb": "previews/3380535042.png",
-"watcher_url": "https://andrew.fm/rainworld/raindb/watcher/The_Father_cosmetic_pack.zip",
-"url": "https://andrew.fm/rainworld/raindb/The_Father_cosmetic_pack.zip",
-"requirements": "dressmyslugcat",
-"version": "1.0.0",
-"created": 1733647579,
-"modified": 1750391711,
-"tags": "Cosmetics",
-"order": 2505
-});
-
-Mods.push({
 "name": "Annihilation Lizard",
 "id": "annihilationlizard",
 "workshop_id": "3380709658",
@@ -57412,23 +57395,6 @@ Mods.push({
 "modified": 1756831939,
 "tags": "Cosmetics,Accessibility",
 "order": 3574
-});
-
-Mods.push({
-"name": "The Father & more [DMS]",
-"id": "thefather.awesomesaucemod",
-"workshop_id": "3561172078",
-"author": "RandomFoxThing",
-"desc": "these are just my slugcat oc'sThe color codes for some of the slugcats:father: F6AAC0pond: B2EDECconstellation: 0D3930noxious:202C28akane:223B29Recommended tail sizes:noxious: L: 6 W: 0.9 R: 0.1father: L: 5 W: 4.0 R: 0.1[b]Credit to Auro[/b] for allowing me to edit and use sprites from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3021438038]Cutscene Slugcats[/url] for the Cutscene variants!!![b]Credit to @pikafan1343445[/b] for helping me with noxious ^^'And [b]credit to @Robstar105[/b] for making the alt for constellation's tail!! thank you!!i update this from time to time so sometimes things will change",
-"thumb": "previews/3561172078.png",
-"watcher_url": "https://andrew.fm/rainworld/raindb/watcher/The_Father__more_DMS.zip",
-"url": "https://andrew.fm/rainworld/raindb/The_Father_cosmetic_pack.zip",
-"requirements": "dressmyslugcat",
-"version": "1.0.0",
-"created": 1756867904,
-"modified": 1773410783,
-"tags": "Cosmetics",
-"order": 3575
 });
 
 Mods.push({
