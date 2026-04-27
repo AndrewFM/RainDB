@@ -2,15 +2,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RainDB - Home</title>
+    <title>RainDB - Modding Resources</title>
 
     <script>
         var sections = ["toolsgallery", "palettes"];
         function toggle(section) {
-            if (section == "toolsgallery")
-                generateHTML("toolsg", ToolsGallery, "", "Modding Tools");
-            else if (section == "palettes")
+            if (section == "toolsgallery") {
+                document.getElementById("search-container").style.display = "block";
+                generateHTML("toolsg", ToolsGallery, "", "Modding Resources");
+            }
+            else if (section == "palettes") {
+                document.getElementById("search-container").style.display = "none";
                 generatePaletteHTML("paletteGallery", gallery);
+            }
 
             for (var i=0; i<sections.length; i+=1) {
                 if (section == sections[i])
@@ -121,7 +125,7 @@
                     <li><a href="https://www.raindb.net/legacy.html">Legacy Mods</a>
                     </li>
                     <li class="heading-divider">|</li>
-                    <li><a href="https://www.raindb.net/tools.html">Modding Tools</a>
+                    <li><a href="https://www.raindb.net/tools.html">Modding Resources</a>
                     </li>
                     <li class="heading-divider">|</li>
                     <li><a href="https://www.raindb.net/tutorials.html">Tutorials</a>
@@ -157,14 +161,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; text-align:left; float:left; margin-left:5px;">
-                   <b>Category:</b> <a onclick="toggle('toolsgallery')" href="#main">Tools</a> | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
-				   <br><b>Search:</b> <input type="text" id="mod-search" name="search" onchange="doSearch(this.value)" autocomplete="off" spellcheck="false">
+                   <b>Category:</b> <a onclick="toggle('toolsgallery')" href="#main">Resources</a> | <a onclick="toggle('palettes'); getRecolorFunct(0)();" href="#main">Palettes</a>
+				   <br><span id="search-container"><b>Search:</b> <input type="text" id="mod-search" name="search" onchange="doSearch(this.value)" autocomplete="off" spellcheck="false"></span>
                 </div>
             </div>
 
             <div id="toolsgallery" style="display:block;">
                 <div id="toolsg_title"></div>
-                <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>            
+                <div class="divider-1" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+                <div style="text-align:left; margin-top:32px;">
+                    <b>Useful Websites: </b> <a href="https://rainworldmodding.miraheze.org/wiki/Main_Page" target="_blank">Modding Wiki</a> | <a href="https://discord.gg/4rqYRexHW3" target="_blank">Modding Discord</a> | <a href="https://rainworld-repository.github.io/Repo-Site/index.html" target="_blank">Level Editor's Warehouse</a>
+                </div>
                 <div id="toolsg_gallery"></div>
             </div>
 
@@ -417,7 +424,7 @@
             "name":   "Official Level Editor",
             "author": "Joar Jakobsson",
             "type":   "Utility",
-            "url":    "https://ln5.sync.com/dl/2c28693d0/q2b2zh8m-vdmsuwyj-5w3efg5c-gvhg7ben",
+            "url":    "https://drive.google.com/file/d/1wXg54y1X6gYFaRW1577GoW4qd68pNGfu/view",
             "thumb":  "previews/of_editor.png",
             "desc":   "The very powerful and flexible level editor used by the devs to build and render all of the levels in the final game.",
             "app": true,
@@ -430,7 +437,7 @@
             "author": "Rain World Community",
             "type":   "Utility",
             "url":    "https://github.com/Rain-World-Modding/CommunityEditor",
-            "thumb":  "previews/comms_editor.png",
+            "thumb":  "previews/comms_preview.png",
             "desc":   "A fork of the original level editor with various bug fixes and community editions.",
             "app": true,
             "tool": true,
@@ -487,6 +494,18 @@
         });
 
         ToolsGallery.push({
+            "name":   "Region Lease Checker",
+            "author": "Haize",
+            "type":   "Utility",
+            "url":    "https://goofybox-studios.github.io/rainworld/lease/",
+            "thumb":  "previews/region-lease.png",
+            "desc":   "A website to check which region acronyms and palette numbers are already in use by other modders' regions, and assist in finding new ones that are free to use without conflicts.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
             "name":   "Tile Init Editor",
             "author": "Bro",
             "type":   "Utility",
@@ -511,6 +530,66 @@
         });
 
         ToolsGallery.push({
+            "name":   "rw_tileman",
+            "author": "thalber",
+            "type":   "Utility",
+            "url":    "https://github.com/thalber/rw_tileman/releases/latest",
+            "thumb":  "previews/rw_tileman.png",
+            "desc":   "Organizer app for level editor tiles. Allows managing tiles in subfolders, toggling, editing tags, etc.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Asesprite Tile Exporter",
+            "author": "mayhemmm",
+            "type":   "Utility",
+            "url":    "https://github.com/mayhemmmwith3ms/Aseprite-RW-Tile-Exporter",
+            "thumb":  "previews/rw-tile-exporter.png",
+            "desc":   "A script for Asesprite that converts from tile layers represented as an asesprite animation to a tilesheet compatible with the Rain World Level Editor.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Dino's Tile Canvas Calculator",
+            "author": "Dino",
+            "type":   "Utility",
+            "url":    "https://angrydino42.github.io/rwtilecalc.html",
+            "thumb":  "previews/dtcc.png",
+            "desc":   "A calculator to determine the needed canvas size for the custom tile you wish to make for the Rain World Level Editor.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Tile Visualizer",
+            "author": "LudoCrypt",
+            "type":   "Utility",
+            "url":    "https://github.com/LudoCrypt/TileVisualizer",
+            "thumb":  "previews/tile-visualizer.png",
+            "desc":   "A program for visualizing how your custom tile will look once rendered.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Online Texture Packer",
+            "author": "Haize",
+            "type":   "Utility",
+            "url":    "https://goofybox-studios.github.io/tools/texture_packer/",
+            "thumb":  "previews/texturepacker.png",
+            "desc":   "A browser tool for generating texture atlases for Rain World without needing to use an external program like TexturePacker.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
             "name":   "Editor Project Image Converter",
             "author": "AndrewFM",
             "type":   "Utility",
@@ -521,14 +600,14 @@
             "tool": true,
             "order": 0
         });
-		
-		ToolsGallery.push({
-            "name":   "rw_tileman",
-            "author": "thalber",
+
+        ToolsGallery.push({
+            "name":   "Manual Screen Editor",
+            "author": "FPolygon",
             "type":   "Utility",
-            "url":    "https://github.com/thalber/rw_tileman/releases/latest",
-            "thumb":  "previews/rw_tileman.png",
-            "desc":   "Organizer app for level editor tiles. Allows managing tiles in subfolders, toggling, editing tags, etc.",
+            "url":    "https://github.com/frabjouspolygon/Manual-Screen-Editor/tree/master",
+            "thumb":  "previews/manual-screen-editor.png",
+            "desc":   "A specialized image editor for making manual modifications to Rain World room images after they've been rendered.",
             "app": true,
             "tool": true,
             "order": 0
@@ -553,6 +632,102 @@
             "url":    "https://ln.sync.com/dl/dd7b51aa0/nghxu8mk-u7crkvph-kwqek68q-ne3p85fy",
             "thumb":  "previews/dualpalette.png",
             "desc":   "Tools that make it possible to use two different color palettes in the same map, at the expense of a reduced color depth in each palette.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });   
+
+        ToolsGallery.push({
+            "name":   "Asesprite Live Palette Preview",
+            "author": "MagicaJaphet",
+            "type":   "Utility",
+            "url":    "https://github.com/MagicaJaphet/RW-Aseprite-Scripts",
+            "thumb":  "previews/asesprite-palette.png",
+            "desc":   "A script for Asesprite that allows you to build Rain World color palettes and preview them live on a rendered level image.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Krita Live Palette Preview",
+            "author": "Seko",
+            "type":   "Utility",
+            "url":    "https://github.com/SkqRW/RWRoomRender-krita-plugin/releases/tag/0.4",
+            "thumb":  "previews/krita-palette.png",
+            "desc":   "A plugin for Krita that allows you to build Rain World color palettes and preview them live on a rendered level image.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Rain World Room Viewer",
+            "author": "Sandfops",
+            "type":   "Utility",
+            "url":    "https://sandfops.neocities.org/roomviewerdownload",
+            "thumb":  "previews/room-viewer.png",
+            "desc":   "A program for live previewing changes made to Rain World rooms.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });  
+
+        ToolsGallery.push({
+            "name":   "State Batch Editor",
+            "author": "IADhunter",
+            "type":   "Utility",
+            "url":    "https://github.com/IADhunter/Rain-World-State-Batch-Editor",
+            "thumb":  "previews/state-batch-editor.png",
+            "desc":   "A program to batch update palettes and room effects across multiple room files.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Region Acronym Updater",
+            "author": "Glebi574",
+            "type":   "Utility",
+            "url":    "https://github.com/glebi574/rw-fix-region-acronyms",
+            "thumb":  "previews/default.png",
+            "desc":   "A script to batch rename all region files from one region acronym to a different region acronym.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Palette Updater",
+            "author": "LeeMoriya",
+            "type":   "Utility",
+            "url":    "https://github.com/LeeMoriya/PaletteUpdater",
+            "thumb":  "previews/default.png",
+            "desc":   "A script to batch update all region files to switch rooms from one palette number to a different palette number.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "LogUtils",
+            "author": "TheVileOne",
+            "type":   "Utility",
+            "url":    "https://github.com/TheVileOne/ExpeditionRegionSupport/releases",
+            "thumb":  "previews/default.png",
+            "desc":   "Rain World logging, and debugging assembly containing everything you need for customized log files and log customization.",
+            "app": true,
+            "tool": true,
+            "order": 0
+        });
+
+        ToolsGallery.push({
+            "name":   "Camera Angle Demo",
+            "author": "LudoCrypt",
+            "type":   "Utility",
+            "url":    "https://www.desmos.com/calculator/oxq8jmtuse",
+            "thumb":  "previews/desmos-visualizer.png",
+            "desc":   "A visual demo to understand how camera angle parameters in the level editor will affect the arrangement of layers in the final room render.",
             "app": true,
             "tool": true,
             "order": 0
