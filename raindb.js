@@ -123,9 +123,9 @@ Mods.push({
 "watcher_url": "https://andrew.fm/rainworld/raindb/watcher/Warp_Menu.zip",
 "url": "https://andrew.fm/rainworld/raindb/Warp_Menu.zip",
 "requirements": "",
-"version": "1.9.0",
+"version": "1.9.1",
 "created": 1674149618,
-"modified": 1774661097,
+"modified": 1780592525,
 "tags": "Tools,Base,Downpour,Watcher",
 "order": 8
 });
@@ -246,16 +246,16 @@ Mods.push({
 "name": "Fisobs",
 "id": "fisobs",
 "workshop_id": "2920541687",
-"author": "Dual, M4rbleL1ne, topicular, Vigaro, aissurtievos, NV",
+"author": "Dual, M4rbleL1ne, topicular, Vigaro, aissurtievos, NV, Alduris, woutkolkman",
 "desc": "A library that simplifies adding new objects to Rain World.<br><br>Learn to use at github.com/Dual-Iron/fisobs",
 "thumb": "previews/2920541687.png",
 "watcher_url": "https://andrew.fm/rainworld/raindb/watcher/Fisobs.zip",
 "url": "https://andrew.fm/rainworld/raindb/Fisobs.zip",
 "requirements": "",
-"version": "4.0.7",
+"version": "5.1.0",
 "created": 1674163203,
-"modified": 1777019502,
-"tags": "Dependency",
+"modified": 1780350245,
+"tags": "Dependency,Base,Downpour,Watcher",
 "order": 16
 });
 
@@ -1365,9 +1365,9 @@ Mods.push({
 "watcher_url": "https://andrew.fm/rainworld/raindb/watcher/SBCameraScroll.zip",
 "url": "https://andrew.fm/rainworld/raindb/SBCameraScroll.zip",
 "requirements": "",
-"version": "3.2.4",
+"version": "3.2.5",
 "created": 1675588876,
-"modified": 1778911814,
+"modified": 1780852520,
 "tags": "Game Mechanics,Accessibility",
 "order": 84
 });
@@ -5369,15 +5369,15 @@ Mods.push({
 "name": "Liberal Rain World",
 "id": "liberal",
 "workshop_id": "2954200657",
-"author": "Autumn",
+"author": "Eph",
 "desc": "Changes region names to reflect the future that the left wants for Rain World.",
 "thumb": "previews/2954200657.png",
 "watcher_url": "https://andrew.fm/rainworld/raindb/watcher/Liberal_Rain_World.zip",
 "url": "https://andrew.fm/rainworld/raindb/Liberal_Rain_World.zip",
 "requirements": "",
-"version": "1.8",
+"version": "1.9",
 "created": 1680053780,
-"modified": 1770618144,
+"modified": 1780005697,
 "tags": "",
 "order": 332
 });
@@ -9030,13 +9030,14 @@ Mods.push({
 "id": "The_Similar",
 "workshop_id": "2979222068",
 "author": "Cotton",
-"desc": "【About Similar】<br>The slug cat, which evolved through natural selection, is good at camouflage, can flexibly hide in the environment, and embark on a journey in order to seek a comfortable shelter.<br>Similar's ability makes survival easier. The semi-plant cell structure allows it to perform photosynthesis in the wild, use the mimic tail to attract bat flies, and camouflage.<br><br>【Ability】<br>+ Photosynthesis: Staying in open-air areas in the wild can slowly restore satiety through photosynthesis.<br>+ Prey Attraction: Bat flies will be attracted and actively approach.<br>+ Mimic camouflage: When lying down or crawling forward, it will enter a hidden state, which is not easy to be found by predators in this state.<br>+ Karma protection: In the state of full food, long press ↑ + pick up button can consume all food to get a karma level protection.<br>+ Very cute: Similar is an unbelievably cute slugcat and suitable for everyone!!<br><br>【Other】<br>Similar was born on Sky Island and has weaker physical fitness. The timeline and environment of its current life are similar to those of Monk.<br>Mod will continue to be updated in the future, and Similar may have more new mechanisms, plots and more original content.<br>Thank you for your love and support for this mod, and welcome your comments and feedback.<br><br>【Known issues】<br>1. Please do not use DMS (pinch cat) to replace textures for Similar, which will cause conflicts<br>2. Conflict with the SunHat MOD will cause the head map to display abnormally. If you mind, you can play as a slugpup or consider disabling the SunHat MOD<br><br>【Update log】<br>16/7/2023<br>1. New ability: eating karma flower can directly increase the level of karma under the condition of existing karma protection (you can choose to enable/disable on the configuration page)<br>2. New mechanism: the attack in the camouflage state will remove the camouflage (you can choose to enable/disable on the configuration page)<br>3. New configuration items: Now players can adjust the intensity of the camouflage ability by yourself<br>4. Fixed some problems in multiplayer online situations<br>——————————————————————<br>24/5/2023<br>1. Photosynthesis is now compatible with Rotund World<br>2. Other slugcats will not mistakenly use the karma protection ability<br>3. Fixed the problem that the game could not be loaded due to the straw hat MOD replacing the texture<br><br>【Author's words】<br>From Cotton:<br>Ah, I finally got to this point... It's really hard for me. I'm just a trainee who just started learning programming and C# language for two and a half months. This is the first mod I try to make. Many functions are group The teachers helped to realize it (the mod code is a mess, please don’t read that .jpg), but I am very happy to think that the cute cat of CarbonTea is finally made! It's really cute (let me eat first.jpg)<br>Finally, I hope everyone can like this mod. If you have better suggestions or changes, I will consider it when I have a higher level of programming (no.jpg)<br>If there is a bug (hope there will be less x), please try to bring the exceptionLog file in the root directory of the Rain World game, thank you!<br><br>From Carbontea:<br>Similar was originally the original slug cat oc I designed in 2018.<br>Similar is inspired by the red grass that can attract bat flies in the game, the mimic pole and some plants that hunt insects in reality. Because Rain World gives people the impression of danger, so I let this slug cat evolve the ability of mimicry and camouflage, and the semi-vegetative structure allows it to acquire the characteristics of photosynthesis and attracting bats.<br>I am very grateful to Teacher Xue Mian for making this design a reality after 5 years! I hope everyone likes Similar, anyway, I already like it to death.",
+"desc": "[h1] [b] The latest version was updated in May 2026! [/b][/h1]<br><br>After three years, Similar has finally received an update! We look forward to you experiencing the adorable Similar again!<br><br><br>1. Optimized Similar's tail details. It now has a more dynamic and detailed tail. When Similar crouches down to hide, its tail retains its original color and stands upright, making it look more like a batnip.<br><br>2. It now only strongly attracts bats when crouching (hiding). Its attraction to bats is reduced when it's not crouching.<br><br>3. When bats continuously nibble on the leaves on Similar's tail, the leaves will become pitted and uneven. However, they will recover after a nap.<br><br>4. Adjusted Similar's photosynthesis mechanism. It can now sense ambient light more clearly. When it can photosynthesize, its tail will flash particles to indicate that it is sunbathing (and it will close its eyes).<br><br>5. Increased Similar's lung capacity. Obviously, as a plant, it naturally has a larger lung capacity.<br><br>[hr][/hr]<br><br>【About Similar】 Evolved through natural selection, the Slugcat is adept at camouflage, skillfully blending into its environment as it embarks on journeys in search of comfortable shelter.<br><br>Similar's abilities make survival easier. Its semi-plant cell structure allows it to photosynthesize in the wild, uses its mimicry tail to attract bat flies, and performs other camouflage maneuvers.<br><br>【Abilities】<br>+Photosynthesis: While in open areas in the wild, it can slowly recover its satiety through photosynthesis.<br><br>+Prey Attraction: Bat flies are attracted and will actively approach.<br><br>+Mimicry Camouflage: When crouching or crawling, it enters a stealthy state, making it difficult for predators to detect it (the mimicry effect is canceled upon attack).<br><br>+Karma Protection: At full satiety, holding ↑ + the pick-up button consumes all satiety to gain a Karma level protection. Consuming a Karma Flower while already under Karma protection directly increases Karma by one level.<br><br>+Extremely Cute: Similar is an incredibly cute Slugcat, suitable for everyone!<br><br>【Other】 Similar was born on a sky island, has relatively weak physical abilities, and currently lives in a similar timeline and environment to Monk.<br><br>This mod will continue to be updated in the future, and Similar may have more new mechanics, storylines, and more original content.<br><br>Thank you for your love and support for this mod. Your comments and feedback are welcome.<br><br>【Known Issues】 Please do not use DMS (Cat Creation Tool) to replace Similar's textures, as this will cause conflicts.<br><br>【Author's Note】 From Cotton: Ah, finally made it this far… It was really tough. I'm just a beginner who has only been learning programming and C# for two and a half months. This is the first mod I've ever made, and many functions were implemented with the help of the group's teachers (the mod code is a mess, please don't look at it, experts.jpg). But thinking that Charcoal Tea's cute cat actually came to fruition in the end still makes me very happy! Carbontea's cat is so cute (let me eat first.jpg)<br><br>Finally, I hope everyone likes this mod. If you have any good suggestions or modifications, I'll share them when my programming skills are better (just kidding).<br><br>If there are any bugs (hopefully fewer x), please include the exceptionLog file in the Rain World game's root directory. Thank you!<br><br>From Carbontea:<br><br>Similar was originally an original Slugcat OC I designed in 2018.<br><br>Similar was inspired by the red grass that attracts bat flies in the game, the mimicry rod, and some real-world insect-hunting plants. Because Rain World gives a sense of danger, I gave this Slugcat the ability to mimic and camouflage. Its semi-plant structure allows it to photosynthesize and attract bats.<br><br>I hope everyone likes Similar; I already love it to death.<br>",
 "thumb": "previews/2979222068.png",
+"watcher_url": "https://andrew.fm/rainworld/raindb/watcher/The_Similar_WIP.zip",
 "url": "https://andrew.fm/rainworld/raindb/The_Similar_WIP.zip",
 "requirements": "slime-cubed.slugbase",
-"version": "0.1.1",
+"version": "1.1.1",
 "created": 1684757707,
-"modified": 1711009009,
+"modified": 1779982478,
 "tags": "",
 "order": 559
 });
@@ -10534,17 +10535,17 @@ Mods.push({
 
 Mods.push({
 "name": "Menu Together",
-"id": "Ravoofi.MenuTogether",
+"id": "Ravowo.MenuTogether",
 "workshop_id": "2990579020",
-"author": "Ravoofi",
-"desc": "Enables multiplayer context on menus and allows all players to pause the game.",
+"author": "Ravowo",
+"desc": "Enables multiplayer context on menus and allows all players to pause the game.<br><br>https://github.com/Ravethn/MenuTogether",
 "thumb": "previews/2990579020.png",
 "url": "https://andrew.fm/rainworld/raindb/Menu_Together.zip",
-"requirements": "improved-input-config",
-"version": "1.0.2",
+"requirements": "",
+"version": "1.0.4",
 "created": 1687004225,
-"modified": 1696052284,
-"tags": "Accessibility,Tools",
+"modified": 1780528267,
+"tags": "",
 "order": 653
 });
 
@@ -14808,10 +14809,10 @@ Mods.push({
 "watcher_url": "https://andrew.fm/rainworld/raindb/watcher/Stick_Together_CoOp.zip",
 "url": "https://andrew.fm/rainworld/raindb/Stick_Together_CoOp.zip",
 "requirements": "",
-"version": "1.5.4",
+"version": "1.5.5",
 "created": 1693163417,
-"modified": 1746906392,
-"tags": "Game Mechanics,Accessibility",
+"modified": 1780709261,
+"tags": "Game Mechanics,Accessibility,Base,Downpour,Watcher",
 "order": 919
 });
 
@@ -15321,7 +15322,7 @@ Mods.push({
 "requirements": "moreslugcats,rwremix",
 "version": "1.7.6",
 "created": 1693966792,
-"modified": 1777674696,
+"modified": 1780709313,
 "tags": "Game Mechanics",
 "order": 951
 });
@@ -18507,7 +18508,7 @@ Mods.push({
 "requirements": "",
 "version": "1.0",
 "created": 1699174463,
-"modified": 1779723610,
+"modified": 1780052803,
 "tags": "Translations",
 "order": 1149
 });
@@ -26970,14 +26971,14 @@ Mods.push({
 "id": "deszcworlde",
 "workshop_id": "3215514412",
 "author": "Kizorke",
-"desc": "The consequences of my vast imagination are right here: prepare yourself for Outskrits 2 because it is right there and it is almost twice the size of base game Outskrits!<br><br>!!! Accesible for all of slugcats besides Watcher and Inv !!! <br><br>One region - Outer Outskirts (contains 123 rooms, 204 screens, blah blah blah, region acronym:VQ)<br>There is also a gate to another modded region Mossy Rifts, but you need to download another mod for that ^^<br>- Entrance to the new region can be found in Outskirts room SU_A38 and in Farm Arrays room LF_D01, also there is one in Undergrowth? . <br><br> Special thanks to:<br> - derzox for some lore in only two Data pearls <br> - Lolight2 for making video about my mod <br> - Three Leaf Clover for one of soundtracks<br><br>oh and important thing, if you stumble upon some bugs or other kind of errors, or you just want to say that you adore this region, or maybe you feel that this region need more ambient soundtracks and you are able to compose one, you can contact me in any way possible, I'd prefer through discord (@Kizorke) but I'll try to respond if you message me on steam or whatever else ^^",
+"desc": "The consequences of my vast imagination are right here: prepare yourself for Outskrits 2 because it is right there and it is almost twice the size of base game Outskrits!<br><br>!!! Accesible for all of slugcats besides Watcher and Inv !!! <br><br>One region - Outer Outskirts (contains 123 rooms, 204 screens, blah blah blah, region acronym:VQ)<br>There is also a gate to another modded region Mossy Rifts, but you need to download another mod for that ^^<br>- Entrance to the new region can be found in Outskirts room SU_A38 and in Farm Arrays room LF_D01, also there is one in Undergrowth? . <br><br> Special thanks to:<br> - derzox for some lore in only two Data pearls <br> - Lolight2 for making video about my mod <br> - Three Leaf Clover for one of soundtracks",
 "thumb": "previews/3215514412.png",
 "watcher_url": "https://ln5.sync.com/dl/b1cecad20#wr8ikaep-4438h4mx-h4ebrabk-c9jk566z",
 "url": "https://ln5.sync.com/dl/0afaea450/dw3x9j4s-5bbnqtvg-fg9f7mem-rhgbvsqe",
 "requirements": "crs,regionkit",
 "version": "1.4",
 "created": 1712504859,
-"modified": 1760393685,
+"modified": 1780607531,
 "tags": "Regions",
 "order": 1676
 });
@@ -28770,14 +28771,14 @@ Mods.push({
 "id": "Ravethn.Slughost",
 "workshop_id": "3244013707",
 "author": "Ravethn",
-"desc": "Paranormal slugcat activity detected, who are we going to call?! This mod spawns a controllable ghost slugcat when a player dies. I made this mod so players who die early in co-op can still move around if they want, hope you like it!<br><br>Slug ghosts have a teleportation power if they hold the GRAB button for a couple seconds! The ghost can teleport to the player the camera is following. If the camera is on the ghost itself it sends them to a random entrance to the room instead. If you manage to die somehow as a ghost, teleportation will also revive.<br><br>Special ghost powers:<br><br>-Artificer can still use their explosive jump / parry!<br><br>-Saint can pick up things normally since they are so in tune with the world!<br><br>-No other special ghost powers right now, but I got some ideas for cool abilities!<br><br>Come check out the github to see the code: https://github.com/Ravethn/Slughost<br>Feel free to make your own version of Slughosts or look at how my mod is built here to help make your own! :D<br><br>Incompatible mods:<br><br>-Individual Food Bars",
+"desc": "Play as a ghost after dying!<br><br>Hold GRAB to warp as a ghost<br><br>https://github.com/Ravethn/Slughost",
 "thumb": "previews/3244013707.png",
 "watcher_url": "https://andrew.fm/rainworld/raindb/watcher/Slughosts.zip",
 "url": "https://andrew.fm/rainworld/raindb/Slughosts.zip",
 "requirements": "",
-"version": "1.0.5",
+"version": "1.0.7",
 "created": 1715398700,
-"modified": 1743822924,
+"modified": 1780366312,
 "tags": "",
 "order": 1788
 });
@@ -29545,9 +29546,9 @@ Mods.push({
 "watcher_url": "https://andrew.fm/rainworld/raindb/watcher/Fake_Achievements.zip",
 "url": "https://andrew.fm/rainworld/raindb/Fake_Achievements.zip",
 "requirements": "",
-"version": "0.1.4",
+"version": "0.1.7",
 "created": 1716742020,
-"modified": 1765562661,
+"modified": 1780235535,
 "tags": "Dependency,Tools",
 "order": 1836
 });
@@ -29717,14 +29718,14 @@ Mods.push({
 "id": "auroscug.DMStechnique.resource",
 "workshop_id": "3255886287",
 "author": "Auro",
-"desc": "A handy guide for all the quirks of Rain World spriting! Contains templates, visual guides and more.<br><br>Files can be accessed in the mod's workshop folder and are free to use without credit!<br><br>Currently includes:<br>[list]<br>[*] Extended body & hip templates<br><br>[*] Extended handsonpoles template<br><br>[*] 1px symmetric face template<br><br>[*] Arti face template<br><br>[*] Idle ear tilt example[/list]",
+"desc": "A handy guide for all the quirks of Rain World spriting! Contains templates, visual guides and more.<br><br>Files can be accessed in the mod's workshop folder and are free to use without credit!<br><br>Currently includes:<br>[list]<br>[*] Extended body & hip templates<br><br>[*] Extended handsonpoles template<br><br>[*] 1px symmetric face template<br><br>[*] Arti face template<br><br>[*] Head rotation visual reference<br><br>[*] Idle ear tilt example[/list]",
 "thumb": "previews/3255886287.png",
 "watcher_url": "https://andrew.fm/rainworld/raindb/watcher/DMS_Templates__Techniques.zip",
 "url": "https://andrew.fm/rainworld/raindb/DMS_Templates_And_Techniques.zip",
 "requirements": "dressmyslugcat",
-"version": "1.1.0",
+"version": "1.1.5",
 "created": 1716846178,
-"modified": 1778446426,
+"modified": 1780809334,
 "tags": "Cosmetics",
 "order": 1847
 });
@@ -30103,15 +30104,15 @@ Mods.push({
 "id": "MissingCHU.impossiblee",
 "workshop_id": "3260023006",
 "author": "MissingCHU",
-"desc": "Don't fall in love!<br><br>A strange slugcat, cursed to survive in a cruel world by the ancients, but surviving isn't the only thing on the Impossible's mind...<br><br>(SMALL UPDATE 1.1)<br><br>- New thumbnail (rad)<br>- Back spear removed, can now dual wield<br>- Random unnecessary region DU removed<br>- Some new random features (starting pearl is a placeholder)<br>- OE is accessible, (has default scene srry) (for now)",
+"desc": "Don't fall in love!<br><br>A strange slugcat, cursed to survive in a cruel world by the ancients, but surviving isn't the only thing on the Impossible's mind...<br><br>(SMALL UPDATE 1.2)<br><br>-Removed Extended Slugbase Features<br>-Now playable (Huzzah)<br>-Added new lizards, centipedes<br>-New spawns in CC, HI, GW<br>-New Arena Icons<br><br>Heads up!!!<br><br>Custom Centipede Maker & Lizard Customizer are required, and Extended Slugbase Features is no longer needed, Steam workshop just didn't update the requirements tab.",
 "thumb": "previews/3260023006.png",
 "watcher_url": "https://andrew.fm/rainworld/raindb/watcher/The_Impossible.zip",
 "url": "https://andrew.fm/rainworld/raindb/The_Impossible.zip",
-"requirements": "moreslugcats,slime-cubed.slugbase,dressmyslugcat,magica.extendedslugbasefeatures",
+"requirements": "moreslugcats,slime-cubed.slugbase,dressmyslugcat,lizardcustomizer,lb-fgf-m4r-ik.custom-centis",
 "version": "1.1",
 "created": 1717362971,
-"modified": 1749249326,
-"tags": "Campaigns,Custom Slugcats",
+"modified": 1780931649,
+"tags": "Campaigns,Custom Slugcat,Downpour",
 "order": 1871
 });
 
@@ -35959,14 +35960,14 @@ Mods.push({
 "id": "salty_syrup.check_randomizer",
 "workshop_id": "3323349183",
 "author": "SaltySyrup, alphappy",
-"desc": "A randomizer game mode that forces you to complete 'checks' to unlock gates to other regions.<br><br>You will start the game with every gate locked. In order to progress, you must complete 'checks' which will unlock random gates, as well as awarding karma, passage tokens, and key items / abilities.<br><br>[h3]Things that can count as checks:[/h3]<br>- Completing passages<br>- Bringing colored pearls to a shelter<br>- Finding sandbox tokens<br>- Meeting [spoiler]echoes[/spoiler]<br>- Other specific goals such as [spoiler]meeting Iterators or eating a neuron[/spoiler]<br><br>[h1]Remix Menu[/h1]<br>The remix menu contains multiple configuration settings, such as:<br>- Turn on/off certain checks and unlocks<br>- A custom seed field, allowing for seeded runs. (in order for seeded runs to be identical, the same settings / version must be used)<br>- Random starting locations, similar to expeditions<br><br>[h2]Campaign specific notes[/h2]<br>Gourmand- To open the Outer Expanse gate, you must collect both the gate and the Mark<br>Artificer- Same deal with the Metropolis gate, you need the gate and the Mark<br>Rivulet- If the setting is enabled, the mass rarefaction cell will need to be unlocked rather than found normally. (The cell's location is still a check)<br>Spearmaster- The acquisition of the pearl and the encoding of LttM's broadcast are both unlocks<br>Watcher- Currently only supported in Archipelago<br><br>[h1]Modded Regions[/h1]<br>This mod has 'soft' support for modded regions.<br>As long as an enabled region is marked 'Story' or 'Optional' in the code, it will be included in randomization.<br>Support is 'soft' because all modded region logic is generated, so there are cases where this fails and it expects you to travel in impossible ways. Fixes for these must be implemented on a case-by-case basis.<br>If you run into one of these errors, you can cheat-collect locations via the pause menu. A comment in the logic errors discussion post describing what it got wrong would also be greatly appreciated<br><br>If you run into problems with a run not being possible, or you're simply stuck and don't know where to go, the pause menu has an additional UI where you can view your seed, as well as give yourself a check if needed.<br><br>[h1]Archipelago Support[/h1]<br>What is [url=https://archipelago.gg]Archipelago?[/url]<br>In short, Archipelago is a multi-world randomizer system, allowing you to play with multiple games randomized together. This mod supports it as a separate mode, enabled in the Archipelago tab of the remix settings. The features present in this mode are different from normal, so here's an outline<br>[h3]Archipelago:[/h3]<br>- Allows for Multi-world randomization<br>- Comes with more options and features than standalone does currently<br>- Does NOT support any modded regions or other mods that change the state of the world<br>- Requires a room to be hosted on the website, and cannot be played offline<br><br>To play this mode, you will have to install Archipelago and [url=https://github.com/alphappy/ArchipelagoRW/blob/main/worlds/rain_world/docs/README.md]follow this game's setup guide.[/url]. It's also recommended you join the Archipelago Discord if you have any questions, which can be found on the FAQ page of the Archipelago website.<br><br><br><br>Find the [url=https://github.com/SaltiestSyrup/RWRandomizer]source on GitHub[/url]",
+"desc": "A randomizer game mode that forces you to complete 'checks' to unlock gates to other regions.<br><br>You will start the game with every gate locked. In order to progress, you must complete 'checks' which will unlock random gates, as well as awarding karma, passage tokens, and key items / abilities.<br><br>[h3]Things that can count as checks:[/h3]<br>- Completing passages<br>- Bringing colored pearls to a shelter<br>- Finding sandbox tokens<br>- Meeting [spoiler]echoes[/spoiler]<br>- Other specific goals such as [spoiler]meeting Iterators or eating a neuron[/spoiler]<br><br>[h1]Remix Menu[/h1]<br>The remix menu contains multiple configuration settings, such as:<br>- Turn on/off certain checks and unlocks<br>- A custom seed field, allowing for seeded runs. (in order for seeded runs to be identical, the same settings / version must be used)<br>- Random starting locations, similar to expeditions<br><br>[h2]Campaign specific notes[/h2]<br>Gourmand- To open the Outer Expanse gate, you must collect both the gate and the Mark<br>Artificer- Same deal with the Metropolis gate, you need the gate and the Mark<br>Rivulet- If the setting is enabled, the mass rarefaction cell will need to be unlocked rather than found normally. (The cell's location is still a check)<br>Spearmaster- The acquisition of the pearl and the encoding of LttM's broadcast are both unlocks<br>Watcher- Currently only supported in Archipelago<br><br>[h1]Modded Regions[/h1]<br>This mod has 'soft' support for modded regions.<br>As long as an enabled region is marked 'Story' or 'Optional' in the code, it will be included in randomization.<br>Support is 'soft' because all modded region logic is generated, so there are cases where this fails and it expects you to travel in impossible ways. Fixes for these must be implemented on a case-by-case basis.<br>If you run into one of these errors, you can cheat-collect locations via the pause menu. A comment in the logic errors discussion post describing what it got wrong would also be greatly appreciated<br><br>If you run into problems with a run not being possible, or you're simply stuck and don't know where to go, the pause menu has an additional UI where you can view your seed, as well as give yourself a check if needed.<br><br>[h1]Archipelago Support[/h1]<br>What is [url=https://archipelago.gg]Archipelago?[/url]<br>In short, Archipelago is a multi-world randomizer system, allowing you to play with multiple games randomized together. This mod supports it as a separate mode, enabled in the Archipelago tab of the remix settings. The features present in this mode are different from normal, so here's an outline<br>[h3]Archipelago:[/h3]<br>- Allows for Multi-world randomization<br>- Comes with more options and features than standalone does currently<br>- Does NOT support any modded regions or other mods that change the state of the world<br>- Requires a room to be hosted on the website, and cannot be played offline<br><br>To play this mode, you will have to install Archipelago and [url=https://github.com/alphappy/ArchipelagoRW/blob/main/worlds/rain_world/docs/README.md]follow this game's setup guide.[/url]. It's also recommended you join the Archipelago Discord if you have any questions, which can be found on the FAQ page of the Archipelago website.<br><br>[h3]Credits[/h3]<br>Thumbnail logo created by the following artists:<br>Artificer/Hunter: Amy<br>    [url=https://www.instagram.com/a.wendesign]Instagram[/url]<br>Rivulet/Watcher: Kali<br>    [url=https://twitter.com/Kalidoesart]Twitter[/url], [url=https://bsky.app/profile/kalidoesart.bsky.social]Bluesky[/url]<br>Gourmand: ken (fat boy genius)<br>    [url=https://www.tumblr.com/netdraws]Tumblr[/url], [url=https://x.com/glamnet_]Twitter[/url]<br>Monk/Survivor: Papaya<br>Spearmaster: 𝚁𝚒𝚟𝚎𝚛 𝚃𝚑𝚎 𝙶𝚛𝚎𝚖𝚕𝚒𝚗<br>    [url=https://bsky.app/profile/riverthegremlin.bsky.social]Bluesky[/url], [url=https://riverthegremlin.tumblr.com/]Tumblr[/url]<br>Saint: speoyt<br>    [url=https://www.instagram.com/cafecarrrr]Instgram[/url]<br><br>Additional credits for assets used in this mod can be found in the files or on the GitHub page.<br><br>Find the [url=https://github.com/SaltiestSyrup/RWRandomizer]source on GitHub[/url]",
 "thumb": "previews/3323349183.png",
 "watcher_url": "https://andrew.fm/rainworld/raindb/watcher/Randomizer__Archipelago.zip",
 "url": "https://andrew.fm/rainworld/raindb/Check_Randomizer.zip",
 "requirements": "",
-"version": "1.5.8",
+"version": "1.5.9",
 "created": 1725305476,
-"modified": 1779325772,
+"modified": 1780773736,
 "tags": "Game Mechanics,Game Modes,Base,Downpour,Watcher",
 "order": 2237
 });
@@ -39867,7 +39868,7 @@ Mods.push({
 "author": "Gear",
 "desc": "A slugcat that has taken desperate measures to survive in the tiring environment by letting an ATP(adenosine triphosphate) rich moss grow on it, disabling the ability to feel tired for the fuzzy guy<br><br>btw he is after the monk in the timeline<br>(and he might of influenced pebble's state in rivulet)",
 "thumb": "previews/3375331630.png",
-"url": "https://andrew.fm/rainworld/raindb/The_Martyr.zip",
+"url": "https://ln5.sync.com/dl/2739b22b0#seycdxek-4bgvy7eq-w6pw5397-mmffvsk4",
 "requirements": "dressmyslugcat",
 "version": "1.0.0",
 "created": 1733028328,
@@ -42693,13 +42694,14 @@ Mods.push({
 "id": "Carbontea.Nightmare",
 "workshop_id": "3412932482",
 "author": "Carbontea",
-"desc": "The Nightstriker is a primal and enigmatic slugcat, thriving in an environment similar to that of the Hunter.<br>Unlike its kin, it is closer to a feral predator—capable of firing paralyzing poison darts, climbing walls, dashing, and even feeding directly by biting into its prey.<br>However, it cannot wield spears or rocks as weapons or tools like other slugcats and must constantly be wary of hunger. Its food bar depletes over time, requiring it to relentlessly hunt for new prey.<br><br>[hr][/hr]<br><br>[h1] [b] Features [/b][/h1]<br><br>[b] Base Abilities [/b]<br>The Nightstriker moves faster while jumping, climbing, and traversing pipes.<br>It deals more damage when biting creatures! Each bite restores a small amount of hunger.<br>It is immune to spider darts, and its own darts do not harm other slugcats.<br><br>[b]Poison Dart Attack [/b]<br>By pressing the [directional key] + [throw] button simultaneously, the Nightstriker fires three poison darts in the targeted direction.<br>Creatures struck by the darts will become stunned after a short delay.<br>The effectiveness of the dart attack is slightly influenced by the Nightstriker's food bar.<br><br>[b]Wall Climbing [/b]<br>When there are background walls, jump and press the [grab] button + [jump] button to attach to the background wall.<br>Press the grab button again to drop from the wall.<br><br>[b]Dash Ambush [/b]<br>Press the [direction key (↓)] and the [jump] button to execute a forward pounce.<br>If there is a creature in front, the Nightstriker's pounce will briefly stun and deal minor damage to it.<br>*[direction key (↓)] +[ jump] + [grab] will allow you to grab creatures on impact, with a chance to immediately bite them!<br>When on a wall, simply press the [jump] button to pounce.<br>*You can also press [grab] + [jump] mid-pounce to latch onto walls along the way.<br><br>[b]Challenges [/b]<br>The Nightstriker's food bar depletes over time, requiring constant feeding. Additionally, it cannot use spears or rocks as weapons or tools. (Except bombs)<br><br>[b]Other Notes [/b]<br>•	The Nightstriker's eye textures include facial shadows. If you're using custom colors, make sure to set the eyes to white for proper display.<br>•	The internal name for the Nightstriker before its release was 'Nightmare,' so related files are named accordingly.<br><br>[hr][/hr]<br><br>[h1] [b] Message[/b][/h1]<br><br>Hi, this is Carbontea. The Nightstriker is an original slugcat designed by my friend, PPMiecoo. We both wanted to bring it to life, and thus, this mod was created.<br><br>I'm just a beginner, stumbling my way through its development, and there are still many areas that need improvement. If you encounter any bugs or issues, feel free to leave a comment. If possible, providing the ExceptionLog file from your local game directory when errors occur would be especially helpful!<br><br>This mod was made possible thanks to the support of many developers in the community. In particular, Quaeledy (creator of The Outsider) and Tricrystal (creator of The Vanguard) helped answer countless questions and provided solutions throughout the process. I also referenced many tutorials from community modders. Additionally, the members of the Dev group and the SlugBase developers offered immense help.<br>Without the assistance of the Rain World community, this mod would never have been possible.<br><br>Thank you so, so much to every developer and friend who helped me along the way!<br>",
+"desc": "[h1] [b] The latest version was updated in May 2026! [/b][/h1]<br><br>Latest Content-----<br>1. Increased the Nightstriker 's damage (because PPMiecoo really wanted it stronger!)<br>2. The Nightstriker has finally regained its wall-climbing ability!<br>3. Now, the Nightstriker 's poison darts can open popcorn!<br>4. The Nightstriker can still fire poison darts while carrying a Slug Cat on its back! If you want to throw your friend off its back, press the throw button while crouching.<br><br><br>[hr][/hr]<br><br>The Nightstriker is a primal and enigmatic slugcat, thriving in an environment similar to that of the Hunter.<br>Unlike its kin, it is closer to a feral predator—capable of firing paralyzing poison darts, climbing walls, dashing, and even feeding directly by biting into its prey.<br>However, it cannot wield spears or rocks as weapons or tools like other slugcats and must constantly be wary of hunger. Its food bar depletes over time, requiring it to relentlessly hunt for new prey.<br><br>[hr][/hr]<br><br>[h1] [b] Features [/b][/h1]<br><br>[b] Base Abilities [/b]<br>The Nightstriker moves faster while jumping, climbing, and traversing pipes.<br>It deals more damage when biting creatures! Each bite restores a small amount of hunger.<br>It is immune to spider darts, and its own darts do not harm other slugcats.<br><br>[b]Poison Dart Attack [/b]<br>By pressing the [directional key] + [throw] button simultaneously, the Nightstriker fires three poison darts in the targeted direction.<br>Creatures struck by the darts will become stunned after a short delay.<br>The effectiveness of the dart attack is slightly influenced by the Nightstriker's food bar.<br><br>[b]Wall Climbing [/b]<br>When there are background walls, jump and press the [grab] button + [jump] button to attach to the background wall.<br>Press the grab button again to drop from the wall.<br><br>[b]Dash Ambush [/b]<br>Press the [direction key (↓)] and the [jump] button to execute a forward pounce.<br>If there is a creature in front, the Nightstriker's pounce will briefly stun and deal minor damage to it.<br>*[direction key (↓)] +[ jump] + [grab] will allow you to grab creatures on impact, with a chance to immediately bite them!<br>When on a wall, simply press the [jump] button to pounce.<br>*You can also press [grab] + [jump] mid-pounce to latch onto walls along the way.<br><br>[b]Challenges [/b]<br>The Nightstriker's food bar depletes over time, requiring constant feeding. Additionally, it cannot use spears or rocks as weapons or tools. (Except bombs)<br><br>[b]Other Notes [/b]<br>•	The Nightstriker's eye textures include facial shadows. If you're using custom colors, make sure to set the eyes to white for proper display.<br>•	The internal name for the Nightstriker before its release was 'Nightmare,' so related files are named accordingly.<br><br>[hr][/hr]<br><br>[h1] [b] Message[/b][/h1]<br><br>Hi, this is Carbontea. The Nightstriker is an original slugcat designed by my friend, PPMiecoo. We both wanted to bring it to life, and thus, this mod was created.<br><br>I'm just a beginner, stumbling my way through its development, and there are still many areas that need improvement. If you encounter any bugs or issues, feel free to leave a comment. If possible, providing the ExceptionLog file from your local game directory when errors occur would be especially helpful!<br><br>This mod was made possible thanks to the support of many developers in the community. In particular, Quaeledy (creator of The Outsider) and Tricrystal (creator of The Vanguard) helped answer countless questions and provided solutions throughout the process. I also referenced many tutorials from community modders. Additionally, the members of the Dev group and the SlugBase developers offered immense help.<br>Without the assistance of the Rain World community, this mod would never have been possible.<br><br>Thank you so, so much to every developer and friend who helped me along the way!<br>",
 "thumb": "previews/3412932482.png",
+"watcher_url": "https://andrew.fm/rainworld/raindb/watcher/Nightstriker.zip",
 "url": "https://andrew.fm/rainworld/raindb/Nightstriker.zip",
 "requirements": "slime-cubed.slugbase",
-"version": "0.1.1",
+"version": "1.1.0",
 "created": 1737639292,
-"modified": 1738579041,
+"modified": 1779903974,
 "tags": "Custom Slugcat",
 "order": 2654
 });
@@ -46025,13 +46027,13 @@ Mods.push({
 "id": "haizlbliek_tweaks",
 "workshop_id": "3450089132",
 "author": "Haizlbliek",
-"desc": "Tweaks and changes to the base game.<br><br>[h1]Tweaks:[/h1]<br>Pole slide boost - Slide into a pole and hold up to boost up it!<br>Named sandbox items - Changes the Sandbox Editor to display the creature/item's name when selected.<br>Rain World Remix preset text fix - Updates the Rain World Remix settings to display 'CUSTOM' instead of 'NONE (User Defined)' when not using a default preset.<br>Faster Crawl Turn - Makes all slugcats turn around faster in crawlspaces (About 1/3rd the original speed)<br>Mod List Colours - Shows which mods are missing the 'target_game_version' option and may be incompatible with the latest RainWorld version.<br>Glowing Flashbangs - Adds a blue lantern-esque light around flashbangs to light up Memory Crypts.<br>All Scugs Eat Underwater - Allows all slugcats to eat underwater instead of just Rivulet.<br>Faster Swallow - Makes the slugcat swallow faster.<br>Golden Firecrackers - Makes firecracker plants golden coloured.<br>In-Game Fullscreen Button - Adds a fullscreen/windowed button in the pause menu.<br>Random Coloured Rocks - Applies a slight tinting to rocks for uniqueness<br>Popcorn Drop Seeds - Makes popcorn plants drop two seeds when struck with spear<br>Albino Green Lizards - Gives Green Lizards a 2.7% chance to be Albino<br>Coloured Popcorn - Changes the colour of popcorn plants to be any configurable colour<br>Snails Open Popcorn - When snails pop, it now opens popcorn plants!<br><br>WATCHER SPOILERS<br>[spoiler]Invisible Watcher Worm Grass Immunity - Worm Grass will ignore the Watcher if invisible.<br>Keep camo when stunned - Self-explanatory. Stops the watcher from losing camo when stunned.<br>[/spoiler]<br><br>Every tweak is configurable through the remix menu!",
+"desc": "Tweaks and changes to the base game.<br><br>[h1]Tweaks:[/h1]<br>Pole slide boost - Slide into a pole and hold up to boost up it!<br>Named sandbox items - Changes the Sandbox Editor to display the creature/item's name when selected.<br>Rain World Remix preset text fix - Updates the Rain World Remix settings to display 'CUSTOM' instead of 'NONE (User Defined)' when not using a default preset.<br>Faster Crawl Turn - Makes all slugcats turn around faster in crawlspaces (About 1/3rd the original speed)<br>Mod List Colours - Shows which mods are missing the 'target_game_version' option and may be incompatible with the latest RainWorld version.<br>Glowing Flashbangs - Adds a blue lantern-esque light around flashbangs to light up Memory Crypts.<br>All Scugs Eat Underwater - Allows all slugcats to eat underwater instead of just Rivulet.<br>Faster Swallow - Makes the slugcat swallow faster.<br>Golden Firecrackers - Makes firecracker plants golden coloured.<br>In-Game Fullscreen Button - Adds a fullscreen/windowed button in the pause menu.<br>Random Coloured Rocks - Applies a slight tinting to rocks for uniqueness<br>Popcorn Drop Seeds - Makes popcorn plants drop two seeds when struck with spear<br>Albino Green Lizards - Gives Green Lizards a 2.7% chance to be Albino<br>Coloured Popcorn - Changes the colour of popcorn plants to be any configurable colour<br>Snails Open Popcorn - When snails pop, it now opens popcorn plants!<br>Alt Death Fall Graphic - Alters the death fall graphic to be subtly different<br><br>WATCHER SPOILERS<br>[spoiler]Invisible Watcher Worm Grass Immunity - Worm Grass will ignore the Watcher if invisible.<br>Keep camo when stunned - Self-explanatory. Stops the watcher from losing camo when stunned.<br>[/spoiler]<br><br>Every tweak is configurable through the remix menu!",
 "thumb": "previews/3450089132.png",
 "url": "https://andrew.fm/rainworld/raindb/Haizlblieks_Tweaks.zip",
 "requirements": "",
 "version": "1.2.5",
 "created": 1742691298,
-"modified": 1761846483,
+"modified": 1780584086,
 "tags": "",
 "order": 2860
 });
@@ -51876,13 +51878,13 @@ Mods.push({
 "id": "newlizards",
 "workshop_id": "3494668673",
 "author": "Sparkdemon111",
-"desc": "This mod adds in 5 new lizards, have fun!",
+"desc": "This mod adds in 5 new lizards, have fun!<br><br>Snake lizard: Similar to a pink lizard, but long and slower.<br><br>Mega lizard: Has troubles eating, very fat.<br><br>Alpha Blue Lizard: Similar to a cyan lizard, and shoots electric spears.<br><br>Miros Lizard: Scary lizard, shoots fire spears.<br><br>Satonic Lizard: RUN! Similar to a cyan lizard, but rapid-fires fire spears.",
 "thumb": "previews/3494668673.png",
 "url": "https://andrew.fm/rainworld/raindb/My_Custom_Lizards.zip",
-"requirements": "lizardcustomizer,simplespawnswapper",
+"requirements": "lizardcustomizer,simplespawnswapper,spitanything",
 "version": "1.0",
 "created": 1749289246,
-"modified": 1749289246,
+"modified": 1780639854,
 "tags": "Creatures",
 "order": 3227
 });
@@ -52500,13 +52502,13 @@ Mods.push({
 "id": "oneofscavs.gardens",
 "workshop_id": "3502661615",
 "author": "One of Scavs",
-"desc": "A rework of Regions for the Watcher<br>to include Scavengers in the environmental storytelling<br>in Vanilla, Endgame and some Midgame Regions.<br><br>Adds foods and creatures<br>from M4rblelous Entity Pack mod.<br><br>Look at the end of the Steam Workshop change log for the room log.<br><br>Consider Sleepover",
+"desc": "A rework of Regions for the Watcher<br>to include Scavengers in the environmental storytelling.<br><br>A few hundred rooms altered across the entire campaign.<br>Major rework of Fetid Glen and The Surface<br>with more planned.<br><br>Look at the end of the Steam Workshop change log for the room log.<br><br>Adds foods and creatures<br>from M4rblelous Entity Pack mod.<br><br>Consider Sleepover",
 "thumb": "previews/3502661615.png",
 "url": "https://andrew.fm/rainworld/raindb/Scavenger_Gardens.zip",
 "requirements": "watcher,fisobs,lb-fgf-m4r-ik.modpack,crs",
-"version": "3.8.1",
+"version": "3.8.2",
 "created": 1750257385,
-"modified": 1779557216,
+"modified": 1780605671,
 "tags": "Watcher,Regions",
 "order": 3266
 });
@@ -52688,17 +52690,17 @@ Mods.push({
 });
 
 Mods.push({
-"name": "Awful Malicious Pole",
+"name": "Awful Malicious Pole + (Update!!)",
 "id": "awfulmaliciouspole",
 "workshop_id": "3505120756",
-"author": "Cecilia, and lom cus they did like, one thing",
-"desc": "really long pole <br>idk why you'd want to play this<br><br>should be compatible with logical pits now!!!!<br>emphasis on 'should' cus i havent tested it<br><br>entrance is in subterranean, in room SB_A09<br>(if you're confused, enter from farm arrays and fall to the left)",
+"author": "cecilia.wav",
+"desc": "'Some time has passed, and the threat located at the top of the spire has withered away.<br>Will you dare to make the climb once more, and find out what's at the top?'<br><br>You loved the pole (why), so here it is once more!<br><br>This update fixes some issues with the Awful Malicious Pole region, giving it a new coat of paint(kind of), and adds a whole new region at its top! (42 rooms, 91 screens)<br><br>I've been wanting to put something up there for a really long while now, and after finally deciding to stop procrastinating i can finally present to you an actually high* effort region :3<br><br>(i really shouldve uploaded this as its own thing :sob:)",
 "thumb": "previews/3505120756.png",
-"url": "https://andrew.fm/rainworld/raindb/Awful_Malicious_Pole.zip",
-"requirements": "crs,regionkit,moreslugcats",
-"version": "17.6",
+"url": "https://ln5.sync.com/dl/c0d51f6b0#wdhzhn9w-gbcvpza5-6u42qdp3-87j53vj2",
+"requirements": "crs,regionkit,floodwaters_utilities_mini",
+"version": "2.0",
 "created": 1750515469,
-"modified": 1750627020,
+"modified": 1779902374,
 "tags": "",
 "order": 3278
 });
@@ -53091,14 +53093,14 @@ Mods.push({
 "name": "Beautiful Dev Tools",
 "id": "better_dev_tools",
 "workshop_id": "3509447638",
-"author": "Haizlbliek",
-"desc": "Reworks the Dev Tools interface with cleaner (dynamic) visuals, and varius QoL features.<br><br>I've noticed that most modders just get used to some... less beautiful parts of Rain World. One of the (unarguable) LEAST-pretty sections, is the Developer Interface.<br>Now I know that's the whole reason it's called Developer... But literally every modder uses it, and it's gotta get better at some point, so here we go:<br><br>Beautiful Dev Tools aims to completely overhaul the Dev UI so that you will no longer get a headache from looking at it. It's slick, outlined styling is dynamic; changing based on the pallete.<br><br>But the best feature of all: Room effect and object SEARCH. Search through effects to your hearts content! Gone are the days of scanning through every  single  page  to find the single thing you were looking for.<br><br>(Oh, and also you can now just delete an effect instead of toggling!)<br><br>When adding certain effects, the fullscreen effect will get reloaded.<br>This results in Bloom, LightBurn, SkyAndLightBloom, SkyBloom, Fog, and VoidMelt being auto-applied properly.<br><br>[b]NEW![/b]<br>Hold SHIFT when dragging a slider to set it to values outside of its normal boundaries!<br><br><br>Changes:<br>1.0.1 - Quick update to fix weird RegionKit missing problems.<br>1.0.2 - Fixes RegionKit incompatibilities for the palette buttons not always clicking, auto-reloads FullScreenEffects<br>1.0.3 - Fixed a huge issue with searching for items adding an incorrect item",
+"author": "Haizlbliek, MaigicaJaphet",
+"desc": "Reworks the Dev Tools interface with cleaner (dynamic) visuals, and varius QoL features.<br><br>I've noticed that most modders just get used to some... less beautiful parts of Rain World. One of the (unarguable) LEAST-pretty sections, is the Developer Interface.<br>Now I know that's the whole reason it's called Developer... But literally every modder uses it, and it's gotta get better at some point, so here we go:<br><br>Beautiful Dev Tools aims to completely overhaul the Dev UI so that you will no longer get a headache from looking at it. It's slick, outlined styling is dynamic; changing based on the pallete.<br><br>But the best feature of all: Room effect and object SEARCH. Search through effects to your hearts content! Gone are the days of scanning through every  single  page  to find the single thing you were looking for.<br><br>(Oh, and also you can now just delete an effect instead of toggling!)<br><br>When adding certain effects, the fullscreen effect will get reloaded.<br>This results in Bloom, LightBurn, SkyAndLightBloom, SkyBloom, Fog, and VoidMelt being auto-applied properly.<br><br>Hold SHIFT when dragging a slider to set it to values outside of its normal boundaries!<br><br>[b]NEW![/b]<br>Hold Left Control + Drag: move Panels without needing to hover over the move panel button<br><br>Hold Left Alt + Click: toggle Panel collapse if clicking on panel, or toggle all panel collapse if clicking on background.<br><br>Hold Left Control + Left Alt + Drag: move a placed object's main handle by it's panel rather than the other way around.<br><br>(most) panel overlap issues should be fixed.<br><br><br>Changes:<br>1.0.1 - Quick update to fix weird RegionKit missing problems.<br>1.0.2 - Fixes RegionKit incompatibilities for the palette buttons not always clicking, auto-reloads FullScreenEffects<br>1.0.3 - Fixed a huge issue with searching for items adding an incorrect item<br>1.0.4 - Merged Dev Tools UI Fix",
 "thumb": "previews/3509447638.png",
 "url": "https://andrew.fm/rainworld/raindb/Beautiful_Dev_Tools.zip",
 "requirements": "devtools",
-"version": "1.0.3",
+"version": "1.0.4",
 "created": 1750978844,
-"modified": 1778527695,
+"modified": 1780584403,
 "tags": "Cosmetics,Tools,Base,Downpour,Watcher",
 "order": 3303
 });
@@ -54940,9 +54942,9 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/ENA_Slugcats__DMS.zip",
 "video": "https://www.youtube.com/channel/UCpGb56S1rLxoxfCGvN_Mgtg",
 "requirements": "dressmyslugcat",
-"version": "1.1.0",
+"version": "1.1.2",
 "created": 1753383361,
-"modified": 1779742120,
+"modified": 1779815861,
 "tags": "Cosmetics",
 "order": 3419
 });
@@ -54983,13 +54985,13 @@ Mods.push({
 "id": "CaptainRedstone.WiggleflightPracticeArena",
 "workshop_id": "3534733852",
 "author": "Captain Redstone",
-"desc": "Adds a 3x20-screen arena designed to help practice and gauge the height of CTF and CTCF.This is as tall as I could possibly make it without breaking the leditor itself; if you still manage to make it to the top legitimately, I will personally crawl turn explode you.",
+"desc": "Adds a variety of exceedingly large, open arenas designed for practicing and gauging the distance achieved by wiggleflight and other movement tech:[list]<br>[*][b]WfP_Legacy:[/b] 176x802 tiles (3x23 cameras), vertically marked. The original arena this mod is based around; effectively 862 tiles tall, but markers only reach 799 due to previous lediting limitations.<br>[*][b]WfP_Vertical_1k:[/b] 181x1029 tiles (3x27 cameras), vertically marked. A remaster of the original; it's somewhat taller, and much more polished. Notably, camera transitions look much smoother.<br>[*][b]WfP_Vertical_10k:[/b] 401x10035 tiles (7x264 cameras), vertically marked. Absurdly, game-stressingly tall.<br>[*][b]WfP_Horizontal_1k:[/b] 1006x117 tiles (18x3 cameras), horizontally marked. Instead of really tall, it's really wide. To be honest I don't really understand the purpose of this but people asked for it.<br>[*][b]WfP_Horizontal_10k:[/b] 10026x269 tiles (182x7 cameras), horizontally marked. Absurdly, game-stressingly wide.[/list]<br><br>[b]Warnings and acknowledgments:[/b][list]<br>[*]This mod takes up 786MB of disk space. Surprisingly enough, the vast majority of this is made up of pathfinding caches, not cameras. But, without those caches, levels take a *very* long time to load, and cause a major basegame memory leak.<br>[*]You may have issues loading the 10k arenas. They require roughly 3GB more RAM to load than normal, and due to a Rain World bug, if loading takes too long (CPU-based) it will pull up the results screen upon spawning, even though you're alive. There's nothing I can do about this without sacrifices elsewhere. I may try to make a second mod that fixes this bug, since it affects other things. In the meantime, you can get around this using tick pause mods like cordyceps or dev console, by pausing as it loads.<br>[*]Rain World heavily leaks performance in all varieties of arena mode, which is greatly exacerbated by the sheer size of the arenas in this mod. Expect extreme loading time bloat if you don't just freeze the rain timer.<br>[*]If using SBCameraScroll, backgrounds will fail to render past ~820 tiles in either direction. There is no easy way for the mod author to fix this, it's related to limitations in modern graphics hardware. Please don't bother either of us about it.<br>[*]Shoutouts to Trainzack for providing me with a workaround for Rained just, curling up into a sobbing ball when asked to export geometry on this scale. The 10k arenas could've taken additional weeks or months without that workaround.<br>[*]Shoutouts to Squirble for being the first person to hit the top of the original arena, as well as the new 1k one. That was the kick I needed to continue work on the 10ks. A crawl turn missile has been deployed to your exact location, as promised.[/list]",
 "thumb": "previews/3534733852.png",
-"url": "https://andrew.fm/rainworld/raindb/Wiggleflight_Practice_Arena.zip",
+"url": "https://ln5.sync.com/dl/d224343a0#acmjgivu-n8apsjns-yxueaaqk-73dt3a6g",
 "requirements": "",
-"version": "1.0.0",
+"version": "1.1.0",
 "created": 1753496510,
-"modified": 1753498066,
+"modified": 1780721606,
 "tags": "Arenas,Tools",
 "order": 3422
 });
@@ -56098,9 +56100,9 @@ Mods.push({
 "url": "https://andrew.fm/rainworld/raindb/bwue_berry_yoghurt__DMS_Skin.zip",
 "video": "https://www.youtube.com/channel/UCpGb56S1rLxoxfCGvN_Mgtg",
 "requirements": "dressmyslugcat",
-"version": "1.0.0",
+"version": "1.0.1",
 "created": 1754991795,
-"modified": 1754991795,
+"modified": 1779816913,
 "tags": "Cosmetics",
 "order": 3492
 });
@@ -57121,7 +57123,7 @@ Mods.push({
 "requirements": "regionkit,pom,fisobs,moreslugcats,crs,lb-fgf-m4r-ik.modpack",
 "version": "1.1.3",
 "created": 1756372960,
-"modified": 1777194630,
+"modified": 1779817466,
 "tags": "Regions,Arenas",
 "order": 3556
 });
@@ -57537,9 +57539,9 @@ Mods.push({
 "thumb": "previews/3562250272.png",
 "url": "https://andrew.fm/rainworld/raindb/Live_Bingo_Board_Viewer.zip",
 "requirements": "",
-"version": "0.3.9",
+"version": "0.4.3",
 "created": 1757035968,
-"modified": 1779762109,
+"modified": 1780964034,
 "tags": "",
 "order": 3582
 });
@@ -59264,14 +59266,14 @@ Mods.push({
 "id": "hard",
 "workshop_id": "3589611534",
 "author": "Marsh",
-"desc": "[h1] Original description  [/h1] <br><br>Welcome! This is HardCore World and it will test your wits, as it is really hard. It's really only makes the spawns worse but I had a lot of fun with it, I hope you will too! (Note I have only done all base game regions but now I have done LC (the city place) CL, VS I will be working on downpour now.) Idk what you want me to say that is all there is to this mod. (also every slugcat has their own spawns but a lot of them share spawns). ALSO THIS IS MY FIRST MOD PLEASE DON'T THROW ME INTO THE FIRE IF I DID SOMETHING WRONG! new vid turn on captions for the new one (: meadow is great for this mod as you can torture your friends as well as yourself (people who join you will need to have the mod as well). Also I pray for you if you try to beat inv with this god bless your soul.<br><br>[h1] New description [/h1]<br><br>Hello again I am hoping it is not too annoying to go to this one but after a bug I needed a new id and this is what needed to happen anyways I hope you will like the 2 new updates that come with this new workshop page.<br><br>thanks to my lovely friends who made art for us you can find them here: <br><br>Marsh: Dev who made the mod<br><br>Cursor: helped play tested the mod and made the first 2 pieces of art you see<br>https://steamcommunity.com/profiles/76561199857119721/<br><br>Jamrend_YOUTUBE: Made the rest if the art you see<br>https://steamcommunity.com/profiles/76561199826490183/<br><br>[h1] BEST PLAYED WITH FRIENDS OR EVEN ON MEADOW  [/h1]<br><br>hey you! yeah you! do you want to know how I did this stuff well you are in luck! as I gone through the pain to make a guide for you! https://steamcommunity.com/sharedfiles/filedetails/?id=3596635600<br><br>[h1] If you are a true gamer you will beat this mod with pain world for the best worst combo ever [/h1]<br><br>also uhh if you like this mod make sure to hit the like to help this mod out! as it helps this mod grows! <:<br><br>also guys I am working on a new mod to make the game harder it goes with this mod and it will mostly affect the map not the spawn as they are... lets say not the best so look out for that!",
+"desc": "[h1] Original description  [/h1] <br><br>Welcome! This is HardCore World and it will test your wits, as it is really hard. It's really only makes the spawns worse but I had a lot of fun with it, I hope you will too! (Note I have only done all base game regions but now I have done LC (the city place) CL, VS I will be working on downpour now.) Idk what you want me to say that is all there is to this mod. (also every slugcat has their own spawns but a lot of them share spawns). ALSO THIS IS MY FIRST MOD PLEASE DON'T THROW ME INTO THE FIRE IF I DID SOMETHING WRONG! new vid turn on captions for the new one (: meadow is great for this mod as you can torture your friends as well as yourself (people who join you will need to have the mod as well). Also I pray for you if you try to beat inv with this god bless your soul.<br><br>[h1] New description [/h1]<br><br>Hello again I am hoping it is not too annoying to go to this one but after a bug I needed a new id and this is what needed to happen anyways I hope you will like the 2 new updates that come with this new workshop page.<br><br>thanks to my lovely friends who made art for us you can find them here: <br><br>Marsh: Dev who made the mod<br><br>Cursor: helped play tested the mod and made the first 2 pieces of art you see<br>https://steamcommunity.com/profiles/76561199857119721/<br><br>Jamrend_YOUTUBE: Made the rest if the art you see<br>https://steamcommunity.com/profiles/76561199826490183/<br>their youtube: https://www.youtube.com/@jamrend_Y/videos<br><br>Matteesapa: Came up with all the lovely names you now see in the regions!<br>https://steamcommunity.com/profiles/76561198883484058/<br><br>[h1] BEST PLAYED WITH FRIENDS OR EVEN ON MEADOW  [/h1]<br><br>hey you! yeah you! do you want to know how I did this stuff well you are in luck! as I gone through the pain to make a guide for you! https://steamcommunity.com/sharedfiles/filedetails/?id=3596635600<br><br>[h1] If you are a true gamer you will beat this mod with pain world for the best worst combo ever [/h1]<br><br>also uhh if you like this mod make sure to hit the like to help this mod out! as it helps this mod grows! <:<br><br>the last hardcore world is out it is for watcher: https://steamcommunity.com/sharedfiles/filedetails/?id=3644166453<br><br>Someone made a video showing off my mod. That is why it is there, as it is not boring and helps show it off.<br><br>BIG THANKS TOO @Mateesapa for coming up with the funny names for the regions. Also! If you want a harder challenge you can check out my WIP project that is called Impossible World, it is much much harder!<br><br>https://steamcommunity.com/sharedfiles/filedetails/?id=3690372816",
 "thumb": "previews/3589611534.png",
 "url": "https://andrew.fm/rainworld/raindb/HardCore_World_Reworked.zip",
 "video": "https://www.youtube.com/@Marsh-x7f",
 "requirements": "moreslugcats",
 "version": "1.7",
 "created": 1760844701,
-"modified": 1761879744,
+"modified": 1780815281,
 "tags": "Game Mechanics",
 "order": 3691
 });
@@ -60902,14 +60904,14 @@ Mods.push({
 "id": "floodwaters_utilities_mini",
 "workshop_id": "3606554603",
 "author": "Haizlbliek",
-"desc": "Do you feel bored with the limited objects in Rain World?<br>Unable to make your regions look absolutely stunning because of the lack of effects?!<br>Do you absolutely HATE the regular fog, with it's blocky visuals?!?<br><br>WELL HAVE NO FEAR!!<br>Floodwaters Utilities is releasing, and it fixes ALL OF THOSE PROBLEMS!!!<br><br><br><br>A small dependency mod of objects and effects.<br>This mod handles all of the code for the upcoming Floodwaters mod.<br><br>[hr][/hr]<br>[h2]What this mod contains:[/h2]<br><br>All objects and effects are in a custom Floodwaters category.<br><br>[h3]End of Cycle Dangers[/h3]<br><br>[b]Heat Danger[/b]<br>Slowly heats up the room as the cycle gets close to ending, burning and stunning creatures.<br><br><br>[h3]Effects[/h3]<br><br>[b]FWFog[/b]<br>Smoother fog shader. Compatible with all 4 types of bloom.<br><br>[b]Chromatic[/b]<br>Chromatic aberration. Centered on the player.<br><br>[b]Noise[/b]<br>TV Static sorta look.<br><br>[b]EoCFanSpeed[/b]<br>Speeds up spinning fan objects near the end of the cycle.<br><br>[b]WaterSlush[/b]<br>Adds little white dots randomly sparkling on water as if it were slushy and rain falling on it.<br><br>[b]WaterSludge[/b]<br>Adds a lava-like patern onto water, colored to the water color. Direct copy of HR's lava, but setup for normal water.<br><br>[b]StraightDeepWater[/b]<br>Removes the small bend at the near-surface of water.<br><br>[b]Hypothermia[/b]<br>Chills the room down gameplay-wise, by making the player slowly freeze inside. Intensified by effect amount.<br>[i]Requires either More Slugcats or Warcher to be enabled[/i]<br><br>[h3]Objects[/h3]<br><br>[b]Cactus[/b]<br>A super configurable dynamic cactus.<br>Color and size have multiple settings each.<br><br>[b]Sand Drip[/b]<br>An animated single pixel line of flowing sand.<br>Color controlled by RGB sliders.<br>Optional pile.<br><br>[b]Deer Skull[/b]<br>Similar to the large dear skull in Scavenger Outposts/Tolls, but no scavengers, and no pearls.<br><br>[b]Cattail and Colored Cattail[/b]<br>Sporepuff-like object that grows on a stalk, can be pulled off and thrown to create long-lasting puffs.<br>Colored cattails are only different visually.<br><br>[b]Bubble Emitter[/b]<br>When placed in water, emits bubbles.<br>Intensity and length are controllable.<br><br>[b]Bamboo[/b]<br>Climbable bendy pole.<br><br>[b]Colored Lantern[/b]<br>Redo of the previous Colored Lanterns mod.<br>Colors and active-ness are controllable.<br><br>[b]Lillypad[/b]<br>Solid lillypad object that can be placed on water. Moves with the waves and can be stood on and jumped off of.<br>Colors controllable.<br>[i]Note: There is an issue caused by this that I'm working on.[/i]<br><br>[b]Water Drips[/b]<br>Spawns ceiling drips at specified position based on frequency.<br><br>[b]Magma Area[/b]<br>A circle of magma that when stood on, heats up, burning players and creatures on top of it.<br><br>[b]Heat Source[/b]<br>A warm spot similar to lanterns, but invisble. (MIGHT HAVE SOME BUGS)<br><br>[b]Colored Coral Neuron[/b]<br>Similar to the base-game Coral Neuron, but has four modifiable colors; Base, tendril start, tendril mid, and tendril end.<br>Normally tendril start is the same as base.<br><br>[b]Colored Deep Processing[/b]<br>Copy of DeepProcessing, but with configurable color.<br><br>[b]Custom Vine[/b]<br>Special vine object. Super configurable with presets.<br><br>[b]Custom Vine Connector[/b]<br>Connects points between two custom vines to allow more unique vines.<br><br>[b]Custom Light Rod[/b]<br>SSLightRod, but can go in any direction. AND has two colors instead of one! (One for each end)<br><br>[b]Custom Light Arc[/b]<br>Same as Custom Light Rod, except in a bezier curve.<br><br>[b]Ice Cube[/b]<br>Large solid flats of ice that float on the water. Standable, changeable size.<br><br>[b]Little Ice Cubes[/b]<br>Smaller chunks of ice without collision. Visual only.<br><br>[b]Colored Sparks[/b]<br>Similar to the existing GreenSparks effect.<br>Customizable HSV, and HSV variation. Custom spawn direction and direction variation.<br>Multiple instances of this object will work correctly.<br><br>[b]3d Light Source[/b]<br>LightSource but with controllable depth.<br><br>[b]Vertical Gate Position[/b]<br>Formerly the Vertical Gates mod, this object is now part of FWUtils!<br>Sets the positions of a Vertical Gate.<br><br>To set a gate as vertical, add a file [code]yourmod/modify/world/gates/vgates.txt[/code] with the content [code][ADD] GATE_XX_YY[/code] (use your gate acronyms).<br>[i]Note: Vertical gates will look weird if they are NOT an electric gate! Make sure to add your gate to [code]yourmod/modify/world/gates/egates.txt[/code][/i]<br><br>[b]ColoredFlameJet[/b]<br>Similar to Watcher's FlameJet object, but allows custom colors.<br><br>[b]EffectOverrideCircle[/b] and [b]EffectOverrideRect[/b]<br>Objects that change the effect colors inside them. Has settings for overriding effect color A and B independantly, with HSV modifying as well. Additional settings to control gradients and depth control.<br><br>[b]SmokePipe[/b]<br>SteamPipe-adjactent object, but the steam is black smoke. Has a single toggle for activating always or EoC only.<br><br>[h3]Various Other Things[/h3]<br><br>[b]Flicker[/b]<br>A custom LightSource blink type that randomly flickers instead of rythmic flashing like the existing effects.<br><br>[hr][/hr]<br>[b]NOTE[/b]: This is the miniature version! More will be released when Floodwaters is finished.<br><br>[h3]Updates[/h3]<br>Fixed issue with ColoredDeepProcessing (Thanks XuanZeBuFeng!)<br>Fixed CustomLightRod and CustomLightArc disappearing when on top of custom backgrounds (Thanks SlimeCubed!)<br>Fixed an issue where multiple ColoredDeepProcessing or LightSource3d would be unable to have unique settings<br>Merged in the Vertical Gates mod<br>Fixed a problem where a bunch of objects became invisible at odd times<br>Fixed 3dlightsources breaking underwater<br>Fixed colored lanterns crashing the game, and just generally improved them",
+"desc": "Do you feel bored with the limited objects in Rain World?<br>Unable to make your regions look absolutely stunning because of the lack of effects?!<br>Do you absolutely HATE the regular fog, with it's blocky visuals?!?<br><br>WELL HAVE NO FEAR!!<br>Floodwaters Utilities is releasing, and it fixes ALL OF THOSE PROBLEMS!!!<br><br><br><br>A small dependency mod of objects and effects.<br>This mod handles all of the code for the upcoming Floodwaters mod.<br><br>[hr][/hr]<br>[h2]What this mod contains:[/h2]<br><br>All objects and effects are in a custom Floodwaters category.<br><br>[h3]End of Cycle Dangers[/h3]<br><br>[b]Heat Danger[/b]<br>Slowly heats up the room as the cycle gets close to ending, burning and stunning creatures.<br><br><br>[h3]Effects[/h3]<br><br>[b]FWFog[/b]<br>Smoother fog shader. Compatible with all 4 types of bloom.<br><br>[b]Chromatic[/b]<br>Chromatic aberration. Centered on the player.<br><br>[b]Noise[/b]<br>TV Static sorta look.<br><br>[b]EoCFanSpeed[/b]<br>Speeds up spinning fan objects near the end of the cycle.<br><br>[b]WaterSlush[/b]<br>Adds little white dots randomly sparkling on water as if it were slushy and rain falling on it.<br><br>[b]WaterSludge[/b]<br>Adds a lava-like patern onto water, colored to the water color. Direct copy of HR's lava, but setup for normal water.<br><br>[b]StraightDeepWater[/b]<br>Removes the small bend at the near-surface of water.<br><br>[b]Hypothermia[/b]<br>Chills the room down gameplay-wise, by making the player slowly freeze inside. Intensified by effect amount.<br>[i]Requires either More Slugcats or Warcher to be enabled[/i]<br><br>[b]NoDeathFallGradient[/b]<br>Removes the death fall gradient from the room.<br><br>[h3]Objects[/h3]<br><br>[b]Cactus[/b]<br>A super configurable dynamic cactus.<br>Color and size have multiple settings each.<br><br>[b]Sand Drip[/b]<br>An animated single pixel line of flowing sand.<br>Color controlled by RGB sliders.<br>Optional pile.<br><br>[b]Deer Skull[/b]<br>Similar to the large dear skull in Scavenger Outposts/Tolls, but no scavengers, and no pearls.<br><br>[b]Cattail and Colored Cattail[/b]<br>Sporepuff-like object that grows on a stalk, can be pulled off and thrown to create long-lasting puffs.<br>Colored cattails are only different visually.<br><br>[b]Bubble Emitter[/b]<br>When placed in water, emits bubbles.<br>Intensity and length are controllable.<br><br>[b]Bamboo[/b]<br>Climbable bendy pole.<br><br>[b]Colored Lantern[/b]<br>Redo of the previous Colored Lanterns mod.<br>Colors and active-ness are controllable.<br><br>[b]Lillypad[/b]<br>Solid lillypad object that can be placed on water. Moves with the waves and can be stood on and jumped off of.<br>Colors controllable.<br>[i]Note: There is an issue caused by this that I'm working on.[/i]<br><br>[b]Water Drips[/b]<br>Spawns ceiling drips at specified position based on frequency.<br><br>[b]Magma Area[/b]<br>A circle of magma that when stood on, heats up, burning players and creatures on top of it.<br><br>[b]Heat Source[/b]<br>A warm spot similar to lanterns, but invisble. (MIGHT HAVE SOME BUGS)<br><br>[b]Colored Coral Neuron[/b]<br>Similar to the base-game Coral Neuron, but has four modifiable colors; Base, tendril start, tendril mid, and tendril end.<br>Normally tendril start is the same as base.<br><br>[b]Colored Deep Processing[/b]<br>Copy of DeepProcessing, but with configurable color.<br><br>[b]Custom Vine[/b]<br>Special vine object. Super configurable with presets.<br><br>[b]Custom Vine Connector[/b]<br>Connects points between two custom vines to allow more unique vines.<br><br>[b]Custom Light Rod[/b]<br>SSLightRod, but can go in any direction. AND has two colors instead of one! (One for each end)<br><br>[b]Custom Light Arc[/b]<br>Same as Custom Light Rod, except in a bezier curve.<br><br>[b]Ice Cube[/b]<br>Large solid flats of ice that float on the water. Standable, changeable size.<br><br>[b]Little Ice Cubes[/b]<br>Smaller chunks of ice without collision. Visual only.<br><br>[b]Colored Sparks[/b]<br>Similar to the existing GreenSparks effect.<br>Customizable HSV, and HSV variation. Custom spawn direction and direction variation.<br>Multiple instances of this object will work correctly.<br><br>[b]3d Light Source[/b]<br>LightSource but with controllable depth.<br><br>[b]Vertical Gate Position[/b]<br>Formerly the Vertical Gates mod, this object is now part of FWUtils!<br>Sets the positions of a Vertical Gate.<br><br>To set a gate as vertical, add a file [code]yourmod/modify/world/gates/vgates.txt[/code] with the content [code][ADD] GATE_XX_YY[/code] (use your gate acronyms).<br>[i]Note: Vertical gates will look weird if they are NOT an electric gate! Make sure to add your gate to [code]yourmod/modify/world/gates/egates.txt[/code][/i]<br><br>[b]ColoredFlameJet[/b]<br>Similar to Watcher's FlameJet object, but allows custom colors.<br><br>[b]EffectOverrideCircle[/b] and [b]EffectOverrideRect[/b]<br>Objects that change the effect colors inside them. Has settings for overriding effect color A and B independantly, with HSV modifying as well. Additional settings to control gradients and depth control.<br><br>[b]SmokePipe[/b]<br>SteamPipe-adjactent object, but the steam is black smoke. Has a single toggle for activating always or EoC only.<br><br>[h3]Various Other Things[/h3]<br><br>[b]Flicker[/b]<br>A custom LightSource blink type that randomly flickers instead of rythmic flashing like the existing effects.<br><br>[b]Miros Vulture AlternateForm[/b]<br>Adding the AlternateForm tag to a Miros Vulture will turn it blue!<br><br>[hr][/hr]<br>[b]NOTE[/b]: This is the miniature version! More will be released when Floodwaters is finished.<br><br>[h3]Updates[/h3]<br>Fixed issue with ColoredDeepProcessing (Thanks XuanZeBuFeng!)<br>Fixed CustomLightRod and CustomLightArc disappearing when on top of custom backgrounds (Thanks SlimeCubed!)<br>Fixed an issue where multiple ColoredDeepProcessing or LightSource3d would be unable to have unique settings<br>Merged in the Vertical Gates mod<br>Fixed a problem where a bunch of objects became invisible at odd times<br>Fixed 3dlightsources breaking underwater<br>Fixed colored lanterns crashing the game, and just generally improved them",
 "thumb": "previews/3606554603.png",
 "url": "https://andrew.fm/rainworld/raindb/Floodwaters_Utilities_FWUtils.zip",
 "requirements": "",
 "version": "1.0.17",
 "created": 1763254415,
-"modified": 1777053221,
-"tags": "Items,Dependency,Game Mechanics,Downpour,Base,Watcher,Cosmetics",
+"modified": 1779928214,
+"tags": "Items,Dependency,Game Mechanics,Downpour,Base,Watcher,Cosmetics,Creatures",
 "order": 3794
 });
 
@@ -61228,7 +61230,7 @@ Mods.push({
 "requirements": "",
 "version": "0.1.3",
 "created": 1763992318,
-"modified": 1777467163,
+"modified": 1780126896,
 "tags": "",
 "order": 3814
 });
@@ -61259,9 +61261,9 @@ Mods.push({
 "thumb": "previews/3611824818.png",
 "url": "https://andrew.fm/rainworld/raindb/Watcher_to_Vanilla_Consistency.zip",
 "requirements": "watcher",
-"version": "0.2.2",
+"version": "0.2.3",
 "created": 1764015115,
-"modified": 1777244031,
+"modified": 1780520769,
 "tags": "Regions",
 "order": 3816
 });
@@ -61369,9 +61371,9 @@ Mods.push({
 "desc": "made this mod to fix some incompatibilities when using multiple mods, with functions like<br><br>[list]<br>    [*]some changes in other mods<br>    [*]a custom plugin loader<br>    [*]an update indicator<br>    [*]a custom world merging<br>    [*]a plugin patcher<br>    [*]modded creatures merging<br>    [*]Multiple echoes per regions<br>[/list]<br><br><br>[hr][h2][b]Changes in other mods[/b][/h2][/hr]<br><br>[h3][b]Where Does This Gate Go?[/b][/h3]<br>no longer stutters when entering gates<br><br>[h3][b]Slugpup Safari × Not Slugcat Playables[/b][/h3]<br>fixed The Rot campaign<br><br>[h3][b]Last Wish[/b][/h3]<br>Replaces Watcher Coral Caves and Aether Ridge with the original Coral Caves mod and Aether Ridge For All if they're active<br>[spoiler]adds the Void exclusive multiple echoes on Aether Ridge For All[/spoiler]<br><br><br>[hr][h2][b]Custom Plugin Loader[/b][/h2][/hr]<br><br>The custom plugin loader ensures that the correct version of a plugin is loaded, as some plugins have different code versions for specific game versions<br>[i]Though the wrong loading can be avoided, it occurs by an error in other people's mods that depends on it, and so i modified the plugin loader so it's less of a hassle[/i]<br><br><br>[hr][h2][b]Update Indicator[/b][/h2][/hr]<br><br>The update indicator can be enabled on the remix settings, it displays a coloured square on the mod list.<br>the closest it is to blue, it means it's more [b]probable of it being updated for the newest version<br>the left square is related to the Workshop date, while the right one is based on the plugin file information (it's less accurate due to how operating systems work)<br>It also places the last update date (from Workshop) on the mod's description on the remix<br>And also lets you open the mod's Workshop page from remix when clicking with the right mouse button<br>[i]please note that it's just an estimative, there can be blue mods that haven't updated for the latest version, and red mods that luckily works fine[/i]<br><br><br>[hr][h2][b]World Merging[/b][/h2][/hr]<br><br>It can modify the world connections after merging. It uses a ''simple'' file to modify the connections within the loading, and enables the use of conditions like presence (or not) of a mod and a specific campaign or timeline (WIP, explanation on how to use later)<br>It also adds a way to override a room, ignoring the mod load order. this is used so when two mods modifies the same room. Alongside the previous option, it can merge mods together, at the expense of the room remaining modified even when said mods aren't present (explanation on how to use later)<br>[i]list of current modified rooms by myself at the end[1][/i]<br><br><br>[hr][h2][b]Plugin Patcher[/b][/h2][/hr]<br><br>It can patch mods using Mono.Cecil<br>to do it, you need to create a Preloader Patcher dll with the class:<br>[code]FloodgatePatchers.{TargetAssemblyName}[/code]<br>(without spaces) with a method<br>[code]public static void Patcher(ref AssemblyDefinition assemblyDefinition, string CurrentVersion, bool IsLatestVersion)[/code]<br>(you can change the parameter names) and the rest is just [url=https://docs.bepinex.dev/articles/dev_guide/preloader_patchers.html]Preloader Patcher stuff[/url]<br><br><br>[hr][h2][b]Modded Creatures Merging[/b][/h2][/hr]<br><br>Contains the remix option to add modded creatures to your world like The Modded Experience, with the key difference being it is additive, while The Modded Experience is replacive<br>This means your world will get more chaotic, as there will be new spawns instead of replacements<br><br><br>[hr][h2][b]Multiple Echoes per Region[/b][/h2][/hr]<br><br>(this probably is already done by some other mod, please report any bugs)<br>Adds an object called EEEGhostSpot (yes, like RegionKit's but with an extra E)<br>with its file you can set everything mostly like RegionKit's Echo Extender, but with the addition of the id property<br>settings template:<br>[code]<br>$ eeechoesSettings.txt<br>id: SomeID<br>(White)SpawnOnDifficulty<br>(White)priming : false | true<br>minkarma : -1<br>minkarmacap: 4<br>size : 0.9<br>radius : 5<br>echosong : NA_33 - Else2<br>room : XX_ROOM<br>flip : 1<br>end<br>[/code]<br>the 'end' line is necessary, as multiple echoes are added using the same file by simply writing the properties again after the end<br>the 'room' property must be the same room where you placed an EEEGhostSpot<br>for conversations, a file named 'eeechoConv_SomeID.txt' needs to be placed on the region's folder or under 'text/text_(lang)'<br><br>[hr][/hr]<br><br>[1] currently modified rooms<br>[code]<br>GW_C09, GW_C04 (past too), GW_C06, GW_A20, GW_B08, GW_C02 (past too), GW_A10, GW_A23, GW_A19, GW_E01<br>HI_A21, HI_B04, HI_C01, HI_A22, HI_A06, HI_A16, HI_A04, HI_C04, HI_B13, HI_B05, HI_B15<br>LF_M02, LF_D08, LF_J01, LF_B04, LF_C01, LF_D01, LF_B02, LF_D03, LF_E04, LF_D02, LF_A15, LF_A06, LF_A07, LF_H02<br>SB_F03, SB_J01<br>SH_E03 (incl riv), SH_C07<br>SL_E03<br>SU_A13, SU_A38, SU_B08, SU_B09, SU_A42, SU_A02, SU_A24, SU_A07, SU_B05, SU_A45, SU_B10, SU_B01, SU_A30, SU_C01, SU_A23, SU_A17, SU_A40, SU_A32, SU_A39, SU_B07<br>MS_EAST01<br>[/code]<br>-gonna turn that a spreadsheet soon<br>-and also removed all Drought downpour disconnections<br>[i]if you can report incompatible mods, it'd be of great help[/i]<br><br>[hr][/hr]<br><br>extra: overriden mods (29-01-2026)<br>i've edited some outdated mods (dw they return to normal after being updated)<br>[code]BudGermination, Vanguard, Bubble Weavers, Old New Horizons, Rain World Deluge, Drain Mites, Hailstorm, The Meteor[/code]<br>please note this is extremely experimental (as im not the dev of any of these), feel free to report any bugs here<br><br><br>[hr][h2][b]Special Thanks[/b][/h2][/hr]<br><br>Sniffledorf_ - Lediting some rooms for Outskirts Remake with Evergreen<br>SageIsNice - Playtesting<br><br><br><br>[i]if you find any bug, please report it, you can create a new discussion if you wish. you can also find me on rain world's discord server (ping me)[/i]",
 "url": "https://ln5.sync.com/dl/e117cc300#ffic4cb6-8tzkninf-as7mb6es-k9t4chej",
 "requirements": "",
-"version": "0.1.23",
+"version": "0.1.23b",
 "created": 1764108508,
-"modified": 1779398081,
+"modified": 1780622492,
 "tags": "Dependency,Tools",
 "order": 3823
 });
@@ -62269,17 +62271,17 @@ Mods.push({
 });
 
 Mods.push({
-"name": "Possessions [WIP]",
+"name": "Possessions",
 "id": "ynhzrfxn.possessions",
 "workshop_id": "3625792192",
 "author": "YannahTFoxx",
-"desc": "Control creatures and objects with your mind! May contain telekinesis, creature hypnosis, and a complete lack of ethical considerations.<br><br>[b]TL;DR[/b]: [i]This mod adds a Safari-like ability to regular gameplay, allowing you to take control over creatures and (optionally) objects.[/i]<br><br>[h2]Possess Anyone, Anytime[/h2]<br><br>No more free will! Our patented Mind-Override Technology™️ allows YOU to control the body of nearly any creature in the game!<br><br>To start a possession, hold the [i]Possess[/i] key (Default: [b]V[/b]), then point the X cursor towards the creature you wish to possess. If done correctly, the target creature will be possessed, allowing you to freely control it around.<br><br>[img]https://i.imgur.com/y0nB9LT.gif[/img]<br><br>(Note: Slugcats (excluding Slugpups) and Overseers cannot be possessed.)<br><br>To stop ALL possessions, press the [i]Possess[/i] key again.<br><br>[h2]Possess Anything, Anywhere[/h2]<br><br>Creatures are not the only thing you can possess! Configurable via a Remix option, [i]any object[/i] can be 'possessed', allowing you to move it freely in the air, or even throw/drop it remotely.<br><br>To start an item possession, press the [i]Possess Item[/i] key (Default: [b]F[/b]). The nearest item around you will be 'possessed'; Weapons and creatures are favored over food when deciding which item to target.<br><br>[img]https://i.imgur.com/6nO5PIJ.gif[/img]<br><br>Items are thrown in the direction of your last input, including upwards and downwards! Combined with the ability to move items anywhere, this allows a much greater flexibility of interactions, both for combat and utility ;)<br><br>As with creature possessions, pressing the [i]Possess[/i] key will drop all possessed items at once.<br><br>[h2]And more...[/h2]<br><br>Possession time limits, Slugcat-specific possession power, a special ability capable of erasing the minds of all living creatures in a room, and more!<br><br>And the best thing, everything is fully toggleable from within the mod's Remix menu, meaning you can tailor ALL features to your own liking and needs :)<br><br>[img]https://i.imgur.com/FhPSyuH.gif[/img]<br><br>[h2]Compatibilities[/h2]<br><br>The following mods have special compatibility with [i]Possessions[/i]:<br><br>[list]<br>  [*] [b]Improved Input Config: Extended[/b]: Provides a robust input system for mods, with support for (re)binding keys to keyboard, mouse and/or controller input; Highly recommended.<br>  [*] [b]Fake Achievements[/b]: Allows custom 'achievements' to be displayed upon completing certain goals. [i]Possessions[/i] has a suite of these, from simple tasks to hidden [strike]bugs[/strike] mechanics!<br>  [*] [b]Dev Console[/b]: Adds an in-game console to Rain World, with various powerful utilities as well as support for custom commands. [i]Possessions[/i] introduces a few extra commands for managing and debugging its features, which can be useful for testing features, troubleshooting bugs, or just peeking into the inner workings of the mod.<br>[/list]<br><br>Compatibility with [i]Rain Meadow[/i] is planned in the future (and some work is already there for it), but not fully implemented yet. It is not recommended to play this mod with Rain Meadow for the time being.<br><br>[h2]Known Bugs[/h2]<br><br>[list]<br>  [*] Rare instances where possessing a creature could become permanent. Unconfirmed (as of v1.1.0), needs testing.<br>[/list]<br><br>If you find any other bugs, feel free to report them below.<br><br>[h2]Source[/h2]<br><br>[i]Possession[/i]'s full code can be found on its [url=https://github.com/AydenTFoxx/ControlLib]GitHub repository[/url]. You can also report bugs there if preferred.<br><br>[h3]Libraries Used[/h3]<br><br>All libraries mentioned below are already included with the mod, and require no extra installation steps.<br><br>[list]<br>    [*] [url=https://github.com/TheVileOne/ExpeditionRegionSupport]LogUtils[/url] (by [b]TheVileOne[/b]), a powerful logging library for Rain World;<br>    [*]  [url=https://github.com/AydenTFoxx/ModLib]ModLib[/url] (by me), a general-purpose modding library for Rain World, inspired by LogUtils.<br>[/list]",
+"desc": "Control creatures and objects with your mind! May contain telekinesis, creature hypnosis, and a complete lack of ethical considerations.<br><br>[b]TL;DR[/b]: [i]This mod adds a Safari-like ability to regular gameplay, allowing you to take control over creatures and (optionally) objects.[/i]<br><br>[h2]Possess Anyone, Anytime[/h2]<br><br>No more free will! Our patented Mind-Override Technology™️ allows YOU to control the body of nearly any creature in the game!<br><br>To start a possession, hold the [i]Possess[/i] key (Default: [b]V[/b]), then point the X cursor towards the creature you wish to possess. If done correctly, the target creature will be possessed, allowing you to freely control it around.<br><br>[img]https://i.imgur.com/y0nB9LT.gif[/img]<br><br>(Note: Slugcats (excluding Slugpups) and Overseers cannot be possessed.)<br><br>To stop ALL possessions, press the [i]Possess[/i] key again.<br><br>[h2]Possess Anything, Anywhere[/h2]<br><br>Creatures are not the only thing you can possess! Configurable via a Remix option, [i]any object[/i] can be 'possessed', allowing you to move it freely in the air, or even throw/drop it remotely.<br><br>To start an item possession, press the [i]Possess Item[/i] key (Default: [b]F[/b]). The nearest item around you will be 'possessed'; Weapons and creatures are favored over food when deciding which item to target.<br><br>[img]https://i.imgur.com/6nO5PIJ.gif[/img]<br><br>Items are thrown in the direction of your last input, including upwards and downwards! Combined with the ability to move items anywhere, this allows a much greater flexibility of interactions, both for combat and utility ;)<br><br>As with creature possessions, pressing the [i]Possess[/i] key will drop all possessed items at once.<br><br>[h2]And more...[/h2]<br><br>Possession time limits, Slugcat-specific possession power, a special ability capable of erasing the minds of all living creatures in a room, and more!<br><br>And the best thing, everything is fully toggleable from within the mod's Remix menu, meaning you can tailor ALL features to your own liking and needs :)<br><br>[img]https://i.imgur.com/FhPSyuH.gif[/img]<br><br>[h2]Compatibilities[/h2]<br><br>The following mods have special compatibility with [i]Possessions[/i]:<br><br>[list]<br>  [*] [b]Improved Input Config: Extended[/b]: Provides a robust input system for mods, with support for (re)binding keys to keyboard, mouse and/or controller input; Highly recommended.<br>  [*] [b]Fake Achievements[/b]: Allows custom 'achievements' to be displayed upon completing certain goals. [i]Possessions[/i] has a suite of these, from simple tasks to hidden [strike]bugs[/strike] mechanics!<br>  [*] [b]Dev Console[/b]: Adds an in-game console to Rain World, with various powerful utilities as well as support for custom commands. [i]Possessions[/i] introduces a few extra commands for managing and debugging its features, which can be useful for testing features, troubleshooting bugs, or just peeking into the inner workings of the mod.<br>[/list]<br><br>Compatibility with [i]Rain Meadow[/i] is mostly functional, but not 100% stable yet; Some visual and/or gameplay bugs are to be expected. Play at your own risk.<br><br>[h2]Known Bugs[/h2]<br><br>[list]<br>  [*] Rare instances where possessing a creature could become permanent. Unconfirmed (as of v1.1.0), needs testing.<br>  [*] Possessing a remote creatures in Rain Meadow may cause the possession to immediately cancel, but the creature will still be controlled by the user.<br>  [*] The possession cursor of remote players is somewhat offset from its actual synced position. Creature possessions and Mind Blast creation are not affected by this.<br>[/list]<br><br>If you find any other bugs, feel free to report them below.<br><br>[hr][/hr]<br><br>[h2]Support me on Ko-fi![/h2]<br><br>If you like my work, consider leaving a tip over at [url=https://ko-fi.com/yannahtfoxx]my Ko-fi page[/url]!<br><br>Making mods is fun, but very hard and time-consuming. By donating any amount on the link above, you're directly helping me to keep updating my mods for the foreseeable future! ^^<br><br>[h3]Source[/h3]<br><br>[i]Possession[/i]'s full source code can be found on its [url=https://github.com/AydenTFoxx/ControlLib]GitHub repository[/url]. You may also report bugs there if so inclined.",
 "thumb": "previews/3625792192.png",
-"url": "https://andrew.fm/rainworld/raindb/Possessions_WIP.zip",
+"url": "https://andrew.fm/rainworld/raindb/Possessions.zip",
 "requirements": "moreslugcats",
-"version": "1.1.0",
+"version": "1.1.1",
 "created": 1766009512,
-"modified": 1779641893,
+"modified": 1780283366,
 "tags": "Game Mechanics,Downpour,Watcher",
 "order": 3880
 });
@@ -63643,14 +63645,14 @@ Mods.push({
 "id": "hardcore_world_watcher",
 "workshop_id": "3644166453",
 "author": "Marsh",
-"desc": "Hello... it has been some time, like a really long time, well if you were waiting for more HardCore World well here it is. Anyways it is here, HardCore World Watcher. All regions have been reworked and have dangers that are really deadly, this is the hardest one out of them all, so get out there and try to beat the last challenge soldier. It has been a blast making these mods... I hope I can make more mods everyone will love signing out - Marsh<br>PS: if you want to see the OG here it is: https://steamcommunity.com/sharedfiles/filedetails/?id=3589611534",
+"desc": "Hello... it has been some time, like a really long time, well if you were waiting for more HardCore World well here it is. Anyways it is here, HardCore World Watcher. All regions have been reworked and have dangers that are really deadly, this is the hardest one out of them all, so get out there and try to beat the last challenge soldier. It has been a blast making these mods... I hope I can make more mods everyone will love signing out - Marsh<br>PS: if you want to see the OG here it is: https://steamcommunity.com/sharedfiles/filedetails/?id=3589611534<br><br>Big thanks to @Mateesapa for coming up with the funny names for the regions. Also! If you want a harder challenge you can check out my WIP project that is called Impossible World, it is much much harder!<br><br>https://steamcommunity.com/sharedfiles/filedetails/?id=3690372816",
 "thumb": "previews/3644166453.png",
 "url": "https://andrew.fm/rainworld/raindb/HardCore_World_Watcher.zip",
 "video": "https://www.youtube.com/@Marsh-x7f",
 "requirements": "moreslugcats",
 "version": "1.7",
 "created": 1768117285,
-"modified": 1778816536,
+"modified": 1780815418,
 "tags": "Game Mechanics",
 "order": 3966
 });
@@ -63757,14 +63759,14 @@ Mods.push({
 "id": "lakesystem",
 "workshop_id": "3645457560",
 "author": "Unknown",
-"desc": "North of the world you know, a long forgotten facility stands. Long overtaken by fauna and flora, these grounds stretch out towards the north.<br><br>Connects to Pipeyard (VS_B17), Industrial Complex (HI_A19). And two unreleased regions <br><br>FEATURES<br>66 Rooms & 126 Screens<br>Custom OST<br>Region Art<br>Safari & Expedition mode support<br>Echo<br>Two custom pearls<br>Arenas<br>Worldstates & Spawns for Basegame slugcats, MSC & Inv (includes a Inv gimmick)<br><br>KNOWN ISSUES<br>Second pearl (DataManifest) doesnt work because i keep breaking pearl text<br>Arenas are unfinished (no spawns) since i misremembered doing that like a boss<br><br>UPCOMING FEATURES<br>Saint OST<br>Watcher Things ;)<br>Make it Basegame compatible<br><br><br>CREDITS<br><br>Me - Region developer, Composer, Artist<br>Adamantine - Echo Dialog<br>intheghetto22 - Composer<br>Cyclopertus Lumpus - Playtester<br>frostbite1306 - Playtester",
+"desc": "North of the world you know, a long forgotten facility stands. Long overtaken by fauna and flora, these grounds stretch out towards the north.<br><br>Connects to Pipeyard (VS_B17), Industrial Complex (HI_A19). And two unreleased regions<br><br>FEATURES<br>66 Rooms & 126 Screens<br>Custom OST<br>Region Art<br>Safari & Expedition mode support<br>Echo<br>Two custom pearls<br>Arenas<br>Worldstates & Spawns for Basegame slugcats, MSC & Inv (includes a Inv gimmick)<br><br>KNOWN ISSUES<br>Second pearl (DataManifest) doesnt work because i keep breaking pearl text<br>Arenas are unfinished (no spawns) since i misremembered doing that like a boss<br><br>UPCOMING FEATURES<br>Saint OST<br>Watcher Things ;)<br>Make it Basegame compatible<br><br><br>CREDITS<br><br>Me - Region developer, Composer, Artist<br>Adamantine - Echo Dialog<br>intheghetto22 - Composer<br>Cyclopertus Lumpus - Playtester<br>frostbite1306 - Playtester",
 "thumb": "previews/3645457560.png",
 "url": "https://ln5.sync.com/dl/e7963e950#7u6rfm8m-txv49pbu-yydmm4e9-8st333b9",
 "video": "https://www.youtube.com/@JosephYeen",
 "requirements": "rwremix,moreslugcats,regionkit,crs,lb-fgf-m4r-ik.modpack",
 "version": "0.1",
 "created": 1768264641,
-"modified": 1777347970,
+"modified": 1780212642,
 "tags": "Arenas,Regions",
 "order": 3973
 });
@@ -64225,8 +64227,8 @@ Mods.push({
 "requirements": "lb-fgf-m4r-ik.modpack",
 "version": "HEY! I'M WATCHING HERE!",
 "created": 1768786970,
-"modified": 1769439540,
-"tags": "Regions",
+"modified": 1780866156,
+"tags": "Regions,Creatures",
 "order": 4002
 });
 
@@ -64686,7 +64688,7 @@ Mods.push({
 "requirements": "dressmyslugcat",
 "version": "1.0.0",
 "created": 1769440121,
-"modified": 1769440121,
+"modified": 1780915028,
 "tags": "Cosmetics",
 "order": 4031
 });
@@ -65823,7 +65825,7 @@ Mods.push({
 "requirements": "",
 "version": "1.0.0",
 "created": 1771245030,
-"modified": 1778894377,
+"modified": 1780146566,
 "tags": "Tools",
 "order": 4102
 });
@@ -66273,7 +66275,7 @@ Mods.push({
 "requirements": "crs,slime-cubed.slugbase,regionkit,pom,customslugcatutils,dressmyslugcat,moreslugcats",
 "version": "0.1.1",
 "created": 1772280370,
-"modified": 1778740699,
+"modified": 1780516423,
 "tags": "Campaigns,Custom Slugcat,Regions",
 "order": 4130
 });
@@ -66331,15 +66333,15 @@ Mods.push({
 "id": "MonsoonWorld",
 "workshop_id": "3675751410",
 "author": "Tat011",
-"desc": "Strongly Recommended both DLCs but the mod has replacement creatures if you don't.<br><br>An alternate take on RW where rain harmlessly falls all the time instead of the usual deal, with a dangerous night replacing it instead. Incorporates my 'Revamped Relationships' mod and my 'Properties expanded' mod and many modded creatures, entirely reworks the spawns (so far only in SU/HI/GW/CC), increasing creature variety, adding more hervivores, adding night spawns and adding more lineages.",
+"desc": "Strongly Recommended both DLCs but the mod has replacement creatures if you don't.<br><br>An alternate take on RW where rain harmlessly falls all the time instead of the usual deal, with a dangerous night replacing it instead. Incorporates my 'Revamped Relationships' mod and my 'Properties expanded' mod and many modded creatures, entirely reworks the spawns (so far only in SU/HI/GW/DS/CC), increasing creature variety, adding more hervivores, adding night spawns and adding more lineages.",
 "thumb": "previews/3675751410.png",
 "url": "https://andrew.fm/rainworld/raindb/Monsoon_World.zip",
 "video": "https://www.youtube.com/@Tat011",
-"requirements": "crs,regionkit,RevampedRelationships,expanded_outskirts,expandedindustrial,lb-fgf-m4r-ik.modpack,sequoia.parascutigera-creature,sequoia.luminouscode",
+"requirements": "crs,regionkit,RevampedRelationships,expanded_outskirts,expandedindustrial,lb-fgf-m4r-ik.modpack,sequoia.parascutigera-creature,sequoia.luminouscode,mosquitoes",
 "version": "Mooonsoooooon!",
 "created": 1772316585,
-"modified": 1774991454,
-"tags": "Game Mechanics,Base,Downpour,Watcher,Regions",
+"modified": 1780881528,
+"tags": "Game Mechanics,Base,Downpour,Watcher,Regions,Creatures",
 "order": 4134
 });
 
@@ -67112,9 +67114,9 @@ Mods.push({
 "thumb": "previews/3685428384.png",
 "url": "https://andrew.fm/rainworld/raindb/Infested_Corals_WIP.zip",
 "requirements": "regionkit,rwremix,crs,pom,fisobs",
-"version": "0.1.0",
+"version": "0.1.2",
 "created": 1773575476,
-"modified": 1773958533,
+"modified": 1780930637,
 "tags": "Regions",
 "order": 4183
 });
@@ -67725,13 +67727,13 @@ Mods.push({
 "id": "shrub.rwsqol",
 "workshop_id": "3693000839",
 "author": "shrubfromtomorrow",
-"desc": "A collection of quality of life changes targeted at improving the speedrunning experience.<br><br>Featurelist:<br><br>1. Fast resets both from the menu and in-game with a keybind<br>2. No intro custscenes ever<br>3. Always focus on most recent campaign started in slugcat select menu (no weird thing where it goes to another)<br>4. Skip void option, skip void sea sequence straight to cutscene when timer ends<br>5. Speedrun validation is forced on and not configurable<br>6. Moon's cloak is unaffected by actions in other campaigns and is always in MS_FARSIDE on a new campaign<br>7. Saint's tutorial popcorn has optimal RNG (5 seconds after entering room)<br>8. Can configure Saint's stomach item in remix menu<br>9. Speedrun timer tweaks has been absorbed into a new remix tab<br>10. New Watcher Intro Skip implementation, much faster, configurable in remix menu<br>11. Automatic legal mods and settings checker and fixer<br><br>Legal for all speedrun.com runs.<br>Credit to forthfora for their Speedrun Timer Tweaks code.<br>Thumbnail by sigma.<br><br>RWSQOL is open-source and open to technical improvements. For feature requests, join the [url=https://discord.gg/D3Yy3sYx2v]Speedrunning and Events Discord[/url] and contact Shrub.<br>https://github.com/shrubfromtomorrow/RWSQOL",
+"desc": "A collection of quality of life changes targeted at improving the speedrunning experience.<br><br>Featurelist:<br><br>1. Fast resets both from the menu and in-game with a keybind<br>2. No intro custscenes ever<br>3. Always focus on most recent campaign started in slugcat select menu (no weird thing where it goes to another)<br>4. Skip void option, skip void sea sequence straight to cutscene when timer ends<br>5. Speedrun validation is forced on and not configurable<br>6. Moon's cloak is unaffected by actions in other campaigns and is always in MS_FARSIDE on a new campaign<br>7. Saint's tutorial popcorn has optimal RNG (5 seconds after entering room)<br>8. Can configure Saint's stomach item in remix menu<br>9. Speedrun timer tweaks has been absorbed into a new remix tab<br>10. New Watcher Intro Skip implementation, much faster, configurable in remix menu<br>11. Automatic legal mods and settings checker and fixer<br>12. Toggleable, in-game only, last-wins SOCD<br><br>Legal for all speedrun.com runs.<br>Credit to forthfora for their Speedrun Timer Tweaks code.<br>Thumbnail by sigma.<br><br>RWSQOL is open-source and open to technical improvements. For feature requests, join the [url=https://discord.gg/D3Yy3sYx2v]Speedrunning and Events Discord[/url] and contact Shrub.<br>https://github.com/shrubfromtomorrow/RWSQOL",
 "thumb": "previews/3693000839.png",
 "url": "https://andrew.fm/rainworld/raindb/Speedrunning_QOL.zip",
 "requirements": "",
-"version": "1.0.6",
+"version": "1.0.7",
 "created": 1774579598,
-"modified": 1779669163,
+"modified": 1780178739,
 "tags": "Game Mechanics,Tools,Base,Downpour,Watcher",
 "order": 4222
 });
@@ -68127,9 +68129,9 @@ Mods.push({
 "thumb": "previews/3698242906.png",
 "url": "https://andrew.fm/rainworld/raindb/Azure_the_Wet_Rat.zip",
 "requirements": "dressmyslugcat,moreslugcats",
-"version": "1.1",
+"version": "1.2",
 "created": 1775185382,
-"modified": 1775185382,
+"modified": 1780704492,
 "tags": "Cosmetics",
 "order": 4247
 });
@@ -68709,13 +68711,13 @@ Mods.push({
 "id": "Aluminium.MEWGENICS",
 "workshop_id": "3709338538",
 "author": "Aluminium",
-"desc": "Used ingame art as reference, not ingame sprites.<br>Make all the faces white for their normal colouration, some faces have alt.versions for better contrast.<br>Also has cosmetics for Maisies kittens.<br><br>Includes:<br>ACT 1:<br>* Maisie<br>* Her kittens<br>* Magnus<br>* Fenrir<br>* Lucy<br>ACT 2<br>* Marshmallow<br>* Morana<br>* Dack<br>* Gein<br>ACT 3<br>* Franklin<br>* Draven<br>* Alice<br>* Chan Hung<br><br>special thanks to my friends for helping with making the description and banners",
+"desc": "Used ingame art as reference, not ingame sprites.<br>Make all the faces white for their normal colouration, some faces have alt.versions for better contrast.<br>Also has cosmetics for Maisies kittens.<br><br>Includes:<br>ACT 1:<br>* Maisie<br>* Her kittens<br>* Magnus<br>* Fenrir<br>* Lucy<br>ACT 2<br>* Marshmallow<br>* Morana<br>* Dack<br>* Gein<br>ACT 3<br>* Franklin<br>* Draven<br>* Alice<br>* Chan Hung<br>(+ Draven's and Chan hung's old versions)<br><br>special thanks to my friends for helping with making the description and banners",
 "thumb": "previews/3709338538.png",
 "url": "https://andrew.fm/rainworld/raindb/MEWGENICS_CLASS_MINIBOSSES.zip",
 "requirements": "dressmyslugcat",
-"version": "1.1.2",
+"version": "1.1.3",
 "created": 1776527294,
-"modified": 1779122340,
+"modified": 1780588464,
 "tags": "Cosmetics",
 "order": 4284
 });
@@ -68898,13 +68900,13 @@ Mods.push({
 "id": "Wonky.RevivifyOmni",
 "workshop_id": "3711589990",
 "author": "Wonky (original by Dual)",
-"desc": "[h1]Why another Revivify?[/h1]<br>This one has several much needed features that the older Revivify's have been lacking:<br><br>[h3]2-in-1[/h3]<br>You can choose whether you want the original's CPR or the simpler method of just being nearby to revive, without having to enable/disable mods!<br>In CPR mode, hold a dead slugcat on flat, stable ground and press grab twice per second.<br>In Proximity mode, just be near a dead slugcat.<br><br>[h3]Auto-disable in arena[/h3]<br>An option to completely disable reviving whenever you play an arena game mode!<br><br>[h3]Player slugpups know CPR[/h3]<br>Player slugpups in Rain Meadow can now do chest compressions too! It's a little janky but works, I'll try to improve it in the future! (not tested with Pupify/Pupifier, it may still work, but no promises)<br><br>[h3]Disable without restarting the game[/h3]<br>Just in case you don't want reviving to be possible but disabling the whole mod and restarting the game is too bothersome, you can just check an option in the remix settings to completely disable reviving!<br><br>[h3]Disable exhaustion/coma[/h3]<br>In other Revivify's, the only way to avoid getting weakened or permanently dead is to max out the sliders and hope you don't die too many times. In Revivify Omni, you have extra checkboxes to completely disable those mechanics!<br><br>[h3]True Rain Meadow support[/h3]<br>Rather than handling everything client-side like other Revivify's, this mod actually communicates with online players to make reviving even more reliable! Of course, this only works between people who have Revivify Omni. For those who don't, things will still be handled client-side.<br>If you don't want this functionality for any reason, you can disable it in the Extras tab in remix settings.<br><br>[h3]Settings displayed in pause menu[/h3]<br>Just in case you don't remember your settings ;)<br><br><br>[h1]Special thanks and credits[/h1]<br>[h3]To Dual-Iron [/h3]<br>Whose original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2950327774]Revivify[/url] constitutes 99% of the work put into the base functionality this mod! My contributions in Revivify Omni are just a little cherry on top of an already delicious cake.<br><br>[h3]To UO[/h3]<br>For helping me figure out the proper way to sync reviving in Rain Meadow!<br><br>[h3]To Auxiar Molkhun[/h3]<br>Just for also making a nice fresh Revivify while I was still working on mine! You should give it a try and see which one works best for you: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3632170621]Revivify - Meadow Support[/url]<br><br><br>[h1]Want to report a bug? Suggest a feature? Contribute to the mod?[/h1]<br>Open an issue or pull request on the [url=https://github.com/wonky2/RevivifyOmni]GitHub page[/url], as I will not engage in the comment section nearly as much",
+"desc": "[h1]Why another Revivify?[/h1]<br>This one has several much needed features that the older Revivify's have been lacking:<br><br>[h3]Two in one[/h3]<br>Choose whether you want the original's CPR or the simpler method of just being nearby to revive, without having to enable/disable mods!<br>In CPR mode, hold a dead slugcat on flat, stable ground and press grab twice per second.<br>In Proximity mode, just be near a dead slugcat.<br><br>[h3]Auto-disable in arena[/h3]<br>Optionally, you can disable reviving [i]only[/i] in arena!<br><br>[h3]Player slugpups know CPR[/h3]<br>In the original Revivify, being a slugpup means doing CPR is impossible due to how slugpups are coded. Not in this mod! Now you can always revive people even as a slugpup!<br><br>[h3]Disable without restarting the game[/h3]<br>Just in case you don't want reviving to be possible but disabling the whole mod and restarting the game is too bothersome, you can just check an option in the remix settings to completely disable reviving!<br><br>[h3]Disable exhaustion/coma[/h3]<br>In the old Revivify's, the only way to avoid getting weakened or permanently dead is to max out the sliders and hope you don't die too many times. In Revivify Omni, you have extra checkboxes to completely disable those mechanics!<br><br>[h3]True Rain Meadow support[/h3]<br>Rather than only handling everything client-side like other Revivify's, this mod actually communicates with online players who also have Revivify Omni to make reviving even more reliable!<br><br>[h3]Settings displayed in pause menu[/h3]<br>Just in case you don't remember your exact settings ;)<br><br>[hr][/hr]<br>[h1]Special thanks and credits[/h1]<br>[h3]To Dual-Iron [/h3]<br>Whose original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2950327774]Revivify[/url] constitutes 99% of the work put into the base functionality this mod! My contributions in Revivify Omni are just a little cherry on top of an already delicious cake.<br><br>[h3]To UO[/h3]<br>For helping me figure out the proper way to sync reviving in Rain Meadow!<br><br>[h3]To Auxiar Molkhun[/h3]<br>Just for also making a nice fresh Revivify with new features while I was still working on mine! You should give it a try and see which one works best for you: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3632170621]Revivify - Meadow Support[/url]<br><br>[hr][/hr]<br>[h1]Want to report a bug? Suggest a feature? Contribute to the mod?[/h1]<br>Open an issue (with as many details as possible) or pull request on the [url=https://github.com/wonky2/RevivifyOmni]GitHub page[/url].<br>I will read comments here, but there's no guarantee I'll be able to help. I'll always try my best to fix issues nonetheless.",
 "thumb": "previews/3711589990.png",
 "url": "https://andrew.fm/rainworld/raindb/Revivify_Omni.zip",
 "requirements": "",
-"version": "1.2.5",
+"version": "1.2.6",
 "created": 1776795591,
-"modified": 1778084785,
+"modified": 1781014866,
 "tags": "Game Mechanics",
 "order": 4296
 });
@@ -68914,13 +68916,13 @@ Mods.push({
 "id": "peterklaus.amalgamation",
 "workshop_id": "3711755499",
 "author": "peterklaus",
-"desc": "[h1]THE AMALGAMATION[/h1]<br><br>An Amalgamation born not quite of slugcat, yet not quite of lizard. Too slugcat to be lizard, yet too lizard to be slugcat. Employed to deliver a message in land unbeknownst to you, one where survival will require your brute strength.<br><br><br>[h3] CURRENT FEATURES : [/h3]<br><br>- Campaign begins in new region, The Nest<br>- Starts with high lizard reputation<br>- Leeches ignore you<br>- Predators are more common and difficult<br>- Rocks stun for 2x longer<br>- Can maul <br>- One handedly holds many creatures & carries corpses easier<br>- Faster walk speed <br>- Ability to read broadcasts<br>- Custom ascension ending & additional ending<br>- Push to Meow compatibility<br>- [spoiler]Strictly carnivorous diet[/spoiler]<br>- [spoiler]Too frail to throw spears[/spoiler]<br>- [spoiler]Immune to explosives[/spoiler]<br><br>[h3] FUTURE FEATURES : [/h3]<br><br>- Expansion on The Nest<br>- More new broadcasts & custom dreams<br><br>[h1] CREDITS [/h1]<br><br>- Coding, general assistance, and moral support done by [url=https://steamcommunity.com/profiles/76561198808652459]dietpebsi[/url]!!<br>- Character created by and originally belonging to [url=https://scratch.mit.edu/users/golden_kat/]golden_kat[/url]!!<br>- Thumbnail made by [url=https://www.tiktok.com/@murbvv?_r=1&_t=ZT-95BTCwMUUak]Murry[/url]!!<br>- Playtesting done by [url=https://steamcommunity.com/profiles/76561199501019901]ellie[/url]!!<br>",
+"desc": "[h1]THE AMALGAMATION[/h1]<br><br>An Amalgamation born not quite of slugcat, yet not quite of lizard. Too slugcat to be lizard, yet too lizard to be slugcat. Employed to deliver a message in land unbeknownst to you, one where survival will require your brute strength.<br><br><br>[h3] CURRENT FEATURES : [/h3]<br><br>- Campaign begins in new region, The Nest<br>- Starts with high lizard reputation<br>- Leeches ignore you<br>- Predators are more common and difficult<br>- Rocks stun for 2x longer<br>- Can maul <br>- One handedly holds many creatures & carries corpses easier<br>- Faster walk speed <br>- Ability to read broadcasts<br>- Custom ascension ending & additional ending<br>- Push to Meow compatibility<br>- [spoiler]Strictly carnivorous diet[/spoiler]<br>- [spoiler]Too frail to throw spears[/spoiler]<br><br>[h3] FUTURE FEATURES : [/h3]<br><br>- Expansion on The Nest<br>- More new broadcasts & custom dreams<br><br>[h1] CREDITS [/h1]<br><br>- Coding, general assistance, and moral support done by [url=https://steamcommunity.com/profiles/76561198808652459]dietpebsi[/url]!!<br>- Character created by and originally belonging to [url=https://scratch.mit.edu/users/golden_kat/]golden_kat[/url]!!<br>- Thumbnail made by [url=https://www.tiktok.com/@murbvv?_r=1&_t=ZT-95BTCwMUUak]Murry[/url]!!<br>- Playtesting done by [url=https://steamcommunity.com/profiles/76561199501019901]ellie[/url]!!<br>",
 "thumb": "previews/3711755499.png",
 "url": "https://ln5.sync.com/dl/d85fcf530#h89sim5u-t2jmewnq-vcxxqtwx-v9st5r3a",
-"requirements": "slime-cubed.slugbase,magica.extendedslugbasefeatures,customslugcatutils,moreslugcats,regionkit,pom,crs,magica.hookinglibrary",
+"requirements": "slime-cubed.slugbase,magica.extendedslugbasefeatures,customslugcatutils,moreslugcats,magica.hookinglibrary",
 "version": "0.1",
 "created": 1776814611,
-"modified": 1779743829,
+"modified": 1780248018,
 "tags": "Campaigns,Regions,Downpour,Custom Slugcat",
 "order": 4297
 });
@@ -68949,11 +68951,11 @@ Mods.push({
 "desc": "Made for Corells' pacifist monk playthrough. Check out his youtube: https://www.youtube.com/@corells7839",
 "thumb": "previews/3712199679.png",
 "url": "https://andrew.fm/rainworld/raindb/Scug_halo_for_scugcat.zip",
-"requirements": "",
+"requirements": "moreslugcats",
 "version": "1.0.0",
 "created": 1776884425,
-"modified": 1779799491,
-"tags": "Cosmetics,Dependency,Tools",
+"modified": 1780426765,
+"tags": "Cosmetics",
 "order": 4299
 });
 
@@ -69042,13 +69044,13 @@ Mods.push({
 "id": "Purely_K2.companionship",
 "workshop_id": "3713502244",
 "author": "Purely_K2, Jayfeather, Therotconsumes, Thejaxrabbit",
-"desc": "This is a new mod that aims to add 3 new slugcats, The Flicker, The Amphibious, and The Mech, each with their own abilities and even custom items.<br><br>This mod intends to also add a semi-custom world state for the slugcats, as well as new items and abilities.<br><br>PLEASE NOTE! This Mod Is A WIP. Some Features May Be Incomplete Or Missing Entirely.<br><br>JOIN OUR DISCORD!!!<br>https://discord.gg/AsGBpUc6dT<br><br>Changes made in the most recent patch:<br>- general bug fixes<br><br>Special thanks to:<br><br>- Jayfeather, Therotconsumes (discord), and Purely_K2 for the ideas with this mod!<br>- Therotconsumes for all of the beautiful art!<br>- Purely_K2 for the coding!<br>- Level Editing done by Jayfeather!<br><br>With Help From:<br>- Thejaxrabbit (discord)<br>- Peter Klaus<br><br>Credits:<br>- Auto's curated slugcats for the slugcat sprites!<br>- Peter Klaus for the beautiful amphibious select screen art!",
+"desc": "This is a new mod that aims to add 3 new slugcats, The Flicker, The Amphibious, and The Mech, each with their own abilities and even custom items.<br><br>This mod intends to also add a semi-custom world state for the slugcats, as well as new items and abilities.<br><br>PLEASE NOTE! This Mod Is A WIP. Some Features May Be Incomplete Or Missing Entirely.<br><br>JOIN OUR DISCORD!!!<br>https://discord.gg/AsGBpUc6dT<br><br>Changes made in the most recent patch:<br>- added amphibious sprite<br>- general bug fixes<br><br>Special thanks to:<br><br>- Jayfeather, Therotconsumes (discord), and Purely_K2 for the ideas with this mod!<br>- Therotconsumes for all of the beautiful art!<br>- Purely_K2 for the coding!<br>- Level Editing done by Jayfeather!<br><br>With Help From:<br>- Thejaxrabbit (discord)<br>- Peter Klaus<br><br>Credits:<br>- Auto's curated slugcats for the slugcat sprites!<br>- Peter Klaus for the beautiful amphibious select screen art!",
 "thumb": "previews/3713502244.png",
 "url": "https://ln5.sync.com/dl/ac2f82090#62gd8u3m-c7h5tyzp-j33cp3vv-w6nxcnhk",
 "requirements": "slime-cubed.slugbase,regionkit,iteratorCreator",
 "version": "0.1.0",
 "created": 1777073354,
-"modified": 1779141412,
+"modified": 1780154061,
 "tags": "Custom Slugcat",
 "order": 4305
 });
@@ -69232,13 +69234,13 @@ Mods.push({
 "id": "kily.meleespear",
 "workshop_id": "3716416262",
 "author": "kily",
-"desc": "------------------update---------------------<br>Dependency : Improved Input Config: Extended<br><br>Spearmaster compatibility, now Spearcat can feed by melee spear.<br>Also, because spearcat is skinny cat, one handed melee damage is decreased to 70%, yet dual wielding  by spercat deals 130% damage.<br><br>NEW: Added dash pogo(idea from Rhemorass). Configure flotier jump. Now melee will trigger explosiveSpear and electricSpear<br>---------------------------------------------<br><br>Scug have mastered powerful weapon techniques.<br>Key bind configurable at remix menu. <br>My key bind advice:<br>i use keyboard A as melee spear key, and keyboard X as throw key.<br>when you press A with dev tools on, scug will perform slow motion attack, which is very cool.<br>---------------------------------------<br><br>melee attack<br>[img]https://i.imgur.com/m6SsBK0.gif[/img]<br>----------------------------------------<br><br>deflect spears<br>[img]https://i.imgur.com/hBPbukf.gif[/img]<br>---------------------------------------<br><br>pups & befriended lizards & good scavs protection<br>[img]https://i.imgur.com/TT9EAYv.gif[/img]<br>---------------------------------------<br><br>pogo jump(this won't make hunting a red lizard any easier, i died so many times)<br>[img]https://i.imgur.com/yq1vNfa.gif[/img]<br>---------------------------------------",
+"desc": "------------------update---------------------<br>Dependency : Improved Input Config: Extended<br><br><br>NEW: Changed the way scug attacks. Instead of pointing to the enemy itself, the spear will strike in the direction based on your key inputs.<br><br>If the enemy is atop, attack may miss  if up key is not pressed.<br><br> <br>---------------------------------------------<br><br>Scug have mastered powerful weapon techniques.<br>Key bind configurable at remix menu. <br>My key bind advice:<br>i use keyboard A as melee spear key, and keyboard X as throw key.<br>when you press A with dev tools on, scug will perform slow motion attack, which is very cool.<br>---------------------------------------<br><br>melee attack<br>[img]https://i.imgur.com/m6SsBK0.gif[/img]<br>----------------------------------------<br><br>deflect spears<br>[img]https://i.imgur.com/hBPbukf.gif[/img]<br>---------------------------------------<br><br>pups & befriended lizards & good scavs protection<br>[img]https://i.imgur.com/TT9EAYv.gif[/img]<br>---------------------------------------<br><br>pogo jump(this won't make hunting a red lizard any easier, i died so many times)<br>[img]https://i.imgur.com/yq1vNfa.gif[/img]<br>---------------------------------------",
 "thumb": "previews/3716416262.png",
 "url": "https://andrew.fm/rainworld/raindb/Melee_Spear_Mod.zip",
 "requirements": "improved-input-config",
-"version": "0.2.3",
+"version": "0.2.5",
 "created": 1777461916,
-"modified": 1779165851,
+"modified": 1780910844,
 "tags": "Game Mechanics",
 "order": 4317
 });
@@ -69296,13 +69298,13 @@ Mods.push({
 "id": "doopaboop.multipleinputkeybinds",
 "workshop_id": "3717428501",
 "author": "doopaboop",
-"desc": "Lets you bind multiple inputs to a single keybind.<br>Meant to be used to make hotkeys (e.g. bind down + jump to g to slide when pressing g)<br><br>(just like celeste)<br><br>celeste image made using this: https://bravelycowering.net/celeste-textbox-generator/<br>fonts used: redondo, renogare<br><br><br>probably no controller support<br><br>if mod doesn't work, try clearing keybinds",
+"desc": "Lets you bind multiple inputs to a single keybind.<br>Meant to be used to make hotkeys (e.g. bind down + jump to g to slide when pressing g)<br><br>(just like celeste)<br><br><br>Compatible with IVLD's SOCD: https://steamcommunity.com/sharedfiles/filedetails/?id=3563564469<br><br>celeste image made using this: https://bravelycowering.net/celeste-textbox-generator/<br>fonts used: redondo, renogare<br><br><br>probably no controller support",
 "thumb": "previews/3717428501.png",
 "url": "https://andrew.fm/rainworld/raindb/Multiple_Input_Keybinds.zip",
 "requirements": "improved-input-config",
 "version": "0.1.0",
 "created": 1777602190,
-"modified": 1778127649,
+"modified": 1780709192,
 "tags": "Game Mechanics,Accessibility",
 "order": 4321
 });
@@ -69403,17 +69405,17 @@ Mods.push({
 });
 
 Mods.push({
-"name": "The Fuse",
+"name": "The Fuse (and others) DMS",
 "id": "TheFuse.Fuse",
 "workshop_id": "3718939866",
 "author": "lamaslayer4622",
-"desc": "[WIP DMS]                    The Fuse, son of The Artificer                    A heroic slugcat that uses killing as a last resort when it comes to Scavengers and Slugcats.                    Currrently this DMS contains The Fuse age 16, 17, and 19, and The Match age 19 (Wip)                    Made using Cutscene Slugcat from Auro as a template. I got permission, thank you for letting me use this!!                    https://steamcommunity.com/sharedfiles/filedetails/?id=3021438038",
+"desc": "[WIP DMS]                    The Fuse, son of The Artificer                    A blue, heroic slugcat that uses killing as a last resort when it comes to Scavengers and Slugcats.                    The Match, other son of The Artificer                    A green, villainess slugcat that idolizes The Artificer and follows her path of killing Scavengers.                    Sol, one of the twins and one of the original trio before Fuse, Tobi, and Moca joined                    A grey, funcle slugcat that loves sight-seeing. Blinds himself after a certain incident.                    Luna, the other twin and one of the original trio before Fuse, Tobi, and Moca joined                    A pink, loving slugcat that loves speaking with others. Becomes unable to speak after a certain incident.                    Rel, one of the original trio before Fuse, Tobi, and Moca joined                    A red-ish, quiet slugcat that loves listening to what's around her. Becomes unable to hear after a certain incident.                    Currrently this DMS contains The Fuse age 16, 17, and 19, The Match age 19, The Match (Chieftain mask alt), Sol, Luna, and Rel (Pre and Post timeskip of all three)                    Made using Cutscene Slugcat from Auro as a template. I got permission, thank you for letting me use this!!                    https://steamcommunity.com/sharedfiles/filedetails/?id=3021438038",
 "thumb": "previews/3718939866.png",
-"url": "https://andrew.fm/rainworld/raindb/The_Fuse.zip",
+"url": "https://andrew.fm/rainworld/raindb/The_Fuse_and_others_DMS.zip",
 "requirements": "dressmyslugcat",
-"version": "1.0.2",
+"version": "1.1.0",
 "created": 1777787969,
-"modified": 1779766170,
+"modified": 1780202649,
 "tags": "Cosmetics",
 "order": 4328
 });
@@ -69482,6 +69484,22 @@ Mods.push({
 });
 
 Mods.push({
+"name": "Snowelle Slugcat",
+"id": "snowelle.dmstemplate",
+"workshop_id": "3719912384",
+"author": "Noelle Blais",
+"desc": "DMS Scug for Snowelle",
+"thumb": "previews/3719912384.png",
+"url": "https://andrew.fm/rainworld/raindb/Snowelle_Slugcat.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1777909673,
+"modified": 1777909673,
+"tags": "Cosmetics",
+"order": 4333
+});
+
+Mods.push({
 "name": "DMS Pretty Slugcats",
 "id": "prettybow.slugcat",
 "workshop_id": "3720528341",
@@ -69494,7 +69512,7 @@ Mods.push({
 "created": 1777999326,
 "modified": 1778358042,
 "tags": "Cosmetics",
-"order": 4333
+"order": 4334
 });
 
 Mods.push({
@@ -69510,7 +69528,7 @@ Mods.push({
 "created": 1778011868,
 "modified": 1778358064,
 "tags": "Cosmetics",
-"order": 4334
+"order": 4335
 });
 
 Mods.push({
@@ -69526,7 +69544,7 @@ Mods.push({
 "created": 1778026350,
 "modified": 1778818763,
 "tags": "",
-"order": 4335
+"order": 4336
 });
 
 Mods.push({
@@ -69542,7 +69560,7 @@ Mods.push({
 "created": 1778047374,
 "modified": 1778206975,
 "tags": "Gameplay",
-"order": 4336
+"order": 4337
 });
 
 Mods.push({
@@ -69558,23 +69576,23 @@ Mods.push({
 "created": 1778066937,
 "modified": 1778066937,
 "tags": "Cosmetics",
-"order": 4337
+"order": 4338
 });
 
 Mods.push({
 "name": "Parry Mode",
 "id": "parrymod",
 "workshop_id": "3721361378",
-"author": "littlewawa",
+"author": "JuHyunjin",
 "desc": "[h1]PARRYSCUG[/h1]<br><br>A simple but satisfying parry mod for Rain World.<br><br>PARRYSCUG lets your slugcat enter a short parry stance and block or deflect incoming attacks with the right timing, including weapons, projectiles, bites, stabs, and other supported threats.  <br>Time it well, and you can turn danger back against the world.<br><br>[h2]How to Use[/h2]<br>Press the parry key to enter a brief parry stance.  <br>If a valid incoming attack hits during the active frames, it will be blocked or deflected.<br><br>The default key is [b]C[/b], but it can be changed in the Remix settings.<br><br>[h2]Notes[/h2]<br>[list]<br>[*]This mod is still being improved, so small bugs or weird interactions may happen.<br>[*]Some modded weapons, creatures, or attacks may not be fully supported.<br>[/list]<br><br>[h2]If the Mod Does Not Run[/h2]<br><br>There may still be an issue caused by my old silly mistake. Sorry about that...<br><br>If the mod does not run, please try this:<br><br>[olist]<br>[*]Go to:<br>[code]C:/Program Files (x86)/Steam/steamapps/common/Rain World/RainWorld_Data/StreamingAssets/mods[/code]<br><br>[*]Delete the [b]parrymod[/b] folder if it exists.<br><br>[*]Re-apply / reactivate the mod in Remix.<br>[/olist]<br><br>If it still does not work, please leave a comment.<br><br>[h2]Custom Image / Sound[/h2]<br><br>You can use your own image and sound for successful parries.<br><br>Place your custom files inside the mod's [b]user_assets[/b] folder.<br><br>[h3]Normal Parry Image[/h3]<br>[list]<br>[*]The file name must be [b]image[/b].<br>[*]Supported extensions: [b].png[/b], [b].jpg[/b], [b].jpeg[/b]<br>[*]Examples: [b]image.png[/b], [b]image.jpg[/b], [b]image.jpeg[/b]<br>[/list]<br><br>[h3]Normal Parry Sound[/h3]<br>[list]<br>[*]The file name must be [b]parry_sound[/b].<br>[*]Supported extension: [b].wav[/b]<br>[*]Example: [b]parry_sound.wav[/b]<br>[/list]<br><br>[h3]Extreme Parry Image / Sound[/h3]<br><br>Some especially powerful parries can use separate custom image and sound files.<br><br>[list]<br>[*]For the Extreme Parry image, use the file name [b]parry_extreme[/b].<br>[*]Supported image extensions: [b].png[/b], [b].jpg[/b], [b].jpeg[/b]<br>[*]Examples: [b]parry_extreme.png[/b], [b]parry_extreme.jpg[/b], [b]parry_extreme.jpeg[/b]<br><br>[*]For the Extreme Parry sound, use the file name [b]parry_extreme[/b].<br>[*]Supported sound extension: [b].wav[/b]<br>[*]Example: [b]parry_extreme.wav[/b]<br>[/list]<br><br>Extreme Parry custom image and sound can be toggled separately in Remix settings.<br><br>If the files are missing or named incorrectly, the mod will simply use the normal custom files or default effects/sound instead.<br><br>[h2]Feedback[/h2]<br>If you find any bugs, please report them to: wawakarma250@gmail.com<br><br>Bug reports and suggestions are welcome.  <br>Have fun parrying!<br><br>[h2]Credits[/h2]<br>Thumbnail artwork was inspired by PARRYMAN.  <br>Thanks to everyone who shared their wonderful suggestions and feedback!",
 "thumb": "previews/3721361378.png",
 "url": "https://andrew.fm/rainworld/raindb/Parry_Mode.zip",
 "requirements": "rwremix,improved-input-config",
 "version": "0.5.0",
 "created": 1778127052,
-"modified": 1779716552,
+"modified": 1780667811,
 "tags": "",
-"order": 4338
+"order": 4339
 });
 
 Mods.push({
@@ -69590,7 +69608,7 @@ Mods.push({
 "created": 1778161103,
 "modified": 1778990418,
 "tags": "Items,Base,Downpour,Watcher",
-"order": 4339
+"order": 4340
 });
 
 Mods.push({
@@ -69605,7 +69623,7 @@ Mods.push({
 "created": 1778190202,
 "modified": 1778190202,
 "tags": "",
-"order": 4340
+"order": 4341
 });
 
 Mods.push({
@@ -69622,7 +69640,7 @@ Mods.push({
 "created": 1778268458,
 "modified": 1778268458,
 "tags": "Regions",
-"order": 4341
+"order": 4342
 });
 
 Mods.push({
@@ -69638,7 +69656,7 @@ Mods.push({
 "created": 1778289531,
 "modified": 1778343942,
 "tags": "",
-"order": 4342
+"order": 4343
 });
 
 Mods.push({
@@ -69654,7 +69672,7 @@ Mods.push({
 "created": 1778305579,
 "modified": 1778305579,
 "tags": "",
-"order": 4343
+"order": 4344
 });
 
 Mods.push({
@@ -69670,7 +69688,7 @@ Mods.push({
 "created": 1778332956,
 "modified": 1778332956,
 "tags": "Cosmetics,Dependency,Tools",
-"order": 4344
+"order": 4345
 });
 
 Mods.push({
@@ -69686,7 +69704,7 @@ Mods.push({
 "created": 1778370298,
 "modified": 1778370298,
 "tags": "",
-"order": 4345
+"order": 4346
 });
 
 Mods.push({
@@ -69702,7 +69720,7 @@ Mods.push({
 "created": 1778372963,
 "modified": 1778372963,
 "tags": "Cosmetics",
-"order": 4346
+"order": 4347
 });
 
 Mods.push({
@@ -69719,7 +69737,7 @@ Mods.push({
 "created": 1778388128,
 "modified": 1778388128,
 "tags": "Cosmetics,Dependency,Game Mechanics",
-"order": 4347
+"order": 4348
 });
 
 Mods.push({
@@ -69734,7 +69752,7 @@ Mods.push({
 "created": 1778441368,
 "modified": 1778441368,
 "tags": "",
-"order": 4348
+"order": 4349
 });
 
 Mods.push({
@@ -69750,7 +69768,7 @@ Mods.push({
 "created": 1778516952,
 "modified": 1779180844,
 "tags": "Game Modes,Compatible With: Base,Compatible With: Downpour,Compatible With: The Watcher",
-"order": 4349
+"order": 4350
 });
 
 Mods.push({
@@ -69766,7 +69784,7 @@ Mods.push({
 "created": 1778518184,
 "modified": 1778518184,
 "tags": "",
-"order": 4350
+"order": 4351
 });
 
 Mods.push({
@@ -69782,7 +69800,7 @@ Mods.push({
 "created": 1778531001,
 "modified": 1778531001,
 "tags": "",
-"order": 4351
+"order": 4352
 });
 
 Mods.push({
@@ -69797,7 +69815,7 @@ Mods.push({
 "created": 1778561986,
 "modified": 1778561986,
 "tags": "Game Mechanics",
-"order": 4352
+"order": 4353
 });
 
 Mods.push({
@@ -69813,7 +69831,7 @@ Mods.push({
 "created": 1778605757,
 "modified": 1778605757,
 "tags": "Cosmetics",
-"order": 4353
+"order": 4354
 });
 
 Mods.push({
@@ -69829,7 +69847,7 @@ Mods.push({
 "created": 1778610518,
 "modified": 1778610518,
 "tags": "Cosmetics",
-"order": 4354
+"order": 4355
 });
 
 Mods.push({
@@ -69845,7 +69863,7 @@ Mods.push({
 "created": 1778620083,
 "modified": 1779129633,
 "tags": "Base,Downpour,Watcher,Cosmetics,Game Mechanics",
-"order": 4355
+"order": 4356
 });
 
 Mods.push({
@@ -69861,7 +69879,7 @@ Mods.push({
 "created": 1778621548,
 "modified": 1778621548,
 "tags": "Cosmetics",
-"order": 4356
+"order": 4357
 });
 
 Mods.push({
@@ -69877,7 +69895,7 @@ Mods.push({
 "created": 1778621777,
 "modified": 1778621777,
 "tags": "Cosmetics",
-"order": 4357
+"order": 4358
 });
 
 Mods.push({
@@ -69893,7 +69911,7 @@ Mods.push({
 "created": 1778676992,
 "modified": 1778676992,
 "tags": "",
-"order": 4358
+"order": 4359
 });
 
 Mods.push({
@@ -69909,7 +69927,7 @@ Mods.push({
 "created": 1778690938,
 "modified": 1778690938,
 "tags": "Cosmetics",
-"order": 4359
+"order": 4360
 });
 
 Mods.push({
@@ -69925,7 +69943,7 @@ Mods.push({
 "created": 1778704161,
 "modified": 1778704161,
 "tags": "Cosmetics",
-"order": 4360
+"order": 4361
 });
 
 Mods.push({
@@ -69941,7 +69959,7 @@ Mods.push({
 "created": 1778709803,
 "modified": 1778709803,
 "tags": "",
-"order": 4361
+"order": 4362
 });
 
 Mods.push({
@@ -69957,7 +69975,7 @@ Mods.push({
 "created": 1778760589,
 "modified": 1778990281,
 "tags": "Cosmetics",
-"order": 4362
+"order": 4363
 });
 
 Mods.push({
@@ -69973,7 +69991,7 @@ Mods.push({
 "created": 1778829463,
 "modified": 1779488904,
 "tags": "Cosmetics",
-"order": 4363
+"order": 4364
 });
 
 Mods.push({
@@ -69989,7 +70007,7 @@ Mods.push({
 "created": 1778909688,
 "modified": 1779549534,
 "tags": "Custom Slugcat",
-"order": 4364
+"order": 4365
 });
 
 Mods.push({
@@ -70005,7 +70023,7 @@ Mods.push({
 "created": 1778911873,
 "modified": 1779382717,
 "tags": "",
-"order": 4365
+"order": 4366
 });
 
 Mods.push({
@@ -70021,7 +70039,7 @@ Mods.push({
 "created": 1778955239,
 "modified": 1778955239,
 "tags": "Game Mechanics,Cosmetics",
-"order": 4366
+"order": 4367
 });
 
 Mods.push({
@@ -70029,14 +70047,14 @@ Mods.push({
 "id": "365838258373394ProjectAnode",
 "workshop_id": "3727261771",
 "author": "The Anode Team",
-"desc": "This mod is barely anything yet. if you want to help me and if anyones want to code for the mod or help with art Please dm me on discord superivar1000",
+"desc": "This mod is barely anything yet. if you want to help me and if anyones want to code for the mod or help with art Please dm me on discord superivar1000 ",
 "url": "https://andrew.fm/rainworld/raindb/Project_Anode.zip",
 "requirements": "regionkit",
-"version": "0.0.1",
+"version": "mod",
 "created": 1778957572,
-"modified": 1778957572,
+"modified": 1780341299,
 "tags": "Regions",
-"order": 4367
+"order": 4368
 });
 
 Mods.push({
@@ -70052,7 +70070,7 @@ Mods.push({
 "created": 1778967799,
 "modified": 1779243041,
 "tags": "",
-"order": 4368
+"order": 4369
 });
 
 Mods.push({
@@ -70068,7 +70086,7 @@ Mods.push({
 "created": 1778993013,
 "modified": 1778993013,
 "tags": "Cosmetics",
-"order": 4369
+"order": 4370
 });
 
 Mods.push({
@@ -70076,15 +70094,15 @@ Mods.push({
 "id": "name.placeholder",
 "workshop_id": "3727709938",
 "author": "Radijs",
-"desc": "Gives the slugcats 2 hipslots and 2 spear slots uses 1 2 3 and 4 to store stuff can be changed via the extended config settings <br>biggly big credits to the infinite spear mod for being open source it helped me alot in creating this mod<br>(current version 1.1.8)",
+"desc": "Gives the slugcat 2 spear slots on the back and 2 hip slots the amount is configerable via the remix settings and the keybinds are configerable via config extended<br>default keybinds are 1 and 2 for the spears and 3 and 4 for the hips<br>credit to the infinte spears mod as i used some of their code for the spear rendering<br>current mod version is 1.3.1",
 "thumb": "previews/3727709938.png",
 "url": "https://andrew.fm/rainworld/raindb/Prepared_Slugcat.zip",
 "requirements": "improved-input-config",
-"version": "1.1.8",
+"version": "1.3.1",
 "created": 1779015788,
-"modified": 1779719294,
+"modified": 1780920666,
 "tags": "Cosmetics",
-"order": 4370
+"order": 4371
 });
 
 Mods.push({
@@ -70100,7 +70118,7 @@ Mods.push({
 "created": 1779076063,
 "modified": 1779076063,
 "tags": "Cosmetics",
-"order": 4371
+"order": 4372
 });
 
 Mods.push({
@@ -70116,7 +70134,7 @@ Mods.push({
 "created": 1779080203,
 "modified": 1779080203,
 "tags": "Gameplay Mechanics",
-"order": 4372
+"order": 4373
 });
 
 Mods.push({
@@ -70132,23 +70150,39 @@ Mods.push({
 "created": 1779129313,
 "modified": 1779293820,
 "tags": "Game Mechanics,Accessibility",
-"order": 4373
+"order": 4374
 });
 
 Mods.push({
 "name": "SOCD",
 "id": "shrub.socd",
 "workshop_id": "3728619028",
-"author": "shrubfromtomorrow",
+"author": "shrubfromtomorrow, randi_moth",
 "desc": "Toggleable, in-game only, last-wins SOCD for movement. Keyboard only.<br>Compatible with Input Display and Input Logger<br><br>Source: https://github.com/shrubfromtomorrow/SOCD",
 "thumb": "previews/3728619028.png",
 "url": "https://andrew.fm/rainworld/raindb/SOCD.zip",
 "requirements": "",
-"version": "0.1.1",
+"version": "0.1.2",
 "created": 1779132299,
-"modified": 1779160451,
+"modified": 1780178627,
 "tags": "Tools",
-"order": 4374
+"order": 4375
+});
+
+Mods.push({
+"name": "The Knight - Borys DMS",
+"id": "Borys.Passionstruck",
+"workshop_id": "3728727822",
+"author": "arrowstike_bunn, Pika-Chan",
+"desc": "Borys from Passionstruck, a game created by Alice Pika-Chan on Itch.io!!<br><br>Feel free to suggest stuff to add or change and let me know if you encounter any issues<br>turn face to #FFFFFF<br><br>need to add: Asymmetry to legs",
+"thumb": "previews/3728727822.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Knight__Borys_DMS.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1779146375,
+"modified": 1779240196,
+"tags": "Cosmetics",
+"order": 4376
 });
 
 Mods.push({
@@ -70164,7 +70198,7 @@ Mods.push({
 "created": 1779232908,
 "modified": 1779232908,
 "tags": "Cosmetics",
-"order": 4375
+"order": 4377
 });
 
 Mods.push({
@@ -70179,7 +70213,7 @@ Mods.push({
 "created": 1779284551,
 "modified": 1779284551,
 "tags": "Cosmetics",
-"order": 4376
+"order": 4378
 });
 
 Mods.push({
@@ -70187,15 +70221,15 @@ Mods.push({
 "id": "Kiss",
 "workshop_id": "3729757935",
 "author": "无悔的正义",
-"desc": "Happy Valentine's Day to everyone! This is the REAL Kiss Mod! It lets you kiss anything and anyone you love!<br><br>[h1]Crossover Effects[/h1]<br>CreatureChat will make your slugcat say lovey-dovey things<br><br>[h1]Controls[/h1]<br>Grab a creature or item and hold the kiss key to smooch.<br>Default key is Left Ctrl, rebindable in settings.<br>If another slugcat is well-fed and not a pup, kissing them puts them in a 30-second breeding state; falling asleep during this time will spawn a pup.<br><br>[h1] Attention!!! [/h1]<br>Breeding status refers to the 30 second burst of love on the player's body, which has an effect similar to animals in Minecraft. Please consider giving a negative review after playing this mod<br><br>Meadow compatibility might be attempted, that'd be the best!<br>(The ones in the picture are me and my friend. I'm truly grateful that she stayed up late into the night to draw a mod cover for me.)",
+"desc": "Happy Valentine's Day to everyone! This is the REAL Kiss Mod! It lets you kiss anything and anyone you love!<br><br>[h1]Crossover Effects[/h1]<br>CreatureChat will make your slugcat say lovey-dovey things<br>[h2]Meadow is compatible!!!!!!!![/h2]<br><br><br>[h1]Controls[/h1]<br>Grab a creature or item and hold the kiss key to smooch.<br>Default key is Left Ctrl, rebindable in settings.<br>If another slugcat is well-fed and not a pup, kissing them puts them in a 30-second breeding state; falling asleep during this time will spawn a pup.<br><br>[h1] Attention!!! [/h1]<br>Breeding status refers to the 30 second burst of love on the player's body, which has an effect similar to animals in Minecraft. Please consider giving a negative review after playing this mod<br><br><br>(The ones in the picture are me and my friend. I'm truly grateful that she stayed up late into the night to draw a mod cover for me.)",
 "thumb": "previews/3729757935.png",
 "url": "https://andrew.fm/rainworld/raindb/Kiss.zip",
 "requirements": "improved-input-config",
-"version": "0.21",
+"version": "0.3",
 "created": 1779303142,
-"modified": 1779467002,
+"modified": 1780595814,
 "tags": "",
-"order": 4377
+"order": 4379
 });
 
 Mods.push({
@@ -70211,7 +70245,7 @@ Mods.push({
 "created": 1779390415,
 "modified": 1779390415,
 "tags": "Cosmetics",
-"order": 4378
+"order": 4380
 });
 
 Mods.push({
@@ -70227,7 +70261,7 @@ Mods.push({
 "created": 1779391952,
 "modified": 1779391952,
 "tags": "Base,Downpour,Watcher,Accessibility",
-"order": 4379
+"order": 4381
 });
 
 Mods.push({
@@ -70242,7 +70276,7 @@ Mods.push({
 "created": 1779427990,
 "modified": 1779427990,
 "tags": "",
-"order": 4380
+"order": 4382
 });
 
 Mods.push({
@@ -70258,7 +70292,7 @@ Mods.push({
 "created": 1779484706,
 "modified": 1779632587,
 "tags": "",
-"order": 4381
+"order": 4383
 });
 
 Mods.push({
@@ -70274,7 +70308,7 @@ Mods.push({
 "created": 1779486244,
 "modified": 1779486848,
 "tags": "Creatures,Game Mechanics",
-"order": 4382
+"order": 4384
 });
 
 Mods.push({
@@ -70288,9 +70322,9 @@ Mods.push({
 "requirements": "slime-cubed.slugbase,magica.extendedslugbasefeatures,moreslugcats,magica.hookinglibrary,pom",
 "version": "0.1",
 "created": 1779491489,
-"modified": 1779493264,
+"modified": 1780247322,
 "tags": "Campaigns,Custom Slugcat,Downpour",
-"order": 4383
+"order": 4385
 });
 
 Mods.push({
@@ -70306,7 +70340,7 @@ Mods.push({
 "created": 1779535363,
 "modified": 1779579353,
 "tags": "Game Mechanics,Cosmetics",
-"order": 4384
+"order": 4386
 });
 
 Mods.push({
@@ -70322,7 +70356,7 @@ Mods.push({
 "created": 1779567646,
 "modified": 1779567646,
 "tags": "Cosmetics",
-"order": 4385
+"order": 4387
 });
 
 Mods.push({
@@ -70339,7 +70373,7 @@ Mods.push({
 "created": 1779569019,
 "modified": 1779569019,
 "tags": "region,Custom Slugcat,Campaigns",
-"order": 4386
+"order": 4388
 });
 
 Mods.push({
@@ -70355,7 +70389,7 @@ Mods.push({
 "created": 1779587617,
 "modified": 1779587617,
 "tags": "Arenas",
-"order": 4387
+"order": 4389
 });
 
 Mods.push({
@@ -70371,39 +70405,671 @@ Mods.push({
 "created": 1779636878,
 "modified": 1779636878,
 "tags": "Regions",
-"order": 4388
+"order": 4390
 });
 
 Mods.push({
-"name": "The Loner / Lonecat",
+"name": "The Loner",
 "id": "ethan.lonescug",
 "workshop_id": "3732998160",
 "author": "Ethan78784",
-"desc": "A slugcat drawn away from its family by a monster. You wish you really were alone.<br><br><br>This is a HEAVY WIP mod with only a sleep screen, ascension art, menu screen, and intro. <br><br>DOWNPOUR IS NOT REQUIRED BUT IS INTENDED TO HAVE ON<br><br><br><br><br><br>I am looking for people to help me work on this mod to add more stuff that i could never do such as level editing, coding, concept art, writers, literally anyone but especially coders.<br><br>The campaign itself is supposed to be a more defensive one with speed and evasion over aggression and combat, so the loner is pretty quick at walking, climbing poles, and traversing tunnels.<br><br>If you are interested in aiding me or even supporting this project, please just comment below so I know there is an audience! I will soon make a discord to house everything for this mod.<br><br>Enjoy the mod and leave some feedback on your experience!",
+"desc": "The Loner's Campaign.<br>A slugcat from long ago whose tragedy left them alone. Now hopeless, you search your surroundings for an ending to this pain.<br><br>This mod is a WIP!<br><br>I am looking for people to help me work on this mod to add more stuff that i could never do such as level editing, coding, concept art, writers, music artist, literally anyone but especially coders!<br><br>Join the discord below to be apart of the team or to discuss the mod!<br><br>https://discord.gg/Gp65bHacYQ<br><br>Goals / Plans :<br>At least 2 Custom Regions<br>Custom Ending<br>Unique Iterator<br>Unique Echo's<br>Unique Dialogue for Existing Iterators<br>Support for other regions / campaigns (that fit in timeline)<br><br>Want to add (but needs help) :<br>Custom Creatures<br>Custom Assets<br>4+ Custom Regions",
 "thumb": "previews/3732998160.png",
-"url": "https://andrew.fm/rainworld/raindb/The_Loner__Lonecat.zip",
+"url": "https://andrew.fm/rainworld/raindb/The_Loner.zip",
 "requirements": "slime-cubed.slugbase",
 "version": "0.1.0",
 "created": 1779753648,
-"modified": 1779753648,
-"tags": "Custom Slugcat",
-"order": 4389
+"modified": 1780414157,
+"tags": "Custom Slugcat,Campaigns",
+"order": 4391
 });
 
 Mods.push({
-"name": "BanditPups",
+"name": "Bandit Pups",
 "id": "BanditPups",
 "workshop_id": "3733270607",
 "author": "Levahka007",
-"desc": "Noisy Pups но теперь слизнекотята побывали на зоне (двухсмысленно)<br><br>К сожалению с помощью диалога вы не узнаете какой характер теперь у вашего слизнекотёнка, ведь все диалоги одинаковы!<br><br>К сожалению нету реплик для pushtomeow и когда они подбирают конкретный предмет.<br><br>Чтобы поменять диалоги слизнекотят зайдите в настройки NoisyPups и выберите cheekibreeki!<br><br>(содержит нецензурную брань. некоторые диалоги не присутствуют. автор не берёт на себя ответственность от увиденных матов или от того, что ваш любимый диалог бандитов не присутствует.)",
+"desc": "Noisy Pups но слизнекотята побывали на зоне! (двухсмысленно)<br>К сожалению вы больше не узнаете, какой характер у вашего слизнекотёнка, так как они все одинаковые.<br>Чтобы диалоги работали, зайдите в настройки мода Noisy Pups в меню 'РЕМИКС' и включите там cheekibreeki<br>(Автор не несёт ответственность за увиденные маты или то, что ваша игра сломалась ¯/_(ツ)_/¯)<br>",
 "thumb": "previews/3733270607.png",
-"url": "https://andrew.fm/rainworld/raindb/BanditPups.zip",
+"url": "https://andrew.fm/rainworld/raindb/Bandit_Pups.zip",
 "requirements": "Noisy_Pup",
-"version": "0.0.1",
+"version": "1.0.0",
 "created": 1779804239,
-"modified": 1779804239,
-"tags": "Custom Slugcat",
-"order": 4390
+"modified": 1780308532,
+"tags": "",
+"order": 4392
+});
+
+Mods.push({
+"name": "Arknight wang iterator skin--Ash to ash",
+"id": "arknightswang",
+"workshop_id": "3733348127",
+"author": "Wings Echo",
+"desc": "This is the iterator image of the Arknight character wang that I designed myself. I made it into the game skin and made it public. The official name of the iterator is Ash to Ash.",
+"thumb": "previews/3733348127.png",
+"url": "https://andrew.fm/rainworld/raindb/Arknight_wang_iterator_skinAsh_to_ash.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1779813147,
+"modified": 1779813147,
+"tags": "",
+"order": 4393
+});
+
+Mods.push({
+"name": "The Angler (BETA)",
+"id": "The Angler",
+"workshop_id": "3733483334",
+"author": "Unknown",
+"desc": "She can breathe underwater and glows das it.<br><br>note: the image above is modified using devtools. i havent figured out how to add palettes yet lol",
+"url": "https://andrew.fm/rainworld/raindb/The_Angler_BETA.zip",
+"requirements": "",
+"version": "",
+"created": 1779829340,
+"modified": 1779924731,
+"tags": "",
+"order": 4394
+});
+
+Mods.push({
+"name": "Repaired World",
+"id": "REW",
+"workshop_id": "3733483861",
+"author": "Squog",
+"desc": "this mod reworks the shaded citadel and the industrial complex",
+"url": "https://andrew.fm/rainworld/raindb/Repaired_World.zip",
+"requirements": "crs,regionkit,moreslugcats",
+"version": "0.1.2",
+"created": 1779829416,
+"modified": 1779829416,
+"tags": "Regions",
+"order": 4395
+});
+
+Mods.push({
+"name": "The Martyr",
+"id": "dietpebsi.martyr",
+"workshop_id": "3733553614",
+"author": "Dietpebsi",
+"desc": "A solumn slugcat trying to thrive in a dying world, you will use your unnatural abilities to your benefit, and become a companion to those who have been kind to you. You can rest easy knowing that the sun is long gone, but what does that mean to a little creature such as you?<br><br>Features:<br>- Scavengers (And positive rep with scavengers)<br>- Special pearl making (Unique types with different abilities)<br>- Custom dialogue for both Five Pebbles and ??? [spoiler]Not moon but close[/spoiler]<br>- Unique pearl readings + 1 custom pearl<br>- Unique broadcasts and the ability to read them, along with a broadcast storyline<br>- Three different endings<br>- New worldstate with... A weird amount of rain?<br>- Super awesome interactions with ?????? [spoiler]EQUIPMENT MANIFEST[/spoiler] <br>- References to another mod codeveloped with this one and with conjoined lore ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3711755499]The Amalgamation[/url])<br>- Cutscene tutorial<br>- Create pearls with two food pips (The process is very violent so be wary)<br>- Custom echo dialogue<br><br>CREDITS <br>- [url=https://steamcommunity.com/id/impeterklaus]Peter Klaus[/url] for a LOT of the art and moral support, thank you so much!!<br>- Videocult for Rain World<br>- A lot of the music is remixes of rw tracks (I put them into a blender thoughtfully until they sounded how I wanted them to)<br><br>COMMON FAQS:<br>'Why can't I move at the start?'<br>You need to wait for certain actions (like a scavenger picking up the pearl) for the cutscene to continue as normal<br><br>(Please be normal in the comments thanks lest I have to smite you down)",
+"thumb": "previews/3733553614.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Martyr.zip",
+"requirements": "slime-cubed.slugbase,customslugcatutils,magica.extendedslugbasefeatures,regionkit,crs,emgtx",
+"version": "0.1.0",
+"created": 1779838032,
+"modified": 1780088762,
+"tags": "Custom Slugcat,Campaigns,Base,Downpour",
+"order": 4396
+});
+
+Mods.push({
+"name": "EverLost",
+"id": "Ira.EverLost",
+"workshop_id": "3733570925",
+"author": "Ira",
+"desc": "a VERY wip mod. nothing really done yet but I'll do it sometime.          to do: mod cover, main menu scene needs fixing, literally eveything else- I have it all thought out just suck at coding X3.",
+"thumb": "previews/3733570925.png",
+"url": "https://andrew.fm/rainworld/raindb/EverLost.zip",
+"requirements": "slime-cubed.slugbase",
+"version": "0.1.0",
+"created": 1779840834,
+"modified": 1779895644,
+"tags": "Custom Slugcat,Campaigns,Regions",
+"order": 4397
+});
+
+Mods.push({
+"name": "Moth dms",
+"id": "mothskycotldms",
+"workshop_id": "3733573792",
+"author": "PinkTabby",
+"desc": "Dress my slugcat skin of moth from sky children of the light",
+"thumb": "previews/3733573792.png",
+"url": "https://andrew.fm/rainworld/raindb/Moth_dms.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1779841354,
+"modified": 1779841354,
+"tags": "Cosmetics",
+"order": 4398
+});
+
+Mods.push({
+"name": "Depths Blocker",
+"id": "23848.depthsblocker",
+"workshop_id": "3733620506",
+"author": "Coder23848",
+"desc": "Makes the Depths inaccessible by normal means.<br><br>Yes, this makes the game impossible to complete in vanilla. Installing mods that add other ways of beating the game is recommended.<br><br>Known Incompatibilities: Hallowed Grotto (fixed by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3734601001]Depths Blocker Hallowed Grotto Compatibility Patch[/url])",
+"thumb": "previews/3733620506.png",
+"url": "https://andrew.fm/rainworld/raindb/Depths_Blocker.zip",
+"requirements": "",
+"version": "1.0.0",
+"created": 1779849781,
+"modified": 1779849781,
+"tags": "",
+"order": 4399
+});
+
+Mods.push({
+"name": "Slugstep",
+"id": "slugstep",
+"workshop_id": "3734432427",
+"author": "JuHyunjin",
+"desc": "[h1]Scug Step[/h1]<br><br>[b]Scug Step[/b] allows Slugcat to use a short dash movement.<br><br>Move quickly, escape from enemies, or slip past incoming projectiles with a well-timed dash.<br><br>[h1]Features[/h1]<br><br>[list]<br>[*] Adds a short dash move for Slugcat.<br>[*] Move quickly without colliding with creatures while dashing. / Configurable in Remix<br>[*] Pass through spears, bombs, rocks, and other thrown objects while dashing. / Configurable in Remix<br>[*] Dash speed, dash duration, cooldown, and other values can be adjusted in Remix settings.<br>[/list]<br><br>[h1]Controls[/h1]<br><br>The default key is:<br><br>[b]V[/b]<br><br>If [b]Improved Input Config[/b] is installed, please change the dash key from the Controls menu.<br><br>If [b]Improved Input Config[/b] is not installed, the fallback key can be changed in Remix settings.<br><br>[h1]Notes[/h1]<br><br>[list]<br>[*] This mod is still being improved, so bugs or balance issues may exist.<br>[*] Some projectiles or attacks may not work as expected.<br>[*] If you find anything strange, please leave a comment.<br>[/list]<br><br>[h1]Credits[/h1]<br><br>Created by: [b]JuHyunjin[/b]",
+"thumb": "previews/3734432427.png",
+"url": "https://andrew.fm/rainworld/raindb/Slugstep.zip",
+"requirements": "rwremix",
+"version": "0.1.0",
+"created": 1779980801,
+"modified": 1780932278,
+"tags": "",
+"order": 4400
+});
+
+Mods.push({
+"name": "Lost Railway",
+"id": "LostRailway",
+"workshop_id": "3734553250",
+"author": "CopperCashew335",
+"desc": "A region which entrance has finally given way to errosion, filling in a missing peice to a bigger puzzle.<br>This region is planned to be part of a bigger collection of mods. (The name is still in progress)<br><br>I accidentally used a used acronym, so I had to replace all the names.<br><br><br>This is my first time finishing a mod, and so I tried to do most of the things you could do with a region mod! I want to continue to make mods and I will continue in future!<br>(Also please feel free to report incompatibilities to me)",
+"thumb": "previews/3734553250.png",
+"url": "https://ln5.sync.com/dl/2342e25b0#z2igbga8-wc6rqien-axeh2xwg-asj8uphi",
+"requirements": "regionkit,crs",
+"version": "1.0.0",
+"created": 1779995421,
+"modified": 1780155010,
+"tags": "Regions",
+"order": 4401
+});
+
+Mods.push({
+"name": "Depths Blocker Hallowed Grotto Patch",
+"id": "23848.depthsblockerhallowedgrottopatch",
+"workshop_id": "3734601001",
+"author": "Coder23848",
+"desc": "A compatibility patch between Depths Blocker and Hallowed Grotto.",
+"thumb": "previews/3734601001.png",
+"url": "https://andrew.fm/rainworld/raindb/Depths_Blocker_Hallowed_Grotto_Patch.zip",
+"requirements": "23848.depthsblocker,HallowedGrotto",
+"version": "1.0.0",
+"created": 1780001470,
+"modified": 1780001470,
+"tags": "",
+"order": 4402
+});
+
+Mods.push({
+"name": "Meatfix",
+"id": "reyvi.meatfix",
+"workshop_id": "3734789316",
+"author": "reyvi",
+"desc": "Fixes food gain from some Watcher creatures for meat-eating slugcats.<br>(Sand grubs, Tardigrades, Fire Sprite larvae, Rats)",
+"url": "https://andrew.fm/rainworld/raindb/Meatfix.zip",
+"requirements": "",
+"version": "1.0",
+"created": 1780035515,
+"modified": 1780035515,
+"tags": "",
+"order": 4403
+});
+
+Mods.push({
+"name": "Rain World Unbound (Beta)",
+"id": "rainworldunbound",
+"workshop_id": "3735170362",
+"author": "Alaina Plays Games",
+"desc": "Report any bugs in the comments please<br><br>This mod turns Rain World into a true open world game.<br><br>What Does It Do?:<br>You can freely travel without campaign specific restrictions.<br>You will spawn at your Slugcat's default spawn location in multiplayer regardless of campaign. (Please Test)<br>You can split up in multiplayer and go to different regions. (Please Test)<br>You will have your own individual karma and food levels in multiplayer.<br>You no longer have to wait for the host or whole lobby to open region gates in multiplayer. (Please Test)<br>The cycle will sync across regions.<br>Shelters will remain open across all active regions in multiplayer until every player is either sleeping or dead or the rain comes. (Please Test)<br>You will not be teleported to the host even at the start of the next cycle (Please Test)",
+"url": "https://andrew.fm/rainworld/raindb/Rain_World_Unbound_Beta.zip",
+"requirements": "",
+"version": "0.2.0",
+"created": 1780090460,
+"modified": 1780185672,
+"tags": "Gameplay,Multiplayer",
+"order": 4404
+});
+
+Mods.push({
+"name": "Palette Editor",
+"id": "magica.paletteeditor",
+"workshop_id": "3735315356",
+"author": "MagicaJaphet",
+"desc": "A tool for creating region palettes in real time.<br><br>[h1]CURRENTLY SUPPORTS[/h1]<br>* RegionKit's more fade palettes<br><br>[h2]Current Tools[/h2]<br>* Left Click - Paint onto palette texture<br>* Scroll Wheel - Changes brush size<br>* Right Click - Color picker<br>* Left Ctrl + Z - Undo<br>* Left Ctrl + X - Redo<br><br>[h2]Output[/h2]<br>The save image button outputs to [code]{Rain World Installation}/RainWorld_Data/StreamingAssets/savedpalettes[/code] which creates a mirror of the png by it's original palette name.<br><br>[url=https://github.com/MagicaJaphet/RW-Palette-Creator]Github[/url]",
+"thumb": "previews/3735315356.png",
+"url": "https://andrew.fm/rainworld/raindb/Palette_Editor.zip",
+"requirements": "magica.hookinglibrary",
+"version": "1.0.0",
+"created": 1780112572,
+"modified": 1780278165,
+"tags": "",
+"order": 4405
+});
+
+Mods.push({
+"name": "Striders",
+"id": "zigzoo3.Striders",
+"workshop_id": "3735711134",
+"author": "Zigzoo3",
+"desc": "Adds the Strider, a tall biomechanical creature.It should spawn in Shorelinebut it doesnt you might need to install Beastmaster Mod to spawn them in",
+"thumb": "previews/3735711134.png",
+"url": "https://andrew.fm/rainworld/raindb/Striders.zip",
+"requirements": "",
+"version": "1.0.0",
+"created": 1780164704,
+"modified": 1780164704,
+"tags": "",
+"order": 4406
+});
+
+Mods.push({
+"name": "Synced 1/10000 Chance For Foxy Jumpscare Every Second For Rain Meadow",
+"id": "Wonky.SyncedFoxyJumpscare",
+"workshop_id": "3735779866",
+"author": "Wonky (original by Damoonlord)",
+"desc": "same as the original but synced between players in the same Rain Meadow lobby<br><br>everyone who has this mod will be jumpscared at the same time (as long as the host has it too, otherwise it does nothing)<br><br>big thanks to damoonlord for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3497571857]the original[/url]",
+"url": "https://andrew.fm/rainworld/raindb/Synced_110000_Chance_For_Foxy_Jumpscare_Every_Second_For_Rain_Meadow.zip",
+"requirements": "henpemaz_rainmeadow",
+"version": "1.0.0",
+"created": 1780171897,
+"modified": 1780171897,
+"tags": "Game Mechanics",
+"order": 4407
+});
+
+Mods.push({
+"name": "Jules Skin",
+"id": "jules.slugcatskin",
+"workshop_id": "3735919860",
+"author": "marblefox40",
+"desc": "A cosmetic mod of my slugcat character for personal use.",
+"thumb": "previews/3735919860.png",
+"url": "https://andrew.fm/rainworld/raindb/Jules_Skin.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1780188993,
+"modified": 1780188993,
+"tags": "Cosmetics",
+"order": 4408
+});
+
+Mods.push({
+"name": "Meadow korean (WIP)",
+"id": "Meadow.korean",
+"workshop_id": "3736030295",
+"author": "Karnellon",
+"desc": "메도우 모드 제작자에게 찔르기 전에 미리 테스트 하는 용도의 모드입니다.",
+"thumb": "previews/3736030295.png",
+"url": "https://andrew.fm/rainworld/raindb/Meadow_korean_WIP.zip",
+"requirements": "",
+"version": "0.9",
+"created": 1780207767,
+"modified": 1780207767,
+"tags": "",
+"order": 4409
+});
+
+Mods.push({
+"name": "Peeks DMS pack for friends!",
+"id": "Mods4Friends.Peek",
+"workshop_id": "3736047295",
+"author": "pikafan1343445",
+"desc": "This DMS pack is for friends! Since I make lots of DMS I decided to bunch them all up into this mod. Ya!<br>Play as a lizard now!!<br>Please don't use these as templates, I plan to make free-to-use creature templates for lizards, Creatures and such in the future :^)!!!<br><br>Any extra details below:<br><br><br>Characters:<br><br>Amber - Magnificentmrkinnick",
+"thumb": "previews/3736047295.png",
+"url": "https://andrew.fm/rainworld/raindb/Peeks_DMS_pack_for_friends.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.1",
+"created": 1780210764,
+"modified": 1780210764,
+"tags": "Cosmetics",
+"order": 4410
+});
+
+Mods.push({
+"name": "Custom.Log() Output",
+"id": "trainzack.custom_log_output",
+"workshop_id": "3736595437",
+"author": "Trainzack",
+"desc": "Outputs anything logged via Custom.Log() to Rain World/BepInEx/LogOutput.log. Can also log to Rain World/consoleLog.txt if enabled.",
+"thumb": "previews/3736595437.png",
+"url": "https://andrew.fm/rainworld/raindb/CustomLog_Output.zip",
+"requirements": "",
+"version": "0.1.0",
+"created": 1780272953,
+"modified": 1780272953,
+"tags": "Tools,Logging",
+"order": 4411
+});
+
+Mods.push({
+"name": "Monksilly Memoriam",
+"id": "meowlus.monksillymemoriam",
+"workshop_id": "3736632989",
+"author": "Unknown",
+"desc": "Replaces the regular In Memoriam death screen with Monksilly.  Does absolutely nothing else.",
+"thumb": "previews/3736632989.png",
+"url": "https://andrew.fm/rainworld/raindb/Monksilly_Memoriam.zip",
+"requirements": "javadog.memoriam",
+"version": "1.0.0",
+"created": 1780279335,
+"modified": 1780875952,
+"tags": "Cosmetics",
+"order": 4412
+});
+
+Mods.push({
+"name": "Ancient spire",
+"id": "coldancientcity",
+"workshop_id": "3737125183",
+"author": "Zigzoo3",
+"desc": "A custom region: a Ancient city from the far past, before the Ancients died out. Adds 3 new mobs, 1 new item, one new region, one new slugcat, and custom game mechanics. The new mobs are the Striders, The Ancients, and the Mobile Worm Grass",
+"thumb": "previews/3737125183.png",
+"url": "https://andrew.fm/rainworld/raindb/Ancient_spire.zip",
+"requirements": "fisobs,watcher,moreslugcats,slime-cubed.slugbase,regionkit",
+"version": "0.1.2",
+"created": 1780352489,
+"modified": 1780859723,
+"tags": "",
+"order": 4413
+});
+
+Mods.push({
+"name": "Passage Tracker Updated",
+"id": "voiddeveloper.passagetracker",
+"workshop_id": "3737133235",
+"author": "Alex The Dragon, VoidDeveloper",
+"desc": "Adds a passage tracker to the ingame map, This mod has been updated by VoidDeveloper, it SHOULD work with the most latest version! alas the original code was written by Alex The Dragon. <br><br>Original mod can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2970941087&searchtext=passage<br><br>The source code has been uploaded here: https://github.com/VoidDevel0per/PassageTracker If I vanish fix it or smthn :3c",
+"thumb": "previews/3737133235.png",
+"url": "https://andrew.fm/rainworld/raindb/Passage_Tracker_Updated.zip",
+"requirements": "",
+"version": "1.0.3",
+"created": 1780353712,
+"modified": 1780355265,
+"tags": "Game Mechanics,Accessibility,Downpour,Base",
+"order": 4414
+});
+
+Mods.push({
+"name": "Spark the Electric Jestercat!",
+"id": "Sparkthejester.Dressslug",
+"workshop_id": "3737554534",
+"author": "Voidkeeper_Mari",
+"desc": "A Spark the electric jester DMS skin! <br><br>In dedication to a friend who indoctornated me into the series.<br>Just gotta feed the. 3 entire Spark the Electric Jester fans out there.<br><br>CURRENT SKINS:<br>Spark [Jacket seperate from his main DMS]<br>Fark <br>EJ <br><br>DMS by Vigaro<br>Spark the electric Jester By LakeFeperd",
+"thumb": "previews/3737554534.png",
+"url": "https://andrew.fm/rainworld/raindb/Spark_the_Electric_Jestercat.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0",
+"created": 1780423851,
+"modified": 1780512236,
+"tags": "Cosmetics",
+"order": 4415
+});
+
+Mods.push({
+"name": "Old Climbing Animation",
+"id": "oldclimb",
+"workshop_id": "3737801818",
+"author": "@None",
+"desc": "[img]https://files.catbox.moe/od5kos.png[/img]<br>Adds back the old climbing animation from the first Rain World prototype.<br><br>This old climbing animation was present in very early Rain World prototypes but was removed early in development. This mod adds it back because it looks silly.<br>This will probably look really weird with some DMS skins so keep that in mind.",
+"thumb": "previews/3737801818.png",
+"url": "https://andrew.fm/rainworld/raindb/Old_Climbing_Animation.zip",
+"requirements": "",
+"version": "1.0.0",
+"created": 1780462805,
+"modified": 1780469127,
+"tags": "Creatures,Game Mechanics,Cosmetics",
+"order": 4416
+});
+
+Mods.push({
+"name": "Abyssal Climb Creatures",
+"id": "abcritters",
+"workshop_id": "3738205588",
+"author": "Sharkboi2701",
+"desc": "dont spawn in the region yet<br><br>also i have 2 things to ask<br><br>first:<br>have most of my creature mods been good?<br>and if so, comment ur favorite one....<br><br>second:<br>this one feels a bit mean and greedy but<br>could someone try an remake these with fisobs<br>along with a uhh<br>custom creature<br>maybe like<br>a big jetfish or a uhhh<br>small semi aquatic miros bird<br>big snail? or turtle whatever u wanna call em<br>maybe a recode for the bubble weavers? something simular to the uhh mite mod?<br>im not sure<br><br><br>also thank you for apperciating my mods :D",
+"thumb": "previews/3738205588.png",
+"url": "https://andrew.fm/rainworld/raindb/Abyssal_Climb_Creatures.zip",
+"requirements": "lizardcustomizer,lb-fgf-m4r-ik.custom-centis",
+"version": "0.1.0",
+"created": 1780525991,
+"modified": 1780525991,
+"tags": "Creatures",
+"order": 4417
+});
+
+Mods.push({
+"name": "Achievement Blocker",
+"id": "achievementblocker",
+"workshop_id": "3738239990",
+"author": "Coder23848",
+"desc": "Prevents you from earning (out-of-game) achievements.<br><br>Tested on Steam; untested on other platforms, but it's an extremely simple change code-wise so it should work on all of them (that can be modded, of course).<br><br>Supports v1.11.8. Please report any bugs you find!",
+"url": "https://andrew.fm/rainworld/raindb/Achievement_Blocker.zip",
+"requirements": "",
+"version": "1.0.0",
+"created": 1780531908,
+"modified": 1780531908,
+"tags": "Base,Downpour,Watcher",
+"order": 4418
+});
+
+Mods.push({
+"name": "Kiels Amazing Nothing Mod",
+"id": "kielsamazingnothinmod",
+"workshop_id": "3738414266",
+"author": "Kiel",
+"desc": "This mod dose nothing!<br>yes sir",
+"url": "https://andrew.fm/rainworld/raindb/Kiels_Amazing_Nothing_Mod.zip",
+"requirements": "",
+"version": "0.1.0",
+"created": 1780569109,
+"modified": 1780569109,
+"tags": "",
+"order": 4419
+});
+
+Mods.push({
+"name": "FihScug",
+"id": "fih",
+"workshop_id": "3738528558",
+"author": "Axo",
+"desc": "JOKE MOD, W.I.P<br><br>A mod that adds silly fish, idk what to put here",
+"thumb": "previews/3738528558.png",
+"url": "https://andrew.fm/rainworld/raindb/FihScug.zip",
+"requirements": "slime-cubed.slugbase",
+"version": "0.1.0",
+"created": 1780585489,
+"modified": 1780585489,
+"tags": "Custom Slugcat,Campaigns",
+"order": 4420
+});
+
+Mods.push({
+"name": "Dr. Shelter! [DMS]",
+"id": "itapita.house",
+"workshop_id": "3738606845",
+"author": "Itapita18",
+"desc": "house scug<br>commisioned by Dedan Rigor",
+"thumb": "previews/3738606845.png",
+"url": "https://andrew.fm/rainworld/raindb/Dr_Shelter_DMS.zip",
+"requirements": "dressmyslugcat",
+"version": "1.0.0",
+"created": 1780594575,
+"modified": 1780594575,
+"tags": "Cosmetics",
+"order": 4421
+});
+
+Mods.push({
+"name": "Thriving Saltmarsh",
+"id": "dietpebsi.marsh",
+"workshop_id": "3738701498",
+"author": "Dietpebsi",
+"desc": "Saltmarsh with little bugs and food and stuff. Connects sorta to The Martyr. Primary connection is through Farm Arrays [spoiler]LF_c01[/spoiler]. Also connects to Subterranean [spoiler]SB_GOR01[/spoiler], Sky Islands [spoiler]SI_A07[/spoiler], Sky Islands the second [spoiler]SI_SAINTINTRO[/spoiler] and three gates that currently don't go anywhere.<br><br>Contains:<br>Three subregions<br>Worldstates for Spearmaster/Artificer and Saint<br>One echo in [spoiler]MRSH_CSPE[/spoiler] with custom dialogue for Saint<br>Four broadcasts<br>Three pearls with different dialogue for Past LTTM, Present LTTM, and Five Pebbles<br>Marsh<br>Custom musics made by me :]<br><br>Have fun, this is my first plant region please forgive me if it's a little wack<br>(And of course be normal in the comments)<br>",
+"thumb": "previews/3738701498.png",
+"url": "https://ln5.sync.com/dl/4ed502f80#cyt37mr9-azmvr8p8-vh67xmqm-itv94qda",
+"requirements": "crs,regionkit,moreslugcats",
+"version": "1.0",
+"created": 1780605682,
+"modified": 1780942138,
+"tags": "Regions",
+"order": 4422
+});
+
+Mods.push({
+"name": "Grey moss the mod",
+"id": "toast6631.dripping.creatures",
+"workshop_id": "3738975993",
+"author": "Toast6631",
+"desc": "Adds one edible item called 'Grey Moss'<br><br>Similarly to gooieducks, it has up to 4 breakable stalks holding it in place, but those stalks are more difficult to remove and you cannot eat the item while it's still attached. Grey moss also emits a subtle glow that fades out when it's not submerged, because it's meant to be an underwater plant. It gives one food pip to slugcats like survivor and can also be eaten by jetfish, however this is rare because they are usually too stupid to notice it when it's laying on the sea floor.<br><br>Note that this item inherits from slimemold, meaning if a mod changes something about slimemold, it will likely affect grey moss too.<br>When adding it to a room with devtools, you can find it in objects in the unsorted category.<br>In dev tools it's called 'Grey_Moss_Placed' and in game it's called 'Grey_Moss_Type'<br><br>This mod does nothing on its own except giving you the ability to spawn grey moss if you enable it in the remix menu.<br><br><br><br>This was originally going to be a mod for adding multiple custom items and creatures for the Dripping Time mod, but adding this kind of stuff turned out to be more difficult than I thought and I wasn't very motivated to work on it further, so I decided to scrap this mod and start working on other projects outside of rain world modding. Now I decided to return to it just to release it with the one item I managed to finish and I probably won't be updating it ever again.",
+"thumb": "previews/3738975993.png",
+"url": "https://andrew.fm/rainworld/raindb/Grey_moss_the_mod.zip",
+"requirements": "fisobs",
+"version": "1.0.0",
+"created": 1780657696,
+"modified": 1780657696,
+"tags": "Items,Dependency",
+"order": 4423
+});
+
+Mods.push({
+"name": "BackgroundRedesign",
+"id": "structure",
+"workshop_id": "3739012986",
+"author": "LakeOfFiveEmberStar",
+"desc": "Improves and replaces background structure sprites <br>(supports the wacher and saint)<br> supports any other modifications using original sprites =UwU=<br><br>The mod is just being created in testing and I would be glad if you tell me what you would like to see in the mod besides the sprite redesign<br><br>I'm still actively working on it, but I decided to post it because I think it's already playable and enjoyable.<br>Enjoy and feel free to suggest ideas :З",
+"thumb": "previews/3739012986.png",
+"url": "https://andrew.fm/rainworld/raindb/BackgroundRedesign.zip",
+"requirements": "",
+"version": "1.0",
+"created": 1780663978,
+"modified": 1780663978,
+"tags": "Cosmetics",
+"order": 4424
+});
+
+Mods.push({
+"name": "Kiels Amazing SPEED GOD mod (character)",
+"id": "speedy",
+"workshop_id": "3739018824",
+"author": "Kiel",
+"desc": "this is my first character mod ever and this mod introduces a new character drum roll pls (drum roll) The SPEED GOD woooo yaaaaa",
+"url": "https://andrew.fm/rainworld/raindb/Kiels_Amazing_SPEED_GOD_mod_character.zip",
+"requirements": "",
+"version": "0.1.0",
+"created": 1780664822,
+"modified": 1780664822,
+"tags": "",
+"order": 4425
+});
+
+Mods.push({
+"name": "Sekaiju Reverie DMS Skin",
+"id": "reverie_dms",
+"workshop_id": "3739485183",
+"author": "inserobite",
+"desc": "graphic design is my passion<br><br>Have YOU ever thought that 'Hey it would be super cool if someone made a Rain World skin for a certain pen-shaped character from a super niche and under the radar game!'? WELL SAY NO MORE!<br><br>Now you can play as the Beautiful Duchess of Beauty who has done absolutely nothing wrong in any suspicious apartment complexes.<br>You can 'gently' poke the nearby innocent wildlife with your trusty void-tipped pen while on your great pilgrimage to wherever your cold heart desires.<br><br>(This skin does not use the face and leg spites, and all body parts should be set to while for intended appearance. Though, it's not like that's stopping anyone so feel free to create the horrors you wish to see.)<br><br>(Another note but due to the unique body shape of the sprite, the arms MAY OR MAY NOT dislocate from the body while performing certain movement. Tested this myself multiple times and there wasn't any good solution to fix it unfortunately.)<br><br>looks pretty funny though so don't worry about it guys B)<br><br>Recommended tail settings:<br>Asymmetry off<br>Length: 6<br>Wideness: 2<br>Roundness: 0.2<br><br>Credits:<br>Latice Little/Latias0129 and the Neverland Development Team for character concept and design<br>ChickenEngineer for our favourite protagonist John Sekaiju<br>Chronoling/schaapiequy09 for the Ephemerall icon<br>inserobite for spritework and thumbnail art<br><br>also you should go play coldr",
+"thumb": "previews/3739485183.png",
+"url": "https://andrew.fm/rainworld/raindb/Sekaiju_Reverie_DMS_Skin.zip",
+"requirements": "dressmyslugcat",
+"version": "",
+"created": 1780731690,
+"modified": 1780793828,
+"tags": "Cosmetics",
+"order": 4426
+});
+
+Mods.push({
+"name": "Rumbling Cascade",
+"id": "rumblingcascade",
+"workshop_id": "3739528551",
+"author": "RedHarbor71",
+"desc": "Many cycles ago a single pipe had burst down here, now much time has passed and the flow only grows stronger and more appealing to local wildlife.<br><br>Rumbling Cascade is a small region with a somewhat high spawn rate that connects Outskirts, Subterranean and Garbage Wastes.<br><br>This mod is a WIP, some things are still in development, and may be broken!<br><br>(Also this is the first mod I've released so uhhh be nice lmao-)",
+"thumb": "previews/3739528551.png",
+"url": "https://andrew.fm/rainworld/raindb/Rumbling_Cascade.zip",
+"requirements": "regionkit",
+"version": "1.0.0",
+"created": 1780738896,
+"modified": 1780738896,
+"tags": "Regions",
+"order": 4427
+});
+
+Mods.push({
+"name": "Screenshoot",
+"id": "tr0z.screenshoot",
+"workshop_id": "3740057417",
+"author": "Unknown",
+"desc": "Press a key to stitch every camera in the current room into one seamless full-room screenshot. Unlike naive stitchers, each pixel comes from exactly one camera (the nearest that covers it), so there is no doubling or ghosting where cameras overlap. Two modes: a clean shot of just the room geometry (no creatures, player or HUD), or a live shot of the full scene (creatures, player, weather) with the HUD hidden. Hotkeys, output folder and quality are configurable in the Remix menu.",
+"thumb": "previews/3740057417.png",
+"url": "https://andrew.fm/rainworld/raindb/Screenshoot.zip",
+"requirements": "",
+"version": "1.0.3",
+"created": 1780801555,
+"modified": 1780958768,
+"tags": "",
+"order": 4428
+});
+
+Mods.push({
+"name": "Super Simple Parkour",
+"id": "ruccn_supersimple",
+"workshop_id": "3740431099",
+"author": "Rucoon",
+"desc": "A small loop attached to outskirts with some basic parkour. Mainly made to warm back up to rw level editing. 35 screens, takes about 6 minutes.<br><br>Start as survivor and take the pipe in the ground of the first room.<br><br>Tips:<br>Once a charge hop is ready and your butt rises, you can hold forward without moving until you let go of jump. This means you don't need to time the press to get the max distance possible.<br><br>When in the air after doing a charge hop, you can tap up to stand up in the air. This lets you reach higher platforms. (And do ledge pull ups!)<br><br>If you are having troubles doing the 3 high jump around pullup, chances are you are pressing jump too late for the pullup, or going too far away from the wall. Try starting fully under the tile, not standing on the ledge.<br><br>You can jump for a moment after walking off a platform, so there are times that jumping later than you expect is needed!<br><br>Did you know that you can do a roll pounce as soon as you hit the ground from ANY height without taking falling damage or knock out? Hold down and left/right and spam jump like you mean it!<br><br>PS:<br>Please say hello to Frank, he is lonely down there.",
+"thumb": "previews/3740431099.png",
+"url": "https://andrew.fm/rainworld/raindb/Super_Simple_Parkour.zip",
+"requirements": "",
+"version": "1.0",
+"created": 1780848813,
+"modified": 1780848813,
+"tags": "Regions",
+"order": 4429
+});
+
+Mods.push({
+"name": "The Cannibal",
+"id": "peterklaus.cannibal",
+"workshop_id": "3740661125",
+"author": "peterklaus",
+"desc": "[h1]THE CANNIBAL[/h1]<br><br>A hunger-driven savage that abandoned tools for the certainty of consumption. Unable to carry supplies, it rises through the food chain by devouring whatever stands in its path, even its own kind.<br><br><br>[h3] CURRENT FEATURES : [/h3]<br><br>- A true omnivore... can eat ANYTHING<br>- Gourmand slam<br>- Mauling<br>- Can eat imbedded spears<br>- Can't pick up items<br>- Heavier weight<br>- EXTREMELY loud with low stealth<br>- 12 Food pips<br>- Ascension ending<br><br>[h3] NOTES : [/h3]<br><br>Please bear in mind that I will return to The Cannibal in the future with additional endings, but as of now they are merely just a simple cannibalistic slugcat :p in the future, I plan on increasing slugpup spawns and giving them a unique ending in Outer Expanse!!",
+"thumb": "previews/3740661125.png",
+"url": "https://andrew.fm/rainworld/raindb/The_Cannibal.zip",
+"requirements": "slime-cubed.slugbase,magica.extendedslugbasefeatures,moreslugcats,magica.hookinglibrary",
+"version": "0.1",
+"created": 1780871557,
+"modified": 1780962836,
+"tags": "Campaigns,Custom Slugcat,Downpour",
+"order": 4430
+});
+
+Mods.push({
+"name": "Region Mod Template",
+"id": "temp",
+"workshop_id": "3741208248",
+"author": "Deep Ech0s",
+"desc": "Region Mod template that all you need to do is copy the files and customize it to your mod<br><br>This mod does nothing, unless I code it to make it so you only have to insert somethings in a remix menu and it would spit out the files, but I don't know how code that. So, you are left with this",
+"thumb": "previews/3741208248.png",
+"url": "https://andrew.fm/rainworld/raindb/Region_Mod_Template.zip",
+"requirements": "regionkit,crs",
+"version": "1.0.0",
+"created": 1780951203,
+"modified": 1780951203,
+"tags": "Regions,Tools",
+"order": 4431
+});
+
+Mods.push({
+"name": "Jolly Revive Fixes",
+"id": "JollyReviveFix",
+"workshop_id": "3741394602",
+"author": "Zombieseatflesh7",
+"desc": "Fixes the jolly coop hud when a player is revived mid-cycle, and plays a new revive animation.<br>Made to be used with Revivify.<br>Untested in meadow. probably does nothing.<br><br>[img] https://i.imgur.com/dStYrVq.gif [/img]<br><br>Code by zombieseatflesh7<br>Thumbnail art by Vynnyal<br><br>[h2][url=https://github.com/zombieseatflesh7/RainWorld-JollyReviveFix] Github [/url][/h2]<br>You can use this code in your mod if you want.<br>",
+"thumb": "previews/3741394602.png",
+"url": "https://andrew.fm/rainworld/raindb/Jolly_Revive_Fixes.zip",
+"requirements": "",
+"version": "1.0.0",
+"created": 1780981070,
+"modified": 1780981070,
+"tags": "Accessibility",
+"order": 4432
 });
 
 Mods.push({
